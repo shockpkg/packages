@@ -2,6 +2,8 @@
 
 The master list of flpkg packages.
 
+[![Build Status](https://travis-ci.org/flpkg/packages.svg?branch=master)](https://travis-ci.org/flpkg/packages)
+
 
 ## Bugs
 
