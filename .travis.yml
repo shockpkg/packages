@@ -13,4 +13,4 @@ script:
   - yarn run test
 
 after_success:
-  - test $TRAVIS_BRANCH = "master" && ./updateapi.sh
+  - test $TRAVIS_BRANCH = "master" && echo ./updateapi.sh
