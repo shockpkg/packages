@@ -12,5 +12,8 @@ script:
   - yarn run lint
   - yarn run test
 
-after_success:
-  - test $TRAVIS_BRANCH = "master" && echo ./updateapi.sh
+deploy:
+  provider: script
+  script: ./updateapi.sh
+  on:
+    branch: master
