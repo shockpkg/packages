@@ -1,6 +1,6 @@
 # flpkg packages
 
-The master list of flpkg packages.
+The master list of flpkg packages
 
 
 ## Bugs
