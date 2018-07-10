@@ -10,6 +10,6 @@ curl -s -X POST \
    -H 'Travis-API-Version: 3' \
    -H "Authorization: token $TRAVIS_TOKEN" \
    -d '{"request":{"branch":"dev"}}' \
-   'https://api.travis-ci.org/repo/flpkg%2Fflpkg.github.io/requests'
+   'https://api.travis-ci.org/repo/flpkg%2Fflpkg.github.io/requests' > /dev/null 2>&1
 
 echo 'Triggered an API update'
