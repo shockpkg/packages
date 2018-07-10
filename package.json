@@ -1,0 +1,16 @@
+{
+	"private": true,
+	"scripts": {
+		"lint": "eslint .",
+		"test": "jasmine"
+	},
+	"devDependencies": {
+		"cheerio": "^1.0.0-rc.2",
+		"eslint": "^5.1.0",
+		"jasmine": "^3.1.0",
+		"jasmine-core": "^3.1.0",
+		"jasmine-spec-reporter": "^4.2.1",
+		"js-yaml": "^3.12.0",
+		"request": "^2.87.0"
+	}
+}
