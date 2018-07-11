@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const jsYaml = require('js-yaml');
 
-const asyncTimeout = 10000;
+const asyncTimeout = 60000;
 
 // eslint-disable-next-line no-sync
 const yaml = fs.readFileSync('./packages.yaml', 'utf8');
