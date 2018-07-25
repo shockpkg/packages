@@ -2,7 +2,7 @@
 
 const url = require('url');
 
-const {doc, entriesRoot, entriesChild} = require('./shared');
+const {entriesRoot, entriesChild} = require('./shared');
 
 const validators = {
 	name: value => {
@@ -42,25 +42,6 @@ const validators = {
 };
 
 describe('properties', () => {
-	describe('keys', () => {
-		const allowedProps = new Set([
-			'format',
-			'packages'
-		]);
-
-		for (const p of Object.keys(doc)) {
-			it(p, () => {
-				expect(allowedProps.has(p)).toBe(true);
-			});
-		}
-	});
-
-	describe('version', () => {
-		it('value', () => {
-			expect(doc.format).toBe('1.0');
-		});
-	});
-
 	describe('packages', () => {
 		describe('roots', () => {
 			const allowedProps = new Set([
