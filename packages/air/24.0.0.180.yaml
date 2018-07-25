@@ -1,0 +1,47 @@
+- name: air-24.0.0.180-runtime-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 10450674
+  sha256: c4f33feea39097fc57bca6085e088ec2039fc2580670359fe04b26a45696649d
+  url: 'https://fpdownload.macromedia.com/air/win/download/24.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-24.0.0.180-runtime-windows
+      file: AdobeAIRInstaller.exe
+      size: 10769864
+      sha256: 9a590ede7401465d7b78fe1a850e55b077da497b2274aeda032cc82f42e91be3
+      path: AdobeAIRInstaller.exe
+
+- name: air-24.0.0.180-runtime-mac
+  file: AdobeAIR.dmg
+  size: 20630880
+  sha256: 78edbee2604beba2e1a179c7b2545ac92261ae14bb456d0bbc543b42a50bafd2
+  url: 'https://fpdownload.macromedia.com/air/mac/download/24.0/AdobeAIR.dmg'
+
+- name: air-24.0.0.180-runtime-android
+  file: AdobeAIRAndroid.apk
+  size: 21991732
+  sha256: bd3e269dda2a69cbc9f92ad050ce75f3faedce66390cf832b0f35695fb54671e
+  url: 'https://fpdownload.macromedia.com/air/android/download/24.0.0.180/AdobeAIRAndroid.apk'
+
+- name: air-24.0.0.180-sdk-windows
+  file: AdobeAIRSDK.zip
+  size: 203179301
+  sha256: 3e748d825d183a9cfafe966c4a736b41796f77642f54ff729a928af20674e1e3
+  url: 'https://fpdownload.macromedia.com/air/win/download/24.0/AdobeAIRSDK.zip'
+
+- name: air-24.0.0.180-sdk-mac
+  file: AdobeAIRSDK.dmg
+  size: 208976122
+  sha256: b15e26a84c731fe0cb30f885489902cecda40de92413f9ab801ceadffc75f679
+  url: 'https://fpdownload.macromedia.com/air/mac/download/24.0/AdobeAIRSDK.dmg'
+
+- name: air-24.0.0.180-sdk-and-compiler-windows
+  file: AIRSDK_Compiler.zip
+  size: 240222195
+  sha256: 86537f5ad4dd92f07f52e4b6b0297d22de4162ad3e11c53a1f5e6c358e4c1248
+  url: 'https://fpdownload.macromedia.com/air/win/download/24.0/AIRSDK_Compiler.zip'
+
+- name: air-24.0.0.180-sdk-and-compiler-mac
+  file: AIRSDK_Compiler.dmg
+  size: 246193583
+  sha256: 29f0b303f4dd41c062b58b94174770d42e4805b1dcbe43ecebffb9dc51573745
+  url: 'https://fpdownload.macromedia.com/air/mac/download/24.0/AIRSDK_Compiler.dmg'

@@ -1,0 +1,29 @@
+- name: player-11.7.700.203-archive
+  file: fp_11.7.700.203_archive.zip
+  size: 53188697
+  sha256: a6e07e611f6fe277149a76f64b5aa424db6863398fdd1f13107b18046514dcd1
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.7.700.203_archive.zip'
+  packages:
+    - name: player-11.7.700.203-mac-npapi
+      file: flashplayer11_7r700_203_mac.dmg
+      size: 18005202
+      sha256: 5c592e8fba24cf02cf1ad8735007352f376dfbfb0adbad7d11961689602844f5
+      path: fp_11.7.700.203_archive/11_7_r700_203/flashplayer11_7r700_203_mac.dmg
+
+    - name: player-11.7.700.203-mac-npapi-debug
+      file: flashplayer11_7r700_203_mac_debug.dmg
+      size: 18491287
+      sha256: 4406ee00cb6bc9473ed3a1c39adee770cec0af9420ad89d3ac72bfc4bbf3c04c
+      path: fp_11.7.700.203_archive/11_7_r700_203_debug/flashplayer11_7r700_203_mac_debug.dmg
+
+    - name: player-11.7.700.203-mac-sa-debug
+      file: flashplayer11_7r700_203_mac_sa_debug.zip
+      size: 16547135
+      sha256: 13ce7afc3636e81a62e0b4b59b0e1e8edcaa9400fee2f0230a4ca5763c05842b
+      path: fp_11.7.700.203_archive/11_7_r700_203_debug/flashplayer11_7r700_203_mac_sa_debug.zip
+
+    - name: player-11.7.700.203-mac-uninstaller
+      file: uninstall_flashplayer11_7r700_203_mac.dmg
+      size: 233281
+      sha256: a23b49736f2140fd8cb2ce130c8a676c6c629bd780a9a25b9f072d65cb1fe5b4
+      path: fp_11.7.700.203_archive/11_7_r700_203/uninstall_flashplayer11_7r700_203_mac.dmg

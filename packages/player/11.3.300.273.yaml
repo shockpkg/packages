@@ -1,0 +1,59 @@
+- name: player-11.3.300.273-archive
+  file: fp_11.3.300.273_archive.zip
+  size: 67493572
+  sha256: b5676725e14bf036b572bbbf3ddfc8f88f3265194f39ec08c7d3abe567ef3a9d
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.3.300.273_archive.zip'
+  packages:
+    - name: player-11.3.300.273-windows-npapi
+      file: flashplayer11_3r300_273_win.exe
+      size: 9833912
+      sha256: 1b88e734445ac57c6dddf53e9b7dfc3dab6cd2ee6f01a043c257b69c7f49aebf
+      path: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_win.exe
+
+    - name: player-11.3.300.273-windows-npapi-msi
+      file: flashplayer11_3r300_273_win.msi
+      size: 10903040
+      sha256: fd3e567f913e926a1123bd227950027ad2e39878262d14441e263d1e0b197905
+      path: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_win.msi
+
+    - name: player-11.3.300.273-windows-npapi-debug
+      file: flashplayer11_3r300_273_win_debug.exe
+      size: 10446264
+      sha256: 207ec5fb9684cf604aefefaa7cdd97628f39fb74631dd594d938739702753de0
+      path: fp_11.3.300.273_archive/11_3r300_273_debug/flashplayer11_3r300_273_win_debug.exe
+
+    - name: player-11.3.300.273-windows-activex
+      file: flashplayer11_3r300_273_winax.exe
+      size: 9231288
+      sha256: cc4aa95282c363f5950610779611de664c3aff30e0f9bc608630ad251a5a3765
+      path: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_winax.exe
+
+    - name: player-11.3.300.273-windows-activex-msi
+      file: flashplayer11_3r300_273_winax.msi
+      size: 10295296
+      sha256: a33abf1b46afab171623d82a1c2890ff84820f8a134615f3bd70a99353e60cbc
+      path: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_winax.msi
+
+    - name: player-11.3.300.273-windows-activex-debug
+      file: flashplayer11_3r300_273_winax_debug.exe
+      size: 9847736
+      sha256: acd3bb995261ac5b5afd057bd1c3e712701cc299931c0ca1c902c53d455b7ae9
+      path: fp_11.3.300.273_archive/11_3r300_273_debug/flashplayer11_3r300_273_winax_debug.exe
+
+    - name: player-11.3.300.273-windows-sa
+      file: flashplayer11_3r300_273_win_sa.exe
+      size: 8541112
+      sha256: 0e9e4c81b7037b50acef88b9285d983bc096faf02bea5165187ba5c056cbcce0
+      path: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_win_sa.exe
+
+    - name: player-11.3.300.273-windows-uninstaller
+      file: uninstall_flashplayer11_3r300_273_win.exe
+      size: 688568
+      sha256: bbcae531a0f9966cb75039f7fee4eb1e1aa994c3adc1de4a78589f53d799da76
+      path: fp_11.3.300.273_archive/11_3r300_273/uninstall_flashplayer11_3r300_273_win.exe
+
+    - name: player-11.3.300.273-windows-32bit-sa-debug
+      file: flashplayer11_3r300_273_win_sa_debug_32bit.exe
+      size: 9934776
+      sha256: fdf12a04258c94cab2f6d82290c30d58944475d34ced90e8a2bbc791216a62ea
+      path: fp_11.3.300.273_archive/11_3r300_273_debug/flashplayer11_3r300_273_win_sa_debug_32bit.exe

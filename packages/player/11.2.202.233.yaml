@@ -1,0 +1,149 @@
+- name: player-11.2.202.233-archive
+  file: fp_11.2.202.233_archive.zip
+  size: 167064386
+  sha256: 6fb62826c823495feb4f68318cedd760124e6e05e1d7208a895b03f8e6be4e5e
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.233_archive.zip'
+  packages:
+    - name: player-11.2.202.233-windows-32bit-npapi
+      file: flashplayer11_2r202_233_win_32bit.exe
+      size: 4139680
+      sha256: 3175b700f84802dc21e3199893ccf5525cc9d96610467a72c85457b5e1de8892
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/flashplayer11_2r202_233_win_32bit.exe
+
+    - name: player-11.2.202.233-windows-32bit-npapi-msi
+      file: flashplayer11_2r202_233_win_32bit.msi
+      size: 5169152
+      sha256: d39284c2006723dae2c9b9c4e3b980715d6f9fe6e4844850c5659a4662c656e1
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/flashplayer11_2r202_233_win_32bit.msi
+
+    - name: player-11.2.202.233-windows-32bit-npapi-debug
+      file: flashplayer11_2r202_233_win_debug_32bit.exe
+      size: 4368032
+      sha256: cc824c5c6194f36b507e7d929204a25bf3d2057702627e9009f51fa6c1383537
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit_debug/flashplayer11_2r202_233_win_debug_32bit.exe
+
+    - name: player-11.2.202.233-windows-32bit-activex
+      file: flashplayer11_2r202_233_winax_32bit.exe
+      size: 4126368
+      sha256: 22f021b2201c556e191841f9be5b6f79329a0e18222ac88e71b263ded74d6ce4
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/flashplayer11_2r202_233_winax_32bit.exe
+
+    - name: player-11.2.202.233-windows-32bit-activex-msi
+      file: flashplayer11_2r202_233_winax_32bit.msi
+      size: 5155328
+      sha256: c6f238f3e97434c4723a41e62d5a0bcc638cfc46efb8266560fa1fe835aebb7e
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/flashplayer11_2r202_233_winax_32bit.msi
+
+    - name: player-11.2.202.233-windows-32bit-activex-debug
+      file: flashplayer11_2r202_233_winax_debug_32bit.exe
+      size: 4355744
+      sha256: 75b96c2d2ad8d0e26266c86aa5ccc67a677d59f6dc04cb47c1c122d56a77c4f0
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit_debug/flashplayer11_2r202_233_winax_debug_32bit.exe
+
+    - name: player-11.2.202.233-windows-32bit-sa
+      file: flashplayer11_2r202_233_win_sa_32bit.exe
+      size: 8089760
+      sha256: 0de84d38c71b6fd6ad602741498904955bcc6314cb20b18fa28246f68bc0bc64
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/flashplayer11_2r202_233_win_sa_32bit.exe
+
+    - name: player-11.2.202.233-windows-32bit-sa-debug
+      file: flashplayer11_2r202_233_win_sa_debug_32bit.exe
+      size: 9430688
+      sha256: 17dbc675830e210b5f9c550488ff25759142beaa6715c14e36aaa7c9927a2511
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit_debug/flashplayer11_2r202_233_win_sa_debug_32bit.exe
+
+    - name: player-11.2.202.233-windows-32bit-uninstaller
+      file: uninstall_flashplayer11_2r202_233_win_32bit.exe
+      size: 353952
+      sha256: 28261a047e61becc4df844e520c2fce2a5cd30b1d07f88138deec22669af7415
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/uninstall_flashplayer11_2r202_233_win_32bit.exe
+
+    - name: player-11.2.202.233-windows-64bit-npapi
+      file: flashplayer11_2r202_233_win_64bit.exe
+      size: 8741536
+      sha256: 3b66251cc6a7975eb6426bf6179e54861748de6fef2f8df7b6ecbfae299fbcb7
+      path: fp_11.2.202.233_archive/11_2r202_233_64bit/flashplayer11_2r202_233_win_64bit.exe
+
+    - name: player-11.2.202.233-windows-64bit-npapi-msi
+      file: flashplayer11_2r202_233_win_64bit.msi
+      size: 9905664
+      sha256: 8067ba92d77cd1d2686c21d9d86f8a006634b20cd68925be857e440190d5e5d9
+      path: fp_11.2.202.233_archive/11_2r202_233_64bit/flashplayer11_2r202_233_win_64bit.msi
+
+    - name: player-11.2.202.233-windows-64bit-activex
+      file: flashplayer11_2r202_233_winax_64bit.exe
+      size: 8766112
+      sha256: c14a478aac51962d308a59502411c278900993f1741cfb2b8589567a2d792b14
+      path: fp_11.2.202.233_archive/11_2r202_233_64bit/flashplayer11_2r202_233_winax_64bit.exe
+
+    - name: player-11.2.202.233-windows-64bit-activex-msi
+      file: flashplayer11_2r202_233_winax_64bit.msi
+      size: 9929216
+      sha256: 786d24b9c7496a6f8c6e66cd732bff7c01bca1402ef28e80233534ce95402f11
+      path: fp_11.2.202.233_archive/11_2r202_233_64bit/flashplayer11_2r202_233_winax_64bit.msi
+
+    - name: player-11.2.202.233-windows-64bit-uninstaller
+      file: uninstall_flashplayer11_2r202_233_win_64bit.exe
+      size: 631456
+      sha256: 4925c883f0f607fdec870adee80978d47a8ece001aeef08bf00e86e1fd543805
+      path: fp_11.2.202.233_archive/11_2r202_233_64bit/uninstall_flashplayer11_2r202_233_win_64bit.exe
+
+    - name: player-11.2.202.233-mac-npapi
+      file: flashplayer11_2r202_233_mac.dmg
+      size: 11208843
+      sha256: 1c9b62ebcaa8e01f88aa9ff00bd03d7d4e636cfcf7b512022da71a607dbdac07
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/flashplayer11_2r202_233_mac.dmg
+
+    - name: player-11.2.202.233-mac-npapi-debug
+      file: flashplayer11_2r202_233_mac_debug.dmg
+      size: 11808254
+      sha256: 5f16455b85c832c7b09a027f2ecdaa0674d111771f542e0e430790a7b8b00b0e
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit_debug/flashplayer11_2r202_233_mac_debug.dmg
+
+    - name: player-11.2.202.233-mac-sa
+      file: flashplayer11_2r202_233_mac_sa.app.zip
+      size: 14145934
+      sha256: 5be3ef7f5698390ff4faa448449328362a33e683f966135d11c521565ad6a6a4
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/flashplayer11_2r202_233_mac_sa.app.zip
+
+    - name: player-11.2.202.233-mac-sa-debug
+      file: flashplayer11_2r202_233_mac_sa_debug.app.zip
+      size: 15113328
+      sha256: 1c9feb4f0cc56e839457d1e8fd246d43944ce8a1468b695c29c398bf2bc0c909
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit_debug/flashplayer11_2r202_233_mac_sa_debug.app.zip
+
+    - name: player-11.2.202.233-mac-uninstaller
+      file: uninstall_flashplayer11_2r202_233_mac.dmg
+      size: 304075
+      sha256: f96b41795ebb0b757e9ef7bc78d98532bc7c6cdb116a93a5fb4041e281ba965e
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/uninstall_flashplayer11_2r202_233_mac.dmg
+
+    - name: player-11.2.202.233-linux-i386-npapi
+      file: flashplayer11_2r202_233_linux.i386.tar.gz
+      size: 6916591
+      sha256: 96b65d9b0dd5fca3f49fa13565fc2583f9254e605ecaf708363ad08b2a58ecc9
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/flashplayer11_2r202_233_linux.i386.tar.gz
+
+    - name: player-11.2.202.233-linux-i386-npapi-debug
+      file: flashplayer11_2r202_233_linux_debug.i386.tar.gz
+      size: 7395419
+      sha256: fadc6b84889b3faca39f62460810c205e0ba7710e3306dceb9f16a74b18859cd
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit_debug/flashplayer11_2r202_233_linux_debug.i386.tar.gz
+
+    - name: player-11.2.202.233-linux-i386-sa
+      file: flashplayer11_2r202_233_linux_sa.i386.tar.gz
+      size: 5979809
+      sha256: cb6f12e3488b1964adf43e4fde28f5a36fdc20c5a766576e8339ff5bc8ed80ef
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit/flashplayer11_2r202_233_linux_sa.i386.tar.gz
+
+    - name: player-11.2.202.233-linux-i386-sa-debug
+      file: flashplayer11_2r202_233_linux_sa_debug.i386.tar.gz
+      size: 6451653
+      sha256: f5f0808c8e77e0076fc13fdcd9096c87e4adaab47a052f4b60b39eb0864edf12
+      path: fp_11.2.202.233_archive/11_2r202_233_32bit_debug/flashplayer11_2r202_233_linux_sa_debug.i386.tar.gz
+
+    - name: player-11.2.202.233-linux-x86_64-npapi
+      file: flashplayer11_2r202_233_linux.x86_64.tar.gz
+      size: 7224826
+      sha256: 9ebada855742f2169a3e4aabce0947a4b586ee9ab9cbfce638f665e63df01962
+      path: fp_11.2.202.233_archive/11_2r202_233_64bit/flashplayer11_2r202_233_linux.x86_64.tar.gz

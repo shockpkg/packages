@@ -1,0 +1,35 @@
+- name: player-11.2.202.626-archive
+  file: fp_11.2.202.626_archive.zip
+  size: 33880528
+  sha256: 07a6dc8720d5b118a5adda8735ff588885c7499beff7d1592eb855394376eeb0
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.626_archive.zip'
+  packages:
+    - name: player-11.2.202.626-linux-i386-npapi
+      file: flashplayer11_2r202_626_linux.i386.tar.gz
+      size: 6981743
+      sha256: 1ec079f9d8578255435e15f704f05e4af69e749a480427af2be64fe447e2ca8c
+      path: 11_2_r202_626_32bit/flashplayer11_2r202_626_linux.i386.tar.gz
+
+    - name: player-11.2.202.626-linux-i386-npapi-debug
+      file: flashplayer11_2r202_626_linux_debug.i386.tar.gz
+      size: 7465648
+      sha256: 830269b22315898096d45576ecc13ab34f9ecd40e73fa1bc6558a9ca070686fe
+      path: 11_2_r202_626_32bit_debug/flashplayer11_2r202_626_linux_debug.i386.tar.gz
+
+    - name: player-11.2.202.626-linux-i386-sa
+      file: flashplayer11_2r202_626_linux_sa.i386.tar.gz
+      size: 6013532
+      sha256: 7cc488d4b3852455d9a70a5ad67693a33525d7f4c568202086e76c1cd17160af
+      path: 11_2_r202_626_32bit/flashplayer11_2r202_626_linux_sa.i386.tar.gz
+
+    - name: player-11.2.202.626-linux-i386-sa-debug
+      file: flashplayer11_2r202_626_linux_sa_debug.i386.tar.gz
+      size: 6488919
+      sha256: 7be78c5f9cb76fe9993149163c8ee8f28d13d22c890c6d75334c02213c326419
+      path: 11_2_r202_626_32bit_debug/flashplayer11_2r202_626_linux_sa_debug.i386.tar.gz
+
+    - name: player-11.2.202.626-linux-x86_64-npapi
+      file: flashplayer11_2r202_626_linux.x86_64.tar.gz
+      size: 7295646
+      sha256: 14f6f10c664984302e2cb67bda06b8da8358cf4110235a3ad1dff06df22ad0ad
+      path: 11_2_r202_626_64bit/flashplayer11_2r202_626_linux.x86_64.tar.gz

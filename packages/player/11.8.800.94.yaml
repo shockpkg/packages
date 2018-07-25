@@ -1,0 +1,77 @@
+- name: player-11.8.800.94-archive
+  file: fp_11.8.800.94_archive.zip
+  size: 163783630
+  sha256: 2e3b91339c1936c38f88805d22e6796096a4b469c535005c4f68e7c1fb546661
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.8.800.94_archive.zip'
+  packages:
+    - name: player-11.8.800.94-windows-npapi
+      file: flashplayer11_8r800_94_win.exe
+      size: 17737608
+      sha256: d47ada959394d8b136f64698800c5cd653ba3f7ff7574bc43a52658d6f577a70
+      path: fp_11.8.800.94_archive/11_8_r800_94/flashplayer11_8r800_94_win.exe
+
+    - name: player-11.8.800.94-windows-npapi-msi
+      file: flashplayer11_8r800_94_win.msi
+      size: 18834944
+      sha256: 97762f86eb045a9b9d5bff01e02c77ac84d2f535214c66809be0408661dd83e3
+      path: fp_11.8.800.94_archive/11_8_r800_94/flashplayer11_8r800_94_win.msi
+
+    - name: player-11.8.800.94-windows-npapi-debug
+      file: flashplayer11_8r800_94_win_debug.exe
+      size: 18182024
+      sha256: f0149ff21d0746fc1fea351a4f1541bc0270608bdb02a39ba9735bcb19fc99a9
+      path: fp_11.8.800.94_archive/11_8_r800_94_debug/flashplayer11_8r800_94_win_debug.exe
+
+    - name: player-11.8.800.94-windows-activex
+      file: flashplayer11_8r800_94_winax.exe
+      size: 17139080
+      sha256: d4bbbdb021b61b1efe327f094ab1dc1b5df543cd6ae34199ef7e89285f9e6de2
+      path: fp_11.8.800.94_archive/11_8_r800_94/flashplayer11_8r800_94_winax.exe
+
+    - name: player-11.8.800.94-windows-activex-msi
+      file: flashplayer11_8r800_94_winax.msi
+      size: 18231296
+      sha256: d8a9d3089328be2c7bba2099b40eb732ab054a0e2ac71a144a954d5ccf9a0f4e
+      path: fp_11.8.800.94_archive/11_8_r800_94/flashplayer11_8r800_94_winax.msi
+
+    - name: player-11.8.800.94-windows-activex-debug
+      file: flashplayer11_8r800_94_winax_debug.exe
+      size: 17582472
+      sha256: c42ac52dcac2c3021fc832884ccb9354344603d7629274114bf9fd5fc279006f
+      path: fp_11.8.800.94_archive/11_8_r800_94_debug/flashplayer11_8r800_94_winax_debug.exe
+
+    - name: player-11.8.800.94-windows-sa-debug
+      file: flashplayer11_8r800_94_win_sa_debug.exe
+      size: 11083656
+      sha256: d970e2fafca3005a293fb0a3568f783222bbea03c2ece904e6bef6baf8b5bd69
+      path: fp_11.8.800.94_archive/11_8_r800_94_debug/flashplayer11_8r800_94_win_sa_debug.exe
+
+    - name: player-11.8.800.94-windows-uninstaller
+      file: uninstall_flashplayer11_8r800_94_win.exe
+      size: 815496
+      sha256: e2a032e4dcf2d14974ad13a1e98f66975a06a8f652f4b467e706214cc2dab56b
+      path: fp_11.8.800.94_archive/11_8_r800_94/uninstall_flashplayer11_8r800_94_win.exe
+
+    - name: player-11.8.800.94-mac-npapi
+      file: flashplayer11_8r800_94_mac.dmg
+      size: 18124181
+      sha256: 61456672f1052958008e320dc5d2f99286a7fe67bcece67703e37d36ae6c1677
+      path: fp_11.8.800.94_archive/11_8_r800_94/flashplayer11_8r800_94_mac.dmg
+
+    - name: player-11.8.800.94-mac-npapi-debug
+      file: flashplayer11_8r800_94_mac_debug.dmg
+      size: 18432605
+      sha256: b071a168d6b5a911fdd2465b58465dc55e200d9ff396a6c716546b75422ce742
+      path: fp_11.8.800.94_archive/11_8_r800_94_debug/flashplayer11_8r800_94_mac_debug.dmg
+
+    - name: player-11.8.800.94-mac-sa-debug
+      file: flashplayer11_8r800_94_mac_sa_debug.dmg
+      size: 16193910
+      sha256: 60d87230eeadb42b917bb6dbf72c986aebd432612296633e90a8ee321ee663ce
+      path: fp_11.8.800.94_archive/11_8_r800_94_debug/flashplayer11_8r800_94_mac_sa_debug.dmg
+
+    - name: player-11.8.800.94-mac-uninstaller
+      file: uninstall_flashplayer11_8r800_94_mac.dmg
+      size: 233289
+      sha256: ce9caaefa5c7ba1348bdf1ef5f1d723f5005c198ce390e42ea3437125eaea3f1
+      path: fp_11.8.800.94_archive/11_8_r800_94/uninstall_flashplayer11_8r800_94_mac.dmg

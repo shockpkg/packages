@@ -1,0 +1,95 @@
+- name: player-18.0.0.324-archive
+  file: fp_18.0.0.324_archive.zip
+  size: 199520716
+  sha256: 3b6973ec358c4e9e0a28f5b3ebdc7b02bb0a934f48080e3c3e2727c13173dfc3
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_18.0.0.324_archive.zip'
+  packages:
+    - name: player-18.0.0.324-windows-npapi
+      file: flashplayer18_0r0_324_win.exe
+      size: 18777288
+      sha256: 0989925b20b8a474cab09b092feb753e73aa4c055cb6e491050d1cb41225cb77
+      path: 18_0_r0_324/flashplayer18_0r0_324_win.exe
+
+    - name: player-18.0.0.324-windows-npapi-msi
+      file: flashplayer18_0r0_324_win.msi
+      size: 19957248
+      sha256: b8138506aa21c6f21d2174fa466e3b633f4d1ebcb0cb6b8ca8028bab876410bd
+      path: 18_0_r0_324/flashplayer18_0r0_324_win.msi
+
+    - name: player-18.0.0.324-windows-npapi-debug
+      file: flashplayer18_0r0_324_win_debug.exe
+      size: 18595016
+      sha256: 8386609f23803f371387002b01ea1372f2a42c6da7b8c625ca6b2c2d990927d9
+      path: 18_0_r0_324_debug/flashplayer18_0r0_324_win_debug.exe
+
+    - name: player-18.0.0.324-windows-activex
+      file: flashplayer18_0r0_324_winax.exe
+      size: 18272456
+      sha256: 71881bc394af5032b4a9901dfafafce3da9afcde0fbb9f83acc3560a55205b6e
+      path: 18_0_r0_324/flashplayer18_0r0_324_winax.exe
+
+    - name: player-18.0.0.324-windows-activex-msi
+      file: flashplayer18_0r0_324_winax.msi
+      size: 19514368
+      sha256: 6bc89d817f842629a3cd80e9102199a3c5c208f268a7ce39d433fab0d87e42ab
+      path: 18_0_r0_324/flashplayer18_0r0_324_winax.msi
+
+    - name: player-18.0.0.324-windows-activex-debug
+      file: flashplayer18_0r0_324_winax_debug.exe
+      size: 18652872
+      sha256: 4273c9ef82d1aef0c03776d8c683ac673344eeab836eb168aa901e392aaaeb57
+      path: 18_0_r0_324_debug/flashplayer18_0r0_324_winax_debug.exe
+
+    - name: player-18.0.0.324-windows-sa
+      file: flashplayer18_0r0_324_win_sa.exe
+      size: 12934344
+      sha256: 2c9ab36997c16625c58ed99ad092e8ee992ffb24cc5a3b691233afae290dee9b
+      path: 18_0_r0_324/flashplayer18_0r0_324_win_sa.exe
+
+    - name: player-18.0.0.324-windows-sa-debug
+      file: flashplayer18_0r0_324_win_sa_debug.exe
+      size: 13783752
+      sha256: 6b888645b7f54f4775b08bf5826b3fc499e78ce15a77633fce258b2f1cc12d35
+      path: 18_0_r0_324_debug/flashplayer18_0r0_324_win_sa_debug.exe
+
+    - name: player-18.0.0.324-windows-uninstaller
+      file: uninstall_flashplayer18_0r0_324_win.exe
+      size: 1158856
+      sha256: 9ebbed46c300debc5096570014fc6658edcf4fd8d577a66c238c941bca112b4c
+      path: 18_0_r0_324/uninstall_flashplayer18_0r0_324_win.exe
+
+    - name: player-18.0.0.324-mac-npapi
+      file: flashplayer18_0r0_324_mac.dmg
+      size: 16738447
+      sha256: 62686f6ee3b5312c4d650814c0d930ea40977d1372bcbb0b32463d742b9dadc5
+      path: 18_0_r0_324/flashplayer18_0r0_324_mac.dmg
+
+    - name: player-18.0.0.324-mac-npapi-pkg
+      file: flashplayer18_0r0_324_mac_pkg.dmg
+      size: 16391281
+      sha256: f2de2aa082d8fe8c59a179b74205ccba3cb25907d8efc137d21c20c453c6066c
+      path: 18_0_r0_324/flashplayer18_0r0_324_mac_pkg.dmg
+
+    - name: player-18.0.0.324-mac-npapi-debug
+      file: flashplayer18_0r0_324_mac_debug.dmg
+      size: 16861368
+      sha256: c43e72153b8c94264047e9d260b5bff79494a528671f10d162808c830c4cd3f4
+      path: 18_0_r0_324_debug/flashplayer18_0r0_324_mac_debug.dmg
+
+    - name: player-18.0.0.324-mac-sa
+      file: flashplayer18_0r0_324_mac_sa.dmg
+      size: 13657318
+      sha256: 05b9afa34e8e9d583aebf75c9d5d48fc3dc4680b1f315afed6bb7ce36150a004
+      path: 18_0_r0_324/flashplayer18_0r0_324_mac_sa.dmg
+
+    - name: player-18.0.0.324-mac-sa-debug
+      file: flashplayer18_0r0_324_mac_sa_debug.dmg
+      size: 14214051
+      sha256: 1c0317587fd37ab64bfc6da0d928d0249cc49b4948ecc8fe090de513fa50713d
+      path: 18_0_r0_324_debug/flashplayer18_0r0_324_mac_sa_debug.dmg
+
+    - name: player-18.0.0.324-mac-uninstaller
+      file: uninstall_flashplayer18_0r0_324_mac.dmg
+      size: 272093
+      sha256: 5401e69837b8dcaf883f9d14b5c636938e5ec7363507d4430eafaf0de4bf31eb
+      path: 18_0_r0_324/uninstall_flashplayer18_0r0_324_mac.dmg

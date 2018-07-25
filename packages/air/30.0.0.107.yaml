@@ -1,0 +1,41 @@
+- name: air-30.0.0.107-runtime-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 11272806
+  sha256: 08d4cbe25412c92e7b896b85408d2f0180a33c40e969ada45d0ca6c9be770317
+  url: 'https://fpdownload.macromedia.com/air/win/download/30.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-30.0.0.107-runtime-windows
+      file: AdobeAIRInstaller.exe
+      size: 11608736
+      sha256: bcc36174f6f70baba27e5ed1c0df67e55c306ac7bc86b1d280eff4db8c314985
+      path: AdobeAIRInstaller.exe
+
+- name: air-30.0.0.107-runtime-mac
+  file: AdobeAIR.dmg
+  size: 20742242
+  sha256: 17be984bf8fc2d24f5db70b044a07da682f4bbd4394684c56f33b5101c2d0c72
+  url: 'https://fpdownload.macromedia.com/air/mac/download/30.0/AdobeAIR.dmg'
+
+- name: air-30.0.0.107-sdk-windows
+  file: AdobeAIRSDK.zip
+  size: 420117948
+  sha256: 2752c41c2b8c7106d6cb81449ea98561411a7ec90c4177998a6599d32f4bfe03
+  url: 'https://fpdownload.macromedia.com/air/win/download/30.0/AdobeAIRSDK.zip'
+
+- name: air-30.0.0.107-sdk-mac
+  file: AdobeAIRSDK.dmg
+  size: 330002376
+  sha256: 3a71e334583dc868dbb82ea23ade376c6d6c158d4db67b3bd84683445c9a0c2f
+  url: 'https://fpdownload.macromedia.com/air/mac/download/30.0/AdobeAIRSDK.dmg'
+
+- name: air-30.0.0.107-sdk-and-compiler-windows
+  file: AIRSDK_Compiler.zip
+  size: 457303354
+  sha256: 65c65f8075df0b538c9eae6179b0dc9e4a236f72414b7a27eb9f5fb57e6390a7
+  url: 'https://fpdownload.macromedia.com/air/win/download/30.0/AIRSDK_Compiler.zip'
+
+- name: air-30.0.0.107-sdk-and-compiler-mac
+  file: AIRSDK_Compiler.dmg
+  size: 367330980
+  sha256: f1f95129fbc48b0625cda9d94c4e02fa704f287698dd1ff7d5051a617fca3077
+  url: 'https://fpdownload.macromedia.com/air/mac/download/30.0/AIRSDK_Compiler.dmg'

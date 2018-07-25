@@ -1,0 +1,53 @@
+- name: player-20.0.0.235-archive
+  file: fp_20.0.0.235_archive.zip
+  size: 107050464
+  sha256: 805dc3ddbb614868ad5da5dd2c7a7c0bc7908f0b6edc2a49687cb7a57592bff7
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_20.0.0.235_archive.zip'
+  packages:
+    - name: player-20.0.0.235-windows-npapi
+      file: flashplayer20_0d0_235_win.exe
+      size: 18872512
+      sha256: 4345aac8e904c500689aa46c955cf0bb537628b8a1eb707fa26b7553f46af58b
+      path: fp_20.0.0.235_archive/20_0_d0_228/flashplayer20_0d0_235_win.exe
+
+    - name: player-20.0.0.235-windows-npapi-msi
+      file: flashplayer20_0d0_235_win.msi
+      size: 20050944
+      sha256: 09e4a022c5e2edc15a6ed31473e952a8bf7ecf133105b60190e326a7c39aa0cc
+      path: fp_20.0.0.235_archive/20_0_d0_228/flashplayer20_0d0_235_win.msi
+
+    - name: player-20.0.0.235-windows-npapi-debug
+      file: flashplayer20_0d0_235_win_debug.exe
+      size: 18692288
+      sha256: edbe183611109b269c61387837321bc142b74cf87b086fc2319b49d8c033cae6
+      path: fp_20.0.0.235_archive/20_0_d0_228_debug/flashplayer20_0d0_235_win_debug.exe
+
+    - name: player-20.0.0.235-windows-uninstaller
+      file: uninstall_flashplayer20_0d0_235_win.exe
+      size: 1162944
+      sha256: 5ceda46562040c8f19c761faf859206ee6f1663ef3ed5424ef5ae247ff13adbf
+      path: fp_20.0.0.235_archive/20_0_d0_228/uninstall_flashplayer20_0d0_235_win.exe
+
+    - name: player-20.0.0.235-mac-npapi
+      file: flashplayer20_0d0_235_mac.dmg
+      size: 17016572
+      sha256: 1316915645b9217f3b3869fcb0333575d6b7fd0e0ba051db56c2893c1948bf68
+      path: fp_20.0.0.235_archive/20_0_d0_228/flashplayer20_0d0_235_mac.dmg
+
+    - name: player-20.0.0.235-mac-npapi-pkg
+      file: flashplayer20_0d0_235_mac_pkg.dmg
+      size: 16629946
+      sha256: ee6c197709583b4c38d8fed6b31a049e99c5a23136c84e77394bf11b810ffd9b
+      path: fp_20.0.0.235_archive/20_0_d0_228/flashplayer20_0d0_235_mac_pkg.dmg
+
+    - name: player-20.0.0.235-mac-npapi-debug
+      file: flashplayer20_0d0_235_mac_debug.dmg
+      size: 16936385
+      sha256: a734fa6b7340e95f9849de22a1bbe93f21909a333d23c31a6e14ef9f6cd82e79
+      path: fp_20.0.0.235_archive/20_0_d0_228_debug/flashplayer20_0d0_235_mac_debug.dmg
+
+    - name: player-20.0.0.235-mac-uninstaller
+      file: uninstall_flashplayer20_0d0_235_mac.dmg
+      size: 277062
+      sha256: 37ae743c3b3e7043ce4c01062be457e99126b08ef88de21aab09e5612bf08ae2
+      path: fp_20.0.0.235_archive/20_0_d0_228/uninstall_flashplayer20_0d0_235_mac.dmg

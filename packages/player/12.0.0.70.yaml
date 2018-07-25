@@ -1,0 +1,77 @@
+- name: player-12.0.0.70-archive
+  file: fp_12.0.0.70_archive.zip
+  size: 165149350
+  sha256: 8e1075e3986ea310981e8943aafc10be93c40aaa2e9e8a4912ad5cdeb1941418
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_12.0.0.70_archive.zip'
+  packages:
+    - name: player-12.0.0.70-windows-npapi
+      file: flashplayer12_0r0_70_win.exe
+      size: 17858952
+      sha256: ba479cd621fa292dba6c8d56760058945eebb5a75b5b41f6d0488332e43679ab
+      path: fp_12.0.0.70_archive/12_0_r0_70/flashplayer12_0r0_70_win.exe
+
+    - name: player-12.0.0.70-windows-npapi-msi
+      file: flashplayer12_0r0_70_win.msi
+      size: 18950656
+      sha256: 9f6c1ff707bc02d5fc90eff61f42bf32166748a82c1a345aef7a454f9d6bb1af
+      path: fp_12.0.0.70_archive/12_0_r0_70/flashplayer12_0r0_70_win.msi
+
+    - name: player-12.0.0.70-windows-npapi-debug
+      file: flashplayer12_0r0_70_win_debug.exe
+      size: 18299784
+      sha256: af5bf81742d92348a03d6edd8c0b8a1282327167eb69664c81229545de01e7b8
+      path: fp_12.0.0.70_archive/12_0_r0_70_debug/flashplayer12_0r0_70_win_debug.exe
+
+    - name: player-12.0.0.70-windows-activex
+      file: flashplayer12_0r0_70_winax.exe
+      size: 17268616
+      sha256: 3a404d36c98ad63da202688bb4f3efdcd71b1e1119e85ba6e6ec51def9bfa197
+      path: fp_12.0.0.70_archive/12_0_r0_70/flashplayer12_0r0_70_winax.exe
+
+    - name: player-12.0.0.70-windows-activex-msi
+      file: flashplayer12_0r0_70_winax.msi
+      size: 18356736
+      sha256: 4ad9645820116880790d35fa643d4820341ec54cdd87e5e75f380f379a5da4ee
+      path: fp_12.0.0.70_archive/12_0_r0_70/flashplayer12_0r0_70_winax.msi
+
+    - name: player-12.0.0.70-windows-activex-debug
+      file: flashplayer12_0r0_70_winax_debug.exe
+      size: 17712520
+      sha256: 830e2c250685cd395f9c919ddb1bd68bb86932fb6a17ceee74c329973e2e6d25
+      path: fp_12.0.0.70_archive/12_0_r0_70_debug/flashplayer12_0r0_70_winax_debug.exe
+
+    - name: player-12.0.0.70-windows-sa-debug
+      file: flashplayer12_0r0_70_win_sa_debug.exe
+      size: 11202952
+      sha256: 71c0e309ee1a537fa8de8d259ec248e81fbbc217bce563d54c8e04588f7a27d5
+      path: fp_12.0.0.70_archive/12_0_r0_70_debug/flashplayer12_0r0_70_win_sa_debug.exe
+
+    - name: player-12.0.0.70-windows-uninstaller
+      file: uninstall_flashplayer12_0r0_70_win.exe
+      size: 841096
+      sha256: 28393c97d765b8741ce4f6ade56f0198fd974461256306739ec6ce02a7223dcc
+      path: fp_12.0.0.70_archive/12_0_r0_70/uninstall_flashplayer12_0r0_70_mac.exe
+
+    - name: player-12.0.0.70-mac-npapi
+      file: flashplayer12_0r0_70_mac.dmg
+      size: 18414754
+      sha256: 8cbd1ab0c3cd562dfff7baca7400af030f995ab821c82cdf09b05586ddcd4559
+      path: fp_12.0.0.70_archive/12_0_r0_70/flashplayer12_0r0_70_mac.dmg
+
+    - name: player-12.0.0.70-mac-npapi-debug
+      file: flashplayer12_0r0_70_mac_debug.dmg
+      size: 18860041
+      sha256: b183da468e7898047aa4e9faeeaed0f23be74d0fe5eb3651c58a42b9816145a8
+      path: fp_12.0.0.70_archive/12_0_r0_70_debug/flashplayer12_0r0_70_mac_debug.dmg
+
+    - name: player-12.0.0.70-mac-sa-debug
+      file: flashplayer12_0r0_70_mac_sa_debug.dmg
+      size: 16054653
+      sha256: c9cbc1e2c09e94e69ea6517cbfdabb90e64a1075f10b6dffdf43062f20d8893f
+      path: fp_12.0.0.70_archive/12_0_r0_70_debug/flashplayer12_0r0_70_mac_sa_debug.dmg
+
+    - name: player-12.0.0.70-mac-uninstaller
+      file: uninstall_flashplayer12_0r0_70_mac.dmg
+      size: 235717
+      sha256: 594c7914ddf9485970923f4ecd751bde0ad4de70fd4e8450bf9c99aece0c0f70
+      path: fp_12.0.0.70_archive/12_0_r0_70/uninstall_flashplayer12_0r0_70_mac.dmg

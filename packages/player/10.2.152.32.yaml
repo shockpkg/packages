@@ -1,0 +1,65 @@
+- name: player-10.2.152.32-archive
+  file: fp_10.2.152.32_archive.zip
+  size: 40342584
+  sha256: 62a83043afa90ded558b6244eea4007601f07d7a8c7eba81b9ae70d1a02c5516
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.2.152.32_archive.zip'
+  packages:
+    - name: player-10.2.152.32-windows-npapi
+      file: flashplayer10_2r152_32_win.exe
+      size: 2832544
+      sha256: 780517e495312ca2851f76c85133e3cd5b90e8fd0b405c38893e00328228bcde
+      path: fp_10.2.152.32_archive/10_2r152_32/flashplayer10_2r152_32_win.exe
+
+    - name: player-10.2.152.32-windows-npapi-debug
+      file: flashplayer10_2r152_32_win_debug.exe
+      size: 3100320
+      sha256: 80207b8207b1ff9c472c6cfb9284af6c99348634fbff4366fb1206bbbbce92ed
+      path: fp_10.2.152.32_archive/10_2r152_32_debug/flashplayer10_2r152_32_win_debug.exe
+
+    - name: player-10.2.152.32-windows-activex
+      file: flashplayer10_2r152_32_winax.exe
+      size: 2871968
+      sha256: 1f6fe670051a423225e43d7c04bed9f01a1be9f4714fa3a322c25c69f77d6aa5
+      path: fp_10.2.152.32_archive/10_2r152_32/flashplayer10_2r152_32_winax.exe
+
+    - name: player-10.2.152.32-windows-activex-debug
+      file: flashplayer10_2r152_32_winax_debug.exe
+      size: 3141280
+      sha256: 8ad456c1bdddfcfeb06d0adb6ea29dc625f082b10744e628b04002555dba1a19
+      path: fp_10.2.152.32_archive/10_2r152_32_debug/flashplayer10_2r152_32_winax_debug.exe
+
+    - name: player-10.2.152.32-windows-sa
+      file: flashplayer10_2r152_32_win_sa.exe
+      size: 5640352
+      sha256: fcf93a20357cbaf39a90661490b22cacfe9c5daea5dba51464870e34aee82e07
+      path: fp_10.2.152.32_archive/10_2r152_32/flashplayer10_2r152_32_win_sa.exe
+
+    - name: player-10.2.152.32-windows-sa-debug
+      file: flashplayer10_2r152_32_win_sa_debug.exe
+      size: 6669984
+      sha256: 881115d027801ce0eb692adb2fa9c81a036bc01603b1b08a512ea8a35081f22a
+      path: fp_10.2.152.32_archive/10_2r152_32_debug/flashplayer10_2r152_32_win_sa_debug.exe
+
+    - name: player-10.2.152.32-mac-npapi
+      file: flashplayer10_2r152_33_mac_intel.dmg
+      size: 5811452
+      sha256: 1ec544d9206e7338edd184c08f1bf835fbe1702413e3df91411eca9f1ee01842
+      path: fp_10.2.152.32_archive/10_2r152_32/flashplayer10_2r152_33_mac_intel.dmg
+
+    - name: player-10.2.152.32-mac-npapi-debug
+      file: flashplayer10_2r152_33_mac_intel_debug.dmg
+      size: 6196683
+      sha256: 1a476d775505f416a895a803e07d882f356a9a808be98271c1d13b2a888bd2c2
+      path: fp_10.2.152.32_archive/10_2r152_32_debug/flashplayer10_2r152_33_mac_intel_debug.dmg
+
+    - name: player-10.2.152.32-mac-sa
+      file: flashplayer10_2r152_33_mac_sa.app.zip
+      size: 5062139
+      sha256: 6e5b63a17ca31fbf1d2472e6ba9c1f8e99d3ae4d23f9a5dad7d2fa058acb6819
+      path: fp_10.2.152.32_archive/10_2r152_32/flashplayer10_2r152_33_mac_sa.app.zip
+
+    - name: player-10.2.152.32-mac-sa-debug
+      file: flashplayer10_2r152_33_mac_sa_debug.app.zip
+      size: 5400732
+      sha256: 0970c2297a51a6e1faf546cf09d592e0fd1d21bb0bc5a69eab7f028ff9f599ec
+      path: fp_10.2.152.32_archive/10_2r152_32_debug/flashplayer10_2r152_33_mac_sa_debug.app.zip

@@ -1,0 +1,77 @@
+- name: player-11.9.900.170-archive
+  file: fp_11.9.900.170_archive.zip
+  size: 165024177
+  sha256: 7b45e3fb4a69357080628b64c4ea14a6338162dfde841e0742b1bef973230c94
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.9.900.170_archive.zip'
+  packages:
+    - name: player-11.9.900.170-windows-npapi
+      file: flashplayer11_9r900_170_win.exe
+      size: 17838984
+      sha256: 2ec22dbc204b8d02925dfbd261d62e12a64b4a1048c476d306eeff131d850d7c
+      path: fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_win.exe
+
+    - name: player-11.9.900.170-windows-npapi-msi
+      file: flashplayer11_9r900_170_win.msi
+      size: 18930176
+      sha256: fc1ad0bdbc54e6f022bac0861d34ccf2a67487e4a22323409f37d4458d6b5249
+      path: fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_win.msi
+
+    - name: player-11.9.900.170-windows-npapi-debug
+      file: flashplayer11_9r900_170_win_debug.exe
+      size: 18274184
+      sha256: cdb215b0ae70b6921781822cef1cac11cc65765fcd02fc72bf3b3eb01992600b
+      path: fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_win_debug.exe
+
+    - name: player-11.9.900.170-windows-activex
+      file: flashplayer11_9r900_170_winax.exe
+      size: 17248136
+      sha256: 328496fdb71ddd4aa390f8ab6f458e7411ed089ab70d81b49e2ac173ba6be7a6
+      path: fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_winax.exe
+
+    - name: player-11.9.900.170-windows-activex-msi
+      file: flashplayer11_9r900_170_winax.msi
+      size: 18335744
+      sha256: ee73b2283c6316d7dbe000a2ac8d492f41c928497405ce86e344a48efbc1292c
+      path: fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_winax.msi
+
+    - name: player-11.9.900.170-windows-activex-debug
+      file: flashplayer11_9r900_170_winax_debug.exe
+      size: 17686408
+      sha256: 3aa0711a194c9908b2dbc5e67b71a546dcff0328c020062204ce977edab2c887
+      path: fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_winax_debug.exe
+
+    - name: player-11.9.900.170-windows-sa-debug
+      file: flashplayer11_9r900_170_win_sa_debug.exe
+      size: 11147144
+      sha256: 87b8d9dcb33a0601f46c854511c0ab74f0ffc4456563150b6a1234c3ebef1b28
+      path: fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_win_sa_debug.exe
+
+    - name: player-11.9.900.170-windows-uninstaller
+      file: uninstall_flashplayer11_9r900_170_win.exe
+      size: 840072
+      sha256: 4ab1aa10641d5388c9b2c553f8e2b3b8e7b3ac009b870ead1948ff3de1680475
+      path: fp_11.9.900.170_archive/11_9_r900_170/uninstall_flashplayer11_9r900_170_win.exe
+
+    - name: player-11.9.900.170-mac-npapi
+      file: flashplayer11_9r900_170_mac.dmg
+      size: 18414712
+      sha256: e6149cda4782d71c9e26b345ec61a94600a3cf995d8ec7d6a8b40af5ae1cf2df
+      path: fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_mac.dmg
+
+    - name: player-11.9.900.170-mac-npapi-debug
+      file: flashplayer11_9r900_170_mac_debug.dmg
+      size: 18895090
+      sha256: cbbf89b2d3740251837ded95faca2c35acb894fea57d03215d131d5b71ddf809
+      path: fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_mac_debug.dmg
+
+    - name: player-11.9.900.170-mac-sa-debug
+      file: flashplayer11_9r900_170_mac_sa_debug.dmg
+      size: 16051802
+      sha256: 2af2e0f2975f22c72ed4fd91afa32dd1b51d56845fcd0a7be3019f3ecfa5941c
+      path: fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_mac_sa_debug.dmg
+
+    - name: player-11.9.900.170-mac-uninstaller
+      file: uninstall_flashplayer11_9r900_170_mac.dmg
+      size: 233215
+      sha256: 9911f0e528d70f2da004bd6ff9ed90f9d964bdcb91320c51c2ff604710e930fd
+      path: fp_11.9.900.170_archive/11_9_r900_170/uninstall_flashplayer11_9r900_170_mac.dmg

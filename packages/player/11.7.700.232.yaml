@@ -1,0 +1,77 @@
+- name: player-11.7.700.232-archive
+  file: fp_11.7.700.232_archive.zip
+  size: 147130404
+  sha256: f88ab8d5196207a33dd7e49d369c8ecb1995ce74cbf9ac95869c8b6c625067ff
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.7.700.232_archive.zip'
+  packages:
+    - name: player-11.7.700.232-windows-npapi
+      file: flashplayer_11_7r700_232_win.exe
+      size: 17580768
+      sha256: b0b6abadefa2baf9816a4bcd4f602d32e944a799c5abefa8be351252e22043ea
+      path: fp_11.7.700.232_archive/11_7_r700_232/flashplayer_11_7r700_232_win.exe
+
+    - name: player-11.7.700.232-windows-npapi-debug
+      file: flashplayer11_7r700_232_win_debug.exe
+      size: 18025864
+      sha256: 7911e31fb655f7eba3da418c6cce55a63f0f8c9cfef7a9d02eaa121fab1376f7
+      path: fp_11.7.700.232_archive/11_7_r700_232_debug/flashplayer11_7r700_232_win_debug.exe
+
+    - name: player-11.7.700.232-windows-activex
+      file: flashplayer_11_7r700_232_winax.exe
+      size: 16987872
+      sha256: 0e3764186765d2c122cf8e9c5e0c09dad7587d2529a2ef7f4e7f33b2c032d4fd
+      path: fp_11.7.700.232_archive/11_7_r700_232/flashplayer_11_7r700_232_winax.exe
+
+    - name: player-11.7.700.232-windows-activex-debug
+      file: flashplayer11_7r700_232_winax_debug.exe
+      size: 17427336
+      sha256: ab544ca1b9f3c4c579e1389d19b52539e8459d9ea1f62220d583f51389094c44
+      path: fp_11.7.700.232_archive/11_7_r700_232_debug/flashplayer11_7r700_232_winax_debug.exe
+
+    - name: player-11.7.700.232-windows-sa
+      file: flashplayer_11_7r700_232_win_sa.exe
+      size: 10144136
+      sha256: 1e6bb9a0aed3c3220f5b6bd2433daec1326ec2cc170e143825a07497e84e5b86
+      path: fp_11.7.700.232_archive/11_7_r700_232/flashplayer_11_7r700_232_win_sa.exe
+
+    - name: player-11.7.700.232-windows-sa-debug
+      file: flashplayer11_7r700_232_win_sa_debug.exe
+      size: 10981768
+      sha256: 33008d5eba45e7025fc1ed9d0dd99c0d308073860775ac6a0103795a470be7d3
+      path: fp_11.7.700.232_archive/11_7_r700_232_debug/flashplayer11_7r700_232_win_sa_debug.exe
+
+    - name: player-11.7.700.232-windows-uninstaller
+      file: uninstall_flashplayer11_7r700_232_win.exe
+      size: 812936
+      sha256: f5b58d3c50683df9be1ad869716df7d445ded6b22b5fffabf4346f583f721cb2
+      path: fp_11.7.700.232_archive/11_7_r700_232/uninstall_flashplayer11_7r700_232_win.exe
+
+    - name: player-11.7.700.232-mac-npapi
+      file: flashplayer_11_7r700_232_mac_intel.dmg
+      size: 17970433
+      sha256: 4df39575c7e050c4a2c20de9d93a4a20b471e43128f0beab33ac87f10dfa7103
+      path: fp_11.7.700.232_archive/11_7_r700_232/flashplayer_11_7r700_232_mac_intel.dmg
+
+    - name: player-11.7.700.232-mac-npapi-debug
+      file: flashplayer11_7r700_232_mac_debug.dmg
+      size: 18453118
+      sha256: cf30279a378128b7fcf27daed34924ad85f7ddf817447769fcff20ad9fe51668
+      path: fp_11.7.700.232_archive/11_7_r700_232_debug/flashplayer11_7r700_232_mac_debug.dmg
+
+    - name: player-11.7.700.232-mac-sa
+      file: flashplayer_11_7r700_232_mac_sa.dmg
+      size: 15184649
+      sha256: f3e641ba3575cee7a097b250ff29f494a72eef0d3cadafaa8e1685fb24cb0369
+      path: fp_11.7.700.232_archive/11_7_r700_232/flashplayer_11_7r700_232_mac_sa.dmg
+
+    - name: player-11.7.700.232-mac-sa-debug
+      file: flashplayer11_7r700_232_mac_sa_debug.dmg
+      size: 15879189
+      sha256: 42dbf7e0f9669da1ced5c1db82c1a51d94d8da7e8f4c5e44bd5a0aecb13595e1
+      path: fp_11.7.700.232_archive/11_7_r700_232_debug/flashplayer11_7r700_232_mac_sa_debug.dmg
+
+    - name: player-11.7.700.232-mac-uninstaller
+      file: uninstall_flashplayer11_7r700_232_mac.dmg
+      size: 233151
+      sha256: b94f7aea2da30b198fe8483fb189818b125b7d5eedae5078c3a9ac1e9830815c
+      path: fp_11.7.700.232_archive/11_7_r700_232/uninstall_flashplayer11_7r700_232_mac.dmg

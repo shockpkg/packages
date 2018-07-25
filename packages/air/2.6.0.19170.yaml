@@ -1,0 +1,5 @@
+- name: air-2.6.0.19170-runtime-linux
+  file: AdobeAIRInstaller.bin
+  size: 16127348
+  sha256: 2c89002bbfd13f7c119b66380e6023a1268a7b8d66d4a2c5f287bb656ed90005
+  url: 'https://fpdownload.macromedia.com/air/lin/download/2.6/AdobeAIRInstaller.bin'

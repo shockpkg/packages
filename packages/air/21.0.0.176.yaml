@@ -1,0 +1,5 @@
+- name: air-21.0.0.176-runtime-android
+  file: AdobeAIRAndroid.apk
+  size: 20792244
+  sha256: ced5207639d6d0772a53812c5f584125e73d90b20db6b76c20ab91ef8b76f9cc
+  url: 'https://fpdownload.macromedia.com/air/android/download/21.0.0.176/AdobeAIRAndroid.apk'

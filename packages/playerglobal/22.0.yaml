@@ -1,0 +1,5 @@
+- name: playerglobal-22.0
+  file: playerglobal22_0.swc
+  size: 467721
+  sha256: d4b9227953c559f84add8a7cc67e0a47ace6bb2b9f04c76c4cbc3866e19e7e89
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/playerglobal/playerglobal22_0.swc'

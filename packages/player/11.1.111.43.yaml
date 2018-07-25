@@ -1,0 +1,5 @@
+- name: player-11.1.111.43-android-2.x-and-3.x
+  file: install_flash_player_pre_ics.apk
+  size: 4700552
+  sha256: d39ada03f89dbab2995d0d791e63907626a66aa6937d13ecef3252874f52059f
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/android/11.1.111.43/install_flash_player_pre_ics.apk'

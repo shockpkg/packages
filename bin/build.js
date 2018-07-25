@@ -2,37 +2,29 @@
 
 'use strict';
 
-const fs = require('fs');
+const fse = require('fs-extra');
 const path = require('path');
 
-const yaml = require('js-yaml');
+const packages = require('../util/packages');
 
-const file = path.join(__dirname, '..', 'packages.yaml');
 const dist = path.join(__dirname, '..', 'dist');
-const packages = 'packages.json';
+const file = 'packages.json';
 
-function mkdirSync(p) {
-	try {
-		// eslint-disable-next-line no-sync
-		fs.mkdirSync(p);
-	}
-	catch (err) {
-		if (err.code !== 'EEXIST') {
-			throw err;
-		}
-	}
+async function writeFile(file, data) {
+	await fse.mkdirp(path.dirname(file));
+	await fse.writeFile(file, data);
 }
 
-// eslint-disable-next-line no-sync
-const code = fs.readFileSync(file, 'utf8');
+async function main() {
+	const pkgs = packages.packages;
 
-const doc = yaml.safeLoad(code);
-
-mkdirSync(dist);
-mkdirSync(path.join(dist, '1'));
-
-// eslint-disable-next-line no-sync
-fs.writeFileSync(path.join(dist, '1', packages), JSON.stringify({
-	format: '1.0',
-	packages: doc
-}));
+	await writeFile(path.join(dist, '1', file), JSON.stringify({
+		format: '1.0',
+		packages: pkgs
+	}));
+}
+main().catch(err => {
+	// eslint-disable-next-line no-console
+	console.error(err);
+	process.exitCode = 1;
+});

@@ -1,0 +1,11 @@
+- name: air-27.0.0.132-sdk-windows
+  file: AdobeAIRSDK.zip
+  size: 462472810
+  sha256: 7a18867ea0d5fbf6d1dcde6ad65d3d7ef572e3f5a7bcb24a059eb5d49db1b01e
+  url: 'https://fpdownload.macromedia.com/air/win/download/27.0/AdobeAIRSDK.zip'
+
+- name: air-27.0.0.132-sdk-and-compiler-windows
+  file: AIRSDK_Compiler.zip
+  size: 499515142
+  sha256: c7c2db93e98c2cb1df28b3bf6c6fe2bd187232f8d7ee370b7201a6efefd20fe0
+  url: 'https://fpdownload.macromedia.com/air/win/download/27.0/AIRSDK_Compiler.zip'

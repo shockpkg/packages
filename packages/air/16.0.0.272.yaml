@@ -1,0 +1,5 @@
+- name: air-16.0.0.272-runtime-android
+  file: AdobeAIRAndroid.apk
+  size: 16476470
+  sha256: 942d388f7fdb2a2d64106347d22e1a2a17219dfc280044a9420b9131a9e2f692
+  url: 'https://fpdownload.macromedia.com/air/android/download/16.0.0.272/AdobeAIRAndroid.apk'

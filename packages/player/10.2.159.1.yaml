@@ -1,0 +1,113 @@
+- name: player-10.2.159.1-archive
+  file: fp_10.2.159.1_archive.zip
+  size: 69557535
+  sha256: 38c1f52edb371216cf731325a3f33fd985b45d29d2ab94ec3be7bd3226c9e64c
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.2.159.1_archive.zip'
+  packages:
+    - name: player-10.2.159.1-windows-npapi
+      file: flashplayer10_2r159_1_win.exe
+      size: 2832544
+      sha256: a2ad37e954618e15c2cdcc2ed427b6325d4b259c0ca035c859246d427ccc3a38
+      path: fp_10.2.159.1_archive/10_2r159_1/flashplayer10_2r159_1_win.exe
+
+    - name: player-10.2.159.1-windows-npapi-debug
+      file: flashplayer10_2r159_1_win_debug.exe
+      size: 3101344
+      sha256: bf2d084e782cd3b588dc10f069727930e45f906dee952109719b55957fb754cc
+      path: fp_10.2.159.1_archive/10_2r159_1_debug/flashplayer10_2r159_1_win_debug.exe
+
+    - name: player-10.2.159.1-windows-activex
+      file: flashplayer10_2r159_1_winax.exe
+      size: 2871968
+      sha256: 0938d006bca6363badf2b9ed129c532b2752be86b21a589ac4ae4b8ee46245f7
+      path: fp_10.2.159.1_archive/10_2r159_1/flashplayer10_2r159_1_winax.exe
+
+    - name: player-10.2.159.1-windows-activex-debug
+      file: flashplayer10_2r159_1_winax_debug.exe
+      size: 3141280
+      sha256: 892c31c53de931fa367dbdbac9377652a6486e49a556f3d5192738c9716f40aa
+      path: fp_10.2.159.1_archive/10_2r159_1_debug/flashplayer10_2r159_1_winax_debug.exe
+
+    - name: player-10.2.159.1-windows-sa
+      file: flashplayer10_2r159_1_win_sa.exe
+      size: 5640352
+      sha256: 751dfb9567e5463fa9c49e5245cc33a4281da835eca7a20bb01482af4085089e
+      path: fp_10.2.159.1_archive/10_2r159_1/flashplayer10_2r159_1_win_sa.exe
+
+    - name: player-10.2.159.1-windows-sa-debug
+      file: flashplayer10_2r159_1_win_sa_debug.exe
+      size: 6670496
+      sha256: fefa721b4a9de73511392637604bc01acae9e932230ddbeeb7e742d9c4075293
+      path: fp_10.2.159.1_archive/10_2r159_1_debug/flashplayer10_2r159_1_win_sa_debug.exe
+
+    - name: player-10.2.159.1-windows-uninstaller
+      file: uninstall_flashplayer10_2r159_1_win.exe
+      size: 235168
+      sha256: 0d950fb21f54479acc4e2b1fec2b3ed6c2fe81ecc778d578974cf97228b108a4
+      path: fp_10.2.159.1_archive/10_2r159_1/uninstall_flashplayer10_2r159_1_win.exe
+
+    - name: player-10.2.159.1-mac-npapi
+      file: flashplayer10_2r159_1_mac_intel.dmg
+      size: 5813006
+      sha256: 0ae6399f3a068eafa3092da44a498dbfdcbd9f408a5e989a76998f14698b6b20
+      path: fp_10.2.159.1_archive/10_2r159_1/flashplayer10_2r159_1_mac_intel.dmg
+
+    - name: player-10.2.159.1-mac-npapi-debug
+      file: flashplayer10_2r159_1_mac_intel_debug.dmg
+      size: 6201451
+      sha256: f56aae236c156cb422add45867d3a11e68fed050a32867fa6b536c62610f5209
+      path: fp_10.2.159.1_archive/10_2r159_1_debug/flashplayer10_2r159_1_mac_intel_debug.dmg
+
+    - name: player-10.2.159.1-mac-sa
+      file: flashplayer10_2r159_1_mac_sa.app.zip
+      size: 5061653
+      sha256: 2c37e26c236f607040439f78015bec24c43d3cfda386da21b2147ee7b5a8e3cb
+      path: fp_10.2.159.1_archive/10_2r159_1/flashplayer10_2r159_1_mac_sa.app.zip
+
+    - name: player-10.2.159.1-mac-sa-debug
+      file: flashplayer10_2r159_1_mac_sa_debug.app.zip
+      size: 5402371
+      sha256: 4ce50fb55b1f960bb5dcbf3298c22d833c01062161a6a4437419c74dc9324d38
+      path: fp_10.2.159.1_archive/10_2r159_1_debug/flashplayer10_2r159_1_mac_sa_debug.app.zip
+
+    - name: player-10.2.159.1-mac-uninstaller
+      file: uninstall_flashplayer10_2r159_1_mac_intel.dmg
+      size: 248380
+      sha256: c5e1dd0c487ecc01c744fa1138b30aee9b09708ff78299a4182e9a90257ecb26
+      path: fp_10.2.159.1_archive/10_2r159_1/uninstall_flashplayer10_2r159_1_mac_intel.dmg
+
+    - name: player-10.2.159.1-linux-npapi
+      file: flashplayer_10_2r159_1_linux.tar.gz
+      size: 4967668
+      sha256: e6844572fad1cef47dfa8afea6a6cf1e1191fde30041947d5beab1445e0ed742
+      path: fp_10.2.159.1_archive/10_2r159_1/flashplayer_10_2r159_1_linux.tar.gz
+
+    - name: player-10.2.159.1-linux-npapi-debug
+      file: flashplayer_10_2r159_1_linux_debug.tar.gz
+      size: 5369205
+      sha256: c9bab9ab487839b785bba28f558540d38d476725649d52e84fe7b1a1fb571502
+      path: fp_10.2.159.1_archive/10_2r159_1_debug/flashplayer_10_2r159_1_linux_debug.tar.gz
+
+    - name: player-10.2.159.1-linux-sa
+      file: flashplayer_10_2r159_1_linux_sa.tar.gz
+      size: 4266353
+      sha256: db265d317e08ff7b758fb34ed08dd3c599ee504b1adad6119df2f9e64fe32f13
+      path: fp_10.2.159.1_archive/10_2r159_1/flashplayer_10_2r159_1_linux_sa.tar.gz
+
+    - name: player-10.2.159.1-linux-sa-debug
+      file: flashplayer_10_2r159_1_linux_sa_debug.tar.gz
+      size: 4640983
+      sha256: 680bd8d76a06428b9a3b0a1fe2338139474d5e0e0b472b6c885a63143c3ef9d4
+      path: fp_10.2.159.1_archive/10_2r159_1_debug/flashplayer_10_2r159_1_linux_sa_debug.tar.gz
+
+    - name: player-10.2.159.1-solaris-x86-npapi
+      file: flashplayer10_2r159_1_solaris_x86.tar.bz2
+      size: 4567367
+      sha256: df77194b946d92faee320637be9b67832b7c769485a22913179816d1b54fba5b
+      path: fp_10.2.159.1_archive/10_2r159_1/flashplayer10_2r159_1_solaris_x86.tar.bz2
+
+    - name: player-10.2.159.1-solaris-sparc-npapi
+      file: flashplayer10_2r159_1_solaris_sparc.tar.bz2
+      size: 5139358
+      sha256: 3fcd73d4788dca99e906c6ec327b4e0c9bec1954124597ad266f6ce80c340c3f
+      path: fp_10.2.159.1_archive/10_2r159_1/flashplayer10_2r159_1_solaris_sparc.tar.bz2

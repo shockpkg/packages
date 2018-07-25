@@ -1,0 +1,77 @@
+- name: player-12.0.0.44-archive
+  file: fp_12.0.0.44_archive.zip
+  size: 165373257
+  sha256: 8ccad1ea07f0c774f21d3a4fcfec777b27b04b6efa9056cb581e7aad9ab1429c
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_12.0.0.44_archive.zip'
+  packages:
+    - name: player-12.0.0.44-windows-npapi
+      file: flashplayer12_0r0_44_win.exe
+      size: 17890696
+      sha256: e57c2e9ad2fd0fccbaea29f3ef2bb577a04f7367f633265ddb03686a70085f3a
+      path: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_win.exe
+
+    - name: player-12.0.0.44-windows-npapi-msi
+      file: flashplayer12_0r0_44_win.msi
+      size: 18982400
+      sha256: d62e8ee55ca143be6ad3a70afea936f0dbe4b4cbfa49a0b674d968605d62f42c
+      path: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_win.msi
+
+    - name: player-12.0.0.44-windows-npapi-debug
+      file: flashplayer12_0r0_44_win_debug.exe
+      size: 18331528
+      sha256: 229cc87cdacab28ff47dfb64866796c8615086c10de3b3ecdac02003e8450066
+      path: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_win_debug.exe
+
+    - name: player-12.0.0.44-windows-activex
+      file: flashplayer12_0r0_44_winax.exe
+      size: 17298824
+      sha256: 30eb25f428c8982112cf13166f60698916b5610c54d68e52be7e1c396401441f
+      path: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_winax.exe
+
+    - name: player-12.0.0.44-windows-activex-msi
+      file: flashplayer12_0r0_44_winax.msi
+      size: 18386432
+      sha256: 62e5d025654b857654b56b3cab4db6a088636db4421ebbaf00dca1f5d2e37842
+      path: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_winax.msi
+
+    - name: player-12.0.0.44-windows-activex-debug
+      file: flashplayer12_0r0_44_winax_debug.exe
+      size: 17735560
+      sha256: ff7c4cbf529436822c8640941745ac4fe08f92acf9ab605ee859af057239fa1d
+      path: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_winax_debug.exe
+
+    - name: player-12.0.0.44-windows-sa-debug
+      file: flashplayer12_0r0_44_win_sa_debug.exe
+      size: 11180936
+      sha256: 1d039e7852f2b093b5e177b516684af7a837aa0f6a5bbc7f8cd89cbe2b898379
+      path: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_win_sa_debug.exe
+
+    - name: player-12.0.0.44-windows-uninstaller
+      file: uninstall_flashplayer12_0r0_44_win.exe
+      size: 840584
+      sha256: 8346e2090c972804d2fb0f50997f3b2186abf8750c797053d45505139e2aa45a
+      path: fp_12.0.0.44_archive/12_0_r0_44/uninstall_flashplayer12_0r0_44_win.exe
+
+    - name: player-12.0.0.44-mac-npapi
+      file: flashplayer12_0r0_44_mac.dmg
+      size: 18447549
+      sha256: bd031e3b921fd18823e1f3d9558770a871f42a15ebf8812ace8e88ec0cf046ce
+      path: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_mac.dmg
+
+    - name: player-12.0.0.44-mac-npapi-debug
+      file: flashplayer12_0r0_44_mac_debug.dmg
+      size: 18891406
+      sha256: 3b2c20dbeba4de9d69e645c69229a46fa15408c7db39dd1c336d48d1a7d74c57
+      path: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_mac_debug.dmg
+
+    - name: player-12.0.0.44-mac-sa-debug
+      file: flashplayer12_0r0_44_mac_sa_debug.dmg
+      size: 16046667
+      sha256: fe4d5f81749733883c4049e8900baf5f9d14058ec49e52ee717d4bab27c326cf
+      path: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_mac_sa_debug.dmg
+
+    - name: player-12.0.0.44-mac-uninstaller
+      file: uninstall_flashplayer12_0r0_44_mac.dmg
+      size: 235707
+      sha256: bda407bcf8a50dd5f37456bf7525d7073e543a65099a79260d2c6da3e1a70682
+      path: fp_12.0.0.44_archive/12_0_r0_44/uninstall_flashplayer12_0r0_44_mac.dmg

@@ -1,0 +1,35 @@
+- name: player-11.3.300.268-archive
+  file: fp_11.3.300.268_archive.zip
+  size: 54244263
+  sha256: 375d99df785e30abcfa58f4b3fda7ed606260177e8cf254b170e342342cf6f87
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.3.300.268_archive.zip'
+  packages:
+    - name: player-11.3.300.268-mac-npapi
+      file: flashplayer11_3r300_268_mac.dmg
+      size: 11579288
+      sha256: 6a9a0f314c72928ce0911649d8b669bf32b6af0e94516c711555fe03b6689815
+      path: fp_11.3.300.268_archive/11_3r300_268/flashplayer11_3r300_268_mac.dmg
+
+    - name: player-11.3.300.268-mac-npapi-debug
+      file: flashplayer11_3r300_268_mac_debug.dmg
+      size: 12167281
+      sha256: 8482be41b51fa755f804fb7887bd01224adadf35009d97e427cf9547c85c2511
+      path: fp_11.3.300.268_archive/11_3r300_268_debug/flashplayer11_3r300_268_mac_debug.dmg
+
+    - name: player-11.3.300.268-mac-sa
+      file: flashplayer11_3r300_268_mac_sa.app.zip
+      size: 14650147
+      sha256: 82ad1698dfdb4b7f23f94212e7a6f6fe964d4ae01529c06b4d69cbf91032b7cd
+      path: fp_11.3.300.268_archive/11_3r300_268/flashplayer11_3r300_268_mac_sa.app.zip
+
+    - name: player-11.3.300.268-mac-sa-debug
+      file: flashplayer11_3r300_268_mac_sa_debug.app.zip
+      size: 15629075
+      sha256: 5663a3416328d35c833c5b3ae534b63d8b745b9a44b613b238ac6615b0ccdd96
+      path: fp_11.3.300.268_archive/11_3r300_268_debug/flashplayer11_3r300_268_mac_sa_debug.app.zip
+
+    - name: player-11.3.300.268-mac-uninstaller
+      file: uninstall_flashplayer11_3r300_268_mac.dmg
+      size: 229823
+      sha256: f16d0293efb35ba6abdf27f66588429680ad8d4fa40d9ed70615be4598843e01
+      path: fp_11.3.300.268_archive/11_3r300_268/uninstall_flashplayer11_3r300_268_mac.dmg

@@ -1,0 +1,11 @@
+- name: gamingsdk-1.3.357-windows
+  file: AdobeGamingSDK_1_3_LS1.exe
+  size: 278566200
+  sha256: 9c3de99ec36f6a1d94e109a21dfa7e475b6bfab09b0f92789bea602092c24b21
+  url: 'http://download.macromedia.com/get/GSDK/1.3/AdobeGamingSDK_1_3_LS1.exe'
+
+- name: gamingsdk-1.3.357-mac
+  file: AdobeGamingSDK_1_3_LS1.dmg
+  size: 294931821
+  sha256: 3b0c40e2bc3ba819c740b97fcfa46769a34c6876517ee368a4604708d4f17390
+  url: 'http://download.macromedia.com/get/GSDK/1.3/AdobeGamingSDK_1_3_LS1.dmg'

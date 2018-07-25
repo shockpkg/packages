@@ -1,0 +1,5 @@
+- name: air-20.0.0.233-runtime-android
+  file: AdobeAIRAndroid.apk
+  size: 19823240
+  sha256: a50cf544d842c489e48f5963fca8b15f5fc5ad1d518a1f3f1167e8ec00a55061
+  url: 'https://fpdownload.macromedia.com/air/android/download/20.0.0.233/AdobeAIRAndroid.apk'

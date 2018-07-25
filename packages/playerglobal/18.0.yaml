@@ -1,0 +1,5 @@
+- name: playerglobal-18.0
+  file: playerglobal18_0.swc
+  size: 389798
+  sha256: 45c3e6617e0d98a1f48abe3e3b0b9cbd03a4cb91c5ce636002edbf6f26955235
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/playerglobal/playerglobal18_0.swc'

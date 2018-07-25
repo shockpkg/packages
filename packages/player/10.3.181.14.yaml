@@ -1,0 +1,119 @@
+- name: player-10.3.181.14-archive
+  file: fp_10.3.181.14_archive.zip
+  size: 79268784
+  sha256: 1ba58fb6f9b5f4e11032c14c5ff90596cec1e88c9fa8b0ec0f1f4cd47c21d5cd
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.181.14_archive.zip'
+  packages:
+    - name: player-10.3.181.14-windows-npapi
+      file: flashplayer10_3r181_14_win.exe
+      size: 3081376
+      sha256: 43b7f379f2b7abce0538a2fed9cb4305cde0bafdb43f49f2bf542da8e03938fe
+      path: fp_10.3.181.14_archive/10_3r181_14/flashplayer10_3r181_14_win.exe
+
+    - name: player-10.3.181.14-windows-npapi-debug
+      file: flashplayer10_3r181_14_win_debug.exe
+      size: 3346592
+      sha256: a1502de476c519ef42b23513550ca8d44c046c499ebadfde350dff5b5e64519e
+      path: fp_10.3.181.14_archive/10_3r181_14_debug/flashplayer10_3r181_14_win_debug.exe
+
+    - name: player-10.3.181.14-windows-activex
+      file: flashplayer10_3r181_14_winax.exe
+      size: 3119264
+      sha256: c15b1111cfff8e6c2a8f570195028e0217708c831e95261de2b596d05d5feb7d
+      path: fp_10.3.181.14_archive/10_3r181_14/flashplayer10_3r181_14_winax.exe
+
+    - name: player-10.3.181.14-windows-activex-debug
+      file: flashplayer10_3r181_14_winax_debug.exe
+      size: 3384480
+      sha256: ec2fc2c67c8172e3ec6c835c303ee3f64d91af4b1a746d96833ef4e28c871380
+      path: fp_10.3.181.14_archive/10_3r181_14_debug/flashplayer10_3r181_14_winax_debug.exe
+
+    - name: player-10.3.181.14-windows-sa
+      file: flashplayer10_3r181_14_win_sa.exe
+      size: 5786272
+      sha256: dfe8884bf5f39031bfa63dd717baccb6d3846f1a5ee16ebdf6d84480b611d3a7
+      path: fp_10.3.181.14_archive/10_3r181_14/flashplayer10_3r181_14_win_sa.exe
+
+    - name: player-10.3.181.14-windows-sa-debug
+      file: flashplayer10_3r181_14_win_sa_debug.exe
+      size: 6816416
+      sha256: 2befcdefbe0c2d39fd9e9acfe92786b8b3a11e10f1fd9ecd476409fede7a6be5
+      path: fp_10.3.181.14_archive/10_3r181_14_debug/flashplayer10_3r181_14_win_sa_debug.exe
+
+    - name: player-10.3.181.14-windows-uninstaller
+      file: uninstall_flashplayer10_3r181_14_win.exe
+      size: 240288
+      sha256: 430269ee8b3acfdd8f17d15d49c483d842730d57d3b9c1682ba4368c04f830aa
+      path: fp_10.3.181.14_archive/10_3r181_14/uninstall_flashplayer10_3r181_14_win.exe
+
+    - name: player-10.3.181.14-mac-npapi
+      file: flashplayer10_3r181_14_mac_intel.dmg
+      size: 6369716
+      sha256: 7c9fc59dff092b8beb37deb6d225a9a1ef026ce75716c260bb156f41a6d80fee
+      path: fp_10.3.181.14_archive/10_3r181_14/flashplayer10_3r181_14_mac_intel.dmg
+
+    - name: player-10.3.181.14-mac-npapi-debug
+      file: flashplayer10_3r181_14_mac_intel_debug.dmg
+      size: 6743381
+      sha256: d486205da44d82c16bf8118106a3fa12814b7197e58f141a90ec1c1abb865312
+      path: fp_10.3.181.14_archive/10_3r181_14_debug/flashplayer10_3r181_14_mac_intel_debug.dmg
+
+    - name: player-10.3.181.14-mac-sa
+      file: flashplayer10_3r181_14_mac_sa.app.zip
+      size: 5127119
+      sha256: 3675e25b2e371908456ffa887bfd292a9123f11e1fbd0130192444623c64d0b9
+      path: fp_10.3.181.14_archive/10_3r181_14/flashplayer10_3r181_14_mac_sa.app.zip
+
+    - name: player-10.3.181.14-mac-sa-debug
+      file: flashplayer10_3r181_14_mac_sa_debug.app.zip
+      size: 5519900
+      sha256: 0bab1b93b78e72e55a59ba19365e625722e40f824b7c2b43e67c15d382c9e6b0
+      path: fp_10.3.181.14_archive/10_3r181_14_debug/flashplayer10_3r181_14_mac_sa_debug.app.zip
+
+    - name: player-10.3.181.14-mac-uninstaller
+      file: uninstall_flashplayer10_3r181_14_mac_intel.dmg
+      size: 446279
+      sha256: c85b328e17ffaf939d0e56b030159a0594453b8f5c20037887eb8d8bf0982ff2
+      path: fp_10.3.181.14_archive/10_3r181_14/uninstall_flashplayer10_3r181_14_mac_intel.dmg
+
+    - name: player-10.3.181.14-linux-npapi
+      file: flashplayer10_3r181_14_linux.tar.gz
+      size: 5456725
+      sha256: 2eaab07a2d066a436a9f8ff9b84e3cc89a969f032d6d9cf94cd81f285e115003
+      path: fp_10.3.181.14_archive/10_3r181_14/flashplayer10_3r181_14_linux.tar.gz
+
+    - name: player-10.3.181.14-linux-npapi-debug
+      file: flashplayer10_3r181_14_linux_debug.tar.gz
+      size: 5860426
+      sha256: 6c484b919c7440f063dd02c3d1c71c0b91bf63b7db2bc3bfd0775b645bf63921
+      path: fp_10.3.181.14_archive/10_3r181_14_debug/flashplayer10_3r181_14_linux_debug.tar.gz
+
+    - name: player-10.3.181.14-linux-sa
+      file: flashplayer10_3r181_14_linux_sa.tar.gz
+      size: 4423344
+      sha256: caac013b5a1f9389ecac47c967a85962e224ee672c75b62d699f477c50d8280a
+      path: fp_10.3.181.14_archive/10_3r181_14/flashplayer10_3r181_14_linux_sa.tar.gz
+
+    - name: player-10.3.181.14-linux-sa-debug
+      file: flashplayer10_3r181_14_linux_sa_debug.tar.gz
+      size: 4799822
+      sha256: 5d312edf5d9451fa9fe6a0158c7dfdb49d5cd612c46456051636d24d3c17da5c
+      path: fp_10.3.181.14_archive/10_3r181_14_debug/flashplayer10_3r181_14_linux_sa_debug.tar.gz
+
+    - name: player-10.3.181.14-linux-i386-npapi
+      file: flash-plugin-10.3.181.14-release.i386.rpm
+      size: 5446685
+      sha256: 8e9d223874877a8d66322676737591b89abe6af0a2a84b437f2da6bfd4c33223
+      path: fp_10.3.181.14_archive/10_3r181_14/flash-plugin-10.3.181.14-release.i386.rpm
+
+    - name: player-10.3.181.14-solaris-x86-npapi
+      file: flashplayer10_3r181_14_solaris_x86.tar.bz2
+      size: 4751674
+      sha256: ed4d2f8ff35e191e4a22cfa890f833612febeba8c4c77d4c356cc68eb3b54c98
+      path: fp_10.3.181.14_archive/10_3r181_14/flashplayer10_3r181_14_solaris_x86.tar.bz2
+
+    - name: player-10.3.181.14-solaris-sparc-npapi
+      file: flashplayer10_3r181_14_solaris_sparc.tar.bz2
+      size: 5333163
+      sha256: 57affabf88019c901ad160c8609f7667fa902cbecae6cfe93c91c6f874a58852
+      path: fp_10.3.181.14_archive/10_3r181_14/flashplayer10_3r181_14_solaris_sparc.tar.bz2

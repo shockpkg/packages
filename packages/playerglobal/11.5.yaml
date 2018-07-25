@@ -1,0 +1,5 @@
+- name: playerglobal-11.5
+  file: playerglobal11_5.swc
+  size: 351019
+  sha256: fee1fc66df851ecab6cb92978c6a15eb0c9dc95883818bde1484003417ba6bc1
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/playerglobal/playerglobal11_5.swc'

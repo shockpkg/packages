@@ -1,0 +1,5 @@
+- name: player-11.1.115.63-android-4.0
+  file: install_flash_player_ics.apk
+  size: 4708536
+  sha256: 4d28fbead7d8b59b56c0037891c89127326905b6b21c8b8f77470c1992d330ed
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/android/11.1.115.63/install_flash_player_ics.apk'

@@ -1,0 +1,29 @@
+- name: air-2.0.4.13090-runtime-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 12522162
+  sha256: d872e193dd9f576b4ab35f0c7e892533b0101800232b584e0dd87d120863b332
+  url: 'https://fpdownload.macromedia.com/air/win/download/2.0.4/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-2.0.4.13090-runtime-windows
+      file: AdobeAIRInstaller.exe
+      size: 12575384
+      sha256: e8c855b5ab1585c3fdff98d995fbbf5aeb7ae428a05068cd10630cdd7762c829
+      path: AdobeAIRInstaller.exe
+
+- name: air-2.0.4.13090-runtime-mac-archive
+  file: AdobeAIR.zip
+  size: 18003306
+  sha256: 9b0e09e727fa3dfc7510c7ee7469e6b0cf7f1d411e185256e23bec3233ba949e
+  url: 'https://fpdownload.macromedia.com/air/mac/download/2.0.4/AdobeAIR.zip'
+  packages:
+    - name: air-2.0.4.13090-runtime-mac
+      file: AdobeAIR.dmg
+      size: 18095323
+      sha256: c0f7217f14c76d1c12e74bb83a43b9d321b8e7b5cf2d0565acb238c456eb1563
+      path: AdobeAIR.dmg
+
+- name: air-2.0.4.13090-runtime-linux
+  file: AdobeAIRInstaller.bin
+  size: 15759812
+  sha256: 8f3785c4061cdae2ff86ee273e4dd199993c60116d9e6a31724927a9fcb8344a
+  url: 'https://fpdownload.macromedia.com/air/lin/download/2.0.4/AdobeAIRInstaller.bin'

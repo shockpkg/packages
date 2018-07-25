@@ -1,0 +1,35 @@
+- name: air-3.2.0.2070-runtime-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 14796234
+  sha256: 1b9f38e265926d13cbc33aca43b2d198b60f62b05200dca48fc26a18ca37c05b
+  url: 'https://fpdownload.macromedia.com/air/win/download/3.2/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-3.2.0.2070-runtime-windows
+      file: AdobeAIRInstaller.exe
+      size: 14852504
+      sha256: 8dde53b83895ba9c416a040c1c0b0a95b593600be9cedce226cd8479abf580cd
+      path: AdobeAIRInstaller.exe
+
+- name: air-3.2.0.2070-runtime-mac-archive
+  file: AdobeAIR.zip
+  size: 23588173
+  sha256: f7107161f34a71767e74e37a80c7d48b79f7c0df4f58f84b9dcb946d2c4d2869
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.2/AdobeAIR.zip'
+  packages:
+    - name: air-3.2.0.2070-runtime-mac
+      file: AdobeAIR.dmg
+      size: 23662941
+      sha256: 43e2d120ffcccd37f35991201b7b534d7296ba040b580b1136b3e95d0096982b
+      path: AdobeAIR.dmg
+
+- name: air-3.2.0.2070-sdk-windows
+  file: AdobeAIRSDK.zip
+  size: 149960952
+  sha256: 179c76e8e5e1ccce548e762725e19686dae356cf9c0d307055cb6fc5f460c7c3
+  url: 'https://fpdownload.macromedia.com/air/win/download/3.2/AdobeAIRSDK.zip'
+
+- name: air-3.2.0.2070-sdk-mac
+  file: AdobeAIRSDK.tbz2
+  size: 133223967
+  sha256: a16b110364b425bcd3bb6238c5bf52238200e47fb58f5ddc4d5a9e5889a861eb
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.2/AdobeAIRSDK.tbz2'

@@ -1,0 +1,395 @@
+- name: player-7-archive
+  file: fp7_archive.zip
+  size: 39658950
+  sha256: 4be17a2e4e1523f385d823eb5d7751dda83a3dd27e34d8fd4f95a4869e8a69eb
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp7_archive.zip'
+  packages:
+    - name: player-7.0.14.0-windows-npapi
+      file: fp_7.0.14_plugin_ns.exe
+      size: 658586
+      sha256: d6b5218df4f6eb86b63798cfa35f6c00f37edd79a79d7c70df48611cafe4a0e3
+      path: fp7_archive/r14/fp_7.0.14_plugin_ns.exe
+
+    - name: player-7.0.14.0-windows-activex-ocx
+      file: Flash.ocx
+      size: 917504
+      sha256: 94058fe5343d8d76d313998e1db44a0bedd47184b132fa6c3ace021cb665d703
+      path: fp7_archive/r14/Flash.ocx
+
+    - name: player-7.0.14.0-mac-osx-npapi
+      file: fp_7.0.14_plugin_mac_osx.hqx
+      size: 1582530
+      sha256: a1f719ba2aa7d7cfd3a55df9c073038b4bee34b0890876c9e17f789c805772b8
+      path: fp7_archive/r14/fp_7.0.14_plugin_mac_osx.hqx
+
+    - name: player-7.0.14.0-mac-classic-npapi
+      file: fp_7.0.14_plugin_macclassic.hqx
+      size: 1305179
+      sha256: e3fcee715ee60e72ca122b510f676470a960558a5feee85adc036b08c8a227cc
+      path: fp7_archive/r14/fp_7.0.14_plugin_macclassic.hqx
+
+    - name: player-7.0.19.0-windows-npapi
+      file: flashplayer7_win.exe
+      size: 700120
+      sha256: 9b63bc9b920d50439cb2fabd4b39acabbcfed9bb797ee1e527e39b42b2008186
+      path: fp7_archive/r19/flashplayer7_win.exe
+
+    - name: player-7.0.19.0-windows-activex
+      file: flashplayer7_winax.exe
+      size: 563416
+      sha256: 60bd7e075e106a8ef62d9f11b90cb77ce6261a389c59048df9f9a6551d528216
+      path: fp7_archive/r19/flashplayer7_winax.exe
+
+    - name: player-7.0.19.0-mac-ppc-npapi
+      file: flashplayer7_macppc.hqx
+      size: 1313556
+      sha256: a5c5e32341259ac09284985c199eb6222a5b86c0432f4f3536a225c868770634
+      path: fp7_archive/r24/flashplayer7_macppc.hqx
+
+    - name: player-7.0.24.0-mac-osx-npapi
+      file: flashplayer7_macosx.hqx
+      size: 1591643
+      sha256: af6f82a08cd3a0d0cbc6aef8e5b4a430a0ed2745bc5633b75318cc796b2601e8
+      path: fp7_archive/r24/flashplayer7_macosx.hqx
+
+    - name: player-7.0.25.0-linux-npapi
+      file: install_flash_player_7_linux.tar.gz
+      size: 987452
+      sha256: 933b9cbc61babc7964f8de3336f2616d82fabdc66922b40f58bb537ba93eacfa
+      path: fp7_archive/r25/install_flash_player_7_linux.tar.gz
+
+    - name: player-7.0.53.0-solaris-sparc-npapi
+      file: install_flash_player_7_solaris_sparc_r53.tar.gz
+      size: 1015384
+      sha256: 6c00e7e004be1319cfdfb424102f5d5aafb7e71eec402cf02a32387220a8f78f
+      path: fp7_archive/r53/install_flash_player_7_solaris_sparc_r53.tar.gz
+
+    - name: player-7.0.53.0-solaris-x86-npapi
+      file: install_flash_player_7_solaris_x86_r53.tar.gz
+      size: 975157
+      sha256: 77b0662f7cad6947cae57555ea56723f0869084ddfdf555452bbc11e1c3c6ad3
+      path: fp7_archive/r53/install_flash_player_7_solaris_x86_r53.tar.gz
+
+    - name: player-7.0.61.0-windows-npapi
+      file: flashplayer7r61_win.exe
+      size: 705672
+      sha256: e3eced6983241fa157416284ccdb127c0b7c660e6e91c246988df8976824cbad
+      path: fp7_archive/r61/flashplayer7r61_win.exe
+
+    - name: player-7.0.61.0-windows-activex
+      file: flashplayer7r61_winax.exe
+      size: 564360
+      sha256: b164b10486fc2c0ddb0777df2013f45850e28aeeca9d14f6289d2b7b95f9df30
+      path: fp7_archive/r61/flashplayer7r61_winax.exe
+
+    - name: player-7.0.61.0-mac-npapi
+      file: flashplayer7r61_mac.hqx
+      size: 1005290
+      sha256: 86c0be1958c8246d81e4d4a4a0fa484971cd621ca90871ff1bc9a5af2eeabf0c
+      path: fp7_archive/r61/flashplayer7r61_mac.hqx
+
+    - name: player-7.0.63.0-windows-npapi
+      file: flashplayer7r63_win.exe
+      size: 719536
+      sha256: 9f62d83ca840f600cfdf3bfcfa32aad8224ec7d126939d9a6f44493439e142db
+      path: fp7_archive/r63/flashplayer7r63_win.exe
+
+    - name: player-7.0.63.0-windows-activex
+      file: flashplayer7r63_winax.exe
+      size: 584368
+      sha256: 7b4487f27b7a34015b08a6951d17b17c11125b5832a91ea8728c3bc6b36d4cec
+      path: fp7_archive/r63/flashplayer7r63_winax.exe
+
+    - name: player-7.0.63.0-mac-npapi
+      file: flashplayer7r63_mac.hqx
+      size: 2389107
+      sha256: 9dc76790ea97b1bffb545473076c9f9ae709e3c11135ac0dd3b0ffae7b68aa95
+      path: fp7_archive/r63/flashplayer7r63_mac.hqx
+
+    - name: player-7.0.63.0-linux-npapi
+      file: install_flash_player_7_linux_r63.tar.gz
+      size: 1021258
+      sha256: d57d96fcff2aa876db203a3524cde83a6b0fc799dd6b537ade65bcfd5c6520d1
+      path: fp7_archive/r63/install_flash_player_7_linux_r63.tar.gz
+
+    - name: player-7.0.63.0-solaris-sparc-npapi
+      file: install_flash_player_7_solaris_sparc_r63.tar.gz
+      size: 1042001
+      sha256: aff912d3ce60cecb2f731864ef024b3208f84d82fe684f7eea49e02f29730ccb
+      path: fp7_archive/r63/install_flash_player_7_solaris_sparc_r63.tar.gz
+
+    - name: player-7.0.63.0-solaris-x86-npapi
+      file: install_flash_player_7_solaris_x86_r63.tar.gz
+      size: 1012123
+      sha256: 8aee6a2bd6622109e457faf2e8b5cd089eba8fa67bf11854eaafd9ff09fc1e8b
+      path: fp7_archive/r63/install_flash_player_7_solaris_x86_r63.tar.gz
+
+    - name: player-7.0.66.0-solaris-sparc-npapi
+      file: install_flash_player_7_solaris_sparc_r66.tar.gz
+      size: 1042264
+      sha256: 95a5706f2c884944264371ff6e8a50caf083548c85a58f9f65817d489bb7a877
+      path: fp7_archive/r66/install_flash_player_7_solaris_sparc_r66.tar.gz
+
+    - name: player-7.0.66.0-solaris-x86-npapi
+      file: install_flash_player_7_solaris_x86_r66.tar.gz
+      size: 998918
+      sha256: 1250b3625ff991426a642bfd7eef8b5266a89cf3622db3dba8af3560a7176ccb
+      path: fp7_archive/r66/install_flash_player_7_solaris_x86_r66.tar.gz
+
+    - name: player-7.0.67.0-solaris-sparc-npapi
+      file: install_flash_player_7_solaris_sparc_r67.tar.gz
+      size: 1073094
+      sha256: 2feca866cb10882c1fe952eca3ac6121fd60bef65070acccc9ee5a728cd869c5
+      path: fp7_archive/r67/install_flash_player_7_solaris_sparc_r67.tar.gz
+
+    - name: player-7.0.67.0-solaris-x86-npapi
+      file: install_flash_player_7_solaris_x86_r67.tar.gz
+      size: 995470
+      sha256: 24ec0ae533decdcf39c7eab1de2a1a2dd4e0cea0be6648ddb37afc27ac559b36
+      path: fp7_archive/r67/install_flash_player_7_solaris_x86_r67.tar.gz
+
+    - name: player-7.0.68.0-windows-npapi
+      file: flashplayer7r68_win.exe
+      size: 712312
+      sha256: c66d71a61fcd1e5cd1c41c18c0ab3688dbae6a108efc99a1966c1de4f91ad098
+      path: fp7_archive/r68/flashplayer7r68_win.exe
+
+    - name: player-7.0.68.0-windows-activex
+      file: flashplayer7r68_winax.exe
+      size: 584312
+      sha256: 20a3c0a54a4c9de212642c48cff70a296739f2ce5080d50814215c38e9ec8242
+      path: fp7_archive/r68/flashplayer7r68_winax.exe
+
+    - name: player-7.0.68.0-mac-npapi
+      file: flashplayer7r68_mac.hqx
+      size: 2278160
+      sha256: 703169bbfd8915fe6044884c90690d7e54329ee2d959ba2709b00875f921f928
+      path: fp7_archive/r68/flashplayer7r68_mac.hqx
+
+    - name: player-7.0.68.0-linux-npapi
+      file: install_flash_player_7_linux_r68.tar.gz
+      size: 1021264
+      sha256: dd1b8184498b0ca2b3d2ea13f8e024da654c7cf521f7d0fcd58dcf21cfabd6e1
+      path: fp7_archive/r68/install_flash_player_7_linux_r68.tar.gz
+
+    - name: player-7.0.69.0-windows-npapi
+      file: flashplayer7r69_win.exe
+      size: 712824
+      sha256: 90e577b5c155813cd794baf75660c9147fa5a490cd638554aaba3a858fcede51
+      path: fp7_archive/r69/flashplayer7r69_win.exe
+
+    - name: player-7.0.69.0-windows-activex
+      file: flashplayer7r69_winax.exe
+      size: 580728
+      sha256: 122a21821ac562ef91d03a6d4d6e3fd508db45cb6a6f213e68b266100ce636ef
+      path: fp7_archive/r69/flashplayer7r69_winax.exe
+
+    - name: player-7.0.69.0-mac-npapi
+      file: flashplayer7r69_mac.hqx
+      size: 2388274
+      sha256: 7631ec959e2d9e5e6fcb329a2494310d849a0ac29fef6bc010f8181018d4422c
+      path: fp7_archive/r69/flashplayer7r69_mac.hqx
+
+    - name: player-7.0.69.0-linux-npapi
+      file: install_flash_player_7r69_linux.tar.gz
+      size: 1017437
+      sha256: 4314b4096772402b94286471b8346d66051190813f60853b9487728a83d08d41
+      path: fp7_archive/r69/install_flash_player_7r69_linux.tar.gz
+
+    - name: player-7.0.70.0-windows-npapi
+      file: flashplayer7r70_win.exe
+      size: 707072
+      sha256: c6a94918d38b73dde048dcec57c8a34f8a4d733b098ba4d98159e7828db96f13
+      path: fp7_archive/r70/flashplayer7r70_win.exe
+
+    - name: player-7.0.70.0-windows-activex
+      file: flashplayer7r70_winax.exe
+      size: 574464
+      sha256: 0796acdfbfeebdf328b4ff2eae4c6c971fc7917ed4c5cfccca2565354c13e1f9
+      path: fp7_archive/r70/flashplayer7r70_winax.exe
+
+    - name: player-7.0.70.0-mac-npapi
+      file: flashplayer7r70_mac.hqx
+      size: 1758059
+      sha256: 910846952c24f5983ae96000d5c0431b777d29bf08283d6d6c82c672ad3a315f
+      path: fp7_archive/r70/flashplayer7r70_mac.hqx
+
+    - name: player-7.0.70.0-linux-npapi
+      file: install_flash_player_7_linux_r70.tar.gz
+      size: 1017488
+      sha256: 235894bf0f98bb4c540279ba7708d8c96cbed7965e4a0aabfb8ea235e424736d
+      path: fp7_archive/r70/install_flash_player_7_linux_r70.tar.gz
+
+    - name: player-7.0.70.0-solaris-sparc-npapi
+      file: install_flash_player_7_solaris_sparc_r70.tar.gz
+      size: 1074474
+      sha256: de68f4875539b6c3df090684c64c8956f03640c46209e5f4822a474f7d441f8a
+      path: fp7_archive/r70/install_flash_player_7_solaris_sparc_r70.tar.gz
+
+    - name: player-7.0.70.0-solaris-x86-npapi
+      file: install_flash_player_7_solaris_x86_r70.tar.gz
+      size: 995505
+      sha256: dbd935c1b3230da884fec9e2526921f0c51daa77321bbb8d6ff77d9324888c06
+      path: fp7_archive/r70/install_flash_player_7_solaris_x86_r70.tar.gz
+
+    - name: player-7.0.73.0-windows-npapi
+      file: flashplayer7r73_win.exe
+      size: 727400
+      sha256: a0fe1aa98b56ab78698d83478124c14845d23eeb498d6f4f9439b2a49a9e271d
+      path: fp7_archive/r73/flashplayer7r73_win.exe
+
+    - name: player-7.0.73.0-windows-activex
+      file: flashplayer7r73_winax.exe
+      size: 590184
+      sha256: 58d71fea31139e9d191553ecc5b724997ceebac347a00429bd8d4c0fb6c7680c
+      path: fp7_archive/r73/flashplayer7r73_winax.exe
+
+    - name: player-7.0.73.0-mac-npapi
+      file: flashplayer7r73_mac.hqx
+      size: 1785907
+      sha256: d93ac4e7c27091f46daaaf523381b614488b02084b6066d054c84ff784dded95
+      path: fp7_archive/r73/flashplayer7r73_mac.hqx
+
+    - name: player-7.0.73.0-mac-classic-npapi
+      file: flashplayer7r73_mac_classic.hqx
+      size: 693355
+      sha256: 7e19ac7326a932f47c7e754b2e488dd89de3d8d45e5507d4ec20cac04a606e13
+      path: fp7_archive/r73/flashplayer7r73_mac_classic.hqx
+
+    - name: player-7.0.73.0-linux-npapi
+      file: install_flash_player_7_linux_r73.tar.gz
+      size: 1028656
+      sha256: e35af72598a25f8145be57e7a703ffd753b6f1e718342eadf1277e6e3d058390
+      path: fp7_archive/r73/install_flash_player_7_linux_r73.tar.gz
+
+    - name: player-7.0.73.0-solaris-sparc-npapi
+      file: install_flash_player_7_solaris_sparc_r73.tar.gz
+      size: 1058709
+      sha256: 0d413d629ba87029cea10f4b93af6a68eae081014d7da8b6b9b95d4d29170d68
+      path: fp7_archive/r73/install_flash_player_7_solaris_sparc_r73.tar.gz
+
+    - name: player-7.0.73.0-solaris-x86-npapi
+      file: install_flash_player_7_solaris_x86_r73.tar.gz
+      size: 1006889
+      sha256: 24f617c7c2375ddd2eaf0d8d126b0ba91177fefd2ba4e319639e28922d491dc0
+      path: fp7_archive/r73/install_flash_player_7_solaris_x86_r73.tar.gz
+
+- name: player-7-pro-archive
+  file: flash_pro_7_players.zip
+  size: 8982244
+  sha256: 9920ad8eb846e8d08ddd427ea67a3b1ab7fc2da9c16e1501f6122eedec9a671f
+  url: 'https://gitlab.com/fparchive/player-7/raw/master/flash_pro_7_players.zip'
+  packages:
+    - name: player-7.0.14.0-windows-npapi-debug
+      file: Install Flash Player 7.exe
+      size: 688088
+      sha256: 813d9209a937703b47f63f6ef4ae45377b1dbde3174d59e2fcf16832fcd6b813
+      path: Players/Debug/Install Flash Player 7.exe
+
+    - name: player-7.0.14.0-windows-activex
+      file: Install Flash Player 7 AX.exe
+      size: 548352
+      sha256: 9545fd330c51ae037efe1b24f510459b89b89325b06656a06e79c51734fd882f
+      path: Players/Release/Install Flash Player 7 AX.exe
+
+    - name: player-7.0.14.0-windows-activex-debug
+      file: Install Flash Player 7 AX.exe
+      size: 558080
+      sha256: 13f5c979722501e6d1e2376b1b3084519c9e916bb2b9d8b0dcf4d8d6dcb35bce
+      path: Players/Debug/Install Flash Player 7 AX.exe
+
+    - name: player-7.0.14.0-windows-sa
+      file: SAFlashPlayer.exe
+      size: 987136
+      sha256: c122801e322998fc33751a775c612e49cfbffd48ad6475ea48ee3c8be1faca89
+      path: Players/Release/SAFlashPlayer.exe
+
+    - name: player-7.0.14.0-windows-sa-debug
+      file: SAFlashPlayer.exe
+      size: 1069056
+      sha256: 24203916884178781dbca8d3447e4e1dc43d17ef250b6c387270c4dd9c5781d5
+      path: Players/Debug/SAFlashPlayer.exe
+
+    - name: player-7.0.14.0-mac-npapi-debug
+      file: Install Flash Player 7.hqx
+      size: 1341380
+      sha256: adf87cc315ab2084814cce0bec6f86c9e09fd58e21660e93fd98a4c6c9cdcf7a
+      path: Players/Debug/Install Flash Player 7.hqx
+
+    - name: player-7.0.14.0-mac-osx-npapi-debug
+      file: Install Flash Player 7 OSX.hqx
+      size: 1619958
+      sha256: f8e17234c0df495bdf174e563c10f6f14e0d8481b452f7d77eff41a00f0316e3
+      path: Players/Debug/Install Flash Player 7 OSX.hqx
+
+    - name: player-7.0.14.0-mac-sa
+      file: SAFlashPlayer.hqx
+      size: 1810642
+      sha256: a529ce74c65078a04689af83d0456abbb9a9da892837747fe7b09953952e4dee
+      path: Players/Release/SAFlashPlayer.hqx
+
+    - name: player-7.0.14.0-mac-sa-debug
+      file: SAFlashPlayer.hqx
+      size: 1889757
+      sha256: 157a9e831d8f5f26cc1cc611d3288d36864b4372aba22629baedfcc8bf737751
+      path: Players/Debug/SAFlashPlayer.hqx
+
+- name: player-7-pro-2-archive
+  file: flash_pro_7-2_players.zip
+  size: 9123506
+  sha256: 98004e74bc31af46c4d7c62366109f856c96002a7c3627b1aa342d6352c2139f
+  url: 'https://gitlab.com/fparchive/player-7/raw/master/flash_pro_7-2_players.zip'
+  packages:
+    - name: player-7.0.19.0-windows-npapi-debug
+      file: Install Flash Player 7.exe
+      size: 709336
+      sha256: f74350ddbde4ef74935effdcc7ad6a6f4d57d51b6f65621c35d8a6b795618c99
+      path: Players/Debug/Install Flash Player 7.exe
+
+    - name: player-7.0.19.0-windows-activex-debug
+      file: Install Flash Player 7 AX.exe
+      size: 572632
+      sha256: 957613331c7981e27c78c90ddd3e112099827f4d96ff013c3fba629410876c8e
+      path: Players/Debug/Install Flash Player 7 AX.exe
+
+    - name: player-7.0.19.0-windows-sa
+      file: SAFlashPlayer.exe
+      size: 1003520
+      sha256: 2445cda15482cff63ff2008d05d5dbe04eaeef03db76a54565da71246c605776
+      path: Players/Release/SAFlashPlayer.exe
+
+    - name: player-7.0.19.0-windows-sa-debug
+      file: SAFlashPlayer.exe
+      size: 1085440
+      sha256: d57ee367f48e59dd8e1c7df02f48297e145be7a83c7ca21dbf3aad7edcd05f1f
+      path: Players/Debug/SAFlashPlayer.exe
+
+    - name: player-7.0.19.0-mac-npapi-debug
+      file: Install Flash Player 7.hqx
+      size: 1348734
+      sha256: 47f716552dc1cccca340c22f9c5738c937f6fedfc09b19503f0511fb31cdfd50
+      path: Players/Debug/Install Flash Player 7.hqx
+
+    - name: player-7.0.19.0-mac-osx-npapi
+      file: Install Flash Player 7 OSX.hqx
+      size: 1602825
+      sha256: 19db63acfe34527b4483dcbab7e376fc338526d52524e07f839aef03fbfbb3db
+      path: Players/Release/Install Flash Player 7 OSX.hqx
+
+    - name: player-7.0.19.0-mac-osx-npapi-debug
+      file: Install Flash Player 7 OSX.hqx
+      size: 1639877
+      sha256: 4098a880423c996c8b053f3d2bda4e26241c0c891ddc0a0e24b07d959e2afab6
+      path: Players/Debug/Install Flash Player 7 OSX.hqx
+
+    - name: player-7.0.19.0-mac-sa
+      file: SAFlashPlayer.hqx
+      size: 1829516
+      sha256: 679aa1e5c4fa6b1d72f638d91ba841bbaf6021e855c0e5a1e5629b35ab2dda09
+      path: Players/Release/SAFlashPlayer.hqx
+
+    - name: player-7.0.19.0-mac-sa-debug
+      file: SAFlashPlayer.hqx
+      size: 1908375
+      sha256: 4a639e932a6a5c8628e444e64a6b1d4de2264f59ad39b26ca383f77a93be9eef
+      path: Players/Debug/SAFlashPlayer.hqx

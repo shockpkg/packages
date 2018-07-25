@@ -1,0 +1,5 @@
+- name: playerglobal-10.0
+  file: playerglobal10_0.swc
+  size: 192591
+  sha256: 4fc079b9f923cdbc765375042bcfccd95f8670ec9de9a17efa5fb74d055ce778
+  url: 'https://gitlab.com/fparchive/playerglobal-10.0/raw/master/playerglobal10_0.swc'

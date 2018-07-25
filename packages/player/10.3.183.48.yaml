@@ -1,0 +1,89 @@
+- name: player-10.3.183.48-archive
+  file: fp_10.3.183.48_archive.zip
+  size: 64132086
+  sha256: ef6541f2097ed185bd3c02cee74f984be417809cc0485ebee01807447e34fcc9
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.183.48_archive.zip'
+  packages:
+    - name: player-10.3.183.48-windows-npapi
+      file: flashplayer_10_3r183_48_win.exe
+      size: 3093432
+      sha256: d3261d008468687e583ba799544f3567379172b803c81a4985f91c94936e30b7
+      path: fp_10.3.r183.48_archive/10_3_r183_48/flashplayer_10_3r183_48_win.exe
+
+    - name: player-10.3.183.48-windows-npapi-debug
+      file: flashplayer10_3r183_48_win_debug.exe
+      size: 3360184
+      sha256: 69345286690801f78e06c75ac04c8b6a7d6ace1f955f679e1bba4ef7fe05f648
+      path: fp_10.3.r183.48_archive/10_3_r183_48_debug/flashplayer10_3r183_48_win_debug.exe
+
+    - name: player-10.3.183.48-windows-activex
+      file: flashplayer_10_3r183_48_winax.exe
+      size: 3132344
+      sha256: f4d3c0f95952e15da36e28a0b8f5aeb89ee45c9bfd91a2819d210bac5cd1b682
+      path: fp_10.3.r183.48_archive/10_3_r183_48/flashplayer_10_3r183_48_winax.exe
+
+    - name: player-10.3.183.48-windows-activex-debug
+      file: flashplayer10_3r183_48_winax_debug.exe
+      size: 3400120
+      sha256: b963c43a28571908fa8c86786580134465a31686f76c136264153cd39a01035b
+      path: fp_10.3.r183.48_archive/10_3_r183_48_debug/flashplayer10_3r183_48_winax_debug.exe
+
+    - name: player-10.3.183.48-windows-sa
+      file: flashplayer_10_3r183_48_win_sa.exe
+      size: 5795768
+      sha256: c61389d97e18dbbb769621cdaaddb03a49f0d46042cfaa781e5ba11a5edefd29
+      path: fp_10.3.r183.48_archive/10_3_r183_48/flashplayer_10_3r183_48_win_sa.exe
+
+    - name: player-10.3.183.48-windows-sa-debug
+      file: flashplayer10_3r183_48_win_sa_debug.exe
+      size: 6824888
+      sha256: 9327281fcce76278af8cead5fc56d1ac473f7101e8ddb36598aeed627baaad3c
+      path: fp_10.3.r183.48_archive/10_3_r183_48_debug/flashplayer10_3r183_48_win_sa_debug.exe
+
+    - name: player-10.3.183.48-windows-uninstaller
+      file: uninstall_flashplayer10_3r183_48_win.exe
+      size: 246712
+      sha256: a608f69f117bb656b21070f2672b3f369f3d517340c05a29bee3dde9d25108f0
+      path: fp_10.3.r183.48_archive/10_3_r183_48/uninstall_flashplayer10_3r183_48_win.exe
+
+    - name: player-10.3.183.48-mac-npapi
+      file: flashplayer_10_3r183_48_mac_intel.dmg
+      size: 6432949
+      sha256: 156617e2738eb366df3893e2c4544424c9c59334c8104d0dd2d1ae0edc0cee36
+      path: fp_10.3.r183.48_archive/10_3_r183_48/flashplayer_10_3r183_48_mac_intel.dmg
+
+    - name: player-10.3.183.48-mac-npapi-debug
+      file: flashplayer10_3r183_48_mac_intel_debug.dmg
+      size: 6818836
+      sha256: c9dbeb00bbd5cae4f68cc7c8c6a2fe09da1ca432f128a31efc6ac58e30de9538
+      path: fp_10.3.r183.48_archive/10_3_r183_48_debug/flashplayer10_3r183_48_mac_intel_debug.dmg
+
+    - name: player-10.3.183.48-mac-sa
+      file: flashplayer_10_3r183_48_mac_sa.app.zip
+      size: 5200419
+      sha256: 869297a52fa54b355bc52feb20fd9a87ecb5383e800398e9dda14aa3aec71f7f
+      path: fp_10.3.r183.48_archive/10_3_r183_48/flashplayer_10_3r183_48_mac_sa.app.zip
+
+    - name: player-10.3.183.48-mac-sa-debug
+      file: flashplayer10_3r183_48_mac_sa_debug.app.zip
+      size: 5535672
+      sha256: ddfb1d3c021452ab6d2ef5a32f755425f56b41540f33b14907e6e9bce1a38466
+      path: fp_10.3.r183.48_archive/10_3_r183_48_debug/flashplayer10_3r183_48_mac_sa_debug.app.zip
+
+    - name: player-10.3.183.48-mac-uninstaller
+      file: uninstall_flashplayer10_3r183_48_mac_intel.dmg
+      size: 446560
+      sha256: f223e9b8c6434be9ab98ef368a55f599d497760c3d6257f8699df0346474f8d4
+      path: fp_10.3.r183.48_archive/10_3_r183_48/uninstall_flashplayer10_3r183_48_mac_intel.dmg
+
+    - name: player-10.3.183.48-linux-npapi-debug
+      file: flashplayer10_3r183_48_linux_debug.tar.gz
+      size: 5868405
+      sha256: 78b75ff9a995e4e516927a44531d009c32984ad38be91ee2d094e2b59fa8558f
+      path: fp_10.3.r183.48_archive/10_3_r183_48_debug/flashplayer10_3r183_48_linux_debug.tar.gz
+
+    - name: player-10.3.183.48-linux-sa-debug
+      file: flashplayer10_3r183_48_linux_sa_debug.tar.gz
+      size: 4807071
+      sha256: 7a2a34b03e03af2a45d915e1f6c378f0e515c5156ac2ab745bce03aba1aeb525
+      path: fp_10.3.r183.48_archive/10_3_r183_48_debug/flashplayer10_3r183_48_linux_sa_debug.tar.gz

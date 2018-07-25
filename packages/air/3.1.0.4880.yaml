@@ -1,0 +1,35 @@
+- name: air-3.1.0.4880-runtime-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 15105488
+  sha256: 8f50604d57f55e1b455deabcade5a5b5033d2f214a96b1597a869b8f709351db
+  url: 'https://fpdownload.macromedia.com/air/win/download/3.1/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-3.1.0.4880-runtime-windows
+      file: AdobeAIRInstaller.exe
+      size: 15160720
+      sha256: 32fea584d02d756f4d2143bed199f44a1c518400fe8d509d5bec6e7dfefa102b
+      path: AdobeAIRInstaller.exe
+
+- name: air-3.1.0.4880-runtime-mac-archive
+  file: AdobeAIR.zip
+  size: 23498204
+  sha256: 79face4ccf7b2993babb13d78d9f0f7801b7a56ff6de2928158039b27188ad12
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.1/AdobeAIR.zip'
+  packages:
+    - name: air-3.1.0.4880-runtime-mac
+      file: AdobeAIR.dmg
+      size: 23655721
+      sha256: 151eff6820ce58c61c3154a4cea5c1cfe616cf4bfd615e6e0fbaec73c205d1ed
+      path: AdobeAIR.dmg
+
+- name: air-3.1.0.4880-sdk-windows
+  file: AdobeAIRSDK.zip
+  size: 148216231
+  sha256: 802fd6485f68fb0be27fbf2e082a5852bbd6fab38495b0613645895cdb4520a3
+  url: 'https://fpdownload.macromedia.com/air/win/download/3.1/AdobeAIRSDK.zip'
+
+- name: air-3.1.0.4880-sdk-mac
+  file: AdobeAIRSDK.tbz2
+  size: 132521169
+  sha256: 8885df0a6238a8e9cd90819e63375ac10df532b01fee36c90c3f396ae5f2dc0b
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.1/AdobeAIRSDK.tbz2'

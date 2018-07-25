@@ -1,0 +1,83 @@
+- name: player-13.0.0.264-archive
+  file: fp_13.0.0.264_archive.zip
+  size: 180936825
+  sha256: e9252e4b2fb3159e174a17014e6c5df986ad472d8e1f24c00ec3070b08e41350
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_13.0.0.264_archive.zip'
+  packages:
+    - name: player-13.0.0.264-windows-npapi
+      file: flashplayer13_0r0_264_win.exe
+      size: 17967792
+      sha256: 08c09d96b06b04e45c2c44f6485597a12c3e493331a6f588811a67171b12fadb
+      path: fp_13.0.0.264_archive/13_0_r0_264/flashplayer13_0r0_264_win.exe
+
+    - name: player-13.0.0.264-windows-npapi-msi
+      file: flashplayer13_0r0_264_win.msi
+      size: 19062784
+      sha256: 8cc5970b2ed125b88ab65831933e2e0d9071032b55bc69b5d03051ac863ad74a
+      path: fp_13.0.0.264_archive/13_0_r0_264/flashplayer13_0r0_264_win.msi
+
+    - name: player-13.0.0.264-windows-npapi-debug
+      file: flashplayer13_0r0_264_win_debug.exe
+      size: 17768112
+      sha256: b0925c382bedd0a921b1b73ebba10f50cb798d062701db1ad4690d8ebd62b289
+      path: fp_13.0.0.264_archive/13_0_r0_264_debug/flashplayer13_0r0_264_win_debug.exe
+
+    - name: player-13.0.0.264-windows-activex
+      file: flashplayer13_0r0_264_winax.exe
+      size: 17381040
+      sha256: 212b3a5ccd88086e3ca234f2eba793c5a75489ca78512c55ad7c45624c9b10fb
+      path: fp_13.0.0.264_archive/13_0_r0_264/flashplayer13_0r0_264_winax.exe
+
+    - name: player-13.0.0.264-windows-activex-msi
+      file: flashplayer13_0r0_264_winax.msi
+      size: 18471424
+      sha256: d3ae22b128be3106d6c1f2d5db4c99b4d41ad11a0bb164cc259d73d3257ab1f8
+      path: fp_13.0.0.264_archive/13_0_r0_264/flashplayer13_0r0_264_winax.msi
+
+    - name: player-13.0.0.264-windows-activex-debug
+      file: flashplayer13_0r0_264_winax_debug.exe
+      size: 17820336
+      sha256: 7c700b932b517834c7e2847b21b81ac40fc6a5d6ae7773c15f39f22b5a00d9e3
+      path: fp_13.0.0.264_archive/13_0_r0_264_debug/flashplayer13_0r0_264_winax_debug.exe
+
+    - name: player-13.0.0.264-windows-sa-debug
+      file: flashplayer13_0r0_264_win_sa_debug.exe
+      size: 11301552
+      sha256: 08b4cfa9fa0c7baeeb7cdcd9de2d44c3067188bfce3a2b5c9445feda6de7b98a
+      path: fp_13.0.0.264_archive/13_0_r0_264_debug/flashplayer13_0r0_264_win_sa_debug.exe
+
+    - name: player-13.0.0.264-windows-uninstaller
+      file: uninstall_flashplayer13_0r0_264_win.exe
+      size: 853680
+      sha256: db7aa1207a369f8e151a051f01070a028c7c7638cefe85d8775d9aa139df6cf6
+      path: fp_13.0.0.264_archive/13_0_r0_264/uninstall_flashplayer13_0r0_264_win.exe
+
+    - name: player-13.0.0.264-mac-npapi
+      file: flashplayer13_0r0_264_mac.dmg
+      size: 15748021
+      sha256: a93af0bab67261e2ef3c6a4497a9fb53d8932f695751dad4bfb89920fed234de
+      path: fp_13.0.0.264_archive/13_0_r0_264/flashplayer13_0r0_264_mac.dmg
+
+    - name: player-13.0.0.264-mac-npapi-pkg
+      file: flashplayer13_0r0_264_mac_pkg.dmg
+      size: 15489325
+      sha256: 80c650eb1758c09d6d2a945edff6c51fb819b894306cf5c09152ecd967d1825f
+      path: fp_13.0.0.264_archive/13_0_r0_264/flashplayer13_0r0_264_mac_pkg.dmg
+
+    - name: player-13.0.0.264-mac-npapi-debug
+      file: flashplayer13_0r0_264_mac_debug.dmg
+      size: 16099147
+      sha256: a9f1523146f35a5afc9f2d0ac6f2a426f440d03d7cd7d1831dc7193e587692f9
+      path: fp_13.0.0.264_archive/13_0_r0_264_debug/flashplayer13_0r0_264_mac_debug.dmg
+
+    - name: player-13.0.0.264-mac-sa-debug
+      file: flashplayer13_0r0_264_mac_sa_debug.dmg
+      size: 12713427
+      sha256: da3978ac19c1c17c9e2610049379d2234196545514df9ae75bb3eb77197a999a
+      path: fp_13.0.0.264_archive/13_0_r0_264_debug/flashplayer13_0r0_264_mac_sa_debug.dmg
+
+    - name: player-13.0.0.264-mac-uninstaller
+      file: uninstall_flashplayer13_0r0_264_mac.dmg
+      size: 257345
+      sha256: 27f724c2b80f739dccfb85cb92c0b0d1658607782fde29c5a6db219edd4619f8
+      path: fp_13.0.0.264_archive/13_0_r0_264/uninstall_flashplayer13_0r0_264_mac.dmg

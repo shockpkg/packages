@@ -1,0 +1,47 @@
+- name: air-14.0.0.178-runtime-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 18687455
+  sha256: 4b1b01e6040c2caa775205e70b46e12825c9388cb2df1f5923e898d325e79a3a
+  url: 'https://fpdownload.macromedia.com/air/win/download/14.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-14.0.0.178-runtime-windows
+      file: AdobeAIRInstaller.exe
+      size: 18743160
+      sha256: e21b16b06df9d2b44d2f7a01e49cc2f93e66ff0a7238703c9b1c221107496e22
+      path: AdobeAIRInstaller.exe
+
+- name: air-14.0.0.178-runtime-mac-archive
+  file: AdobeAIR.zip
+  size: 26446662
+  sha256: 84905c725571e6df91632a8b7850a82d1a80590ef2069489b305f85c41890fb6
+  url: 'https://fpdownload.macromedia.com/air/mac/download/14.0/AdobeAIR.zip'
+  packages:
+    - name: air-14.0.0.178-runtime-mac
+      file: AdobeAIR.dmg
+      size: 26474780
+      sha256: af16b6ea395efb9f9f01e15f7378fba097322e0506d2f5d48412d28a6f71b039
+      path: AdobeAIR.dmg
+
+- name: air-14.0.0.178-sdk-windows
+  file: AdobeAIRSDK.zip
+  size: 217667962
+  sha256: 361bb0ebeb8c78a6caa34c7452b004cbd80fc7de2a146cce154a88fa78865619
+  url: 'https://fpdownload.macromedia.com/air/win/download/14.0/AdobeAIRSDK.zip'
+
+- name: air-14.0.0.178-sdk-mac
+  file: AdobeAIRSDK.tbz2
+  size: 196068771
+  sha256: 878788ab3dc6dde93b43364a77be50bb644afa3fc31f4a9e57a1f69e213df6ff
+  url: 'https://fpdownload.macromedia.com/air/mac/download/14.0/AdobeAIRSDK.tbz2'
+
+- name: air-14.0.0.178-sdk-and-compiler-windows
+  file: AIRSDK_Compiler.zip
+  size: 254708966
+  sha256: 93dd30fc159b730ce7a13f994d13d1c56751dccd6f9463d64dfe713668dde4d8
+  url: 'https://fpdownload.macromedia.com/air/win/download/14.0/AIRSDK_Compiler.zip'
+
+- name: air-14.0.0.178-sdk-and-compiler-mac
+  file: AIRSDK_Compiler.tbz2
+  size: 233451713
+  sha256: 465fa43dd9ce0f29eb0bd627c2862b5de3dd6956398127d57a6b9626a8dc9dc9
+  url: 'https://fpdownload.macromedia.com/air/mac/download/14.0/AIRSDK_Compiler.tbz2'

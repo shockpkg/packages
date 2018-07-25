@@ -1,0 +1,185 @@
+- name: player-27.0.0.170-archive
+  file: fp_27.0.0.170_archive.zip
+  size: 423272241
+  sha256: 11b0ce7aceba9d098cdef6a3b17aafcd3111645136f30bfe00de7c30058bcaef
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_27.0.0.170_archive.zip'
+  packages:
+    - name: player-27.0.0.170-windows-npapi
+      file: flashplayer27_0r0_170_win.exe
+      size: 20773376
+      sha256: 3f9ca6c74db0f575b68fb309c9f3625c42ff256d8d017aa394be1d4cd13decd0
+      path: 27_0_r0_170/flashplayer27_0r0_170_win.exe
+
+    - name: player-27.0.0.170-windows-npapi-msi
+      file: flashplayer27_0r0_170_win.msi
+      size: 21921792
+      sha256: b5593c299af962ff484a85cc857c9f559e302ae8789abadd962bf0a6a85a08c0
+      path: 27_0_r0_170/flashplayer27_0r0_170_win.msi
+
+    - name: player-27.0.0.170-windows-npapi-debug
+      file: flashplayer27_0r0_170_win_debug.exe
+      size: 20562432
+      sha256: 53aa6c15a6dda7f43ba1990a0f932c959698c6decef394da7ee5c39d49f336f4
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_win_debug.exe
+
+    - name: player-27.0.0.170-windows-ppapi
+      file: flashplayer27_0r0_170_winpep.exe
+      size: 20728832
+      sha256: 86292d993b6232fe7712adf8ffa19400fd42ad80ec4876a6363597b7cfc63171
+      path: 27_0_r0_170/flashplayer27_0r0_170_winpep.exe
+
+    - name: player-27.0.0.170-windows-ppapi-msi
+      file: flashplayer27_0r0_170_winpep.msi
+      size: 21878784
+      sha256: fe4d8f66c230bfe654e4385bcaa7e1961292c726bc605ee4fe4a5d56f99a0ccb
+      path: 27_0_r0_170/flashplayer27_0r0_170_winpep.msi
+
+    - name: player-27.0.0.170-windows-ppapi-debug
+      file: flashplayer27_0r0_170_winpep_debug.exe
+      size: 21199872
+      sha256: 2a272e46aac08b3c2a10f8f636c1df5760eacff5f9a08036e07df64af2777cc4
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_winpep_debug.exe
+
+    - name: player-27.0.0.170-windows-activex
+      file: flashplayer27_0r0_170_winax.exe
+      size: 20249600
+      sha256: 918c7537f2977c2318a10e3bf58ae9e86ecf8c4eca79ee0fa8f39d8c03b5bb49
+      path: 27_0_r0_170/flashplayer27_0r0_170_winax.exe
+
+    - name: player-27.0.0.170-windows-activex-msi
+      file: flashplayer27_0r0_170_winax.msi
+      size: 21394432
+      sha256: 34334f7c17fab360651392c3b31429382488246b06ad87071f7538b334bd428d
+      path: 27_0_r0_170/flashplayer27_0r0_170_winax.msi
+
+    - name: player-27.0.0.170-windows-activex-debug
+      file: flashplayer27_0r0_170_winax_debug.exe
+      size: 20618240
+      sha256: b72a2d06802b57eb3c08c0c940c1d43f90f04b33edf9c24f6501270b7c9d1c36
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_winax_debug.exe
+
+    - name: player-27.0.0.170-windows-sa
+      file: flashplayer27_0r0_170_win_sa.exe
+      size: 15022080
+      sha256: 74752b22e70391a29e50fc01853227de4866ff5dae76ba2f7ca56b9713e8d1bf
+      path: 27_0_r0_170/flashplayer27_0r0_170_win_sa.exe
+
+    - name: player-27.0.0.170-windows-sa-debug
+      file: flashplayer27_0r0_170_win_sa_debug.exe
+      size: 15851008
+      sha256: 65264ea26323895b922c5429224e670dd06a8bfa567d62ff3bb999048dd7e1ac
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_win_sa_debug.exe
+
+    - name: player-27.0.0.170-windows-uninstaller
+      file: uninstall_flashplayer27_0r0_170_win.exe
+      size: 1319424
+      sha256: 08bd18dd3fb50da05b9e11acf6a5d9ed1f50ae0af3efd49a7c4f3959a2e19b78
+      path: 27_0_r0_170/uninstall_flashplayer27_0r0_170_win.exe
+
+    - name: player-27.0.0.170-mac-npapi
+      file: flashplayer27_0r0_170_mac.dmg
+      size: 19129322
+      sha256: 86cc201f1b7558ac378f6a5da18f6b3d49718f45bd9904df315b81419f2425c8
+      path: 27_0_r0_170/flashplayer27_0r0_170_mac.dmg
+
+    - name: player-27.0.0.170-mac-npapi-pkg
+      file: flashplayer27_0r0_170_mac_pkg.dmg
+      size: 18591421
+      sha256: 284c147becb42b6db02a8e1dfb31ad73ae8bf0c971643e7698f98d998dfba538
+      path: 27_0_r0_170/flashplayer27_0r0_170_mac_pkg.dmg
+
+    - name: player-27.0.0.170-mac-npapi-debug
+      file: flashplayer27_0r0_170_mac_debug.dmg
+      size: 19359103
+      sha256: 4befa1e9cd8e41bd7904592ca08f7e3e1bc3f157f1907eaa6f516ab707a6c30e
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_mac_debug.dmg
+
+    - name: player-27.0.0.170-mac-ppapi
+      file: flashplayer27_0r0_170_macpep.dmg
+      size: 18588762
+      sha256: ee65c625465adee5c3fcd16c79fed3fb4855615b7f858ec8fbb343859b7e12ce
+      path: 27_0_r0_170/flashplayer27_0r0_170_macpep.dmg
+
+    - name: player-27.0.0.170-mac-ppapi-pkg
+      file: flashplayer27_0r0_170_macpep_pkg.dmg
+      size: 17964753
+      sha256: 2725d02d456aef53e4c7b6f164d20a58bc2f5d8c32d44268cabcbe85f0be9845
+      path: 27_0_r0_170/flashplayer27_0r0_170_macpep_pkg.dmg
+
+    - name: player-27.0.0.170-mac-ppapi-debug
+      file: flashplayer27_0r0_170_macpep_debug.dmg
+      size: 18892015
+      sha256: f474e254503e25c29ecf32e8afc15eefb6b54a4c757af840e989d9e37b4ab8b4
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_macpep_debug.dmg
+
+    - name: player-27.0.0.170-mac-sa
+      file: flashplayer27_0r0_170_mac_sa.dmg
+      size: 16897039
+      sha256: 8568dc4e3aa15aa8a43d38135a1a7ef746caa07acda4bb101f3c5de7c227ac8b
+      path: 27_0_r0_170/flashplayer27_0r0_170_mac_sa.dmg
+
+    - name: player-27.0.0.170-mac-sa-debug
+      file: flashplayer27_0r0_170_mac_sa_debug.dmg
+      size: 17480376
+      sha256: 80011462b51969925a5999e1ce538e1315ad05b3a66a767b1aafe1a5939e8aeb
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_mac_sa_debug.dmg
+
+    - name: player-27.0.0.170-mac-uninstaller
+      file: uninstall_flashplayer27_0r0_170_mac.dmg
+      size: 430920
+      sha256: 5bc20a3640ba5f9d9b1db8de839772c4f95d9cfd07c6407660be64f003661ec8
+      path: 27_0_r0_170/uninstall_flashplayer27_0r0_170_mac.dmg
+
+    - name: player-27.0.0.170-linux-i386-npapi
+      file: flashplayer27_0r0_170_linux.i386.tar.gz
+      size: 8512470
+      sha256: a06d815d2858e58b0f11624a6567da3de17db27df68a3527a7774ba21f4558cb
+      path: 27_0_r0_170/flashplayer27_0r0_170_linux.i386.tar.gz
+
+    - name: player-27.0.0.170-linux-i386-npapi-debug
+      file: flashplayer27_0r0_170_linux_debug.i386.tar.gz
+      size: 8828312
+      sha256: a83d010d6c66bfb25a236378f7b5a16b8c5ac1397e139632eb24a40d67090d27
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_linux_debug.i386.tar.gz
+
+    - name: player-27.0.0.170-linux-i386-ppapi
+      file: flashplayer27_0r0_170_linuxpep.i386.tar.gz
+      size: 8547131
+      sha256: 9b60006e28333bb0a8f333ebd97782dc811b8c35d63ea5441d65bea5a7085aa4
+      path: 27_0_r0_170/flashplayer27_0r0_170_linuxpep.i386.tar.gz
+
+    - name: player-27.0.0.170-linux-x86_64-npapi
+      file: flashplayer27_0r0_170_linux.x86_64.tar.gz
+      size: 9025191
+      sha256: 966761fda5fc29301cd7720dc1e84b2551d142e7e5d51e3898e8e6fe7c11cc43
+      path: 27_0_r0_170/flashplayer27_0r0_170_linux.x86_64.tar.gz
+
+    - name: player-27.0.0.170-linux-x86_64-npapi-debug
+      file: flashplayer27_0r0_170_linux_debug.x86_64.tar.gz
+      size: 9387956
+      sha256: 6f679e166f0445b5a8afec9cc5d2fac0154a85207033ca0f2b0a227af7e90d05
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_linux_debug.x86_64.tar.gz
+
+    - name: player-27.0.0.170-linux-x86_64-ppapi
+      file: flashplayer27_0r0_170_linuxpep.x86_64.tar.gz
+      size: 9461678
+      sha256: 2ac5788fd87881acbdf5992a0b4841087e30f4244ecff7311fe36b702b0c25ab
+      path: 27_0_r0_170/flashplayer27_0r0_170_linuxpep.x86_64.tar.gz
+
+    - name: player-27.0.0.170-linux-x86_64-ppapi-debug
+      file: flashplayer27_0r0_170_linuxpep_debug.x86_64.tar.gz
+      size: 9896299
+      sha256: 96e06d805f5584372f49c409d7836c3fb6eb8e2aa1a5fc9cc2f8da84636c8f12
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_linuxpep_debug.x86_64.tar.gz
+
+    - name: player-27.0.0.170-linux-x86_64-sa
+      file: flashplayer27_0r0_170_linux_sa.x86_64.tar.gz
+      size: 8482846
+      sha256: 6ae78681698fde6f4de33fed357690087895b5c00f7c9e40f1d8a576e4a14dfb
+      path: 27_0_r0_170/flashplayer27_0r0_170_linux_sa.x86_64.tar.gz
+
+    - name: player-27.0.0.170-linux-x86_64-sa-debug
+      file: flashplayer27_0r0_170_linux_sa_debug.x86_64.tar.gz
+      size: 8798823
+      sha256: 9056d1b307434863ac6b74f153e74e9d06d0910ef6ad5d39bb6f6e9e5ed7e1d7
+      path: 27_0_r0_170_debug/flashplayer27_0r0_170_linux_sa_debug.x86_64.tar.gz

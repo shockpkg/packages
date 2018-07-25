@@ -1,0 +1,131 @@
+- name: player-23.0.0.207-archive
+  file: fp_23.0.0.207_archive.zip
+  size: 338168749
+  sha256: d7a2eec96df60fb633c9a6f600e149400416abe50717afbed3050dae37efe779
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_23.0.0.207_archive.zip'
+  packages:
+    - name: player-23.0.0.207-windows-npapi
+      file: flashplayer23_0r0_207_win.exe
+      size: 20174528
+      sha256: 3ab355ade6d48553e20475f5641e79f76bff3248bea258fb1cb7c3564609a452
+      path: 23_0_r0_207/flashplayer23_0r0_207_win.exe
+
+    - name: player-23.0.0.207-windows-npapi-msi
+      file: flashplayer23_0r0_207_win.msi
+      size: 21347840
+      sha256: 17327ab2c9666a0bc88a5f661c1bf98bfba644d92f252f5cb23cbb4b2527f3fd
+      path: 23_0_r0_207/flashplayer23_0r0_207_win.msi
+
+    - name: player-23.0.0.207-windows-npapi-debug
+      file: flashplayer23_0r0_207_win_debug.exe
+      size: 19985600
+      sha256: 533447b6c17f17eb706fbfe989a24d4f5abf694f7cb3a1dfc7e9254bb998e7e6
+      path: 23_0_r0_207_debug/flashplayer23_0r0_207_win_debug.exe
+
+    - name: player-23.0.0.207-windows-ppapi
+      file: flashplayer23_0r0_207_winpep.exe
+      size: 20478144
+      sha256: f224e92cba916394197fde276190db3c45f2321b92730da341118965a5600ef9
+      path: 23_0_r0_207/flashplayer23_0r0_207_winpep.exe
+
+    - name: player-23.0.0.207-windows-ppapi-msi
+      file: flashplayer23_0r0_207_winpep.msi
+      size: 21650944
+      sha256: 0ff022204b93dd1f0678a3e793bc368cc4f8e08b577e452d0737b0864f7f2ea6
+      path: 23_0_r0_207/flashplayer23_0r0_207_winpep.msi
+
+    - name: player-23.0.0.207-windows-ppapi-debug
+      file: flashplayer23_0r0_207_winpep_debug.exe
+      size: 20969152
+      sha256: c55813f1d072843ab46cc34e8a1a17c57ae57c6f84d7f70de8e0ccf1d0b78af1
+      path: 23_0_r0_207_debug/flashplayer23_0r0_207_winpep_debug.exe
+
+    - name: player-23.0.0.207-windows-activex
+      file: flashplayer23_0r0_207_winax.exe
+      size: 19643072
+      sha256: b59a6ac1dc936506f79afdef7cb5ca66d80ce61e8674c35d7f0967e285cfb025
+      path: 23_0_r0_207/flashplayer23_0r0_207_winax.exe
+
+    - name: player-23.0.0.207-windows-activex-msi
+      file: flashplayer23_0r0_207_winax.msi
+      size: 20877312
+      sha256: 5d4ed9a42a8fc71583b30c77a3670248d98d960a943188ed39b3fda260e221fd
+      path: 23_0_r0_207/flashplayer23_0r0_207_winax.msi
+
+    - name: player-23.0.0.207-windows-activex-debug
+      file: flashplayer23_0r0_207_winax_debug.exe
+      size: 20029120
+      sha256: 6f50f6958441e2cdae4628c4466f543ce9350aacfe7ddbbf06390332bb515b7a
+      path: 23_0_r0_207_debug/flashplayer23_0r0_207_winax_debug.exe
+
+    - name: player-23.0.0.207-windows-sa
+      file: flashplayer23_0r0_207_win_sa.exe
+      size: 14915776
+      sha256: cdd10e42c5960959307f9d4b354d8ba3a6098f3a9fb359dd80c30831692cecd7
+      path: 23_0_r0_207/flashplayer23_0r0_207_win_sa.exe
+
+    - name: player-23.0.0.207-windows-sa-debug
+      file: flashplayer23_0r0_207_win_sa_debug.exe
+      size: 15762112
+      sha256: 5f312b0392f7d87900b52bbc2c1d27175beb1c0c6ac729cd5c29c192bd022c73
+      path: 23_0_r0_207_debug/flashplayer23_0r0_207_win_sa_debug.exe
+
+    - name: player-23.0.0.207-windows-uninstaller
+      file: uninstall_flashplayer23_0r0_207_win.exe
+      size: 1224896
+      sha256: a607e96cd5969e20fde4e8ad0a2558cc6451b6a5bdb75a2c0c798588c71425ae
+      path: 23_0_r0_207/uninstall_flashplayer23_0r0_207_win.exe
+
+    - name: player-23.0.0.207-mac-npapi
+      file: flashplayer23_0r0_207_mac.dmg
+      size: 18875970
+      sha256: 4efcbba793450411cda526786590123229196f4c858066da2722f83a1313f019
+      path: 23_0_r0_207/flashplayer23_0r0_207_mac.dmg
+
+    - name: player-23.0.0.207-mac-npapi-pkg
+      file: flashplayer23_0r0_207_mac_pkg.dmg
+      size: 18345874
+      sha256: e4964d4e3541b11868f7bebf13583a9464b5301c61ba4bd478ee46ff323bf306
+      path: 23_0_r0_207/flashplayer23_0r0_207_mac_pkg.dmg
+
+    - name: player-23.0.0.207-mac-npapi-debug
+      file: flashplayer23_0r0_207_mac_debug.dmg
+      size: 19124730
+      sha256: 6ad4ced374e7f7c26ea777cbd09958672567f4319e10245a3631175f6323302a
+      path: 23_0_r0_207_debug/flashplayer23_0r0_207_mac_debug.dmg
+
+    - name: player-23.0.0.207-mac-ppapi
+      file: flashplayer23_0r0_207_macpep.dmg
+      size: 18615334
+      sha256: dd3fa12e236f2b5c135433f418a3632ac23585823c4fa93a4a37e4fcfde6c2b3
+      path: 23_0_r0_207/flashplayer23_0r0_207_macpep.dmg
+
+    - name: player-23.0.0.207-mac-ppapi-pkg
+      file: flashplayer23_0r0_207_macpep_pkg.dmg
+      size: 18087845
+      sha256: 91e26dc0ff2b02993ec5c4c5b5f31eab753a40216fb305f21cb8649cfd9c7b24
+      path: 23_0_r0_207/flashplayer23_0r0_207_macpep_pkg.dmg
+
+    - name: player-23.0.0.207-mac-ppapi-debug
+      file: flashplayer23_0r0_207_macpep_debug.dmg
+      size: 18925301
+      sha256: 0c12aef053e6684a6458577e8f6521949d97f485786827fb961cd22b588bcf7f
+      path: 23_0_r0_207_debug/flashplayer23_0r0_207_macpep_debug.dmg
+
+    - name: player-23.0.0.207-mac-sa
+      file: flashplayer23_0r0_207_mac_sa.dmg
+      size: 16678114
+      sha256: c43a1bf05268144086b8459ee2ed5c58434d0f8e1b402ade33e532ae396e7089
+      path: 23_0_r0_207/flashplayer23_0r0_207_mac_sa.dmg
+
+    - name: player-23.0.0.207-mac-sa-debug
+      file: flashplayer23_0r0_207_mac_sa_debug.dmg
+      size: 17253186
+      sha256: ba05661a347ff596f53bb8a5af6c0acbcef1e7492262a8ba6f80927310d8e7d1
+      path: 23_0_r0_207_debug/flashplayer23_0r0_207_mac_sa_debug.dmg
+
+    - name: player-23.0.0.207-mac-uninstaller
+      file: uninstall_flashplayer23_0r0_207_mac.dmg
+      size: 425746
+      sha256: bc8d7ef70370fe3a8ad3d0314b531a1b18d83424882f3c29a3b3f7c85d978568
+      path: 23_0_r0_207/uninstall_flashplayer23_0r0_207_mac.dmg

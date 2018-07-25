@@ -1,0 +1,119 @@
+- name: player-19.0.0.245-archive
+  file: fp_19.0.0.245_archive.zip
+  size: 271809871
+  sha256: 79c50540a60c686c6ae8fcf15cfe6f36d017dbd21a62533bd20b281dcf0f2873
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_19.0.0.245_archive.zip'
+  packages:
+    - name: player-19.0.0.245-windows-npapi
+      file: flashplayer19_0r0_245_win.exe
+      size: 18843848
+      sha256: 804349d4089f0d31a44a9c64988b06d88af654bf9255664586e9df3a7d5e4f1c
+      path: fp_19.0.0.245_archive/19_0_r0_245/flashplayer19_0r0_245_win.exe
+
+    - name: player-19.0.0.245-windows-npapi-msi
+      file: flashplayer19_0r0_245_win.msi
+      size: 20024832
+      sha256: 98a829ebff9d75f4852e2a9ed6240a3fb67167af5d4d250ab63ba9263b118407
+      path: fp_19.0.0.245_archive/19_0_r0_245/flashplayer19_0r0_245_win.msi
+
+    - name: player-19.0.0.245-windows-npapi-debug
+      file: flashplayer19_0r0_245_win_debug.exe
+      size: 18650312
+      sha256: 2a3e5e5ed01e55ee5915bdb937c29b77af1cb76ed4307f89420a68034f479d53
+      path: fp_19.0.0.245_archive/19_0_r0_245_debug/flashplayer19_0r0_245_win_debug.exe
+
+    - name: player-19.0.0.245-windows-ppapi
+      file: flashplayer_19_0r0_245__winpep.exe
+      size: 19387592
+      sha256: 6f3724ed110d68e0df9c1ed795eee0885931138cba124011ef505dff6280dc82
+      path: fp_19.0.0.245_archive/19_0_r0_245/flashplayer_19_0r0_245__winpep.exe
+
+    - name: player-19.0.0.245-windows-ppapi-debug
+      file: flashplayer_19_0r0_245__winpep_debug.exe
+      size: 19862216
+      sha256: 10ebc9ece410aef85520964dbcad7e6266d8b1a8d78f65a8399da140280cd8e7
+      path: fp_19.0.0.245_archive/19_0_r0_245_debug/flashplayer_19_0r0_245__winpep_debug.exe
+
+    - name: player-19.0.0.245-windows-activex
+      file: flashplayer19_0r0_245_winax.exe
+      size: 18324168
+      sha256: 1fd6e33c1fb5699d0d8763c1c74a5670e4b4a675b64e3c1cfbad41d8d2546c6a
+      path: fp_19.0.0.245_archive/19_0_r0_245/flashplayer19_0r0_245_winax.exe
+
+    - name: player-19.0.0.245-windows-activex-msi
+      file: flashplayer19_0r0_245_winax.msi
+      size: 19566080
+      sha256: 2854a0c14d3ae41ff400886c5eed9d046cde2cdc0b7a85d874259190ac5ac06c
+      path: fp_19.0.0.245_archive/19_0_r0_245/flashplayer19_0r0_245_winax.msi
+
+    - name: player-19.0.0.245-windows-activex-debug
+      file: flashplayer19_0r0_245_winax_debug.exe
+      size: 18709192
+      sha256: 76b4ef4217b4031e4c548f4293c117d7385087dcfcb9544ec4d3ef3f7b6b5544
+      path: fp_19.0.0.245_archive/19_0_r0_245_debug/flashplayer19_0r0_245_winax_debug.exe
+
+    - name: player-19.0.0.245-windows-sa
+      file: flahsplayer19_0r0_245_sa.exe
+      size: 12949704
+      sha256: b54744663da74aee686f3ddebad9f27ebfc6cf1b5f8bbe5a41b77c98daa83baf
+      path: fp_19.0.0.245_archive/19_0_r0_245/flahsplayer19_0r0_245_sa.exe
+
+    - name: player-19.0.0.245-windows-sa-debug
+      file: flashplayer19_0r0_245_win_sa_debug.exe
+      size: 13801160
+      sha256: 25836cdc27dbff0b05ffccdbefba056b6a783f387bb5d7a0123b8d7a885b8b0f
+      path: fp_19.0.0.245_archive/19_0_r0_245_debug/flashplayer19_0r0_245_win_sa_debug.exe
+
+    - name: player-19.0.0.245-windows-uninstaller
+      file: uninstall_flashplayer19_0r0_245_win.exe
+      size: 1158856
+      sha256: 311cd2affb1004763f40bce19752d36c8023aa541de0a4fd74fb5e6c15b2e5a8
+      path: fp_19.0.0.245_archive/19_0_r0_245/uninstall_flashplayer19_0r0_245_win.exe
+
+    - name: player-19.0.0.245-mac-npapi
+      file: flashplayer19_0r0_245_mac.dmg
+      size: 16761152
+      sha256: a4981259f87e1c12fe242eb26352f13f41f980dff7d3ee0bb5aeeae787f06c24
+      path: fp_19.0.0.245_archive/19_0_r0_245/flashplayer19_0r0_245_mac.dmg
+
+    - name: player-19.0.0.245-mac-npapi-pkg
+      file: flashplayer19_0r0_245_mac_pkg.dmg
+      size: 16413972
+      sha256: 640061ace3f8e1eb69ef19043b397b6ab04dc7a4be1edc6bf2973deb6c70e6d3
+      path: fp_19.0.0.245_archive/19_0_r0_245/flashplayer19_0r0_245_mac_pkg.dmg
+
+    - name: player-19.0.0.245-mac-npapi-debug
+      file: flashplayer19_0r0_245_mac_debug.dmg
+      size: 16854474
+      sha256: 5675e56dde9a26f04437131988e5463425e11fbc375971180f19e68131d26652
+      path: fp_19.0.0.245_archive/19_0_r0_245_debug/flashplayer19_0r0_245_mac_debug.dmg
+
+    - name: player-19.0.0.245-mac-ppapi
+      file: flashplayer_19_0r0_245__macpep.dmg
+      size: 16488694
+      sha256: 74fd467b24dbec3cb78fb42aafcfd41bab7f366af8856db93a8581989629a2d2
+      path: fp_19.0.0.245_archive/19_0_r0_245/flashplayer_19_0r0_245__macpep.dmg
+
+    - name: player-19.0.0.245-mac-ppapi-debug
+      file: flashplayer_19_0r0_245_macpep_debug.dmg
+      size: 16904779
+      sha256: 251763147fa853a4df90eb8b88d52495cc880bed4922cdaeb5beceec415a018d
+      path: fp_19.0.0.245_archive/19_0_r0_245_debug/flashplayer_19_0r0_245_macpep_debug.dmg
+
+    - name: player-19.0.0.245-mac-sa
+      file: flahsplayer19_0r0_245_sa.dmg
+      size: 13677470
+      sha256: 1035bc703b1f078b64ef6d39a458928f40cb909fca78bd51da012e30b3d00431
+      path: fp_19.0.0.245_archive/19_0_r0_245/flahsplayer19_0r0_245_sa.dmg
+
+    - name: player-19.0.0.245-mac-sa-debug
+      file: flashplayer19_0r0_245_sa_debug.dmg
+      size: 14205029
+      sha256: 4bc5047aa96fc984f6927c12a196ac771d1dc45be50e5c8f7753477b23256ec5
+      path: fp_19.0.0.245_archive/19_0_r0_245_debug/flashplayer19_0r0_245_sa_debug.dmg
+
+    - name: player-19.0.0.245-mac-uninstaller
+      file: uninstall_flashplayer19_0r0_245_mac.dmg
+      size: 272816
+      sha256: 494914fdab7afa8a68a719acf77fa7b9ad6799a5dabf278a7c2b0c8f969def20
+      path: fp_19.0.0.245_archive/19_0_r0_245/uninstall_flashplayer19_0r0_245_mac.dmg

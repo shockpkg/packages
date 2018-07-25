@@ -1,0 +1,107 @@
+- name: player-16.0.0.287-archive
+  file: fp_16.0.0.287_archive.zip
+  size: 246341917
+  sha256: a96d440358beab28df94289e376f4581e5adfaf64d62e2d197b3d947d9d0dfe8
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_16.0.0.287_archive.zip'
+  packages:
+    - name: player-16.0.0.287-windows-npapi
+      file: flashplayer16_0r0_287_win.exe
+      size: 18133680
+      sha256: 506d81735374cfe5a72a1c38cb17480c4c7e871b0450e71e4ca8c77d5b966224
+      path: fp_16.0.0.287_archive/16_0_r0_287/flashplayer16_0r0_287_win.exe
+
+    - name: player-16.0.0.287-windows-npapi-msi
+      file: flashplayer16_0r0_287_win.msi
+      size: 19198464
+      sha256: 3e5a752748b0f0ce2b21529792623e7d881fbcfff8ec1f00cdd3fb078f150d2d
+      path: fp_16.0.0.287_archive/16_0_r0_287/flashplayer16_0r0_287_win.msi
+
+    - name: player-16.0.0.287-windows-npapi-debug
+      file: flashplayer16_0r0_287_win_debug.exe
+      size: 17871024
+      sha256: 669c952d7656d63c32c0fe80b7f62d11b52764a0a188da6d4b91180904c234aa
+      path: fp_16.0.0.287_archive/16_0_r0_287_debug/flashplayer16_0r0_287_win_debug.exe
+
+    - name: player-16.0.0.287-windows-ppapi
+      file: flashplayer16_0r0_287_winpep.exe
+      size: 17149616
+      sha256: 487906d08261e0c26ac19453d82e16d8c0b294f16f625ab001cb19b7add302ea
+      path: fp_16.0.0.287_archive/16_0_r0_287/flashplayer16_0r0_287_winpep.exe
+
+    - name: player-16.0.0.287-windows-ppapi-debug
+      file: flashplayer16_0r0_287_winpep_debug.exe
+      size: 17536176
+      sha256: d1291511616666615d0f37f94a1c69b712f4fe13e560d62a080c2c3d7a60e660
+      path: fp_16.0.0.287_archive/16_0_r0_287_debug/flashplayer16_0r0_287_winpep_debug.exe
+
+    - name: player-16.0.0.287-windows-activex
+      file: flashplayer16_0r0_287_winax.exe
+      size: 17545392
+      sha256: f27431ebc257067d48e358ddd45a7d191d1beef02768d84d064ed2d54aa393d0
+      path: fp_16.0.0.287_archive/16_0_r0_287/flashplayer16_0r0_287_winax.exe
+
+    - name: player-16.0.0.287-windows-activex-msi
+      file: flashplayer16_0r0_287_winax.msi
+      size: 18670080
+      sha256: 0c0f850de8188a2a5fd51ff2eaecd9d5631033341aac1c1939321cfb7ef0fa12
+      path: fp_16.0.0.287_archive/16_0_r0_287/flashplayer16_0r0_287_winax.msi
+
+    - name: player-16.0.0.287-windows-activex-debug
+      file: flashplayer16_0r0_287_winax_debug.exe
+      size: 17927344
+      sha256: 07bea4f680c043f08ed55e1ab3d09498280f0ce4f71f1d079960b5c88ef1c785
+      path: fp_16.0.0.287_archive/16_0_r0_287_debug/flashplayer16_0r0_287_winax_debug.exe
+
+    - name: player-16.0.0.287-windows-sa-debug
+      file: flashplayer16_0r0_287_win_sa_debug.exe
+      size: 12072112
+      sha256: aec53c71c7e431e894322b4d6be703b1ddc6c4f7b81ae39ec2c6adbcd4ea7113
+      path: fp_16.0.0.287_archive/16_0_r0_287_debug/flashplayer16_0r0_287_win_sa_debug.exe
+
+    - name: player-16.0.0.287-windows-uninstaller
+      file: uninstall_flashplayer16_0r0_287_win.exe
+      size: 960688
+      sha256: 72c23914550a9c124c73e37e7defec5b401a475217abe7c8f3dcef7ef80358ed
+      path: fp_16.0.0.287_archive/16_0_r0_287/uninstall_flashplayer16_0r0_287_win.exe
+
+    - name: player-16.0.0.287-mac-npapi
+      file: flashplayer16_0r0_287_mac.dmg
+      size: 15639334
+      sha256: a34840ad9c0ba18622bb5a548daa7080e060906b1c9c8a353c4dcc52ea91a55d
+      path: fp_16.0.0.287_archive/16_0_r0_287/flashplayer16_0r0_287_mac.dmg
+
+    - name: player-16.0.0.287-mac-npapi-pkg
+      file: flashplayer16_0r0_287_mac_pkg.dmg
+      size: 15379644
+      sha256: 7e5d3a430ae4252df91ee920bdb9c8a04ef18cac519516a0d39fa644ab70f056
+      path: fp_16.0.0.287_archive/16_0_r0_287/flashplayer16_0r0_287_mac_pkg.dmg
+
+    - name: player-16.0.0.287-mac-npapi-debug
+      file: flashplayer16_0r0_287_mac_debug.dmg
+      size: 15976585
+      sha256: ec5e96a87123c50886ae3aef77a23e5542de2fa8c1f020fdcad1ca51a4d73c84
+      path: fp_16.0.0.287_archive/16_0_r0_287_debug/flashplayer16_0r0_287_mac_debug.dmg
+
+    - name: player-16.0.0.287-mac-ppapi
+      file: flashplayer16_0r0_287_macpep.dmg
+      size: 13810343
+      sha256: 13f6c1d7a4c3c5bce45b8925c91a020cd9ca5dc23f76e0af8ab8f19e403cf887
+      path: fp_16.0.0.287_archive/16_0_r0_287/flashplayer16_0r0_287_macpep.dmg
+
+    - name: player-16.0.0.287-mac-ppapi-debug
+      file: flashplayer16_0r0_287_macpep_debug.dmg
+      size: 14188790
+      sha256: f51021d9d70def8513a8b65c2cd475930c136c061f39801079a29fb78c0ef102
+      path: fp_16.0.0.287_archive/16_0_r0_287_debug/flashplayer16_0r0_287_macpep_debug.dmg
+
+    - name: player-16.0.0.287-mac-sa-debug
+      file: flashplayer16_0r0_287_mac_sa_debug.dmg
+      size: 14021229
+      sha256: 025f208c1a28ad4159c61b825713edf41e0bdfa87e7bb843109aa614d39577cb
+      path: fp_16.0.0.287_archive/16_0_r0_287_debug/flashplayer16_0r0_287_mac_sa_debug.dmg
+
+    - name: player-16.0.0.287-mac-uninstaller
+      file: uninstall_flashplayer16_0r0_287_mac.dmg
+      size: 257696
+      sha256: acd04ac38622d683a55e23d6716687b9244c7d7b17db3db421cdd94417650b83
+      path: fp_16.0.0.287_archive/16_0_r0_287/uninstall_flashplayer16_0r0_287_mac.dmg

@@ -1,0 +1,5 @@
+- name: playerglobal-13.0
+  file: playerglobal13_0.swc
+  size: 382431
+  sha256: 27ab424643d75bf87331d44084abc34890b494d97b6254b084f9e67a471b7ab5
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/playerglobal/playerglobal13_0.swc'

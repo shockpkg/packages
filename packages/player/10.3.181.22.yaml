@@ -1,0 +1,119 @@
+- name: player-10.3.181.22-archive
+  file: fp_10.3.181.22_archive.zip
+  size: 79382844
+  sha256: 84c6c6b236f215c455f42874122d19445dbfd41d9e011a30e68f8158a85ff56b
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.181.22_archive.zip'
+  packages:
+    - name: player-10.3.181.22-windows-npapi
+      file: flashplayer10_3r181_22_win.exe
+      size: 3080864
+      sha256: 0f8a186f4dc5a0736f60377dbecf93dad8f4cf282d25d2ba031fd25e1bed4280
+      path: fp_10.3.181.22_archive/10_3r181_22/flashplayer10_3r181_22_win.exe
+
+    - name: player-10.3.181.22-windows-npapi-debug
+      file: flashplayer10_3r181_22_win_debug.exe
+      size: 3347616
+      sha256: cd3dab16f3aaf4db591dd1ae17bb7c7ca564e9fa05536c20fc93e1e97eeeecdb
+      path: fp_10.3.181.22_archive/10_3181_22_debug/flashplayer10_3r181_22_win_debug.exe
+
+    - name: player-10.3.181.22-windows-activex
+      file: flashplayer10_3r181_23_winax.exe
+      size: 3119776
+      sha256: 3c746093d99929de6b900fb1b55ddc19c4ded15cec4981e9090447191a5cecc4
+      path: fp_10.3.181.22_archive/10_3r181_22/flashplayer10_3r181_23_winax.exe
+
+    - name: player-10.3.181.22-windows-activex-debug
+      file: flashplayer10_3r181_23_winax_debug.exe
+      size: 3385504
+      sha256: 84c05010c08483e4587bacc91c624d06a8645ea45109b267d5295e79339fb91d
+      path: fp_10.3.181.22_archive/10_3181_22_debug/flashplayer10_3r181_23_winax_debug.exe
+
+    - name: player-10.3.181.22-windows-sa
+      file: flashplayer10_3r181_23_win_sa.exe
+      size: 5786784
+      sha256: 2e999268d96e01c58a0a5502b9ffb5c7f70c6bbf0d3c7a2c61d51d6bca48fa91
+      path: fp_10.3.181.22_archive/10_3r181_22/flashplayer10_3r181_23_win_sa.exe
+
+    - name: player-10.3.181.22-windows-sa-debug
+      file: flashplayer10_3r181_23_win_sa_debug.exe
+      size: 6816416
+      sha256: 9c4ad37655bd1d55df6158a1e306e82c20605f9c43995a73e8515f869afc7bf2
+      path: fp_10.3.181.22_archive/10_3181_22_debug/flashplayer10_3r181_23_win_sa_debug.exe
+
+    - name: player-10.3.181.22-windows-uninstaller
+      file: uninstall_flashplayer10_3r181_23_win.exe
+      size: 240288
+      sha256: 63c8f28a2735515730c8ec36b51ecaac97e125b8d11296fe74d57810f91b532d
+      path: fp_10.3.181.22_archive/10_3r181_22/uninstall_flashplayer10_3r181_23_win.exe
+
+    - name: player-10.3.181.22-mac-npapi
+      file: flashplayer10_3r181_22_mac_intel.dmg
+      size: 6371707
+      sha256: 4c1b8cf50ddb558a47fe849af5eb378f1ef4878bcd20a0cb6d0a218bc2e527d4
+      path: fp_10.3.181.22_archive/10_3r181_22/flashplayer10_3r181_22_mac_intel.dmg
+
+    - name: player-10.3.181.22-mac-npapi-debug
+      file: flashplayer10_3r181_22_mac_intel_debug.dmg
+      size: 6743794
+      sha256: 7990eca1b245face0ab941e78ac6f301127d204b1ca7aff78be047abecdd2306
+      path: fp_10.3.181.22_archive/10_3181_22_debug/flashplayer10_3r181_22_mac_intel_debug.dmg
+
+    - name: player-10.3.181.22-mac-sa
+      file: flashplayer10_3r181_22_mac_sa.app.zip
+      size: 5184106
+      sha256: b2378bd0e161c48766e580043518cbed15aacb8f4bd468bdd35fe395d0ed8971
+      path: fp_10.3.181.22_archive/10_3r181_22/flashplayer10_3r181_22_mac_sa.app.zip
+
+    - name: player-10.3.181.22-mac-sa-debug
+      file: flashplayer10_3r181_22_mac_sa_debug.app.zip
+      size: 5519557
+      sha256: cd8a6759171f5953df6eae1ea91ea64692bb7b5daba3e62164b8410c23c4915e
+      path: fp_10.3.181.22_archive/10_3181_22_debug/flashplayer10_3r181_22_mac_sa_debug.app.zip
+
+    - name: player-10.3.181.22-mac-uninstaller
+      file: uninstall_flashplayer10_3r181_22_mac_intel.dmg
+      size: 446209
+      sha256: cbb849d37914f54a19df85bb0b28c922a894a63cfee71b6289bba600508379a8
+      path: fp_10.3.181.22_archive/10_3r181_22/uninstall_flashplayer10_3r181_22_mac_intel.dmg
+
+    - name: player-10.3.181.22-linux-npapi
+      file: flashplayer10_3r181_22_linux.tar.gz
+      size: 5456136
+      sha256: b98819f423de38432d9a6f044ae2b73dddd789ab6079d1ac19b7882783ae35eb
+      path: fp_10.3.181.22_archive/10_3r181_22/flashplayer10_3r181_22_linux.tar.gz
+
+    - name: player-10.3.181.22-linux-npapi-debug
+      file: flashplayer10_3r181_22_linux_debug.tar.gz
+      size: 5861154
+      sha256: e3679a19c874d0403daa12f5298bc09a974b9d50c476d3b22a38550e5d88f515
+      path: fp_10.3.181.22_archive/10_3181_22_debug/flashplayer10_3r181_22_linux_debug.tar.gz
+
+    - name: player-10.3.181.22-linux-sa
+      file: flashplayer10_3r181_22_linux_sa.tar.gz
+      size: 4423485
+      sha256: 96f3792d9c47cf13af862ab2a0aebfff8d5a14300e0cea96746f9d58d2d2aa29
+      path: fp_10.3.181.22_archive/10_3r181_22/flashplayer10_3r181_22_linux_sa.tar.gz
+
+    - name: player-10.3.181.22-linux-sa-debug
+      file: flashplayer10_3r181_22_linux_sa_debug.tar.gz
+      size: 4800054
+      sha256: 0700cdc99e487b8a511214d3ba636fa822a6eb450fd0ae5700080f54bf8ef590
+      path: fp_10.3.181.22_archive/10_3181_22_debug/flashplayer10_3r181_22_linux_sa_debug.tar.gz
+
+    - name: player-10.3.181.22-linux-i386-npapi
+      file: flash-plugin-10.3.181.22-release.i386.rpm
+      size: 5446875
+      sha256: ebe1c59902ba6142f65f7f1ca2bc66c9d489d9d62f12a38e1ae2e3428cb75edd
+      path: fp_10.3.181.22_archive/10_3r181_22/flash-plugin-10.3.181.22-release.i386.rpm
+
+    - name: player-10.3.181.22-solaris-x86-npapi
+      file: flashplayer10_3r181_22_solaris_x86.tar.bz2
+      size: 4752395
+      sha256: b807c98fc66e0f42ddc57aae36d409d9e64a3c3dded2ab9dcc2e773bc1a3e541
+      path: fp_10.3.181.22_archive/10_3r181_22/flashplayer10_3r181_22_solaris_x86.tar.bz2
+
+    - name: player-10.3.181.22-solaris-sparc-npapi
+      file: flashplayer10_3r181_22_solaris_sparc.tar.bz2
+      size: 5333178
+      sha256: fd031637c7baa0b2aaa3e7c727bd5481d0b30815fd6bfe11798292ab8d120bc6
+      path: fp_10.3.181.22_archive/10_3r181_22/flashplayer10_3r181_22_solaris_sparc.tar.bz2

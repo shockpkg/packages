@@ -1,0 +1,533 @@
+- name: player-10-archive
+  file: fp10_archive.zip
+  size: 197556324
+  sha256: 7f1e70e833c953cd70d34b84de6e3189552df67119f93d16b0b182175afc0528
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp10_archive.zip'
+  packages:
+    - name: player-10.0.12.36-windows-npapi
+      file: flashplayer10r12_36_win.exe
+      size: 1851544
+      sha256: 40f5064ff5629016541513205655b59423d939fb833c71561172ea28af5f7e01
+      path: fp10_archive/10r12_36/flashplayer10r12_36_win.exe
+
+    - name: player-10.0.12.36-windows-activex
+      file: flashplayer10r12_36_winax.exe
+      size: 1886800
+      sha256: 60700cdb1716bef0a9de8e274f5340f0b12fc90b96298623cf172b5600661718
+      path: fp10_archive/10r12_36/flashplayer10r12_36_winax.exe
+
+    - name: player-10.0.12.36-windows-sa
+      file: flashplayer10r12_36_win_sa.exe
+      size: 4268392
+      sha256: dea505d3f20fe7db22ef2b88a66983d6062d278d3ef1c2bb627ae508d218f8af
+      path: fp10_archive/10r12_36/flashplayer10r12_36_win_sa.exe
+
+    - name: player-10.0.12.36-mac-npapi-archive
+      file: flashplayer10r12_36_ub_mac.dmg.zip
+      size: 5708321
+      sha256: bfd91673ec37c16ace8a884301804cdadeb652728bc5ecdb7da402f37fab8a0a
+      path: fp10_archive/10r12_36/flashplayer10r12_36_ub_mac.dmg.zip
+      packages:
+        - name: player-10.0.12.36-mac-npapi
+          file: Install Flash Player 10 UB.dmg
+          size: 5724753
+          sha256: a6f7b181ed03551bbafc3c858a5dd61b917d501d634fbde5adb41cff892a7b10
+          path: Install Flash Player 10 UB.dmg
+
+    - name: player-10.0.12.36-mac-sa
+      file: flashplayer10r12_36_mac_sa.app.zip
+      size: 5596953
+      sha256: 714b77b398bca4702cbb446362e4187ac02498ddd0ff7ba710c4d2b718b46f6a
+      path: fp10_archive/10r12_36/flashplayer10r12_36_mac_sa.app.zip
+
+    - name: player-10.0.12.36-linux-npapi
+      file: flashplayer_10r12_36_linux.tar.gz
+      size: 3958745
+      sha256: 8e9ff7672287104bf72a9d512b2307b57a8a164480330317ce932033d401962d
+      path: fp10_archive/10r12_36/flashplayer_10r12_36_linux.tar.gz
+
+    - name: player-10.0.12.36-linux-sa
+      file: flashplayer_10r12_36_linux_sa.tar.gz
+      size: 3741342
+      sha256: 68b902e12e947866c1b5a91263da40ccb73c721ac13ea1fe7d11e9b36afce624
+      path: fp10_archive/10r12_36/flashplayer_10r12_36_linux_sa.tar.gz
+
+    - name: player-10.0.15.3-linux-npapi
+      file: flashplayer_10r15_3_linux.tar.gz
+      size: 3962157
+      sha256: cd3e8fbb05da4a5303f958cb627bc7f3845dd86576a96ab157effc4f0ae65e5d
+      path: fp10_archive/10r15_3/flashplayer_10r15_3_linux.tar.gz
+
+    - name: player-10.0.15.3-linux-sa
+      file: flashplayer_10r15_3_linux_sa.tar.gz
+      size: 3743252
+      sha256: 51ee22d89a0c04433e675257a3b7c409f8e11303d46384f26824f3a225b0d540
+      path: fp10_archive/10r15_3/flashplayer_10r15_3_linux_sa.tar.gz
+
+    - name: player-10.0.22.87-windows-npapi
+      file: flashplayer10r22_87_win.exe
+      size: 1878888
+      sha256: a4ea3bd92f7ef5dc1e82f211214aaf8fd99ca31102b8c83f73b5f4cd7004ef96
+      path: fp10_archive/10r22_87/flashplayer10r22_87_win.exe
+
+    - name: player-10.0.22.87-windows-activex
+      file: flashplayer10r22_87_winax.exe
+      size: 1914000
+      sha256: 594d0d699566fbbec4e733ba0c603cb6e6f6fc3cb8901eeb715a037c99c4c38f
+      path: fp10_archive/10r22_87/flashplayer10r22_87_winax.exe
+
+    - name: player-10.0.22.87-windows-sa
+      file: flashplayer10r22_87_win_sa.exe
+      size: 4343680
+      sha256: 8b87869ba14fa58f231593a20307c72b2b5cd090656c5ff34c26e422d2d81e36
+      path: fp10_archive/10r22_87/flashplayer10r22_87_win_sa.exe
+
+    - name: player-10.0.22.87-mac-npapi-archive
+      file: flashplayer10r22_87_ub_mac.dmg.zip
+      size: 5787400
+      sha256: a2badf38601391bcb5df154e7bfb477a55aa93e36bee415e478f329eebc90926
+      path: fp10_archive/10r22_87/flashplayer10r22_87_ub_mac.dmg.zip
+      packages:
+        - name: player-10.0.22.87-mac-npapi
+          file: Install Flash Player 10 UB.dmg
+          size: 5804938
+          sha256: 13c1576eb6dc0392e26ce0c63b9d108a19eca5fe3a0964d837d7603df0270cfb
+          path: Install Flash Player 10 UB.dmg
+
+    - name: player-10.0.22.87-mac-sa
+      file: flashplayer10r22_87_mac_sa.app.zip
+      size: 5718485
+      sha256: a30bab0aefc6e594059effdcd1d5029129b5a028a26ecb3f261270a679ffc216
+      path: fp10_archive/10r22_87/flashplayer10r22_87_mac_sa.app.zip
+
+    - name: player-10.0.22.87-linux-npapi
+      file: flashplayer_10r22_87_linux.tar.gz
+      size: 3994294
+      sha256: cd29f166c87fecc943e88fe951bb61c56728fab12b4bf343badafa73ea95394e
+      path: fp10_archive/10r22_87/flashplayer_10r22_87_linux.tar.gz
+
+    - name: player-10.0.22.87-linux-sa
+      file: flashplayer_10r22_87_linux_sa.tar.gz
+      size: 3769021
+      sha256: 2ac4562af3b7839de88e776ffda3f512dcc4c5c16eec4cb5217d40fccc9a20ac
+      path: fp10_archive/10r22_87/flashplayer_10r22_87_linux_sa.tar.gz
+
+    - name: player-10.0.22.87-solaris-sparc-npapi
+      file: flashplayer_10r22_87_solaris_sparc.tar.bz2
+      size: 4345268
+      sha256: 9a2cd0381e5f840d60023bee1a3c3f3a3ecdb304079dca980dd40c52ee1182c7
+      path: fp10_archive/10r22_87/flashplayer_10r22_87_solaris_sparc.tar.bz2
+
+    - name: player-10.0.22.87-solaris-x86-npapi
+      file: flashplayer_10r22_87_solaris_x86.tar.bz2
+      size: 3752872
+      sha256: 62a2dd95bd5b7833c86818fdc98d21fb30200d744fb1920eb3ecd620db678ded
+      path: fp10_archive/10r22_87/flashplayer_10r22_87_solaris_x86.tar.bz2
+
+    - name: player-10.0.32.18-windows-npapi
+      file: flashplayer10r3218_win.exe
+      size: 1925024
+      sha256: b96ef1a61d016ac0d75aad132fa9add33f77cf3ebc3e10e8534fdf74fd8e5d6f
+      path: fp10_archive/10r32_18/flashplayer10r3218_win.exe
+
+    - name: player-10.0.32.18-windows-activex
+      file: flashplayer10r3218_winax.exe
+      size: 1962544
+      sha256: e11debefe07c92ac5e4ebf24ad72146d93923c8264f84f8ff0c89fe8860822e5
+      path: fp10_archive/10r32_18/flashplayer10r3218_winax.exe
+
+    - name: player-10.0.32.18-windows-sa
+      file: flashplayer10r3218_win_sa.exe
+      size: 4450304
+      sha256: 8a2e966667688e8fde636f46720a85e9e814f585c73a3d8ea7361070555c80b0
+      path: fp10_archive/10r32_18/flashplayer10r3218_win_sa.exe
+
+    - name: player-10.0.32.18-mac-npapi-archive
+      file: flashplayer10r3218_ub_mac.dmg.zip
+      size: 5918389
+      sha256: a77e70433b38b341514e5c1ac3f4bc697642ff21eaf4380e86144adaabe3a909
+      path: fp10_archive/10r32_18/flashplayer10r3218_ub_mac.dmg.zip
+      packages:
+        - name: player-10.0.32.18-mac-npapi
+          file: Install Flash Player 10 UB.dmg
+          size: 5935578
+          sha256: ac01d09ac280c1d6fcd17c7850c6b99c283514b7e2ec54d89cbc453bce14b799
+          path: Install Flash Player 10 UB.dmg
+
+    - name: player-10.0.32.18-mac-sa
+      file: flashplayer10r3218_mac_sa.app.zip
+      size: 5835229
+      sha256: 7d49ecd6c3c11dadd815569019d475cf6ac29bf03ba5fcff3c11b9810445472c
+      path: fp10_archive/10r32_18/flashplayer10r3218_mac_sa.app.zip
+
+    - name: player-10.0.32.18-linux-npapi
+      file: flashplayer_10r3218_linux.tar.gz
+      size: 4048803
+      sha256: dd7c2279f3038bee298ab30ec6cb769f43f0fec2f47314574a5623228e1ce6f2
+      path: fp10_archive/10r32_18/flashplayer_10r3218_linux.tar.gz
+
+    - name: player-10.0.32.18-linux-sa
+      file: flashplayer_10r3218_linux_sa.tar.gz
+      size: 3820562
+      sha256: 7974cb9c92f8819c7f5678e88fedf5768a43f093920671f97eb052e503ef4f80
+      path: fp10_archive/10r32_18/flashplayer_10r3218_linux_sa.tar.gz
+
+    - name: player-10.0.32.18-solaris-sparc-npapi
+      file: flashplayer_10r32_18_solaris_sparc.tar.bz2
+      size: 3768924
+      sha256: 142a616fc6d7e328f2d14071d0a8eefd66826a1adb3857581d912de3bf6b7d81
+      path: fp10_archive/10r32_18/flashplayer_10r32_18_solaris_sparc.tar.bz2
+
+    - name: player-10.0.32.18-solaris-x86-npapi
+      file: flashplayer_10r3218_solaris_x86.tar.bz2
+      size: 4353264
+      sha256: a497b4c2a863165bd4d18b8fc4b94f68d5393609868965655fd20b9e0cae1975
+      path: fp10_archive/10r32_18/flashplayer_10r3218_solaris_x86.tar.bz2
+
+    - name: player-10.0.42.34-windows-npapi
+      file: flashplayer10r42_34_win.exe
+      size: 1924200
+      sha256: 0ecb0e3e49edd1ea384b58eed9403860b4f8e1d3845a0d183883631b2c501b85
+      path: fp10_archive/10r42_34/flashplayer10r42_34_win.exe
+
+    - name: player-10.0.42.34-windows-activex
+      file: flashplayer10r42_34_winax.exe
+      size: 1956528
+      sha256: 016b77d19d9fde6f7d5b477eb7008df80c51ff02acb5f950c986e45a0c2a78d3
+      path: fp10_archive/10r42_34/flashplayer10r42_34_winax.exe
+
+    - name: player-10.0.42.34-windows-sa
+      file: flashplayer10r42_34_win_sa.exe
+      size: 4453376
+      sha256: 9cdc26b32e4392ea15fccf3976668fa3891d7a3a739ab348cc6c0783cec90478
+      path: fp10_archive/10r42_34/flashplayer10r42_34_win_sa.exe
+
+    - name: player-10.0.42.34-mac-npapi
+      file: flashplayer10r42_34_ub_mac.dmg
+      size: 5941526
+      sha256: d541bae10477668e8f434de57540f0da04c69872792447aeed5e44a813cc744e
+      path: fp10_archive/10r42_34/flashplayer10r42_34_ub_mac.dmg
+
+    - name: player-10.0.42.34-mac-sa
+      file: flashplayer10r42_34_mac_sa.app.zip
+      size: 5841092
+      sha256: 5a5edc69f87410c8417d062bef57bebb535f39d0de902e2c8d97b581f44eb49b
+      path: fp10_archive/10r42_34/flashplayer10r42_34_mac_sa.app.zip
+
+    - name: player-10.0.42.34-linux-npapi
+      file: flashplayer_10r42_34_linux.tar.gz
+      size: 4054591
+      sha256: c4c38f05a572f52bc9ec6ffe6bbe2bced5cced41d39201a3fb6b31f4e828341c
+      path: fp10_archive/10r42_34/flashplayer_10r42_34_linux.tar.gz
+
+    - name: player-10.0.42.34-linux-sa
+      file: flashplayer_10r42_34_linux_sa.tar.gz
+      size: 3825050
+      sha256: 7a8fa331dfbebb56aef8c77ccb1a9d3cc437f5fb45f9a9a22ad5ed87b90e1ee0
+      path: fp10_archive/10r42_34/flashplayer_10r42_34_linux_sa.tar.gz
+
+    - name: player-10.0.42.34-solaris-sparc-npapi
+      file: flashplayer_10r42_34_solaris_sparc.tar.bz2
+      size: 4369652
+      sha256: 979ed49d2586dcb59c06c71035ad1f69ea9d78757756ed418a4056ad98798941
+      path: fp10_archive/10r42_34/flashplayer_10r42_34_solaris_sparc.tar.bz2
+
+    - name: player-10.0.42.34-solaris-x86-npapi
+      file: flashplayer_10r42_34_solaris_x86.tar.bz2
+      size: 3775583
+      sha256: 4e605c9752fae449b51cfe5edfb746d635f9947520c0282f121c7ed509dd7b3e
+      path: fp10_archive/10r42_34/flashplayer_10r42_34_solaris_x86.tar.bz2
+
+    - name: player-10.0.45.2-windows-npapi
+      file: flashplayer10r45_2_win.exe
+      size: 1924976
+      sha256: ac73987baa381a8c10b34e48b8b7b3326d6ee12eb30fa5a182b5174d7c15971b
+      path: fp10_archive/10r45_2/flashplayer10r45_2_win.exe
+
+    - name: player-10.0.45.2-windows-activex
+      file: flashplayer10r45_2_winax.exe
+      size: 1956656
+      sha256: 67aacd9226eb6272b901aa1618eeb7d6431b5ff2194b21da3745a881df5020a2
+      path: fp10_archive/10r45_2/flashplayer10r45_2_winax.exe
+
+    - name: player-10.0.45.2-windows-sa
+      file: flashplayer10r45_2_win_sa.exe
+      size: 4452864
+      sha256: fd8ed4228d750d6e38ff80e1e53cc085d92cdbbe0acd81a7d20004acb5d44356
+      path: fp10_archive/10r45_2/flashplayer10r45_2_win_sa.exe
+
+    - name: player-10.0.45.2-mac-npapi
+      file: flashplayer10r45_2_ub_mac.dmg
+      size: 5946096
+      sha256: 2887529942f7a37673bd97c5818c4761aec649812012f1c9a85df2481f0eb963
+      path: fp10_archive/10r45_2/flashplayer10r45_2_ub_mac.dmg
+
+    - name: player-10.0.45.2-linux-npapi
+      file: flashplayer_10r45_2_linux.tar.gz
+      size: 4050435
+      sha256: 423ac7830c8a55ac931acb9e07a51f2aa981aedb63b45745460b4556a10e157b
+      path: fp10_archive/10r45_2/flashplayer_10r45_2_linux.tar.gz
+
+    - name: player-10.0.45.2-linux-sa
+      file: flashplayer_10r45_2_linux_sa.tar.gz
+      size: 3079023
+      sha256: d12b15507ba8c9fd483e5576af5fb7fb1de04db0fad9fd64be9ac460d1bdef19
+      path: fp10_archive/10r45_2/flashplayer_10r45_2_linux_sa.tar.gz
+
+    - name: player-10.0.45.2-solaris-sparc-npapi
+      file: flashplayer_10r45_2_solaris_sparc.tar.bz2
+      size: 4369765
+      sha256: fa48054c3df98a400ebeae56aca2588e49871573bd057c9dd34b55f7b9986ef4
+      path: fp10_archive/10r45_2/flashplayer_10r45_2_solaris_sparc.tar.bz2
+
+    - name: player-10.0.45.2-solaris-x86-npapi
+      file: flashplayer_10r45_2_solaris_x86.tar.bz2
+      size: 3775913
+      sha256: d3fee0abb2c84e728993b24f9d93650842c98ba7411e8cdb7d8e530107487bfc
+      path: fp10_archive/10r45_2/flashplayer_10r45_2_solaris_x86.tar.bz2
+
+- name: player-10-debugger-archive
+  file: fp10_debug_archive.zip
+  size: 181340026
+  sha256: ed6a3794858721664a490de0458cca8bba84984f5a97d1fc02a7d450a6a173e3
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp10_debug_archive.zip'
+  packages:
+    - name: player-10.0.12.36-windows-npapi-debug
+      file: flashplayer10r12_36_win_debug.exe
+      size: 2067696
+      sha256: a96e6993a93bb7bf6b4224d66b7969d29ea3f1cf459754102e3c7cbaa4bf3115
+      path: fp10_debug_archive/10r12_36/flashplayer10r12_36_win_debug.exe
+
+    - name: player-10.0.12.36-windows-activex-debug
+      file: flashplayer10r12_36_winax_debug.exe
+      size: 2103696
+      sha256: b78ec4da739156a8ae234350ddaf0b213fca2dc04415f63f01ca70b2306f69f2
+      path: fp10_debug_archive/10r12_36/flashplayer10r12_36_winax_debug.exe
+
+    - name: player-10.0.12.36-windows-sa-debug
+      file: flashplayer10r12_36_win_sa_debug.exe
+      size: 5116776
+      sha256: 7b097757fd5b9fcea49209b5e88072fabc438cbe0a167c46e138aa24e3340bd0
+      path: fp10_debug_archive/10r12_36/flashplayer10r12_36_win_sa_debug.exe
+
+    - name: player-10.0.12.36-mac-npapi-debug-archive
+      file: flashplayer10r12_36_ub_mac_debug.dmg.zip
+      size: 6243056
+      sha256: c30bdaf42cec081e62edb203e8f80c9daf395e8a0a48fe113e7fde97fc2381dc
+      path: fp10_debug_archive/10r12_36/flashplayer10r12_36_ub_mac_debug.dmg.zip
+      packages:
+        - name: player-10.0.12.36-mac-npapi-debug
+          file: Install Flash Player 10 UB.dmg
+          size: 6262335
+          sha256: 0340510d297fbbcf6b47e49dfdfa10a6a0849c0ae9a581da06d7954211720e0e
+          path: Install Flash Player 10 UB.dmg
+
+    - name: player-10.0.12.36-mac-sa-debug
+      file: flashplayer10r12_36_mac_sa_debug.app.zip
+      size: 6120356
+      sha256: 0060a76711cd60cec6fae97db1f2a0de6942aa6d5ccf16859f9f6880c76cb7ec
+      path: fp10_debug_archive/10r12_36/flashplayer10r12_36_mac_sa_debug.app.zip
+
+    - name: player-10.0.12.36-linux-npapi-debug
+      file: flashplayer_10r12_36_linux_debug.tar.gz
+      size: 4319582
+      sha256: 01d62e9280c9432eebc6e04eb6dc31a0c032cb356fc3e3cfc9479884c4454626
+      path: fp10_debug_archive/10r12_36/flashplayer_10r12_36_linux_debug.tar.gz
+
+    - name: player-10.0.12.36-linux-sa-debug
+      file: flashplayer_10r12_36_linux_sa_debug.tar.gz
+      size: 4046513
+      sha256: 64d0fe11d3b5e89b7c482341066a01afbacd5dc54fc4050396067df785beb7da
+      path: fp10_debug_archive/10r12_36/flashplayer_10r12_36_linux_sa_debug.tar.gz
+
+    - name: player-10.0.15.3-linux-npapi-debug
+      file: flashplayer_10r15_3_linux_debug.tar.gz
+      size: 4320536
+      sha256: c3ec70287b7cc2cc6b9135ebdcd8bb52197149ef028d28f52bcc2ae0674e18b6
+      path: fp10_debug_archive/10r15_3/flashplayer_10r15_3_linux_debug.tar.gz
+
+    - name: player-10.0.15.3-linux-sa-debug
+      file: flashplayer_10r15_3_linux_sa_debug.tar.gz
+      size: 4049393
+      sha256: 2ea3529e4ce523716fe177c1e9ad993278fc29841895a0f0c7e87f962af2263f
+      path: fp10_debug_archive/10r15_3/flashplayer_10r15_3_linux_sa_debug.tar.gz
+
+    - name: player-10.0.22.87-windows-npapi-debug
+      file: flashplayer10r22_87_win_debug.exe
+      size: 2095400
+      sha256: 0a9d7586acadc567ba43d0c2e6ea23d20f2f843e886d04f026e8fd466a22bcc2
+      path: fp10_debug_archive/10r22_87/flashplayer10r22_87_win_debug.exe
+
+    - name: player-10.0.22.87-windows-activex-debug
+      file: flashplayer10r22_87_winax_debug.exe
+      size: 2130088
+      sha256: 049c84f19f1d14604ea2ab0653d33c0594b73e85b62fdfd9ccf1da442e481496
+      path: fp10_debug_archive/10r22_87/flashplayer10r22_87_winax_debug.exe
+
+    - name: player-10.0.22.87-windows-sa-debug
+      file: flashplayer10r22_87_win_sa_debug.exe
+      size: 5192064
+      sha256: 4092caa0fbb13546c47b5796838795ed65bb1b48bb30297dbc5848f11a2d4dec
+      path: fp10_debug_archive/10r22_87/flashplayer10r22_87_win_sa_debug.exe
+
+    - name: player-10.0.22.87-mac-npapi-debug-archive
+      file: flashplayer10r22_87_ub_mac_debug.dmg.zip
+      size: 6323167
+      sha256: ef8cfaa17861b08421111f8797cfe7000e7a979e8e9e49890a2cd4bc98cafeb9
+      path: fp10_debug_archive/10r22_87/flashplayer10r22_87_ub_mac_debug.dmg.zip
+      packages:
+        - name: player-10.0.22.87-mac-npapi-debug
+          file: Install Flash Player 10 UB.dmg
+          size: 6341729
+          sha256: 610fb005f663c4e48add5d174098dd1ad5f55a7e30b58a204b99849c867e0f02
+          path: Install Flash Player 10 UB.dmg
+
+    - name: player-10.0.22.87-mac-sa-debug
+      file: flashplayer10r22_87_mac_sa_debug.app.zip
+      size: 6246690
+      sha256: 68981b2ddec5ddb14d62626396d52693e485bf050dbfd3989265456977a803a9
+      path: fp10_debug_archive/10r22_87/flashplayer10r22_87_mac_sa_debug.app.zip
+
+    - name: player-10.0.22.87-linux-npapi-debug
+      file: flashplayer_10r22_87_linux_debug.tar.gz
+      size: 4351574
+      sha256: 371f88a0c698070f90eb2ef575d3a7c0da552a1b9944e46d374341b89fa9a88f
+      path: fp10_debug_archive/10r22_87/flashplayer_10r22_87_linux_debug.tar.gz
+
+    - name: player-10.0.22.87-linux-sa-debug
+      file: flashplayer_10r22_87_linux_sa_debug.tar.gz
+      size: 4082903
+      sha256: 8c2cc70cdbb69f1f59b10c281091e2c81ffa707b1e5d6f7fdca384928b50a62f
+      path: fp10_debug_archive/10r22_87/flashplayer_10r22_87_linux_sa_debug.tar.gz
+
+    - name: player-10.0.32.18-windows-npapi-debug
+      file: flashplayer10r32_18_win_debug.exe
+      size: 2142976
+      sha256: 15ee06209dbda355eb8953532ee2be54e2771fbc901c035b8811fa1e4b6cfa92
+      path: fp10_debug_archive/10r32_18/flashplayer10r32_18_win_debug.exe
+
+    - name: player-10.0.32.18-windows-activex-debug
+      file: flashplayer10r32_18_winax_debug.exe
+      size: 2179760
+      sha256: 09e8e7ab473e8e7b18de192c84504f92476d93bbed38b7ccb28683fbcd6bdc75
+      path: fp10_debug_archive/10r32_18/flashplayer10r32_18_winax_debug.exe
+
+    - name: player-10.0.32.18-windows-sa-debug
+      file: flashplayer10r32_18_win_sa_debug.exe
+      size: 5306880
+      sha256: d799ffd39beaee91c04134ffc421ebd1b2e99870d145a8b4a7a557bf22e78485
+      path: fp10_debug_archive/10r32_18/flashplayer10r32_18_win_sa_debug.exe
+
+    - name: player-10.0.32.18-mac-npapi-debug-archive
+      file: flashplayer10r32_18_ub_mac_debug.dmg.zip
+      size: 6457166
+      sha256: 623da627f014c68bb35576a154a380ddfc724cc8a2c7ee52a90bfd4855ef4578
+      path: fp10_debug_archive/10r32_18/flashplayer10r32_18_ub_mac_debug.dmg.zip
+      packages:
+        - name: player-10.0.32.18-mac-npapi-debug
+          file: Install Flash Player 10 UB.dmg
+          size: 6479122
+          sha256: ab8d1124d59f0f0ad112aac15de3230ed241bbeab9e4748f3578fe2757ebecca
+          path: Install Flash Player 10 UB.dmg
+
+    - name: player-10.0.32.18-mac-sa-debug
+      file: flashplayer10r32_18_mac_sa_debug.app.zip
+      size: 6368959
+      sha256: 3570aad3546be80d5c4e74ecc2761179e7ff3658107fe743151eb3c90b170f1b
+      path: fp10_debug_archive/10r32_18/flashplayer10r32_18_mac_sa_debug.app.zip
+
+    - name: player-10.0.32.18-linux-npapi-debug
+      file: flashplayer_10r32_18_linux_debug.tar.gz
+      size: 4399984
+      sha256: a71e32315b7209d0854ce31c861ec7af1535cd85d363048ec35daf7464b1fe13
+      path: fp10_debug_archive/10r32_18/flashplayer_10r32_18_linux_debug.tar.gz
+
+    - name: player-10.0.32.18-linux-sa-debug
+      file: flashplayer_10r32_18_linux_sa_debug.tar.gz
+      size: 4133324
+      sha256: d1b75c5de4780e816870420d7763644f2fab6ebabe69a1ea679e48df230e419c
+      path: fp10_debug_archive/10r32_18/flashplayer_10r32_18_linux_sa_debug.tar.gz
+
+    - name: player-10.0.42.34-windows-npapi-debug
+      file: flashplayer10r42_34_win_debug.exe
+      size: 2141544
+      sha256: f4c502f02109bbba67b18e6e3d994fe12bb893fc380bfd853e67aaa9348c7247
+      path: fp10_debug_archive/10r42_34/flashplayer10r42_34_win_debug.exe
+
+    - name: player-10.0.42.34-windows-activex-debug
+      file: flashplayer10r42_34_winax_debug.exe
+      size: 2174056
+      sha256: 3d60ebdca1d5bbe99e1de64abd0217167fe6a05bb390a909dad9cfe7e10edf4a
+      path: fp10_debug_archive/10r42_34/flashplayer10r42_34_winax_debug.exe
+
+    - name: player-10.0.42.34-windows-sa-debug
+      file: flashplayer10r42_34_win_sa_debug.exe
+      size: 5309440
+      sha256: 3590cf6d33fb16fbcb78f25a1f87d8b58dc5ef90347706a69c0de5980fb5289b
+      path: fp10_debug_archive/10r42_34/flashplayer10r42_34_win_sa_debug.exe
+
+    - name: player-10.0.42.34-mac-npapi-debug
+      file: flashplayer10r42_34_ub_mac_debug.zip
+      size: 6480452
+      sha256: d6650eab42715d84da2d079a81787e725b660ec745ee01417643426ae5e91d84
+      path: fp10_debug_archive/10r42_34/flashplayer10r42_34_ub_mac_debug.dmg.zip
+
+    - name: player-10.0.42.34-mac-sa-debug
+      file: flashplayer10r42_34_mac_sa_debug.app.zip
+      size: 6373585
+      sha256: 0af7a35f2411251ae893024c8d4ee1971e994d57e42928682c57f0d2488d9f8a
+      path: fp10_debug_archive/10r42_34/flashplayer10r42_34_mac_sa_debug.app.zip
+
+    - name: player-10.0.42.34-linux-npapi-debug
+      file: flashplayer_10r42_34_linux_debug.tar.gz
+      size: 4404738
+      sha256: 77798a623aad83245e31598a2754ef26b311cc8afce5655a0feee65be5b47022
+      path: fp10_debug_archive/10r42_34/flashplayer_10r42_34_linux_debug.tar.gz
+
+    - name: player-10.0.42.34-linux-sa-debug
+      file: flashplayer_10r42_34_linux_sa_debug.tar.gz
+      size: 4135693
+      sha256: 38c7ba7171d6ba81f96409d93a188ef3c52bc2b68ecd38c7aaf6d3f34d1cee03
+      path: fp10_debug_archive/10r42_34/flashplayer_10r42_34_linux_sa_debug.tar.gz
+
+    - name: player-10.0.45.2-windows-npapi-debug
+      file: flashplayer10r45_2_win_debug.exe
+      size: 2141760
+      sha256: 0a43e1d66a6449400546ca5ab426b110fda4b3713b8dabd111bf8a6f40282fda
+      path: fp10_debug_archive/10r45_2/flashplayer10r45_2_win_debug.exe
+
+    - name: player-10.0.45.2-windows-activex-debug
+      file: flashplayer10r45_2_winax_debug.exe
+      size: 2174080
+      sha256: 9be08603837e335f1f723fff8076e7df6acd60690ded817b04bfc4690a2575e0
+      path: fp10_debug_archive/10r45_2/flashplayer10r45_2_winax_debug.exe
+
+    - name: player-10.0.45.2-windows-sa-debug
+      file: flashplayer10r45_2_win_sa_debug.exe
+      size: 5309440
+      sha256: 917c67b09221e7bf88902ac83fe9a8611c4a94d46777bc403160b6b53e345b29
+      path: fp10_debug_archive/10r45_2/flashplayer10r45_2_win_sa_debug.exe
+
+    - name: player-10.0.45.2-mac-npapi-debug
+      file: flashplayer10r45_2_ub_mac_debug.dmg
+      size: 6484704
+      sha256: 1236a18f87ad5ccd98f2f1fbcc0024db45fb63f4740a7813f932d7a06ec85001
+      path: fp10_debug_archive/10r45_2/flashplayer10r45_2_ub_mac_debug.dmg
+
+    - name: player-10.0.45.2-mac-sa-debug
+      file: flashplayer10r45_2_mac_sa_debug.app.zip
+      size: 6373680
+      sha256: 7b345ea5a8aa5e6fe1e9a1f7d0b0ffa8977e13c28950ce8a289e38d11d23066d
+      path: fp10_debug_archive/10r45_2/flashplayer10r45_2_mac_sa_debug.app.zip
+
+    - name: player-10.0.45.2-linux-npapi-debug
+      file: flashplayer_10r45_2_linux_debug.tar.gz
+      size: 4404726
+      sha256: 78c0a382508fc6c84d5a7633d20b3f17e4b4289dab039c2e32944b8ca55d6f25
+      path: fp10_debug_archive/10r45_2/flashplayer_10r45_2_linux_debug.tar.gz
+
+    - name: player-10.0.45.2-linux-sa-debug
+      file: flashplayer_10r45_2_linux_sa_debug.tar.gz
+      size: 4139204
+      sha256: b591026dad22e1a6122d7b40089eb98e3fb02dfe6011edb4588176872b84851c
+      path: fp10_debug_archive/10r45_2/flashplayer_10r45_2_linux_sa_debug.tar.gz

@@ -1,0 +1,23 @@
+- name: air-3.7.0.2100-runtime-mac-archive
+  file: AdobeAIR.zip
+  size: 27453581
+  sha256: 8887edf26767853c002cff78ae203da7ccc1e2b84ab48aee77d2b4029f44b916
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.7/AdobeAIR.zip'
+  packages:
+    - name: air-3.7.0.2100-runtime-mac
+      file: AdobeAIR.dmg
+      size: 27483677
+      sha256: 051c0985ae3ab925f1b21fbc4ec862650ee3132cad810891edca8eb643fb5a06
+      path: AdobeAIR.dmg
+
+- name: air-3.7.0.2100-sdk-mac
+  file: AdobeAIRSDK.tbz2
+  size: 156360714
+  sha256: aee08853ba043d4cba8ad695bbbf9119dd8c1bcd684a3175872f69d6b793f25b
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.7/AdobeAIRSDK.tbz2'
+
+- name: air-3.7.0.2100-sdk-and-compiler-mac
+  file: AIRSDK_Compiler.tbz2
+  size: 193668888
+  sha256: e6814a6e8a2ca573b39ac95a1f0dcf88bd1ff4880ebdf6a622fada275fff960d
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.7/AIRSDK_Compiler.tbz2'

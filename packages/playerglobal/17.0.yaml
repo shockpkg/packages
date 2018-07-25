@@ -1,0 +1,5 @@
+- name: playerglobal-17.0
+  file: playerglobal17_0.swc
+  size: 388809
+  sha256: 58ecda7ac7de1a3add77cd880089c9edb0597bc8ac1c4bb0f9b4f5e13531b7a6
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/playerglobal/playerglobal17_0.swc'

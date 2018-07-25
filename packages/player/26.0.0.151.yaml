@@ -1,0 +1,185 @@
+- name: player-26.0.0.151-archive
+  file: fp_26.0.0.151_archive.zip
+  size: 423621380
+  sha256: 0494c22df4020cf58914de87f79f038230e0df056d84b3b34a5e0163763260d8
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_26.0.0.151_archive.zip'
+  packages:
+    - name: player-26.0.0.151-windows-npapi
+      file: flashplayer26_0r0_151_win.exe
+      size: 20648960
+      sha256: afe60e5eff2d02de712af0803aca8d417d14788aedb358b101bdc48ee3c48657
+      path: 26_0_r0_151/flashplayer26_0r0_151_win.exe
+
+    - name: player-26.0.0.151-windows-npapi-msi
+      file: flashplayer26_0r0_151_win.msi
+      size: 21816832
+      sha256: 28f692b79090178710fbf8b9c8403014d3ab5f1cff18b6f8fe41e853671e10b6
+      path: 26_0_r0_151/flashplayer26_0r0_151_win.msi
+
+    - name: player-26.0.0.151-windows-npapi-debug
+      file: flashplayer26_0r0_151_win_debug.exe
+      size: 20432896
+      sha256: 33bf9b77fa212c888898343dddb0661c1fe4288ac868d69ff0f99747aaf1ac33
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_win_debug.exe
+
+    - name: player-26.0.0.151-windows-ppapi
+      file: flashplayer26_0r0_151_winpep.exe
+      size: 20616704
+      sha256: 1c42a858c9f0d449720ac58626631eb731181e93ad63b1a93115501b506fe1dd
+      path: 26_0_r0_151/flashplayer26_0r0_151_winpep.exe
+
+    - name: player-26.0.0.151-windows-ppapi-msi
+      file: flashplayer26_0r0_151_winpep.msi
+      size: 21780480
+      sha256: 165d2dd231982fd8243397a8daa0992406640a708e249f51a28aa5495b95d95e
+      path: 26_0_r0_151/flashplayer26_0r0_151_winpep.msi
+
+    - name: player-26.0.0.151-windows-ppapi-debug
+      file: flashplayer26_0r0_151_winpep_debug.exe
+      size: 21085184
+      sha256: e0f433554c63b975553953d1ad684bd7761f8e7f48d33e3191cc832be42c0e51
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_winpep_debug.exe
+
+    - name: player-26.0.0.151-windows-activex
+      file: flashplayer26_0r0_151_winax.exe
+      size: 20118528
+      sha256: f4b4b37f7736aa84a3c68e237e6e322b655b41d432c0118c7fdf625b44682fa5
+      path: 26_0_r0_151/flashplayer26_0r0_151_winax.exe
+
+    - name: player-26.0.0.151-windows-activex-msi
+      file: flashplayer26_0r0_151_winax.msi
+      size: 21282304
+      sha256: 6e778f2e381e34e094cf04e3d8d1b8f806ab51f426f217b6422d5a9ea02b4297
+      path: 26_0_r0_151/flashplayer26_0r0_151_winax.msi
+
+    - name: player-26.0.0.151-windows-activex-debug
+      file: flashplayer26_0r0_151_winax_debug.exe
+      size: 20482048
+      sha256: b7f9891f4ffcab839ac4fac467ac62004b512973d03aeaa1fad1c10bbbc006e9
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_winax_debug.exe
+
+    - name: player-26.0.0.151-windows-sa
+      file: flashplayer26_0r0_151_win_sa.exe
+      size: 15952896
+      sha256: fd6df7d982b8ec8953260f365b9b85217a79258ef9c8d422f1fcc34b4bbfda35
+      path: 26_0_r0_151/flashplayer26_0r0_151_win_sa.exe
+
+    - name: player-26.0.0.151-windows-sa-debug
+      file: flashplayer26_0r0_151_win_sa_debug.exe
+      size: 16780288
+      sha256: fa3032ddd9f981933bde7c55b08a6da53aa342938a6d442879fa5fd57bc9f7b7
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_win_sa_debug.exe
+
+    - name: player-26.0.0.151-windows-uninstaller
+      file: uninstall_flashplayer26_0r0_151_win.exe
+      size: 1281536
+      sha256: f8d285927b9b59dbfcf0b73d0e53622dfcc7b21543c42ab5daee14900a1672e8
+      path: 26_0_r0_151/uninstall_flashplayer26_0r0_151_win.exe
+
+    - name: player-26.0.0.151-mac-npapi
+      file: flashplayer26_0r0_151_mac.dmg
+      size: 19176693
+      sha256: cf077b9de6ae053d4cf271c8907f9e7c771d49bbfc457680ef5e10d1f72bcaef
+      path: 26_0_r0_151/flashplayer26_0r0_151_mac.dmg
+
+    - name: player-26.0.0.151-mac-npapi-pkg
+      file: flashplayer26_0r0_151_mac_pkg.dmg
+      size: 18640584
+      sha256: 83d384caf5643034aaf6449e04b214d7d70241f83bf499811e30ad00749d12b4
+      path: 26_0_r0_151/flashplayer26_0r0_151_mac_pkg.dmg
+
+    - name: player-26.0.0.151-mac-npapi-debug
+      file: flashplayer26_0r0_151_mac_debug.dmg
+      size: 19406198
+      sha256: 06c5ad061d78da693c5c9d987ac993298f4666a7cee6a3f14f4ac2cd38731673
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_mac_debug.dmg
+
+    - name: player-26.0.0.151-mac-ppapi
+      file: flashplayer26_0r0_151_macpep.dmg
+      size: 18649408
+      sha256: 45c982e86690b89dc732215c600f09448ddf9052d14fc92d41eec696052f1ae7
+      path: 26_0_r0_151/flashplayer26_0r0_151_macpep.dmg
+
+    - name: player-26.0.0.151-mac-ppapi-pkg
+      file: flashplayer26_0r0_151_macpep_pkg.dmg
+      size: 18120399
+      sha256: 9325417c4d2a68a7fb62371851c5cc435cbc5b368f6a18c8383c43d625b6d0b5
+      path: 26_0_r0_151/flashplayer26_0r0_151_macpep_pkg.dmg
+
+    - name: player-26.0.0.151-mac-ppapi-debug
+      file: flashplayer26_0r0_151_macpep_debug.dmg
+      size: 18957842
+      sha256: 11edfe8fd8b1ce2fdcef76ea051d7fe6b2d39f4ae2d0185f6be538861340c773
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_macpep_debug.dmg
+
+    - name: player-26.0.0.151-mac-sa
+      file: flashplayer26_0r0_151_mac_sa.dmg
+      size: 17078406
+      sha256: 9b612bde45b637085eeb025fc36832361998d48cf50bc6731a7a7dfdff25eb72
+      path: 26_0_r0_151/flashplayer26_0r0_151_mac_sa.dmg
+
+    - name: player-26.0.0.151-mac-sa-debug
+      file: flashplayer26_0r0_151_mac_sa_debug.dmg
+      size: 17514527
+      sha256: 88e4a78743d70023cefe22adaf893fa6fed2f30f3656e5230e2ecdeb3a4ef8a7
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_mac_sa_debug.dmg
+
+    - name: player-26.0.0.151-mac-uninstaller
+      file: uninstall_flashplayer26_0r0_151_mac.dmg
+      size: 429437
+      sha256: 0d19ebedaaaa457ff56df31929f816da1a27ca2c31ad51aaed9401c6f36da233
+      path: 26_0_r0_151/uninstall_flashplayer26_0r0_151_mac.dmg
+
+    - name: player-26.0.0.151-linux-i386-npapi
+      file: flashplayer26_0r0_151_linux.i386.tar.gz
+      size: 8492462
+      sha256: 179a751d1c3624f3a25ec4198a54e6a53023a11de0b24f71c86f5b12fafa2cb8
+      path: 26_0_r0_151/flashplayer26_0r0_151_linux.i386.tar.gz
+
+    - name: player-26.0.0.151-linux-i386-npapi-debug
+      file: flashplayer26_0r0_151_linux_debug.i386.tar.gz
+      size: 8806562
+      sha256: 0df85030a671abfb514729550f702c35da58c6d0bf36e889c5149a4d38d77b35
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_linux_debug.i386.tar.gz
+
+    - name: player-26.0.0.151-linux-i386-ppapi
+      file: flashplayer26_0r0_151_linuxpep.i386.tar.gz
+      size: 8536460
+      sha256: a1801dc2e46104b4cd8ce0e9cee1ff86d307de0044eee67685faddbcb0b847ea
+      path: 26_0_r0_151/flashplayer26_0r0_151_linuxpep.i386.tar.gz
+
+    - name: player-26.0.0.151-linux-x86_64-npapi
+      file: flashplayer26_0r0_151_linux.x86_64.tar.gz
+      size: 9002831
+      sha256: 147d90fa60b8c3831320998ca14c96278c4b6d0e9371617809fd1648b573dcfb
+      path: 26_0_r0_151/flashplayer26_0r0_151_linux.x86_64.tar.gz
+
+    - name: player-26.0.0.151-linux-x86_64-npapi-debug
+      file: flashplayer26_0r0_151_linux_debug.x86_64.tar.gz
+      size: 9368243
+      sha256: 080f7101c8bfebeb33bc05ec667d1a1137646637142c44160a0ab5fc5a568f36
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_linux_debug.x86_64.tar.gz
+
+    - name: player-26.0.0.151-linux-x86_64-ppapi
+      file: flashplayer26_0r0_151_linuxpep.x86_64.tar.gz
+      size: 9449331
+      sha256: d5a392869276b957e4b66eac205bb76fbf30bcb4ae246a7d23383f8525f6fb2f
+      path: 26_0_r0_151/flashplayer26_0r0_151_linuxpep.x86_64.tar.gz
+
+    - name: player-26.0.0.151-linux-x86_64-ppapi-debug
+      file: flashplayer26_0r0_151_linuxpep_debug.x86_64.tar.gz
+      size: 9883169
+      sha256: 623c9708190569b9821db36f518655c1bd8b73124fb4f25df82b434b2fa92af2
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_linuxpep_debug.x86_64.tar.gz
+
+    - name: player-26.0.0.151-linux-x86_64-sa
+      file: flashplayer26_0r0_151_linux_sa.x86_64.tar.gz
+      size: 8466789
+      sha256: c8f2fdc50e41a333214cbcbea4020aadfa9b3bbdad1daa4253f9ca3ba9f72a29
+      path: 26_0_r0_151/flashplayer26_0r0_151_linux_sa.x86_64.tar.gz
+
+    - name: player-26.0.0.151-linux-x86_64-sa-debug
+      file: flashplayer26_0r0_151_linux_sa_debug.x86_64.tar.gz
+      size: 8779435
+      sha256: eb960c2573acdf4be63c54ab2c3eb426a8356185cdfac500866983b74e10cb5d
+      path: 26_0_r0_151_debug/flashplayer26_0r0_151_linux_sa_debug.x86_64.tar.gz

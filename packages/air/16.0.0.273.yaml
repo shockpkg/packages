@@ -1,0 +1,11 @@
+- name: air-16.0.0.273-runtime-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 17656648
+  sha256: 49aad8a4e2f4da1165524becda6a9fb185a2c1950ceae64fbf2c2e863a7ccc73
+  url: 'https://fpdownload.macromedia.com/air/win/download/16.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-16.0.0.273-runtime-windows
+      file: AdobeAIRInstaller.exe
+      size: 17708560
+      sha256: f5a752c76d4bc08220b91f85866de73b6e72994725114b9a8609d62fc7f986c4
+      path: AdobeAIRInstaller.exe

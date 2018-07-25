@@ -1,0 +1,47 @@
+- name: air-3.6.0.6090-runtime-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 17327875
+  sha256: 178a6a0ac6c19c89ea275b64a459b3b564d556043eb052a3e66583211052da3d
+  url: 'https://fpdownload.macromedia.com/air/win/download/3.6/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-3.6.0.6090-runtime-windows
+      file: AdobeAIRInstaller.exe
+      size: 17384056
+      sha256: 406fa4096af22b14d46151ebd8c2ffbb37523af07bc9571d4a058bb9a006e3cf
+      path: AdobeAIRInstaller.exe
+
+- name: air-3.6.0.6090-runtime-mac-archive
+  file: AdobeAIR.zip
+  size: 26614967
+  sha256: 1539f22c831e5746c04577e84b3a6e796cf72acf4d3c75328ffcb8f9208c0452
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.6/AdobeAIR.zip'
+  packages:
+    - name: air-3.6.0.6090-runtime-mac
+      file: AdobeAIR.dmg
+      size: 26644554
+      sha256: d73eb1f52271c38e4175fe0f34d85e9dc752a2c7dcc7265833f56c17f6f8779f
+      path: AdobeAIR.dmg
+
+- name: air-3.6.0.6090-sdk-windows
+  file: AdobeAIRSDK.zip
+  size: 172286961
+  sha256: f1d559bf54a9bda31f49925def497bae8a60c99cb4dd7f3a4e2d0917b9d4a224
+  url: 'https://fpdownload.macromedia.com/air/win/download/3.6/AdobeAIRSDK.zip'
+
+- name: air-3.6.0.6090-sdk-mac
+  file: AdobeAIRSDK.tbz2
+  size: 151831032
+  sha256: 292fcacd42f951c43dcde9683d21f6ef0da0d8fff33a936c13b3cb55943d75d6
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.6/AdobeAIRSDK.tbz2'
+
+- name: air-3.6.0.6090-sdk-and-compiler-windows
+  file: AIRSDK_Compiler.zip
+  size: 209283610
+  sha256: 7f59b321f26c7a1b8f67234fd9c6f804affe73857564ba4dd87831514e59dbbe
+  url: 'https://fpdownload.macromedia.com/air/win/download/3.6/AIRSDK_Compiler.zip'
+
+- name: air-3.6.0.6090-sdk-and-compiler-mac
+  file: AIRSDK_Compiler.tbz2
+  size: 189225198
+  sha256: c1566224e7643f36e99f2be8d7f26dd89079460cae1581b919d22b8b52a4ff51
+  url: 'https://fpdownload.macromedia.com/air/mac/download/3.6/AIRSDK_Compiler.tbz2'

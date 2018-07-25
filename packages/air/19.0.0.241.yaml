@@ -1,0 +1,17 @@
+- name: air-19.0.0.241-runtime-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 17906936
+  sha256: f70fc3a76be87a83c3256b1cb5f9ecfbcd4a236df0db7f04a2ac2560e8402af0
+  url: 'https://fpdownload.macromedia.com/air/win/download/19.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-19.0.0.241-runtime-windows
+      file: AdobeAIRInstaller.exe
+      size: 18220192
+      sha256: 26239995f83284a2101b917fc0de11e182c4143ec28d82227a64893af394b8cd
+      path: AdobeAIRInstaller.exe
+
+- name: air-19.0.0.241-runtime-mac
+  file: AdobeAIR.tbz2
+  size: 26536808
+  sha256: 38fdb4ea584322f2ec7aa4a2f50c6a9044a244be45666d50badc763d4dda90c3
+  url: 'https://fpdownload.macromedia.com/air/mac/download/19.0/AdobeAIR.tbz2'
