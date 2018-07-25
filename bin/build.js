@@ -13,6 +13,7 @@ const packages = 'packages.json';
 
 function mkdirSync(p) {
 	try {
+		// eslint-disable-next-line no-sync
 		fs.mkdirSync(p);
 	}
 	catch (err) {
@@ -28,7 +29,6 @@ const code = fs.readFileSync(file, 'utf8');
 const doc = yaml.safeLoad(code);
 
 mkdirSync(dist);
-
 mkdirSync(path.join(dist, '1'));
 
 // eslint-disable-next-line no-sync
