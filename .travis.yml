@@ -9,11 +9,17 @@ cache:
     - "node_modules"
 
 script:
+  - yarn run clean
   - yarn run lint
   - yarn run test
+  - yarn run build
 
 deploy:
-  provider: script
-  script: ./updateapi.sh
+  provider: pages
+  skip-cleanup: true
+  local-dir: dist
+  target-branch: gh-pages
+  committer-from-gh: true
+  github-token: $GITHUB_TOKEN
   on:
     branch: master

@@ -15,7 +15,7 @@ const entriesRoot = [];
 const entriesChild = [];
 const entriesParents = new Map();
 
-const itter = [...doc.packages];
+const itter = [...doc];
 while (itter.length) {
 	const entry = itter.shift();
 	if (entry.packages) {

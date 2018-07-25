@@ -10,7 +10,7 @@ function format(code) {
 		indent: 2
 	});
 	const r = y
-		.replace(/^(\s+- )/gm, '\n$1')
+		.replace(/^(\s*- )/gm, '\n$1')
 		.replace(/:\n\n/g, ':\n')
 		.trim();
 	return `${r}\n`;

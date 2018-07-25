@@ -17,3 +17,5 @@ yarn-error.log*
 
 # Using Yarn
 package-lock.json
+
+/dist
