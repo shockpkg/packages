@@ -8,6 +8,7 @@ const path = require('path');
 const packages = require('../util/packages');
 
 const dist = path.join(__dirname, '..', 'dist');
+const distApi = path.join(dist, 'api');
 const file = 'packages.json';
 
 async function writeFile(file, data) {
@@ -18,7 +19,7 @@ async function writeFile(file, data) {
 async function main() {
 	const pkgs = packages.packages;
 
-	await writeFile(path.join(dist, '1', file), JSON.stringify({
+	await writeFile(path.join(distApi, '1', file), JSON.stringify({
 		format: '1.0',
 		packages: pkgs
 	}));

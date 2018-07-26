@@ -65,7 +65,7 @@ describe('properties', () => {
 						expect(allowedProps.has(p)).toBe(true);
 					}
 
-					if ('undefined' in entry) {
+					if (typeof entry.packages !== 'undefined') {
 						expect(Array.isArray(entry.packages)).toBe(true);
 					}
 				});
@@ -94,7 +94,7 @@ describe('properties', () => {
 						expect(allowedProps.has(p)).toBe(true);
 					}
 
-					if ('undefined' in entry) {
+					if (typeof entry.packages !== 'undefined') {
 						expect(Array.isArray(entry.packages)).toBe(true);
 					}
 				});
