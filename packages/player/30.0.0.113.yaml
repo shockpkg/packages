@@ -2,7 +2,7 @@
   file: fp_30.0.0.113_archive.zip
   size: 445699819
   sha256: 57c771d73030ef7705b3bd86bd554a5b8a69ccda7c198b1db3b9b8bec8e0f084
-  url: 'https://fpdownload.macromedia.com/pub/flashplayer/installers/archive/fp_30.0.0.113_archive.zip'
+  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_30.0.0.113_archive.zip'
   packages:
     - name: player-30.0.0.113-windows-npapi
       file: flashplayer30_0r0_113_win.exe
