@@ -2,22 +2,22 @@
   file: AdobeAIRSDK.zip
   size: 189838938
   sha256: 8d06d6d202369fa2a4158a55045c5671489823f7e231c78118c34a2684edb017
-  url: 'https://fpdownload.macromedia.com/air/win/download/16.0/AdobeAIRSDK.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/16.0/AdobeAIRSDK.zip'
 
 - name: air-16.0.0.292-sdk-mac
   file: AdobeAIRSDK.tbz2
   size: 177429969
   sha256: 2cad1379b2d235b0dfe102f04b2cb2bb465cda82864be09add568fa7f2ae7461
-  url: 'https://fpdownload.macromedia.com/air/mac/download/16.0/AdobeAIRSDK.tbz2'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/16.0/AdobeAIRSDK.tbz2'
 
 - name: air-16.0.0.292-sdk-and-compiler-windows
   file: AIRSDK_Compiler.zip
   size: 226880654
   sha256: 9100da664555c9636a895f3ca568d213d3fc73b44693284ec5e82530133cbdc8
-  url: 'https://fpdownload.macromedia.com/air/win/download/16.0/AIRSDK_Compiler.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/16.0/AIRSDK_Compiler.zip'
 
 - name: air-16.0.0.292-sdk-and-compiler-mac
   file: AIRSDK_Compiler.tbz2
   size: 214754835
   sha256: ca4f725395b6ec502ba73dc1fa9364e4733a9dba1d1542eabeb9ad893afbe5e5
-  url: 'https://fpdownload.macromedia.com/air/mac/download/16.0/AIRSDK_Compiler.tbz2'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/16.0/AIRSDK_Compiler.tbz2'

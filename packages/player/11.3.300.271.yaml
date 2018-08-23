@@ -2,34 +2,34 @@
   file: fp_11.3.300.271_archive.zip
   size: 54244693
   sha256: c8166ceffb00bf0534fb6921a833723513893738e93e0f859f077dfeef27e2c7
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.3.300.271_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.3.300.271_archive.zip'
   packages:
     - name: player-11.3.300.271-mac-npapi
       file: flashplayer11_3r300_271_mac.dmg
       size: 11580555
       sha256: ba8ab750567a22a29260490425d357ed39b5d711aefc21d917f8ee09a2e51588
-      path: fp_11.3.300.271_archive/11.3r300_271/flashplayer11_3r300_271_mac.dmg
+      source: fp_11.3.300.271_archive/11.3r300_271/flashplayer11_3r300_271_mac.dmg
 
     - name: player-11.3.300.271-mac-npapi-debug
       file: flashplayer11_3r300_271_mac_debug.dmg
       size: 12165032
       sha256: a4cead743a9291e6f3a0cb9e6332ff8aae8bf4172cf41c83b0637dff3951d919
-      path: fp_11.3.300.271_archive/11.3r300_271_debug/flashplayer11_3r300_271_mac_debug.dmg
+      source: fp_11.3.300.271_archive/11.3r300_271_debug/flashplayer11_3r300_271_mac_debug.dmg
 
     - name: player-11.3.300.271-mac-sa
       file: flashplayer11_3r300_271_mac_sa.app.zip
       size: 14649850
       sha256: ecf251c357efe02693fb4d5e4827d0834fe3e6c5c01da61664b9a468ae2eb09b
-      path: fp_11.3.300.271_archive/11.3r300_271/flashplayer11_3r300_271_mac_sa.app.zip
+      source: fp_11.3.300.271_archive/11.3r300_271/flashplayer11_3r300_271_mac_sa.app.zip
 
     - name: player-11.3.300.271-mac-sa-debug
       file: flashplayer11_3r300_271_mac_sa_debug.app.zip
       size: 15630658
       sha256: f43d5c7e434a10914f39f9cef5e52940d3344129ba72598bb204525a5270c6b5
-      path: fp_11.3.300.271_archive/11.3r300_271_debug/flashplayer11_3r300_271_mac_sa_debug.app.zip
+      source: fp_11.3.300.271_archive/11.3r300_271_debug/flashplayer11_3r300_271_mac_sa_debug.app.zip
 
     - name: player-11.3.300.271-mac-uninstaller
       file: uninstall_flashplayer11_3r300_271_mac.dmg
       size: 229973
       sha256: 9892ef646dbdc7206ee76a685feca9c3fd39a968d92902e0aa60e55fd821a31a
-      path: fp_11.3.300.271_archive/11.3r300_271/uninstall_flashplayer11_3r300_271_mac.dmg
+      source: fp_11.3.300.271_archive/11.3r300_271/uninstall_flashplayer11_3r300_271_mac.dmg

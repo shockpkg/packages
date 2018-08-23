@@ -10,7 +10,7 @@ describe('exists', () => {
 			it(entry.name, async () => {
 				const {response} = await requestPromise({
 					method: 'HEAD',
-					url: entry.url,
+					url: entry.source,
 					followRedirect: false
 				});
 

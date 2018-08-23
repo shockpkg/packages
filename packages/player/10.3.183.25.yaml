@@ -2,40 +2,40 @@
   file: fp_10.3.183.25_archive.zip
   size: 19118498
   sha256: 137896808072df6d0de374fc62c14bb622c31a7ed727bf14b8659f240b463c8e
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.183.25_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.183.25_archive.zip'
   packages:
     - name: player-10.3.183.25-windows-npapi
       file: flashplayer10_3r183_25_win.exe
       size: 3092400
       sha256: de5dccc581caf5f650b318e2e5bc337bc48eebd001de90addb0f3e5d6a7124af
-      path: fp_10.3.183.25_archive/10.3.183.25/flashplayer10_3r183_25_win.exe
+      source: fp_10.3.183.25_archive/10.3.183.25/flashplayer10_3r183_25_win.exe
 
     - name: player-10.3.183.25-windows-npapi-debug
       file: flashplayer10_3r183_25_win_debug.exe
       size: 3357104
       sha256: e7f7b2b690ed23150d5872539cf2e412c6a6033fcbac54ff06809ef2c5dfde36
-      path: fp_10.3.183.25_archive/10.3.183.25.debug/flashplayer10_3r183_25_win_debug.exe
+      source: fp_10.3.183.25_archive/10.3.183.25.debug/flashplayer10_3r183_25_win_debug.exe
 
     - name: player-10.3.183.25-windows-activex
       file: flashplayer10_3r183_25_winax.exe
       size: 3131312
       sha256: f51a99bda47003240a219a70a24c56260992906eb48346abac4aa304cdec97a5
-      path: fp_10.3.183.25_archive/10.3.183.25/flashplayer10_3r183_25_winax.exe
+      source: fp_10.3.183.25_archive/10.3.183.25/flashplayer10_3r183_25_winax.exe
 
     - name: player-10.3.183.25-windows-activex-debug
       file: flashplayer10_3r183_25_winax_debug.exe
       size: 3396016
       sha256: 04fac4aa4c1058242cd49f1026300a5e1e668a8530df665ff0a8bb6dcc6d502c
-      path: fp_10.3.183.25_archive/10.3.183.25.debug/flashplayer10_3r183_25_winax_debug.exe
+      source: fp_10.3.183.25_archive/10.3.183.25.debug/flashplayer10_3r183_25_winax_debug.exe
 
     - name: player-10.3.183.25-windows-sa
       file: flashplayer10_3r183_25_win_sa.exe
       size: 5793200
       sha256: d7b947e9fd946498eda6aedfe4b08b4b1bf9b9f27cbd9ea723f6e5a5a051b91e
-      path: fp_10.3.183.25_archive/10.3.183.25/flashplayer10_3r183_25_win_sa.exe
+      source: fp_10.3.183.25_archive/10.3.183.25/flashplayer10_3r183_25_win_sa.exe
 
     - name: player-10.3.183.25-windows-sa-debug
       file: flashplayer10_3r183_25_win_sa_debug.exe
       size: 6822320
       sha256: 0968067c62d10bb899c1c5b706d80cd617e3385b3b150bb0a41beb13381e49a7
-      path: fp_10.3.183.25_archive/10.3.183.25.debug/flashplayer10_3r183_25_win_sa_debug.exe
+      source: fp_10.3.183.25_archive/10.3.183.25.debug/flashplayer10_3r183_25_win_sa_debug.exe

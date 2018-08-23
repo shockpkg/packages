@@ -2,4 +2,4 @@
   file: install_flash_player.apk
   size: 4693820
   sha256: 7488dd143734e4c43756fe03ae6f7dcce8626a867bde1ed8859296ab6f7061a7
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/android/11.1.102.59/install_flash_player.apk'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/android/11.1.102.59/install_flash_player.apk'

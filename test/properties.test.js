@@ -5,97 +5,82 @@ const url = require('url');
 const {entriesRoot, entriesChild} = require('./shared');
 
 const validators = {
-	name: value => {
+	name: (root, value) => {
 		expect(typeof value).toBe('string');
 		expect(value.length).toBeGreaterThan(1);
 		expect(value).toMatch(/^[-_.a-z0-9]+$/);
 		expect(value).toMatch(/[a-z0-9]$/);
 		expect(value).toMatch(/^[a-z0-9]/);
 	},
-	file: value => {
+	file: (root, value) => {
 		expect(typeof value).toBe('string');
 		expect(value.length).toBeGreaterThan(1);
 		expect(value).toMatch(/^[-_.a-zA-Z0-9\x20()]+$/);
 	},
-	size: value => {
+	size: (root, value) => {
 		expect(typeof value).toBe('number');
 		expect(value).toBeGreaterThan(0);
 		expect(value.toString()).toMatch(/^[0-9]+$/);
 	},
-	sha256: value => {
+	sha256: (root, value) => {
 		expect(typeof value).toBe('string');
 		expect(value.length).toBe(64);
 		expect(value).toMatch(/^[a-z0-9]+$/);
 	},
-	url: value => {
+	source: (root, value) => {
 		expect(typeof value).toBe('string');
 		expect(value.length).toBeGreaterThan(0);
-		expect(value).toMatch(/^https?:\/\//);
-		const parsed = url.format(url.parse(value));
-		expect(value).toBe(parsed);
+		if (root) {
+			expect(value).toMatch(/^https?:\/\//);
+			const parsed = url.format(url.parse(value));
+			expect(value).toBe(parsed);
+		}
+		else {
+			expect(value.length).toMatch(/[^/\\]$/);
+		}
 	},
-	path: value => {
-		expect(typeof value).toBe('string');
-		expect(value.length).toBeGreaterThan(0);
-		expect(value.length).toMatch(/[^/\\]$/);
+	packages: (root, value) => {
+		if (value) {
+			expect(Array.isArray(value)).toBe(true);
+		}
+		else {
+			expect(typeof value).toBe('undefined');
+		}
 	}
 };
+const allowedProps = new Set(Object.keys(validators));
 
 describe('properties', () => {
 	describe('packages', () => {
 		describe('roots', () => {
-			const allowedProps = new Set([
-				'name',
-				'file',
-				'size',
-				'sha256',
-				'url',
-				'packages'
-			]);
-
 			for (const entry of entriesRoot) {
 				it(entry.name, () => {
-					validators.name(entry.name);
-					validators.file(entry.file);
-					validators.size(entry.size);
-					validators.sha256(entry.sha256);
-					validators.url(entry.url);
+					validators.name(true, entry.name);
+					validators.file(true, entry.file);
+					validators.size(true, entry.size);
+					validators.sha256(true, entry.sha256);
+					validators.source(true, entry.source);
+					validators.packages(true, entry.packages);
 
 					for (const p of Object.keys(entry)) {
 						expect(allowedProps.has(p)).toBe(true);
-					}
-
-					if (typeof entry.packages !== 'undefined') {
-						expect(Array.isArray(entry.packages)).toBe(true);
 					}
 				});
 			}
 		});
 
 		describe('childs', () => {
-			const allowedProps = new Set([
-				'name',
-				'file',
-				'size',
-				'sha256',
-				'path',
-				'packages'
-			]);
-
 			for (const entry of entriesChild) {
 				it(entry.name, () => {
-					validators.name(entry.name);
-					validators.file(entry.file);
-					validators.size(entry.size);
-					validators.sha256(entry.sha256);
-					validators.path(entry.path);
+					validators.name(false, entry.name);
+					validators.file(false, entry.file);
+					validators.size(false, entry.size);
+					validators.sha256(false, entry.sha256);
+					validators.source(false, entry.source);
+					validators.packages(false, entry.packages);
 
 					for (const p of Object.keys(entry)) {
 						expect(allowedProps.has(p)).toBe(true);
-					}
-
-					if (typeof entry.packages !== 'undefined') {
-						expect(Array.isArray(entry.packages)).toBe(true);
 					}
 				});
 			}

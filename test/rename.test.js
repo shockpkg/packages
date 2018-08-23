@@ -18,7 +18,7 @@ describe('rename', () => {
 					expect(entry.file).toBe(renamed[entry.name]);
 				}
 				else {
-					const urlFile = url.parse(entry.url).pathname
+					const urlFile = url.parse(entry.source).pathname
 						.split('/').pop();
 					expect(entry.file).toBe(urlFile);
 				}
@@ -60,7 +60,7 @@ describe('rename', () => {
 					expect(entry.file).toBe(renamed[entry.name]);
 				}
 				else {
-					const pathFile = path.basename(entry.path);
+					const pathFile = path.basename(entry.source);
 					expect(entry.file).toBe(pathFile);
 				}
 			});

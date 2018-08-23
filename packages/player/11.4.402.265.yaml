@@ -2,28 +2,28 @@
   file: fp_11.4.402.265_archive.zip
   size: 40419386
   sha256: 394c06adaeca69a723860eebb7078713500ad6c57c6bf63a9d1aca5b09c562b8
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.4.402.265_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.4.402.265_archive.zip'
   packages:
     - name: player-11.4.402.265-mac-npapi
       file: flashplayer11_4r402_265_mac.dmg
       size: 11859033
       sha256: 125b413fd49ced6bd2ef5dafe3cac59f3897c2b853e97ee76e015b48276c44ab
-      path: fp_11.4.r402.265_archive/11_4_r402_265/flashplayer11_4r402_265_mac.dmg
+      source: fp_11.4.r402.265_archive/11_4_r402_265/flashplayer11_4r402_265_mac.dmg
 
     - name: player-11.4.402.265-mac-npapi-debug
       file: flashplayer11_4r402_265_mac_debug.dmg
       size: 12464384
       sha256: ff390d6ea224059150c50a01ab6cbfa8a42b1a6e9abad93404fe56fabdd64ed6
-      path: fp_11.4.r402.265_archive/11_4_r402_265_debug/flashplayer11_4r402_265_mac_debug.dmg
+      source: fp_11.4.r402.265_archive/11_4_r402_265_debug/flashplayer11_4r402_265_mac_debug.dmg
 
     - name: player-11.4.402.265-mac-sa-debug
       file: flashplayer11_4r402_265_mac_sa_debug.app.zip
       size: 15948913
       sha256: 0b90f532209577fd90232fc7e0907f155c0094b0093e4b1b227721b29684eefe
-      path: fp_11.4.r402.265_archive/11_4_r402_265_debug/flashplayer11_4r402_265_mac_sa_debug.app.zip
+      source: fp_11.4.r402.265_archive/11_4_r402_265_debug/flashplayer11_4r402_265_mac_sa_debug.app.zip
 
     - name: player-11.4.402.265-mac-uninstaller
       file: uninsstall_flashplayer11_4r402_265_mac.dmg
       size: 229949
       sha256: c28dcf8ce48d207b08880596aacd65ccf269137e6314b6c49f32b4bcef261872
-      path: fp_11.4.r402.265_archive/11_4_r402_265/uninsstall_flashplayer11_4r402_265_mac.dmg
+      source: fp_11.4.r402.265_archive/11_4_r402_265/uninsstall_flashplayer11_4r402_265_mac.dmg

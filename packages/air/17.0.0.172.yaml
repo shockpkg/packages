@@ -2,40 +2,40 @@
   file: AdobeAIRInstaller.zip
   size: 17669804
   sha256: 04647d69871b0c69ea89535262f2dab6c5af5d3827759f87d2f279dfd460bce6
-  url: 'https://fpdownload.macromedia.com/air/win/download/17.0/AdobeAIRInstaller.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/17.0/AdobeAIRInstaller.zip'
   packages:
     - name: air-17.0.0.172-runtime-windows
       file: AdobeAIRInstaller.exe
       size: 17721768
       sha256: 8d6a17294152573e517c53f3c086c1601d3f3bfa770ecde4761679b20528762c
-      path: AdobeAIRInstaller.exe
+      source: AdobeAIRInstaller.exe
 
 - name: air-17.0.0.172-runtime-mac
   file: AdobeAIR.tbz2
   size: 25854068
   sha256: bd6da74e83c8350db9fcd9bf5231e16aa1a9c3623862a2368113d5088cd4c8fb
-  url: 'https://fpdownload.macromedia.com/air/mac/download/17.0/AdobeAIR.tbz2'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/17.0/AdobeAIR.tbz2'
 
 - name: air-17.0.0.172-sdk-windows
   file: AdobeAIRSDK.zip
   size: 189571432
   sha256: 3d6117e5c2c3eb924595bbcf2f89e72ac05b56d74074a8d4af5c9ef9bedb405d
-  url: 'https://fpdownload.macromedia.com/air/win/download/17.0/AdobeAIRSDK.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/17.0/AdobeAIRSDK.zip'
 
 - name: air-17.0.0.172-sdk-mac
   file: AdobeAIRSDK.tbz2
   size: 177512384
   sha256: c71708fcfb82a3d3c6a78a3932e498b059ecccb72aa8bba123594d9f50622f3f
-  url: 'https://fpdownload.macromedia.com/air/mac/download/17.0/AdobeAIRSDK.tbz2'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/17.0/AdobeAIRSDK.tbz2'
 
 - name: air-17.0.0.172-sdk-and-compiler-windows
   file: AIRSDK_Compiler.zip
   size: 226612544
   sha256: fe694773a4d794a3c32189327982eb63cadee5ee6915883b12e25fb84f497b46
-  url: 'https://fpdownload.macromedia.com/air/win/download/17.0/AIRSDK_Compiler.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/17.0/AIRSDK_Compiler.zip'
 
 - name: air-17.0.0.172-sdk-and-compiler-mac
   file: AIRSDK_Compiler.tbz2
   size: 214819758
   sha256: 36643ae1349ffde5e48a52ab37186460e1a5eb6051589e6e2004f6c1f865f3db
-  url: 'https://fpdownload.macromedia.com/air/mac/download/17.0/AIRSDK_Compiler.tbz2'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/17.0/AIRSDK_Compiler.tbz2'

@@ -2,28 +2,28 @@
   file: fp_11.8.800.174_archive.zip
   size: 52501454
   sha256: a2554dcbe5ed5225058e1e3021c3f1482d614639eb703cfdfedd29fa41ead800
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.8.800.174_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.8.800.174_archive.zip'
   packages:
     - name: player-11.8.800.174-windows-activex
       file: flashplayer11_8r800_174_winax.exe
       size: 17160072
       sha256: d46e11877dce50d932e9316cefb0f332a1917c19900366ad63c61918ff76b3be
-      path: fp_11.8.800.174_archive/11_8_r800_174/flashplayer11_8r800_174_winax.exe
+      source: fp_11.8.800.174_archive/11_8_r800_174/flashplayer11_8r800_174_winax.exe
 
     - name: player-11.8.800.174-windows-activex-msi
       file: flashplayer11_8r800_174_winax.msi
       size: 18251776
       sha256: 6a0f55b5030688b6e6423a62a5573187a7603c9bf4f870a1943ef13facbd7cbf
-      path: fp_11.8.800.174_archive/11_8_r800_174/flashplayer11_8r800_174_winax.msi
+      source: fp_11.8.800.174_archive/11_8_r800_174/flashplayer11_8r800_174_winax.msi
 
     - name: player-11.8.800.174-windows-activex-debug
       file: flashplayer11_8r800_174_winax_debug.exe
       size: 17594248
       sha256: fd4b88081180696003b2ecacd67252aa12bbced70bf4abf5cf8075ee13d23fdb
-      path: fp_11.8.800.174_archive/11_8_r800_174_debug/flashplayer11_8r800_174_winax_debug.exe
+      source: fp_11.8.800.174_archive/11_8_r800_174_debug/flashplayer11_8r800_174_winax_debug.exe
 
     - name: player-11.8.800.174-windows-uninstaller
       file: uninstall_flashplayer11_8r800_174_win.exe
       size: 816008
       sha256: beeb582f947c11f59691ceac4e135272aae178da8e253087caef6367fcf17035
-      path: fp_11.8.800.174_archive/11_8_r800_174/uninstall_flashplayer11_8r800_174_win.exe
+      source: fp_11.8.800.174_archive/11_8_r800_174/uninstall_flashplayer11_8r800_174_win.exe

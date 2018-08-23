@@ -2,82 +2,82 @@
   file: fp3_archive.zip
   size: 998532
   sha256: 5d00944a4fc189f6d30b06452bee962c0242c5df3b69ee8eb36a5fb075330ca2
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp3_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp3_archive.zip'
   packages:
     - name: player-3.0.18.0-windows-16bit-npapi
       file: swflash.exe
       size: 194147
       sha256: 42603814a3afa575b24d07675c36f95adfb6a4cbe8ee11bea51943a8fcf047f8
-      path: FP3_archive/swflash.exe
+      source: FP3_archive/swflash.exe
 
     - name: player-3.0.18.0-windows-32bit-npapi
       file: installflashplayer.exe
       size: 222191
       sha256: 66ed98afeb1ec0141cc5452dffd7fe98f76c225d265a61531eb2ab92696c17ae
-      path: FP3_archive/installflashplayer.exe
+      source: FP3_archive/installflashplayer.exe
 
     - name: player-3.0.18.0-windows-activex-ocx
       file: SwFlash.ocx
       size: 188928
       sha256: 2428ad408888361a9bd397fd02390b552904bf6a2d0084b592c818c61bad9460
-      path: FP3_archive/SwFlash.ocx
+      source: FP3_archive/SwFlash.ocx
 
     - name: player-3.0.8.0-mac-npapi
       file: shockwaveflashinstall.sea.hqx
       size: 347187
       sha256: 992fdec8b02581105dd32e49bcc202f2d9e08df2fff78f4435a4ea8a469d4613
-      path: FP3_archive/shockwaveflashinstall.sea.hqx
+      source: FP3_archive/shockwaveflashinstall.sea.hqx
 
     - name: player-3.0.8.0-mac-68k-npapi
       file: shockwaveflashinstall(68k).sea.hqx
       size: 298775
       sha256: bb4d0acd85446fb265177af8f8036baed7f448914c937d1a0e4b4f62fda507bd
-      path: FP3_archive/shockwaveflashinstall(68k).sea.hqx
+      source: FP3_archive/shockwaveflashinstall(68k).sea.hqx
 
 - name: player-3-pro-archive
   file: flash_pro_3_players.zip
   size: 1303452
   sha256: 5c839f897ab0108209ae435881aff9fbf2b06fa3cbd65e819b7a9366936c50e6
-  url: 'https://gitlab.com/fparchive/player-3/raw/master/flash_pro_3_players.zip'
+  source: 'https://gitlab.com/fparchive/player-3/raw/master/flash_pro_3_players.zip'
   packages:
     - name: player-2-java
       file: Flash Player Java(tm) Edition.zip
       size: 299519
       sha256: 839562573473f7f8761bac2e1ca959e20c3ffeb75e97efcf2a63078068720028
-      path: Players/Flash Player Java(tm) Edition.zip
+      source: Players/Flash Player Java(tm) Edition.zip
 
     - name: player-3.0.8.0-windows-16bit-npapi
       file: Npswf16.dll
       size: 204944
       sha256: 8a4fb655998c45cf39803c7ba760468bdf1c391c83dbf6b3136825d48b01d574
-      path: Players/Npswf16.dll
+      source: Players/Npswf16.dll
 
     - name: player-3.0.8.0-windows-32bit-npapi
       file: NPSWF32.dll
       size: 141312
       sha256: fa9d5755281372b1dc67aa2962671b5a792a6e5ae8eb2a7d8cd72c0b8478bb73
-      path: Players/NPSWF32.dll
+      source: Players/NPSWF32.dll
 
     - name: player-3.0.8.0-windows-activex
       file: FlashAXInstall.exe
       size: 242816
       sha256: 4430d0c538c101f2a6180bc57d5e70b4735037a0f682d2799f674d141a9ebdbd
-      path: Players/FlashAXInstall.exe
+      source: Players/FlashAXInstall.exe
 
     - name: player-3.0.8.0-windows-16bit-sa
       file: SwFlsh16.exe
       size: 203568
       sha256: d5e7fb72f7c385dce3c5a8a62cf59203ce235435521c38a56b87a2f49c1c8b9c
-      path: Players/SwFlsh16.exe
+      source: Players/SwFlsh16.exe
 
     - name: player-3.0.8.0-windows-32bit-sa
       file: SwFlsh32.exe
       size: 147456
       sha256: f81e453f86a90d7f2528946d9fb9409f82c46cac5b3fb687d43edcff52b3ed0b
-      path: Players/SwFlsh32.exe
+      source: Players/SwFlsh32.exe
 
     - name: player-3.0.8.0-mac-sa
       file: Mac standalone players.hqx
       size: 436656
       sha256: 668ca1452cd7a041de4edb2f5cc560930a8235d6b90227c032526d7680452207
-      path: Players/Mac standalone players.hqx
+      source: Players/Mac standalone players.hqx

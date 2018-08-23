@@ -2,34 +2,34 @@
   file: fp_11.2.202.424_archive.zip
   size: 33966904
   sha256: 901826f7fe3a08055cfc62caf8667e16e36b364ee9853fed91d5680f2f55dca3
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.424_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.424_archive.zip'
   packages:
     - name: player-11.2.202.424-linux-i386-npapi
       file: flashplayer_11_2r202_424_linux.i386.tar.gz
       size: 6926508
       sha256: 5661d38963f1636a1c858184df657a20a7ce24f7d2f42f61c91b61f30ffb94ff
-      path: fp_11.2.202.424_archive/11_2r202_424_32bit/flashplayer_11_2r202_424_linux.i386.tar.gz
+      source: fp_11.2.202.424_archive/11_2r202_424_32bit/flashplayer_11_2r202_424_linux.i386.tar.gz
 
     - name: player-11.2.202.424-linux-i386-npapi-debug
       file: flashplayer11_2r202_424_linux_debug.i386.tar.gz
       size: 7406275
       sha256: d4f056ba44125a1dcfa2b43b7404f1b70af6055b2fef1f7fd72138ca1e4a4a01
-      path: fp_11.2.202.424_archive/11_2r202_424_32bit_debug/flashplayer11_2r202_424_linux_debug.i386.tar.gz
+      source: fp_11.2.202.424_archive/11_2r202_424_32bit_debug/flashplayer11_2r202_424_linux_debug.i386.tar.gz
 
     - name: player-11.2.202.424-linux-i386-sa
       file: flashplayer_11_2r202_424_linux_sa.i386.tar.gz
       size: 5959820
       sha256: 1983cf6870bb2df0fd0ed367cda93bde1911a0fcbe45d1c0867f4c207793ebe9
-      path: fp_11.2.202.424_archive/11_2r202_424_32bit/flashplayer_11_2r202_424_linux_sa.i386.tar.gz
+      source: fp_11.2.202.424_archive/11_2r202_424_32bit/flashplayer_11_2r202_424_linux_sa.i386.tar.gz
 
     - name: player-11.2.202.424-linux-i386-sa-debug
       file: flashplayer11_2r202_424_linux_sa_debug.i386.tar.gz
       size: 6431719
       sha256: d0477d6ac023c70cfa108d39746afb3106d06df5318a4dbf662693be04a2cf99
-      path: fp_11.2.202.424_archive/11_2r202_424_32bit_debug/flashplayer11_2r202_424_linux_sa_debug.i386.tar.gz
+      source: fp_11.2.202.424_archive/11_2r202_424_32bit_debug/flashplayer11_2r202_424_linux_sa_debug.i386.tar.gz
 
     - name: player-11.2.202.424-linux-x86_64-npapi
       file: flash-plugin-11.2.202.424-release.x86_64.tar.gz
       size: 7241264
       sha256: e8c3768ec878da19f3de9dc75c22b3ef0a9cefa4fc799a4fe809efbde83973da
-      path: fp_11.2.202.424_archive/11_2r202_424_64bit/flash-plugin-11.2.202.424-release.x86_64.tar.gz
+      source: fp_11.2.202.424_archive/11_2r202_424_64bit/flash-plugin-11.2.202.424-release.x86_64.tar.gz

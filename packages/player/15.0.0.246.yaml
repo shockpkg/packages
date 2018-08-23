@@ -2,70 +2,70 @@
   file: fp_15.0.0.246_archive.zip
   size: 137763165
   sha256: 150e57dc644a5014f51cc210ed041bb918acada6f3fbd625322b57276cdb5f35
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_15.0.0.246_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_15.0.0.246_archive.zip'
   packages:
     - name: player-15.0.0.246-windows-npapi
       file: flashplayer15_0r0_246_win.exe
       size: 17930928
       sha256: 49e4728668f62d9012fb27166af6fe0b62fd467699017a81a23c215a8aab9cef
-      path: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_win.exe
+      source: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_win.exe
 
     - name: player-15.0.0.246-windows-npapi-debug
       file: flashplayer15_0r0_246_win_debug.exe
       size: 17672368
       sha256: 1a6f97706dbee228406e1c03c493a5c61e8fe52f1ff9c82317dd7c0d900e3d86
-      path: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_win_debug.exe
+      source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_win_debug.exe
 
     - name: player-15.0.0.246-windows-activex
       file: flashplayer15_0r0_246_winax.exe
       size: 17340080
       sha256: 3e8f463c1796b31bb09d79da9a84f9089715f8d13ff57eb798452d73e7704fdc
-      path: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_winax.exe
+      source: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_winax.exe
 
     - name: player-15.0.0.246-windows-activex-debug
       file: flashplayer15_0r0_246_winax_debug.exe
       size: 17723056
       sha256: d2c347a4209902cb8e4506d4802bc92b4880ce7167a313575bcfcfb498f44050
-      path: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_winax_debug.exe
+      source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_winax_debug.exe
 
     - name: player-15.0.0.246-windows-sa-debug
       file: flashplayer15_0r0_246_win_sa_debug.exe
       size: 12068016
       sha256: 2dc1a95d5919a27fff1ad525153c7b0f8909838c65233da3694444a5290e4101
-      path: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_win_sa_debug.exe
+      source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_win_sa_debug.exe
 
     - name: player-15.0.0.246-windows-uninstaller
       file: uninstall_flashplayer15_0r0_246_win.exe
       size: 855728
       sha256: 528a57f63d03fab2f4981ccf06794f06605061130e5a36b1315ddee73d2633fb
-      path: fp_15.0.0.246_archive/15_0_r0_246/uninstall_flashplayer15_0r0_246_win.exe
+      source: fp_15.0.0.246_archive/15_0_r0_246/uninstall_flashplayer15_0r0_246_win.exe
 
     - name: player-15.0.0.246-mac-npapi
       file: flashplayer15_0r0_246_mac.dmg
       size: 15628895
       sha256: 18194d31bc4a9936a35212bab6312093cbb1a98c38a69c741dde3e27930202c9
-      path: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_mac.dmg
+      source: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_mac.dmg
 
     - name: player-15.0.0.246-mac-npapi-pkg
       file: flashplayer15_0r0_246_mac_pkg.dmg
       size: 15370224
       sha256: 37df45c502a6e5a37f330c8e61fad9523c78499e06aceb983daefa795c7cacc8
-      path: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_mac_pkg.dmg
+      source: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_mac_pkg.dmg
 
     - name: player-15.0.0.246-mac-npapi-debug
       file: flashplayer15_0r0_246_mac_debug.dmg
       size: 15976299
       sha256: 3415881d9fba8f3fac21b4b15fb41c88268036bb0b1d874648295d9a8e87c545
-      path: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_mac_debug.dmg
+      source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_mac_debug.dmg
 
     - name: player-15.0.0.246-mac-sa-debug
       file: flashplayer15_0r0_246_mac_sa_debug.dmg
       size: 14021703
       sha256: 2bea8c18feca42e39f491ee74e29fb1abca008a04dcfe28eff654ef8e22784fe
-      path: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_mac_sa_debug.dmg
+      source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_mac_sa_debug.dmg
 
     - name: player-15.0.0.246-mac-uninstaller
       file: uninstall_flashplayer15_0r0_246_mac.dmg
       size: 256623
       sha256: 51d6aea1a54349620eacdfaedfcb58655c080a9ce4fa3fc62b8ddb6413639bed
-      path: fp_15.0.0.246_archive/15_0_r0_246/uninstall_flashplayer15_0r0_246_mac.dmg
+      source: fp_15.0.0.246_archive/15_0_r0_246/uninstall_flashplayer15_0r0_246_mac.dmg

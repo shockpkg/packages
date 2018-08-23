@@ -2,10 +2,10 @@
   file: AdobeGamingSDK_1_4_LS1.exe
   size: 309897032
   sha256: 2721056ba40c82eb4a3523770be3e1d9d08a4391dd3734a5bd0387fc45a9327f
-  url: 'http://download.macromedia.com/get/GSDK/1.4/AdobeGamingSDK_1_4_LS1.exe'
+  source: 'http://download.macromedia.com/get/GSDK/1.4/AdobeGamingSDK_1_4_LS1.exe'
 
 - name: gamingsdk-1.4.394-mac
   file: AdobeGamingSDK_1_4_LS1.dmg
   size: 330165324
   sha256: 5647ad76df57dee4003ffa8102de6f00193ab477261666ab002dc93464f0f975
-  url: 'http://download.macromedia.com/get/GSDK/1.4/AdobeGamingSDK_1_4_LS1.dmg'
+  source: 'http://download.macromedia.com/get/GSDK/1.4/AdobeGamingSDK_1_4_LS1.dmg'

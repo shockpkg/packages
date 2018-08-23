@@ -2,76 +2,76 @@
   file: fp_11.5.502.110_archive.zip
   size: 153485149
   sha256: 11d0821d280fe8f7ef30adbb24d244540f9a3fe1d04b81e6ca7654b918d8d760
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.5.502.110_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.5.502.110_archive.zip'
   packages:
     - name: player-11.5.502.110-windows-npapi
       file: flashplayer11_5r502_110_win.exe
       size: 16361912
       sha256: d250a02e291ac7339664cd89792ae428fd6897915b061945843d33981712c732
-      path: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_win.exe
+      source: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_win.exe
 
     - name: player-11.5.502.110-windows-npapi-msi
       file: flashplayer11_5r502_110_win.msi
       size: 17484288
       sha256: e1220b740378a48684df058f96b0c1e5fd6fe6f31d9c144463e47e395b529ead
-      path: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_win.msi
+      source: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_win.msi
 
     - name: player-11.5.502.110-windows-npapi-debug
       file: flashplayer11_5r502_110_win_debug.exe
       size: 17094072
       sha256: e516c1439bbdf6a6688d47e8ebaf2c08d3b691083ca3a91280fcabd770095f9a
-      path: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_win_debug.exe.exe
+      source: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_win_debug.exe.exe
 
     - name: player-11.5.502.110-windows-activex
       file: flashplayer11_5r502_110_winax.exe
       size: 15734200
       sha256: f6d70df0635196857d5d720849a4abc30c3fdee37ab9ef32920af15e4481f84a
-      path: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_winax.exe
+      source: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_winax.exe
 
     - name: player-11.5.502.110-windows-activex-msi
       file: flashplayer11_5r502_110_winax.msi
       size: 16853504
       sha256: 44ec3726daa76d6ff239db2c94680bef09e3cfd1cc9389be4450eac65393d845
-      path: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_winax.msi
+      source: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_winax.msi
 
     - name: player-11.5.502.110-windows-activex-debug
       file: flashplayer11_5r502_110_winax_debug.exe
       size: 16466360
       sha256: a99005dcfda73f7cc91bf87d90333ea28e229f63a84ebbe0c63461daa09c2ee1
-      path: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_winax_debug.exe
+      source: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_winax_debug.exe
 
     - name: player-11.5.502.110-windows-sa-debug
       file: flashplayer11_5r502_110_win_sa_debug.exe
       size: 10340280
       sha256: e2ae7d2c391cfd5d83722bb4c0ca403583bf5c4db89902918726975af55056b5
-      path: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_win_sa_debug.exe
+      source: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_win_sa_debug.exe
 
     - name: player-11.5.502.110-windows-uninstaller
       file: uninstall_flashplayer11_5r502_110_win.exe
       size: 697272
       sha256: deea2ea1ae57cbecf650addcb558f034f19bb59c4aa47fa3811e356b09e551e6
-      path: fp_11.5.r502.110_archive/11_5_r502_110/uninstall_flashplayer11_5r502_110_win.exe
+      source: fp_11.5.r502.110_archive/11_5_r502_110/uninstall_flashplayer11_5r502_110_win.exe
 
     - name: player-11.5.502.110-mac-npapi
       file: flashplayer11_5r502_110_mac.dmg
       size: 16872323
       sha256: 1594da78fad5feeb5397d2677f0ab33dfbf246a3b0067eebbc213e6291b8f340
-      path: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_mac.dmg
+      source: fp_11.5.r502.110_archive/11_5_r502_110/flashplayer11_5r502_110_mac.dmg
 
     - name: player-11.5.502.110-mac-npapi-debug
       file: flashplayer11_5r502_110_mac_debug.dmg
       size: 17498191
       sha256: 3a6f2d1853c28a4d828e3891933c52c79d2c5faecfe3be927c2d2ec5a0eea77b
-      path: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_mac_debug.dmg
+      source: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_mac_debug.dmg
 
     - name: player-11.5.502.110-mac-sa-debug
       file: flashplayer11_5r502_110_mac_sa_debug.app.zip
       size: 15976282
       sha256: aaa6b47b25412638976eeeeb09bf9ff84d61f1d4ee002cf6a082a351c27e1cb5
-      path: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_mac_sa_debug.app.zip
+      source: fp_11.5.r502.110_archive/11_5_r502_110_debug/flashplayer11_5r502_110_mac_sa_debug.app.zip
 
     - name: player-11.5.502.110-mac-uninstaller
       file: uninstall_flashplayer11_5r502_110_mac.dmg
       size: 229048
       sha256: 66ac3e4dc2409c69ba90a774637b1a7d7f4fb66ca333ae9b956e1fe98c4a4bb8
-      path: fp_11.5.r502.110_archive/11_5_r502_110/uninstall_flashplayer11_5r502_110_mac.dmg
+      source: fp_11.5.r502.110_archive/11_5_r502_110/uninstall_flashplayer11_5r502_110_mac.dmg

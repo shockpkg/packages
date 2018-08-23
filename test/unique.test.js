@@ -23,17 +23,17 @@ describe('unique', () => {
 		}
 	});
 
-	describe('url', () => {
+	describe('source (root)', () => {
 		const seen = new Set();
 		for (const entry of entriesRoot) {
-			it(entry.url, () => {
-				expect(seen.has(entry.url)).toBe(false);
-				seen.add(entry.url);
+			it(entry.source, () => {
+				expect(seen.has(entry.source)).toBe(false);
+				seen.add(entry.source);
 			});
 		}
 	});
 
-	describe('path', () => {
+	describe('source (child)', () => {
 		for (const entry of entries) {
 			const {packages} = entry;
 			if (!packages) {
@@ -43,9 +43,9 @@ describe('unique', () => {
 			const seen = new Set();
 
 			for (const pkg of packages) {
-				it(`${entry.name}: ${pkg.path}`, () => {
-					expect(seen.has(pkg.path)).toBe(false);
-					seen.add(pkg.path);
+				it(`${entry.name}: ${pkg.source}`, () => {
+					expect(seen.has(pkg.source)).toBe(false);
+					seen.add(pkg.source);
 				});
 			}
 		}

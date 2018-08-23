@@ -2,58 +2,58 @@
   file: fp4_archive.zip
   size: 730641
   sha256: cb31650f85b2417d866f6712b3c860e6120008c52331201fb64ab715b81d7242
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp4_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp4_archive.zip'
   packages:
     - name: player-4.0.28.0-windows-npapi
       file: flash32.exe
       size: 275717
       sha256: 2ae80109f743479db79adf6728542d9ba2d7f9f8a0702c7f6bff046bcf97e2ac
-      path: FP4_archive/flash32.exe
+      source: FP4_archive/flash32.exe
 
     - name: player-4.0.28.0-windows-activex-ocx
       file: SwFlash.ocx
       size: 294912
       sha256: d13ee69584aa14c3edc80f35f323eacbd917eaae3a4b6af23ff8a92f001e446a
-      path: FP4_archive/SwFlash.ocx
+      source: FP4_archive/SwFlash.ocx
 
     - name: player-4.0.27.0-mac-npapi
       file: flash4playerinstaller.hqx
       size: 411304
       sha256: b5e79fb1daefb2662a22b1c59dbaa021a95439dd83061280a0d7b20870cdb1ca
-      path: FP4_archive/flash4playerinstaller.hqx
+      source: FP4_archive/flash4playerinstaller.hqx
 
 - name: player-4-pro-archive
   file: flash_pro_4_players.zip
   size: 1177451
   sha256: 11e766dbce1be0fb15dc3b2dfa624973d77ec14feeb82153110648205131c5c0
-  url: 'https://gitlab.com/fparchive/player-4/raw/master/flash_pro_4_players.zip'
+  source: 'https://gitlab.com/fparchive/player-4/raw/master/flash_pro_4_players.zip'
   packages:
     - name: player-4.0.7.0-windows-npapi
       file: NPSWF32.dll
       size: 245760
       sha256: 37c340b4b424eeb3891d243885a0fd9ef777fc35d52a13072909dbd24e08dbf6
-      path: Players/NPSWF32.dll
+      source: Players/NPSWF32.dll
 
     - name: player-4.0.7.0-windows-activex
       file: InstallAXFlash.exe
       size: 295552
       sha256: eaedd3caf45a19c6520a9f20d434ac043811e84370eff5e56142a9cc0846fb0b
-      path: Players/InstallAXFlash.exe
+      source: Players/InstallAXFlash.exe
 
     - name: player-4.0.7.0-mac-npapi
       file: Shockwave Flash NP-PPC.Hqx
       size: 418291
       sha256: dae2aeca68d98319e41773b6b26b95302e535d46f8d0191be07652cd4c5b95ae
-      path: Players/Shockwave Flash NP-PPC.Hqx
+      source: Players/Shockwave Flash NP-PPC.Hqx
 
     - name: player-4.0.7.0-windows-sa
       file: FlashPla.exe
       size: 286720
       sha256: 0818d0941a3610b679be9fcaa7403cedf450c4b1244660d8e96e9fad99498f1e
-      path: Players/FlashPla.exe
+      source: Players/FlashPla.exe
 
     - name: player-4.0.7.0-mac-sa
       file: FlashPla.hqx
       size: 441581
       sha256: d313fcdb79d48f5df491a1404231c710cf4bef1a07dec49154cac7f6f0e97453
-      path: Players/FlashPla.hqx
+      source: Players/FlashPla.hqx

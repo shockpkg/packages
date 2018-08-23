@@ -2,22 +2,22 @@
   file: fp_11.2.202.336_archive.zip
   size: 19865814
   sha256: 54b2efba553f8a7dda89526cd66a685814d3034ff4efad689662f56e273d859b
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.336_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.336_archive.zip'
   packages:
     - name: player-11.2.202.336-linux-i386-npapi
       file: flashplayer_11_2r202_336_linux.i386.tar.gz
       size: 6923195
       sha256: 05c1ab26da7089115e5d987154463e9b8b99e9360a7f5c2f7ee4e472e4925d56
-      path: fp_11.2.202.336_archive/11_2r202_336_32bit/flashplayer_11_2r202_336_linux.i386.tar.gz
+      source: fp_11.2.202.336_archive/11_2r202_336_32bit/flashplayer_11_2r202_336_linux.i386.tar.gz
 
     - name: player-11.2.202.336-linux-i386-sa
       file: flashplayer_11_2r202_336_linux_sa.i386.tar.gz
       size: 5957382
       sha256: 7b79728b211f72c0350c44e0497bcac0775d4726bd3c020e0a1b6cf442d09719
-      path: fp_11.2.202.336_archive/11_2r202_336_32bit/flashplayer_11_2r202_336_linux_sa.i386.tar.gz
+      source: fp_11.2.202.336_archive/11_2r202_336_32bit/flashplayer_11_2r202_336_linux_sa.i386.tar.gz
 
     - name: player-11.2.202.336-linux-x86_64-npapi
       file: flash-plugin-11.2.202.336-release.x86_64.tar.gz
       size: 7234917
       sha256: d1b25e2812f489c58a9d746165a552addc75e6109b4ed74421fa51ba8b3731f3
-      path: fp_11.2.202.336_archive/11_2r202_336_64bit/flash-plugin-11.2.202.336-release.x86_64.tar.gz
+      source: fp_11.2.202.336_archive/11_2r202_336_64bit/flash-plugin-11.2.202.336-release.x86_64.tar.gz

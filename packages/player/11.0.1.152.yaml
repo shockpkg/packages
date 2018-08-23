@@ -2,148 +2,148 @@
   file: fp_11.0.1.152_archive.zip
   size: 171675837
   sha256: 97cafd2e8b43c4c0d75dc782c4f9d71113bfb1ef15b0d0aba4f009eed2275b49
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.0.1.152_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.0.1.152_archive.zip'
   packages:
     - name: player-11.0.1.152-windows-32bit-npapi
       file: flashplayer11_0r1_152_win_32bit.exe
       size: 3760800
       sha256: 47863958f73407ffe2edf19ea8d0fddeeb3aa83e49942799d7fb2ec773b383c3
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_win_32bit.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_win_32bit.exe
 
     - name: player-11.0.1.152-windows-32bit-npapi-msi
       file: flashplayer11_0r1_152_win_32bit.msi
       size: 4824576
       sha256: fd31fa5946df475f9856c155991b9f0d31cbb4f010f2cd17e5a1e4f6bf140323
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_win_32bit.msi
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_win_32bit.msi
 
     - name: player-11.0.1.152-windows-32bit-npapi-debug
       file: flashplayer11_0r1_152_win_debug_32bit.exe
       size: 4087456
       sha256: ae97191e24122444c6bb386acd54a468332ba6cb0e825743e4ff76fab94c6e35
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_win_debug_32bit.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_win_debug_32bit.exe
 
     - name: player-11.0.1.152-windows-32bit-activex
       file: flashplayer11_0r1_152_winax_32bit.exe
       size: 3797152
       sha256: b2028dbcfcee70ed1fb06c37c8c0625dda8ce905bda0df26a20571836d6cd9a7
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_winax_32bit.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_winax_32bit.exe
 
     - name: player-11.0.1.152-windows-32bit-activex-msi
       file: flashplayer11_0r1_152_winax_32bit.msi
       size: 4861440
       sha256: fd6e9e3080d0d5f31738cd7373dfdeb1d85143aabd0b747a2e743805934af16c
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_winax_32bit.msi
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_winax_32bit.msi
 
     - name: player-11.0.1.152-windows-32bit-activex-debug
       file: flashplayer11_0r1_152_winax_debug_32bit.exe
       size: 4124832
       sha256: db7ebdaf6c5e3606029aa5d62e87456f0d7264fadfc2f50ada663a76e67ba244
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_winax_debug_32bit.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_winax_debug_32bit.exe
 
     - name: player-11.0.1.152-windows-32bit-sa
       file: flashplayer11_0r1_152_win_sa_32bit.exe
       size: 8047776
       sha256: 8a5671128d6b8fa42affa8c6e05114b657b0faf2245c1e0ad68558d2d7325b0d
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_win_sa_32bit.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_win_sa_32bit.exe
 
     - name: player-11.0.1.152-windows-32bit-sa-debug
       file: flashplayer11_0r1_152_win_sa_debug_32bit.exe
       size: 9345696
       sha256: 3fc6500ca6ecf4febc70377260cbfefc0c9a09add1610943931e108dec043c90
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_win_sa_debug_32bit.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_win_sa_debug_32bit.exe
 
     - name: player-11.0.1.152-windows-32bit-uninstaller
       file: uninstall_flashplayer11_0r1_152_win_32bit.exe
       size: 248480
       sha256: d5ebc375b46d95f40363056f706d1bae4be41ae01f212eb484b3f16df1b9c2cf
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/uninstall_flashplayer11_0r1_152_win_32bit.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/uninstall_flashplayer11_0r1_152_win_32bit.exe
 
     - name: player-11.0.1.152-windows-64bit-npapi
       file: flashplayer11_0r1_152_win_64bit.exe
       size: 8107168
       sha256: 40ed3cbbda0e68dc0f71927b02defcf7781b60c6271fb5222d580165de87e940
-      path: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_win_64bit.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_win_64bit.exe
 
     - name: player-11.0.1.152-windows-64bit-npapi-msi
       file: flashplayer11_0r1_152_win_64bit.msi
       size: 9302016
       sha256: bdeb9dd0c495ca2cff8137023c84fd3eba2860bdf7e33829f2c5565073d3db14
-      path: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_win_64bit.msi
+      source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_win_64bit.msi
 
     - name: player-11.0.1.152-windows-64bit-activex
       file: flashplayer11_0r1_152_winax_64bit.exe
       size: 8188064
       sha256: 3125d7c88ae5373ef3eac182e9704729a3c96b10e3095c7b58b82c3bcd7dfd52
-      path: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_winax_64bit.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_winax_64bit.exe
 
     - name: player-11.0.1.152-windows-64bit-activex-msi
       file: flashplayer11_0r1_152_winax_64bit.msi
       size: 9384448
       sha256: 7449948b0bfebe64f5bebf6b88ce9ca135d3c0a6e4fd6aef80c0d9b636c9cd1f
-      path: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_winax_64bit.msi
+      source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_winax_64bit.msi
 
     - name: player-11.0.1.152-windows-64bit-uninstaller
       file: uninstall_flashplayer11_0r1_152_win_64bit.exe
       size: 462496
       sha256: db99117c2cbdd19bac0c8ef5a6b98543bcf59683db67fca482276de684c3f9cd
-      path: fp_11.0.1.152_archive/11_0r1_152_64bit/uninstall_flashplayer11_0r1_152_mac.exe
+      source: fp_11.0.1.152_archive/11_0r1_152_64bit/uninstall_flashplayer11_0r1_152_mac.exe
 
     - name: player-11.0.1.152-mac-npapi
       file: flashplayer11_0r1_152_mac.dmg
       size: 14772755
       sha256: 3956e753d3946806836fadbcee80d4bdbc6aa229ceecb6e3610fb8aa1174f316
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_mac.dmg
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_mac.dmg
 
     - name: player-11.0.1.152-mac-npapi-debug
       file: flashplayer11_0r1_152_mac_debug.dmg
       size: 15661766
       sha256: 4b3373ea6dcbd8318fc65570b949ff682d408adf9fdb135a2c9eef17dd709d6d
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_mac_debug.dmg
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_mac_debug.dmg
 
     - name: player-11.0.1.152-mac-sa
       file: flashplayer11_0r1_152_mac_sa.app.zip
       size: 13764232
       sha256: bedf589e0ff35bf2424aeda3c1c15b9c6d1f4646454c4a41c9e2da691596abed
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_mac_sa.app.zip
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_mac_sa.app.zip
 
     - name: player-11.0.1.152-mac-sa-debug
       file: flashplayer11_0r1_152_mac_sa_debug.app.zip
       size: 14650900
       sha256: 4f64ca8602a51dd9b6dbe9cc42fa0799b270556c1ac93a182e8b03273315e11e
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_mac_sa_debug.app.zip
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_mac_sa_debug.app.zip
 
     - name: player-11.0.1.152-mac-uninstaller
       file: uninstall_flashplayer11_0r1_152_mac.dmg
       size: 447198
       sha256: 7cab2160abc38f2ec11184264c743837f0938ce55de1a62b6e1a3d844bd54787
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/uninstall_flashplayer11_0r1_152_mac.dmg
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/uninstall_flashplayer11_0r1_152_mac.dmg
 
     - name: player-11.0.1.152-linux-i386-npapi
       file: flashplayer11_0r1_152_linux.i386.tar.gz
       size: 6742944
       sha256: 3532ee49eda0845597084a805e11985f9fd9c5f7b5b72f592ceb18529da918c1
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_linux.i386.tar.gz
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_linux.i386.tar.gz
 
     - name: player-11.0.1.152-linux-i386-npapi-debug
       file: flashplayer11_0r1_152_linux_debug.i386.tar.gz
       size: 7195204
       sha256: b80ef48fe77741f7716a0764433ff228d11121939ca4d5d6e8261a64223b053e
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_winax_debug_32bit.gz
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_winax_debug_32bit.gz
 
     - name: player-11.0.1.152-linux-i386-sa
       file: flashplayer11_0r1_152_linux_sa.i386.tar.gz
       size: 5547084
       sha256: 9e9ce7cf26b6e79e3c6a10e32cdf6cd93b58ccc15e806116f2e04273f7b1057c
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_linux_sa.i386.tar.gz
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_linux_sa.i386.tar.gz
 
     - name: player-11.0.1.152-linux-i386-sa-debug
       file: flashplayer11_0r1_152_linux_sa_debug.i386.tar.gz
       size: 5968840
       sha256: 21d0ee724969b44a97a0b50799d450bb26eb08d380f64af45db68bf57605f191
-      path: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_linux_sa_debug.i386.tar.gz
+      source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_linux_sa_debug.i386.tar.gz
 
     - name: player-11.0.1.152-linux-x86_64-npapi
       file: flashplayer11_0r1_152_linux.x86_64.tar.gz
       size: 7042512
       sha256: 5756a4ac9811e0362da2b0c208a458b417883e9f9c3773c70e61c935609b64dc
-      path: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_linux.x86_64.tar.gz
+      source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_linux.x86_64.tar.gz

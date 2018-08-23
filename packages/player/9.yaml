@@ -2,1186 +2,1186 @@
   file: fp9_archive.zip
   size: 288144350
   sha256: e2ba916ec33430dd8cdf17424f71fdc83ad32e908d20ab4de1a0ba30c81b72c5
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp9_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp9_archive.zip'
   packages:
     - name: player-9.0.16.0-windows-npapi
       file: flashplayer9r16_win.exe
       size: 1355912
       sha256: 8c0826cf9fd319c7f88bb63724dad52073859984c91f2a33c5db6eefe0964674
-      path: fp9_archive/9r16/flashplayer9r16_win.exe
+      source: fp9_archive/9r16/flashplayer9r16_win.exe
 
     - name: player-9.0.16.0-windows-activex
       file: flashplayer9r16_winax.exe
       size: 1134216
       sha256: fddb129212ccc34a743dabbdb9d5befa86cbfd3f1da5a628810c79948f71bbab
-      path: fp9_archive/9r16/flashplayer9r16_winax.exe
+      source: fp9_archive/9r16/flashplayer9r16_winax.exe
 
     - name: player-9.0.16.0-mac-npapi
       file: flashplayer9r16_mac.dmg
       size: 1908421
       sha256: 6a2dfff99e38d388eca2f5029a586470d6941b13df0a137c1a3f7c159011c1d8
-      path: fp9_archive/9r16/flashplayer9r16_mac.dmg
+      source: fp9_archive/9r16/flashplayer9r16_mac.dmg
 
     - name: player-9.0.20.0-mac-ub-npapi-archive
       file: flashplayer9r20_ub_mac.dmg.zip
       size: 4196110
       sha256: 619c9041669994ef6efe633e20ad529477815a38da7fa06349a6f607b88504ef
-      path: fp9_archive/9r20/flashplayer9r20_ub_mac.dmg.zip
+      source: fp9_archive/9r20/flashplayer9r20_ub_mac.dmg.zip
       packages:
         - name: player-9.0.20.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
           size: 4209075
           sha256: d8cc39112632fd904e3bd6756ec3a713a2b580abfc07d3824d6d761dd053864a
-          path: Install Flash Player 9 UB.dmg
+          source: Install Flash Player 9 UB.dmg
 
     - name: player-9.0.28.0-windows-npapi
       file: flashplayer9r28_win.exe
       size: 1410680
       sha256: de2a33216f80f1966e6db1a601eb93b7237777e95a39bcf3010606dc8f179551
-      path: fp9_archive/9r28/flashplayer9r28_win.exe
+      source: fp9_archive/9r28/flashplayer9r28_win.exe
 
     - name: player-9.0.28.0-windows-activex
       file: flashplayer9r28_winax.exe
       size: 1175648
       sha256: ba2c2e6869d70acb1caa51080ea6909ea5d99795eaa138d2b5dea3b900c0d5af
-      path: fp9_archive/9r28/flashplayer9r28_winax.exe
+      source: fp9_archive/9r28/flashplayer9r28_winax.exe
 
     - name: player-9.0.28.0-mac-npapi
       file: flashplayer9r28_mac.dmg
       size: 1923345
       sha256: cfaf152ad8d0487c01524dc7e00e68fa455a44aa6bd78f217027ed665b385318
-      path: fp9_archive/9r28/flashplayer9r28_mac.dmg
+      source: fp9_archive/9r28/flashplayer9r28_mac.dmg
 
     - name: player-9.0.28.0-mac-ub-npapi-archive
       file: install_flash_player_osx_ub.dmg.zip
       size: 4318156
       sha256: b7a3b4059c43b2fa8fcd71ce3473c4977a9b1ab4d11105c4625c547e8b6e7b30
-      path: fp9_archive/9r28/install_flash_player_osx_ub.dmg.zip
+      source: fp9_archive/9r28/install_flash_player_osx_ub.dmg.zip
       packages:
         - name: player-9.0.28.0-mac-ub-npapi
           file: install_flash_player_osx_ub.dmg
           size: 4331181
           sha256: 3a7b9d91afcea05858743302869b964631b32b4c54c62d5b362bf87a2848e7ae
-          path: install_flash_player_osx_ub.dmg
+          source: install_flash_player_osx_ub.dmg
 
     - name: player-9.0.31.0-linux-npapi
       file: flashplayer_9r31_linux.tar.gz
       size: 2609703
       sha256: e31b971be7f98ea7eff67b2783ae20170c4d9f595b43ae5b59f98385a2b0c978
-      path: fp9_archive/9r31/flashplayer_9r31_linux.tar.gz
+      source: fp9_archive/9r31/flashplayer_9r31_linux.tar.gz
 
     - name: player-9.0.45.0-windows-npapi
       file: flashplayer9r45_win.exe
       size: 1163592
       sha256: 1c4f5e75f5bd4902a08db9d1b7c7ec3df0d96cfc3be634e723845531959bd4f6
-      path: fp9_archive/9r45/flashplayer9r45_win.exe
+      source: fp9_archive/9r45/flashplayer9r45_win.exe
 
     - name: player-9.0.45.0-windows-activex
       file: flashplayer9r45_winax.exe
       size: 1214672
       sha256: ca487e1e124404efcf067a67dd247a2592e78ff5bcc3f5a1e656b6a021bbc53d
-      path: fp9_archive/9r45/flashplayer9r45_winax.exe
+      source: fp9_archive/9r45/flashplayer9r45_winax.exe
 
     - name: player-9.0.45.0-mac-npapi
       file: flashplayer9r45_mac.dmg
       size: 1926332
       sha256: 588e8e157c1cf4b9959ce46ed403e43ade4a6f28bcdd0f973dd939c3c7843942
-      path: fp9_archive/9r45/flashplayer9r45_mac.dmg
+      source: fp9_archive/9r45/flashplayer9r45_mac.dmg
 
     - name: player-9.0.45.0-mac-ub-npapi-archive
       file: install_flash_player_osx_ub.dmg.zip
       size: 4324748
       sha256: 80a26dff14d12239f89f913c304c66cfdf36018d8004299e716da7d7af427ffe
-      path: fp9_archive/9r45/install_flash_player_osx_ub.dmg.zip
+      source: fp9_archive/9r45/install_flash_player_osx_ub.dmg.zip
       packages:
         - name: player-9.0.45.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
           size: 4338427
           sha256: be53288f8b1c16caa58a062e9926fd1f952e88aabcfbfd72e7335d4f84b1ee26
-          path: Install Flash Player 9 UB.dmg
+          source: Install Flash Player 9 UB.dmg
 
     - name: player-9.0.47.0-windows-npapi
       file: flashplayer9r47_win.exe
       size: 1164456
       sha256: 55979380e093b3fa85c327f9dc2a5c9f695d7ddc4eff3e23df682308fb6aaab8
-      path: fp9_archive/9r47/flashplayer9r47_win.exe
+      source: fp9_archive/9r47/flashplayer9r47_win.exe
 
     - name: player-9.0.47.0-windows-activex
       file: flashplayer9r47_winax.exe
       size: 1214520
       sha256: 077a0db352ac3626d82b0803947af39b03a4f1256b497f83a91706e044a7f8f4
-      path: fp9_archive/9r47/flashplayer9r47_winax.exe
+      source: fp9_archive/9r47/flashplayer9r47_winax.exe
 
     - name: player-9.0.47.0-mac-npapi
       file: flashplayer9r47_mac.dmg
       size: 1926186
       sha256: a6c8a37069fb31a704a0e68d3f3d9aa2c484c2503ce87869b199ba57a66959b7
-      path: fp9_archive/9r47/flashplayer9r47_mac.dmg
+      source: fp9_archive/9r47/flashplayer9r47_mac.dmg
 
     - name: player-9.0.47.0-mac-ub-npapi-archive
       file: flashplayer9r47_ub_mac.dmg.zip
       size: 4325557
       sha256: 4d3c8a2427322094be2ac796627b4697d2c15266329c604111ac1fb44056e50f
-      path: fp9_archive/9r47/flashplayer9r47_ub_mac.dmg.zip
+      source: fp9_archive/9r47/flashplayer9r47_ub_mac.dmg.zip
       packages:
         - name: player-9.0.47.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
           size: 4339129
           sha256: ebac08cd4c1767e52076c5b856b26e3e1ad5f65f6c68f5c7015da101bb4fa27b
-          path: Install Flash Player 9 UB.dmg
+          source: Install Flash Player 9 UB.dmg
 
     - name: player-9.0.47.0-solaris-sparc-npapi
       file: flashplayer9r47_solaris_sparc.tar.bz2
       size: 2930771
       sha256: 97067360146792b53b4c5bea7352f4465707e27907f7efd025d9c4f59db8a00f
-      path: fp9_archive/9r47/flashplayer9r47_solaris_sparc.tar.bz2
+      source: fp9_archive/9r47/flashplayer9r47_solaris_sparc.tar.bz2
 
     - name: player-9.0.47.0-solaris-x86-npapi
       file: flashplayer9r47_solaris_x86.tar.bz2
       size: 2365897
       sha256: da48ff1d52e0c51eef8f1ecd7000a3be51ffd41d8914ff32e87bea1ac72a851c
-      path: fp9_archive/9r47/flashplayer9r47_solaris_x86.tar.bz2
+      source: fp9_archive/9r47/flashplayer9r47_solaris_x86.tar.bz2
 
     - name: player-9.0.48.0-linux-npapi
       file: install_flash_player_9r48_linux.tar.gz
       size: 2608602
       sha256: ad2f9eb98e976a82b62e97e7cf3a555464e43b80507b87ed7c469706faa4d897
-      path: fp9_archive/9r48/install_flash_player_9r48_linux.tar.gz
+      source: fp9_archive/9r48/install_flash_player_9r48_linux.tar.gz
 
     - name: player-9.0.115.0-windows-npapi
       file: flashplayer9r115_win.exe
       size: 1491592
       sha256: eb1d8faa0b55906d3383a95a5fd5869afef6e37ffd1de2535500e44c25e8bd01
-      path: fp9_archive/9r115/flashplayer9r115_win.exe
+      source: fp9_archive/9r115/flashplayer9r115_win.exe
 
     - name: player-9.0.115.0-windows-activex
       file: flashplayer9r115_winax.exe
       size: 1523040
       sha256: 3896ac00208eebea9f62aacf09ccd7324fe86048bfbb20740b72c3874615878b
-      path: fp9_archive/9r115/flashplayer9r115_winax.exe
+      source: fp9_archive/9r115/flashplayer9r115_winax.exe
 
     - name: player-9.0.115.0-windows-sa
       file: flashplayer9r115_win_sa.exe
       size: 3391488
       sha256: 2d5160072307353c4514907f0656161532fba6577058493dd75649d433722036
-      path: fp9_archive/9r115/flashplayer9r115_win_sa.exe
+      source: fp9_archive/9r115/flashplayer9r115_win_sa.exe
 
     - name: player-9.0.115.0-mac-npapi
       file: flashplayer9r115_mac.dmg
       size: 2285317
       sha256: 0b98452eb4fdeab8676afba83abedc96b22f15a7af007d4dcf86a4cffd40632c
-      path: fp9_archive/9r115/flashplayer9r115_mac.dmg
+      source: fp9_archive/9r115/flashplayer9r115_mac.dmg
 
     - name: player-9.0.115.0-mac-sa
       file: flashplayer9r115_mac_sa.app.zip
       size: 4490693
       sha256: fe3ef1b6bc5e942924cc181744eeeef2ee092fe3b7ebc98adb311139ff2536ac
-      path: fp9_archive/9r115/flashplayer9r115_mac_sa.app.zip
+      source: fp9_archive/9r115/flashplayer9r115_mac_sa.app.zip
 
     - name: player-9.0.115.0-mac-ub-npapi-archive
       file: flashplayer9r115_ub_mac.dmg.zip
       size: 5024357
       sha256: 80163b7fb3e3c94e3d8ff260992067876f55f597d2ffb9600032dcc8050b49b4
-      path: fp9_archive/9r115/flashplayer9r115_ub_mac.dmg.zip
+      source: fp9_archive/9r115/flashplayer9r115_ub_mac.dmg.zip
       packages:
         - name: player-9.0.115.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
           size: 5047800
           sha256: aa5b961a7fe88960e821fba067f1a1085514b059387179ff57cbda99001dac68
-          path: Install Flash Player 9 UB.dmg
+          source: Install Flash Player 9 UB.dmg
 
     - name: player-9.0.115.0-linux-npapi
       file: flashplayer9r115_linux.tar.gz
       size: 3036127
       sha256: 275bbf654246657f88c25b653de55ec771beea05f7edf57bc77bd1acd6b1227b
-      path: fp9_archive/9r115/flashplayer9r115_linux.tar.gz
+      source: fp9_archive/9r115/flashplayer9r115_linux.tar.gz
 
     - name: player-9.0.115.0-linux-sa
       file: flashplayer9r115_linux_sa.tar.gz
       size: 3006819
       sha256: 7a225b1e6cc9e41317c6a4f40ff3c310cd6e1ae23e07a299c4b2a5bbe66d8e6d
-      path: fp9_archive/9r115/flashplayer9r115_linux_sa.tar.gz
+      source: fp9_archive/9r115/flashplayer9r115_linux_sa.tar.gz
 
     - name: player-9.0.115.0-solaris-sparc-npapi
       file: flashplayer9r115_solaris_sparc.tar.bz2
       size: 3612830
       sha256: dff931d2ad13244a7c603f2094338fca5b0148b255dbeb96e5e597634138836d
-      path: fp9_archive/9r115/flashplayer9r115_solaris_sparc.tar.bz2
+      source: fp9_archive/9r115/flashplayer9r115_solaris_sparc.tar.bz2
 
     - name: player-9.0.115.0-solaris-x86-npapi
       file: flashplayer9r115_solaris_x86.tar.bz2
       size: 2859276
       sha256: 47516ebc307880304f5160feec5934e2e0969d2e4e677c17353aaa2661985613
-      path: fp9_archive/9r115/flashplayer9r115_solaris_x86.tar.bz2
+      source: fp9_archive/9r115/flashplayer9r115_solaris_x86.tar.bz2
 
     - name: player-9.0.124.0-windows-npapi
       file: flashplayer9r124_win.exe
       size: 1495112
       sha256: ab19e75b509d025d860a0ce2d946692823b70017c321e7a9d9d8a3063f5c3753
-      path: fp9_archive/9r124/flashplayer9r124_win.exe
+      source: fp9_archive/9r124/flashplayer9r124_win.exe
 
     - name: player-9.0.124.0-windows-activex
       file: flashplayer9r124_winax.exe
       size: 1526576
       sha256: f0cada832e9d2e923bbf76f803e5fa53cfc956d5594a7308985b85dd460ad31d
-      path: fp9_archive/9r124/flashplayer9r124_winax.exe
+      source: fp9_archive/9r124/flashplayer9r124_winax.exe
 
     - name: player-9.0.124.0-windows-sa
       file: flashplayer9r124_win_sa.exe
       size: 3395584
       sha256: 27f4f3f09cacecfab216b5ccd4894cc0e58383f0a68ddfea05a5637181bd57b6
-      path: fp9_archive/9r124/flashplayer9r124_win_sa.exe
+      source: fp9_archive/9r124/flashplayer9r124_win_sa.exe
 
     - name: player-9.0.124.0-mac-npapi
       file: flashplayer9r124_mac.dmg
       size: 2287474
       sha256: f3206798c21e717c2d13a77d16f7d4e942a59ca98a26954426eb5a92918ac253
-      path: fp9_archive/9r124/flashplayer9r124_mac.dmg
+      source: fp9_archive/9r124/flashplayer9r124_mac.dmg
 
     - name: player-9.0.124.0-mac-sa
       file: flashplayer9r124_mac_sa.app.zip
       size: 4504341
       sha256: 35eee88ceb429fbe92b310d3841bae3026f7ee7f6821b21950fdf7d47fdfb31e
-      path: fp9_archive/9r124/flashplayer9r124_mac_sa.app.zip
+      source: fp9_archive/9r124/flashplayer9r124_mac_sa.app.zip
 
     - name: player-9.0.124.0-mac-ub-npapi-archive
       file: flashplayer9r124_ub_mac.dmg.zip
       size: 5037324
       sha256: 51f23ebdfdfff1b9142179affc196fdc324715b6f52a40a57bf0d6567d1cf29c
-      path: fp9_archive/9r124/flashplayer9r124_ub_mac.dmg.zip
+      source: fp9_archive/9r124/flashplayer9r124_ub_mac.dmg.zip
       packages:
         - name: player-9.0.124.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
           size: 5056688
           sha256: 4addeb94074694bbd43775ca49625a7d0c6dfd4c60428b710475e4961a8547f1
-          path: Install Flash Player 9 UB.dmg
+          source: Install Flash Player 9 UB.dmg
 
     - name: player-9.0.124.0-linux-npapi
       file: flashplayer_9r124_linux.tar.gz
       size: 3044538
       sha256: f4295c0e008d5658db601bdaf44e2594e823713b9899e9d00d04243f9c44e99a
-      path: fp9_archive/9r124/flashplayer_9r124_linux.tar.gz
+      source: fp9_archive/9r124/flashplayer_9r124_linux.tar.gz
 
     - name: player-9.0.124.0-linux-sa
       file: flashplayer_9r124_linux_sa.tar.gz
       size: 3061196
       sha256: a26a0242d05a0aebe1a68cb00326efc43ffd60fb6956466a4c8840eb0bce2f69
-      path: fp9_archive/9r124/flashplayer_9r124_linux_sa.tar.gz
+      source: fp9_archive/9r124/flashplayer_9r124_linux_sa.tar.gz
 
     - name: player-9.0.124.0-solaris-sparc-npapi
       file: flashplayer9r124_solaris_sparc.tar.bz2
       size: 3216519
       sha256: dce98a043ecc746c831fc5fc2afb1915259ef446a02f3cb4c7a3dd58f9a2318e
-      path: fp9_archive/9r124/flashplayer9r124_solaris_sparc.tar.bz2
+      source: fp9_archive/9r124/flashplayer9r124_solaris_sparc.tar.bz2
 
     - name: player-9.0.124.0-solaris-x86-npapi
       file: flashplayer9r124_solaris_x86.tar.bz2
       size: 2432880
       sha256: ffd7fbc5a67e953f1d5fb3ad0ab04865e8a964bb0a408d55f7c02b47bfd4c39e
-      path: fp9_archive/9r124/flashplayer9r124_solaris_x86.tar.bz2
+      source: fp9_archive/9r124/flashplayer9r124_solaris_x86.tar.bz2
 
     - name: player-9.0.125.0-solaris-sparc-npapi
       file: flashplayer9r124_solaris_sparc.tar.bz2
       size: 3216195
       sha256: 08b3c97c88567b9026d2736c0aefd71ba54d1b8a04d2dfd5e59dfd6934357cb6
-      path: fp9_archive/9r125/flashplayer9r124_solaris_sparc.tar.bz2
+      source: fp9_archive/9r125/flashplayer9r124_solaris_sparc.tar.bz2
 
     - name: player-9.0.125.0-solaris-x86-npapi
       file: flashplayer9r125_solaris_x86.tar.bz2
       size: 2432455
       sha256: 906eb4e76c12ed447205f848b12f9d42f580af57f87fee54ec3e936801cb7619
-      path: fp9_archive/9r125/flashplayer9r125_solaris_x86.tar.bz2
+      source: fp9_archive/9r125/flashplayer9r125_solaris_x86.tar.bz2
 
     - name: player-9.0.151.0-windows-npapi
       file: flashplayer9r151_win.exe
       size: 1500752
       sha256: 910f15f077eab15ddd5000e53cd3a961c8e453bdc74292d6466a822b0a99adcb
-      path: fp9_archive/9r151/flashplayer9r151_win.exe
+      source: fp9_archive/9r151/flashplayer9r151_win.exe
 
     - name: player-9.0.151.0-windows-activex
       file: flashplayer9r151_winax.exe
       size: 1533264
       sha256: 64a8361ee981f7cbff2935ca5535146c10df6f09c0a763b7eab7572a2cb49558
-      path: fp9_archive/9r151/flashplayer9r151_winax.exe
+      source: fp9_archive/9r151/flashplayer9r151_winax.exe
 
     - name: player-9.0.151.0-windows-sa
       file: flashplayer9r151_win_sa.exe
       size: 3421568
       sha256: 187323e1a26645e741147470aa38916a6d53fa5736413913d9217e285a5d5d30
-      path: fp9_archive/9r151/flashplayer9r151_win_sa.exe
+      source: fp9_archive/9r151/flashplayer9r151_win_sa.exe
 
     - name: player-9.0.151.0-mac-npapi
       file: flashplayer9r151_mac.dmg
       size: 6094848
       sha256: e12aefa6af1ecab40ba55793eb497149e0aeacdfe7a1fe1aaea064eb7fea3ea5
-      path: fp9_archive/9r151/flashplayer9r151_mac.dmg
+      source: fp9_archive/9r151/flashplayer9r151_mac.dmg
 
     - name: player-9.0.151.0-mac-sa
       file: flashplayer9r151_mac_sa.app.zip
       size: 4341733
       sha256: f7efb46959a056408de789bb5da6dc5a31123f7488953f6287660cbbf238a67f
-      path: fp9_archive/9r151/flashplayer9r151_mac_sa.app.zip
+      source: fp9_archive/9r151/flashplayer9r151_mac_sa.app.zip
 
     - name: player-9.0.151.0-mac-ub-npapi-archive
       file: flashplayer9r151_ub_mac.dmg.zip
       size: 4640247
       sha256: 78234a3e96d3a76c93119da0c9f7cecf3ed9676cf2f88f60813469660ece776d
-      path: fp9_archive/9r151/flashplayer9r151_ub_mac.dmg.zip
+      source: fp9_archive/9r151/flashplayer9r151_ub_mac.dmg.zip
       packages:
         - name: player-9.0.151.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
           size: 4665061
           sha256: f681521a8d75d478d2232302fc7287387f10143729316bb96cd80af6026d7643
-          path: Install Flash Player 9 UB.dmg
+          source: Install Flash Player 9 UB.dmg
 
     - name: player-9.0.151.0-linux-npapi
       file: flashplayer9r151_linux.tar.gz
       size: 3056790
       sha256: 51964941f2e57be3024336d3d055d99e4da6972aece1744a3dc5f9214c283b94
-      path: fp9_archive/9r151/flashplayer9r151_linux.tar.gz
+      source: fp9_archive/9r151/flashplayer9r151_linux.tar.gz
 
     - name: player-9.0.151.0-linux-sa
       file: flashplayer9r151_linux_sa.tar.gz
       size: 3074890
       sha256: 81e2b6f7b36f9bafb0a9584d9cbd77eed3c215f493a8985e3b0ffbae0a3f736a
-      path: fp9_archive/9r151/flashplayer9r151_linux_sa.tar.gz
+      source: fp9_archive/9r151/flashplayer9r151_linux_sa.tar.gz
 
     - name: player-9.0.151.0-solaris-sparc-npapi
       file: flashplayer9r151_solaris_sparc.tar.bz2
       size: 3288660
       sha256: 68a9b65c20dd9ceaf20bb64aebe9e09c9a98be75c27abd2bd1d49f892fa0bb50
-      path: fp9_archive/9r151/flashplayer9r151_solaris_sparc.tar.bz2
+      source: fp9_archive/9r151/flashplayer9r151_solaris_sparc.tar.bz2
 
     - name: player-9.0.151.0-solaris-x86-npapi
       file: flashplayer9r151_solaris_x86.tar.bz2
       size: 2461272
       sha256: 833789ce02cfc3451eae0b8f056554111c7408bb536daf3988a2da51815e9792
-      path: fp9_archive/9r151/flashplayer9r151_solaris_x86.tar.bz2
+      source: fp9_archive/9r151/flashplayer9r151_solaris_x86.tar.bz2
 
     - name: player-9.0.152.0-linux-npapi
       file: flashplayer9r152_linux.tar.gz
       size: 3056503
       sha256: e4fcb13e79a28bc4866b986ac9c2a63e1acf7d709547a84fc2151b31cf43487b
-      path: fp9_archive/9r152/flashplayer9r152_linux.tar.gz
+      source: fp9_archive/9r152/flashplayer9r152_linux.tar.gz
 
     - name: player-9.0.152.0-linux-sa
       file: flashplayer9r152_linux_sa.tar.gz
       size: 3027157
       sha256: 7c842f9f0511ec123e97e7f7a634c3ba760edbf0a9b4c382cd44c96ffc74cdc8
-      path: fp9_archive/9r152/flashplayer9r152_linux_sa.tar.gz
+      source: fp9_archive/9r152/flashplayer9r152_linux_sa.tar.gz
 
     - name: player-9.0.159.0-windows-npapi
       file: flashplayer9r159_win.exe
       size: 1502808
       sha256: acc515673e2a3f74e7762456ba235197243bd39242e82e6fed2ad9879b869203
-      path: fp9_archive/9r159/flashplayer9r159_win.exe
+      source: fp9_archive/9r159/flashplayer9r159_win.exe
 
     - name: player-9.0.159.0-windows-activex
       file: flashplayer9r159_winax.exe
       size: 1535368
       sha256: b68bec34760adb007e59a7afbcc7e1d845af635c20b578d072e1d893b1377453
-      path: fp9_archive/9r159/flashplayer9r159_winax.exe
+      source: fp9_archive/9r159/flashplayer9r159_winax.exe
 
     - name: player-9.0.159.0-windows-sa
       file: flashplayer9r159_win_sa.exe
       size: 3421568
       sha256: 5b371122fd53637c9c5bdf573ed2679d6e031ca50652beb053c0e6c05308f9fb
-      path: fp9_archive/9r159/flashplayer9r159_win_sa.exe
+      source: fp9_archive/9r159/flashplayer9r159_win_sa.exe
 
     - name: player-9.0.159.0-mac-npapi
       file: flashplayer9r159_mac.dmg
       size: 1907776
       sha256: 3b56f3093b2e50604886444faabdc344eb1641faabaa87964e7ec0ee9a56b682
-      path: fp9_archive/9r159/flashplayer9r159_mac.dmg
+      source: fp9_archive/9r159/flashplayer9r159_mac.dmg
 
     - name: player-9.0.159.0-mac-sa
       file: flashplayer9r159_mac_sa.app.zip
       size: 4354669
       sha256: 80c53b46bc43e7692e0005cf50009d96e22e062d39490ad8bd9c186522164f88
-      path: fp9_archive/9r159/flashplayer9r159_mac_sa.app.zip
+      source: fp9_archive/9r159/flashplayer9r159_mac_sa.app.zip
 
     - name: player-9.0.159.0-mac-ub-npapi-archive
       file: flashplayer9r159_ub_mac.dmg.zip
       size: 4644210
       sha256: f4d522257147ad84d1a50b13f2838474f6b2c6d6c49c35721bdaf1474042fbd6
-      path: fp9_archive/9r159/flashplayer9r159_ub_mac.dmg.zip
+      source: fp9_archive/9r159/flashplayer9r159_ub_mac.dmg.zip
       packages:
         - name: player-9.0.159.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
           size: 4668025
           sha256: 368f2c2f1bcd5815cb8ffe50fce6de46301e4ce46e00865903480c3570639460
-          path: Install Flash Player 9 UB.dmg
+          source: Install Flash Player 9 UB.dmg
 
     - name: player-9.0.159.0-linux-npapi
       file: flashplayer9r159_linux.tar.gz
       size: 3057882
       sha256: fe7a55f86faf663b36befa19848ddd28f808666d5cf7b14311599128c6d85fb7
-      path: fp9_archive/9r159/flashplayer9r159_linux.tar.gz
+      source: fp9_archive/9r159/flashplayer9r159_linux.tar.gz
 
     - name: player-9.0.159.0-linux-sa
       file: flashplayer9r159_linux_sa.tar.gz
       size: 3076700
       sha256: 8fb09e541f2d0651423b6617b20f829fd8519aca3865553a1ef8cfbce803f345
-      path: fp9_archive/9r159/flashplayer9r159_linux_sa.tar.gz
+      source: fp9_archive/9r159/flashplayer9r159_linux_sa.tar.gz
 
     - name: player-9.0.159.0-solaris-sparc-npapi
       file: flashplayer9r159_solaris_sparc.tar.bz2
       size: 3288210
       sha256: e7c498969551c808b3e0f9a502a3608eb114429eeb4c8ef6116e3aa9e2142f31
-      path: fp9_archive/9r159/flashplayer9r159_solaris_sparc.tar.bz2
+      source: fp9_archive/9r159/flashplayer9r159_solaris_sparc.tar.bz2
 
     - name: player-9.0.159.0-solaris-x86-npapi
       file: flashplayer9r159_solaris_x86.tar.bz2
       size: 2461898
       sha256: acb298a1c22b9add53229a926771a5b4637538da4e06f71e3d5a32145cf02f39
-      path: fp9_archive/9r159/flashplayer9r159_solaris_x86.tar.bz2
+      source: fp9_archive/9r159/flashplayer9r159_solaris_x86.tar.bz2
 
     - name: player-9.0.246.0-windows-npapi
       file: flashplayer9r246_win.exe
       size: 1503152
       sha256: efa8709d9c717f1fe9d2d0ef04bb040ab04a0ef0d5907cafc796dc02990fcdc6
-      path: fp9_archive/9r246/flashplayer9r246_win.exe
+      source: fp9_archive/9r246/flashplayer9r246_win.exe
 
     - name: player-9.0.246.0-windows-activex
       file: flashplayer9r246_winax.exe
       size: 1536032
       sha256: a034ba0b759dd9ce07847416ef8eff5241f229e90747e34560aab3e589a1c2be
-      path: fp9_archive/9r246/flashplayer9r246_winax.exe
+      source: fp9_archive/9r246/flashplayer9r246_winax.exe
 
     - name: player-9.0.246.0-windows-sa
       file: flashplayer9r246_win_sa.exe
       size: 3421568
       sha256: e6bfcc642b317e90a466e6c9ecd6bb5043ada3a66e27f90984969fe982bde25f
-      path: fp9_archive/9r246/flashplayer9r246_win_sa.exe
+      source: fp9_archive/9r246/flashplayer9r246_win_sa.exe
 
     - name: player-9.0.246.0-mac-npapi
       file: flashplayer9r246_mac.dmg
       size: 3397905
       sha256: b0da3539d88b8b17b066b72cc7360bfa6269bcd71d183c2269bd956c9b09b06f
-      path: fp9_archive/9r246/flashplayer9r246_mac.dmg
+      source: fp9_archive/9r246/flashplayer9r246_mac.dmg
 
     - name: player-9.0.246.0-mac-sa
       file: flashplayer9r246_mac_sa.app.zip
       size: 4356977
       sha256: e752fd81ce6b7aef2497795c17eb3c1d765d88410efa3ae1b2ea30266cb9d33f
-      path: fp9_archive/9r246/flashplayer9r246_mac_sa.app.zip
+      source: fp9_archive/9r246/flashplayer9r246_mac_sa.app.zip
 
     - name: player-9.0.246.0-mac-ub-npapi
       file: flashplayer9r246_ub_mac.dmg
       size: 4669447
       sha256: f8fc16fc5c521895ebf3ea59c0484b6b9fc2d2f109448b16a6c129f62e567112
-      path: fp9_archive/9r246/flashplayer9r246_ub_mac.dmg
+      source: fp9_archive/9r246/flashplayer9r246_ub_mac.dmg
 
     - name: player-9.0.246.0-linux-npapi
       file: flashplayer9r246_linux.tar.gz
       size: 3057910
       sha256: c2581cf5034a9adb9393acfd646d50608ab3a6a229c6f36a77ca9a8d8c5c6f07
-      path: fp9_archive/9r246/flashplayer9r246_linux.tar.gz
+      source: fp9_archive/9r246/flashplayer9r246_linux.tar.gz
 
     - name: player-9.0.246.0-linux-sa
       file: flashplayer9r246_linux_sa.tar.gz
       size: 3077860
       sha256: d3d1be1e52b4e55ce0159917734b7d3dbffd6887d1306082f4bcdd7860b66222
-      path: fp9_archive/9r246/flashplayer9r246_linux_sa.tar.gz
+      source: fp9_archive/9r246/flashplayer9r246_linux_sa.tar.gz
 
     - name: player-9.0.246.0-solaris-sparc-npapi
       file: flashplayer9r246_solaris_sparc.tar.bz2
       size: 3288056
       sha256: e58193c74b60f05c32d5e0628bc0beb585f6fee2840e85e43a5f663f4bd7fa16
-      path: fp9_archive/9r246/flashplayer9r246_solaris_sparc.tar.bz2
+      source: fp9_archive/9r246/flashplayer9r246_solaris_sparc.tar.bz2
 
     - name: player-9.0.246.0-solaris-x86-npapi
       file: flashplayer9r246_solaris_x86.tar.bz2
       size: 2464410
       sha256: caa2c8a2c517fb76545a1317a78fd838176d9e69b57c446b1ce05240eff7ed2f
-      path: fp9_archive/9r246/flashplayer9r246_solaris_x86.tar.bz2
+      source: fp9_archive/9r246/flashplayer9r246_solaris_x86.tar.bz2
 
     - name: player-9.0.260.0-windows-npapi
       file: flashplayer9r260_win.exe
       size: 1503752
       sha256: 8cdad54348baa2b6e5182d6c75c603f71a2a84e8a8882fb52121607f71003370
-      path: fp9_archive/9r260/flashplayer9r260_win.exe
+      source: fp9_archive/9r260/flashplayer9r260_win.exe
 
     - name: player-9.0.260.0-windows-activex
       file: flashplayer9r260_winax.exe
       size: 1537248
       sha256: e7d2a13c2f04888f43d3978bdb778c90888390a790305eb37938e3dbc6afa597
-      path: fp9_archive/9r260/flashplayer9r260_winax.exe
+      source: fp9_archive/9r260/flashplayer9r260_winax.exe
 
     - name: player-9.0.260.0-windows-sa
       file: flashplayer9r260_win_sa.exe
       size: 3425664
       sha256: 318876048dee1b7aac9c384d74d307fa5722c70d37d7ace521d7cdde85e755b1
-      path: fp9_archive/9r260/flashplayer9r260_win_sa.exe
+      source: fp9_archive/9r260/flashplayer9r260_win_sa.exe
 
     - name: player-9.0.260.0-mac-npapi
       file: flashplayer9r260_mac.dmg
       size: 3025980
       sha256: b3d93edae03bfa3824106038d4c267e91b31a7e5e39b9957c106d06f6a11428c
-      path: fp9_archive/9r260/flashplayer9r260_mac.dmg
+      source: fp9_archive/9r260/flashplayer9r260_mac.dmg
 
     - name: player-9.0.260.0-mac-sa
       file: flashplayer9r260_mac_sa.app.zip
       size: 4360424
       sha256: 91019817d0efa4a1c8f5e25be1c57e89c6d1b0915886b0320987624c10a5b52f
-      path: fp9_archive/9r260/flashplayer9r260_mac_sa.app.zip
+      source: fp9_archive/9r260/flashplayer9r260_mac_sa.app.zip
 
     - name: player-9.0.260.0-mac-ub-npapi
       file: flashplayer9r260_ub_mac.dmg
       size: 4671985
       sha256: f1839645cde827ded55d22f920465e3a376c6f3096c21deb9c88587cb0e753db
-      path: fp9_archive/9r260/flashplayer9r260_ub_mac.dmg
+      source: fp9_archive/9r260/flashplayer9r260_ub_mac.dmg
 
     - name: player-9.0.260.0-linux-npapi
       file: flashplayer9r260_linux.tar.gz
       size: 3055224
       sha256: d6cff6c20e41f98a2ab5418f92c730afef2bece238667ff27e66f89142cba33c
-      path: fp9_archive/9r260/flashplayer9r260_linux.tar.gz
+      source: fp9_archive/9r260/flashplayer9r260_linux.tar.gz
 
     - name: player-9.0.260.0-linux-sa
       file: flashplayer9r260_linux_sa.tar.gz
       size: 3079086
       sha256: 70a2571897aea682aadeb8d5a04fa024877f03e54d319dd36feed509e3bc7fb9
-      path: fp9_archive/9r260/flashplayer9r260_linux_sa.tar.gz
+      source: fp9_archive/9r260/flashplayer9r260_linux_sa.tar.gz
 
     - name: player-9.0.260.0-solaris-sparc-npapi
       file: flashplayer9r260_solaris_sparc.tar.bz2
       size: 3288706
       sha256: 4491b1e5b22dc26eccaffd5df04d44c35d70629081a281368898b8051c71a13b
-      path: fp9_archive/9r260/flashplayer9r260_solaris_sparc.tar.bz2
+      source: fp9_archive/9r260/flashplayer9r260_solaris_sparc.tar.bz2
 
     - name: player-9.0.260.0-solaris-x86-npapi
       file: flashplayer9r260_solaris_x86.tar.bz2
       size: 2467008
       sha256: 00fc8d7b89c2e695e082e7cc20f2aadb9ed7e3bb002a1007c16067ec323fbb28
-      path: fp9_archive/9r260/flashplayer9r260_solaris_x86.tar.bz2
+      source: fp9_archive/9r260/flashplayer9r260_solaris_x86.tar.bz2
 
     - name: player-9.0.262.0-windows-npapi
       file: flashplayer9r262_win.exe
       size: 1502264
       sha256: 74282dcc2754deb659477c5dd27260a80d381ed606b49ebf207a2566a9cefc09
-      path: fp9_archive/9r262/flashplayer9r262_win.exe
+      source: fp9_archive/9r262/flashplayer9r262_win.exe
 
     - name: player-9.0.262.0-windows-activex
       file: flashplayer9r262_winax.exe
       size: 1534672
       sha256: 88925bc6d4c573d5d8e2b81c2417083b26bf5544ff7b5d147b3a7bb08a955d01
-      path: fp9_archive/9r262/flashplayer9r262_winax.exe
+      source: fp9_archive/9r262/flashplayer9r262_winax.exe
 
     - name: player-9.0.262.0-mac-npapi
       file: flashplayer9r262_mac.dmg
       size: 2949095
       sha256: be236274ba3384673aa358851d8665b41f70371add3d4d683e3924e5e4d89999
-      path: fp9_archive/9r262/flashplayer9r262_mac.dmg
+      source: fp9_archive/9r262/flashplayer9r262_mac.dmg
 
     - name: player-9.0.262.0-mac-sa
       file: flashplayer9r262_mac_sa.app.zip
       size: 4360744
       sha256: f99d0e841cedb8fe7d31f1a510f1174adc1245aeca8a41c8bd5dfaeb8bbd808f
-      path: fp9_archive/9r262/flashplayer9r262_mac_sa.app.zip
+      source: fp9_archive/9r262/flashplayer9r262_mac_sa.app.zip
 
     - name: player-9.0.262.0-mac-ub-npapi
       file: flashplayer9r262_ub_mac.dmg
       size: 4673383
       sha256: 800e117bf0ebe45f61ebac7852403aeba44994130f12c7c550170142045800ee
-      path: fp9_archive/9r262/flashplayer9r262_ub_mac.dmg
+      source: fp9_archive/9r262/flashplayer9r262_ub_mac.dmg
 
     - name: player-9.0.262.0-linux-sa
       file: flashplayer9r262_linux_sa.tar.gz
       size: 12876271
       sha256: 9a51595bdca16f9e1f3cd593522e789d893fe6568ea01d9b02d158f99c1493af
-      path: fp9_archive/9r262/flashplayer9r262_linux_sa.tar.gz
+      source: fp9_archive/9r262/flashplayer9r262_linux_sa.tar.gz
 
     - name: player-9.0.262.0-solaris-sparc-npapi
       file: flashplayer9r262_solaris_sparc.tar.bz2
       size: 3289086
       sha256: 54fa62aab25258d79726c891f791d806431076ce7e7caa7f69aef2b8ec757ac2
-      path: fp9_archive/9r262/flashplayer9r262_solaris_sparc.tar.bz2
+      source: fp9_archive/9r262/flashplayer9r262_solaris_sparc.tar.bz2
 
     - name: player-9.0.262.0-solaris-x86-npapi
       file: flashplayer9r262_solaris_x86.tar.bz2
       size: 2466734
       sha256: 0dd1986e9163c208352bc4832ac8c44379043c50ca60818d9f0584caf11d8289
-      path: fp9_archive/9r262/flashplayer9r262_solaris_x86.tar.bz2
+      source: fp9_archive/9r262/flashplayer9r262_solaris_x86.tar.bz2
 
     - name: player-9.0.277.0-windows-npapi
       file: flashplayer9r277_win.exe
       size: 1504328
       sha256: b990640a7879c63132ee088354733b886500794eaf2132e045de795f450fb9e9
-      path: fp9_archive/9r277/flashplayer9r277_win.exe
+      source: fp9_archive/9r277/flashplayer9r277_win.exe
 
     - name: player-9.0.277.0-windows-activex
       file: flashplayer9r277_winax.exe
       size: 1537160
       sha256: 4464324ba67ff362f0c644f62fba799bcc4dcf3115aff764a5cc9e31dffef2bc
-      path: fp9_archive/9r277/flashplayer9r277_winax.exe
+      source: fp9_archive/9r277/flashplayer9r277_winax.exe
 
     - name: player-9.0.277.0-windows-sa
       file: flashplayer9r277_win_sa.exe
       size: 3424504
       sha256: cd704233d2a1f8bc1d8100ed813ac12965f61436dd577a67b613e9dc3fab70ac
-      path: fp9_archive/9r277/flashplayer9r277_win_sa.exe
+      source: fp9_archive/9r277/flashplayer9r277_win_sa.exe
 
     - name: player-9.0.277.0-mac-npapi
       file: flashplayer9r277_mac.dmg
       size: 3136998
       sha256: 7f90fffd6a275e9870fc0fe0b1b5132093f1f8b29d3dc951391929d0a496b913
-      path: fp9_archive/9r277/flashplayer9r277_mac.dmg
+      source: fp9_archive/9r277/flashplayer9r277_mac.dmg
 
     - name: player-9.0.277.0-mac-sa
       file: flashplayer9r277_mac_sa.app.zip
       size: 4367764
       sha256: fc15e0d0d907ebd83d4e777610cd0afcd6f115dce70cca49006a5a6b3902a2ed
-      path: fp9_archive/9r277/flashplayer9r277_mac_sa.app.zip
+      source: fp9_archive/9r277/flashplayer9r277_mac_sa.app.zip
 
     - name: player-9.0.277.0-mac-ub-npapi
       file: flashplayer9r277_ub_mac.dmg
       size: 4679439
       sha256: f6b504eb41bc555f0591df2b23448f169386b2a53e84169d3a920c171ea18419
-      path: fp9_archive/9r277/flashplayer9r277_ub_mac.dmg
+      source: fp9_archive/9r277/flashplayer9r277_ub_mac.dmg
 
     - name: player-9.0.277.0-linux-npapi
       file: flashplayer9r277_linux.tar.gz
       size: 3064514
       sha256: 0612dff19a8547550520ca4996575011c129281b03bbaa3c70edaaed0a109d3c
-      path: fp9_archive/9r277/flashplayer9r277_linux.tar.gz
+      source: fp9_archive/9r277/flashplayer9r277_linux.tar.gz
 
     - name: player-9.0.277.0-linux-sa
       file: flashplayer9r277_linux_sa.tar.gz
       size: 3087268
       sha256: 364b249322265e47eb156c3fd136bc8ea5c0f7a50e1735f50014dee0f3d88f02
-      path: fp9_archive/9r277/flashplayer9r277_linux_sa.tar.gz
+      source: fp9_archive/9r277/flashplayer9r277_linux_sa.tar.gz
 
 - name: player-9-debugger-archive
   file: fp9_debug_archive.zip
   size: 259183698
   sha256: 2717ce904e0406d7cf9679d565b29743e87d8d019a2fe44c0d063ca65be66409
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp9_debug_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp9_debug_archive.zip'
   packages:
     - name: player-9.0.15.0-windows-npapi-debug
       file: flashplayer9r15_win_debug.exe
       size: 1447560
       sha256: 8ff5249c30364d13924956cec9432e6379cdc8ec42367f94b179f14e0f86e87e
-      path: fp9_debug_archive/9r15/flashplayer9r15_win_debug.exe
+      source: fp9_debug_archive/9r15/flashplayer9r15_win_debug.exe
 
     - name: player-9.0.15.0-windows-activex-debug
       file: flashplayer9r15_winax_debug.exe
       size: 1239176
       sha256: 8721e9feefb46f6706ce82a0ece68ca7d511b7bd0caff560158de6f5ff7fe945
-      path: fp9_debug_archive/9r15/flashplayer9r15_winax_debug.exe
+      source: fp9_debug_archive/9r15/flashplayer9r15_winax_debug.exe
 
     - name: player-9.0.15.0-windows-sa-debug
       file: flashplayer9r15_win_standalone_debug.exe
       size: 2766472
       sha256: 54a49c19d633d0149e7fdb8cfbd4e3cb57d20182539e54558558c78a669d6d05
-      path: fp9_debug_archive/9r15/flashplayer9r15_win_standalone_debug.exe
+      source: fp9_debug_archive/9r15/flashplayer9r15_win_standalone_debug.exe
 
     - name: player-9.0.15.0-mac-npapi-debug
       file: flashplayer9r15_mac_debug.dmg
       size: 2065503
       sha256: eabb973ea9f13d52f0cf6ad1e293f2918871c3ad1e3f43348f4d2fd6e5167041
-      path: fp9_debug_archive/9r15/flashplayer9r15_mac_debug.dmg
+      source: fp9_debug_archive/9r15/flashplayer9r15_mac_debug.dmg
 
     - name: player-9.0.15.0-mac-sa-debug
       file: flashplayer9r15_mac_standalone_debug.dmg
       size: 1837784
       sha256: 36cd8cc9f23259723aee0ee2c8efa622eafdcafc9610f8975d083c66b6a484a2
-      path: fp9_debug_archive/9r15/flashplayer9r15_mac_standalone_debug.dmg
+      source: fp9_debug_archive/9r15/flashplayer9r15_mac_standalone_debug.dmg
 
     - name: player-9.0.16.0-windows-npapi-debug
       file: flashplayer9r16_win_debug.exe
       size: 1447560
       sha256: 87e260bca3d955b547abc891b07188b5b31b783da4fbcff662f0d5ad5a8cb1ad
-      path: fp9_debug_archive/9r16/flashplayer9r16_win_debug.exe
+      source: fp9_debug_archive/9r16/flashplayer9r16_win_debug.exe
 
     - name: player-9.0.16.0-windows-activex-debug
       file: flashplayer9r16_winax_debug.exe
       size: 1238664
       sha256: 2b9aa84485ef08d96d15fd0ec52fb04c7201cb84ea133b737eacd6a8c79b3808
-      path: fp9_debug_archive/9r16/flashplayer9r16_winax_debug.exe
+      source: fp9_debug_archive/9r16/flashplayer9r16_winax_debug.exe
 
     - name: player-9.0.16.0-windows-sa-debug
       file: flashplayer9r16_win_standalone_debug.exe
       size: 2766472
       sha256: de2e7590c99447ae2b846c7a6abd1bc5d6033c9f092975178b5a7d5f4101e426
-      path: fp9_debug_archive/9r16/flashplayer9r16_win_standalone_debug.exe
+      source: fp9_debug_archive/9r16/flashplayer9r16_win_standalone_debug.exe
 
     - name: player-9.0.16.0-mac-npapi-debug
       file: flashplayer9r16_mac_debug.dmg
       size: 2065489
       sha256: 0b5937e2856cd4f1a7e428c52af965052c023d58ad761ef9ed37d71efdf8f2ea
-      path: fp9_debug_archive/9r16/flashplayer9r16_mac_debug.dmg
+      source: fp9_debug_archive/9r16/flashplayer9r16_mac_debug.dmg
 
     - name: player-9.0.16.0-mac-sa-debug
       file: flashplayer9r16_mac_standalone_debug.dmg
       size: 1837697
       sha256: 0640ba2eaa95152aa32285dd16873ee75be527373c5ede3efa043ad2806813d3
-      path: fp9_debug_archive/9r16/flashplayer9r16_mac_standalone_debug.dmg
+      source: fp9_debug_archive/9r16/flashplayer9r16_mac_standalone_debug.dmg
 
     - name: player-9.0.28.0-windows-npapi-debug
       file: flashplayer9r28_win_debug.exe
       size: 1540728
       sha256: 361a046b1e023f63eceaedada83893b4e8720fbced14a96d6b8cbb78caa7d36a
-      path: fp9_debug_archive/9r28/flashplayer9r28_win_debug.exe
+      source: fp9_debug_archive/9r28/flashplayer9r28_win_debug.exe
 
     - name: player-9.0.28.0-windows-activex-debug
       file: flashplayer9r28_winax_debug.exe
       size: 1284928
       sha256: 4b54f2840194216ece63878b3be6b9f2c8c3aced20971c21dee3a2db1e41db9e
-      path: fp9_debug_archive/9r28/flashplayer9r28_winax_debug.exe
+      source: fp9_debug_archive/9r28/flashplayer9r28_winax_debug.exe
 
     - name: player-9.0.28.0-windows-sa-debug
       file: flashplayer9r28_win_standalone_debug.exe
       size: 2801664
       sha256: b7b07124594e5d8b701d7ccab359a17aba067569d371e82d12141264fd60a5d0
-      path: fp9_debug_archive/9r28/flashplayer9r28_win_standalone_debug.exe
+      source: fp9_debug_archive/9r28/flashplayer9r28_win_standalone_debug.exe
 
     - name: player-9.0.28.0-mac-npapi-debug
       file: flashplayer9r28_mac_debug.dmg
       size: 2081784
       sha256: d48c0e4e21708aa4eff6acae551356d36d651fe1cb0d27b991500adad422e006
-      path: fp9_debug_archive/9r28/flashplayer9r28_mac_debug.dmg
+      source: fp9_debug_archive/9r28/flashplayer9r28_mac_debug.dmg
 
     - name: player-9.0.28.0-mac-sa-debug
       file: flashplayer9r28_mac_standalone_debug.dmg
       size: 4571287
       sha256: 26deb28cbb1896fbe4718e6ba786c3503d6682e50a3de9a22f633537f46ea49a
-      path: fp9_debug_archive/9r28/flashplayer9r28_mac_standalone_debug.dmg
+      source: fp9_debug_archive/9r28/flashplayer9r28_mac_standalone_debug.dmg
 
     - name: player-9.0.28.0-mac-ub-npapi-debug
       file: flashplayer9r28_ub_mac_debug.dmg
       size: 4698517
       sha256: 22af7c43d8f8bd211ca310e5ff4f07f2bfb5b3651714b808c61d0ed77fcee6b3
-      path: fp9_debug_archive/9r28/flashplayer9r28_ub_mac_debug.dmg
+      source: fp9_debug_archive/9r28/flashplayer9r28_ub_mac_debug.dmg
 
     - name: player-9.0.45.0-windows-npapi-debug
       file: flashplayer9r45_win_debug.exe
       size: 1273504
       sha256: e960a28faaff5ff5c731bbfd1248504a9968263480691871ee463ef52456c0ed
-      path: fp9_debug_archive/9r45/flashplayer9r45_win_debug.exe
+      source: fp9_debug_archive/9r45/flashplayer9r45_win_debug.exe
 
     - name: player-9.0.45.0-windows-activex-debug
       file: flashplayer9r45_winax_debug.exe
       size: 1324576
       sha256: 3a39a2ee0ece6c04979cf35a943e36ab2bd3b0718b778683a28f9003f2c07b35
-      path: fp9_debug_archive/9r45/flashplayer9r45_winax_debug.exe
+      source: fp9_debug_archive/9r45/flashplayer9r45_winax_debug.exe
 
     - name: player-9.0.45.0-windows-sa-debug
       file: flashplayer9r45_win_standalone_debug.exe
       size: 2816200
       sha256: 04a58bcdfc1122d0a1bcd9a1e5838ab4c9cb74dd3aa742672d476a84e08ba9e2
-      path: fp9_debug_archive/9r45/flashplayer9r45_win_standalone_debug.exe
+      source: fp9_debug_archive/9r45/flashplayer9r45_win_standalone_debug.exe
 
     - name: player-9.0.45.0-mac-npapi-debug
       file: flashplayer9r45_mac_debug.dmg
       size: 2083481
       sha256: edc15701d8db077bc805874f412bf0322193812fecc968c01fc03a5ae294011a
-      path: fp9_debug_archive/9r45/flashplayer9r45_mac_debug.dmg
+      source: fp9_debug_archive/9r45/flashplayer9r45_mac_debug.dmg
 
     - name: player-9.0.45.0-mac-sa-debug
       file: flashplayer9r45_mac_standalone_debug.app.zip
       size: 4137972
       sha256: 4ca793ab64ddf5f70b2e759e319dbbb7f8c1845351f2e8dc56d93a06ba6ec992
-      path: fp9_debug_archive/9r45/flashplayer9r45_mac_standalone_debug.app.zip
+      source: fp9_debug_archive/9r45/flashplayer9r45_mac_standalone_debug.app.zip
 
     - name: player-9.0.45.0-mac-ub-npapi-debug
       file: flashplayer9r45_ub_mac_debug.dmg
       size: 4713283
       sha256: f642a609d9a035fe58c2f4b7fe38f4376656d321e01b18998265f97c1d0426fc
-      path: fp9_debug_archive/9r45/flashplayer9r45_ub_mac_debug.dmg
+      source: fp9_debug_archive/9r45/flashplayer9r45_ub_mac_debug.dmg
 
     - name: player-9.0.47.0-windows-npapi-debug
       file: flashplayer9r47_win_debug.exe
       size: 1275504
       sha256: 974a8abe44b9573b1b3fa15c27898ba37973b65302d60c853ef94352e637579c
-      path: fp9_debug_archive/9r47/flashplayer9r47_win_debug.exe
+      source: fp9_debug_archive/9r47/flashplayer9r47_win_debug.exe
 
     - name: player-9.0.47.0-windows-activex-debug
       file: flashplayer9r47_winax_debug.exe
       size: 1325544
       sha256: 05fe64d5a1cd1e38bc836206035cdd7f93517055533ff23266abd2540d24e664
-      path: fp9_debug_archive/9r47/flashplayer9r47_winax_debug.exe
+      source: fp9_debug_archive/9r47/flashplayer9r47_winax_debug.exe
 
     - name: player-9.0.47.0-windows-sa-debug
       file: flashplayer9r47_win_standalone_debug.exe
       size: 2816200
       sha256: fe2845fa5f3465a7529fea524bace5489dcab43b0b2a314cf8cbf724902ad769
-      path: fp9_debug_archive/9r47/flashplayer9r47_win_standalone_debug.exe
+      source: fp9_debug_archive/9r47/flashplayer9r47_win_standalone_debug.exe
 
     - name: player-9.0.47.0-mac-npapi-debug
       file: flashplayer9r47_mac_debug.dmg
       size: 2082962
       sha256: 1446e4c7d784d07139b8874c8d30fe14d1f69430312839f5ea96727185b34b6c
-      path: fp9_debug_archive/9r47/flashplayer9r47_mac_debug.dmg
+      source: fp9_debug_archive/9r47/flashplayer9r47_mac_debug.dmg
 
     - name: player-9.0.47.0-mac-sa-debug
       file: flashplayer9r47_mac_standalone_debug.app.zip
       size: 4137892
       sha256: 79e78e0a41684f4914ae75e846b1013d8793fbf01b0c5207489a72be2f6e983c
-      path: fp9_debug_archive/9r47/flashplayer9r47_mac_standalone_debug.app.zip
+      source: fp9_debug_archive/9r47/flashplayer9r47_mac_standalone_debug.app.zip
 
     - name: player-9.0.47.0-mac-ub-npapi-debug
       file: flashplayer9r47_ub_mac_debug.dmg
       size: 4713931
       sha256: 09216e77e87a512ea246288e26e2ae1610039d096334db5dd4cc64031bad5a21
-      path: fp9_debug_archive/9r47/flashplayer9r47_ub_mac_debug.dmg
+      source: fp9_debug_archive/9r47/flashplayer9r47_ub_mac_debug.dmg
 
     - name: player-9.0.48.0-linux-npapi-debug
       file: flashplayer9r48_linux.tar.gz
       size: 2818582
       sha256: 146b675e67ec260ef3a503f6bc1deee3bf49dfff98c8b6f7b79bd175a477d158
-      path: fp9_debug_archive/9r48/flashplayer9r48_linux.tar.gz
+      source: fp9_debug_archive/9r48/flashplayer9r48_linux.tar.gz
 
     - name: player-9.0.115.0-windows-npapi-debug
       file: flashplayer9r115_win_debug.exe
       size: 1594400
       sha256: f2b0d3471285c38723e0b5f53a876f5e37a794e0a44ad20181aaff2226a58a95
-      path: fp9_debug_archive/9r115/flashplayer9r115_win_debug.exe
+      source: fp9_debug_archive/9r115/flashplayer9r115_win_debug.exe
 
     - name: player-9.0.115.0-windows-activex-debug
       file: flashplayer9r115_winax_debug.exe
       size: 1625888
       sha256: 03c602e76ef26a99e5ddd4288e08c0fd698d39b6d4fcb11a5b6fed84fe2b5171
-      path: fp9_debug_archive/9r115/flashplayer9r115_winax_debug.exe
+      source: fp9_debug_archive/9r115/flashplayer9r115_winax_debug.exe
 
     - name: player-9.0.115.0-windows-sa-debug
       file: flashplayer9r115_win_sa_debug.exe
       size: 3780608
       sha256: b7ccc79ce0277689b5224732d109a1152a06d5cfb97421752cf008f1e29aa8ab
-      path: fp9_debug_archive/9r115/flashplayer9r115_win_sa_debug.exe
+      source: fp9_debug_archive/9r115/flashplayer9r115_win_sa_debug.exe
 
     - name: player-9.0.115.0-mac-npapi-debug
       file: flashplayer9r115_mac_debug.dmg
       size: 2464567
       sha256: 3f8a72ec6781f87b0fbf7dbb7aa219e13099236e12bd4febc0573897016ba96d
-      path: fp9_debug_archive/9r115/flashplayer9r115_mac_debug.dmg
+      source: fp9_debug_archive/9r115/flashplayer9r115_mac_debug.dmg
 
     - name: player-9.0.115.0-mac-sa-debug
       file: flashplayer9r115_mac_sa_debug.app.zip
       size: 4923207
       sha256: e8d42876bef766fede9a6d59bfe6ec752958d5eb32e0abe5ff947b86e1e64af4
-      path: fp9_debug_archive/9r115/flashplayer9r115_mac_sa_debug.app.zip
+      source: fp9_debug_archive/9r115/flashplayer9r115_mac_sa_debug.app.zip
 
     - name: player-9.0.115.0-mac-ub-npapi-debug
       file: flashplayer9r115_ub_mac_debug.dmg
       size: 5474919
       sha256: 21bd31a6f9e20213786c881bf6dd4cb329ad7d8cfae0f145b261d78eea66abba
-      path: fp9_debug_archive/9r115/flashplayer9r115_ub_mac_debug.dmg
+      source: fp9_debug_archive/9r115/flashplayer9r115_ub_mac_debug.dmg
 
     - name: player-9.0.115.0-linux-npapi-debug
       file: flashplayer9r115_linux_debug.tar.gz
       size: 3279893
       sha256: 85d42494d05027f4ba6bc1005db1090b2a13298b7f8a0cc4395235f23737ce34
-      path: fp9_debug_archive/9r115/flashplayer9r115_linux_debug.tar.gz
+      source: fp9_debug_archive/9r115/flashplayer9r115_linux_debug.tar.gz
 
     - name: player-9.0.115.0-linux-sa-debug
       file: flashplayer9r115_linux_sa_debug.tar.gz
       size: 3244841
       sha256: 490dcf9cccf467021cff4295524c6acfc5efe137ff5955f96ae53ab15ae1931b
-      path: fp9_debug_archive/9r115/flashplayer9r115_linux_sa_debug.tar.gz
+      source: fp9_debug_archive/9r115/flashplayer9r115_linux_sa_debug.tar.gz
 
     - name: player-9.0.124.0-windows-npapi-debug
       file: flashplayer9r124_win_debug.exe
       size: 1598552
       sha256: fd7806cb58376b18fd0a2dd9c96a28dc7659b02974c04e6c379db10b000d4af6
-      path: fp9_debug_archive/9r124/flashplayer9r124_win_debug.exe
+      source: fp9_debug_archive/9r124/flashplayer9r124_win_debug.exe
 
     - name: player-9.0.124.0-windows-activex-debug
       file: flashplayer9r124_winax_debug.exe
       size: 1631112
       sha256: 6ca9d255c328499abf5dc4c6602462cf41ea658ac8bc338bb6e4166b63802451
-      path: fp9_debug_archive/9r124/flashplayer9r124_winax_debug.exe
+      source: fp9_debug_archive/9r124/flashplayer9r124_winax_debug.exe
 
     - name: player-9.0.124.0-windows-sa-debug
       file: flashplayer9r124_win_sa_debug.exe
       size: 3788800
       sha256: 28a80070b3a06d093c79d7cc8e4fc8782a252b1d2977316f10de19f2abf43a88
-      path: fp9_debug_archive/9r124/flashplayer9r124_win_sa_debug.exe
+      source: fp9_debug_archive/9r124/flashplayer9r124_win_sa_debug.exe
 
     - name: player-9.0.124.0-mac-npapi-debug
       file: flashplayer9r124_mac_debug.dmg
       size: 2471760
       sha256: 22b8bb1f783a9118c52fc41aa29a251e4c96a70309681339d28fc70ce6e1db2d
-      path: fp9_debug_archive/9r124/flashplayer9r124_mac_debug.dmg
+      source: fp9_debug_archive/9r124/flashplayer9r124_mac_debug.dmg
 
     - name: player-9.0.124.0-mac-sa-debug
       file: flashplayer9r124_mac_sa_debug.app.zip
       size: 4940555
       sha256: e77706cde8c9314217691cc6f002d5e7e02a7a6246d9a748d7993f4ec0d7884f
-      path: fp9_debug_archive/9r124/flashplayer9r124_mac_sa_debug.app.zip
+      source: fp9_debug_archive/9r124/flashplayer9r124_mac_sa_debug.app.zip
 
     - name: player-9.0.124.0-mac-ub-npapi-debug-archive
       file: flashplayer9r124_ub_mac_debug.dmg.zip
       size: 5477075
       sha256: d3ba8dd9b6416e495566b7b7fdce0e2abee1534b36367a0a85dd1b03eb3bd78d
-      path: fp9_debug_archive/9r124/flashplayer9r124_ub_mac_debug.dmg.zip
+      source: fp9_debug_archive/9r124/flashplayer9r124_ub_mac_debug.dmg.zip
       packages:
         - name: player-9.0.124.0-mac-ub-npapi-debug
           file: Install Flash Player 9 UB.dmg
           size: 5494459
           sha256: b4a090b2755008c42743130ab1257d0be1959c5ddcdd54bc2a4be15f7a73eda5
-          path: Install Flash Player 9 UB.dmg
+          source: Install Flash Player 9 UB.dmg
 
     - name: player-9.0.124.0-linux-npapi-debug
       file: flashplayer9r124_linux_debug.tar.gz
       size: 3287654
       sha256: 12b99f7f6bc334361a9a5f320b4a2a3034b9460395be5485e6ee659a15b276fa
-      path: fp9_debug_archive/9r124/flashplayer9r124_linux_debug.tar.gz
+      source: fp9_debug_archive/9r124/flashplayer9r124_linux_debug.tar.gz
 
     - name: player-9.0.124.0-linux-sa-debug
       file: flashplayer_9r124_linux_sa_debug.tar.gz
       size: 3252330
       sha256: 99e9be4a7d4dfe984d313682f480180f88599c7a573e6133fe536e4940fb6a45
-      path: fp9_debug_archive/9r124/flashplayer_9r124_linux_sa_debug.tar.gz
+      source: fp9_debug_archive/9r124/flashplayer_9r124_linux_sa_debug.tar.gz
 
     - name: player-9.0.151.0-windows-sa-debug
       file: flashplayer9r151_win_sa_debug.exe
       size: 3818880
       sha256: d3e486137040a5198ce987126c5bba8e3a279654906c721828ac2453596bcc6d
-      path: fp9_debug_archive/9r151/flashplayer9r151_win_sa_debug.exe
+      source: fp9_debug_archive/9r151/flashplayer9r151_win_sa_debug.exe
 
     - name: player-9.0.151.0-mac-sa-debug
       file: flashplayer9r151_mac_sa_debug.app.zip
       size: 4763453
       sha256: 80f412ecf9877615890ab29fa47c1346e0dbd580b79814d4d3e65eaca6fe2144
-      path: fp9_debug_archive/9r151/flashplayer9r151_mac_sa_debug.app.zip
+      source: fp9_debug_archive/9r151/flashplayer9r151_mac_sa_debug.app.zip
 
     - name: player-9.0.151.0-linux-sa-debug
       file: flashplayer9r151_linux_sa_debug.tar.gz
       size: 3268788
       sha256: 72dc7cee6e1d7412e6c5c126e53898b9e5f3a475a73f27802e9f06ac241f9542
-      path: fp9_debug_archive/9r151/flashplayer9r151_linux_sa_debug.tar.gz
+      source: fp9_debug_archive/9r151/flashplayer9r151_linux_sa_debug.tar.gz
 
     - name: player-9.0.152.0-linux-npapi-debug
       file: flashplayer9r152_linux_debug.tar.gz
       size: 3304276
       sha256: df8ec95fde0099ad7bd20c61f7cc4414298c98fd8594e82d9e83358590fba22c
-      path: fp9_debug_archive/9r152/flashplayer9r152_linux_debug.tar.gz
+      source: fp9_debug_archive/9r152/flashplayer9r152_linux_debug.tar.gz
 
     - name: player-9.0.152.0-linux-sa-debug
       file: flashplayer9r152_linux_sa_debug.tar.gz
       size: 3268705
       sha256: c47c33965d31626bee53f6e0b5b2662bc8a4d8636ca4b9d8e03489227b7a5afd
-      path: fp9_debug_archive/9r152/flashplayer9r152_linux_sa_debug.tar.gz
+      source: fp9_debug_archive/9r152/flashplayer9r152_linux_sa_debug.tar.gz
 
     - name: player-9.0.159.0-windows-npapi-debug
       file: flashplayer9r159_win_debug.exe
       size: 1609152
       sha256: fb2a7959842bf6874ff625c807e201c06c9539420d5e5ecb872438779304929b
-      path: fp9_debug_archive/9r159/flashplayer9r159_win_debug.exe
+      source: fp9_debug_archive/9r159/flashplayer9r159_win_debug.exe
 
     - name: player-9.0.159.0-windows-activex-debug
       file: flashplayer9r159_winax_debug.exe
       size: 1642464
       sha256: 47671faafebe33b28b75605c25a53f44190e5e48b045132f4cb89d21d0bb61c9
-      path: fp9_debug_archive/9r159/flashplayer9r159_winax_debug.exe
+      source: fp9_debug_archive/9r159/flashplayer9r159_winax_debug.exe
 
     - name: player-9.0.159.0-windows-sa-debug
       file: flashplayer9r159_win_sa_debug.exe
       size: 3822976
       sha256: 736b1c1a8d912163c54f8c09472ca33f1f494e0e597a5eb6822c6638cfae67ce
-      path: fp9_debug_archive/9r159/flashplayer9r159_win_sa_debug.exe
+      source: fp9_debug_archive/9r159/flashplayer9r159_win_sa_debug.exe
 
     - name: player-9.0.159.0-mac-npapi-debug
       file: flashplayer9r159_mac_debug.dmg
       size: 2102243
       sha256: 7450fd0d37f0fc956ea528356e4f8d0d33393e002a562e2cecdb69494f05726a
-      path: fp9_debug_archive/9r159/flashplayer9r159_mac_debug.dmg
+      source: fp9_debug_archive/9r159/flashplayer9r159_mac_debug.dmg
 
     - name: player-9.0.159.0-mac-sa-debug
       file: flashplayer9r159_mac_sa_debug.app.zip
       size: 4776391
       sha256: 1239b5592240e9a629e530eb8933b342516ab1d787042b994427cd727a5ef83a
-      path: fp9_debug_archive/9r159/flashplayer9r159_mac_sa_debug.app.zip
+      source: fp9_debug_archive/9r159/flashplayer9r159_mac_sa_debug.app.zip
 
     - name: player-9.0.159.0-mac-ub-npapi-debug-archive
       file: flashplayer9r159_ub_mac_debug.dmg.zip
       size: 5085220
       sha256: 1d0d9358d90666a7cacf6ef538556a79d009907247cc139cbd2e9cc19ad65da8
-      path: fp9_debug_archive/9r159/flashplayer9r159_ub_mac_debug.dmg.zip
+      source: fp9_debug_archive/9r159/flashplayer9r159_ub_mac_debug.dmg.zip
       packages:
         - name: player-9.0.159.0-mac-ub-npapi-debug
           file: Install Flash Player 9 UB.dmg
           size: 5102192
           sha256: 50b7f7679e6a03d835edd4a5888def79e4d2efaa0971a58a0067545acafce3d6
-          path: Install Flash Player 9 UB.dmg
+          source: Install Flash Player 9 UB.dmg
 
     - name: player-9.0.159.0-linux-npapi-debug
       file: flashplayer9r159_linux_debug.tar.gz
       size: 3306767
       sha256: 1e3a7edd38bb74f5607692df9668e4f63b3e58a74904293464ae300fa16ae9fe
-      path: fp9_debug_archive/9r159/flashplayer9r159_linux_debug.tar.gz
+      source: fp9_debug_archive/9r159/flashplayer9r159_linux_debug.tar.gz
 
     - name: player-9.0.159.0-linux-sa-debug
       file: flashplayer9r159_linux_sa_debug.tar.gz
       size: 3270950
       sha256: b7389a0a27c260f2fe15efead19496847f71ea30b2371bb95dfe105922b48947
-      path: fp9_debug_archive/9r159/flashplayer9r159_linux_sa_debug.tar.gz
+      source: fp9_debug_archive/9r159/flashplayer9r159_linux_sa_debug.tar.gz
 
     - name: player-9.0.246.0-windows-npapi-debug
       file: flashplayer9r246_win_debug.exe
       size: 1609432
       sha256: 61e013d0c9250d517ca5f7b3f31f42bae0e0b9f80540ae22e4b3300fd5097e18
-      path: fp9_debug_archive/9r246/flashplayer9r246_win_debug.exe
+      source: fp9_debug_archive/9r246/flashplayer9r246_win_debug.exe
 
     - name: player-9.0.246.0-windows-activex-debug
       file: flashplayer9r246_winax_debug.exe
       size: 1644712
       sha256: 66c7e175fddd5825b888ef6f8a94f848514460b38dcb5d2fe47fa0c410a2dd35
-      path: fp9_debug_archive/9r246/flashplayer9r246_winax_debug.exe
+      source: fp9_debug_archive/9r246/flashplayer9r246_winax_debug.exe
 
     - name: player-9.0.246.0-windows-sa-debug
       file: flashplayer9r246_win_sa_debug.exe
       size: 3822976
       sha256: 1009020266aadd54c9f9698dded95d0cbb216acfd375ce0114108de491c3daa2
-      path: fp9_debug_archive/9r246/flashplayer9r246_win_sa_debug.exe
+      source: fp9_debug_archive/9r246/flashplayer9r246_win_sa_debug.exe
 
     - name: player-9.0.246.0-mac-ub-npapi-debug
       file: flashplayer9r246_ub_mac_debug.zip
       size: 5106115
       sha256: 950068ab7cb1618d0dea7e0fc895ae27c8c5911e4df0b02ba951ad9f8ef0a56b
-      path: fp9_debug_archive/9r246/flashplayer9r246_ub_mac_debug.dmg.zip
+      source: fp9_debug_archive/9r246/flashplayer9r246_ub_mac_debug.dmg.zip
 
     - name: player-9.0.246.0-linux-npapi-debug
       file: flashplayer9r246_linux_debug.tar.gz
       size: 3307660
       sha256: 42d5741d8f4c71c4c1cdb9a2e60826b5bde96a5870461ad7861f17ba4a0be19b
-      path: fp9_debug_archive/9r246/flashplayer9r246_linux_debug.tar.gz
+      source: fp9_debug_archive/9r246/flashplayer9r246_linux_debug.tar.gz
 
     - name: player-9.0.246.0-linux-sa-debug
       file: flashplayer9r246_linux_sa_debug.tar.gz
       size: 3271555
       sha256: 9e489f1c19621210d717e32f860e64498cd83e42a69d4040a1702f5ad086a2f3
-      path: fp9_debug_archive/9r246/flashplayer9r246_linux_sa_debug.tar.gz
+      source: fp9_debug_archive/9r246/flashplayer9r246_linux_sa_debug.tar.gz
 
     - name: player-9.0.260.0-windows-npapi-debug
       file: flashplayer9r260_win_debug.exe
       size: 1610840
       sha256: 549fc9c67411d231e559841880b82280827b6ff1a74b509f5d585ec4e77152f0
-      path: fp9_debug_archive/9r260/flashplayer9r260_win_debug.exe
+      source: fp9_debug_archive/9r260/flashplayer9r260_win_debug.exe
 
     - name: player-9.0.260.0-windows-activex-debug
       file: flashplayer9r260_winax_debug.exe
       size: 1644552
       sha256: 24847e734c0a3b23cc68e351fa20048f8f390bdb89a428039d57060e1a6502dd
-      path: fp9_debug_archive/9r260/flashplayer9r260_winax_debug.exe
+      source: fp9_debug_archive/9r260/flashplayer9r260_winax_debug.exe
 
     - name: player-9.0.260.0-windows-sa-debug
       file: flashplayer9r260_win_sa_debug.exe
       size: 3822976
       sha256: a533be98ffe9b99e568a05d48cfd06310082d9ef75087b06d24fe067f25229fe
-      path: fp9_debug_archive/9r260/flashplayer9r260_win_sa_debug.exe
+      source: fp9_debug_archive/9r260/flashplayer9r260_win_sa_debug.exe
 
     - name: player-9.0.260.0-mac-npapi-debug
       file: flashplayer9r260_mac_debug.dmg
       size: 3237152
       sha256: 6036a4df32d67561d5fdb6f047273b9507718f48c67efa9a7a92b7c33eb060ca
-      path: fp9_debug_archive/9r260/flashplayer9r260_mac_debug.dmg
+      source: fp9_debug_archive/9r260/flashplayer9r260_mac_debug.dmg
 
     - name: player-9.0.260.0-mac-ub-npapi-debug
       file: flashplayer9r260_ub_mac_debug.dmg
       size: 5111760
       sha256: 3f54614759a13af51c041b44426f0b0c160d5886e91f3f6590e457772c70f6d8
-      path: fp9_debug_archive/9r260/flashplayer9r260_ub_mac_debug.dmg
+      source: fp9_debug_archive/9r260/flashplayer9r260_ub_mac_debug.dmg
 
     - name: player-9.0.260.0-linux-sa-debug
       file: flashplayer9r260_linux_sa_debug.tar.gz
       size: 3274007
       sha256: 01c11f74b9eef1001d988b0d95fbf841951f2dde04ec81961ce446e49b6356d9
-      path: fp9_debug_archive/9r260/flashplayer9r260_linux_sa_debug.tar.gz
+      source: fp9_debug_archive/9r260/flashplayer9r260_linux_sa_debug.tar.gz
 
     - name: player-9.0.262.0-windows-npapi-debug
       file: flashplayer9r262_win_debug.exe
       size: 1607920
       sha256: f74b4033ab6b9a820c47eb3caa0353f5c8b252065559811858942fa1301786a1
-      path: fp9_debug_archive/9r262/flashplayer9r262_win_debug.exe
+      source: fp9_debug_archive/9r262/flashplayer9r262_win_debug.exe
 
     - name: player-9.0.262.0-windows-activex-debug
       file: flashplayer9r262_winax_debug.exe
       size: 1642712
       sha256: a60d6b52cd06f30959396ec510a25d780951537eb88d56aeab48591672f976ef
-      path: fp9_debug_archive/9r262/flashplayer9r262_winax_debug.exe
+      source: fp9_debug_archive/9r262/flashplayer9r262_winax_debug.exe
 
     - name: player-9.0.262.0-windows-sa-debug
       file: flashplayer9r262_win_sa_debug.exe
       size: 3821816
       sha256: 497d9688700b54d8a9f82afd17875a8d98f0ae494d6ec8ff221192c4ea70562f
-      path: fp9_debug_archive/9r262/flashplayer9r262_win_sa_debug.exe
+      source: fp9_debug_archive/9r262/flashplayer9r262_win_sa_debug.exe
 
     - name: player-9.0.262.0-mac-npapi-debug
       file: flashplayer9r262_mac_debug.dmg
       size: 3142069
       sha256: af383f4d5be0fb5afbaae5250b052325d77fb196e135c190bde99689bc3a3c05
-      path: fp9_debug_archive/9r262/flashplayer9r262_mac_debug.dmg
+      source: fp9_debug_archive/9r262/flashplayer9r262_mac_debug.dmg
 
     - name: player-9.0.262.0-mac-sa-debug
       file: flashplayer9r262_mac_sa_debug.app.zip
       size: 4796774
       sha256: c3020108972efe35780d3d01bffc7b4cfaaca149a5ae57597f969d4edc1224fc
-      path: fp9_debug_archive/9r262/flashplayer9r262_mac_sa_debug.app.zip
+      source: fp9_debug_archive/9r262/flashplayer9r262_mac_sa_debug.app.zip
 
     - name: player-9.0.262.0-mac-ub-npapi-debug
       file: flashplayer9r262_ub_mac_debug.dmg
       size: 5113839
       sha256: 31b3a67d4ecc8e3c346c7b8118e4dd89b6703af36def8e552c2ba3b9c85d2815
-      path: fp9_debug_archive/9r262/flashplayer9r262_ub_mac_debug.dmg
+      source: fp9_debug_archive/9r262/flashplayer9r262_ub_mac_debug.dmg
 
     - name: player-9.0.262.0-linux-npapi-debug
       file: flashplayer9r262_linux_debug.tar.gz
       size: 3308620
       sha256: e19e5925a91cd022da8626004934c3671b0580d19e6804fd9e3b7de0c0464794
-      path: fp9_debug_archive/9r262/flashplayer9r262_linux_debug.tar.gz
+      source: fp9_debug_archive/9r262/flashplayer9r262_linux_debug.tar.gz
 
     - name: player-9.0.262.0-linux-sa-debug
       file: flashplayer9r262_linux_sa_debug.tar.gz
       size: 3274509
       sha256: 9d3ef07678b2127da95bcf93936d959b809ed2641225c3f14706c942c2701e74
-      path: fp9_debug_archive/9r262/flashplayer9r262_linux_sa_debug.tar.gz
+      source: fp9_debug_archive/9r262/flashplayer9r262_linux_sa_debug.tar.gz
 
     - name: player-9.0.277.0-windows-npapi-debug
       file: flashplayer9r277_win_debug.exe
       size: 1610880
       sha256: 80dbea0ab4fe7cd7533a1e2f6d025aa05be2c10c3b52d029ed637e4e7fc8710a
-      path: fp9_debug_archive/9r277/flashplayer9r277_win_debug.exe
+      source: fp9_debug_archive/9r277/flashplayer9r277_win_debug.exe
 
     - name: player-9.0.277.0-windows-activex-debug
       file: flashplayer9r277_winax_debug.exe
       size: 1645048
       sha256: a959983e6bf9dc4a87d1e860b059e0620bce76d4a259a562848540bd9a66bed8
-      path: fp9_debug_archive/9r277/flashplayer9r277_winax_debug.exe
+      source: fp9_debug_archive/9r277/flashplayer9r277_winax_debug.exe
 
     - name: player-9.0.277.0-windows-sa-debug
       file: flashplayer9r277_win_sa_debug.exe
       size: 3825912
       sha256: 15b0965a0bc5e9a45f98eb3affca9cb6c7dd1dc7890593c861b212205dc32ab4
-      path: fp9_debug_archive/9r277/flashplayer9r277_win_sa_debug.exe
+      source: fp9_debug_archive/9r277/flashplayer9r277_win_sa_debug.exe
 
     - name: player-9.0.277.0-mac-npapi-debug
       file: flashplayer9r277_mac_debug.dmg
       size: 3348507
       sha256: d2b54cdc42fbecf27d73c019b6b0890e5ab43fcc3307aa8681af11120d5883eb
-      path: fp9_debug_archive/9r277/flashplayer9r277_mac_debug.dmg
+      source: fp9_debug_archive/9r277/flashplayer9r277_mac_debug.dmg
 
     - name: player-9.0.277.0-mac-sa-debug
       file: flashplayer9r277_mac_sa_debug.app.zip
       size: 4800849
       sha256: 583ad96878a62ca4eb318ec8e4f3498426d9d713469854a6725147da041b503e
-      path: fp9_debug_archive/9r277/flashplayer9r277_mac_sa_debug.app.zip
+      source: fp9_debug_archive/9r277/flashplayer9r277_mac_sa_debug.app.zip
 
     - name: player-9.0.277.0-mac-ub-npapi-debug
       file: flashplayer9r277_ub_mac_debug.dmg
       size: 5113417
       sha256: 8c75a511299a06970eba268b0859cfc098bede8f3940bf26e1b056b2a7be64c8
-      path: fp9_debug_archive/9r277/flashplayer9r277_ub_mac_debug.dmg
+      source: fp9_debug_archive/9r277/flashplayer9r277_ub_mac_debug.dmg
 
     - name: player-9.0.277.0-linux-npapi-debug
       file: flashplayer9r277_linux_debug.tar.gz
       size: 3313586
       sha256: 6243067c411281bd47041bc827544b009269da6db56839edae1149357b7ee972
-      path: fp9_debug_archive/9r277/flashplayer9r277_linux_debug.tar.gz
+      source: fp9_debug_archive/9r277/flashplayer9r277_linux_debug.tar.gz
 
     - name: player-9.0.277.0-linux-sa-debug
       file: flashplayer9r277_linux_sa_debug.tar.gz
       size: 3282367
       sha256: 89b5a690d243fa3eaa556ac16340a3ac207dbd81e85b6bd19c864d1a943ee7ed
-      path: fp9_debug_archive/9r277/flashplayer9r277_linux_sa_debug.tar.gz
+      source: fp9_debug_archive/9r277/flashplayer9r277_linux_sa_debug.tar.gz

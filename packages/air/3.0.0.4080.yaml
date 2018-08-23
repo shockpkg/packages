@@ -2,34 +2,34 @@
   file: AdobeAIRInstaller.zip
   size: 15099319
   sha256: 600dda4e1e979933a6b3aec8739a7c3d9bb8144f5095cedc853b60cd1560512b
-  url: 'https://fpdownload.macromedia.com/air/win/download/3.0/AdobeAIRInstaller.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.0/AdobeAIRInstaller.zip'
   packages:
     - name: air-3.0.0.4080-runtime-windows
       file: AdobeAIRInstaller.exe
       size: 15154600
       sha256: 82e6382120575ed97d11a293312cf7d29de5c0278c3d2c4d23cf71dc3752609c
-      path: AdobeAIRInstaller.exe
+      source: AdobeAIRInstaller.exe
 
 - name: air-3.0.0.4080-runtime-mac-archive
   file: AdobeAIR.zip
   size: 23475793
   sha256: f6936648fa6f10b2c17d57e943c111fbecd09f1aa54efff8a2a7d0a26ca65f3b
-  url: 'https://fpdownload.macromedia.com/air/mac/download/3.0/AdobeAIR.zip'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.0/AdobeAIR.zip'
   packages:
     - name: air-3.0.0.4080-runtime-mac
       file: AdobeAIR.dmg
       size: 23634377
       sha256: ecf52e7ef1a56446baf4a6b5fbf106a49aee2196dcff6261c67b0b9c44d01a3b
-      path: AdobeAIR.dmg
+      source: AdobeAIR.dmg
 
 - name: air-3.0.0.4080-sdk-windows
   file: AdobeAIRSDK.zip
   size: 147858024
   sha256: b855431879ad5c30377f6823576b972095302cc301965834c09b22fa01f2082e
-  url: 'https://fpdownload.macromedia.com/air/win/download/3.0/AdobeAIRSDK.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.0/AdobeAIRSDK.zip'
 
 - name: air-3.0.0.4080-sdk-mac
   file: AdobeAIRSDK.tbz2
   size: 131670316
   sha256: 5b0430c279cd0befe0857770a7210851c63ff8952111a62141418e395efad518
-  url: 'https://fpdownload.macromedia.com/air/mac/download/3.0/AdobeAIRSDK.tbz2'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.0/AdobeAIRSDK.tbz2'

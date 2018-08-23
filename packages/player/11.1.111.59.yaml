@@ -2,4 +2,4 @@
   file: install_flash_player_pre_ics.apk
   size: 4700260
   sha256: 7b029f5703c556635d2c93d4e0475149bc3e4e5f47b83b1b6e90d9cb61822e12
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/android/11.1.111.59/install_flash_player_pre_ics.apk'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/android/11.1.111.59/install_flash_player_pre_ics.apk'

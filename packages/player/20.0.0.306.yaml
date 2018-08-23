@@ -2,118 +2,118 @@
   file: fp_20.0.0.306_archive.zip
   size: 275080734
   sha256: 970146e190db6eb2f2333c85d003a4ceeeafc7d599462870b066ac9ab694b0bb
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_20.0.0.306_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_20.0.0.306_archive.zip'
   packages:
     - name: player-20.0.0.306-windows-npapi
       file: flashplayer20_0r0_306_win.exe
       size: 19022528
       sha256: f16cc902c39439ecc68404b03f47f467f4737f520196275863559a76263084cb
-      path: 20_0_r0_306/flashplayer20_0r0_306_win.exe
+      source: 20_0_r0_306/flashplayer20_0r0_306_win.exe
 
     - name: player-20.0.0.306-windows-npapi-msi
       file: flashplayer20_0r0_306_win.msi
       size: 20201472
       sha256: 5a6cb208e23273d406b140a5bacc4c8298089af1645bc51377ad4bd389b27921
-      path: 20_0_r0_306/flashplayer20_0r0_306_win.msi
+      source: 20_0_r0_306/flashplayer20_0r0_306_win.msi
 
     - name: player-20.0.0.306-windows-npapi-debug
       file: flashplayer20_0r0_306_win_debug.exe
       size: 18841792
       sha256: 16989bbc2a79f68c5fcd53e7a59df61aef930b8e545069ccfa94aa6e8b4a1bd1
-      path: 20_0_r0_306_debug/flashplayer20_0r0_306_win_debug.exe
+      source: 20_0_r0_306_debug/flashplayer20_0r0_306_win_debug.exe
 
     - name: player-20.0.0.306-windows-ppapi
       file: flashplayer20_0r0_306_winpep.exe
       size: 19613888
       sha256: a7772957261cd1fc2fa79d082323fb2161ae75219d0940a055f10189cd574e86
-      path: 20_0_r0_306/flashplayer20_0r0_306_winpep.exe
+      source: 20_0_r0_306/flashplayer20_0r0_306_winpep.exe
 
     - name: player-20.0.0.306-windows-ppapi-debug
       file: flashplayer20_0r0_306_winpep_debug.exe
       size: 20094144
       sha256: 31f65b3fc844e1a32f6185e1277a1a6bb58f480084af1e443987f3ea63882592
-      path: 20_0_r0_306_debug/flashplayer20_0r0_306_winpep_debug.exe
+      source: 20_0_r0_306_debug/flashplayer20_0r0_306_winpep_debug.exe
 
     - name: player-20.0.0.306-windows-activex
       file: flashplayer20_0r0_306_winax.exe
       size: 18511040
       sha256: 2f60b70844e674c1da8df31ae6f1905ecd218e02d58b610283eeb1aa43471ade
-      path: 20_0_r0_306/flashplayer20_0r0_306_winax.exe
+      source: 20_0_r0_306/flashplayer20_0r0_306_winax.exe
 
     - name: player-20.0.0.306-windows-activex-msi
       file: flashplayer20_0r0_306_winax.msi
       size: 19751424
       sha256: 86d7c7504eb5310033c850ec4c9a170114c9ee7c2082e77d03827c1d37cfbf22
-      path: 20_0_r0_306/flashplayer20_0r0_306_winax.msi
+      source: 20_0_r0_306/flashplayer20_0r0_306_winax.msi
 
     - name: player-20.0.0.306-windows-activex-debug
       file: flashplayer20_0r0_306_winax_debug.exe
       size: 18895552
       sha256: b54152d973e0fda6af61889916c5b7b6884d649647c8bd405546aa4ad72dea9f
-      path: 20_0_r0_306_debug/flashplayer20_0r0_306_winax_debug.exe
+      source: 20_0_r0_306_debug/flashplayer20_0r0_306_winax_debug.exe
 
     - name: player-20.0.0.306-windows-sa
       file: flashplayer20_0r0_306_win_sa.exe
       size: 13236928
       sha256: 1b9e2c5889f1a7409a0a602558a67b1824209961c53c40e6454c4bbf4b64f752
-      path: 20_0_r0_306/flashplayer20_0r0_306_win_sa.exe
+      source: 20_0_r0_306/flashplayer20_0r0_306_win_sa.exe
 
     - name: player-20.0.0.306-windows-sa-debug
       file: flashplayer20_0r0_306_win_sa_debug.exe
       size: 14089920
       sha256: 3959a71a3493f439283e32f2d35f9ef96573f2cb5495a54033f83cfbca4e175e
-      path: 20_0_r0_306_debug/flashplayer20_0r0_306_win_sa_debug.exe
+      source: 20_0_r0_306_debug/flashplayer20_0r0_306_win_sa_debug.exe
 
     - name: player-20.0.0.306-windows-uninstaller
       file: uninstall_flashplayer20_0r0_306_win.exe
       size: 1163968
       sha256: a94d4e412af359e9fd29c35781ecfcb27b8ab1fefb6f7a645a203a49f5e35f19
-      path: 20_0_r0_306/uninstall_flashplayer20_0r0_306_win.exe
+      source: 20_0_r0_306/uninstall_flashplayer20_0r0_306_win.exe
 
     - name: player-20.0.0.306-mac-npapi
       file: flashplayer20_0r0_306_mac.dmg
       size: 16997875
       sha256: f95046ed8511401a50dfe5aadfc595769afdbed2c4db3aeb8ff7eabdc9c01452
-      path: 20_0_r0_306/flashplayer20_0r0_306_mac.dmg
+      source: 20_0_r0_306/flashplayer20_0r0_306_mac.dmg
 
     - name: player-20.0.0.306-mac-npapi-pkg
       file: flashplayer20_0r0_306_mac_pkg.dmg
       size: 16613563
       sha256: e189a644a15cda617181e0ff2925488ef215ac2d74feb00800688f25bf77e7be
-      path: 20_0_r0_306/flashplayer20_0r0_306_mac_pkg.dmg
+      source: 20_0_r0_306/flashplayer20_0r0_306_mac_pkg.dmg
 
     - name: player-20.0.0.306-mac-npapi-debug
       file: flashplayer20_0r0_306_mac_debug.dmg
       size: 17083315
       sha256: 66322800bad2b331d6699c27ea0d0ee74ce06b4d78f2b0b3177e4ea215f013d2
-      path: 20_0_r0_306_debug/flashplayer20_0r0_306_mac_debug.dmg
+      source: 20_0_r0_306_debug/flashplayer20_0r0_306_mac_debug.dmg
 
     - name: player-20.0.0.306-mac-ppapi
       file: flashplayer20_0r0_306_macpep.dmg
       size: 16719896
       sha256: 2398a68453cec809a6a0db9f29783b399207865aeb47850c0aa4ded0ac8dd08b
-      path: 20_0_r0_306/flashplayer20_0r0_306_macpep.dmg
+      source: 20_0_r0_306/flashplayer20_0r0_306_macpep.dmg
 
     - name: player-20.0.0.306-mac-ppapi-debug
       file: flashplayer20_0r0_306_macpep_debug.dmg
       size: 17142044
       sha256: 0abd9d6e3909a789f46e91e849f24e8b9a101edbbdd714d1016f67a914e8a98d
-      path: 20_0_r0_306_debug/flashplayer20_0r0_306_macpep_debug.dmg
+      source: 20_0_r0_306_debug/flashplayer20_0r0_306_macpep_debug.dmg
 
     - name: player-20.0.0.306-mac-sa
       file: flashplayer20_0r0_306_mac_sa.dmg
       size: 13931974
       sha256: a289a1ab838864a73070c324d882734ea6f592419d4b13d4c793caa706c625a2
-      path: 20_0_r0_306/flashplayer20_0r0_306_mac_sa.dmg
+      source: 20_0_r0_306/flashplayer20_0r0_306_mac_sa.dmg
 
     - name: player-20.0.0.306-mac-sa-debug
       file: flashplayer20_0r0_306_mac_sa_debug.dmg
       size: 14458029
       sha256: 58597d6c602ed51ad2f6c2faba97ef06264bc6466d9a27aa95584845710444b8
-      path: 20_0_r0_306_debug/flashplayer20_0r0_306_mac_sa_debug.dmg
+      source: 20_0_r0_306_debug/flashplayer20_0r0_306_mac_sa_debug.dmg
 
     - name: player-20.0.0.306-mac-uninstaller
       file: uninstall_flashplayer20_0r0_306_mac.dmg
       size: 276530
       sha256: 7ed221c6a2abb9b4fa16d1de22fa0800e5f49dfa81769fba884a4f0ebbafdd5c
-      path: 20_0_r0_306/uninstall_flashplayer20_0r0_306_mac.dmg
+      source: 20_0_r0_306/uninstall_flashplayer20_0r0_306_mac.dmg

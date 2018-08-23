@@ -2,28 +2,28 @@
   file: fp2_archive.zip
   size: 633217
   sha256: a045b93f02f07f2bc59ad1a0b3ed3a7c76bf2deb506abcef16d499ef62bfb958
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp2_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp2_archive.zip'
   packages:
     - name: player-2.0.0.11-windows-16bit-npapi
       file: SWFlash.exe
       size: 177296
       sha256: b84bfe2bcfe9b984040d20feaa0c480f3d1e3a78bcd725958de70ce84be549ec
-      path: FP2_archive/SWFlash.exe
+      source: FP2_archive/SWFlash.exe
 
     - name: player-2.0.0.11-windows-32bit-npapi
       file: Shockwave_Flash_Installer.exe
       size: 197305
       sha256: d49096c9d72acac352ca230ade12b051940e6dd8159bfcc8abb0307508a03c7c
-      path: FP2_archive/Shockwave_Flash_Installer.exe
+      source: FP2_archive/Shockwave_Flash_Installer.exe
 
     - name: player-2.0.0.11-windows-activex-ocx
       file: SWFlash.ocx
       size: 194048
       sha256: ddccab5f5df1d077d3bb85a2ee3672cb56a53bc9a3ee4d8ff429436d0962db30
-      path: FP2_archive/SWFlash.ocx
+      source: FP2_archive/SWFlash.ocx
 
     - name: player-2.0.0.11-mac-npapi
       file: Shockwave_Flash.sea.hqx
       size: 234191
       sha256: 8bf371b9f3fe24a114ba844ed5269451b059f050cdf5c36bbbb86f462eba87ed
-      path: FP2_archive/Shockwave_Flash.sea.hqx
+      source: FP2_archive/Shockwave_Flash.sea.hqx

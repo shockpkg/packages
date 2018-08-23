@@ -2,34 +2,34 @@
   file: fp_11.2.202.643_archive.zip
   size: 33913165
   sha256: 1a79f38f7153d436083b5a6b5d0f38e0c4cd345e83e7d050152452057f83350a
-  url: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.643_archive.zip'
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.643_archive.zip'
   packages:
     - name: player-11.2.202.643-linux-i386-npapi
       file: flashplayer11_2r202_643_linux.i386.tar.gz
       size: 6991072
       sha256: b3cb465620b18df1a4cb88427f2e3c7bd080ee23883b05f94245187a783fa25c
-      path: 11_2_r202_643_32bit/flashplayer11_2r202_643_linux.i386.tar.gz
+      source: 11_2_r202_643_32bit/flashplayer11_2r202_643_linux.i386.tar.gz
 
     - name: player-11.2.202.643-linux-i386-npapi-debug
       file: flashplayer11_2r202_643_linux_debug.i386.tar.gz
       size: 7471672
       sha256: 31f294bde4f7115831e6b83dab54b772b75ada254144b196ab2cb5b0ea69a041
-      path: 11_2_r202_643_32bit_debug/flashplayer11_2r202_643_linux_debug.i386.tar.gz
+      source: 11_2_r202_643_32bit_debug/flashplayer11_2r202_643_linux_debug.i386.tar.gz
 
     - name: player-11.2.202.643-linux-i386-sa
       file: flashplayer11_2r202_643_linux_sa.i386.tar.gz
       size: 6019136
       sha256: 3195190fafeb51230406fc6004c2513f245d42c35563b0c90860483a1469f0cc
-      path: 11_2_r202_643_32bit/flashplayer11_2r202_643_linux_sa.i386.tar.gz
+      source: 11_2_r202_643_32bit/flashplayer11_2r202_643_linux_sa.i386.tar.gz
 
     - name: player-11.2.202.643-linux-i386-sa-debug
       file: flashplayer11_2r202_643_linux_sa_debug.i386.tar.gz
       size: 6495130
       sha256: 1df3efa4b20e3e812071474d0b8b9036aaabbce8686ee595d31950c53362b7d6
-      path: 11_2_r202_643_32bit_debug/flashplayer11_2r202_643_linux_sa_debug.i386.tar.gz
+      source: 11_2_r202_643_32bit_debug/flashplayer11_2r202_643_linux_sa_debug.i386.tar.gz
 
     - name: player-11.2.202.643-linux-x86_64-npapi
       file: flashplayer11_2r202_643_linux.x86_64.tar.gz
       size: 7302135
       sha256: a1bdc2154d888358e86712bdd77ef8f03d144847b0d18cd9f7bfff502f017647
-      path: 11_2_r202_643_64bit/flashplayer11_2r202_643_linux.x86_64.tar.gz
+      source: 11_2_r202_643_64bit/flashplayer11_2r202_643_linux.x86_64.tar.gz

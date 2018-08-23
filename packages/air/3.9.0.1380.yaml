@@ -2,52 +2,52 @@
   file: AdobeAIRInstaller.zip
   size: 18045798
   sha256: 402d625bad82794d2a6804cb299308fd8429b4063832f6d56e878fc92257ac07
-  url: 'https://fpdownload.macromedia.com/air/win/download/3.9/AdobeAIRInstaller.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.9/AdobeAIRInstaller.zip'
   packages:
     - name: air-3.9.0.1380-runtime-windows
       file: AdobeAIRInstaller.exe
       size: 18101704
       sha256: 11e5a4dd0f7cedd1204c3e946efe91a03f98361e6818f64c559268d71855def0
-      path: AdobeAIRInstaller.exe
+      source: AdobeAIRInstaller.exe
 
 - name: air-3.9.0.1380-runtime-mac-archive
   file: AdobeAIR.zip
   size: 27560805
   sha256: 1f843594a1f4e8e392a9e892499eb0a5736adaf1ddacab9af8176289e91e650b
-  url: 'https://fpdownload.macromedia.com/air/mac/download/3.9/AdobeAIR.zip'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.9/AdobeAIR.zip'
   packages:
     - name: air-3.9.0.1380-runtime-mac
       file: AdobeAIR.dmg
       size: 27590943
       sha256: 9b5601062674db2de5fccc5e2914e9647a73b02596e7befb83ba6b90a87ee08c
-      path: AdobeAIR.dmg
+      source: AdobeAIR.dmg
 
 - name: air-3.9.0.1380-runtime-android
   file: AdobeAIRAndroid.apk
   size: 10364612
   sha256: 5d787699c27478fc2fe44adb628c0971995875769a5952ce07c6e5313d361406
-  url: 'https://fpdownload.macromedia.com/air/android/download/3.9.0.1380/AdobeAIRAndroid.apk'
+  source: 'https://fpdownload.macromedia.com/air/android/download/3.9.0.1380/AdobeAIRAndroid.apk'
 
 - name: air-3.9.0.1380-sdk-windows
   file: AdobeAIRSDK.zip
   size: 181151804
   sha256: 4b9693091e0277b63c03f87cdfedef6f15c3efdad3b3d5bb6cfdfd51119d88b7
-  url: 'https://fpdownload.macromedia.com/air/win/download/3.9/AdobeAIRSDK.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.9/AdobeAIRSDK.zip'
 
 - name: air-3.9.0.1380-sdk-mac
   file: AdobeAIRSDK.tbz2
   size: 161489098
   sha256: 516d2cf4d07392105cd7588e249dd5c9aeb508ea6a26477a8f34b15b63d39d29
-  url: 'https://fpdownload.macromedia.com/air/mac/download/3.9/AdobeAIRSDK.tbz2'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.9/AdobeAIRSDK.tbz2'
 
 - name: air-3.9.0.1380-sdk-and-compiler-windows
   file: AIRSDK_Compiler.zip
   size: 218187170
   sha256: 12cba74efd8e35825926a2b3fd70142634b22d7105bf69467f81f10d6b910f3f
-  url: 'https://fpdownload.macromedia.com/air/win/download/3.9/AIRSDK_Compiler.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.9/AIRSDK_Compiler.zip'
 
 - name: air-3.9.0.1380-sdk-and-compiler-mac
   file: AIRSDK_Compiler.tbz2
   size: 198913328
   sha256: b48f89a9f184bf59655f779c23a0e125178819acf49fe3b41ae96f3544f737b1
-  url: 'https://fpdownload.macromedia.com/air/mac/download/3.9/AIRSDK_Compiler.tbz2'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.9/AIRSDK_Compiler.tbz2'

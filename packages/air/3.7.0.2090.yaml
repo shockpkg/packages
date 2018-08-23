@@ -2,22 +2,22 @@
   file: AdobeAIRInstaller.zip
   size: 17935540
   sha256: 43e26ac7812eb7068156bf3fd927d4cfde33e8b584c0626f4fefc1bd51310d09
-  url: 'https://fpdownload.macromedia.com/air/win/download/3.7/AdobeAIRInstaller.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.7/AdobeAIRInstaller.zip'
   packages:
     - name: air-3.7.0.2090-runtime-windows
       file: AdobeAIRInstaller.exe
       size: 17991520
       sha256: 1a1c710b86aa6f2277409b0d8334b1bf00f8e3f30a0658f4e91698d485ba8e86
-      path: AdobeAIRInstaller.exe
+      source: AdobeAIRInstaller.exe
 
 - name: air-3.7.0.2090-sdk-windows
   file: AdobeAIRSDK.zip
   size: 176436883
   sha256: af36e15b5401fa0d33341c270d6fc67bf4e3a575e4cbcfc6ab0ca8da1848302d
-  url: 'https://fpdownload.macromedia.com/air/win/download/3.7/AdobeAIRSDK.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.7/AdobeAIRSDK.zip'
 
 - name: air-3.7.0.2090-sdk-and-compiler-windows
   file: AIRSDK_Compiler.zip
   size: 213473412
   sha256: 4432860e662424e36576b3a74276890505ebb8806c7dee2e10f08b7f3c852db5
-  url: 'https://fpdownload.macromedia.com/air/win/download/3.7/AIRSDK_Compiler.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.7/AIRSDK_Compiler.zip'
