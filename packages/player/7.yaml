@@ -393,3 +393,9 @@
       size: 1908375
       sha256: 4a639e932a6a5c8628e444e64a6b1d4de2264f59ad39b26ca383f77a93be9eef
       source: Players/Debug/SAFlashPlayer.hqx
+
+- name: player-7.0.61.0-linux
+  file: install_flash_player_7_linux.tar.gz
+  size: 989217
+  sha256: 23857def9bdde26791fbb4d9f733e1232fa9b6838fe3ce9989af494dc983511a
+  source: 'https://gitlab.com/fparchive/player-7/raw/master/linux-7.0.61.0/install_flash_player_7_linux.tar.gz'

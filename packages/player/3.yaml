@@ -81,3 +81,15 @@
       size: 436656
       sha256: 668ca1452cd7a041de4edb2f5cc560930a8235d6b90227c032526d7680452207
       source: Players/Mac standalone players.hqx
+
+- name: player-3.0.13.0-b1-linux
+  file: flash_linux.tar.gz
+  size: 117866
+  sha256: ba1ee27a4a7d6d953cf87928b72cb1d0587afdabc7badfb8e1a44d9f88c478cf
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/3.0r13b1/flash_linux.tar.gz'
+
+- name: player-3.0.13.0-b1-solaris
+  file: flash_solaris.tar.gz
+  size: 129141
+  sha256: d1f58a7227e25722da4d78f944ed372b0ac622bd5f1170370ecd2d73f0d59025
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/3.0r13b1/flash_solaris.tar.gz'

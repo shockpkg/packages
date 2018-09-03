@@ -213,3 +213,27 @@
       size: 864256
       sha256: 58d99c29ac1959c9caabe7391ddc33316443c4302cff72145c5564818ab4a1a8
       source: SAFlashPlayer.exe
+
+- name: player-6.0.69.0-linux
+  file: install_flash_player_6_linux.tar.gz
+  size: 706066
+  sha256: a4480d9aeebe2c525c5c681ef61aa3a64139c5c6bd8fc295acfa2cc7e9be41aa
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/6.0r69/install_flash_player_6_linux.tar.gz'
+
+- name: player-6.0.79.0-linux
+  file: install_flash_player_6_linux.tar.gz
+  size: 707027
+  sha256: e055f8207b93934845365bde0a7356cfc4deee207081f23b9bdf17da0d5d9738
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/6.0r79/install_flash_player_6_linux.tar.gz'
+
+- name: player-6.0.79.0-linux-sa
+  file: install_flash_player_6_r79_linux_sa.tar.gz
+  size: 700781
+  sha256: 5a374ff347522957bef9d5c772beedc9cc29212500e50f1cc1ca2fda18ecd89f
+  source: 'http://download.macromedia.com/get/flash/updates/mx/player6/install_flash_player_6_r79_linux_sa.tar.gz'
+
+- name: player-6.0.81.0-solaris
+  file: flash_player_6_solaris_intel.tar.gz
+  size: 770854
+  sha256: 18d34995b0a0c89db96b043f6f2466375a438c452d0bd1169beaf82c503af2cf
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/intel/6.0r81/flash_player_6_solaris_intel.tar.gz'

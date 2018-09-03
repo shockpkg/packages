@@ -99,3 +99,51 @@
       size: 709186
       sha256: 96cab75cf3dfbe0df18307c493f9f97ca3d26f26a9d84a001c4ec22f8c4748e7
       source: Players/Debug/FlashPla.hqx
+
+- name: player-5.0.4.0-os2
+  file: flashos2.exe
+  size: 1316205
+  sha256: 73bcd8d72929b5149da4bebf982383dcdc358d6f8ba40d4266c31a864a331643
+  source: 'https://gitlab.com/fparchive/player-5/raw/master/os2-r4/flashos2.exe'
+
+- name: player-5.0.5.0-os2
+  file: flashos2.exe
+  size: 1364239
+  sha256: 5020393d18806321722d3d401d39a37fe2a7c3065ef58b0761e76c8730a1846d
+  source: 'https://gitlab.com/fparchive/player-5/raw/master/os2-r5/flashos2.exe'
+
+- name: player-5.0.47.0-linux
+  file: flash_linux.tar.gz
+  size: 574724
+  sha256: 999720039f2f0dc16afb2e4eccdfb71f27f4b5c0ae633aebc597b5a5743a7e8f
+  source: 'https://gitlab.com/fparchive/player-5/raw/master/linux-5.0r47/flash_linux.tar.gz'
+
+- name: player-5.0.48.0-linux
+  file: flash_linux.tar.gz
+  size: 574415
+  sha256: 15baa1e4ca1f14ead6685a1c2df73fc888db37cb0116928c07a70235563ff989
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/5.0r48/flash_linux.tar.gz'
+
+- name: player-5.0.51.0-linux
+  file: flash_linux.tar.gz
+  size: 568380
+  sha256: 3a10f49c6ec2ceb8954cae36368a8cbb56a5da1ad486ab3889435ee4f7d2273c
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/5.0r51/flash_linux.tar.gz'
+
+- name: player-5.0.52.0-solaris
+  file: flash_solaris.tar.gz
+  size: 627444
+  sha256: ea2f51fe4ae2cff35809a563180e721e4954eba920e255ab4fad19e2a0536c37
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/5.0r52/flash_solaris.tar.gz'
+
+- name: player-5.0.53.0-solaris
+  file: flash_solaris.tar.gz
+  size: 628531
+  sha256: 6449eb8d99b30ccd66611001a15e49748e8a8ccead1fe6b2018c4269f1b6e328
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/5.0r53/flash_solaris.tar.gz'
+
+- name: player-5.0.55.0-solaris
+  file: flash_solaris.tar.gz
+  size: 628648
+  sha256: 8149bf0d8e7b6a768c22b39194b9ca8d95d15cae146b41f9f4f54f32b7bd5686
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/5.0r55/flash_solaris.tar.gz'

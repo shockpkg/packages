@@ -57,3 +57,27 @@
       size: 441581
       sha256: d313fcdb79d48f5df491a1404231c710cf4bef1a07dec49154cac7f6f0e97453
       source: Players/FlashPla.hqx
+
+- name: player-4.0.12.0-linux
+  file: flash_linux.tar.gz
+  size: 489295
+  sha256: 25d550ae02c68b49ea5424e429b36b189799dd648daf2daff6a50e008f5e2c72
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/4.0r12/flash_linux.tar.gz'
+
+- name: player-4.0.12.0-solaris
+  file: flash_solaris.tar.gz
+  size: 537072
+  sha256: c888f2874f40c230dc2741a470cefb6330808922fc6a7735f33576756e817ca8
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/4.0r12/flash_solaris.tar.gz'
+
+- name: player-4.0.12.0-irix
+  file: flash_irix.tar.gz
+  size: 675036
+  sha256: 237a31f60378d11baefdfa232f4fcbaaac2293e20f276b54c2947c5fe3a6e2d1
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/irix/4.0r12/flash_irix.tar.gz'
+
+- name: player-4.0.28.0-dreamcast
+  file: Sega_Dreamcast_Flash_Player.zip
+  size: 215430
+  sha256: 13662e45bb6d692cc25b89f0d58040fe1c815f3e794d62989d7f3b7068dc4be6
+  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/dreamcast/4.0.28.0/Sega_Dreamcast_Flash_Player.zip'
