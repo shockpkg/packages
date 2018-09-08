@@ -1,4 +1,4 @@
-- name: playerglobal-14.0
+- name: flash-playerglobal-14.0
   file: playerglobal14_0.swc
   size: 386531
   sha256: 364c0b6400d0c79f0e1280337cff61434d0e572e257d3e1f9e66a05fe3b5a05a

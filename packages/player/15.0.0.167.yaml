@@ -1,28 +1,28 @@
-- name: player-15.0.0.167-archive
+- name: flash-player-15.0.0.167-archive
   file: fp_15.0.0.167_archive.zip
   size: 52994204
   sha256: 5b1cf02d31d41a1780ec0fc1e3698c8246ac20218fe61d219d5b474761bc18f5
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_15.0.0.167_archive.zip'
   packages:
-    - name: player-15.0.0.167-windows-activex
+    - name: flash-player-15.0.0.167-windows-activex
       file: flashplayer15_0r0_167_winax.exe
       size: 17323696
       sha256: b0317560bda54f86b3737ee61ac1c6756924c54556e2c943e538f3c43838edc9
       source: fp_15.0.0.167_archive/15_0_r0_167/flashplayer15_0r0_167_winax.exe
 
-    - name: player-15.0.0.167-windows-activex-msi
+    - name: flash-player-15.0.0.167-windows-activex-msi
       file: flashplayer15_0r0_167_winax.msi
       size: 18481152
       sha256: bbe0efa1a0e6ae2e898819e36e4db3e2d9cb2b7f7d026d3a69ee2cece854d62f
       source: fp_15.0.0.167_archive/15_0_r0_167/flashplayer15_0r0_167_winax.msi
 
-    - name: player-15.0.0.167-windows-activex-debug
+    - name: flash-player-15.0.0.167-windows-activex-debug
       file: flashplayer15_0r0_167_winax_debug.exe
       size: 17709744
       sha256: d44c4df5a48fa312957122e9cbc9362207c7c02498e64babffc50a89e1f26323
       source: fp_15.0.0.167_archive/15_0_r0_167_debug/flashplayer15_0r0_167_winax_debug.exe
 
-    - name: player-15.0.0.167-windows-uninstaller
+    - name: flash-player-15.0.0.167-windows-uninstaller
       file: uninstall_flashplayer15_0r0_167_win.exe
       size: 854704
       sha256: e32e2ad8fdd6a06f54052540583a001ffcb47bdf664b90125a2babfdba880160

@@ -1,4 +1,4 @@
-- name: player-11.0.1.153-android
+- name: flash-player-11.0.1.153-android
   file: install_flash_player.apk
   size: 4688276
   sha256: bd68adb5fcdcee5479defd8670670999648a1d6ba9097df879ba9c0228f51923

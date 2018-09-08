@@ -1,208 +1,208 @@
-- name: player-10.1.85.3-and-9.0.283.0-archive
+- name: flash-player-10.1.85.3-and-9.0.283.0-archive
   file: fp_10.1.85.3_and_9.0.283_archive.zip
   size: 132488028
   sha256: 704744354611e69bb682199f2c578c1d0b0881b6ef01b0a7989044bdd03c33ad
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.1.85.3_and_9.0.283_archive.zip'
   packages:
-    - name: player-9.0.283.0-windows-npapi
+    - name: flash-player-9.0.283.0-windows-npapi
       file: flashplayer9_0r283_win.exe
       size: 1504560
       sha256: 03ddac3818982e57244da9840f18f6594f5838520d61363b9fc5ed15459ec28a
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r283_win.exe
 
-    - name: player-9.0.283.0-windows-npapi-debug
+    - name: flash-player-9.0.283.0-windows-npapi-debug
       file: flashplayer9_0r283_win_debug.exe
       size: 1610392
       sha256: 6419fa3ee0af9f8f8ce53c5a38a5556e801aadde889e01ebdaad0eac70bbd935
       source: Flash Player 9.0.283.0/9_0r283_debug/flashplayer9_0r283_win_debug.exe
 
-    - name: player-9.0.283.0-windows-activex
+    - name: flash-player-9.0.283.0-windows-activex
       file: flashplayer9_0r283_winax.exe
       size: 1537208
       sha256: 37349ae61dda3919710a29f9e91827d97ff0a6fe0951e42bddfcfbd48fe70b9d
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r283_winax.exe
 
-    - name: player-9.0.283.0-windows-activex-debug
+    - name: flash-player-9.0.283.0-windows-activex-debug
       file: flashplayer9_0r283_winax_debug.exe
       size: 1645256
       sha256: 628835bea055deac79c43e851973588ce1219629abc3d7177d2c9a79965f4daa
       source: Flash Player 9.0.283.0/9_0r283_debug/flashplayer9_0r283_winax_debug.exe
 
-    - name: player-9.0.283.0-windows-sa
+    - name: flash-player-9.0.283.0-windows-sa
       file: flashplayer9_0r283_win_sa.exe
       size: 3424504
       sha256: d142cfe2a3da202f10cfd43bb120d437a646223fa64bc2607c29bcf37d8bab65
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r283_win_sa.exe
 
-    - name: player-9.0.283.0-windows-sa-debug
+    - name: flash-player-9.0.283.0-windows-sa-debug
       file: flashplayer9_0r283_win_sa_debug.exe
       size: 3825912
       sha256: 9c8d764bb9c61e60f2845d35796adcfb531d16207e006f9a918456e5f6987208
       source: Flash Player 9.0.283.0/9_0r283_debug/flashplayer9_0r283_win_sa_debug.exe
 
-    - name: player-9.0.283.0-mac-npapi
+    - name: flash-player-9.0.283.0-mac-npapi
       file: flashplayer9_0r283_mac.dmg
       size: 3136575
       sha256: 054f07b765b6490995db90d2341507d3a61b3468f639319790c2a09f9710a8c7
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r283_mac.dmg
 
-    - name: player-9.0.283.0-mac-npapi-debug
+    - name: flash-player-9.0.283.0-mac-npapi-debug
       file: flashplayer9_0r283_mac_debug.dmg
       size: 3348554
       sha256: 2caa1df0c28a681b83a658597b264237f1d7256943f0eaaaf09b5f01adec9b10
       source: Flash Player 9.0.283.0/9_0r283_debug/flashplayer9_0r283_mac_debug.dmg
 
-    - name: player-9.0.283.0-mac-sa
+    - name: flash-player-9.0.283.0-mac-sa
       file: flashplayer9_0r283_mac_sa.app.zip
       size: 4367769
       sha256: 6304c44bbd67d867cb3d553db4baff01ad6f09f543e9d51922aae540215a1a6f
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r283_mac_sa.app.zip
 
-    - name: player-9.0.283.0-mac-sa-debug
+    - name: flash-player-9.0.283.0-mac-sa-debug
       file: flashplayer9_0r283_mac_sa_debug.app.zip
       size: 4800874
       sha256: 6f4da529075eb52a5d2135b61b5ff2dea01d56d2e7ae3266f96c6ce7471efab4
       source: Flash Player 9.0.283.0/9_0r283_debug/flashplayer9_0r283_mac_sa_debug.app.zip
 
-    - name: player-9.0.283.0-mac-ub-npapi
+    - name: flash-player-9.0.283.0-mac-ub-npapi
       file: flashplayer9_0r283_mac_ub.dmg
       size: 4678361
       sha256: 3f371fed8f746826428284a2494f87948ee56c2a72c2769e00b38c11c7abf9f0
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r283_mac_ub.dmg
 
-    - name: player-9.0.283.0-mac-ub-npapi-debug
+    - name: flash-player-9.0.283.0-mac-ub-npapi-debug
       file: flashplayer9_0r283_mac_ub_debug.dmg
       size: 5113484
       sha256: ab34259d100a1c700faa98fc8a0136b76dbfe936b829be5f5d3dddc30f5a86ef
       source: Flash Player 9.0.283.0/9_0r283_debug/flashplayer9_0r283_mac_ub_debug.dmg
 
-    - name: player-9.0.283.0-linux-npapi
+    - name: flash-player-9.0.283.0-linux-npapi
       file: flashplayer9_0r280_linux.tar.gz
       size: 3064686
       sha256: 890f07d8ff5102851ede499bdcbf74983bb77e49408d4e44e2749a0d2583b408
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r280_linux.tar.gz
 
-    - name: player-9.0.283.0-linux-npapi-debug
+    - name: flash-player-9.0.283.0-linux-npapi-debug
       file: flashplayer9_0r283_linux_debug.tar.gz
       size: 3313193
       sha256: cd98dec4e64453ff09461a43445551d893a7aa85e4b899e7d3a755079b3cfa97
       source: Flash Player 9.0.283.0/9_0r283_debug/flashplayer9_0r283_linux_debug.tar.gz
 
-    - name: player-9.0.283.0-linux-sa
+    - name: flash-player-9.0.283.0-linux-sa
       file: flashplayer9_0r283_linux_sa.tar.gz
       size: 3040720
       sha256: 3346625c9a75a7f26c6ca9e481e8dd9dded0be1fd078e7c649ad4b4a86a9c6f6
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r283_linux_sa.tar.gz
 
-    - name: player-9.0.283.0-linux-sa-debug
+    - name: flash-player-9.0.283.0-linux-sa-debug
       file: flashplayer9_0r283_linux_sa_debug.tar.gz
       size: 3282484
       sha256: eb7eb853fd10f395133b194cbcf754a06a34eaec8100586072d779b9cec6c08e
       source: Flash Player 9.0.283.0/9_0r283_debug/flashplayer9_0r283_linux_sa_debug.tar.gz
 
-    - name: player-9.0.283.0-solaris-sparc-npapi
+    - name: flash-player-9.0.283.0-solaris-sparc-npapi
       file: flashplayer9_0r283_solaris_sparc.tar.bz2
       size: 3287746
       sha256: 8179f0e7be1e617c6439003b733b3826235bde194494564ced2571a28801e710
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r283_solaris_sparc.tar.bz2
 
-    - name: player-9.0.283.0-solaris-x86-npapi
+    - name: flash-player-9.0.283.0-solaris-x86-npapi
       file: flashplayer9_0r283_solaris_x86.tar.bz2
       size: 2472180
       sha256: 7d0a55787c2c65df633623c22ed525ab8d1d3d0f5e1a5e249f4d708122d3166d
       source: Flash Player 9.0.283.0/9_0r283/flashplayer9_0r283_solaris_x86.tar.bz2
 
-    - name: player-10.1.85.3-windows-npapi
+    - name: flash-player-10.1.85.3-windows-npapi
       file: flashplayer10_1r85_3_win.exe
       size: 2788816
       sha256: 06f8c54be848908e2ef522bacc55deb5e643dc4570feb0ee05af552dc883e23d
       source: Flash Player 10.1.85.3/10_1r85_3/flashplayer10_1r85_3_win.exe
 
-    - name: player-10.1.85.3-windows-npapi-debug
+    - name: flash-player-10.1.85.3-windows-npapi-debug
       file: flashplayer10_1r85_3_win_debug.exe
       size: 3041744
       sha256: bab71776a6fe106c7ba3ce5ce0d759b4681090c276419ad9c669e09846703b78
       source: Flash Player 10.1.85.3/10_1r85_3_debug/flashplayer10_1r85_3_win_debug.exe
 
-    - name: player-10.1.85.3-windows-activex
+    - name: flash-player-10.1.85.3-windows-activex
       file: flashplayer10_1r85_3_winax.exe
       size: 2826192
       sha256: 6d58a4e86fb8bc81f5ef9b988faede81756d06f36d4aae2c5dd6255488a18eb8
       source: Flash Player 10.1.85.3/10_1r85_3/flashplayer10_1r85_3_winax.exe
 
-    - name: player-10.1.85.3-windows-activex-debug
+    - name: flash-player-10.1.85.3-windows-activex-debug
       file: flashplayer10_1r85_3_winax_debug.exe
       size: 3078608
       sha256: 3bd8139955d2ffa566c47a33cd0a4fbbe6dfdbbe7482aaf005795ad120ddf01e
       source: Flash Player 10.1.85.3/10_1r85_3_debug/flashplayer10_1r85_3_winax_debug.exe
 
-    - name: player-10.1.85.3-windows-sa
+    - name: flash-player-10.1.85.3-windows-sa
       file: flashplayer10_1r85_3_win_sa.exe
       size: 5560784
       sha256: 15ce8eff34ec392a2cd1c54d06cd0cb125f323d29ba468a2cf07ae807843756d
       source: Flash Player 10.1.85.3/10_1r85_3/flashplayer10_1r85_3_win_sa.exe
 
-    - name: player-10.1.85.3-windows-sa-debug
+    - name: flash-player-10.1.85.3-windows-sa-debug
       file: flashplayer10_1r85_3_win_sa_debug.exe
       size: 6541264
       sha256: 1f2039d9958e8b10e485f72662c4fc0a8e2257a6aa7290dba54f043e8d08d635
       source: Flash Player 10.1.85.3/10_1r85_3_debug/flashplayer10_1r85_3_win_sa_debug.exe
 
-    - name: player-10.1.85.3-mac-npapi
+    - name: flash-player-10.1.85.3-mac-npapi
       file: flashplayer10_1r85_3_ub_mac.dmg
       size: 7959489
       sha256: d649921b4c3fe6ca131653585bde0fc6c64cdff8506f20962cc69a8c27341cc3
       source: Flash Player 10.1.85.3/10_1r85_3/flashplayer10_1r85_3_ub_mac.dmg
 
-    - name: player-10.1.85.3-mac-npapi-debug
+    - name: flash-player-10.1.85.3-mac-npapi-debug
       file: flashplayer10_1r85_3_ub_mac_debug.dmg
       size: 6959623
       sha256: 387095707d6605b6a523054d501dfe6014ab5872ad83768b19115ec30e3192c9
       source: Flash Player 10.1.85.3/10_1r85_3_debug/flashplayer10_1r85_3_ub_mac_debug.dmg
 
-    - name: player-10.1.85.3-mac-sa
+    - name: flash-player-10.1.85.3-mac-sa
       file: flashplayer10_1r85_3_mac_sa.app.zip
       size: 8521478
       sha256: 46dcd96109f16de05b03206cd787d313fca203466fcd0d64da4cf1337457eaa1
       source: Flash Player 10.1.85.3/10_1r85_3/flashplayer10_1r85_3_mac_sa.app.zip
 
-    - name: player-10.1.85.3-mac-sa-debug
+    - name: flash-player-10.1.85.3-mac-sa-debug
       file: flashplayer10_1r83_3_mac_sa_debug.app.zip
       size: 9142006
       sha256: c5789843b879bfb787c9edab27ad04f2285c7f595eaff10773c046d80d85d004
       source: Flash Player 10.1.85.3/10_1r85_3_debug/flashplayer10_1r83_3_mac_sa_debug.app.zip
 
-    - name: player-10.1.85.3-linux-npapi
+    - name: flash-player-10.1.85.3-linux-npapi
       file: flashplayer10_1r85_3_linux.tar.gz
       size: 4907056
       sha256: 7f0e57febd1ca96af626ca1b7f4f95b42eee4ef687ead6853fd49c5517089087
       source: Flash Player 10.1.85.3/10_1r85_3/flashplayer10_1r85_3_linux.tar.gz
 
-    - name: player-10.1.85.3-linux-npapi-debug
+    - name: flash-player-10.1.85.3-linux-npapi-debug
       file: flashplayer10_1r85_3_linux_debug.tar.gz
       size: 4562920
       sha256: beec247ab2c5d32db2362a368ee08b2f1ac634c86e9ec82fd6613ee321e61b60
       source: Flash Player 10.1.85.3/10_1r85_3_debug/flashplayer10_1r85_3_linux_debug.tar.gz
 
-    - name: player-10.1.85.3-linux-sa
+    - name: flash-player-10.1.85.3-linux-sa
       file: flashplayer10_1r85_3_linux_sa.tar.gz
       size: 4216537
       sha256: 7495d400b7caaca605a9fffd16544c3d9ecd53aa8d8730019336f9ea2af1da69
       source: Flash Player 10.1.85.3/10_1r85_3/flashplayer10_1r85_3_linux_sa.tar.gz
 
-    - name: player-10.1.85.3-linux-sa-debug
+    - name: flash-player-10.1.85.3-linux-sa-debug
       file: flashplayer10_1r85_3_linux_sa_debug.tar.gz
       size: 5276797
       sha256: 7acafd5c16e211acd3c981c6d2d9fa8d37374c1f8a5c749e4b4ce24a46b317c3
       source: Flash Player 10.1.85.3/10_1r85_3_debug/flashplayer10_1r85_3_linux_sa_debug.tar.gz
 
-    - name: player-10.1.85.3-solaris-sparc-npapi
+    - name: flash-player-10.1.85.3-solaris-sparc-npapi
       file: flashplayer10_1r85_3_solaris_sparc.tar.bz2
       size: 5134328
       sha256: b996d84a4556b26d27a6ba4937987158276122cd9803b9d3231092dde93081f4
       source: Flash Player 10.1.85.3/10_1r85_3/flashplayer10_1r85_3_solaris_sparc.tar.bz2
 
-    - name: player-10.1.85.3-solaris-x86-npapi
+    - name: flash-player-10.1.85.3-solaris-x86-npapi
       file: flashplayer10_1r85_3_solaris_x86.tar.bz2
       size: 4888649
       sha256: 9f1e7bf731ee7bdfae44f4d034be4931606afa62ead68b663084b731e0ba1456

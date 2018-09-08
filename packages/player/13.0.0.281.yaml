@@ -1,82 +1,82 @@
-- name: player-13.0.0.281-archive
+- name: flash-player-13.0.0.281-archive
   file: fp_13.0.0.281_archive.zip
   size: 180960130
   sha256: 9614dc5e5e4854aa49f61a6a89a3a536aecf6c36a5b53d3afc2803b67c293594
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_13.0.0.281_archive.zip'
   packages:
-    - name: player-13.0.0.281-windows-npapi
+    - name: flash-player-13.0.0.281-windows-npapi
       file: flashplayer13_0r0_281_win.exe
       size: 17967792
       sha256: 410da8b9139c7221859ce5b0e3e8f6ec91e67a36ed37601049b82023733dc59c
       source: fp_13.0.0.281_archive/13_0_r0_281/flashplayer13_0r0_281_win.exe
 
-    - name: player-13.0.0.281-windows-npapi-msi
+    - name: flash-player-13.0.0.281-windows-npapi-msi
       file: flashplayer13_0r0_281_win.msi
       size: 19062784
       sha256: e13f297225b471262905a59a27ee79618d18b6d67a3f2f9d33fa13ed02d0b4ce
       source: fp_13.0.0.281_archive/13_0_r0_281/flashplayer13_0r0_281_win.msi
 
-    - name: player-13.0.0.281-windows-npapi-debug
+    - name: flash-player-13.0.0.281-windows-npapi-debug
       file: flashplayer13_0r0_281_win_debug.exe
       size: 17783472
       sha256: 33da43f0185ddeccd56f5d9e98071ac8db6c48f20181b51e2b516989bbb2d656
       source: fp_13.0.0.281_archive/13_0_r0_281_debug/flashplayer13_0r0_281_win_debug.exe
 
-    - name: player-13.0.0.281-windows-activex
+    - name: flash-player-13.0.0.281-windows-activex
       file: flashplayer13_0r0_281_winax.exe
       size: 17374896
       sha256: edd39a948fb2409f09e9076d40fe75a9e8fd5e926e8de10493d8387489308f5d
       source: fp_13.0.0.281_archive/13_0_r0_281/flashplayer13_0r0_281_winax.exe
 
-    - name: player-13.0.0.281-windows-activex-msi
+    - name: flash-player-13.0.0.281-windows-activex-msi
       file: flashplayer13_0r0_281_winax.msi
       size: 18465280
       sha256: ba40aaddef502e7142d4cd5346241e6953d74ba7228f33b24cf48f0c775bd815
       source: fp_13.0.0.281_archive/13_0_r0_281/flashplayer13_0r0_281_winax.msi
 
-    - name: player-13.0.0.281-windows-activex-debug
+    - name: flash-player-13.0.0.281-windows-activex-debug
       file: flashplayer13_0r0_281_winax_debug.exe
       size: 17829552
       sha256: 1b28904bd4c378eb8799f49549163bb296d30aa53a553662af5c02fe80c82644
       source: fp_13.0.0.281_archive/13_0_r0_281_debug/flashplayer13_0r0_281_winax_debug.exe
 
-    - name: player-13.0.0.281-windows-sa-debug
+    - name: flash-player-13.0.0.281-windows-sa-debug
       file: flashplayer13_0r0_281_win_sa_debug.exe
       size: 11307184
       sha256: 0a8dca9c17290077be3579195215e9d9424b1cf56888d32750c41be12712338a
       source: fp_13.0.0.281_archive/13_0_r0_281_debug/flashplayer13_0r0_281_win_sa_debug.exe
 
-    - name: player-13.0.0.281-windows-uninstaller
+    - name: flash-player-13.0.0.281-windows-uninstaller
       file: uninstall_flashplayer13_0r0_281_win.exe
       size: 855216
       sha256: bd087752280674985caa63832ce9266f758119790bf51efad8260578efd7ca75
       source: fp_13.0.0.281_archive/13_0_r0_281/uninstall_flashplayer13_0r0_281_win.exe
 
-    - name: player-13.0.0.281-mac-npapi
+    - name: flash-player-13.0.0.281-mac-npapi
       file: flashplayer13_0r0_281_mac.dmg
       size: 15748195
       sha256: e6dc30d6e3e9a81d9141a8a53222b25902e843e04a3981bd61ef340442aa9f03
       source: fp_13.0.0.281_archive/13_0_r0_281/flashplayer13_0r0_281_mac.dmg
 
-    - name: player-13.0.0.281-mac-npapi-pkg
+    - name: flash-player-13.0.0.281-mac-npapi-pkg
       file: flashplayer13_0r0_281_mac_pkg.dmg
       size: 15490488
       sha256: 6581dda3777bb0799053c808059323472772d15ac321ad434e40bd336b7f2940
       source: fp_13.0.0.281_archive/13_0_r0_281/flashplayer13_0r0_281_mac_pkg.dmg
 
-    - name: player-13.0.0.281-mac-npapi-debug
+    - name: flash-player-13.0.0.281-mac-npapi-debug
       file: flashplayer13_0r0_281_mac_debug.dmg
       size: 16104424
       sha256: 4ff6673633d71b05e8f513b07c6446aef24c565144d1481d2529d77d6d46e860
       source: fp_13.0.0.281_archive/13_0_r0_281_debug/flashplayer13_0r0_281_mac_debug.dmg
 
-    - name: player-13.0.0.281-mac-sa-debug
+    - name: flash-player-13.0.0.281-mac-sa-debug
       file: flashplayer13_0r0_281_mac_sa_debug.dmg
       size: 12711118
       sha256: 712aa7b40e5a1f5d9b0ddcd38e9b6f5840e74878ed57b0259cff1deb979e7e33
       source: fp_13.0.0.281_archive/13_0_r0_281_debug/flashplayer13_0r0_281_mac_sa_debug.dmg
 
-    - name: player-13.0.0.281-mac-uninstaller
+    - name: flash-player-13.0.0.281-mac-uninstaller
       file: uninstall_flashplayer13_0r0_281_mac.dmg
       size: 256889
       sha256: 804af215775b94e51f34c3d47086ad830393c5109a8ecb80ffb4c7b2936be018

@@ -1,70 +1,70 @@
-- name: player-20.0.0.228-archive
+- name: flash-player-20.0.0.228-archive
   file: fp_20.0.0.228_archive.zip
   size: 165870861
   sha256: 3fd9108dc425ab2c766c6f46928de28211598bbe4e78ea71a540ab4b43a2d70e
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_20.0.0.228_archive.zip'
   packages:
-    - name: player-20.0.0.228-windows-ppapi
+    - name: flash-player-20.0.0.228-windows-ppapi
       file: flashplayer20_0d0_228_winpep.exe
       size: 19452096
       sha256: b701807bdbd0727ec742878ff099e7496825712f91e3e819a8fa8824da6b485a
       source: fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_winpep.exe
 
-    - name: player-20.0.0.228-windows-ppapi-debug
+    - name: flash-player-20.0.0.228-windows-ppapi-debug
       file: flashplayer20_0d0_228_winpep_debug.exe
       size: 19927744
       sha256: 46eca2589e48a8cefaf3206cc64e94dc62d9b80831c7a0071663edd2af64924c
       source: fp_20.0.0.228_archive/20_0_d0_228_debug/flashplayer20_0d0_228_winpep_debug.exe
 
-    - name: player-20.0.0.228-windows-activex
+    - name: flash-player-20.0.0.228-windows-activex
       file: flashplayer20_0d0_228_winax.exe
       size: 18362048
       sha256: e40c369dd67fff0a2cbdd93bca731887ae3d965d53bde37e227d4f28d14fff8e
       source: fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_winax.exe
 
-    - name: player-20.0.0.228-windows-activex-msi
+    - name: flash-player-20.0.0.228-windows-activex-msi
       file: flashplayer20_0d0_228_winax.msi
       size: 19602432
       sha256: 63cef518bff5b7a8cadd6b2a8c6b738ce3f2fdce231e95db920cbdd75e0f0bc6
       source: fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_winax.msi
 
-    - name: player-20.0.0.228-windows-activex-debug
+    - name: flash-player-20.0.0.228-windows-activex-debug
       file: flashplayer20_0d0_228_winax_debug.exe
       size: 18741952
       sha256: 09c8681df3a8ac481e54446f77449299205e2a5f06bb7da040490fea51bed7dd
       source: fp_20.0.0.228_archive/20_0_d0_228_debug/flashplayer20_0d0_228_winax_debug.exe
 
-    - name: player-20.0.0.228-windows-sa
+    - name: flash-player-20.0.0.228-windows-sa
       file: flashplayer20_0d0_228_win_sa.exe
       size: 13009088
       sha256: cf4281aa1295b7118f42a9911b4329448a5df50f4fb9f73589fe3739738b56bc
       source: fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_win_sa.exe
 
-    - name: player-20.0.0.228-windows-sa-debug
+    - name: flash-player-20.0.0.228-windows-sa-debug
       file: flashplayer20_0d0_228_win_sa_debug.exe
       size: 13861568
       sha256: 10bdbe86e994145046e4ac3e23f258ce34a8fcca34752cd8ab04c88de14f7cbb
       source: fp_20.0.0.228_archive/20_0_d0_228_debug/flashplayer20_0d0_228_win_sa_debug.exe
 
-    - name: player-20.0.0.228-mac-ppapi
+    - name: flash-player-20.0.0.228-mac-ppapi
       file: flashplayer20_0d0_228_macpep.dmg
       size: 16546126
       sha256: 3281a2b980a8509c2684092522f4a56c26e78150a7eb23d2648137a92f5ebe1c
       source: fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_macpep.dmg
 
-    - name: player-20.0.0.228-mac-ppapi-debug
+    - name: flash-player-20.0.0.228-mac-ppapi-debug
       file: flashplayer20_0d0_228_macpep_debug.dmg
       size: 16971994
       sha256: 67796beb7beb0fc645cec2c97395cfa21dcae66069c585a40897e21334437c40
       source: fp_20.0.0.228_archive/20_0_d0_228_debug/flashplayer20_0d0_228_macpep_debug.dmg
 
-    - name: player-20.0.0.228-mac-sa
+    - name: flash-player-20.0.0.228-mac-sa
       file: flashplayer20_0d0_228_mac_sa.dmg
       size: 13727215
       sha256: e1db7e350bebc00776f612aedeca651bee4dbc2925e972e63b4e35b3887550a0
       source: fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_mac_sa.dmg
 
-    - name: player-20.0.0.228-mac-sa-debug
+    - name: flash-player-20.0.0.228-mac-sa-debug
       file: flashplayer20_0d0_228_mac_sa_debug.dmg
       size: 14255866
       sha256: 2ae355fefb3b5db5557e52d01d305216cc3c5ddf479f72045390016738d59ee7

@@ -1,58 +1,58 @@
-- name: player-11.4.402.278-archive
+- name: flash-player-11.4.402.278-archive
   file: fp_11.4.402.278_archive.zip
   size: 69995211
   sha256: 243a61a54c0ba2081c370169a6258ecf2a3e779361ba4e4460e6d8bdf5c477c7
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.4.402.278_archive.zip'
   packages:
-    - name: player-11.4.402.278-windows-npapi
+    - name: flash-player-11.4.402.278-windows-npapi
       file: flashplayer11_4r402_278_win.exe
       size: 10213296
       sha256: f727679672ba00529a53641f2afdf8d879d968441b703067d4df1de46e65143e
       source: fp_11.4_402.278_archive/11_4r402_278/flashplayer11_4r402_278_win.exe
 
-    - name: player-11.4.402.278-windows-npapi-msi
+    - name: flash-player-11.4.402.278-windows-npapi-msi
       file: flashplayer11_4r402_278_win.msi
       size: 11284992
       sha256: f410abbfba5bae73ad562e5bb5185fdbea4df1d6f01a5f32ceb90f53445e1203
       source: fp_11.4_402.278_archive/11_4r402_278/flashplayer11_4r402_278_win.msi
 
-    - name: player-11.4.402.278-windows-npapi-debug
+    - name: flash-player-11.4.402.278-windows-npapi-debug
       file: flashplayer11_4r402_278_win_debug.exe
       size: 10859952
       sha256: 4ffbb7f6e6555651dbcfb6756602d4820edfcbec40b793336ee9a01f18ee2095
       source: fp_11.4_402.278_archive/11_4r402_278_debug/flashplayer11_4r402_278_win_debug.exe
 
-    - name: player-11.4.402.278-windows-activex
+    - name: flash-player-11.4.402.278-windows-activex
       file: flashplayer11_4r402_278_winax.exe
       size: 9573296
       sha256: acd72453c2727a43a1f58732a61806624b7bb062f79be23a8b490b3ffcd34abb
       source: fp_11.4_402.278_archive/11_4r402_278/flashplayer11_4r402_278_winax.exe
 
-    - name: player-11.4.402.278-windows-activex-msi
+    - name: flash-player-11.4.402.278-windows-activex-msi
       file: flashplayer11_4r402_278_winax.msi
       size: 10639872
       sha256: facee3680e4587747a29e9c49b3e242ef36d649a3c590e14bf36440157f1a649
       source: fp_11.4_402.278_archive/11_4r402_278/flashplayer11_4r402_278_winax.msi
 
-    - name: player-11.4.402.278-windows-activex-debug
+    - name: flash-player-11.4.402.278-windows-activex-debug
       file: flashplayer11_4r402_278_winax_debug.exe
       size: 10219440
       sha256: 7f06cc3c1bdbcc2f758f5ebffeeb6973d7a1f21d0cc1ed277a173516f72342cb
       source: fp_11.4_402.278_archive/11_4r402_278_debug/flashplayer11_4r402_278_winax_debug.exe
 
-    - name: player-11.4.402.278-windows-sa
+    - name: flash-player-11.4.402.278-windows-sa
       file: flashplayer11_4r402_278_win_sa.exe
       size: 8872368
       sha256: b277d396b95267acfdec357bacd53b696d73d1155745b022464f631c14de5fcc
       source: fp_11.4_402.278_archive/11_4r402_278/flashplayer11_4r402_278_win_sa.exe
 
-    - name: player-11.4.402.278-windows-uninstaller
+    - name: flash-player-11.4.402.278-windows-uninstaller
       file: uninstall_flashplayer11_4r402_278_win.exe
       size: 690096
       sha256: 5dbd39981053c8e511c253ea683e453e3b69f3d60770e916c012b7a6f53c55a8
       source: fp_11.4_402.278_archive/11_4r402_278/uninstall_flashplayer11_4r402_278_win.exe
 
-    - name: player-11.4.402.278-windows-32bit-sa-debug
+    - name: flash-player-11.4.402.278-windows-32bit-sa-debug
       file: flashplayer11_4r402_278_win_sa_debug_32bit.exe
       size: 10329008
       sha256: 89c795c341580b6aa1b2398ffcdb4fcf9ce448486088fd1106668f4041a4e98a

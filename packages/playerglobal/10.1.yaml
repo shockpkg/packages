@@ -1,4 +1,4 @@
-- name: playerglobal-10.1
+- name: flash-playerglobal-10.1
   file: playerglobal10_1.swc
   size: 295588
   sha256: a75587fa56dc0ce38a13a5b9ccca95c64f1373917a2ede87844278cac585e0a9

@@ -1,34 +1,34 @@
-- name: player-11.3.300.262-archive
+- name: flash-player-11.3.300.262-archive
   file: fp_11.3.300.262_archive.zip
   size: 35085482
   sha256: 00b20282e0299d7660cdfb8700227b52ae642d3aa426a30c4155c2a7370c49ae
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.3.300.262_archive.zip'
   packages:
-    - name: player-11.3.300.262-windows-npapi
+    - name: flash-player-11.3.300.262-windows-npapi
       file: flashplayer11_3r300_262_win.exe
       size: 9815752
       sha256: cd0309300dcf18c175fcde6e017fb692b1d53f4cce5a22e071a72fca55a9f832
       source: fp_11.3.300.262_archive/11_3r300_262/flashplayer11_3r300_262_win.exe
 
-    - name: player-11.3.300.262-windows-npapi-msi
+    - name: flash-player-11.3.300.262-windows-npapi-msi
       file: flashplayer11_3r300_262_win.msi
       size: 10884608
       sha256: 4cc827c66806d0124ea4a99c5645ba169b7a34d27db6801242c9f45a1aef504a
       source: fp_11.3.300.262_archive/11_3r300_262/flashplayer11_3r300_262_win.msi
 
-    - name: player-11.3.300.262-windows-npapi-debug
+    - name: flash-player-11.3.300.262-windows-npapi-debug
       file: flashplayer11_3r300_262_win_debug.exe
       size: 9926344
       sha256: 3fd141cb032d24eddb281351556b59587f18503b4cb68e590bc8e5eb648eaf9c
       source: fp_11.3.300.262_archive/11_3r300_262_debug/flashplayer11_3r300_262_win_debug.exe
 
-    - name: player-11.3.300.262-windows-uninstaller
+    - name: flash-player-11.3.300.262-windows-uninstaller
       file: uninstall_flashplayer11_3r300_262_win.exe
       size: 686792
       sha256: fa5c4691848f77337abf7077560afdb3d3d4ac595bc21c0f95482f660d6fbf7a
       source: fp_11.3.300.262_archive/11_3r300_262/uninstall_flashplayer11_3r300_262_win.exe
 
-    - name: player-11.3.300.262-windows-32bit-sa-debug
+    - name: flash-player-11.3.300.262-windows-32bit-sa-debug
       file: flashplayer11_3r300_262_win_sa_debug_32bit.exe
       size: 10429128
       sha256: 6be555b972dbe4bc724edca5c19367bfc4b930d8f62bba41ed3d658fd37b2ca9

@@ -1,76 +1,76 @@
-- name: player-14.0.0.125-archive
+- name: flash-player-14.0.0.125-archive
   file: fp_14.0.0.125_archive.zip
   size: 175992880
   sha256: b5ae5c5f59c75b09b3c45d58ee69d7d86b1d79f6a1bd7a25efe9a9c9f5b7673b
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_14.0.0.125_archive.zip'
   packages:
-    - name: player-14.0.0.125-windows-npapi
+    - name: flash-player-14.0.0.125-windows-npapi
       file: flashplayer14_0r0_125_win.exe
       size: 19168944
       sha256: d44e3f26b0558ab07eb0f815b6bcd944847bde466631ca42636a3b38104298f2
       source: 14_0_r0_125/flashplayer14_0r0_125_win.exe
 
-    - name: player-14.0.0.125-windows-npapi-msi
+    - name: flash-player-14.0.0.125-windows-npapi-msi
       file: flashplayer14_0r0_125_win.msi
       size: 20274688
       sha256: 23b424f8f713bec46d2c805f3a8c932d80063238a3f767495fe3a5148fb4678d
       source: 14_0_r0_125/flashplayer14_0r0_125_win.msi
 
-    - name: player-14.0.0.125-windows-npapi-debug
+    - name: flash-player-14.0.0.125-windows-npapi-debug
       file: flashplayer14_0r0_125_win_debug.exe
       size: 18984624
       sha256: 76ebf2d8ada73ebf78546b2adc6eb102decc8463b0c7ec81f4e6c57352d7d3c8
       source: 14_0_r0_125_debug/flashplayer14_0r0_125_win_debug.exe
 
-    - name: player-14.0.0.125-windows-activex
+    - name: flash-player-14.0.0.125-windows-activex
       file: flashplayer14_0r0_125_winax.exe
       size: 18583216
       sha256: 24ce7e1405988d8ccd46e08927caf36c881c9e8f6d8ce290f2b334362606e94a
       source: 14_0_r0_125/flashplayer14_0r0_125_winax.exe
 
-    - name: player-14.0.0.125-windows-activex-msi
+    - name: flash-player-14.0.0.125-windows-activex-msi
       file: flashplayer14_0r0_125_winax.msi
       size: 19683328
       sha256: 98da9fa55c6e692b1d02446144b7b8229cd9be162c65583d91edfbc2a9d31ea1
       source: 14_0_r0_125/flashplayer14_0r0_125_winax.msi
 
-    - name: player-14.0.0.125-windows-activex-debug
+    - name: flash-player-14.0.0.125-windows-activex-debug
       file: flashplayer14_0r0_125_winax_debug.exe
       size: 19030704
       sha256: 702d58454e06afcf456d45c6bef1fd5bfb374342034b57ad66ba722741eeb49b
       source: 14_0_r0_125_debug/flashplayer14_0r0_125_winax_debug.exe
 
-    - name: player-14.0.0.125-windows-sa-debug
+    - name: flash-player-14.0.0.125-windows-sa-debug
       file: flashplayer14_0r0_125_win_sa_debug.exe
       size: 11954864
       sha256: cec7cd910833a6bd6523ff0e092f5473f672cf34d40a311019fbd3148ceb416f
       source: 14_0_r0_125_debug/flashplayer14_0r0_125_win_sa_debug.exe
 
-    - name: player-14.0.0.125-windows-uninstaller
+    - name: flash-player-14.0.0.125-windows-uninstaller
       file: uninstall_flashplayer14_0r0_125_win.exe
       size: 851120
       sha256: cf24750d65956e103f4c7a1ba7a23b7d2c2c76fce8cf0a31f266ddaf383aece8
       source: 14_0_r0_125/uninstall_flashplayer14_0r0_125_win.exe
 
-    - name: player-14.0.0.125-mac-npapi
+    - name: flash-player-14.0.0.125-mac-npapi
       file: flashplayer14_0r0_125_mac.dmg
       size: 16478237
       sha256: a4cec0ec8bc84968a671adc1604b3bad2efaf972400ba6e9ee90c2c9064403fb
       source: 14_0_r0_125/flashplayer14_0r0_125_mac.dmg
 
-    - name: player-14.0.0.125-mac-npapi-debug
+    - name: flash-player-14.0.0.125-mac-npapi-debug
       file: flashplayer14_0r0_125_mac_debug.dmg
       size: 16831522
       sha256: b0ea2bc79f4a3c582ea3758c45fc5336d794d14235438665fb56f8483bb7cd3d
       source: 14_0_r0_125_debug/flashplayer14_0r0_125_mac_debug.dmg
 
-    - name: player-14.0.0.125-mac-sa-debug
+    - name: flash-player-14.0.0.125-mac-sa-debug
       file: flashplayer14_0r0_125_mac_sa_debug.dmg
       size: 13908256
       sha256: c10647ecb3c77d2f70437b5146add5785336b3e77f9b0e9ade53f7404f711d90
       source: 14_0_r0_125_debug/flashplayer14_0r0_125_mac_sa_debug.dmg
 
-    - name: player-14.0.0.125-mac-uninstaller
+    - name: flash-player-14.0.0.125-mac-uninstaller
       file: uninstall_flashplayer14_0r0_125_mac.dmg
       size: 241275
       sha256: 3a44ba0cc0341433a0c5a4424eed12543c2a4399db5b74314d6671a5e302bdad

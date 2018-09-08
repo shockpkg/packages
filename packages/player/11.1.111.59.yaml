@@ -1,4 +1,4 @@
-- name: player-11.1.111.59-android-2.x-and-3.x
+- name: flash-player-11.1.111.59-android-2.x-and-3.x
   file: install_flash_player_pre_ics.apk
   size: 4700260
   sha256: 7b029f5703c556635d2c93d4e0475149bc3e4e5f47b83b1b6e90d9cb61822e12

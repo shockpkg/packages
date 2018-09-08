@@ -1,184 +1,184 @@
-- name: player-24.0.0.186-archive
+- name: flash-player-24.0.0.186-archive
   file: fp_24.0.0.186_archive.zip
   size: 424350956
   sha256: ca5aba8bc49851f1fc91fe9f8818a7de3f60f8751b26a76ebbd951a842af55e8
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_24.0.0.186_archive.zip'
   packages:
-    - name: player-24.0.0.186-windows-npapi
+    - name: flash-player-24.0.0.186-windows-npapi
       file: flashplayer24_0r0_186_win.exe
       size: 20364888
       sha256: 2e0493f6c3c569e57de44ac103d16c67eefbe0a037d6ffbaa5d222a09a74cb38
       source: 24_0_r0_186/flashplayer24_0r0_186_win.exe
 
-    - name: player-24.0.0.186-windows-npapi-msi
+    - name: flash-player-24.0.0.186-windows-npapi-msi
       file: flashplayer24_0r0_186_win.msi
       size: 21531648
       sha256: e675c39ba3b57aff27daf5b8e1b24dcea8832f5ad1755d0f12550659a0782af4
       source: 24_0_r0_186/flashplayer24_0r0_186_win.msi
 
-    - name: player-24.0.0.186-windows-npapi-debug
+    - name: flash-player-24.0.0.186-windows-npapi-debug
       file: flashplayer24_0r0_186_win_debug.exe
       size: 20173400
       sha256: e26147e2dc557ea37d768bf6f81b62228ae81c3d20c9a5b73c4a55dd56453479
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_win_debug.exe
 
-    - name: player-24.0.0.186-windows-ppapi
+    - name: flash-player-24.0.0.186-windows-ppapi
       file: flashplayer24_0r0_186_winpep.exe
       size: 20632664
       sha256: 01f209be5d83bae4d5a0be318ec74fe31e5b3cd31e5863269caecf9e6dc1b0c4
       source: 24_0_r0_186/flashplayer24_0r0_186_winpep.exe
 
-    - name: player-24.0.0.186-windows-ppapi-msi
+    - name: flash-player-24.0.0.186-windows-ppapi-msi
       file: flashplayer24_0r0_186_winpep.msi
       size: 21797888
       sha256: e76c6f0d5b2ddcf93645516914825dcf0696c8be7631b0ba60ea24457ae27a00
       source: 24_0_r0_186/flashplayer24_0r0_186_winpep.msi
 
-    - name: player-24.0.0.186-windows-ppapi-debug
+    - name: flash-player-24.0.0.186-windows-ppapi-debug
       file: flashplayer24_0r0_186_winpep_debug.exe
       size: 21117016
       sha256: f249de9133d4c0e2a754dcb3cd030bad5d96fd483b0a94c50021bbcf4558f32b
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_winpep_debug.exe
 
-    - name: player-24.0.0.186-windows-activex
+    - name: flash-player-24.0.0.186-windows-activex
       file: flashplayer24_0r0_186_winax.exe
       size: 19828824
       sha256: 0374b90c98244527b275df1f4f8b88b9c74e4d0465cfc04b27263c2cbf469bf8
       source: 24_0_r0_186/flashplayer24_0r0_186_winax.exe
 
-    - name: player-24.0.0.186-windows-activex-msi
+    - name: flash-player-24.0.0.186-windows-activex-msi
       file: flashplayer24_0r0_186_winax.msi
       size: 21056512
       sha256: d1d60df68b172f2cb21e4f8572bbb6727385bf4e5874df95560947d35956bb9d
       source: 24_0_r0_186/flashplayer24_0r0_186_winax.msi
 
-    - name: player-24.0.0.186-windows-activex-debug
+    - name: flash-player-24.0.0.186-windows-activex-debug
       file: flashplayer24_0r0_186_winax_debug.exe
       size: 20215896
       sha256: 065616a7a6663d2afc29409c73cc77d1af075fa8b38fb7b34c8828787895992c
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_winax_debug.exe
 
-    - name: player-24.0.0.186-windows-sa
+    - name: flash-player-24.0.0.186-windows-sa
       file: flashplayer24_0r0_186_win_sa.exe
       size: 15030872
       sha256: 940b0fe2f4dc23c344d5ec452f61b5e9f0ad4bacf687c802e7d64f26fbdc183b
       source: 24_0_r0_186/flashplayer24_0r0_186_win_sa.exe
 
-    - name: player-24.0.0.186-windows-sa-debug
+    - name: flash-player-24.0.0.186-windows-sa-debug
       file: flashplayer24_0r0_186_win_sa_debug.exe
       size: 15878232
       sha256: 20cf3b87932181b513da0728d4197bd72992b2347e6119d3f0d50e13350fe0ae
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_win_sa_debug.exe
 
-    - name: player-24.0.0.186-windows-uninstaller
+    - name: flash-player-24.0.0.186-windows-uninstaller
       file: uninstall_flashplayer24_0r0_186_win.exe
       size: 1269336
       sha256: 7ad84ac3f1b32eaa8caff6cb9abac2064a444d51a89af094690df697edb2f6a0
       source: 24_0_r0_186/uninstall_flashplayer24_0r0_186_win.exe
 
-    - name: player-24.0.0.186-mac-npapi
+    - name: flash-player-24.0.0.186-mac-npapi
       file: flashplayer24_0r0_186_mac.dmg
       size: 18960052
       sha256: 3f1a4ad65cec4ee64660d81152a553df2bd4f77daea4c37bdaf49ff19136e6da
       source: 24_0_r0_186/flashplayer24_0r0_186_mac.dmg
 
-    - name: player-24.0.0.186-mac-npapi-pkg
+    - name: flash-player-24.0.0.186-mac-npapi-pkg
       file: flashplayer24_0r0_186_mac_pkg.dmg
       size: 18427536
       sha256: a2e593e38115fa9161f022fe5ddb8cd8fd5c41771aac387afe9d73ecf643ad49
       source: 24_0_r0_186/flashplayer24_0r0_186_mac_pkg.dmg
 
-    - name: player-24.0.0.186-mac-npapi-debug
+    - name: flash-player-24.0.0.186-mac-npapi-debug
       file: flashplayer24_0r0_186_mac_debug.dmg
       size: 19192780
       sha256: 4c5f00d4cca72d23dd7506731c8678c54d008ae9855ee608a8e9c83fee240d57
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_mac_debug.dmg
 
-    - name: player-24.0.0.186-mac-ppapi
+    - name: flash-player-24.0.0.186-mac-ppapi
       file: flashplayer24_0r0_186_macpep.dmg
       size: 18686597
       sha256: 1b50b5ec57ee6782e14df0e78e172c7faa61486048ce2dab09b12ad770300f62
       source: 24_0_r0_186/flashplayer24_0r0_186_macpep.dmg
 
-    - name: player-24.0.0.186-mac-ppapi-pkg
+    - name: flash-player-24.0.0.186-mac-ppapi-pkg
       file: flashplayer24_0r0_186_macpep_pkg.dmg
       size: 18157217
       sha256: 55500a9f84d1c0094cf7d36e25fd7f7058106603f17341cb2c9aac6615321de5
       source: 24_0_r0_186/flashplayer24_0r0_186_macpep_pkg.dmg
 
-    - name: player-24.0.0.186-mac-ppapi-debug
+    - name: flash-player-24.0.0.186-mac-ppapi-debug
       file: flashplayer24_0r0_186_macpep_debug.dmg
       size: 18993236
       sha256: 2907e49d4b0b50a83a2d77d419144499fa18cd78e0f2f2d322754c4fdbbb0ed8
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_macpep_debug.dmg
 
-    - name: player-24.0.0.186-mac-sa
+    - name: flash-player-24.0.0.186-mac-sa
       file: flashplayer24_0r0_186_mac_sa.dmg
       size: 16752016
       sha256: b5b2caf33b991ce200ada63ea8adbbbd59842231a2ce569a1c2c4fa9635cd8f0
       source: 24_0_r0_186/flashplayer24_0r0_186_mac_sa.dmg
 
-    - name: player-24.0.0.186-mac-sa-debug
+    - name: flash-player-24.0.0.186-mac-sa-debug
       file: flashplayer24_0r0_186_mac_sa_debug.dmg
       size: 17325076
       sha256: a2767c42db62f34afb35ec723f7d010055f8269a7bf438f4ea1e43ca1c3f8354
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_mac_sa_debug.dmg
 
-    - name: player-24.0.0.186-mac-uninstaller
+    - name: flash-player-24.0.0.186-mac-uninstaller
       file: uninstall_flashplayer24_0r0_186_mac.dmg
       size: 425416
       sha256: d9a8ec0d9dfc507671f51b91a37ddc09191a11cb65c548e68677710d1ff044cd
       source: 24_0_r0_186/uninstall_flashplayer24_0r0_186_mac.dmg
 
-    - name: player-24.0.0.186-linux-i386-npapi
+    - name: flash-player-24.0.0.186-linux-i386-npapi
       file: flashplayer24_0r0_186_linux.i386.tar.gz
       size: 9159537
       sha256: 3b5803388f31940484c1020db4c5533aa48cfccab3880eb55a6f25610eb691fd
       source: 24_0_r0_186/flashplayer24_0r0_186_linux.i386.tar.gz
 
-    - name: player-24.0.0.186-linux-i386-npapi-debug
+    - name: flash-player-24.0.0.186-linux-i386-npapi-debug
       file: flashplayer24_0r0_186_linux_debug.i386.tar.gz
       size: 9495049
       sha256: 23b6c902e4724fbcb1513a30ef97e9286e1fed889808bb4a95eb2168634c453e
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_linux_debug.i386.tar.gz
 
-    - name: player-24.0.0.186-linux-i386-ppapi
+    - name: flash-player-24.0.0.186-linux-i386-ppapi
       file: flashplayer24_0r0_186_linuxpep.i386.tar.gz
       size: 8557210
       sha256: 8fff4214db24a07f971455d9363fb210c838a7ca2d469cb5db2eed49d012b446
       source: 24_0_r0_186/flashplayer24_0r0_186_linuxpep.i386.tar.gz
 
-    - name: player-24.0.0.186-linux-x86_64-npapi
+    - name: flash-player-24.0.0.186-linux-x86_64-npapi
       file: flashplayer24_0r0_186_linux.x86_64.tar.gz
       size: 9698084
       sha256: c721b59102d12597a8592f0e8d2fb3d65ccda33d8e499435fe02871b46874663
       source: 24_0_r0_186/flashplayer24_0r0_186_linux.x86_64.tar.gz
 
-    - name: player-24.0.0.186-linux-x86_64-npapi-debug
+    - name: flash-player-24.0.0.186-linux-x86_64-npapi-debug
       file: flashplayer24_0r0_186_linux_debug.x86_64.tar.gz
       size: 10083079
       sha256: 342a12b25c0df6c43e67558f72bb037b4e253b35e25a98da176b0b628341ec44
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_linux_debug.x86_64.tar.gz
 
-    - name: player-24.0.0.186-linux-x86_64-ppapi
+    - name: flash-player-24.0.0.186-linux-x86_64-ppapi
       file: flashplayer24_0r0_186_linuxpep.x86_64.tar.gz
       size: 9476879
       sha256: 37ccc51fb61c3f039eca58a34e40f4872a68eea4fe56450c83aeccb0eb08b57d
       source: 24_0_r0_186/flashplayer24_0r0_186_linuxpep.x86_64.tar.gz
 
-    - name: player-24.0.0.186-linux-x86_64-ppapi-debug
+    - name: flash-player-24.0.0.186-linux-x86_64-ppapi-debug
       file: flashplayer24_0r0_186_linuxpep_debug.x86_64.tar.gz
       size: 9906246
       sha256: 5af2a2a5aba8e4c9872a591d26abbc75acc44c1f3e12e9dff3068e7d2d16697c
       source: 24_0_r0_186_debug/flashplayer24_0r0_186_linuxpep_debug.x86_64.tar.gz
 
-    - name: player-24.0.0.186-linux-x86_64-sa
+    - name: flash-player-24.0.0.186-linux-x86_64-sa
       file: flashplayer24_0r0_186_linux_sa.x86_64.tar.gz
       size: 9176183
       sha256: f86065e2f0f8128cc9fc023b9ff51e91bef8b52dbd647629d9217ef9a8601c60
       source: 24_0_r0_186/flashplayer24_0r0_186_linux_sa.x86_64.tar.gz
 
-    - name: player-24.0.0.186-linux-x86_64-sa-debug
+    - name: flash-player-24.0.0.186-linux-x86_64-sa-debug
       file: flashplayer24_0r0_186_linux_sa_debug.x86_64.tar.gz
       size: 9513933
       sha256: e2c36ee303aa43ce6ac6380c65ab579105e52f710534d6061f53c60faf1cc524

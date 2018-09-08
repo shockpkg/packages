@@ -1,34 +1,34 @@
-- name: player-11.2.202.359-archive
+- name: flash-player-11.2.202.359-archive
   file: fp_11.2.202.359_archive.zip
   size: 33585656
   sha256: 32e77b6ac9154d921d9a643c3745bdd143864b852509b600b6f98c92309e33de
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.359_archive.zip'
   packages:
-    - name: player-11.2.202.359-linux-i386-npapi
+    - name: flash-player-11.2.202.359-linux-i386-npapi
       file: flashplayer_11_2r202_359_linux.i386.tar.gz
       size: 6924219
       sha256: 15adcd18f039a00e87c8ef02be93e11c5ab9c585bdeb9ddba8e732bd240a9013
       source: fp_11.2.202.359_archive/11_2r202_359_32bit/flashplayer_11_2r202_359_linux.i386.tar.gz
 
-    - name: player-11.2.202.359-linux-i386-npapi-debug
+    - name: flash-player-11.2.202.359-linux-i386-npapi-debug
       file: flashplayer11_2r202_359_linux_debug.i386.tar.gz
       size: 7404160
       sha256: b435414b79589f81846e5e8ffcb831bdd1c9011661e8845675823c83010f7dc7
       source: fp_11.2.202.359_archive/11_2r202_359_32bit_debug/flashplayer11_2r202_359_linux_debug.i386.tar.gz
 
-    - name: player-11.2.202.359-linux-i386-sa
+    - name: flash-player-11.2.202.359-linux-i386-sa
       file: flashplayer_11_2r202_359_linux_sa.i386.tar.gz
       size: 5978978
       sha256: ff15182bb8f16f0cd9d89b0606e627aafa032f191e8d70341c55823f84c295e9
       source: fp_11.2.202.359_archive/11_2r202_359_32bit/flashplayer_11_2r202_359_linux_sa.i386.tar.gz
 
-    - name: player-11.2.202.359-linux-i386-sa-debug
+    - name: flash-player-11.2.202.359-linux-i386-sa-debug
       file: flashplayer11_2r202_359_linux_sa_debug.i386.tar.gz
       size: 6429339
       sha256: a2df01b2c7d7e63b54c3d2f25cbdb083408abdc39f4991736f3c433d5fa3790e
       source: fp_11.2.202.359_archive/11_2r202_359_32bit_debug/flashplayer11_2r202_359_linux_sa_debug.i386.tar.gz
 
-    - name: player-11.2.202.359-linux-x86_64-npapi
+    - name: flash-player-11.2.202.359-linux-x86_64-npapi
       file: flash-plugin-11.2.202.359-release.x86_64.tar.gz
       size: 7236046
       sha256: 6ade0c217d7c5d5ebb6fce4529a256bbf5dc94ed6f9cfa960c1ea7949cc1be8e

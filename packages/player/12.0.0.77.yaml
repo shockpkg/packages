@@ -1,76 +1,76 @@
-- name: player-12.0.0.77-archive
+- name: flash-player-12.0.0.77-archive
   file: fp_12.0.0.77_archive.zip
   size: 165287121
   sha256: 124cfb10147a3bc1382a888610c9ec6fde0440bf9ca0331be53ee5ca7939bb3a
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_12.0.0.77_archive.zip'
   packages:
-    - name: player-12.0.0.77-windows-npapi
+    - name: flash-player-12.0.0.77-windows-npapi
       file: flashplayer12_0r0_77_win.exe
       size: 17879432
       sha256: 9bd1ffd7d32dd95af9a7365f99fe0ccec18c6766b60499c5d82216aac69d2b87
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_win.exe
 
-    - name: player-12.0.0.77-windows-npapi-msi
+    - name: flash-player-12.0.0.77-windows-npapi-msi
       file: flashplayer12_0r0_77_win.msi
       size: 18971136
       sha256: ec8d8353cc89bcbf7d8dbc792d3bed1aa47db4d9c61611c3084910fd7f67d0f6
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_win.msi
 
-    - name: player-12.0.0.77-windows-npapi-debug
+    - name: flash-player-12.0.0.77-windows-npapi-debug
       file: flashplayer12_0r0_77_win_debug.exe
       size: 18326408
       sha256: fddd9bc7b20970e6029160a49604d27be35b0b6b128c108e7ade8e01ea6dec5e
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_win_debug.exe
 
-    - name: player-12.0.0.77-windows-activex
+    - name: flash-player-12.0.0.77-windows-activex
       file: flashplayer12_0r0_77_winax.exe
       size: 17293704
       sha256: 15bd5ae1b00c374e88c62e56d5cbcf317e719413e590575f464a8c5d8c54bb4a
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_winax.exe
 
-    - name: player-12.0.0.77-windows-activex-msi
+    - name: flash-player-12.0.0.77-windows-activex-msi
       file: flashplayer12_0r0_77_winax.msi
       size: 18381312
       sha256: b49591e80a9431662a6ade5cc18697d58221aad6d5405a09c974c3efb5e69af6
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_winax.msi
 
-    - name: player-12.0.0.77-windows-activex-debug
+    - name: flash-player-12.0.0.77-windows-activex-debug
       file: flashplayer12_0r0_77_winax_debug.exe
       size: 17732488
       sha256: 5560a1b10d885f01b498fdc2e15ad360b42881ac82f676435e2a354fbfc2b001
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_winax_debug.exe
 
-    - name: player-12.0.0.77-windows-sa-debug
+    - name: flash-player-12.0.0.77-windows-sa-debug
       file: flashplayer12_0r0_77_win_sa_debug.exe
       size: 11202440
       sha256: d65d32e86c53cb9bf425fcaf6d70cf140353a67c130d5a20c2629b6557b6e206
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_win_sa_debug.exe
 
-    - name: player-12.0.0.77-windows-uninstaller
+    - name: flash-player-12.0.0.77-windows-uninstaller
       file: uninstall_flashplayer12_0r0_77_win.exe
       size: 841096
       sha256: cd6d10427b11245e0a79bbe284105a4f134053010b6b5487ae6884f923a353f8
       source: fp_12.0.0.77_archive/12_0_r0_77/uninstall_flashplayer12_0r0_77_win.exe
 
-    - name: player-12.0.0.77-mac-npapi
+    - name: flash-player-12.0.0.77-mac-npapi
       file: flashplayer12_0r0_77_mac.dmg
       size: 18416511
       sha256: 15a2a7227372c1d7cd33f9ce015bfe33f175b452ed01730a2ae2dca91b63149c
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_mac.dmg
 
-    - name: player-12.0.0.77-mac-npapi-debug
+    - name: flash-player-12.0.0.77-mac-npapi-debug
       file: flashplayer12_0r0_77_mac_debug.dmg
       size: 18858287
       sha256: 932b64964c62281edb679a1e22520e62ce94c11b78c60e974feffb78b49b9573
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_mac_debug.dmg
 
-    - name: player-12.0.0.77-mac-sa-debug
+    - name: flash-player-12.0.0.77-mac-sa-debug
       file: flashplayer12_0r0_77_mac_sa_debug.dmg
       size: 16055586
       sha256: f4bef96ee3af9d7f53ff9edb287ef47f638383c5c6e1afb2627863752e943108
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_mac_sa_debug.dmg
 
-    - name: player-12.0.0.77-mac-uninstaller
+    - name: flash-player-12.0.0.77-mac-uninstaller
       file: uninstall_flashplayer12_0r0_77_mac.dmg
       size: 235545
       sha256: 2df42b1e872fc1fe522c8580c75ad119fae69a13bdecee3373ad8c1fb1a38676

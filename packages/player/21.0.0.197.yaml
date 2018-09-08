@@ -1,130 +1,130 @@
-- name: player-21.0.0.197-archive
+- name: flash-player-21.0.0.197-archive
   file: fp_21.0.0.197_archive.zip
   size: 325545649
   sha256: 32e032e760ef82f46026de5cd2f36e85615b6fed4c2d8377d55007e174d43f04
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_21.0.0.197_archive.zip'
   packages:
-    - name: player-21.0.0.197-windows-npapi
+    - name: flash-player-21.0.0.197-windows-npapi
       file: flashplayer21_0r0_197_win.exe
       size: 19904704
       sha256: 9c203b0c532d1ebfd00b5b4c08c03f8ba01200e0ae5490db6e57b363b010ee20
       source: 21_0_r0_197/flashplayer21_0r0_197_win.exe
 
-    - name: player-21.0.0.197-windows-npapi-msi
+    - name: flash-player-21.0.0.197-windows-npapi-msi
       file: flashplayer21_0r0_197_win.msi
       size: 21092352
       sha256: 9a2d069e7f11b723d7a029d0b5657598dfb1926752a529fe808edb9ebf369714
       source: 21_0_r0_197/flashplayer21_0r0_197_win.msi
 
-    - name: player-21.0.0.197-windows-npapi-debug
+    - name: flash-player-21.0.0.197-windows-npapi-debug
       file: flashplayer21_0r0_197_win_debug.exe
       size: 19716800
       sha256: 58c47716b1332b677bc83b58dfd61dd1523d892c48c7e43c2c1f61be37b82347
       source: 21_0_r0_197_debug/flashplayer21_0r0_197_win_debug.exe
 
-    - name: player-21.0.0.197-windows-ppapi
+    - name: flash-player-21.0.0.197-windows-ppapi
       file: flashplayer21_0r0_197_winpep.exe
       size: 20345024
       sha256: 32ede69208f303b143a8612f899d13c18d9de9a7b68d2d1e5b2dcf358094c082
       source: 21_0_r0_197/flashplayer21_0r0_197_winpep.exe
 
-    - name: player-21.0.0.197-windows-ppapi-msi
+    - name: flash-player-21.0.0.197-windows-ppapi-msi
       file: flashplayer21_0r0_197_winpep.msi
       size: 21532672
       sha256: fed321f4f87efd1c1c24d9b4e865286cc755e9b14800b441371ed7debbf4ff1e
       source: 21_0_r0_197/flashplayer21_0r0_197_winpep.msi
 
-    - name: player-21.0.0.197-windows-ppapi-debug
+    - name: flash-player-21.0.0.197-windows-ppapi-debug
       file: flashplayer21_0r0_197_winpep_debug.exe
       size: 20804288
       sha256: e8f6ae9aac187f49ba2d22bcdcb0dba526f00cf88352192862000b676d8376b4
       source: 21_0_r0_197_debug/flashplayer21_0r0_197_winpep_debug.exe
 
-    - name: player-21.0.0.197-windows-activex
+    - name: flash-player-21.0.0.197-windows-activex
       file: flashplayer21_0r0_197_winax.exe
       size: 19384512
       sha256: 41746bb35add791f1a662f9183e90abe7cae7490d4f6e0604c8b960beb34a0b8
       source: 21_0_r0_197/flashplayer21_0r0_197_winax.exe
 
-    - name: player-21.0.0.197-windows-activex-msi
+    - name: flash-player-21.0.0.197-windows-activex-msi
       file: flashplayer21_0r0_197_winax.msi
       size: 20632576
       sha256: f0c8a6f0d7b576d7b6b1e02465d9a81fb3cb4afbfa4daab35a53efe2eff16ae2
       source: 21_0_r0_197/flashplayer21_0r0_197_winax.msi
 
-    - name: player-21.0.0.197-windows-activex-debug
+    - name: flash-player-21.0.0.197-windows-activex-debug
       file: flashplayer21_0r0_197_winax_debug.exe
       size: 19762368
       sha256: f8cb9868422b7cc0bfbe89fea6f97235cebc7629758b80a5d3499a28a34c8e02
       source: 21_0_r0_197_debug/flashplayer21_0r0_197_winax_debug.exe
 
-    - name: player-21.0.0.197-windows-sa
+    - name: flash-player-21.0.0.197-windows-sa
       file: flashplayer21_0r0_197_win_sa.exe
       size: 14695104
       sha256: ea56c2d589228a09000522d062d936af52f6079271b6c1457e76d339589de927
       source: 21_0_r0_197/flashplayer21_0r0_197_win_sa.exe
 
-    - name: player-21.0.0.197-windows-sa-debug
+    - name: flash-player-21.0.0.197-windows-sa-debug
       file: flashplayer21_0r0_197_win_sa_debug.exe
       size: 15540928
       sha256: 95d3c76d54951f5b9aeb4e5a83bee8f3c135087cae381c3180d54d0e06f55e69
       source: 21_0_r0_197_debug/flashplayer21_0r0_197_win_sa_debug.exe
 
-    - name: player-21.0.0.197-windows-uninstaller
+    - name: flash-player-21.0.0.197-windows-uninstaller
       file: uninstall_flashplayer21_0r0_197_win.exe
       size: 1165504
       sha256: b92fd1253d8f21cdf8c6685f3b468e511c7990998684d69e4eb25cda3d1a84f8
       source: 21_0_r0_197/uninstall_flashplayer21_0r0_197_win.exe
 
-    - name: player-21.0.0.197-mac-npapi
+    - name: flash-player-21.0.0.197-mac-npapi
       file: flashplayer21_0r0_197_mac.dmg
       size: 17676999
       sha256: 50d7277ba473e413d70d6d5dc5ec50fe486f1ac40d3641d88cd4c1d32ff9d4cf
       source: 21_0_r0_197/flashplayer21_0r0_197_mac.dmg
 
-    - name: player-21.0.0.197-mac-npapi-pkg
+    - name: flash-player-21.0.0.197-mac-npapi-pkg
       file: flashplayer21_0r0_197_mac_pkg.dmg
       size: 17290115
       sha256: 4e1f8a29af4693f2af8f3e992413d1ca187796152666562ce9d81b8746f2a33a
       source: 21_0_r0_197/flashplayer21_0r0_197_mac_pkg.dmg
 
-    - name: player-21.0.0.197-mac-npapi-debug
+    - name: flash-player-21.0.0.197-mac-npapi-debug
       file: flashplayer21_0r0_197_mac_debug.dmg
       size: 17767942
       sha256: f2a8f5e9e84caf3b5a9a27d3a3d939e644bd3414d08d7e5de117a7c533a99b39
       source: 21_0_r0_197_debug/flashplayer21_0r0_197_mac_debug.dmg
 
-    - name: player-21.0.0.197-mac-ppapi
+    - name: flash-player-21.0.0.197-mac-ppapi
       file: flashplayer21_0r0_197_macpep.dmg
       size: 17469826
       sha256: c30c79278c060f5a0e1812ff38b43ccb7fbff0aa7b9a7aa5be9cc1ee0d3fb46a
       source: 21_0_r0_197/flashplayer21_0r0_197_macpep.dmg
 
-    - name: player-21.0.0.197-mac-ppapi-pkg
+    - name: flash-player-21.0.0.197-mac-ppapi-pkg
       file: flashplayer21_0r0_197_macpep_pkg.dmg
       size: 17081141
       sha256: a9c6bbb85c3ea19972b87ee004615446f956f485773c05c36404ef2c551e8e98
       source: 21_0_r0_197/flashplayer21_0r0_197_macpep_pkg.dmg
 
-    - name: player-21.0.0.197-mac-ppapi-debug
+    - name: flash-player-21.0.0.197-mac-ppapi-debug
       file: flashplayer21_0r0_197_macpep_debug.dmg
       size: 17888755
       sha256: 97b9045c0d5fda05761092d75d0cbaadbba712b59f366bc625518464b3c5131e
       source: 21_0_r0_197_debug/flashplayer21_0r0_197_macpep_debug.dmg
 
-    - name: player-21.0.0.197-mac-sa
+    - name: flash-player-21.0.0.197-mac-sa
       file: flashplayer21_0r0_197_mac_sa.dmg
       size: 14857246
       sha256: f3c1136e1ea245c45d3306d5f46f61f30020c7f14a8781a8b96e444493cf2682
       source: 21_0_r0_197/flashplayer21_0r0_197_mac_sa.dmg
 
-    - name: player-21.0.0.197-mac-sa-debug
+    - name: flash-player-21.0.0.197-mac-sa-debug
       file: flashplayer21_0r0_197_mac_sa_debug.dmg
       size: 15386142
       sha256: e28c07d50f919b22f2f3ea52f395560aae69ca599ca8406d689973a70ee57bee
       source: 21_0_r0_197_debug/flashplayer21_0r0_197_mac_sa_debug.dmg
 
-    - name: player-21.0.0.197-mac-uninstaller
+    - name: flash-player-21.0.0.197-mac-uninstaller
       file: uninstall_flashplayer21_0r0_197_mac.dmg
       size: 276687
       sha256: ca6c52c3202b7fd8d2025afc2179e637dac78a32a5454d5d5f62344823ced7ea

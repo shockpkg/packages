@@ -1,4 +1,4 @@
-- name: playerglobal-21.0
+- name: flash-playerglobal-21.0
   file: playerglobal21_0.swc
   size: 467254
   sha256: f71c39b385d8831a0cd41fe336446823a557d29cdf4bafe7f38bcf34ca5f3a53

@@ -1,76 +1,76 @@
-- name: player-11.7.700.242-archive
+- name: flash-player-11.7.700.242-archive
   file: fp_11.7.700.242_archive.zip
   size: 147158181
   sha256: abeee764a0174f4cdee92f39546c2636218e3d84a61b247f1bd2371b044a853f
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.7.700.242_archive.zip'
   packages:
-    - name: player-11.7.700.242-windows-npapi
+    - name: flash-player-11.7.700.242-windows-npapi
       file: flashplayer_11_7r700_242_win.exe
       size: 17587592
       sha256: 943862d414c7e219e569849f2dbc930fce4978b0d54bc6b71d0f0b7bd3b82347
       source: fp_11.7.700.242_archive/11_7_r700_242/flashplayer_11_7r700_242_win.exe
 
-    - name: player-11.7.700.242-windows-npapi-debug
+    - name: flash-player-11.7.700.242-windows-npapi-debug
       file: flashplayer11_7r700_242_win_debug.exe
       size: 18030472
       sha256: 4a09536a42e42a0253890d27b92550101c9ded1349d4f8c3d43070bb2630e910
       source: fp_11.7.700.242_archive/11_7_r700_242_debug/flashplayer11_7r700_242_win_debug.exe
 
-    - name: player-11.7.700.242-windows-activex
+    - name: flash-player-11.7.700.242-windows-activex
       file: flashplayer_11_7r700_242_winax.exe
       size: 16993160
       sha256: 071f20e83c3390cd6adf481805918be4e18fdccb9a448b4fac46c2ebc8e34778
       source: fp_11.7.700.242_archive/11_7_r700_242/flashplayer_11_7r700_242_winax.exe
 
-    - name: player-11.7.700.242-windows-activex-debug
+    - name: flash-player-11.7.700.242-windows-activex-debug
       file: flashplayer11_7r700_242_winax_debug.exe
       size: 17437064
       sha256: 1575cfcebd8a18d5c5db5432097364ac2b69a17933966cf45c14583ed75aa2ea
       source: fp_11.7.700.242_archive/11_7_r700_242_debug/flashplayer11_7r700_242_winax_debug.exe
 
-    - name: player-11.7.700.242-windows-sa
+    - name: flash-player-11.7.700.242-windows-sa
       file: flashplayer_11_7r700_242_win_sa.exe
       size: 10144136
       sha256: 310b359d97a71e8eda2fb8db6ea8c1768b403abac96eb9ef025e3890a93ce900
       source: fp_11.7.700.242_archive/11_7_r700_242/flashplayer_11_7r700_242_win_sa.exe
 
-    - name: player-11.7.700.242-windows-sa-debug
+    - name: flash-player-11.7.700.242-windows-sa-debug
       file: flashplayer11_7r700_242_win_sa_debug.exe
       size: 10981768
       sha256: e0ff403b8effdc77e366a78613c0d0b51527a5fc511bbb04770b143c31f5f53c
       source: fp_11.7.700.242_archive/11_7_r700_242_debug/flashplayer11_7r700_242_win_sa_debug.exe
 
-    - name: player-11.7.700.242-windows-uninstaller
+    - name: flash-player-11.7.700.242-windows-uninstaller
       file: uninstall_flashplayer11_7r700_242_win.exe
       size: 814984
       sha256: 86b7f551fb1995996e2467672053eafb7991c3b64c4153d547cac91bc5fbc525
       source: fp_11.7.700.242_archive/11_7_r700_242/uninstall_flashplayer11_7r700_242_win.exe
 
-    - name: player-11.7.700.242-mac-npapi
+    - name: flash-player-11.7.700.242-mac-npapi
       file: flashplayer_11_7r700_242_mac_intel.dmg
       size: 17973602
       sha256: 2d933a3220f186b8d3319be61d2c723a73fb7af168bd16d336bf3ebab2d00af9
       source: fp_11.7.700.242_archive/11_7_r700_242/flashplayer_11_7r700_242_mac_intel.dmg
 
-    - name: player-11.7.700.242-mac-npapi-debug
+    - name: flash-player-11.7.700.242-mac-npapi-debug
       file: flashplayer11_7r700_242_mac_debug.dmg
       size: 18453515
       sha256: 5ef15b217380a43bd34e8883a34510e94ae07aaecbb7ba609775c67603c2f770
       source: fp_11.7.700.242_archive/11_7_r700_242_debug/flashplayer11_7r700_242_mac_debug.dmg
 
-    - name: player-11.7.700.242-mac-sa
+    - name: flash-player-11.7.700.242-mac-sa
       file: flashplayer_11_7r700_242_mac_sa.dmg
       size: 15184843
       sha256: 389b9407eabde6a0fbeb69f86963bb60ff4798f5ec5bcfeb1fc4c40896276bb7
       source: fp_11.7.700.242_archive/11_7_r700_242/flashplayer_11_7r700_242_mac_sa.dmg
 
-    - name: player-11.7.700.242-mac-sa-debug
+    - name: flash-player-11.7.700.242-mac-sa-debug
       file: flashplayer11_7r700_242_mac_sa_debug.dmg
       size: 15875365
       sha256: efa264918934b0d2708547209295f5252d0dd39c520a3be3c39487778f5356a1
       source: fp_11.7.700.242_archive/11_7_r700_242_debug/flashplayer11_7r700_242_mac_sa_debug.dmg
 
-    - name: player-11.7.700.242-mac-uninstaller
+    - name: flash-player-11.7.700.242-mac-uninstaller
       file: uninstall_flashplayer11_7r700_242_mac.dmg
       size: 233197
       sha256: 3b12ae9a85cd379d636a3ca465fa12b0d501a53f1a7d739d5eae7706e7227750

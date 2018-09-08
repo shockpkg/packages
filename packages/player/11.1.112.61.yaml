@@ -1,4 +1,4 @@
-- name: player-11.1.112.61-android-4.0
+- name: flash-player-11.1.112.61-android-4.0
   file: install_flash_player_ics.apk
   size: 4707711
   sha256: e3e6d1f1b019ef30057d2c1585fb9d9219da25dcbc5c44965acb22b71b483d85

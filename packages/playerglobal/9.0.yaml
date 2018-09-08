@@ -1,4 +1,4 @@
-- name: playerglobal-9.0
+- name: flash-playerglobal-9.0
   file: playerglobal9_0.swc
   size: 135858
   sha256: 52283ec8b3b29de31f3523c8a69e272303a3ff031d4509d62b960a7e33c15b1f

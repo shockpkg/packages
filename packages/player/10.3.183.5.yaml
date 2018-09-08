@@ -1,112 +1,112 @@
-- name: player-10.3.183.5-archive
+- name: flash-player-10.3.183.5-archive
   file: fp_10.3.183.5_archive.zip
   size: 74073179
   sha256: 0f85f0235c762cc46f65bedf9267458370d743a0e2b7f78c29fa6f8a006bbb72
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.183.5_archive.zip'
   packages:
-    - name: player-10.3.183.5-windows-npapi
+    - name: flash-player-10.3.183.5-windows-npapi
       file: flashplayer10_3r183_5_win.exe
       size: 3089056
       sha256: 47471fa13028fbae66d211fece1faf72ecf2d8393dfa64a671a3c5da2e8e9818
       source: fp_10.3.183.5_archive/10_3r183_5/flashplayer10_3r183_5_win.exe
 
-    - name: player-10.3.183.5-windows-npapi-debug
+    - name: flash-player-10.3.183.5-windows-npapi-debug
       file: flashplayer10_3r183_5_win_debug.exe
       size: 3353760
       sha256: 21baaeaafeeee9c8c3d122fbd67411b8637a2f8a125b82a46e413f7fc3a337c7
       source: fp_10.3.183.5_archive/10_3r183_5_debug/flashplayer10_3r183_5_win_debug.exe
 
-    - name: player-10.3.183.5-windows-activex
+    - name: flash-player-10.3.183.5-windows-activex
       file: flashplayer10_3r183_5_winax.exe
       size: 3126944
       sha256: 53b955553cbbc68356c75ee014a68563634e98c66f14ff9d9891569501e295cf
       source: fp_10.3.183.5_archive/10_3r183_5/flashplayer10_3r183_5_winax.exe
 
-    - name: player-10.3.183.5-windows-activex-debug
+    - name: flash-player-10.3.183.5-windows-activex-debug
       file: flashplayer10_3r183_5_winax_debug.exe
       size: 3392160
       sha256: 0e348ce5058d562096292a064e4b6cfe5ca53e353115b6b434181c453ed12356
       source: fp_10.3.183.5_archive/10_3r183_5_debug/flashplayer10_3r183_5_winax_debug.exe
 
-    - name: player-10.3.183.5-windows-sa
+    - name: flash-player-10.3.183.5-windows-sa
       file: flashplayer10_3r183_5_win_sa.exe
       size: 5792928
       sha256: cf0a178eae445e99cf40e9dd90a964b7b66f68f23132323f07f0c559fac04e04
       source: fp_10.3.183.5_archive/10_3r183_5/flashplayer10_3r183_5_win_sa.exe
 
-    - name: player-10.3.183.5-windows-sa-debug
+    - name: flash-player-10.3.183.5-windows-sa-debug
       file: flashplayer10_3r183_5_win_sa_debug.exe
       size: 6822048
       sha256: e07646ff8b682db2a348e50bfbd216b250cb7822027c2730fe02e1992cceecfb
       source: fp_10.3.183.5_archive/10_3r183_5_debug/flashplayer10_3r183_5_win_sa_debug.exe
 
-    - name: player-10.3.183.5-windows-uninstaller
+    - name: flash-player-10.3.183.5-windows-uninstaller
       file: uninstall_flashplayer10_3r183_5_win.exe
       size: 243360
       sha256: ab9bd86f98976343cc8e46029cdd4904baa6b76650df6779179d414cd8f9880a
       source: fp_10.3.183.5_archive/10_3r183_5/uninstall_flashplayer10_3r183_5_win.exe
 
-    - name: player-10.3.183.5-mac-npapi
+    - name: flash-player-10.3.183.5-mac-npapi
       file: flashplayer10_3r183_5_mac_intel.dmg
       size: 6376645
       sha256: 489344c50c249ddb436e39cc048a6c117d2653ff9960d09f91b386ebbcccf006
       source: fp_10.3.183.5_archive/10_3r183_5/flashplayer10_3r183_5_mac_intel.dmg
 
-    - name: player-10.3.183.5-mac-npapi-debug
+    - name: flash-player-10.3.183.5-mac-npapi-debug
       file: flashplayer10_3r183_5_mac_intel_debug.dmg
       size: 6752509
       sha256: e0959ae121858a5c119ef6360ee3767cd43957f9318ac87dc3ee142fb241b23f
       source: fp_10.3.183.5_archive/10_3r183_5_debug/flashplayer10_3r183_5_mac_intel_debug.dmg
 
-    - name: player-10.3.183.5-mac-sa
+    - name: flash-player-10.3.183.5-mac-sa
       file: flashplayer10_3r183_5_mac_sa.app.zip
       size: 5186132
       sha256: 7273ad2d01e2b546415ee82943177582d03e9d28c44c3cb12d87a2ce55a3b696
       source: fp_10.3.183.5_archive/10_3r183_5/flashplayer10_3r183_5_mac_sa.app.zip
 
-    - name: player-10.3.183.5-mac-sa-debug
+    - name: flash-player-10.3.183.5-mac-sa-debug
       file: flashplayer10_3r183_5_mac_sa_debug.app.zip
       size: 5521953
       sha256: d582a039da7a7cbd94d3bcd49adc098ec8c901316328b7b47db6411e8e9dcfed
       source: fp_10.3.183.5_archive/10_3r183_5_debug/flashplayer10_3r183_5_mac_sa_debug.app.zip
 
-    - name: player-10.3.183.5-mac-uninstaller
+    - name: flash-player-10.3.183.5-mac-uninstaller
       file: uninstall_flashplayer10_3r183_5_mac_intel.dmg
       size: 445812
       sha256: 07cf40e7591783dc6f95f8154992f7d48c92c4525beebea6ee4cfbaf30b9aa0f
       source: fp_10.3.183.5_archive/10_3r183_5/uninstall_flashplayer10_3r183_5_mac_intel.dmg
 
-    - name: player-10.3.183.5-linux-npapi
+    - name: flash-player-10.3.183.5-linux-npapi
       file: flashplayer10_3r183_5_linux.tar.gz
       size: 5459447
       sha256: 1df0fa9fd5c1d044ba913123f3297bfae3214e016c1b122be760bfa6eed767cf
       source: fp_10.3.183.5_archive/10_3r183_5/flashplayer10_3r183_5_linux.tar.gz
 
-    - name: player-10.3.183.5-linux-npapi-debug
+    - name: flash-player-10.3.183.5-linux-npapi-debug
       file: flashplayer10_3r183_5_linux_debug.tar.gz
       size: 5865079
       sha256: 5c4cc1a503c8eb12d06f1cfd5412f5e0189508bb0ab350f04ca3517d4b6757a1
       source: fp_10.3.183.5_archive/10_3r183_5_debug/flashplayer10_3r183_5_linux_debug.tar.gz
 
-    - name: player-10.3.183.5-linux-sa
+    - name: flash-player-10.3.183.5-linux-sa
       file: flashplayer10_3r183_5_linux_sa.tar.gz
       size: 4427825
       sha256: 79b8023739420b91839a0e949ceea5b85692062c5d9acd37793188fa907466d5
       source: fp_10.3.183.5_archive/10_3r183_5/flashplayer10_3r183_5_linux_sa.tar.gz
 
-    - name: player-10.3.183.5-linux-sa-debug
+    - name: flash-player-10.3.183.5-linux-sa-debug
       file: flashplayer10_3r183_5_linux_sa_debug.tar.gz
       size: 4802331
       sha256: 03c817ac3f52bf2c718873b322002b0c5a7fe079e9bf6b76265e8eaa808d88f8
       source: fp_10.3.183.5_archive/10_3r183_5_debug/flashplayer10_3r183_5_linux_sa_debug.tar.gz
 
-    - name: player-10.3.183.5-solaris-x86-npapi
+    - name: flash-player-10.3.183.5-solaris-x86-npapi
       file: flashplayer10_3r183_5_solaris_x86.tar.bz2
       size: 4755108
       sha256: f6a484126fae0f9953b8d8852488b4e111df264e85bef2828683aaeef0c48c8c
       source: fp_10.3.183.5_archive/10_3r183_5/flashplayer10_3r183_5_solaris_x86.tar.bz2
 
-    - name: player-10.3.183.5-solaris-sparc-npapi
+    - name: flash-player-10.3.183.5-solaris-sparc-npapi
       file: flashplayer10_3r183_5_solaris_sparc.tar.bz2
       size: 5346085
       sha256: b383592f715be547715a4440cebc30aee20b346e0aa7467a17c80f0cc46421b2

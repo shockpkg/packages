@@ -1,22 +1,22 @@
-- name: player-25.0.0.163-archive
+- name: flash-player-25.0.0.163-archive
   file: fp_25.0.0.163_archive.zip
   size: 57048941
   sha256: 54c251fd74dcc246bd731ffb2fe41ee61f0ea6c05af324e7590a82c50f17a3b6
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_25.0.0.163_archive.zip'
   packages:
-    - name: player-25.0.0.163-mac-npapi
+    - name: flash-player-25.0.0.163-mac-npapi
       file: flashplayer25_0r0_163_mac.dmg
       size: 19165453
       sha256: 10693d8d2fdd88ee2b1298dd68feff968f56a8d5cc256096d9293a8d451f485d
       source: 25_0_r0_163/flashplayer25_0r0_163_mac.dmg
 
-    - name: player-25.0.0.163-mac-npapi-pkg
+    - name: flash-player-25.0.0.163-mac-npapi-pkg
       file: flashplayer25_0r0_163_mac_pkg.dmg
       size: 18632393
       sha256: 089e6cd60cd54693fa70202548c91c7e6697b80e2646f143019157f0f1905254
       source: 25_0_r0_163/flashplayer25_0r0_163_mac_pkg.dmg
 
-    - name: player-25.0.0.163-mac-npapi-debug
+    - name: flash-player-25.0.0.163-mac-npapi-debug
       file: flashplayer25_0r0_163_mac_debug.dmg
       size: 19407833
       sha256: 2d682bae556ebc8b558ab2a8da7101543c44cd14e1e3bdc0b6536a93a8eb52e5

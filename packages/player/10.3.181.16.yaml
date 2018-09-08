@@ -1,22 +1,22 @@
-- name: player-10.3.181.16-archive
+- name: flash-player-10.3.181.16-archive
   file: fp_10.3.181.16_archive.zip
   size: 6578214
   sha256: 0baeefc162bda99f98ed0a79e23db2f2ac11b26d46071c320ed9265859fdc495
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.181.16_archive.zip'
   packages:
-    - name: player-10.3.181.16-windows-activex
+    - name: flash-player-10.3.181.16-windows-activex
       file: flashplayer10_3r181_16_winax.exe
       size: 3119776
       sha256: 51b3d0db5fb5ddfe550c5c09d1bf4aa5beb46ddbcf78cbd691cd03fb2a6d5e8b
       source: fp_10.3.181.16_archive/10_3r181_16/flashplayer10_3r181_16_winax.exe
 
-    - name: player-10.3.181.16-windows-activex-debug
+    - name: flash-player-10.3.181.16-windows-activex-debug
       file: flashplayer10_3r181_16_winax_debug.exe
       size: 3384992
       sha256: 12ab896a410c23e9251a1f436a1f1edd90deb40845794e833c30b4b80a8791be
       source: fp_10.3.181.16_archive/10_r3_181_16_debug/flashplayer10_3r181_16_winax_debug.exe
 
-    - name: player-10.3.181.16-windows-uninstaller
+    - name: flash-player-10.3.181.16-windows-uninstaller
       file: uninstall_flashplayer10_3r181_16_win.exe
       size: 240288
       sha256: 77793868a8ce5d572ebbf8d49d32f7a2e21bc545ac870aa97929099870049282

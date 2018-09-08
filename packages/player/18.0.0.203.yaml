@@ -1,106 +1,106 @@
-- name: player-18.0.0.203-archive
+- name: flash-player-18.0.0.203-archive
   file: fp_18.0.0.203_archive.zip
   size: 263450409
   sha256: f7e1d7cb8072bee4bc11c98aef0fe39f8baa4c090d9bb53fab82193803b9dece
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_18.0.0.203_archive.zip'
   packages:
-    - name: player-18.0.0.203-windows-npapi
+    - name: flash-player-18.0.0.203-windows-npapi
       file: flashplayer18_0r0_203_win.exe
       size: 18510000
       sha256: b6721562d58dbc26a6a76e20ef09cf5cff432624956b4496b9e3524b23751185
       source: fp_18.0.0.203_archive/18_0_r0_203/flashplayer18_0r0_203_win.exe
 
-    - name: player-18.0.0.203-windows-npapi-msi
+    - name: flash-player-18.0.0.203-windows-npapi-msi
       file: flashplayer18_0r0_203_win.msi
       size: 19687936
       sha256: 8231a753545cd8f0c8328cbf8bccd843504dcfbf5e0898e21ce645a263f0551a
       source: fp_18.0.0.203_archive/18_0_r0_203/flashplayer18_0r0_203_win.msi
 
-    - name: player-18.0.0.203-windows-npapi-debug
+    - name: flash-player-18.0.0.203-windows-npapi-debug
       file: flashplayer18_0r0_203_win_debug.exe
       size: 18320048
       sha256: 914d73c62b054ea46e4e7d3ebd613a8badba3a1e0a4e49d0d0b4fd02b8b5c6fe
       source: fp_18.0.0.203_archive/18_0_r0_203_debug/flashplayer18_0r0_203_win_debug.exe
 
-    - name: player-18.0.0.203-windows-ppapi
+    - name: flash-player-18.0.0.203-windows-ppapi
       file: flashplayer18_0r0_200_winpep.exe
       size: 19183792
       sha256: 5ba21411b5dc59812c85aa73248459d1f7792d31054f05627e73e87485c876f2
       source: fp_18.0.0.203_archive/18_0_r0_203/flashplayer18_0r0_200_winpep.exe
 
-    - name: player-18.0.0.203-windows-ppapi-debug
+    - name: flash-player-18.0.0.203-windows-ppapi-debug
       file: flashplayer118_0r0_200_winpep_debug.exe
       size: 19658928
       sha256: 745648bc943810556ec55eb9a292378a5ba2c35069a5b88941354474a6f79839
       source: fp_18.0.0.203_archive/18_0_r0_203_debug/flashplayer118_0r0_200_winpep_debug.exe
 
-    - name: player-18.0.0.203-windows-activex
+    - name: flash-player-18.0.0.203-windows-activex
       file: flashplayer18_0r0_203_winax.exe
       size: 17996976
       sha256: 8183d1670695e0b4cbdcedd646c4b35805183e0ab5f3da1f797cf2b537ba2111
       source: fp_18.0.0.203_archive/18_0_r0_203/flashplayer18_0r0_203_winax.exe
 
-    - name: player-18.0.0.203-windows-activex-msi
+    - name: flash-player-18.0.0.203-windows-activex-msi
       file: flashplayer18_0r0_203_winax.msi
       size: 19235840
       sha256: 76d6fd23c7b6099fe0b86a9efdc5ddd89ca6e8ed12dae698b6904c705109479a
       source: fp_18.0.0.203_archive/18_0_r0_203/flashplayer18_0r0_203_winax.msi
 
-    - name: player-18.0.0.203-windows-activex-debug
+    - name: flash-player-18.0.0.203-windows-activex-debug
       file: flashplayer18_0r0_203_winax_debug.exe
       size: 18377392
       sha256: f7050cd4d65b556581c1572e9d0ac110ddcda24bd63ed5d43b2e48c6735fe035
       source: fp_18.0.0.203_archive/18_0_r0_203_debug/flashplayer18_0r0_203_winax_debug.exe
 
-    - name: player-18.0.0.203-windows-sa-debug
+    - name: flash-player-18.0.0.203-windows-sa-debug
       file: flashplayer18_0r0_203_win_sa_debug.exe
       size: 13721776
       sha256: 51b8e38006b03f06c75fb84cac10f0edb38efb95bb7e2b1d950ade618a10757d
       source: fp_18.0.0.203_archive/18_0_r0_203_debug/flashplayer18_0r0_203_win_sa_debug.exe
 
-    - name: player-18.0.0.203-windows-uninstaller
+    - name: flash-player-18.0.0.203-windows-uninstaller
       file: uninstall_flashplayer18_0r0_203_win.exe
       size: 1155760
       sha256: e0632a736c0974e37d5177301b43c91851a770a95e58a953de071dcdf338a113
       source: fp_18.0.0.203_archive/18_0_r0_203/uninstall_flashplayer18_0r0_203_win.exe
 
-    - name: player-18.0.0.203-mac-npapi
+    - name: flash-player-18.0.0.203-mac-npapi
       file: flashplayer18_0r0_203_mac.dmg
       size: 16422613
       sha256: 979e29ca576a52c9c60067c506672e6ebd06267b8dda9b27defd0bc757e1431d
       source: fp_18.0.0.203_archive/18_0_r0_203/flashplayer18_0r0_203_mac.dmg
 
-    - name: player-18.0.0.203-mac-npapi-pkg
+    - name: flash-player-18.0.0.203-mac-npapi-pkg
       file: flashplayer18_0r0_203_mac_pkg.dmg
       size: 16076684
       sha256: 51f381700ff0d9a80daf33b69f3b8d4110d95cc5d7ec76b1f5980075d75ef0a4
       source: fp_18.0.0.203_archive/18_0_r0_203/flashplayer18_0r0_203_mac_pkg.dmg
 
-    - name: player-18.0.0.203-mac-npapi-debug
+    - name: flash-player-18.0.0.203-mac-npapi-debug
       file: flashplayer18_0r0_203_mac_debug.dmg
       size: 16538998
       sha256: db45fbec9d10df4167c54c6c07ef59dd89e704c74da65e76a967beded1c8412d
       source: fp_18.0.0.203_archive/18_0_r0_203_debug/flashplayer18_0r0_203_mac_debug.dmg
 
-    - name: player-18.0.0.203-mac-ppapi
+    - name: flash-player-18.0.0.203-mac-ppapi
       file: flashplayer18_0r0_200_macpep.dmg
       size: 16876402
       sha256: 6a30295b841c4e813cffbf8d995b20737a4fa2b4a4ca6cbc78cbfa2e637a0181
       source: fp_18.0.0.203_archive/18_0_r0_203/flashplayer18_0r0_200_macpep.dmg
 
-    - name: player-18.0.0.203-mac-ppapi-debug
+    - name: flash-player-18.0.0.203-mac-ppapi-debug
       file: flashplayer18_0r0_200_macpep_debug.dmg
       size: 17304963
       sha256: 5035fe03c8f10dec232b175e444def85375edd185b3ec4f467e5fe14e8e115e1
       source: fp_18.0.0.203_archive/18_0_r0_203_debug/flashplayer18_0r0_200_macpep_debug.dmg
 
-    - name: player-18.0.0.203-mac-sa-debug
+    - name: flash-player-18.0.0.203-mac-sa-debug
       file: flashplayer18_0r0_203_mac_sa_debug.dmg
       size: 14106342
       sha256: fbd7a8dd51bb68a7e1bdeead21e58192e4c373c1f119e635d6ed8d17e2a041be
       source: fp_18.0.0.203_archive/18_0_r0_203_debug/flashplayer18_0r0_203_mac_sa_debug.dmg
 
-    - name: player-18.0.0.203-mac-uninstaller
+    - name: flash-player-18.0.0.203-mac-uninstaller
       file: uninstall_flashplayer18_0r0_203_mac.dmg
       size: 272237
       sha256: 6b861e01565d5c8c43e1eaac4a741e58abe027c9d29487e054d8a6c6750bd89c

@@ -1,34 +1,34 @@
-- name: player-11.2.202.285-archive
+- name: flash-player-11.2.202.285-archive
   file: fp_11.2.202.285_archive.zip
   size: 33638681
   sha256: b13858a17280c46b1bd95fdcd169c235fdfec34b4b3564f1df25a78f9f12e132
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.285_archive.zip'
   packages:
-    - name: player-11.2.202.285-linux-i386-npapi
+    - name: flash-player-11.2.202.285-linux-i386-npapi
       file: flashplayer_11_2r202_285_linux.i386.tar.gz
       size: 6923111
       sha256: a7f109a871deeb3cff19b483d5ca2a996402e81793d7edf83b95b4c771694100
       source: fp_11.2.202.285_archive/11_2r202_285_32bit/flashplayer_11_2r202_285_linux.i386.tar.gz
 
-    - name: player-11.2.202.285-linux-i386-npapi-debug
+    - name: flash-player-11.2.202.285-linux-i386-npapi-debug
       file: flashplayer11_2r202_285_linux_debug.i386.tar.gz
       size: 7401088
       sha256: bdce8c566f9bd523e4d7ca446005ff3992ef3910c0c7dfaaf48771f0830af359
       source: fp_11.2.202.285_archive/11_2r202_285_32bit - debugger/flashplayer11_2r202_285_linux_debug.i386.tar.gz
 
-    - name: player-11.2.202.285-linux-i386-sa
+    - name: flash-player-11.2.202.285-linux-i386-sa
       file: flashplayer_11_2r202_285_linux_sa.i386.tar.gz
       size: 6009496
       sha256: a8af0719809553bdeeb90d9b4916c45d9ef0edc263f283cc93e8ec25718a06fb
       source: fp_11.2.202.285_archive/11_2r202_285_32bit/flashplayer_11_2r202_285_linux_sa.i386.tar.gz
 
-    - name: player-11.2.202.285-linux-i386-sa-debug
+    - name: flash-player-11.2.202.285-linux-i386-sa-debug
       file: flashplayer11_2r202_285_linux_sa_debug.i386.tar.gz
       size: 6458884
       sha256: 4a3e3e890f145b6c91a9674610cfea60d260e0850ee40513821ed3638bdc1334
       source: fp_11.2.202.285_archive/11_2r202_285_32bit - debugger/flashplayer11_2r202_285_linux_sa_debug.i386.tar.gz
 
-    - name: player-11.2.202.285-linux-x86_64-npapi
+    - name: flash-player-11.2.202.285-linux-x86_64-npapi
       file: flash-plugin-11.2.202.285-release.x86_64.tar.gz
       size: 7234643
       sha256: abeb2457fdebd2e5dff8c63b5e11681b7a35340e2f3fa1f8c54b8728f84e02e6

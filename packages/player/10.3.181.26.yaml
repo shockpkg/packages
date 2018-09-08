@@ -1,118 +1,118 @@
-- name: player-10.3.181.26-archive
+- name: flash-player-10.3.181.26-archive
   file: fp_10.3.181.26_archive.zip
   size: 79307323
   sha256: 8a5b10a0683cf02c7421e2ec07daab989978b033063cdb0fdb5e7183e27b08d0
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.181.26_archive.zip'
   packages:
-    - name: player-10.3.181.26-windows-npapi
+    - name: flash-player-10.3.181.26-windows-npapi
       file: flashplayer10_3r181_26_win.exe
       size: 3082400
       sha256: 0951e593cbab2bf784a42523fcd0cd69c230aae3b74e4234fb177e63ebd89c08
       source: fp_10.3.181.26_archive/10_3r181_26/flashplayer10_3r181_26_win.exe
 
-    - name: player-10.3.181.26-windows-npapi-debug
+    - name: flash-player-10.3.181.26-windows-npapi-debug
       file: flashplayer10_3r181_26_win_debug.exe
       size: 3347104
       sha256: aca773067d69f115819db977fbf1eda059e51db12e5b5c78749550e1c57f4baa
       source: fp_10.3.181.26_archive/10_3r181_26_debug/flashplayer10_3r181_26_win_debug.exe
 
-    - name: player-10.3.181.26-windows-activex
+    - name: flash-player-10.3.181.26-windows-activex
       file: flashplayer10_3r181_26_winax.exe
       size: 3120288
       sha256: 511599ab4eff2383d33ad4c697157271f9f5f58ec25532a010fedb7f2cef6e6e
       source: fp_10.3.181.26_archive/10_3r181_26/flashplayer10_3r181_26_winax.exe
 
-    - name: player-10.3.181.26-windows-activex-debug
+    - name: flash-player-10.3.181.26-windows-activex-debug
       file: flashplayer10_3r181_26_winax_debug.exe
       size: 3384992
       sha256: 183a6367cf58b0e84ecb2e4281f7448e12f8138a2657c3369b62d00f70ed83a9
       source: fp_10.3.181.26_archive/10_3r181_26_debug/flashplayer10_3r181_26_winax_debug.exe
 
-    - name: player-10.3.181.26-windows-sa
+    - name: flash-player-10.3.181.26-windows-sa
       file: flashplayer10_3r181_26_win_sa.exe
       size: 5787296
       sha256: 02f0a31b3b352d954f282f396deecc9c8c280b0c59185007a965679add542a44
       source: fp_10.3.181.26_archive/10_3r181_26/flashplayer10_3r181_26_win_sa.exe
 
-    - name: player-10.3.181.26-windows-sa-debug
+    - name: flash-player-10.3.181.26-windows-sa-debug
       file: flashplayer10_3r181_26_win_sa_debug.exe
       size: 6816416
       sha256: d57e82885c4237aaa0cbc25f2760898c7fa4271025f175f2bf368ed4dede3762
       source: fp_10.3.181.26_archive/10_3r181_26_debug/flashplayer10_3r181_26_win_sa_debug.exe
 
-    - name: player-10.3.181.26-windows-uninstaller
+    - name: flash-player-10.3.181.26-windows-uninstaller
       file: uninstall_flashplayer10_3r181_26_win.exe
       size: 240288
       sha256: a63820253678da7a33773e191c983c7fa5ddd0f4a8e2b6070e55e865223f0c15
       source: fp_10.3.181.26_archive/10_3r181_26/uninstall_flashplayer10_3r181_26_win.exe
 
-    - name: player-10.3.181.26-mac-npapi
+    - name: flash-player-10.3.181.26-mac-npapi
       file: flashplayer10_3r181_26_mac_intel.dmg
       size: 6372559
       sha256: e76778715fafc3d2111f874fff8248c5cc1df95fc51da9ce41634b63091e65b8
       source: fp_10.3.181.26_archive/10_3r181_26/flashplayer10_3r181_26_mac_intel.dmg
 
-    - name: player-10.3.181.26-mac-npapi-debug
+    - name: flash-player-10.3.181.26-mac-npapi-debug
       file: flashplayer10_3r181_26_mac_intel_debug.dmg
       size: 6731498
       sha256: ac1462fc14fa003133c0ec0b3556b07d49f05faad181fdf0e8b01ad7bdbe1a80
       source: fp_10.3.181.26_archive/10_3r181_26_debug/flashplayer10_3r181_26_mac_intel_debug.dmg
 
-    - name: player-10.3.181.26-mac-sa
+    - name: flash-player-10.3.181.26-mac-sa
       file: flashplayer10_3r181_26_mac_sa.app.zip
       size: 5183883
       sha256: cf98a4ab3591ce67559657b327ee6c3fe224699ab989c1f56bb9b8f955ccce6b
       source: fp_10.3.181.26_archive/10_3r181_26/flashplayer10_3r181_26_mac_sa.app.zip
 
-    - name: player-10.3.181.26-mac-sa-debug
+    - name: flash-player-10.3.181.26-mac-sa-debug
       file: flashplayer10_3r181_26_mac_sa_debug.app.zip
       size: 5464047
       sha256: 9256277b35a077ab7a1a7fc89e2dbe52b370a6369b77cb8ac4b9ece0290688ec
       source: fp_10.3.181.26_archive/10_3r181_26_debug/flashplayer10_3r181_26_mac_sa_debug.app.zip
 
-    - name: player-10.3.181.26-mac-uninstaller
+    - name: flash-player-10.3.181.26-mac-uninstaller
       file: uninstall_flashplayer10_3r181_26_mac_intel.dmg
       size: 435216
       sha256: 3805848914af56be0efda0a7c9075bb77530803363389b03b0ad48779ad2899e
       source: fp_10.3.181.26_archive/10_3r181_26/uninstall_flashplayer10_3r181_26_mac_intel.dmg
 
-    - name: player-10.3.181.26-linux-npapi
+    - name: flash-player-10.3.181.26-linux-npapi
       file: flashplayer10_3r181_26_linux.tar.gz
       size: 5456694
       sha256: 73d5fb0a4caf93649fe53f7a2795ee74d72abd0ee43b05cd59528302a33e427a
       source: fp_10.3.181.26_archive/10_3r181_26/flashplayer10_3r181_26_linux.tar.gz
 
-    - name: player-10.3.181.26-linux-npapi-debug
+    - name: flash-player-10.3.181.26-linux-npapi-debug
       file: flashplayer10_3r181_26_linux_debug.tar.gz
       size: 5860919
       sha256: 4c6435341fc84d2c186eef0a28e7f18deb94de98f96384463b26444b913e6d18
       source: fp_10.3.181.26_archive/10_3r181_26_debug/flashplayer10_3r181_26_linux_debug.tar.gz
 
-    - name: player-10.3.181.26-linux-sa
+    - name: flash-player-10.3.181.26-linux-sa
       file: flashplayer10_3r181_26_linux_sa.tar.gz
       size: 4423546
       sha256: 43a59843c4a93f32049e05faf50a64267a31271c693fd649086253c0f2cc5dd7
       source: fp_10.3.181.26_archive/10_3r181_26/flashplayer10_3r181_26_linux_sa.tar.gz
 
-    - name: player-10.3.181.26-linux-sa-debug
+    - name: flash-player-10.3.181.26-linux-sa-debug
       file: flashplayer10_3r181_26_linux_sa_debug.tar.gz
       size: 4800364
       sha256: 8819baecc0f946675abf52e30fddc37023f9612c2d18c355ee59b80584f68eb6
       source: fp_10.3.181.26_archive/10_3r181_26_debug/flashplayer10_3r181_26_linux_sa_debug.tar.gz
 
-    - name: player-10.3.181.26-linux-i386-npapi
+    - name: flash-player-10.3.181.26-linux-i386-npapi
       file: flash-plugin-10.3.181.26-release.i386.rpm
       size: 5446759
       sha256: 9357f1f2b5f065548dc82ec705a3eeb946f796b37a18e102d64bc191225f99db
       source: fp_10.3.181.26_archive/10_3r181_26/flash-plugin-10.3.181.26-release.i386.rpm
 
-    - name: player-10.3.181.26-solaris-x86-npapi
+    - name: flash-player-10.3.181.26-solaris-x86-npapi
       file: flashplayer10_3r181_26_solaris_x86.tar.bz2
       size: 4751781
       sha256: 9625b02ae991d8f04a42220b049aaef3c4d68fed31264488ad0b15755e1f5b07
       source: fp_10.3.181.26_archive/10_3r181_26/flashplayer10_3r181_26_solaris_x86.tar.bz2
 
-    - name: player-10.3.181.26-solaris-sparc-npapi
+    - name: flash-player-10.3.181.26-solaris-sparc-npapi
       file: flashplayer10_3r181_26_solaris_sparc.tar.bz2
       size: 5333504
       sha256: 9ecfde6acf957e4c5acfe9de1e931a33f0732be75687ec7afcdd5cc37183e0c3

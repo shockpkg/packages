@@ -1,94 +1,94 @@
-- name: player-18.0.0.360-archive
+- name: flash-player-18.0.0.360-archive
   file: fp_18.0.0.360_archive.zip
   size: 199427494
   sha256: 2f38cade2ffc95098e33242c3dd584266c2e2b7086cb30de9213197be17c25c8
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_18.0.0.360_archive.zip'
   packages:
-    - name: player-18.0.0.360-windows-npapi
+    - name: flash-player-18.0.0.360-windows-npapi
       file: flashplayer18_0r0_360_win.exe
       size: 18789056
       sha256: 69f8f011dd6a0ea7855ea6e440f1fa2cfd2076d695995cf957aa7895364f6e70
       source: 18_0_r0_360/flashplayer18_0r0_360_win.exe
 
-    - name: player-18.0.0.360-windows-npapi-msi
+    - name: flash-player-18.0.0.360-windows-npapi-msi
       file: flashplayer18_0r0_360_win.msi
       size: 19966464
       sha256: cd722b3cadc3c7639597d4630a2d962f19b7b344752a9b85a6f4c9f5aacc1f60
       source: 18_0_r0_360/flashplayer18_0r0_360_win.msi
 
-    - name: player-18.0.0.360-windows-npapi-debug
+    - name: flash-player-18.0.0.360-windows-npapi-debug
       file: flashplayer18_0r0_360_win_debug.exe
       size: 18601152
       sha256: 56bb07682fe1b82aa7868fc9c917a016653a2d0af6a871222fef7ae4fb2a8055
       source: 18_0_r0_360_debug/flashplayer18_0r0_360_win_debug.exe
 
-    - name: player-18.0.0.360-windows-activex
+    - name: flash-player-18.0.0.360-windows-activex
       file: flashplayer18_0r0_360_winax.exe
       size: 18279104
       sha256: b1ad3fe94c9bec1deeb121b571105c4a19c42b85552fb402fa212ec29efb8a98
       source: 18_0_r0_360/flashplayer18_0r0_360_winax.exe
 
-    - name: player-18.0.0.360-windows-activex-msi
+    - name: flash-player-18.0.0.360-windows-activex-msi
       file: flashplayer18_0r0_360_winax.msi
       size: 19517952
       sha256: 849dcf6cc270ac10e9923d6a05c968d750b5e1ad0d8e1d59d836849b01da1416
       source: 18_0_r0_360/flashplayer18_0r0_360_winax.msi
 
-    - name: player-18.0.0.360-windows-activex-debug
+    - name: flash-player-18.0.0.360-windows-activex-debug
       file: flashplayer18_0r0_360_winax_debug.exe
       size: 18657472
       sha256: 7cb63b24de02740dcd7a8aad346f19e7b623f3714140c297995cbaee96b6113f
       source: 18_0_r0_360_debug/flashplayer18_0r0_360_winax_debug.exe
 
-    - name: player-18.0.0.360-windows-sa
+    - name: flash-player-18.0.0.360-windows-sa
       file: flashplayer18_0r0_360_win_sa.exe
       size: 12956864
       sha256: 8b662207bdcd50f18406bb5b12444bd6c33e4281862381d7c8d62c63a991f401
       source: 18_0_r0_360/flashplayer18_0r0_360_win_sa.exe
 
-    - name: player-18.0.0.360-windows-sa-debug
+    - name: flash-player-18.0.0.360-windows-sa-debug
       file: flashplayer18_0r0_360_win_sa_debug.exe
       size: 13807808
       sha256: 163f6531061e7fe9c3bec21eacf74ccca7273d544ce2487e72c2aabc17d526d5
       source: 18_0_r0_360_debug/flashplayer18_0r0_360_win_sa_debug.exe
 
-    - name: player-18.0.0.360-windows-uninstaller
+    - name: flash-player-18.0.0.360-windows-uninstaller
       file: uninstall_flashplayer18_0r0_360_win.exe
       size: 1167552
       sha256: 970332fdc2c3ff8dc8915b85d063878f70ebdb9ec4a4d7810283cbb563e44a92
       source: 18_0_r0_360/uninstall_flashplayer18_0r0_360_win.exe
 
-    - name: player-18.0.0.360-mac-npapi
+    - name: flash-player-18.0.0.360-mac-npapi
       file: flashplayer18_0r0_360_mac.dmg
       size: 16720183
       sha256: 638bf9c285ad35fe64c5305a1187341d1ab08704cf45a6eee6c516d459f41022
       source: 18_0_r0_360/flashplayer18_0r0_360_mac.dmg
 
-    - name: player-18.0.0.360-mac-npapi-pkg
+    - name: flash-player-18.0.0.360-mac-npapi-pkg
       file: flashplayer18_0r0_360_mac_pkg.dmg
       size: 16376775
       sha256: 76070c1c7dbbb779f29cb1a5c5ece5dfc55e4b78216cfd58aa2e52bca74ba965
       source: 18_0_r0_360/flashplayer18_0r0_360_mac_pkg.dmg
 
-    - name: player-18.0.0.360-mac-npapi-debug
+    - name: flash-player-18.0.0.360-mac-npapi-debug
       file: flashplayer18_0r0_360_mac_debug.dmg
       size: 16824671
       sha256: d4fbdf4e7264a127341499b462c5186af7f8545bbede126c7ab2989d160ca1fa
       source: 18_0_r0_360_debug/flashplayer18_0r0_360_mac_debug.dmg
 
-    - name: player-18.0.0.360-mac-sa
+    - name: flash-player-18.0.0.360-mac-sa
       file: flashplayer18_0r0_360_mac_sa.dmg
       size: 13615161
       sha256: a38f38d53b5f9a1a5857bf39c88006d11cc4794151cb966b915a71843af8229f
       source: 18_0_r0_360/flashplayer18_0r0_360_mac_sa.dmg
 
-    - name: player-18.0.0.360-mac-sa-debug
+    - name: flash-player-18.0.0.360-mac-sa-debug
       file: flashplayer18_0r0_360_mac_sa_debug.dmg
       size: 14175751
       sha256: 599542e800a865e2c4d77d4fc2cf7c7c43a5270c2903594e94ce50e36b91daa1
       source: 18_0_r0_360_debug/flashplayer18_0r0_360_mac_sa_debug.dmg
 
-    - name: player-18.0.0.360-mac-uninstaller
+    - name: flash-player-18.0.0.360-mac-uninstaller
       file: uninstall_flashplayer18_0r0_360_mac.dmg
       size: 272202
       sha256: c16a88301dd58c6dac4a2ee9d695a284b908d5d1bd30927c850e83d711e8d099

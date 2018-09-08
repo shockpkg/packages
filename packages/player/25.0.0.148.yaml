@@ -1,184 +1,184 @@
-- name: player-25.0.0.148-archive
+- name: flash-player-25.0.0.148-archive
   file: fp_25.0.0.148_archive.zip
   size: 420513269
   sha256: cb3c5012e45f355f7c1d5a1404f32e78e5ce69feab43b3a304ca1fa965e2460b
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_25.0.0.148_archive.zip'
   packages:
-    - name: player-25.0.0.148-windows-npapi
+    - name: flash-player-25.0.0.148-windows-npapi
       file: flashplayer25_0r0_148_win.exe
       size: 20316248
       sha256: 993367fc5d7caf1d45e99e1a5f9fecc0426be5a29892499b818500441c57b7d4
       source: 25_0_r0_148/flashplayer25_0r0_148_win.exe
 
-    - name: player-25.0.0.148-windows-npapi-msi
+    - name: flash-player-25.0.0.148-windows-npapi-msi
       file: flashplayer25_0r0_148_win.msi
       size: 21478912
       sha256: 129afc9ce4d57b1cd7cae4fce440a5ff4b6e450c5ea429ef307d84ff27279b0f
       source: 25_0_r0_148/flashplayer25_0r0_148_win.msi
 
-    - name: player-25.0.0.148-windows-npapi-debug
+    - name: flash-player-25.0.0.148-windows-npapi-debug
       file: flashplayer25_0r0_148_win_debug.exe
       size: 20128344
       sha256: 7ec9abef3220a8f0b282af60352eb01ee9fec9092f52a79c800adc452abd1663
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_win_debug.exe
 
-    - name: player-25.0.0.148-windows-ppapi
+    - name: flash-player-25.0.0.148-windows-ppapi
       file: flashplayer25_0r0_148_winpep.exe
       size: 20598872
       sha256: ddd7b636b230eda49af5babe10c28d1c4c2e0ebdaaead7db65de0ef938882dd1
       source: 25_0_r0_148/flashplayer25_0r0_148_winpep.exe
 
-    - name: player-25.0.0.148-windows-ppapi-msi
+    - name: flash-player-25.0.0.148-windows-ppapi-msi
       file: flashplayer25_0r0_148_winpep.msi
       size: 21760512
       sha256: c2fa3541be420fe7cd81725021b9f2d38fa2bd725f3edd3e06d48e0393eaddc3
       source: 25_0_r0_148/flashplayer25_0r0_148_winpep.msi
 
-    - name: player-25.0.0.148-windows-ppapi-debug
+    - name: flash-player-25.0.0.148-windows-ppapi-debug
       file: flashplayer25_0r0_148_winpep_debug.exe
       size: 21086808
       sha256: 8872e67639685d2e5a063a657141c35327f3c13dc881ba595c84ff6881fda59d
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_winpep_debug.exe
 
-    - name: player-25.0.0.148-windows-activex
+    - name: flash-player-25.0.0.148-windows-activex
       file: flashplayer25_0r0_148_winax.exe
       size: 19780184
       sha256: a2bf83dbcea97db6d8150d7f545d47bb8af7b5204c3cfbbf94d6203fe5951cc4
       source: 25_0_r0_148/flashplayer25_0r0_148_winax.exe
 
-    - name: player-25.0.0.148-windows-activex-msi
+    - name: flash-player-25.0.0.148-windows-activex-msi
       file: flashplayer25_0r0_148_winax.msi
       size: 21005824
       sha256: b073727c2d1895d53cd44eb90f703c2cf6a5d77bcd5b9d66c164085436cad9d2
       source: 25_0_r0_148/flashplayer25_0r0_148_winax.msi
 
-    - name: player-25.0.0.148-windows-activex-debug
+    - name: flash-player-25.0.0.148-windows-activex-debug
       file: flashplayer25_0r0_148_winax_debug.exe
       size: 20172376
       sha256: c9c2d7c5d89ff300f9343770b9e0c0fad51051fc298e31bf0b79caa1d570868d
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_winax_debug.exe
 
-    - name: player-25.0.0.148-windows-sa
+    - name: flash-player-25.0.0.148-windows-sa
       file: flashplayer25_0r0_148_win_sa.exe
       size: 14965848
       sha256: 21b851071c400351070bcf6bd8b1861e1de24fad463cf107246aaf92f8d4221a
       source: 25_0_r0_148/flashplayer25_0r0_148_win_sa.exe
 
-    - name: player-25.0.0.148-windows-sa-debug
+    - name: flash-player-25.0.0.148-windows-sa-debug
       file: flashplayer25_0r0_148_win_sa_debug.exe
       size: 15813720
       sha256: 65ada5490d0860fab035cd45a7bc33eae9b84d8c4914efc723de6e43f7a4cde8
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_win_sa_debug.exe
 
-    - name: player-25.0.0.148-windows-uninstaller
+    - name: flash-player-25.0.0.148-windows-uninstaller
       file: uninstall_flashplayer25_0r0_148_win.exe
       size: 1277528
       sha256: 5d72ec8a26c6e06e9abad3eb6c8efe5c55d55df8e249f527729ad1c43644310a
       source: 25_0_r0_148/uninstall_flashplayer25_0r0_148_win.exe
 
-    - name: player-25.0.0.148-mac-npapi
+    - name: flash-player-25.0.0.148-mac-npapi
       file: flashplayer25_0r0_148_mac.dmg
       size: 19165824
       sha256: 264f92bac28e07ef2d93cef7f80188e5d1b083eb06d463a0d018f7861695513a
       source: 25_0_r0_148/flashplayer25_0r0_148_mac.dmg
 
-    - name: player-25.0.0.148-mac-npapi-pkg
+    - name: flash-player-25.0.0.148-mac-npapi-pkg
       file: flashplayer25_0r0_148_mac_pkg.dmg
       size: 18628295
       sha256: 449581f549bd000a48ff9ad6b15435ea30870355ad627841381c9147abb96315
       source: 25_0_r0_148/flashplayer25_0r0_148_mac_pkg.dmg
 
-    - name: player-25.0.0.148-mac-npapi-debug
+    - name: flash-player-25.0.0.148-mac-npapi-debug
       file: flashplayer25_0r0_148_mac_debug.dmg
       size: 19410095
       sha256: d57cf9113d107bb30deceee45a29ca9dfb5ea4c52a4a4bad48f54231d544502e
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_mac_debug.dmg
 
-    - name: player-25.0.0.148-mac-ppapi
+    - name: flash-player-25.0.0.148-mac-ppapi
       file: flashplayer25_0r0_148_macpep.dmg
       size: 18618782
       sha256: b07849bbd1a5baf9cfeae2e1152d8189bedf6e497d949f9270a8b1fddab75413
       source: 25_0_r0_148/flashplayer25_0r0_148_macpep.dmg
 
-    - name: player-25.0.0.148-mac-ppapi-pkg
+    - name: flash-player-25.0.0.148-mac-ppapi-pkg
       file: flashplayer25_0r0_148_macpep_pkg.dmg
       size: 18091731
       sha256: 7967074641416da50ecdb0ad60d278b1871eefbb8af7eedf02ff9ed40ead5a52
       source: 25_0_r0_148/flashplayer25_0r0_148_macpep_pkg.dmg
 
-    - name: player-25.0.0.148-mac-ppapi-debug
+    - name: flash-player-25.0.0.148-mac-ppapi-debug
       file: flashplayer25_0r0_148_macpep_debug.dmg
       size: 18926988
       sha256: 4a8a36e57882c7a4c2c6137e860538ec51ab92bc2a8ee84b153f09cb7c3aeaac
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_macpep_debug.dmg
 
-    - name: player-25.0.0.148-mac-sa
+    - name: flash-player-25.0.0.148-mac-sa
       file: flashplayer25_0r0_148_mac_sa.dmg
       size: 17083354
       sha256: 2ceeb89cf6c52802d7adb2af01dc73ca68c343280ce4563f4f19af755c132940
       source: 25_0_r0_148/flashplayer25_0r0_148_mac_sa.dmg
 
-    - name: player-25.0.0.148-mac-sa-debug
+    - name: flash-player-25.0.0.148-mac-sa-debug
       file: flashplayer25_0r0_148_mac_sa_debug.dmg
       size: 17527785
       sha256: 324e169d34ea9d848b51dd4e4d37bd3877e5960e8fc93115559c331e8892a27a
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_mac_sa_debug.dmg
 
-    - name: player-25.0.0.148-mac-uninstaller
+    - name: flash-player-25.0.0.148-mac-uninstaller
       file: uninstall_flashplayer25_0r0_148_mac.dmg
       size: 424889
       sha256: d50255df15969f1de1d4f9e1b7b1e98ab6a66a765cd113d5319cb3f10d9d1d7f
       source: 25_0_r0_148/uninstall_flashplayer25_0r0_148_mac.dmg
 
-    - name: player-25.0.0.148-linux-i386-npapi
+    - name: flash-player-25.0.0.148-linux-i386-npapi
       file: flashplayer25_0r0_148_linux.i386.tar.gz
       size: 8485815
       sha256: 7d9ffcdca435429d8578adf348ff6e2c336787d2cfca4d28742c92adce8061b1
       source: 25_0_r0_148/flashplayer25_0r0_148_linux.i386.tar.gz
 
-    - name: player-25.0.0.148-linux-i386-npapi-debug
+    - name: flash-player-25.0.0.148-linux-i386-npapi-debug
       file: flashplayer25_0r0_148_linux_debug.i386.tar.gz
       size: 8804819
       sha256: cff90268e340fbbc9a51545d258a13bc39a014f6d55e02efc9078c5f89f71fcc
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_linux_debug.i386.tar.gz
 
-    - name: player-25.0.0.148-linux-i386-ppapi
+    - name: flash-player-25.0.0.148-linux-i386-ppapi
       file: flashplayer25_0r0_148_linuxpep.i386.tar.gz
       size: 8530772
       sha256: 4226ba0c0aee1ad7ecd7cc4c7f4519245d76361627df4b52e0f1a9a6ed0db764
       source: 25_0_r0_148/flashplayer25_0r0_148_linuxpep.i386.tar.gz
 
-    - name: player-25.0.0.148-linux-x86_64-npapi
+    - name: flash-player-25.0.0.148-linux-x86_64-npapi
       file: flashplayer25_0r0_148_linux.x86_64.tar.gz
       size: 8996004
       sha256: 72f93bf2d2f6b6e7ed34321de8324f14d9ddff8bc9f42717691b8904be50e758
       source: 25_0_r0_148/flashplayer25_0r0_148_linux.x86_64.tar.gz
 
-    - name: player-25.0.0.148-linux-x86_64-npapi-debug
+    - name: flash-player-25.0.0.148-linux-x86_64-npapi-debug
       file: flashplayer25_0r0_148_linux_debug.x86_64.tar.gz
       size: 9360631
       sha256: 0d65cad6c13572658603bc1f6d81871ac8f426bf84536216e2cd9e32dab2bdcb
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_linux_debug.x86_64.tar.gz
 
-    - name: player-25.0.0.148-linux-x86_64-ppapi
+    - name: flash-player-25.0.0.148-linux-x86_64-ppapi
       file: flashplayer25_0r0_148_linuxpep.x86_64.tar.gz
       size: 9441118
       sha256: 5cf13ce4eb10534903213ad7ce8a40b0f84c744e705f7d676ca7b75787235de2
       source: 25_0_r0_148/flashplayer25_0r0_148_linuxpep.x86_64.tar.gz
 
-    - name: player-25.0.0.148-linux-x86_64-ppapi-debug
+    - name: flash-player-25.0.0.148-linux-x86_64-ppapi-debug
       file: flashplayer25_0r0_148_linuxpep_debug.x86_64.tar.gz
       size: 9875294
       sha256: dff4770b6f2b74fe4a829d4495bcf880a1d693d07e1dc7ca9558487eeff26049
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_linuxpep_debug.x86_64.tar.gz
 
-    - name: player-25.0.0.148-linux-x86_64-sa
+    - name: flash-player-25.0.0.148-linux-x86_64-sa
       file: flashplayer25_0r0_148_linux_sa.x86_64.tar.gz
       size: 8461829
       sha256: 3fa41909623397d98f6284af5a2a053cb49e3a96c1586dbca4b627376d5fba77
       source: 25_0_r0_148/flashplayer25_0r0_148_linux_sa.x86_64.tar.gz
 
-    - name: player-25.0.0.148-linux-x86_64-sa-debug
+    - name: flash-player-25.0.0.148-linux-x86_64-sa-debug
       file: flashplayer25_0r0_148_linux_sa_debug.x86_64.tar.gz
       size: 8775137
       sha256: 592887585cf69d38a6b287308b557d347a4070ef005cf5fd14a98e866ebc7fde

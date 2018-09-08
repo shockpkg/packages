@@ -1,4 +1,4 @@
-- name: playerglobal-19.0
+- name: flash-playerglobal-19.0
   file: playerglobal19_0.swc
   size: 389653
   sha256: 50ec5866b170db440639ea99ac1e7a385adeb85ff74fe6b7760046bd75d5407e

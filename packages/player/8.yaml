@@ -1,430 +1,430 @@
-- name: player-8-archive
+- name: flash-player-8-archive
   file: fp8_archive.zip
   size: 21903026
   sha256: 035433293173d7530e6f04c7a33d8e1636775062578ad126a9c3dad18532f9ea
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp8_archive.zip'
   packages:
-    - name: player-8.0.22.0-windows-npapi
+    - name: flash-player-8.0.22.0-windows-npapi
       file: flashplayer8r22_win.exe
       size: 948936
       sha256: 29165b042e5937799c800c6ee6a5f214e810a5976838e77c7f9a84dc0d9587a0
       source: fp8_archive/r22/flashplayer8r22_win.exe
 
-    - name: player-8.0.22.0-windows-activex
+    - name: flash-player-8.0.22.0-windows-activex
       file: flashplayer8r22_winax.exe
       size: 819912
       sha256: 245ae96a928ba4097c441e598fdb78c04e40d149e5e1f9e313aff3a763104cc3
       source: fp8_archive/r22/flashplayer8r22_winax.exe
 
-    - name: player-8.0.22.0-mac-npapi
+    - name: flash-player-8.0.22.0-mac-npapi
       file: flashplayer8r22_mac.dmg
       size: 1339886
       sha256: 0b12a6ed3218e688cb299621f6f6f42e189e6ce61ba97786daadb58ae5487322
       source: fp8_archive/r22/flashplayer8r22_mac.dmg
 
-    - name: player-8.0.24.0-windows-npapi
+    - name: flash-player-8.0.24.0-windows-npapi
       file: flashplayer8r24_win.exe
       size: 953008
       sha256: c53a692b39857f4f78070cf63565849705a004e5db7019f7dff2f2907df37df4
       source: fp8_archive/r24/flashplayer8r24_win.exe
 
-    - name: player-8.0.24.0-windows-activex
+    - name: flash-player-8.0.24.0-windows-activex
       file: flashplayer8r24_winax.exe
       size: 823472
       sha256: 11c1e4ec665c73b23a1dffca63ee21d92a652897c4a9f5e09fb94aa4c1557049
       source: fp8_archive/r24/flashplayer8r24_winax.exe
 
-    - name: player-8.0.24.0-mac-npapi
+    - name: flash-player-8.0.24.0-mac-npapi
       file: flashplayer8r24_mac.dmg
       size: 1390705
       sha256: 28c7acaf9b5127bff0a10d04707e2ae8f63e8801d4b7abd7c201df840a2e6bd1
       source: fp8_archive/r24/flashplayer8r24_mac.dmg
 
-    - name: player-8.0.33.0-windows-npapi
+    - name: flash-player-8.0.33.0-windows-npapi
       file: flashplayer8r33_win.exe
       size: 950392
       sha256: faf5999671268b50fff1c076784447cc101b0ffc4eed54ab74b2598a0c10a99f
       source: fp8_archive/r33/flashplayer8r33_win.exe
 
-    - name: player-8.0.33.0-windows-activex
+    - name: flash-player-8.0.33.0-windows-activex
       file: flashplayer8r33_winax.exe
       size: 824440
       sha256: 9964782cbf9493ccaff029a718778fc74326e1f1ca1c3d77424a53562a0bf59a
       source: fp8_archive/r33/flashplayer8r33_winax.exe
 
-    - name: player-8.0.33.0-mac-npapi
+    - name: flash-player-8.0.33.0-mac-npapi
       file: flashplayer8r33_mac.dmg
       size: 1350907
       sha256: 4f30a605949fc7c0b9fafd160a22c46afb5365c9a1900ca455090fd8cd5f2b4a
       source: fp8_archive/r33/flashplayer8r33_mac.dmg
 
-    - name: player-8.0.34.0-windows-npapi
+    - name: flash-player-8.0.34.0-windows-npapi
       file: flashplayer8r34_win.exe
       size: 950392
       sha256: 6bd72fa6c700023bc926730fe0e0094c1d925cda63afd38385f71af61e504331
       source: fp8_archive/r34/flashplayer8r34_win.exe
 
-    - name: player-8.0.34.0-windows-activex
+    - name: flash-player-8.0.34.0-windows-activex
       file: flashplayer8r34_winax.exe
       size: 824952
       sha256: b3005810290f3a44647990c0d15e4c18979066f1642ca426bd4d67b248ec4d9a
       source: fp8_archive/r34/flashplayer8r34_winax.exe
 
-    - name: player-8.0.34.0-mac-npapi
+    - name: flash-player-8.0.34.0-mac-npapi
       file: flashplayer8r34_mac.dmg
       size: 1351402
       sha256: d6c5cc629704f55b2b7c37dbe7ebb2f85daba82c9eb5d603eaa92f571f87bbc2
       source: fp8_archive/r34/flashplayer8r34_mac.dmg
 
-    - name: player-8.0.35.0-windows-npapi
+    - name: flash-player-8.0.35.0-windows-npapi
       file: flashplayer8r35_win.exe
       size: 943104
       sha256: c80c57705110808f7987019e7f4622ee961d7f221ed9079ce8159795e1cb11cc
       source: fp8_archive/r35/flashplayer8r35_win.exe
 
-    - name: player-8.0.35.0-windows-activex
+    - name: flash-player-8.0.35.0-windows-activex
       file: flashplayer8r35_winax.exe
       size: 819200
       sha256: 411f4a27db94e5a172bb46c5b84f709da01b0cc159904e2864632b350caae84e
       source: fp8_archive/r35/flashplayer8r35_winax.exe
 
-    - name: player-8.0.35.0-mac-npapi
+    - name: flash-player-8.0.35.0-mac-npapi
       file: flashplayer8r35_mac.dmg
       size: 1481242
       sha256: 8071a790b67a26c94886b83e8a761b088a36d68b08c8bae28c34d60353767bf2
       source: fp8_archive/r35/flashplayer8r35_mac.dmg
 
-    - name: player-8.0.39.0-windows-npapi
+    - name: flash-player-8.0.39.0-windows-npapi
       file: flashplayer8r39_win.exe
       size: 956776
       sha256: af4fd04addc5ecd881c869d0af32da1a2ea589f35184d43738c4b08d8eb1a6b4
       source: fp8_archive/r39/flashplayer8r39_win.exe
 
-    - name: player-8.0.39.0-windows-activex
+    - name: flash-player-8.0.39.0-windows-activex
       file: flashplayer8r39_winax.exe
       size: 829800
       sha256: 42a1493a8fda04f62ca5e2beb07f5f9e784737be8ec88cebc09e59b07703bd78
       source: fp8_archive/r39/flashplayer8r39_winax.exe
 
-    - name: player-8.0.39.0-mac-npapi
+    - name: flash-player-8.0.39.0-mac-npapi
       file: flashplayer8r39_mac.dmg
       size: 1490090
       sha256: 7908170a6adc79135412a92d6d89b47214714e6c7ec7ab8bda47db0f8053a79c
       source: fp8_archive/r39/flashplayer8r39_mac.dmg
 
-    - name: player-8.0.42.0-windows-npapi
+    - name: flash-player-8.0.42.0-windows-npapi
       file: flashplayer8r42_win.exe
       size: 951808
       sha256: 58a5d1da0be5538231709326e9282c7690d4b891e7fe39853979951981b6471a
       source: fp8_archive/r42/flashplayer8r42_win.exe
 
-    - name: player-8.0.42.0-windows-activex
+    - name: flash-player-8.0.42.0-windows-activex
       file: flashplayer8r42_winax.exe
       size: 831336
       sha256: c62ead080ad40f4ef593a4c17bf69b6b32d9b43610470ce564cc1a00c5c43d07
       source: fp8_archive/r42/flashplayer8r42_winax.exe
 
-    - name: player-8.0.42.0-mac-npapi
+    - name: flash-player-8.0.42.0-mac-npapi
       file: flashplayer8r42_mac.dmg
       size: 1491692
       sha256: 032fcb37444c0ed026d9bd4a812856df81ee021516ef0fecad5bca00dbdea345
       source: fp8_archive/r42/flashplayer8r42_mac.dmg
 
-- name: player-8-pro-archive
+- name: flash-player-8-pro-archive
   file: flash_pro_8_players.zip
   size: 13021646
   sha256: 01406e4bd21e5f87306b318a8df4f085e3c4f4922d7be55b315b8a28f7c02d06
   source: 'https://gitlab.com/fparchive/player-8/raw/master/flash_pro_8_players.zip'
   packages:
-    - name: player-8.0.22.0-windows-nsapi-msi
+    - name: flash-player-8.0.22.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4589056
       sha256: fceecb17d1aa07b9c8a699e74875833096a9c08d8f8453c134a8d647c409906e
       source: Players/Release/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.22.0-windows-nsapi-debug-msi
+    - name: flash-player-8.0.22.0-windows-nsapi-debug-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4582912
       sha256: 234656ea67d31dff6c576595321737e0ee6e6439cee57311d0d75c256e32a12c
       source: Players/Debug/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.22.0-windows-activex-msi
+    - name: flash-player-8.0.22.0-windows-activex-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 1646592
       sha256: 086075830772885fe24607bcf8ecd186a1d706f7f57436aed2175667a3cdfaf7
       source: Players/Release/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.22.0-windows-activex-debug-msi
+    - name: flash-player-8.0.22.0-windows-activex-debug-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 1634304
       sha256: 85b6df1fd28feec183047e7b483e79209b90f1b42d288bfef41c373723c5f9dc
       source: Players/Debug/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.22.0-windows-sa
+    - name: flash-player-8.0.22.0-windows-sa
       file: SAFlashPlayer.exe
       size: 1581056
       sha256: 469e8562935d5d51b7953e56bd13e0bfd00111d260d850f972909bcb3c34e20d
       source: Players/Release/SAFlashPlayer.exe
 
-    - name: player-8.0.22.0-windows-sa-debug
+    - name: flash-player-8.0.22.0-windows-sa-debug
       file: SAFlashPlayer.exe
       size: 1687552
       sha256: a8396110eb3f2ba31d47ddc7dc1213658140148c10d072963b957c33df5fd703
       source: Players/Debug/SAFlashPlayer.exe
 
-    - name: player-8.0.22.0-mac-npapi-debug
+    - name: flash-player-8.0.22.0-mac-npapi-debug
       file: Install Flash Player 8 OSX.dmg
       size: 1384054
       sha256: abb75eb1572dab0e487e07c89cfddbe6c195ad3e37b4b9ce0eef6b07271468e2
       source: Players/Debug/Install Flash Player 8 OSX.dmg
 
-    - name: player-8.0.22.0-mac-sa
+    - name: flash-player-8.0.22.0-mac-sa
       file: SAFlashPlayer.hqx
       size: 3092135
       sha256: d6988712b41f9863b6dc407052ebdc0c7fa9b0b8fb568e968d743bd85e9b8823
       source: Players/Release/SAFlashPlayer.hqx
 
-    - name: player-8.0.22.0-mac-sa-debug
+    - name: flash-player-8.0.22.0-mac-sa-debug
       file: SAFlashPlayer.hqx
       size: 3238316
       sha256: 8cda2b3f00c45346c42c6c5f9fbaae84ff0db74cc75832dba72563d9e788da7b
       source: Players/Debug/SAFlashPlayer.hqx
 
-- name: player-8-pro-u2-archive
+- name: flash-player-8-pro-u2-archive
   file: flash_pro_8-u2_players.zip
   size: 15464387
   sha256: 1360bda419ddacef37a1359d48c0061ac3e3e21f3451a70830f80520358758c3
   source: 'https://gitlab.com/fparchive/player-8/raw/master/flash_pro_8-u2_players.zip'
   packages:
-    - name: player-8.0.33.0-windows-nsapi-msi
+    - name: flash-player-8.0.33.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4590080
       sha256: 4168314d37b708338e537937e54af9d12902144f1944492e762c0e747d232508
       source: Players/Release/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.33.0-windows-nsapi-debug-msi
+    - name: flash-player-8.0.33.0-windows-nsapi-debug-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4583424
       sha256: fe8cdcba11d5e5e73e742e795382c834d8bec947e0791bdace37441a2e065ad1
       source: Players/Debug/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.33.0-windows-activex-msi
+    - name: flash-player-8.0.33.0-windows-activex-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 4624384
       sha256: 74c09906d9013442a20245ca3299e6f337967d8f1af9de53353948496c833fba
       source: Players/Release/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.33.0-windows-activex-debug-msi
+    - name: flash-player-8.0.33.0-windows-activex-debug-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 4614656
       sha256: f4ba95488c6828e3153ce13ba040fbe65d5cb48a1cae003c3e61ab83d19320ab
       source: Players/Debug/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.33.0-windows-sa
+    - name: flash-player-8.0.33.0-windows-sa
       file: SAFlashPlayer.exe
       size: 1590904
       sha256: f01fb10622837ff655f371898ba471bf9d798395f3bfbafe532715cf8f566598
       source: Players/Release/SAFlashPlayer.exe
 
-    - name: player-8.0.33.0-windows-sa-debug
+    - name: flash-player-8.0.33.0-windows-sa-debug
       file: SAFlashPlayer.exe
       size: 1693304
       sha256: 1c9bce2cdf4ecc645ac02269e4bc859d93a5b103b28d9c6d546705f33e3df507
       source: Players/Debug/SAFlashPlayer.exe
 
-    - name: player-8.0.33.0-mac-npapi-debug
+    - name: flash-player-8.0.33.0-mac-npapi-debug
       file: Install Flash Player 8 OSX.dmg
       size: 1391348
       sha256: cce06f9b3111c6126e8e55424b3cbb2ce6fe94d4f4e3ca5c33e7eaca4ac9211d
       source: Players/Debug/Install Flash Player 8 OSX.dmg
 
-    - name: player-8.0.33.0-mac-sa
+    - name: flash-player-8.0.33.0-mac-sa
       file: SAFlashPlayer.hqx
       size: 3095288
       sha256: 57a198bd2e1376e746812ffe1ffbe77af4f4ff54862a77b98f786f9236b5501a
       source: Players/Release/SAFlashPlayer.hqx
 
-    - name: player-8.0.33.0-mac-sa-debug
+    - name: flash-player-8.0.33.0-mac-sa-debug
       file: SAFlashPlayer.hqx
       size: 3241485
       sha256: 94cc3ad43f8b18b2c54288cc0f6d2cb08bdf7a86d840000548453476d8efdf15
       source: Players/Debug/SAFlashPlayer.hqx
 
-- name: player-8-pro-u3-archive
+- name: flash-player-8-pro-u3-archive
   file: flash_pro_8-u3_players.zip
   size: 15460756
   sha256: eb129e52bf37bf6f6e251a13734a2c27c959529399a7a089e4769e0bc42a520e
   source: 'https://gitlab.com/fparchive/player-8/raw/master/flash_pro_8-u3_players.zip'
   packages:
-    - name: player-8.0.34.0-windows-nsapi-msi
+    - name: flash-player-8.0.34.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4590080
       sha256: ce8d845f8788da5cc4fbba33eb63910df1e26f4dbf497016c48857e9f94d30e0
       source: Players/Release/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.34.0-windows-nsapi-debug-msi
+    - name: flash-player-8.0.34.0-windows-nsapi-debug-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4583424
       sha256: 7e2f4bbd53a519237ebe53d7321186d42ed258790054d8853e5138dd4b8cc56f
       source: Players/Debug/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.34.0-windows-activex-msi
+    - name: flash-player-8.0.34.0-windows-activex-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 4624384
       sha256: 0ded3f10552e9573078487ef0eecec34a3308420b0f13c6cfe52820e7dd5a981
       source: Players/Release/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.34.0-windows-activex-debug-msi
+    - name: flash-player-8.0.34.0-windows-activex-debug-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 4616192
       sha256: 77cb0e7a11e400502ced0ec0f44d7f90e5b928df3465eaf6a31e83113d565105
       source: Players/Debug/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.34.0-windows-sa
+    - name: flash-player-8.0.34.0-windows-sa
       file: SAFlashPlayer.exe
       size: 1585152
       sha256: 67ac154aed248a0a1f15f7ceef7f4b7b858eb39f47205103ca9272c4358eba34
       source: Players/Release/SAFlashPlayer.exe
 
-    - name: player-8.0.34.0-windows-sa-debug
+    - name: flash-player-8.0.34.0-windows-sa-debug
       file: SAFlashPlayer.exe
       size: 1687552
       sha256: dd6b0f69bee6d639dd17de6d6afcbc87a30fe06be1e7382152b2f56faeb363e7
       source: Players/Debug/SAFlashPlayer.exe
 
-    - name: player-8.0.34.0-mac-npapi-debug
+    - name: flash-player-8.0.34.0-mac-npapi-debug
       file: Install Flash Player 8 OSX.dmg
       size: 1392170
       sha256: 7f7706771b6c958127a00d98ec9061d7b4cb761b4b49cf95435b0af19dddbed8
       source: Players/Debug/Install Flash Player 8 OSX.dmg
 
-    - name: player-8.0.34.0-mac-sa
+    - name: flash-player-8.0.34.0-mac-sa
       file: SAFlashPlayer.hqx
       size: 3096866
       sha256: f666cacab010c7c52960886fde18dfa7caf16b41df847f772f93552084726c9e
       source: Players/Release/SAFlashPlayer.hqx
 
-    - name: player-8.0.34.0-mac-sa-debug
+    - name: flash-player-8.0.34.0-mac-sa-debug
       file: SAFlashPlayer.hqx
       size: 3243106
       sha256: f62c2e0f7380221b557b2b2eb5a69cd948892915a2d9429d179b858687130042
       source: Players/Debug/SAFlashPlayer.hqx
 
-- name: player-8-pro-u5-archive
+- name: flash-player-8-pro-u5-archive
   file: flash_pro_8-u5_players.zip
   size: 15807330
   sha256: 0e8f5162fc9289e1878a3ca86064970f8890debebb7a4a561e0440378d7c96fe
   source: 'https://gitlab.com/fparchive/player-8/raw/master/flash_pro_8-u5_players.zip'
   packages:
-    - name: player-8.0.39.0-windows-nsapi-msi
+    - name: flash-player-8.0.39.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4594176
       sha256: 3b17578e5fbfe32791f92daf485f991e7676229b934dbe85bd74964d22acd368
       source: Players/Release/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.39.0-windows-nsapi-debug-msi
+    - name: flash-player-8.0.39.0-windows-nsapi-debug-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4588032
       sha256: 473d1211253799228813f4eaf96e8d3aa0d78de52dfdc344d5140bf67369e757
       source: Players/Debug/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.39.0-windows-activex-msi
+    - name: flash-player-8.0.39.0-windows-activex-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 4629504
       sha256: 9174b7c77fb5118773f7d2f3ea885caa545970f61f09fbbe52351f8314b64709
       source: Players/Release/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.39.0-windows-activex-debug-msi
+    - name: flash-player-8.0.39.0-windows-activex-debug-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 4620800
       sha256: 1e5236dce03f3e4a94f46c88cff63b6a80c19d6bdc20e836a15f09ebc72f7fb8
       source: Players/Debug/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.39.0-windows-sa
+    - name: flash-player-8.0.39.0-windows-sa
       file: SAFlashPlayer.exe
       size: 1602920
       sha256: 4092e750b606eca7cde6b27c58d6ba3e98f6cea34df4f6437877da133f8a8cc1
       source: Players/Release/SAFlashPlayer.exe
 
-    - name: player-8.0.39.0-windows-sa-debug
+    - name: flash-player-8.0.39.0-windows-sa-debug
       file: SAFlashPlayer.exe
       size: 1709416
       sha256: a167be96850b57c82e98c88f0feeafc67e8b8816b9e1a71b1bab02035c38a4ac
       source: Players/Debug/SAFlashPlayer.exe
 
-    - name: player-8.0.39.0-mac-npapi-debug
+    - name: flash-player-8.0.39.0-mac-npapi-debug
       file: Install Flash Player 8 OSX.dmg
       size: 1532440
       sha256: db5a5e074737e238367e4ff691f6823f2e56c7320ecefb9eb12bfd56af356884
       source: Players/Debug/Install Flash Player 8 OSX.dmg
 
-    - name: player-8.0.39.0-mac-sa
+    - name: flash-player-8.0.39.0-mac-sa
       file: SAFlashPlayer.hqx
       size: 3128754
       sha256: d9b73d89148a2f7b4f59aa576e44edd43b2843faaa811fde41dbcd9a6c4c2a4c
       source: Players/Release/SAFlashPlayer.hqx
 
-    - name: player-8.0.39.0-mac-sa-debug
+    - name: flash-player-8.0.39.0-mac-sa-debug
       file: SAFlashPlayer.hqx
       size: 3274344
       sha256: 6b372847c573dd52309cab5c927d808a188c0ff54fdae454646796c9d133d061
       source: Players/Debug/SAFlashPlayer.hqx
 
-- name: player-8-pro-u6-archive
+- name: flash-player-8-pro-u6-archive
   file: flash_pro_8-u6_players.zip
   size: 15815643
   sha256: 8571fef81e9d3603a522af2e847b8ee5049817275634a9dd5ff14958b97a1fb8
   source: 'https://gitlab.com/fparchive/player-8/raw/master/flash_pro_8-u6_players.zip'
   packages:
-    - name: player-8.0.42.0-windows-nsapi-msi
+    - name: flash-player-8.0.42.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4595200
       sha256: 16ad90ba35f66fbb09fb696e49f7f54a4226bf55df0d2ef4414377c5ba1f5a39
       source: Players/Release/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.42.0-windows-nsapi-debug-msi
+    - name: flash-player-8.0.42.0-windows-nsapi-debug-msi
       file: Install Flash Player 8 Plugin.msi
       size: 4589568
       sha256: d0ab0547f7648752518f42423a729a62e4777c40cffefe55d16b56c1f2cc4032
       source: Players/Debug/Install Flash Player 8 Plugin.msi
 
-    - name: player-8.0.42.0-windows-activex-msi
+    - name: flash-player-8.0.42.0-windows-activex-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 4631040
       sha256: e5ca39ee62f4cae2c418447244b5b7fa7d8965ce1785ca515f1c1f77714d75b9
       source: Players/Release/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.42.0-windows-activex-debug-msi
+    - name: flash-player-8.0.42.0-windows-activex-debug-msi
       file: Install Flash Player 8 ActiveX.msi
       size: 4621824
       sha256: a5489736bc76977d628c1c2e8566d5fa3ef1cca268c1aa101e79fbfd1396b350
       source: Players/Debug/Install Flash Player 8 ActiveX.msi
 
-    - name: player-8.0.42.0-windows-sa
+    - name: flash-player-8.0.42.0-windows-sa
       file: SAFlashPlayer.exe
       size: 1601536
       sha256: 117ed89c882239b12e8bd6671e37b353e99d48aa6dfdf77c5895ebd76e7a83d9
       source: Players/Release/SAFlashPlayer.exe
 
-    - name: player-8.0.42.0-windows-sa-debug
+    - name: flash-player-8.0.42.0-windows-sa-debug
       file: SAFlashPlayer.exe
       size: 1708032
       sha256: e5c7ba2cc440250986dc1a80e7ecb2e5dd2a913293f9239f7cad2d30f78ff643
       source: Players/Debug/SAFlashPlayer.exe
 
-    - name: player-8.0.42.0-mac-npapi-debug
+    - name: flash-player-8.0.42.0-mac-npapi-debug
       file: Install Flash Player 8 OSX.dmg
       size: 1541721
       sha256: 9759798eafc358df1ecf0a5468a8c5e28d01765872dd1e619c96b2cbf5ac0ec6
       source: Players/Debug/Install Flash Player 8 OSX.dmg
 
-    - name: player-8.0.42.0-mac-sa
+    - name: flash-player-8.0.42.0-mac-sa
       file: SAFlashPlayer.hqx
       size: 3134913
       sha256: a8437f994172ce252675d2b1ad43d24f4aa55b311c72c0445d004f60043d597f
       source: Players/Release/SAFlashPlayer.hqx
 
-    - name: player-8.0.42.0-mac-sa-debug
+    - name: flash-player-8.0.42.0-mac-sa-debug
       file: SAFlashPlayer.hqx
       size: 3280434
       sha256: f72a422676b758427a0aa7f6cc775d4e485f4baa79708f97cfc5d5893c144325

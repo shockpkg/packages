@@ -1,34 +1,34 @@
-- name: player-11.2.202.238-archive
+- name: flash-player-11.2.202.238-archive
   file: fp_11.2.202.238_archive.zip
   size: 33578646
   sha256: e4d151ab25d957d4b7ffbd8ae08080c29aaba03178ac1a039ed57c53da6ba9c3
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.238_archive.zip'
   packages:
-    - name: player-11.2.202.238-linux-i386-npapi
+    - name: flash-player-11.2.202.238-linux-i386-npapi
       file: flashplayer_11_2r202_238_linux.i386.tar.gz
       size: 6917475
       sha256: 8a9deb57288208d9d0300f6545358c04ff886187927ad9951985b0ba49be055c
       source: fp_11.2.202.238_archive/11_2r202_238_32bit/flashplayer_11_2r202_238_linux.i386.tar.gz
 
-    - name: player-11.2.202.238-linux-i386-npapi-debug
+    - name: flash-player-11.2.202.238-linux-i386-npapi-debug
       file: flashplayer11_2r202_238_linux_debug.i386.tar.gz
       size: 7395906
       sha256: 918333ae83aed1d3c8da80bb977cc8f21421c2e2c002a48347b245c1edbd2e2b
       source: fp_11.2.202.238_archive/11_2r202_238_32bit_debug/flashplayer11_2r202_238_linux_debug.i386.tar.gz
 
-    - name: player-11.2.202.238-linux-i386-sa
+    - name: flash-player-11.2.202.238-linux-i386-sa
       file: flashplayer_11_2r202_238_linux_sa.i386.tar.gz
       size: 6001810
       sha256: 611cde87d5c99ebcbd8fc457d90d284376f8d27172d193619945ee348049bb6f
       source: fp_11.2.202.238_archive/11_2r202_238_32bit/flashplayer_11_2r202_238_linux_sa.i386.tar.gz
 
-    - name: player-11.2.202.238-linux-i386-sa-debug
+    - name: flash-player-11.2.202.238-linux-i386-sa-debug
       file: flashplayer11_2r202_238_linux_sa_debug.i386.tar.gz
       size: 6452320
       sha256: e114c2e71b10dcd07fd35f9b142df25c7f3f2373a7453a4dfec8432db47d6189
       source: fp_11.2.202.238_archive/11_2r202_238_32bit_debug/flashplayer11_2r202_238_linux_sa_debug.i386.tar.gz
 
-    - name: player-11.2.202.238-linux-x86_64-npapi
+    - name: flash-player-11.2.202.238-linux-x86_64-npapi
       file: flash-plugin-11.2.202.238-release.x86_64.rpm
       size: 7205932
       sha256: cc225f85c21ceb1e423df470bce5ee62c41f742d694e864e80a264bff259fbe9

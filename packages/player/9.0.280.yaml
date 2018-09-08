@@ -1,106 +1,106 @@
-- name: player-9.0.280-and-higher-archive
+- name: flash-player-9.0.280-and-higher-archive
   file: fp9r280_plus_archive.zip
   size: 22945579
   sha256: f3aa98d008deb3ccdad6dad3b7f6ca31eb56943fb32e481144cc5dcc3c752d1f
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp9r280_plus_archive.zip'
   packages:
-    - name: player-9.0.280.0-windows-npapi
+    - name: flash-player-9.0.280.0-windows-npapi
       file: flashplayer9r280_win.exe
       size: 1504368
       sha256: 0af4a820c4ac250fa5cecbdfc7d709a474fe0298ac0391572e7bde0a554c9460
       source: fp9r280_and_higher_archive/9r280/flashplayer9r280_win.exe
 
-    - name: player-9.0.280.0-windows-activex
+    - name: flash-player-9.0.280.0-windows-activex
       file: flashplayer9r280_winax.exe
       size: 1537696
       sha256: 224317013b9720370ba4e2e2447deae505c3d5530c42e9b5d3c94b2f829ec212
       source: fp9r280_and_higher_archive/9r280/flashplayer9r280_winax.exe
 
-    - name: player-9.0.280.0-windows-sa
+    - name: flash-player-9.0.280.0-windows-sa
       file: flashplayer9r280_win_sa.exe
       size: 3424504
       sha256: 4e758422f0bf8d32729eab33427d5802f0a5d2167fa99d32bee61dec3059e582
       source: fp9r280_and_higher_archive/9r280/flashplayer9r280_win_sa.exe
 
-    - name: player-9.0.280.0-mac-npapi
+    - name: flash-player-9.0.280.0-mac-npapi
       file: flashplayer9r280_mac.dmg
       size: 3137014
       sha256: 49ddaf225abc228ba8857f7db42131af980c0fdeed7d561ca12a99edee95bb8e
       source: fp9r280_and_higher_archive/9r280/flashplayer9r280_mac.dmg
 
-    - name: player-9.0.280.0-mac-sa
+    - name: flash-player-9.0.280.0-mac-sa
       file: flashplayer9r280_mac_sa.app.zip
       size: 4367765
       sha256: 08f9c426125dd82bff0d9a53c3cc1701f1017f5b1efe350a122265a9eaec15d8
       source: fp9r280_and_higher_archive/9r280/flashplayer9r280_mac_sa.app.zip
 
-    - name: player-9.0.280.0-mac-ub-npapi
+    - name: flash-player-9.0.280.0-mac-ub-npapi
       file: flashplayer9r280_ub_mac.dmg
       size: 4679503
       sha256: 5456a647e520eda6c5355fe5dc4779c96aef35e9f92207b02d781606134b14c8
       source: fp9r280_and_higher_archive/9r280/flashplayer9r280_ub_mac.dmg
 
-    - name: player-9.0.280.0-linux-npapi
+    - name: flash-player-9.0.280.0-linux-npapi
       file: flashplayer9r280_linux.tar.gz
       size: 3064515
       sha256: f18b60b79e1501d095a6cb7f9d91de737dce6a5c9905348607c22b82d7cd0fda
       source: fp9r280_and_higher_archive/9r280/flashplayer9r280_linux.tar.gz
 
-    - name: player-9.0.280.0-linux-sa
+    - name: flash-player-9.0.280.0-linux-sa
       file: flashplayer9r280_linux_sa.tar.gz
       size: 3040827
       sha256: 20b8e603a15cc2f1c8924800ecbffbc73823f96bceeae467859991eb42c00aa0
       source: fp9r280_and_higher_archive/9r280/flashplayer9r280_linux_sa.tar.gz
 
-- name: player-9.0.280-and-higher-debugger-archive
+- name: flash-player-9.0.280-and-higher-debugger-archive
   file: fp9r280_plus_debug_archive.zip
   size: 24870640
   sha256: f20c87816b1b0d85e42afb0ab56ef154eae6f8d12d72d6c250d6bd492f682931
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp9r280_plus_debug_archive.zip'
   packages:
-    - name: player-9.0.280.0-windows-npapi-debug
+    - name: flash-player-9.0.280.0-windows-npapi-debug
       file: flashplayer9r280_win_debug.exe
       size: 1610504
       sha256: 06255de6ef6a4bc6893ea77975c3f45ec0e6035a0871240dbbfed70bd2fccc1a
       source: fp9r280_plus_debug_archive/9r280/flashplayer9r280_win_debug.exe
 
-    - name: player-9.0.280.0-windows-activex-debug
+    - name: flash-player-9.0.280.0-windows-activex-debug
       file: flashplayer9r280_winax_debug.exe
       size: 1645232
       sha256: d47b6927ad0f923422e168923645b1a3e541bc0a29f1dd651b79bb97a1453164
       source: fp9r280_plus_debug_archive/9r280/flashplayer9r280_winax_debug.exe
 
-    - name: player-9.0.280.0-windows-sa-debug
+    - name: flash-player-9.0.280.0-windows-sa-debug
       file: flashplayer9r280_win_sa_debug.exe
       size: 3825912
       sha256: cd9486064e03e7fcb297e94d34716e4b06aff5ae5632abee43acc1ef0ecb876e
       source: fp9r280_plus_debug_archive/9r280/flashplayer9r280_win_sa_debug.exe
 
-    - name: player-9.0.280.0-mac-npapi-debug
+    - name: flash-player-9.0.280.0-mac-npapi-debug
       file: flashplayer9r280_mac_debug.dmg
       size: 3348507
       sha256: c69632455c57c0fd3ff00b3d2f0724ddb095ece3080cfd979a3827c328722090
       source: fp9r280_plus_debug_archive/9r280/flashplayer9r280_mac_debug.dmg
 
-    - name: player-9.0.280.0-mac-sa-debug
+    - name: flash-player-9.0.280.0-mac-sa-debug
       file: flashplayer9r280_mac_sa_debug.app.zip
       size: 4800844
       sha256: 5d67b79e12a212543fd9b1a6817fa2a6dd3b7445098052b886bea26084431e54
       source: fp9r280_plus_debug_archive/9r280/flashplayer9r280_mac_sa_debug.app.zip
 
-    - name: player-9.0.280.0-mac-ub-npapi-debug
+    - name: flash-player-9.0.280.0-mac-ub-npapi-debug
       file: flashplayer9r280_ub_mac_debug.dmg
       size: 5114614
       sha256: 509315b48119133151dd8b359d60856f22f528a0bccd1ed8ecf03b9e338323f5
       source: fp9r280_plus_debug_archive/9r280/flashplayer9r280_ub_mac_debug.dmg
 
-    - name: player-9.0.280.0-linux-npapi-debug
+    - name: flash-player-9.0.280.0-linux-npapi-debug
       file: flashplayer9r280_linux_debug.tar.gz
       size: 3282360
       sha256: 9389667df1c8773fe6a1ac7866c3c6025717ccc225c31194ed1351fda03db72c
       source: fp9r280_plus_debug_archive/9r280/flashplayer9r280_linux_debug.tar.gz
 
-    - name: player-9.0.280.0-linux-sa-debug
+    - name: flash-player-9.0.280.0-linux-sa-debug
       file: flashplayer9r280_linux_sa_debug.tar.gz
       size: 3313015
       sha256: f181329f2d726763097a0dfe7b78fa381237b447fa1bf97f0bb61764df8fea9a

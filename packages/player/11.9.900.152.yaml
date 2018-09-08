@@ -1,76 +1,76 @@
-- name: player-11.9.900.152-archive
+- name: flash-player-11.9.900.152-archive
   file: fp_11.9.900.152_archive.zip
   size: 164900159
   sha256: d8de73a8eaf083d3201e4e4fc80f3463da8daa91906fe2d17545404adf8a4087
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.9.900.152_archive.zip'
   packages:
-    - name: player-11.9.900.152-windows-npapi
+    - name: flash-player-11.9.900.152-windows-npapi
       file: flashplayer11_9r900_152_win.exe
       size: 17822088
       sha256: 8ea6384ec8d60b2394f7cbec3e1a15cbc041d4bc0cca3f481a82de4220997342
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_win.exe
 
-    - name: player-11.9.900.152-windows-npapi-msi
+    - name: flash-player-11.9.900.152-windows-npapi-msi
       file: flashplayer11_9r900_152_win.msi
       size: 18915328
       sha256: ac4e806095ae59f959db43a681860a26a7efe94cd00a6bf813483a7928dc8502
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_win.msi
 
-    - name: player-11.9.900.152-windows-npapi-debug
+    - name: flash-player-11.9.900.152-windows-npapi-debug
       file: flashplayer11_9r900_152_win_debug.exe
       size: 18260872
       sha256: 35bc986b36c9407252e93e986212a07a98e4f14b89b3f22ef1f78e4b37670f31
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_win_debug.exe
 
-    - name: player-11.9.900.152-windows-activex
+    - name: flash-player-11.9.900.152-windows-activex
       file: flashplayer11_9r900_152_winax.exe
       size: 17222536
       sha256: ffce50e30422ead2de196870ecc74f8cb1a0017e540ebd24653049473b627aad
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_winax.exe
 
-    - name: player-11.9.900.152-windows-activex-msi
+    - name: flash-player-11.9.900.152-windows-activex-msi
       file: flashplayer11_9r900_152_winax.msi
       size: 18312192
       sha256: 1b1f04d4b41444349f438cf117941208378b84b145526a6ca94d99fc80709d4f
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_winax.msi
 
-    - name: player-11.9.900.152-windows-activex-debug
+    - name: flash-player-11.9.900.152-windows-activex-debug
       file: flashplayer11_9r900_152_winax_debug.exe
       size: 17669000
       sha256: c977854d31125ec90f9d286e3df2f4cae4ecad0e9b93a17f51d97a590b90bc14
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_winax_debug.exe
 
-    - name: player-11.9.900.152-windows-sa-debug
+    - name: flash-player-11.9.900.152-windows-sa-debug
       file: flashplayer11_9r900_152_win_sa_debug.exe
       size: 11141512
       sha256: 065f3dc632e7be26cc3fa3d07b947a254f72e0ecb35a4c8d5cc8324ede3d2be3
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_win_sa_debug.exe
 
-    - name: player-11.9.900.152-windows-uninstaller
+    - name: flash-player-11.9.900.152-windows-uninstaller
       file: uninstall_flashplayer11_9r900_152_win.exe
       size: 830344
       sha256: 3cbe9c99762c8558dad3994f6de5201c6ed160efd6caa0fbf66b5f6882663012
       source: fp_11.9.900.152_archive/11_9_r900_152/uninstall_flashplayer11_9r900_152_win.exe
 
-    - name: player-11.9.900.152-mac-npapi
+    - name: flash-player-11.9.900.152-mac-npapi
       file: flashplayer11_9r900_152_mac.dmg
       size: 18409440
       sha256: 194a1e1c8c4700f265d0887b129196dba0517d24c9a559175d7bfedfcb117d74
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_mac.dmg
 
-    - name: player-11.9.900.152-mac-npapi-debug
+    - name: flash-player-11.9.900.152-mac-npapi-debug
       file: flashplayer11_9r900_152_mac_debug.dmg
       size: 18893136
       sha256: 7bc3546c0c62e963fc13b5751ae21eb6fccc8333e76ad1c711c5209b33b5a307
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_mac_debug.dmg
 
-    - name: player-11.9.900.152-mac-sa-debug
+    - name: flash-player-11.9.900.152-mac-sa-debug
       file: flashplayer11_9r900_152_mac_sa_debug.dmg
       size: 16045884
       sha256: 9aafe65924f4f719f5c6d6f345e0b71229d31fbaed477f6ce73108163a83536d
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_mac_sa_debug.dmg
 
-    - name: player-11.9.900.152-mac-uninstaller
+    - name: flash-player-11.9.900.152-mac-uninstaller
       file: uninstall_flashplayer11_9r900_152_mac.dmg
       size: 233239
       sha256: d9ce6bc50cd1c89a1d1f3702b041439c820ce39ef4dcb38eb6ab0bfe8e7b77f1
