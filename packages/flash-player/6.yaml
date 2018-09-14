@@ -230,7 +230,7 @@
   file: install_flash_player_6_r79_linux_sa.tar.gz
   size: 700781
   sha256: 5a374ff347522957bef9d5c772beedc9cc29212500e50f1cc1ca2fda18ecd89f
-  source: 'http://download.macromedia.com/get/flash/updates/mx/player6/install_flash_player_6_r79_linux_sa.tar.gz'
+  source: 'https://download.macromedia.com/get/flash/updates/mx/player6/install_flash_player_6_r79_linux_sa.tar.gz'
 
 - name: flash-player-6.0.81.0-solaris
   file: flash_player_6_solaris_intel.tar.gz
