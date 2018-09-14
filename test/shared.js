@@ -27,3 +27,4 @@ exports.entries = entries;
 exports.entriesRoot = entriesRoot;
 exports.entriesChild = entriesChild;
 exports.entriesParents = entriesParents;
+exports.packagePrefixes = packages.prefixes;

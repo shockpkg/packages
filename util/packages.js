@@ -36,17 +36,24 @@ function read() {
 	const files = glob.sync('*/*.yaml', {cwd: packagesDir});
 	files.sort(comparePaths);
 
-	const r = [];
+	const prefixes = new Set();
+	const packages = [];
 	for (const file of files) {
 		const filePath = path.join(packagesDir, file);
+		prefixes.add(file.split(/[\\/]/)[0]);
 
 		// eslint-disable-next-line no-sync
 		const code = fs.readFileSync(filePath, 'utf8');
 
 		const doc = yaml.safeLoad(code);
-		r.push(...doc);
+		packages.push(...doc);
 	}
-	return r;
+	return {
+		packages,
+		prefixes
+	};
 }
 
-exports.packages = read();
+const data = read();
+exports.packages = data.packages;
+exports.prefixes = data.prefixes;
