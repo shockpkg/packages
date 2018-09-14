@@ -31,7 +31,7 @@ const validators = {
 		expect(typeof value).toBe('string');
 		expect(value.length).toBeGreaterThan(0);
 		if (root) {
-			expect(value).toMatch(/^https?:\/\//);
+			expect(value).toMatch(/^https:\/\//);
 			const parsed = url.format(url.parse(value));
 			expect(value).toBe(parsed);
 		}
