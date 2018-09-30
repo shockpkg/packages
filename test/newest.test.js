@@ -2,7 +2,7 @@
 
 const {requestPromise} = require('../util/request');
 
-const {asyncTimeout, entriesRoot} = require('./shared');
+const {asyncTimeout} = require('./shared');
 
 describe('newest', () => {
 	describe('shockwave-player', () => {
@@ -74,7 +74,7 @@ describe('newest', () => {
 
 				const contentLength = +response.headers['content-length'];
 				const lastModified = response.headers['last-modified'];
-				const eTag = response.headers['etag'];
+				const eTag = response.headers.etag;
 
 				expect(contentLength).toBe(entry.size);
 				expect(lastModified).toBe(entry.lastModified);
