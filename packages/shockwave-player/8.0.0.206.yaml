@@ -1,0 +1,5 @@
+- name: shockwave-player-8.0.0.206-windows-shim
+  file: shockwaveinstaller.exe
+  size: 705120
+  sha256: 70a78c236208e3a30ee74f5b1b46827ea4935a6ddc72016ddcd358f9feca95cd
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.0.0.206/win-shim/shockwaveinstaller.exe'

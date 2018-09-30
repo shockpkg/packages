@@ -1,0 +1,23 @@
+- name: shockwave-player-8.5.1.106-windows-activex
+  file: sw.cab
+  size: 34054
+  sha256: 76b0526cb08914f94b6b8e5b0bbb2fa72bb33cd6c7890f7b65bea028928e1e91
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.106/win-activex/sw.cab'
+
+- name: shockwave-player-8.5.1.106-windows-foo
+  file: installer.foo.exe
+  size: 3351296
+  sha256: a865f3510e9bb8d12838ce07bfe5c1d9d3a9666a5d0d06a0d0d283e71569cab5
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.106/win-foo/installer.foo.exe'
+
+- name: shockwave-player-8.5.1.106-windows-full-korean
+  file: SW851_Installer_FullK.exe
+  size: 4592896
+  sha256: 6726dc60664555cc7274842a8ef428247b22b9bb374a7cd6611926a849af89b2
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.106/win-full-korean/SW851_Installer_FullK.exe'
+
+- name: shockwave-player-8.5.1.106-windows-full
+  file: SW851_Installer_Full.exe
+  size: 4620032
+  sha256: 6fc902b8df1a9c0eea01038dac78bfbbd3990a360c066695ef4159d3153890e6
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.106/win-full/SW851_Installer_Full.exe'

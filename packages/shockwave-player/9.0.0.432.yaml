@@ -1,0 +1,5 @@
+- name: shockwave-player-9.0.0.432-mac-osx-full
+  file: Shockwave_Installer.sit
+  size: 4766549
+  sha256: afb242468e6b53fa8518ddb37fffb9a546bd8d9087fdf43d937b7bbf5bdef6d7
+  source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.432/mac-osx-full/Shockwave_Installer.sit'

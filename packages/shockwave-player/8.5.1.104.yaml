@@ -1,0 +1,11 @@
+- name: shockwave-player-8.5.1.104-windows-foo
+  file: installer_nr.foo.exe
+  size: 3350736
+  sha256: f6c4b48373524bf7393515ee5c510e4ebb549f9f9dfff5a0a68f02ed66335250
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.104/win-foo/installer_nr.foo.exe'
+
+- name: shockwave-player-8.5.1.104-windows-shim
+  file: shockwaveinstaller_nr.exe
+  size: 498896
+  sha256: 90cd61dbb4f4dfc2b33824436e150a745a94737556aa28b2f8b0ed99f3118dae
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.104/win-shim/shockwaveinstaller_nr.exe'

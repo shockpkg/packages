@@ -1,0 +1,29 @@
+- name: shockwave-player-8.5.0.325-mac-shim
+  file: shockwaveinstaller.hqx
+  size: 980756
+  sha256: 9036ca04c53800a402fbd36a869e929c442954855f90fd99b9fb3d14665932d0
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.325/mac-shim/shockwaveinstaller.hqx'
+
+- name: shockwave-player-8.5.0.325-windows-activex
+  file: swdir.cab
+  size: 34320
+  sha256: 3094cbe20545cba50e69243768bc7408f7c8f0b8dd1f50b1548df8f8fb730165
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.325/win-activex/swdir.cab'
+
+- name: shockwave-player-8.5.0.325-windows-foo
+  file: installer.foo.exe
+  size: 3532079
+  sha256: 66e3c9eab0e7f0f076caf32d3a6f3b505d4826539f7425f835988579de04f664
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.325/win-foo/installer.foo.exe'
+
+- name: shockwave-player-8.5.0.325-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 4122312
+  sha256: 46d65e0128b8aa756fbe353f0e68a1cc202e52cee074a085e75c1f68f7c036dd
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.325/win-full/Shockwave_Installer_Full.exe'
+
+- name: shockwave-player-8.5.0.325-windows-shim
+  file: shockwaveinstaller.exe
+  size: 680136
+  sha256: 98bb1e545dbff25b0544b5e738770e22e369bc2af7e460593800e9d7c079296b
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.325/win-shim/shockwaveinstaller.exe'

@@ -1,0 +1,5 @@
+- name: shockwave-player-8.5.0.306-mac-shim-preview
+  file: Shockwave_Installer_Preview.hqx
+  size: 995161
+  sha256: 61b7cbf1f44a9946fcd54b263d06b01362012658791ec5899dacecf8fd4301c7
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.306/mac-shim-preview/Shockwave_Installer_Preview.hqx'

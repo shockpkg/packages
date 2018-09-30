@@ -1,0 +1,11 @@
+- name: shockwave-player-8.5.1.102-2-windows-activex
+  file: Swdir_Alt_Staging.cab
+  size: 34522
+  sha256: 64eff5101c45e513cb71f8ba8452e388f9593359a5b0430e5be3e23aeb993587
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.102-2/win-activex/Swdir_Alt_Staging.cab'
+
+- name: shockwave-player-8.5.1.102-2-windows-shim
+  file: Shockwave_Installer_Alt_NoReg.exe
+  size: 682192
+  sha256: c11c172ef78e4eea499fe49cad99c1a9ba4e2231fc59978cac0a8e665eb98ab0
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.102-2/win-shim/Shockwave_Installer_Alt_NoReg.exe'

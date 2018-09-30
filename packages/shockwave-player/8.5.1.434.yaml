@@ -1,0 +1,5 @@
+- name: shockwave-player-8.5.1.434-mac-classic-full
+  file: SW851434_FullPing.hqx
+  size: 5905904
+  sha256: 9ec3088ecab2dca1ef4820e21340a59432e89159f23911cf130d020e012fe769
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.434/mac-classic-full/SW851434_FullPing.hqx'

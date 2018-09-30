@@ -1,0 +1,35 @@
+- name: shockwave-player-10.1.0.11-mac-osx-full-japanese
+  file: Shockwave_InstallerJ.dmg
+  size: 4866710
+  sha256: ad9cfc239c797565e6e929abc6f52172b09051f3db77b5b4ca332c62d9e22d14
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11/mac-osx-full-japanese/Shockwave_InstallerJ.dmg'
+
+- name: shockwave-player-10.1.0.11-mac-osx-full
+  file: Shockwave_Installer.dmg
+  size: 4927886
+  sha256: b84a801f16da1ce833e57a6ffc7b87aa8ad8bd1ce67b6726f0df59aa753e6ad1
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11/mac-osx-full/Shockwave_Installer.dmg'
+
+- name: shockwave-player-10.1.0.11-mac-osx-slim-japanese
+  file: Shockwave_Installer_SlimJ.dmg
+  size: 2017737
+  sha256: 4f3aa905779dac065f358541cd43053825848ff15e6c0f086b06ae9595afd45e
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11/mac-osx-slim-japanese/Shockwave_Installer_SlimJ.dmg'
+
+- name: shockwave-player-10.1.0.11-mac-osx-slim
+  file: Shockwave_Installer_Slim.dmg
+  size: 2079418
+  sha256: 291c6aaa17b2ea89239c444436f808eb575960f96d1c355b6c79bbb74ac14b34
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11/mac-osx-slim/Shockwave_Installer_Slim.dmg'
+
+- name: shockwave-player-10.1.0.11-windows-activex
+  file: sw.cab
+  size: 47131
+  sha256: 0d4e151df7e86e41b1f8dbe0a69e7ba77ff03076cdcd8b45e0c6a3d6f0ed60dd
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11/win-activex/sw.cab'
+
+- name: shockwave-player-10.1.0.11-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 4719824
+  sha256: 7819e1dc6af253090b446198d2402d26e4d113b748b84176c8d92d6fda48db3f
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11/win-full/Shockwave_Installer_Full.exe'

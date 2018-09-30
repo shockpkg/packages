@@ -1,0 +1,11 @@
+- name: shockwave-player-8.0.0.196-mac-shim
+  file: shockwaveinstaller.hqx
+  size: 847870
+  sha256: 2ff38c44f01df0cdcb5cc67159bddabec7e7ac62baed603b3e0f0f07caff808a
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.0.0.196/mac-shim/shockwaveinstaller.hqx'
+
+- name: shockwave-player-8.0.0.196-windows-shim
+  file: shockwaveinstaller.exe
+  size: 648933
+  sha256: f4c2daaecbcd3b4cd9655ba972a044d8470239b9ade2872b36f19408c03cc12f
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.0.0.196/win-shim/shockwaveinstaller.exe'

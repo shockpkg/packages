@@ -1,0 +1,11 @@
+- name: shockwave-player-10.2.0.22-windows-activex
+  file: sw.cab
+  size: 197531
+  sha256: 5d4455de08f447be5495d03bd27a5f246c8417c09077ec4066f9993415ee99ef
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.2.0.22/win-activex/sw.cab'
+
+- name: shockwave-player-10.2.0.22-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 5664496
+  sha256: 0bcf47c8bd91f346d1fdc887674d7e07f1d62cbc0f41cd9ba7970987d1b2f4b1
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.2.0.22/win-full/Shockwave_Installer_Full.exe'

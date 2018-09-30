@@ -1,0 +1,29 @@
+- name: shockwave-player-9.0.0.434-mac-osx-full
+  file: Shockwave_Installer.sit
+  size: 4766212
+  sha256: 1a38e7a482ac1b07a18b2bebb4313e82ca16c5ae55443814f985d2815c74d2bf
+  source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.434/mac-osx-full/Shockwave_Installer.sit'
+
+- name: shockwave-player-9.0.0.434-windows-foo
+  file: installer.foo.exe
+  size: 3636992
+  sha256: f7af8d8fa154dace936b82c4829080bfc4d7f6ce00402348de67cb3d2f372a98
+  source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.434/win-foo/installer.foo.exe'
+
+- name: shockwave-player-9.0.0.434-windows-full-archive
+  file: Shockwave_Installer_Full.zip
+  size: 4004896
+  sha256: 8747530c2bd0c500d63519c32c29c10d022f56d198c134792c5239aee06b5576
+  source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.434/win-full-archive/Shockwave_Installer_Full.zip'
+
+- name: shockwave-player-9.0.0.434-windows-full-flash
+  file: Flash_Shockwave_Full.exe
+  size: 5207832
+  sha256: 62c32749b0149e3e1f8db26ad6fc4e81e5cb6b5b00be86e16526136ecc9171fa
+  source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.434/win-full-flash/Flash_Shockwave_Full.exe'
+
+- name: shockwave-player-9.0.0.434-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 4038400
+  sha256: faa0c32f330c649008a388941a38c691357c2da40a45c627f34f42bcfdc38158
+  source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.434/win-full/Shockwave_Installer_Full.exe'

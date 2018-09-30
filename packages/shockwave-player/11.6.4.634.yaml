@@ -1,0 +1,17 @@
+- name: shockwave-player-11.6.4.634-mac-full-64bit
+  file: Shockwave_Installer_Full_64bit.dmg
+  size: 11661984
+  sha256: 17ca00742481be40fa8df0fe959431d525290ccf7a9fd550038c5c1788b0e6af
+  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.4.634/mac-full-64bit/Shockwave_Installer_Full_64bit.dmg'
+
+- name: shockwave-player-11.6.4.634-windows-activex
+  file: sw.cab
+  size: 206335
+  sha256: 71f68c5ef5379220cc7dabc4a67079b20176a656c0c4231254c135b9efeeaf20
+  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.4.634/win-activex/sw.cab'
+
+- name: shockwave-player-11.6.4.634-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 12423928
+  sha256: aeebb5e85d2d97c5d3c5d4afd68648fc25d4ed1b8b146b15c4a38c73b8a2c1ec
+  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.4.634/win-full/Shockwave_Installer_Full.exe'

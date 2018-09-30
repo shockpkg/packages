@@ -1,0 +1,5 @@
+- name: shockwave-player-12.1.7.157-2-windows-full-licensed-msi
+  file: sw_lic_full_installer.msi
+  size: 24557568
+  sha256: 26e2f03d20577bc3b6210d2cdf0b1adc5fff181f9f71804b5165541bf648cbe2
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.1.7.157-2/win-full-lic-msi/sw_lic_full_installer.msi'

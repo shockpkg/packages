@@ -1,0 +1,17 @@
+- name: shockwave-player-8.5.0.324-windows-activex-alt
+  file: sw_alt.cab
+  size: 215198
+  sha256: d0418a4d95c16d7fe21b4850f204114f1894ab79f44c250f797b6f1396f75767
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.324/win-activex-alt/sw_alt.cab'
+
+- name: shockwave-player-8.5.0.324-windows-activex
+  file: sw.cab
+  size: 214130
+  sha256: a017bf531f2ef15a63d510d4e78e5dec5620f013cc0726e4e8b51e9ddae6b81e
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.324/win-activex/sw.cab'
+
+- name: shockwave-player-8.5.0.324-windows-shim
+  file: shockwaveinstaller.exe
+  size: 689768
+  sha256: 7b220eb1b3547535421bc349ddd96512baaf532c35034600e32b6297228fbe52
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.324/win-shim/shockwaveinstaller.exe'

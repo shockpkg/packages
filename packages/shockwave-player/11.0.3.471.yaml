@@ -1,0 +1,11 @@
+- name: shockwave-player-11.0.3.471-windows-activex
+  file: sw.cab
+  size: 219864
+  sha256: 8ed5ed2c0d2d31f133e6dc552dfaac97bf53f7ca1d693e15d0f256f8f4a31a13
+  source: 'https://gitlab.com/swarchive/player/raw/master/11.0.3.471/win-activex/sw.cab'
+
+- name: shockwave-player-11.0.3.471-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 9516472
+  sha256: f6b9614c839c0361fb9ba3d127150288042562be2f744cfb6929697e858cc91e
+  source: 'https://gitlab.com/swarchive/player/raw/master/11.0.3.471/win-full/Shockwave_Installer_Full.exe'

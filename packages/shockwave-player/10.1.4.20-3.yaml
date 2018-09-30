@@ -1,0 +1,5 @@
+- name: shockwave-player-10.1.4.20-3-windows-slim
+  file: shockwave1014020.exe
+  size: 2608368
+  sha256: 3fa361618727a1ab4de699ccfb71ade87b574fc56805ec7b65b6e0bbc6d8cbf6
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.1.4.20-3/win-slim/shockwave1014020.exe'

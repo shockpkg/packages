@@ -1,0 +1,5 @@
+- name: shockwave-player-11.6.5.635-2-windows-activex
+  file: sw.cab
+  size: 206465
+  sha256: 2cdb453578575ddac17761dd99f98874d0ae7065ffbb938ad1be142b670d8fa2
+  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.5.635-2/win-activex/sw.cab'

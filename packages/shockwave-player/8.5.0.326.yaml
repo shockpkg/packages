@@ -1,0 +1,29 @@
+- name: shockwave-player-8.5.0.326-windows-foo
+  file: installer.foo.exe
+  size: 3531681
+  sha256: 8a0e54ad6321525e0c474617e9a0481cd8d2980a8e1ab434919db5c219d40587
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.326/win-foo/installer.foo.exe'
+
+- name: shockwave-player-8.5.0.326-windows-full-japanese
+  file: Shockwave_Installer_FullJ.exe
+  size: 4095176
+  sha256: dfba9923fa2e1b371a936683c3a5e4ede42c4358f316be88620c7c7a84a37a3b
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.326/win-full-japanese/Shockwave_Installer_FullJ.exe'
+
+- name: shockwave-player-8.5.0.326-windows-full-korean
+  file: Shockwave_Installer_FullK.exe
+  size: 4095176
+  sha256: 3b03502f15ba960b11f00f460ef3e92c7e46e3868955b6bd155e5db94f87f6d5
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.326/win-full-korean/Shockwave_Installer_FullK.exe'
+
+- name: shockwave-player-8.5.0.326-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 4122312
+  sha256: 3c24dd9761f57f637f9bae8986253ae899e87c017611a53e923703b184c71ebc
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.326/win-full/Shockwave_Installer_Full.exe'
+
+- name: shockwave-player-8.5.0.326-windows-shim
+  file: shockwaveinstaller.exe
+  size: 680136
+  sha256: 11a9befcdb8ea976d637f0b368318e288ea6b2fc2e7643eeba7bce174c7529a0
+  source: 'https://gitlab.com/swarchive/player/raw/master/8.5.0.326/win-shim/shockwaveinstaller.exe'

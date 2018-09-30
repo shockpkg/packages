@@ -1,0 +1,5 @@
+- name: shockwave-player-9.0.0.383-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 4882567
+  sha256: be834ad01857e01fc06ba31725688ff4cd38ac8d90acabb8158fef49316e37cd
+  source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.383/win-full/Shockwave_Installer_Full.exe'

@@ -1,0 +1,5 @@
+- name: shockwave-player-6.0.1.117-windows-32bit-netscape
+  file: Shockwave_Installer.exe
+  size: 1071329
+  sha256: 443b2fb516e94752030fd09d2e708ab4716c25ab37dde929cd273e3195ccf3dc
+  source: 'https://gitlab.com/swarchive/player/raw/master/6.0.1.117/win-32bit-ns/Shockwave_Installer.exe'

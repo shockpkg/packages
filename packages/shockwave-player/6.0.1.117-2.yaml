@@ -1,0 +1,17 @@
+- name: shockwave-player-6.0.1.117-2-mac-68k
+  file: Shockwave_Installer.sea.hqx
+  size: 1113963
+  sha256: 93f0311969b15ee37af203d908eb4af6266913162fe4304cd51c6531707521e9
+  source: 'https://gitlab.com/swarchive/player/raw/master/6.0.1.117-2/mac-68k/Shockwave_Installer.sea.hqx'
+
+- name: shockwave-player-6.0.1.117-2-mac-ppc
+  file: Shockwave_Installer.sea.hqx
+  size: 1334427
+  sha256: 18b010f4b1b5ba6151a888ecd15e2a6241525aeffc5ca5939a5a5f61eb0562ca
+  source: 'https://gitlab.com/swarchive/player/raw/master/6.0.1.117-2/mac-ppc/Shockwave_Installer.sea.hqx'
+
+- name: shockwave-player-6.0.1.117-2-windows-16bit-netscape
+  file: Shockwav.exe
+  size: 1074467
+  sha256: 7abe5505772bd6c2a6c4de95e535fd286bd94248a3faf9e61b21ebd3e9d705c7
+  source: 'https://gitlab.com/swarchive/player/raw/master/6.0.1.117-2/win-16bit-ns/Shockwav.exe'

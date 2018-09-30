@@ -1,0 +1,5 @@
+- name: shockwave-player-10.0.0.210-2-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 4361928
+  sha256: f14afa104ab0fb0cc4b709d9b6d79cb39b257e387be8f61340db96df6fa74e55
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.0.0.210-2/win-full/Shockwave_Installer_Full.exe'

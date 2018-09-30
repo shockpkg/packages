@@ -1,0 +1,17 @@
+- name: shockwave-player-10.2.0.23-windows-activex
+  file: sw.cab
+  size: 196747
+  sha256: 671f1f5f2ad128bed1791ab3d6dd43c07848a397896eff5134393340ce7680ad
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.2.0.23/win-activex/sw.cab'
+
+- name: shockwave-player-10.2.0.23-windows-full-licensed-msi
+  file: sw_lic_full_installer.msi
+  size: 5405184
+  sha256: 3329e4308b71bcf69e2c72bf50cf358a7e5fdbe77e9bf258be6f1acc62efc267
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.2.0.23/win-full-lic-msi/sw_lic_full_installer.msi'
+
+- name: shockwave-player-10.2.0.23-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 5703144
+  sha256: fc18a7ff6c6f511d961db8d129e255812855a6ec4a6e75bb896a8b5cfd5e7873
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.2.0.23/win-full/Shockwave_Installer_Full.exe'

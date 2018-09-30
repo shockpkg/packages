@@ -1,0 +1,41 @@
+- name: shockwave-player-12.2.3.183-mac-full-64bit
+  file: Shockwave_Installer_Full_64bit.dmg
+  size: 18757282
+  sha256: 8b38b4a496ef6b1b08d75b057a74c22a52ce2207df62a7eee305846126994556
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.3.183/mac-full-64bit/Shockwave_Installer_Full_64bit.dmg'
+
+- name: shockwave-player-12.2.3.183-windows-activex
+  file: sw.cab
+  size: 1021271
+  sha256: 9e88cb9a91e69d06fe7ba0363d74cf3a47fca7873db36f4688d242e35692fbb1
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.3.183/win-activex/sw.cab'
+
+- name: shockwave-player-12.2.3.183-windows-full-licensed-msi
+  file: sw_lic_full_installer.msi
+  size: 24801792
+  sha256: 838cb3e7c8682e9827be3eaa9f055ca0a20343c95b60a23b02f1c085d49e0917
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.3.183/win-full-lic-msi/sw_lic_full_installer.msi'
+
+- name: shockwave-player-12.2.3.183-windows-full-licensed
+  file: sw_lic_full_installer.exe
+  size: 13144040
+  sha256: 6623ea683944800f96850239fef190723583dfbb98aa3f08c5bb9819e4e5a96e
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.3.183/win-full-lic/sw_lic_full_installer.exe'
+
+- name: shockwave-player-12.2.3.183-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 13900632
+  sha256: 90b0727896cdbb02cd8ca8aa44de5c2084dfcc38a7c8a84e8d76c29d93fc5075
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.3.183/win-full/Shockwave_Installer_Full.exe'
+
+- name: shockwave-player-12.2.3.183-windows-slim-licensed
+  file: sw_lic_slim_installer.exe
+  size: 4280056
+  sha256: 37191e6406db1805b0b1c5ce9233ac944f4c74f6bf40da1c1dec4241086f5b79
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.3.183/win-slim-lic/sw_lic_slim_installer.exe'
+
+- name: shockwave-player-12.2.3.183-windows-slim
+  file: Shockwave_Installer_Slim.exe
+  size: 5032952
+  sha256: bad535f101cf1b32e945b65ef7b6e9f1f6c0690108e8fcf1d9bd0ab80bc1d336
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.3.183/win-slim/Shockwave_Installer_Slim.exe'

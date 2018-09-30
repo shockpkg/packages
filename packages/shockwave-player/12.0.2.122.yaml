@@ -1,0 +1,17 @@
+- name: shockwave-player-12.0.2.122-windows-activex
+  file: sw.cab
+  size: 228413
+  sha256: 9ee2c81fe866f6ea834d437c5277fd53e1d2e55b244912a064becb328b3880d4
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.0.2.122/win-activex/sw.cab'
+
+- name: shockwave-player-12.0.2.122-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 15728944
+  sha256: 67636d68254995c6a8e3db95cd9c6909363cb82ebdd43a2531696988c1ed319f
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.0.2.122/win-full/Shockwave_Installer_Full.exe'
+
+- name: shockwave-player-12.0.2.122-windows-slim
+  file: Shockwave_Installer_Slim.exe
+  size: 7872648
+  sha256: 5116a1e86567248940a513a0aab6097a3b760fc9b0140aa289c6faf761c9381a
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.0.2.122/win-slim/Shockwave_Installer_Slim.exe'

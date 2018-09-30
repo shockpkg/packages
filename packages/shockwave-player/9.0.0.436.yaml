@@ -1,0 +1,5 @@
+- name: shockwave-player-9.0.0.436-windows-foo
+  file: installer.foo.exe
+  size: 3636992
+  sha256: b6da85d0a916da66cca1efdadb806e1988a190ce56bb3d68e761208dc8b8c3dc
+  source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.436/win-foo/installer.foo.exe'

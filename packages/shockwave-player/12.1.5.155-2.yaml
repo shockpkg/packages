@@ -1,0 +1,17 @@
+- name: shockwave-player-12.1.5.155-2-windows-full-licensed-msi
+  file: sw_lic_full_installer.msi
+  size: 24247808
+  sha256: 6d5465fd3ea4ad9f0aa4448041242abc295e984bc43a628aa27ee6d437042e6d
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.1.5.155-2/win-full-lic-msi/sw_lic_full_installer.msi'
+
+- name: shockwave-player-12.1.5.155-2-windows-full-licensed
+  file: sw_lic_full_installer.exe
+  size: 13080064
+  sha256: 7855a0bb7f776fa16d91423463faca9e0333d3ce294e609ee316cc6e566bb17f
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.1.5.155-2/win-full-lic/sw_lic_full_installer.exe'
+
+- name: shockwave-player-12.1.5.155-2-windows-full
+  file: Shockwave_Installer_Full.exe
+  size: 13828792
+  sha256: cecc48b166b5f517f2f28d54c8fd6a9614cb6fc07ac652f1d2094ceda4974f9f
+  source: 'https://gitlab.com/swarchive/player/raw/master/12.1.5.155-2/win-full/Shockwave_Installer_Full.exe'
