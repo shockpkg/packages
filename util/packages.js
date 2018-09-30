@@ -6,10 +6,58 @@ const fs = require('fs');
 const glob = require('glob');
 const yaml = require('js-yaml');
 
+function comparePrimitive(a, b) {
+	if (a < b) {
+		return -1;
+	}
+	if (a > b) {
+		return 1;
+	}
+	return 0;
+}
+
+function compareVersions(a, b) {
+	for (let i = 0; i < 2; i++) {
+		const l = Math.max(a[i].length, b[i].length);
+		for (let j = 0; j < l; j++) {
+			const aV = j < a[i].length ? a[i][j] : -1;
+			const bV = j < b[i].length ? b[i][j] : -1;
+
+			const cmp = comparePrimitive(aV, bV);
+			if (cmp) {
+				return cmp;
+			}
+		}
+	}
+	return 0;
+}
+
+function comparePart(a, b) {
+	const aV = parseVersion(a);
+	const bV = parseVersion(b);
+	if (aV && bV) {
+		return compareVersions(aV, bV);
+	}
+	return comparePrimitive(a, b);
+}
+
 function pathToParts(p) {
-	const [group, version] = p.replace(/\.yaml$/, '').split('/');
-	const parts = version.split('.').map(Number);
-	parts.unshift(group);
+	return p.replace(/\.yaml$/, '').split('/');
+}
+
+function parseVersion(s) {
+	if (
+		!/^[\d.-]+$/.test(s) ||
+		!/^\d/.test(s) ||
+		!/\d$/.test(s) ||
+		s.indexOf('-') !== s.lastIndexOf('-')
+	) {
+		return null;
+	}
+	const parts = s.split('-').map(e => e.split('.').map(Number));
+	if (parts.length < 2) {
+		parts.push([]);
+	}
 	return parts;
 }
 
@@ -19,13 +67,9 @@ function comparePaths(a, b) {
 
 	const l = Math.max(a.length, b.length);
 	for (let i = 0; i < l; i++) {
-		const aI = i < a.length ? a[i] : -1;
-		const bI = i < b.length ? b[i] : -1;
-		if (aI < bI) {
-			return -1;
-		}
-		if (aI > bI) {
-			return 1;
+		const cmp = comparePart(a[i], b[i]);
+		if (cmp) {
+			return cmp;
 		}
 	}
 	return 0;
