@@ -1,0 +1,23 @@
+- name: air-sdk-3.6.0.6090-windows
+  file: AdobeAIRSDK.zip
+  size: 172286961
+  sha256: f1d559bf54a9bda31f49925def497bae8a60c99cb4dd7f3a4e2d0917b9d4a224
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.6/AdobeAIRSDK.zip'
+
+- name: air-sdk-3.6.0.6090-windows-compiler
+  file: AIRSDK_Compiler.zip
+  size: 209283610
+  sha256: 7f59b321f26c7a1b8f67234fd9c6f804affe73857564ba4dd87831514e59dbbe
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.6/AIRSDK_Compiler.zip'
+
+- name: air-sdk-3.6.0.6090-mac
+  file: AdobeAIRSDK.tbz2
+  size: 151831032
+  sha256: 292fcacd42f951c43dcde9683d21f6ef0da0d8fff33a936c13b3cb55943d75d6
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.6/AdobeAIRSDK.tbz2'
+
+- name: air-sdk-3.6.0.6090-mac-compiler
+  file: AIRSDK_Compiler.tbz2
+  size: 189225198
+  sha256: c1566224e7643f36e99f2be8d7f26dd89079460cae1581b919d22b8b52a4ff51
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.6/AIRSDK_Compiler.tbz2'

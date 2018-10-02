@@ -1,0 +1,29 @@
+- name: air-runtime-13.0.0.111-android
+  file: AdobeAIRAndroid.apk
+  size: 12276939
+  sha256: a2c9bd695fa67ba0592b2121017df24d0b386c9cd87683f0e88266d9e38f19ad
+  source: 'https://fpdownload.macromedia.com/air/android/download/13.0.0.111/AdobeAIRAndroid.apk'
+
+- name: air-runtime-13.0.0.111-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 18078000
+  sha256: 720182c60b1b469876314a95381e36b2082e5d9bb6d44cdda27bac50c6cef0e4
+  source: 'https://fpdownload.macromedia.com/air/win/download/13.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-runtime-13.0.0.111-windows
+      file: AdobeAIRInstaller.exe
+      size: 18133768
+      sha256: 256eb2883e35c609ffd0562d3a048053a93767f831e11aff583b94d8c5a317ba
+      source: AdobeAIRInstaller.exe
+
+- name: air-runtime-13.0.0.111-mac-archive
+  file: AdobeAIR.zip
+  size: 25966818
+  sha256: dfd4d6d3e623be958aa58986a7ec4505466f04a311fce55eacdd932273a9cc52
+  source: 'https://fpdownload.macromedia.com/air/mac/download/13.0/AdobeAIR.zip'
+  packages:
+    - name: air-runtime-13.0.0.111-mac
+      file: AdobeAIR.dmg
+      size: 25994820
+      sha256: 7bd3a4dc193542e6421d46f1c7dcac425b1eb42512f9bf5d7b7a1755dbaf7419
+      source: AdobeAIR.dmg

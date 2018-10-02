@@ -1,0 +1,23 @@
+- name: air-runtime-3.1.0.4880-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 15105488
+  sha256: 8f50604d57f55e1b455deabcade5a5b5033d2f214a96b1597a869b8f709351db
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.1/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-runtime-3.1.0.4880-windows
+      file: AdobeAIRInstaller.exe
+      size: 15160720
+      sha256: 32fea584d02d756f4d2143bed199f44a1c518400fe8d509d5bec6e7dfefa102b
+      source: AdobeAIRInstaller.exe
+
+- name: air-runtime-3.1.0.4880-mac-archive
+  file: AdobeAIR.zip
+  size: 23498204
+  sha256: 79face4ccf7b2993babb13d78d9f0f7801b7a56ff6de2928158039b27188ad12
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.1/AdobeAIR.zip'
+  packages:
+    - name: air-runtime-3.1.0.4880-mac
+      file: AdobeAIR.dmg
+      size: 23655721
+      sha256: 151eff6820ce58c61c3154a4cea5c1cfe616cf4bfd615e6e0fbaec73c205d1ed
+      source: AdobeAIR.dmg

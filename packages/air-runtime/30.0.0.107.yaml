@@ -1,0 +1,17 @@
+- name: air-runtime-30.0.0.107-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 11272806
+  sha256: 08d4cbe25412c92e7b896b85408d2f0180a33c40e969ada45d0ca6c9be770317
+  source: 'https://fpdownload.macromedia.com/air/win/download/30.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-runtime-30.0.0.107-windows
+      file: AdobeAIRInstaller.exe
+      size: 11608736
+      sha256: bcc36174f6f70baba27e5ed1c0df67e55c306ac7bc86b1d280eff4db8c314985
+      source: AdobeAIRInstaller.exe
+
+- name: air-runtime-30.0.0.107-mac
+  file: AdobeAIR.dmg
+  size: 20742242
+  sha256: 17be984bf8fc2d24f5db70b044a07da682f4bbd4394684c56f33b5101c2d0c72
+  source: 'https://fpdownload.macromedia.com/air/mac/download/30.0/AdobeAIR.dmg'

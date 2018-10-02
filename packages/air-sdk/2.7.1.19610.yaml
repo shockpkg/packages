@@ -1,0 +1,11 @@
+- name: air-sdk-2.7.1.19610-windows
+  file: AdobeAIRSDK.zip
+  size: 94546620
+  sha256: b9751d6f9e48989a009be32f746fba75729e5bf08365936013f8097ba25b8d42
+  source: 'https://fpdownload.macromedia.com/air/win/download/2.7/AdobeAIRSDK.zip'
+
+- name: air-sdk-2.7.1.19610-mac
+  file: AdobeAIRSDK.tbz2
+  size: 77073568
+  sha256: 5733728edfa4cab9f59f22f8046f040bfc810f1e640e69cff001fa0197425e65
+  source: 'https://fpdownload.macromedia.com/air/mac/download/2.7/AdobeAIRSDK.tbz2'

@@ -1,0 +1,11 @@
+- name: air-sdk-25.0.0.134-windows-compiler
+  file: AIRSDK_Compiler.zip
+  size: 396844226
+  sha256: 07de996f4bc0da5f10d5f7278a1f6e283ce92f01abf0bea06f0db43f1482bd0b
+  source: 'https://fpdownload.macromedia.com/air/win/download/25.0/AIRSDK_Compiler.zip'
+
+- name: air-sdk-25.0.0.134-mac-compiler
+  file: AIRSDK_Compiler.dmg
+  size: 383121003
+  sha256: 36cb9c62ad245c8f84efce0f218e8465cfec40d657e35533ba21a48107a8c6ba
+  source: 'https://fpdownload.macromedia.com/air/mac/download/25.0/AIRSDK_Compiler.dmg'

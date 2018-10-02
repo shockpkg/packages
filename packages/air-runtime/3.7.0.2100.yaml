@@ -1,0 +1,11 @@
+- name: air-runtime-3.7.0.2100-mac-archive
+  file: AdobeAIR.zip
+  size: 27453581
+  sha256: 8887edf26767853c002cff78ae203da7ccc1e2b84ab48aee77d2b4029f44b916
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.7/AdobeAIR.zip'
+  packages:
+    - name: air-runtime-3.7.0.2100-mac
+      file: AdobeAIR.dmg
+      size: 27483677
+      sha256: 051c0985ae3ab925f1b21fbc4ec862650ee3132cad810891edca8eb643fb5a06
+      source: AdobeAIR.dmg

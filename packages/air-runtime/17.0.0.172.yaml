@@ -1,0 +1,17 @@
+- name: air-runtime-17.0.0.172-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 17669804
+  sha256: 04647d69871b0c69ea89535262f2dab6c5af5d3827759f87d2f279dfd460bce6
+  source: 'https://fpdownload.macromedia.com/air/win/download/17.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-runtime-17.0.0.172-windows
+      file: AdobeAIRInstaller.exe
+      size: 17721768
+      sha256: 8d6a17294152573e517c53f3c086c1601d3f3bfa770ecde4761679b20528762c
+      source: AdobeAIRInstaller.exe
+
+- name: air-runtime-17.0.0.172-mac
+  file: AdobeAIR.tbz2
+  size: 25854068
+  sha256: bd6da74e83c8350db9fcd9bf5231e16aa1a9c3623862a2368113d5088cd4c8fb
+  source: 'https://fpdownload.macromedia.com/air/mac/download/17.0/AdobeAIR.tbz2'

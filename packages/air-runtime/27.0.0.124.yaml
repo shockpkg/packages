@@ -1,0 +1,11 @@
+- name: air-runtime-27.0.0.124-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 10614501
+  sha256: 7cc5fa802f712c6e9d14c3dc7f87ba3fc04352de7ea58eeca257cacb4a4b5834
+  source: 'https://fpdownload.macromedia.com/air/win/download/27.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-runtime-27.0.0.124-windows
+      file: AdobeAIRInstaller.exe
+      size: 10936832
+      sha256: 6a5d7ab4bbd22633577e541fa32e0248e238ad83464bfbad677260328a1f9781
+      source: AdobeAIRInstaller.exe

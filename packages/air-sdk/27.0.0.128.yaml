@@ -1,0 +1,11 @@
+- name: air-sdk-27.0.0.128-mac
+  file: AdobeAIRSDK.dmg
+  size: 437528660
+  sha256: 0d187ec68da475a24d03a8a3e8f5bd6c020bd38ba91ea4338d51d010642e29d0
+  source: 'https://fpdownload.macromedia.com/air/mac/download/27.0/AdobeAIRSDK.dmg'
+
+- name: air-sdk-27.0.0.128-mac-compiler
+  file: AIRSDK_Compiler.dmg
+  size: 474734570
+  sha256: 15378bc0dfa8d46f1f95c3cab4974e0fb6cb8f6362dd0590e74480e29a9d463a
+  source: 'https://fpdownload.macromedia.com/air/mac/download/27.0/AIRSDK_Compiler.dmg'

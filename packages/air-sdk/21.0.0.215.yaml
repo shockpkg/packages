@@ -1,0 +1,23 @@
+- name: air-sdk-21.0.0.215-windows
+  file: AdobeAIRSDK.zip
+  size: 211644981
+  sha256: 22688bcfdfb65fe8afc89f6faa26f11c54476332248b1690a330b284d3730468
+  source: 'https://fpdownload.macromedia.com/air/win/download/21.0/AdobeAIRSDK.zip'
+
+- name: air-sdk-21.0.0.215-windows-compiler
+  file: AIRSDK_Compiler.zip
+  size: 248687386
+  sha256: 10b295a8093d39865144a567f66614fc665f67fa8910285877845e30fd1ef233
+  source: 'https://fpdownload.macromedia.com/air/win/download/21.0/AIRSDK_Compiler.zip'
+
+- name: air-sdk-21.0.0.215-mac
+  file: AdobeAIRSDK.tbz2
+  size: 219629952
+  sha256: f02a1fa72ded15606fb6b487b5375d0579a541e71b151fc0b8c92a5af7115cc3
+  source: 'https://fpdownload.macromedia.com/air/mac/download/21.0/AdobeAIRSDK.tbz2'
+
+- name: air-sdk-21.0.0.215-mac-compiler
+  file: AIRSDK_Compiler.tbz2
+  size: 256845248
+  sha256: 295731c3528ca4deddcb92c4d03be4609a426d0f38ab520d704699e10553e6d7
+  source: 'https://fpdownload.macromedia.com/air/mac/download/21.0/AIRSDK_Compiler.tbz2'

@@ -1,0 +1,29 @@
+- name: air-runtime-2.5.0.16600-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 12622061
+  sha256: 6edf5091018e8bddd7ca1b589c19db33d18ab5ca50a84544bbd9043c2c0400c5
+  source: 'https://fpdownload.macromedia.com/air/win/download/2.5/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-runtime-2.5.0.16600-windows
+      file: AdobeAIRInstaller.exe
+      size: 12675272
+      sha256: 6875da219c64a4ac1fa1950ddf1b9f42e2f00352e502e1608f834974cff32384
+      source: AdobeAIRInstaller.exe
+
+- name: air-runtime-2.5.0.16600-mac-archive
+  file: AdobeAIR.zip
+  size: 18193632
+  sha256: a0b320fbfa7fdb82906faf876b389976723f03ae62c35147235abc2fc3cad9c4
+  source: 'https://fpdownload.macromedia.com/air/mac/download/2.5/AdobeAIR.zip'
+  packages:
+    - name: air-runtime-2.5.0.16600-mac
+      file: AdobeAIR.dmg
+      size: 18286194
+      sha256: 22729a266896c2c52847da7c79ad089b63ee1b25846474a12a46c6ce3a3ab665
+      source: AdobeAIR.dmg
+
+- name: air-runtime-2.5.0.16600-linux
+  file: AdobeAIRInstaller.bin
+  size: 15798100
+  sha256: 5c4420afce665c24cdc41e8a9286bfe88ebe76f7de6a6c4b3d18a40a99c6ed94
+  source: 'https://fpdownload.macromedia.com/air/lin/download/2.5/AdobeAIRInstaller.bin'

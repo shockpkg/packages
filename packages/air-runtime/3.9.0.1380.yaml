@@ -1,0 +1,29 @@
+- name: air-runtime-3.9.0.1380-android
+  file: AdobeAIRAndroid.apk
+  size: 10364612
+  sha256: 5d787699c27478fc2fe44adb628c0971995875769a5952ce07c6e5313d361406
+  source: 'https://fpdownload.macromedia.com/air/android/download/3.9.0.1380/AdobeAIRAndroid.apk'
+
+- name: air-runtime-3.9.0.1380-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 18045798
+  sha256: 402d625bad82794d2a6804cb299308fd8429b4063832f6d56e878fc92257ac07
+  source: 'https://fpdownload.macromedia.com/air/win/download/3.9/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-runtime-3.9.0.1380-windows
+      file: AdobeAIRInstaller.exe
+      size: 18101704
+      sha256: 11e5a4dd0f7cedd1204c3e946efe91a03f98361e6818f64c559268d71855def0
+      source: AdobeAIRInstaller.exe
+
+- name: air-runtime-3.9.0.1380-mac-archive
+  file: AdobeAIR.zip
+  size: 27560805
+  sha256: 1f843594a1f4e8e392a9e892499eb0a5736adaf1ddacab9af8176289e91e650b
+  source: 'https://fpdownload.macromedia.com/air/mac/download/3.9/AdobeAIR.zip'
+  packages:
+    - name: air-runtime-3.9.0.1380-mac
+      file: AdobeAIR.dmg
+      size: 27590943
+      sha256: 9b5601062674db2de5fccc5e2914e9647a73b02596e7befb83ba6b90a87ee08c
+      source: AdobeAIR.dmg
