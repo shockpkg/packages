@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - "v10.6.0"
+  - "v10.11.0"
 
 cache:
   yarn: true
