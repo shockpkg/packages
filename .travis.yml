@@ -23,3 +23,4 @@ deploy:
   github-token: $GITHUB_TOKEN
   on:
     branch: master
+    condition: $TRAVIS_EVENT_TYPE != cron
