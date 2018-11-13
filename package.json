@@ -5,6 +5,7 @@
 		"lint": "eslint .",
 		"test": "jasmine",
 		"test-verbose": "SPEC_REPORTER=1 jasmine",
+		"verify": "node ./bin/verify",
 		"clean": "rimraf ./dist",
 		"build": "node ./bin/build"
 	},
