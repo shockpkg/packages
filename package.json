@@ -9,6 +9,7 @@
 		"build": "node ./bin/build"
 	},
 	"devDependencies": {
+		"async": "^2.6.1",
 		"cheerio": "^1.0.0-rc.2",
 		"eslint": "^5.9.0",
 		"fs-extra": "^7.0.1",
