@@ -12,6 +12,7 @@ script:
   - npm run lint
   - npm run test
   - npm run verify
+  - npm run newest
   - npm run build
 
 deploy:
