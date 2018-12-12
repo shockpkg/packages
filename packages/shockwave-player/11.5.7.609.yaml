@@ -4,6 +4,12 @@
   sha256: e75405b8dc7d4e38964a752e6b3f76c38b9f81a2d4ba93cd6718bf4dd97e031a
   source: 'https://gitlab.com/swarchive/player/raw/master/11.5.7.609/win-activex/sw.cab'
 
+- name: shockwave-player-11.5.7.609-windows-full-licensed-msi
+  file: sw_lic_full_installer.msi
+  size: 13843456
+  sha256: f7abad034f74941ee5e94dd90ca55bb23b95064173bf1a3071d772068b66f813
+  source: 'https://gitlab.com/swarchive/player/raw/master/11.5.7.609/win-full-lic-msi/sw_lic_full_installer.msi'
+
 - name: shockwave-player-11.5.7.609-windows-full
   file: Shockwave_Installer_Full.exe
   size: 8451136
