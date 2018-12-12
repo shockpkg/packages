@@ -17,10 +17,10 @@
   source: 'https://gitlab.com/swarchive/player/raw/master/10.1.1.16/mac-classic-slim/Shockwave_10.0_Slim.sit'
 
 - name: shockwave-player-10.1.1.16-mac-osx-full-japanese
-  file: Shockwave_Installer_J.hqx
-  size: 7598699
-  sha256: 1d45ce5b3cb1059cca01d96046adb65163837bda289eb74bd8a1160cdaa567de
-  source: 'https://gitlab.com/swarchive/player/raw/master/10.1.1.16/mac-osx-full-japanese/Shockwave_Installer_J.hqx'
+  file: Shockwave_Installer_FullJ.dmg
+  size: 5290315
+  sha256: 4cd91d1136c775b665070009e77fa64301c122daba760830583ff39dee37a7dd
+  source: 'https://gitlab.com/swarchive/player/raw/master/10.1.1.16/mac-osx-full-japanese/Shockwave_Installer_FullJ.dmg'
 
 - name: shockwave-player-10.1.1.16-mac-osx-full
   file: Shockwave_Installer_Full.dmg
