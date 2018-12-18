@@ -8,7 +8,7 @@
       file: AdobeAIRInstaller.exe
       size: 11536984
       sha256: 24532d41ef2588c0daac4b6f8b7f863ee3c1a1b1e90b2d8d8b3eb4faa657e5e3
-      path: AdobeAIRInstaller.exe
+      source: AdobeAIRInstaller.exe
 
 - name: air-runtime-32.0.0.89-mac
   file: AdobeAIR.dmg

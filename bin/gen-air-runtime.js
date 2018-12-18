@@ -122,7 +122,7 @@ async function main() {
 					file: filename,
 					size,
 					sha256,
-					path: filepath
+					source: filepath
 				};
 			});
 

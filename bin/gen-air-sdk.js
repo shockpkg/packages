@@ -93,50 +93,6 @@ async function main() {
 			source: url
 		};
 
-		const archiveSuffix = '-archive';
-		if (name.endsWith(archiveSuffix)) {
-			const nameSub = name.substr(0, name.length - archiveSuffix.length);
-
-			let pkg = null;
-
-			// eslint-disable-next-line no-await-in-loop
-			await zip.itterFile(cached.filepath, async info => {
-				if (info.isDirector) {
-					return;
-				}
-				const {filepath} = info;
-				if (paths.isSystem(filepath) || paths.isMetadata(filepath)) {
-					return;
-				}
-				if (pkg) {
-					throw new Error(`Unexpected second entry ${filepath}`);
-				}
-
-				const filename = pathToName(filepath);
-
-				console.log(`  Filepath: ${filepath}`);
-
-				const data = await info.read();
-				const size = data.length;
-				console.log(`  Size: ${size}`);
-
-				const sha256 = await hash.buffer(data, 'sha256');
-				console.log(`  SHA256: ${sha256}`);
-
-				console.log(`  Name: ${nameSub}`);
-
-				pkg = {
-					name: nameSub,
-					file: filename,
-					size,
-					sha256,
-					path: filepath
-				};
-			});
-
-			entry.packages = [pkg];
-		}
-
 		doc.push(entry);
 
 		console.log('');
