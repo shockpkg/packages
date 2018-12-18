@@ -13,7 +13,7 @@ const zip = require('../util/zip');
 const paths = require('../util/paths');
 const yaml = require('../util/yaml');
 
-const packagesDir = path.join(__dirname, '..', 'packages');
+const packagesDir = path.join(path.dirname(__dirname), 'packages');
 
 function pathToName(filepath) {
 	return filepath.split('/').pop();
@@ -67,7 +67,7 @@ async function main() {
 		// eslint-disable-next-line no-await-in-loop
 		const cached = await gencache.ensure(name, url, progress => {
 			const percent = progress * 100;
-			process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%`);
+			process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%\r`);
 		});
 		if (cached.downloaded) {
 			console.log('');

@@ -11,7 +11,7 @@ const gencache = require('../util/gencache');
 const hash = require('../util/hash');
 const yaml = require('../util/yaml');
 
-const packagesDir = path.join(__dirname, '..', 'packages');
+const packagesDir = path.join(path.dirname(__dirname), 'packages');
 
 function genList(version) {
 	const [versionMajor] = version.split('.');
@@ -133,7 +133,7 @@ async function main() {
 		// eslint-disable-next-line no-await-in-loop
 		const cached = await gencache.ensure(name, url, progress => {
 			const percent = progress * 100;
-			process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%`);
+			process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%\r`);
 		});
 		if (cached.downloaded) {
 			console.log('');
