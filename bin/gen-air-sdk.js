@@ -9,15 +9,9 @@ const fse = require('fs-extra');
 
 const gencache = require('../util/gencache');
 const hash = require('../util/hash');
-const zip = require('../util/zip');
-const paths = require('../util/paths');
 const yaml = require('../util/yaml');
 
 const packagesDir = path.join(path.dirname(__dirname), 'packages');
-
-function pathToName(filepath) {
-	return filepath.split('/').pop();
-}
 
 function genList(version) {
 	const verstr = version
