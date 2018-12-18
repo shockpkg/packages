@@ -12,6 +12,7 @@
 	},
 	"devDependencies": {
 		"async": "^2.6.1",
+		"buffer-crc32": "^0.2.13",
 		"cheerio": "^1.0.0-rc.2",
 		"eslint": "^5.9.0",
 		"fs-extra": "^7.0.1",
@@ -22,6 +23,7 @@
 		"js-yaml": "^3.12.0",
 		"npm-check": "^5.9.0",
 		"request": "^2.88.0",
-		"rimraf": "^2.6.2"
+		"rimraf": "^2.6.2",
+		"yauzl": "^2.10.0"
 	}
 }

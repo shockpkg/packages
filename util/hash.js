@@ -19,4 +19,13 @@ async function file(fp, algo) {
 	return r;
 }
 
+function buffer(data, algo) {
+	return crypto
+		.createHash(algo)
+		.update(data)
+		.digest('hex')
+		.toLowerCase();
+}
+
 exports.file = file;
+exports.buffer = buffer;
