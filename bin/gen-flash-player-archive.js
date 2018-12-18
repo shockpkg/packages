@@ -372,7 +372,7 @@ async function main() {
 			file: filename,
 			size,
 			sha256,
-			path: filepath
+			source: filepath
 		});
 
 		console.log('');
@@ -387,7 +387,7 @@ async function main() {
 		file: entry.file,
 		size: entry.size,
 		sha256: entry.sha256,
-		source: entry.path
+		source: entry.source
 	}));
 
 	const entry = {
