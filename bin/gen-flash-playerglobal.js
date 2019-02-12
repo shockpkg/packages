@@ -25,10 +25,6 @@ async function main() {
 		'flash-playerglobal',
 		`${version}.yaml`
 	);
-	const fileExists = await fse.pathExists(file);
-	if (fileExists) {
-		throw new Error(`Path exists: ${file}`);
-	}
 
 	const versionURL = version.replace(/\./, '_');
 	const name = `flash-playerglobal-${version}`;

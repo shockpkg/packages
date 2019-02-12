@@ -310,10 +310,6 @@ async function main() {
 	console.log(version);
 
 	const file = path.join(packagesDir, 'flash-player', `${version}.yaml`);
-	const fileExists = await fse.pathExists(file);
-	if (fileExists) {
-		throw new Error(`Path exists: ${file}`);
-	}
 
 	const name = `flash-player-${version}-archive`;
 	const url = `https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_${version}_archive.zip`;

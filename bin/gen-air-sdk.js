@@ -47,10 +47,6 @@ async function main() {
 	const [version] = args;
 
 	const file = path.join(packagesDir, 'air-sdk', `${version}.yaml`);
-	const fileExists = await fse.pathExists(file);
-	if (fileExists) {
-		throw new Error(`Path exists: ${file}`);
-	}
 
 	const doc = [];
 	const list = genList(version);
