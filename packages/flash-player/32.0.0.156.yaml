@@ -1,7 +1,7 @@
 - name: flash-player-32.0.0.156-windows-npapi
   file: install_flash_player.exe
-  size: 21306840
-  sha256: 72c753b35464d6f6fcb2da768d5eeca104f564a5c10428d3665badd98ab36f37
+  size: 21306904
+  sha256: 55b75b8b3e5eeb6ac516ad82a2595661bdf2a9e383fbcb83ab9a9fd947b8eba0
   source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/install_flash_player.exe'
 
 - name: flash-player-32.0.0.156-windows-npapi-debug
@@ -12,8 +12,8 @@
 
 - name: flash-player-32.0.0.156-windows-ppapi
   file: install_flash_player_ppapi.exe
-  size: 21111264
-  sha256: cabf04127c09f46b8e95724964ab96c119107d1ac370c831274eaa21ede5e1f1
+  size: 21111320
+  sha256: fa0dbad861c16fb889bb8e6fe7e04f9466706ce67678ba68f22e2b6aa6e220cb
   source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/install_flash_player_ppapi.exe'
 
 - name: flash-player-32.0.0.156-windows-ppapi-debug
@@ -24,8 +24,8 @@
 
 - name: flash-player-32.0.0.156-windows-activex
   file: install_flash_player_ax.exe
-  size: 20781016
-  sha256: d65a61861a84c37a15ccbc86b85d761ada451e12b8b865c398a489cc70dcac7e
+  size: 20781080
+  sha256: 10c053514e22915fd3a41680d0fd02ae0f5b774283da1a1efdedd3ad908ed4f6
   source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/install_flash_player_ax.exe'
 
 - name: flash-player-32.0.0.156-windows-activex-debug
