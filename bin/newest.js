@@ -10,39 +10,39 @@ const {requestPromise} = require('../util/request');
 const resources = [
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/cabs/director/sw.cab',
-		size: 1291232,
-		lastModified: 'Tue, 12 Jun 2018 05:27:49 GMT',
-		eTag: '"13b3e0-56e6b20832b0a"'
+		size: 1292210,
+		lastModified: 'Tue, 26 Mar 2019 04:34:58 GMT',
+		eTag: '"13b7b2-584f7d7ef82db"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Full.exe',
-		size: 15124520,
-		lastModified: 'Tue, 12 Jun 2018 05:27:57 GMT',
-		eTag: '"e6c828-56e6b20fc3795"'
+		size: 15124440,
+		lastModified: 'Tue, 26 Mar 2019 04:34:55 GMT',
+		eTag: '"e6c7d8-584f7d7c2de38"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installer.exe',
-		size: 13126968,
-		lastModified: 'Tue, 12 Jun 2018 05:27:58 GMT',
-		eTag: '"c84d38-56e6b2109ce97"'
+		size: 13126832,
+		lastModified: 'Tue, 26 Mar 2019 04:34:56 GMT',
+		eTag: '"c84cb0-584f7d7d11014"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installer.msi',
-		size: 24260096,
-		lastModified: 'Tue, 12 Jun 2018 05:27:25 GMT',
-		eTag: '"1722e00-56e6b1f17edee"'
+		size: 24256512,
+		lastModified: 'Tue, 26 Mar 2019 04:35:03 GMT',
+		eTag: '"1722000-584f7d83b17b1"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe',
-		size: 6256864,
-		lastModified: 'Tue, 12 Jun 2018 05:27:55 GMT',
-		eTag: '"5f78e0-56e6b20d70073"'
+		size: 6257824,
+		lastModified: 'Tue, 26 Mar 2019 04:34:53 GMT',
+		eTag: '"5f7ca0-584f7d7abb4d3"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_slim_installer.exe',
-		size: 4262944,
-		lastModified: 'Tue, 12 Jun 2018 05:27:55 GMT',
-		eTag: '"410c20-56e6b20dc0c93"'
+		size: 4262176,
+		lastModified: 'Tue, 26 Mar 2019 04:34:54 GMT',
+		eTag: '"410920-584f7d7bb709f"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full_64bit.dmg',
