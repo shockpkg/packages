@@ -1,137 +1,185 @@
-- name: flash-player-32.0.0.156-windows-npapi
-  file: install_flash_player.exe
-  size: 21306904
-  sha256: 55b75b8b3e5eeb6ac516ad82a2595661bdf2a9e383fbcb83ab9a9fd947b8eba0
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/install_flash_player.exe'
+- name: flash-player-32.0.0.156-archive
+  file: fp_32.0.0.156_archive.zip
+  size: 445611088
+  sha256: 53ca90dd3200ef66c19ee5590285a96d74cc962e7b31011205368d281e1fbe20
+  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_32.0.0.156_archive.zip'
+  packages:
+    - name: flash-player-32.0.0.156-windows-npapi
+      file: flashplayer32_0r0_156_win.exe
+      size: 21306880
+      sha256: 59236ef321a5330885fb7739d5ef71057367c82091bce9b56f4721fa89179922
+      source: 32_0_r0_156/flashplayer32_0r0_156_win.exe
 
-- name: flash-player-32.0.0.156-windows-npapi-debug
-  file: flashplayer_32_plugin_debug.exe
-  size: 21049856
-  sha256: 55a161c98fc11f5293d4c7c6059e989e5a4cec59ab903744c902624c8a22cc77
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_plugin_debug.exe'
+    - name: flash-player-32.0.0.156-windows-npapi-msi
+      file: flashplayer32_0r0_156_win.msi
+      size: 22416896
+      sha256: 863acd39bd699fdc5a04fe723c49063496dee406e591bf477a7d25f555d4538e
+      source: 32_0_r0_156/flashplayer32_0r0_156_win.msi
 
-- name: flash-player-32.0.0.156-windows-ppapi
-  file: install_flash_player_ppapi.exe
-  size: 21111320
-  sha256: fa0dbad861c16fb889bb8e6fe7e04f9466706ce67678ba68f22e2b6aa6e220cb
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/install_flash_player_ppapi.exe'
+    - name: flash-player-32.0.0.156-windows-npapi-debug
+      file: flashplayer32_0r0_156_win_debug.exe
+      size: 21049856
+      sha256: 55a161c98fc11f5293d4c7c6059e989e5a4cec59ab903744c902624c8a22cc77
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_win_debug.exe
 
-- name: flash-player-32.0.0.156-windows-ppapi-debug
-  file: flashplayer_32_ppapi_debug.exe
-  size: 21546496
-  sha256: d10caf2db6807b9a795fd29dbfbb67b058355b7192228173c5aec58d589a7377
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_ppapi_debug.exe'
+    - name: flash-player-32.0.0.156-windows-ppapi
+      file: flashplayer32_0r0_156_winpep.exe
+      size: 21111296
+      sha256: db8a81737531fc18449513c173577d1868accc075ded474ceb5e41a495455e55
+      source: 32_0_r0_156/flashplayer32_0r0_156_winpep.exe
 
-- name: flash-player-32.0.0.156-windows-activex
-  file: install_flash_player_ax.exe
-  size: 20781080
-  sha256: 10c053514e22915fd3a41680d0fd02ae0f5b774283da1a1efdedd3ad908ed4f6
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/install_flash_player_ax.exe'
+    - name: flash-player-32.0.0.156-windows-ppapi-msi
+      file: flashplayer32_0r0_156_winpep.msi
+      size: 22220800
+      sha256: 49f025b9336c1b9ace070a66cda4556993b485c7d2f72744b8e0ecc6ce036ca3
+      source: 32_0_r0_156/flashplayer32_0r0_156_winpep.msi
 
-- name: flash-player-32.0.0.156-windows-activex-debug
-  file: flashplayer_32_ax_debug.exe
-  size: 21111808
-  sha256: d4286ca2b43945f5e3d2d05240e435934ddceb5d13430bd3c7906f1b48d8597e
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_ax_debug.exe'
+    - name: flash-player-32.0.0.156-windows-ppapi-debug
+      file: flashplayer32_0r0_156_winpep_debug.exe
+      size: 21546496
+      sha256: d10caf2db6807b9a795fd29dbfbb67b058355b7192228173c5aec58d589a7377
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_winpep_debug.exe
 
-- name: flash-player-32.0.0.156-windows-sa
-  file: flashplayer_32_sa.exe
-  size: 15427072
-  sha256: b4417d8989253ce6043f4a703cf3a0916bc9accecb47b73d294c983d9a617471
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa.exe'
+    - name: flash-player-32.0.0.156-windows-activex
+      file: flashplayer32_0r0_156_winax.exe
+      size: 20781056
+      sha256: 20c14523b039761d42d2914e333321559b10615081846e5c90668466582dc7ab
+      source: 32_0_r0_156/flashplayer32_0r0_156_winax.exe
 
-- name: flash-player-32.0.0.156-windows-sa-debug
-  file: flashplayer_32_sa_debug.exe
-  size: 16254464
-  sha256: 75bd961470e60eac00589f5025174d8e6d4be342de5d623f302dd045484a8054
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa_debug.exe'
+    - name: flash-player-32.0.0.156-windows-activex-msi
+      file: flashplayer32_0r0_156_winax.msi
+      size: 21886976
+      sha256: 2260e1e47f95a65e8c3d9e3003de2342fbf39a735c65af1e1bcc807af871eaed
+      source: 32_0_r0_156/flashplayer32_0r0_156_winax.msi
 
-- name: flash-player-32.0.0.156-mac-npapi
-  file: install_flash_player_osx.dmg
-  size: 22352422
-  sha256: 37d236e071f66727cf0b900352faf457c043a2776a1d791df2dc3984ae0172ce
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/install_flash_player_osx.dmg'
+    - name: flash-player-32.0.0.156-windows-activex-debug
+      file: flashplayer32_0r0_156_winax_debug.exe
+      size: 21111808
+      sha256: d4286ca2b43945f5e3d2d05240e435934ddceb5d13430bd3c7906f1b48d8597e
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_winax_debug.exe
 
-- name: flash-player-32.0.0.156-mac-npapi-debug
-  file: flashplayer_32_plugin_debug.dmg
-  size: 21707748
-  sha256: 83d7509a420142b0e426981714416a806af66c05145598ed9d5ffe60ac5613e0
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_plugin_debug.dmg'
+    - name: flash-player-32.0.0.156-windows-sa
+      file: flashplayer32_0r0_156_win_sa.exe
+      size: 15427072
+      sha256: b4417d8989253ce6043f4a703cf3a0916bc9accecb47b73d294c983d9a617471
+      source: 32_0_r0_156/flashplayer32_0r0_156_win_sa.exe
 
-- name: flash-player-32.0.0.156-mac-ppapi
-  file: install_flash_player_osx_ppapi.dmg
-  size: 21773423
-  sha256: 6617428e9177d099c86fe2cbdf96370e328feeed3b60d7f51f9e9aab3965aafc
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/install_flash_player_osx_ppapi.dmg'
+    - name: flash-player-32.0.0.156-windows-sa-debug
+      file: flashplayer32_0r0_156_win_sa_debug.exe
+      size: 16254464
+      sha256: 75bd961470e60eac00589f5025174d8e6d4be342de5d623f302dd045484a8054
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_win_sa_debug.exe
 
-- name: flash-player-32.0.0.156-mac-ppapi-debug
-  file: flashplayer_32_ppapi_debug.dmg
-  size: 21210981
-  sha256: 9257a943094a541c1627a9b1688c511818ff3c5f77aaecf33b0d4a55097abb00
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_ppapi_debug.dmg'
+    - name: flash-player-32.0.0.156-windows-uninstaller
+      file: uninstall_flashplayer32_0r0_156_win.exe
+      size: 1457664
+      sha256: 12189752a38abbbbab80aa4519c21c0e5d7b083c0732d9b68991d1eb016ce2bf
+      source: 32_0_r0_156/uninstall_flashplayer32_0r0_156_win.exe
 
-- name: flash-player-32.0.0.156-mac-sa
-  file: flashplayer_32_sa.dmg
-  size: 17276297
-  sha256: 846ce5cb684b12a246e082fecd17479c0138eda04a97e76896797489894258e3
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa.dmg'
+    - name: flash-player-32.0.0.156-mac-npapi
+      file: flashplayer32_0r0_156_mac.dmg
+      size: 22352422
+      sha256: 37d236e071f66727cf0b900352faf457c043a2776a1d791df2dc3984ae0172ce
+      source: 32_0_r0_156/flashplayer32_0r0_156_mac.dmg
 
-- name: flash-player-32.0.0.156-mac-sa-debug
-  file: flashplayer_32_sa_debug.dmg
-  size: 17835987
-  sha256: 547d2f2c8cb9851eea65c4db2a15c9dc951834e6eb8c48c942ae21bdf5de064b
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa_debug.dmg'
+    - name: flash-player-32.0.0.156-mac-npapi-pkg
+      file: flashplayer32_0r0_156_mac_pkg.dmg
+      size: 20885310
+      sha256: 6064100b7b05c16b8c536625203783bd33f30646a23ea1a1c670161b03b6877b
+      source: 32_0_r0_156/flashplayer32_0r0_156_mac_pkg.dmg
 
-- name: flash-player-32.0.0.156-linux-i386-npapi
-  file: flash_player_npapi_linux.i386.tar.gz
-  size: 8530759
-  sha256: 1e52104984f8c05774d0a93819103671693e9ea1c2bab492060910bd69e60d0f
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/flash_player_npapi_linux.i386.tar.gz'
+    - name: flash-player-32.0.0.156-mac-npapi-debug
+      file: flashplayer32_0r0_156_mac_debug.dmg
+      size: 21707748
+      sha256: 83d7509a420142b0e426981714416a806af66c05145598ed9d5ffe60ac5613e0
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_mac_debug.dmg
 
-- name: flash-player-32.0.0.156-linux-i386-npapi-debug
-  file: flash_player_npapi_linux_debug.i386.tar.gz
-  size: 8853955
-  sha256: c6b7ab99ed841a7a19814d7d46abf7b7a4b9d9192993220c308b58d3e24f851a
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_npapi_linux_debug.i386.tar.gz'
+    - name: flash-player-32.0.0.156-mac-ppapi
+      file: flashplayer32_0r0_156_macpep.dmg
+      size: 21773430
+      sha256: 986b252709db8a72d6a566db0da08cd414b133917810dd9fbb445ef2333ada1a
+      source: 32_0_r0_156/flashplayer32_0r0_156_macpep.dmg
 
-- name: flash-player-32.0.0.156-linux-i386-ppapi
-  file: flash_player_ppapi_linux.i386.tar.gz
-  size: 8565766
-  sha256: 91c6ea3ee9b4fa5730ef0f1fe9bd536efe09252b07f8009df426c910179f4a93
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/flash_player_ppapi_linux.i386.tar.gz'
+    - name: flash-player-32.0.0.156-mac-ppapi-pkg
+      file: flashplayer32_0r0_156_macpep_pkg.dmg
+      size: 20311887
+      sha256: e17681d710a87e133e1eafd18962c96a3ac38133b7b491a75fbb50caac1462a7
+      source: 32_0_r0_156/flashplayer32_0r0_156_macpep_pkg.dmg
 
-- name: flash-player-32.0.0.156-linux-x86_64-npapi
-  file: flash_player_npapi_linux.x86_64.tar.gz
-  size: 9046020
-  sha256: 64febd085a5a9e7ba1c43e41fcb44af278ca2bd6d31a5ac2d9a23e17acd6782c
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/flash_player_npapi_linux.x86_64.tar.gz'
+    - name: flash-player-32.0.0.156-mac-ppapi-debug
+      file: flashplayer32_0r0_156_macpep_debug.dmg
+      size: 21210981
+      sha256: 9257a943094a541c1627a9b1688c511818ff3c5f77aaecf33b0d4a55097abb00
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_macpep_debug.dmg
 
-- name: flash-player-32.0.0.156-linux-x86_64-npapi-debug
-  file: flash_player_npapi_linux_debug.x86_64.tar.gz
-  size: 9414022
-  sha256: b4a3ea092b50358bf7e698e0d8e0f13a65d9c3a114c653b8911f5d9255db2640
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_npapi_linux_debug.x86_64.tar.gz'
+    - name: flash-player-32.0.0.156-mac-sa
+      file: flashplayer32_0r0_156_mac_sa.dmg
+      size: 17276297
+      sha256: 846ce5cb684b12a246e082fecd17479c0138eda04a97e76896797489894258e3
+      source: 32_0_r0_156/flashplayer32_0r0_156_mac_sa.dmg
 
-- name: flash-player-32.0.0.156-linux-x86_64-ppapi
-  file: flash_player_ppapi_linux.x86_64.tar.gz
-  size: 9479771
-  sha256: d6b1ba0ef602ef9402feb8f166ddc01a51a19a5c5b6cb6b92f1a05b2618b3384
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.156/flash_player_ppapi_linux.x86_64.tar.gz'
+    - name: flash-player-32.0.0.156-mac-sa-debug
+      file: flashplayer32_0r0_156_mac_sa_debug.dmg
+      size: 17835987
+      sha256: 547d2f2c8cb9851eea65c4db2a15c9dc951834e6eb8c48c942ae21bdf5de064b
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_mac_sa_debug.dmg
 
-- name: flash-player-32.0.0.156-linux-x86_64-ppapi-debug
-  file: flash_player_ppapi_linux_debug.x86_64.tar.gz
-  size: 9919185
-  sha256: 832461635c36c97f7ee3480f5b0d70fad395c165c603967f6711f9aa97f0f26c
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_ppapi_linux_debug.x86_64.tar.gz'
+    - name: flash-player-32.0.0.156-mac-uninstaller
+      file: uninstall_flashplayer32_0r0_156_mac.dmg
+      size: 1356945
+      sha256: bb33beff2f62dfdece295e4e3102edd487f0eb6630497d2c81bb5d5288d36df8
+      source: 32_0_r0_156/uninstall_flashplayer32_0r0_156_mac.dmg
 
-- name: flash-player-32.0.0.156-linux-x86_64-sa
-  file: flash_player_sa_linux.x86_64.tar.gz
-  size: 8503904
-  sha256: 997b857438a52a3afa3c8072bca60a2ff1cacd069b17662197d17e554a18e384
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_sa_linux.x86_64.tar.gz'
+    - name: flash-player-32.0.0.156-linux-i386-npapi
+      file: flashplayer32_0r0_156_linux.i386.tar.gz
+      size: 8530759
+      sha256: 1e52104984f8c05774d0a93819103671693e9ea1c2bab492060910bd69e60d0f
+      source: 32_0_r0_156/flashplayer32_0r0_156_linux.i386.tar.gz
 
-- name: flash-player-32.0.0.156-linux-x86_64-sa-debug
-  file: flash_player_sa_linux_debug.x86_64.tar.gz
-  size: 8821403
-  sha256: 2996407fc2a9f0ed222e75bd880f0be5b75ce109d68f1cd49fd3dfee5117fa3b
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_sa_linux_debug.x86_64.tar.gz'
+    - name: flash-player-32.0.0.156-linux-i386-npapi-debug
+      file: flashplayer32_0r0_156_linux_debug.i386.tar.gz
+      size: 8853955
+      sha256: c6b7ab99ed841a7a19814d7d46abf7b7a4b9d9192993220c308b58d3e24f851a
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_linux_debug.i386.tar.gz
+
+    - name: flash-player-32.0.0.156-linux-i386-ppapi
+      file: flashplayer32_0r0_156_linuxpep.i386.tar.gz
+      size: 8565766
+      sha256: 91c6ea3ee9b4fa5730ef0f1fe9bd536efe09252b07f8009df426c910179f4a93
+      source: 32_0_r0_156/flashplayer32_0r0_156_linuxpep.i386.tar.gz
+
+    - name: flash-player-32.0.0.156-linux-x86_64-npapi
+      file: flashplayer32_0r0_156_linux.x86_64.tar.gz
+      size: 9046020
+      sha256: 64febd085a5a9e7ba1c43e41fcb44af278ca2bd6d31a5ac2d9a23e17acd6782c
+      source: 32_0_r0_156/flashplayer32_0r0_156_linux.x86_64.tar.gz
+
+    - name: flash-player-32.0.0.156-linux-x86_64-npapi-debug
+      file: flashplayer32_0r0_156_linux_debug.x86_64.tar.gz
+      size: 9414022
+      sha256: b4a3ea092b50358bf7e698e0d8e0f13a65d9c3a114c653b8911f5d9255db2640
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_linux_debug.x86_64.tar.gz
+
+    - name: flash-player-32.0.0.156-linux-x86_64-ppapi
+      file: flashplayer32_0r0_156_linuxpep.x86_64.tar.gz
+      size: 9479771
+      sha256: d6b1ba0ef602ef9402feb8f166ddc01a51a19a5c5b6cb6b92f1a05b2618b3384
+      source: 32_0_r0_156/flashplayer32_0r0_156_linuxpep.x86_64.tar.gz
+
+    - name: flash-player-32.0.0.156-linux-x86_64-ppapi-debug
+      file: flashplayer32_0r0_156_linuxpep_debug.x86_64.tar.gz
+      size: 9919185
+      sha256: 832461635c36c97f7ee3480f5b0d70fad395c165c603967f6711f9aa97f0f26c
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_linuxpep_debug.x86_64.tar.gz
+
+    - name: flash-player-32.0.0.156-linux-x86_64-sa
+      file: flashplayer32_0r0_156_linux_sa.x86_64.tar.gz
+      size: 8503904
+      sha256: 997b857438a52a3afa3c8072bca60a2ff1cacd069b17662197d17e554a18e384
+      source: 32_0_r0_156/flashplayer32_0r0_156_linux_sa.x86_64.tar.gz
+
+    - name: flash-player-32.0.0.156-linux-x86_64-sa-debug
+      file: flashplayer32_0r0_156_linux_sa_debug.x86_64.tar.gz
+      size: 8821403
+      sha256: 2996407fc2a9f0ed222e75bd880f0be5b75ce109d68f1cd49fd3dfee5117fa3b
+      source: 32_0_r0_156_debug/flashplayer32_0r0_156_linux_sa_debug.x86_64.tar.gz
