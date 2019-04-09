@@ -1,0 +1,17 @@
+- name: air-runtime-32.0.0.116-windows-archive
+  file: AdobeAIRInstaller.zip
+  size: 10532243
+  sha256: fe1d8132fd404e9312a6386ffd13be1dac646abbf4b935c6ee9dcbeb1491e2c5
+  source: 'https://fpdownload.macromedia.com/air/win/download/32.0/AdobeAIRInstaller.zip'
+  packages:
+    - name: air-runtime-32.0.0.116-windows
+      file: AdobeAIRInstaller.exe
+      size: 10869264
+      sha256: c07fe0e15990aaf56d9b43402faf7fe78b3dbd40b1e7e97708db68f8493e38f4
+      source: AdobeAIRInstaller.exe
+
+- name: air-runtime-32.0.0.116-mac
+  file: AdobeAIR.dmg
+  size: 19593466
+  sha256: ee89612c7142cf010dc748f4e3e81a21c2682823ec791b005baac56e4a0f1e72
+  source: 'https://fpdownload.macromedia.com/air/mac/download/32.0/AdobeAIR.dmg'
