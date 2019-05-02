@@ -19,6 +19,10 @@ async function main() {
 	console.log(`Number of threads: ${threads}`);
 
 	// eslint-disable-next-line no-process-env
+	const retries = (+process.env.SHOCKPKG_VERIFY_RETRY) || 4;
+	console.log(`Number of retries: ${retries}`);
+
+	// eslint-disable-next-line no-process-env
 	const includes = process.env.SHOCKPKG_VERIFY_INCLUDES || null;
 	if (includes) {
 		const str = JSON.stringify(includes);
@@ -32,9 +36,11 @@ async function main() {
 	console.log(`Checking ${included.length} of ${pkgs.length}`);
 	console.log('');
 
+	const retryStat = task => `${task.attempt}/${task.retries}`;
+
 	const taskReport = (task, err) => {
 		const ms = task.end - task.start;
-		const state = err ? 'Error' : 'Done';
+		const state = (err ? 'Error' : 'Done') + ` [${retryStat(task)}]`;
 		const info = err ? `: ${err.message}` : '';
 
 		console.log(`${task.pkg.name}: ${state} (${ms}ms)${info}`);
@@ -42,17 +48,20 @@ async function main() {
 
 	const report = await new Promise((resolve, reject) => {
 		const report = [];
+		const reporter = (task, err) => {
+			report.push({task, err});
+		};
 
 		const taskEnd = (task, err) => {
 			task.end = Date.now();
-			report.push({task, err});
-			taskReport(task);
+			taskReport(task, err);
 		};
 
 		const q = asyncQueue(async task => {
 			task.start = Date.now();
+			task.attempt++;
 
-			console.log(`${task.pkg.name}: Checking`);
+			console.log(`${task.pkg.name}: Checking [${retryStat(task)}]`);
 
 			const {response} = await requestPromise({
 				method: 'HEAD',
@@ -74,10 +83,19 @@ async function main() {
 			}
 
 			taskEnd(task, null);
+			reporter(task, null);
 		}, threads);
 
 		q.error = (err, task) => {
 			taskEnd(task, err);
+
+			if (task.attempt < task.retries) {
+				console.log(`${task.pkg.name}: Retrying [${retryStat(task)}]`);
+				q.push(task);
+			}
+			else {
+				reporter(task, err);
+			}
 		};
 
 		q.drain = () => {
@@ -85,7 +103,7 @@ async function main() {
 		};
 
 		for (const pkg of included) {
-			q.push({pkg, start: null, end: null});
+			q.push({pkg, start: null, end: null, attempt: 0, retries});
 		}
 	});
 	console.log('');
