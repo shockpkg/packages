@@ -40,10 +40,11 @@ async function main() {
 
 	const taskReport = (task, err) => {
 		const ms = task.end - task.start;
-		const state = (err ? 'Error' : 'Done') + ` [${retryStat(task)}]`;
+		const state = (err ? 'Error' : 'Done');
 		const info = err ? `: ${err.message}` : '';
+		const retry = `[${retryStat(task)}]`;
 
-		console.log(`${task.pkg.name}: ${state} (${ms}ms)${info}`);
+		console.log(`${task.pkg.name}: ${state} ${retry} (${ms}ms)${info}`);
 	};
 
 	const report = await new Promise((resolve, reject) => {
