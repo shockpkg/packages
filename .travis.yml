@@ -7,6 +7,10 @@ cache:
   directories:
     - "node_modules"
 
+env:
+  global:
+    - SHOCKPKG_VERIFY_RETRY_DELAY=10000
+
 script:
   - npm run clean
   - npm run lint

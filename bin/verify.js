@@ -23,6 +23,10 @@ async function main() {
 	console.log(`Number of retries: ${retries}`);
 
 	// eslint-disable-next-line no-process-env
+	const delay = (+process.env.SHOCKPKG_VERIFY_RETRY_DELAY) || 0;
+	console.log(`Delay before retry in miliseconds: ${retries}`);
+
+	// eslint-disable-next-line no-process-env
 	const includes = process.env.SHOCKPKG_VERIFY_INCLUDES || null;
 	if (includes) {
 		const str = JSON.stringify(includes);
@@ -91,8 +95,19 @@ async function main() {
 			taskEnd(task, err);
 
 			if (task.attempt < task.retries) {
-				console.log(`${task.pkg.name}: Retrying [${retryStat(task)}]`);
-				q.push(task);
+				const after = delay ? ` after ${delay}ms` : '';
+				console.log(
+					`${task.pkg.name}: Retrying [${retryStat(task)}]${after}`
+				);
+
+				if (delay) {
+					setTimeout(() => {
+						q.push(task);
+					}, delay);
+				}
+				else {
+					q.push(task);
+				}
 			}
 			else {
 				reporter(task, err);
