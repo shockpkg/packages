@@ -1,0 +1,5 @@
+- name: shockwave-projector-director-6.5.0-mac-mac
+  file: projector.dmg
+  size: 12489533
+  sha256: 4f8df7680ba45b38f2af6e517908feabbbefccdd4afb87f420ea19564f65639b
+  source: https://gitlab.com/swarchive/projector/raw/master/director/mac/6.5.0/mac/projector.dmg

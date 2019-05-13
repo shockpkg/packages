@@ -1,0 +1,5 @@
+- name: shockwave-projector-director-8.5.1-trial-win-win
+  file: projector.zip
+  size: 7250654
+  sha256: 967b63f6ac7ff382011695a95e7e88a064b40754ec3b7aa5e71617d3a0242ebc
+  source: https://gitlab.com/swarchive/projector/raw/master/director/win/8.5.1-trial/win/projector.zip

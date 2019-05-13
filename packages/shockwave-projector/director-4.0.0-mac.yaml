@@ -1,0 +1,5 @@
+- name: shockwave-projector-director-4.0.0-mac-mac
+  file: projector.dmg
+  size: 285948
+  sha256: 7e591e42fa6012e5be898833bf90eaf999ea63392d12a7542dce57f678dd7197
+  source: https://gitlab.com/swarchive/projector/raw/master/director/mac/4.0.0/mac/projector.dmg
