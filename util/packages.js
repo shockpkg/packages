@@ -7,6 +7,12 @@ const glob = require('glob');
 const yaml = require('js-yaml');
 
 function comparePrimitive(a, b) {
+	if (a === null && b !== null) {
+		return -1;
+	}
+	if (b === null && a !== null) {
+		return 1;
+	}
 	if (a < b) {
 		return -1;
 	}
@@ -17,11 +23,15 @@ function comparePrimitive(a, b) {
 }
 
 function compareVersions(a, b) {
-	for (let i = 0; i < 2; i++) {
-		const l = Math.max(a[i].length, b[i].length);
+	const aCmps = a.map(parseVersionPiece);
+	const bCmps = b.map(parseVersionPiece);
+	for (let i = 0; i < 3; i++) {
+		const aCmp = aCmps[i];
+		const bCmp = bCmps[i];
+		const l = Math.max(aCmp.length, bCmp.length);
 		for (let j = 0; j < l; j++) {
-			const aV = j < a[i].length ? a[i][j] : -1;
-			const bV = j < b[i].length ? b[i][j] : -1;
+			const aV = j < aCmp.length ? aCmp[j] : null;
+			const bV = j < bCmp.length ? bCmp[j] : null;
 
 			const cmp = comparePrimitive(aV, bV);
 			if (cmp) {
@@ -45,20 +55,20 @@ function pathToParts(p) {
 	return p.replace(/\.yaml$/, '').split('/');
 }
 
+function parseVersionPiece(s) {
+	if (!/^[\d.]+$/.test(s)) {
+		return [s];
+	}
+	return s.split('.').map(Number);
+}
+
 function parseVersion(s) {
-	if (
-		!/^[\d.-]+$/.test(s) ||
-		!/^\d/.test(s) ||
-		!/\d$/.test(s) ||
-		s.indexOf('-') !== s.lastIndexOf('-')
-	) {
+	const m = s.match(/^(([^.]*)-)?([\d.]+)(-(.*))?$/);
+	if (!m) {
 		return null;
 	}
-	const parts = s.split('-').map(e => e.split('.').map(Number));
-	if (parts.length < 2) {
-		parts.push([]);
-	}
-	return parts;
+	const [, , pre, ver, , suf] = m;
+	return [pre || null, ver, suf || null];
 }
 
 function comparePaths(a, b) {
