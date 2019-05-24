@@ -91,6 +91,8 @@ async function main() {
 			reporter(task, null);
 		}, threads);
 
+		let pending = 0;
+
 		q.error = (err, task) => {
 			taskEnd(task, err);
 
@@ -101,8 +103,10 @@ async function main() {
 				);
 
 				if (delay) {
+					pending++;
 					setTimeout(() => {
 						q.push(task);
+						pending--;
 					}, delay);
 				}
 				else {
@@ -115,7 +119,9 @@ async function main() {
 		};
 
 		q.drain = () => {
-			resolve(report);
+			if (!pending) {
+				resolve(report);
+			}
 		};
 
 		for (const pkg of included) {
