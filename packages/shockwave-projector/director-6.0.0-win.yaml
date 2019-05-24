@@ -1,5 +1,5 @@
 - name: shockwave-projector-director-6.0.0-win-win
   file: projector.zip
   size: 5898717
-  sha256: 5b2c867ff5b66baae03b625d4493caadd1b5f088b81dd3b5946a54a2189c9c68
+  sha256: d7326786c17bdbedd9fc1c97451a60d36ebab20d65389c65c4c1a6e26901ed5f
   source: https://gitlab.com/swarchive/projector/raw/master/director/win/6.0.0/win/projector.zip

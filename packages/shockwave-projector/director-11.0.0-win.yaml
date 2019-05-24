@@ -1,11 +1,11 @@
 - name: shockwave-projector-director-11.0.0-win-mac
   file: projector.dmg
-  size: 17991841
-  sha256: 7f3c8e4e7b02e4fa89f4b17ba44e852f671eca7aab830f0a1a713ce76c3ae37f
+  size: 17991185
+  sha256: 268cff3c3eaf302b01d7cd860f804ead4cdc753ce3d4981ed77ae3d3288afda6
   source: https://gitlab.com/swarchive/projector/raw/master/director/win/11.0.0/mac/projector.dmg
 
 - name: shockwave-projector-director-11.0.0-win-win
   file: projector.zip
   size: 8673674
-  sha256: d53a651a131dead88689b05dd1932a2842832b91c67b66acb5b13f1545a1efad
+  sha256: 3f4c434f20faa5dbd82c9265df6078f9e2bece2ab5e2d8f3a45031cfedf68b7a
   source: https://gitlab.com/swarchive/projector/raw/master/director/win/11.0.0/win/projector.zip
