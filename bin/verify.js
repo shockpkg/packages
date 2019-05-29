@@ -24,7 +24,7 @@ async function main() {
 
 	// eslint-disable-next-line no-process-env
 	const delay = (+process.env.SHOCKPKG_VERIFY_RETRY_DELAY) || 0;
-	console.log(`Delay before retry in miliseconds: ${retries}`);
+	console.log(`Delay before retry in milliseconds: ${delay}`);
 
 	// eslint-disable-next-line no-process-env
 	const includes = process.env.SHOCKPKG_VERIFY_INCLUDES || null;
