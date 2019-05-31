@@ -131,13 +131,13 @@ async function main() {
 			taskEnd(task, null);
 		}, threads);
 
-		q.error = (err, task) => {
+		q.error((err, task) => {
 			taskEnd(task, err);
-		};
+		});
 
-		q.drain = () => {
+		q.drai(() => {
 			resolve(report);
-		};
+		});
 
 		for (const resource of resources) {
 			q.push({resource, start: null, end: null});

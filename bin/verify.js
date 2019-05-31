@@ -93,7 +93,7 @@ async function main() {
 
 		let pending = 0;
 
-		q.error = (err, task) => {
+		q.error((err, task) => {
 			taskEnd(task, err);
 
 			if (task.attempt < task.retries) {
@@ -116,13 +116,13 @@ async function main() {
 			else {
 				reporter(task, err);
 			}
-		};
+		});
 
-		q.drain = () => {
+		q.drain(() => {
 			if (!pending) {
 				resolve(report);
 			}
-		};
+		});
 
 		for (const pkg of included) {
 			q.push({pkg, start: null, end: null, attempt: 0, retries});
