@@ -2,7 +2,7 @@
   file: AdobeAIRInstaller.zip
   size: 11200655
   sha256: fda6d445af10eb0608306ae8e1f5b5aba19711787afc9b5abc1997f109aa125c
-  source: 'https://gitlab.com/fparchive/air-32.0.0.89/raw/master/AdobeAIRInstaller.zip'
+  source: 'https://fpdownload.macromedia.com/air/win/download/32.0/32.0.89/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-32.0.0.89-windows
       file: AdobeAIRInstaller.exe
@@ -14,4 +14,4 @@
   file: AdobeAIR.dmg
   size: 20757071
   sha256: e3c0a9154a5c3bca5f91be93b88e10960a1799f5592112ed282c8b475489fae2
-  source: 'https://gitlab.com/fparchive/air-32.0.0.89/raw/master/AdobeAIR.dmg'
+  source: 'https://fpdownload.macromedia.com/air/mac/download/32.0/32.0.89/AdobeAIR.dmg'
