@@ -1,0 +1,5 @@
+- name: flex-automation-sdk-3.5-bin
+  file: automation_sdk3.5.zip
+  size: 341148
+  sha256: 7f59fcf868bb0e9f7dcd9e53cd2a95be9a748417959fc431970b98ac0ea3fb8b
+  source: 'https://download.macromedia.com/pub/flex/sdk/automation_sdk3.5.zip'

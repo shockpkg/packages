@@ -1,0 +1,5 @@
+- name: flex-sdk-3.5.0.12683-bin
+  file: flex_sdk_3.5.0.12683.zip
+  size: 125824140
+  sha256: e8342b6b3eb2eb6eb2153c058e60e4d808a6df2da4606a35767d06ab7089414a
+  source: 'https://download.macromedia.com/pub/flex/sdk/builds/flex3/flex_sdk_3.5.0.12683.zip'

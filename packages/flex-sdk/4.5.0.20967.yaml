@@ -1,0 +1,5 @@
+- name: flex-sdk-4.5.0.20967-bin
+  file: flex_sdk_4.5.0.20967.zip
+  size: 229175678
+  sha256: 9411b33e7b5572dbb39581ef6f94a1ca89c89004cb7690356933dbfb024c6565
+  source: 'https://download.macromedia.com/pub/flex/sdk/builds/flex4.5/flex_sdk_4.5.0.20967.zip'

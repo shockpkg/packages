@@ -1,0 +1,5 @@
+- name: flex-sdk-3.4.0.9271-bin
+  file: flex_sdk_3.4.0.9271.zip
+  size: 125678378
+  sha256: 527b03c1a0a0a72a2a41a4e298fb0990a90aab23a27adf73220ca59b023b4171
+  source: 'https://download.macromedia.com/pub/flex/sdk/builds/flex3/flex_sdk_3.4.0.9271.zip'

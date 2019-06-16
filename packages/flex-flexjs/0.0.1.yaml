@@ -1,0 +1,29 @@
+- name: flex-flexjs-0.0.1-bin-tar-gz
+  file: apache-flex-flexjs-0.0.1-bin.tar.gz
+  size: 487043
+  sha256: 95d44c97fc369f20ea5512f33e9d3639707ff222b3cce25042f6a109beedd71d
+  source: 'https://archive.apache.org/dist/flex/flexjs/0.0.1/binaries/apache-flex-flexjs-0.0.1-bin.tar.gz'
+
+- name: flex-flexjs-0.0.1-bin-zip
+  file: apache-flex-flexjs-0.0.1-bin.zip
+  size: 1051740
+  sha256: d1225c3615107d0a880ab5493c55718b9268f36d0901890022ae8055fd94c89b
+  source: 'https://archive.apache.org/dist/flex/flexjs/0.0.1/binaries/apache-flex-flexjs-0.0.1-bin.zip'
+
+- name: flex-flexjs-0.0.1-src-tar-gz
+  file: apache-flex-flexjs-0.0.1-src.tar.gz
+  size: 301215
+  sha256: f71b066f5a7b2fbe0222257bdcd021506b5d9466b040fcda55485e87b8069e82
+  source: 'https://archive.apache.org/dist/flex/flexjs/0.0.1/apache-flex-flexjs-0.0.1-src.tar.gz'
+
+- name: flex-flexjs-0.0.1-src-zip
+  file: apache-flex-flexjs-0.0.1-src.zip
+  size: 850949
+  sha256: 02701b643608fa15f25b91fbd3ebb667cc635b6f878a053f0e6db56cb4f8c972
+  source: 'https://archive.apache.org/dist/flex/flexjs/0.0.1/apache-flex-flexjs-0.0.1-src.zip'
+
+- name: flex-flexjs-0.0.1-asdocs
+  file: apache-flex-flexjs-0.0.1-asdocs.zip
+  size: 988655
+  sha256: 2529799f52ca0b15900b595223479e605f969245be44a81256a670b8d64945f9
+  source: 'https://archive.apache.org/dist/flex/flexjs/0.0.1/docs/apache-flex-flexjs-0.0.1-asdocs.zip'

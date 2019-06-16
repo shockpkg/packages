@@ -1,0 +1,23 @@
+- name: flex-pixelbender-1.0-bin-tar-gz
+  file: apache-flex-sdk-pixel-bender-1.0.0-bin.tar.gz
+  size: 23497
+  sha256: f51a43df39c1fa4e051f4ad35d479226c069445b4b8602043ed73c8339e6b11a
+  source: 'https://archive.apache.org/dist/flex/pixelbender/1.0/binaries/apache-flex-sdk-pixel-bender-1.0.0-bin.tar.gz'
+
+- name: flex-pixelbender-1.0-bin-zip
+  file: apache-flex-sdk-pixel-bender-1.0.0-bin.zip
+  size: 50347
+  sha256: 824e26bd460416120452c08f9150cf57e33772e9649bc505e23c2e8db928287d
+  source: 'https://archive.apache.org/dist/flex/pixelbender/1.0/binaries/apache-flex-sdk-pixel-bender-1.0.0-bin.zip'
+
+- name: flex-pixelbender-1.0-src-tar-gz
+  file: apache-flex-sdk-pixel-bender-1.0.0-src.tar.gz
+  size: 19177
+  sha256: c6a63bf9c68d61a45661b1105e4773463edd49ae7b2b53da2171848cfd267198
+  source: 'https://archive.apache.org/dist/flex/pixelbender/1.0/apache-flex-sdk-pixel-bender-1.0.0-src.tar.gz'
+
+- name: flex-pixelbender-1.0-src-zip
+  file: apache-flex-sdk-pixel-bender-1.0.0-src.zip
+  size: 40337
+  sha256: 00ec2109f366cc73ce77057803992ae361517dd85b28dfc9dedc3210c3ab5ba1
+  source: 'https://archive.apache.org/dist/flex/pixelbender/1.0/apache-flex-sdk-pixel-bender-1.0.0-src.zip'

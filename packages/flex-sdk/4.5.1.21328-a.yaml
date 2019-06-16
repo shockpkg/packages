@@ -1,0 +1,5 @@
+- name: flex-sdk-4.5.1.21328-a-bin
+  file: flex_sdk_4.5.1.21328A.zip
+  size: 224470597
+  sha256: 4d4a7c444597f04d520f6323fadc154d4f3ab499cffdfc788af4ff5bc7649d33
+  source: 'https://download.macromedia.com/pub/flex/sdk/builds/flex4.5/flex_sdk_4.5.1.21328A.zip'

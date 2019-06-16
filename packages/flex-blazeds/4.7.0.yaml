@@ -1,0 +1,11 @@
+- name: flex-blazeds-4.7.0-src-tar-gz
+  file: blazeds-4.7.0-source-release.tar.gz
+  size: 637221
+  sha256: f68a1c8d08f3f2c47ebb9ab3724a18f2e175ab41998413b36b35f0bebe475d33
+  source: 'https://archive.apache.org/dist/flex/BlazeDS/4.7.0/blazeds-4.7.0-source-release.tar.gz'
+
+- name: flex-blazeds-4.7.0-src-zip
+  file: blazeds-4.7.0-source-release.zip
+  size: 1326731
+  sha256: 3ee0bf4ee154e4e6bb968376e05c7a5a5c760518bb8e897ea5ea75e1669d8b70
+  source: 'https://archive.apache.org/dist/flex/BlazeDS/4.7.0/blazeds-4.7.0-source-release.zip'

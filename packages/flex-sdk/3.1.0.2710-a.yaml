@@ -1,0 +1,5 @@
+- name: flex-sdk-3.1.0.2710-a-bin
+  file: flex_sdk_3.1.0.2710A.zip
+  size: 85529349
+  sha256: f8ef4e8fbbf4ffe66c59d4ef1f4e496e2a515f533b9cd1e32c6224b38cd873a5
+  source: 'https://download.macromedia.com/pub/flex/sdk/builds/flex3/flex_sdk_3.1.0.2710A.zip'

@@ -1,0 +1,5 @@
+- name: flex-datavisualization-sdk-3.4-bin
+  file: datavisualization_sdk3.4.zip
+  size: 3893154
+  sha256: 0c24db56e27a835056ebcea9228ea2ce7e8b84cac076552edd955feb4e156935
+  source: 'https://download.macromedia.com/pub/flex/sdk/datavisualization_sdk3.4.zip'

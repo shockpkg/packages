@@ -1,0 +1,23 @@
+- name: flex-sdk-installer-2.5-bin-windows
+  file: apache-flex-sdk-installer-2.5.4-bin.exe
+  size: 2346487
+  sha256: bb5ede7757cd95d610ee88e46557bc3af90d0fab3b552b6b3e83d7f0a0dc309e
+  source: 'https://archive.apache.org/dist/flex/installer/2.5/binaries/apache-flex-sdk-installer-2.5.4-bin.exe'
+
+- name: flex-sdk-installer-2.5-bin-mac
+  file: apache-flex-sdk-installer-2.5.4-bin.dmg
+  size: 2284666
+  sha256: e31ee354e2b43d94a8f627511eee859ba2688dc72f912722658621230c2b405e
+  source: 'https://archive.apache.org/dist/flex/installer/2.5/binaries/apache-flex-sdk-installer-2.5.4-bin.dmg'
+
+- name: flex-sdk-installer-2.5-src-tar-gz
+  file: apache-flex-sdk-installer-2.5.4-src.tar.gz
+  size: 1869262
+  sha256: a49f43f15dc4ebb87016427d02f93165713fca8072d011dda0dce6106517b22d
+  source: 'https://archive.apache.org/dist/flex/installer/2.5/apache-flex-sdk-installer-2.5.4-src.tar.gz'
+
+- name: flex-sdk-installer-2.5-src-zip
+  file: apache-flex-sdk-installer-2.5.4-src.zip
+  size: 1921398
+  sha256: 694d565b9270e360721235a6a867ae3972f9f1a4e1d68ca24e5b6f9882784189
+  source: 'https://archive.apache.org/dist/flex/installer/2.5/apache-flex-sdk-installer-2.5.4-src.zip'

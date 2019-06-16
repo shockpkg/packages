@@ -1,0 +1,29 @@
+- name: flex-sdk-4.14.0-bin-tar-gz
+  file: apache-flex-sdk-4.14.0-bin.tar.gz
+  size: 66041703
+  sha256: d745d904f7fd6754277c9eea4ca4a13883d886a5127573b6ae546ab262365c01
+  source: 'https://archive.apache.org/dist/flex/4.14.0/binaries/apache-flex-sdk-4.14.0-bin.tar.gz'
+
+- name: flex-sdk-4.14.0-bin-zip
+  file: apache-flex-sdk-4.14.0-bin.zip
+  size: 72242036
+  sha256: 750f19dd8881f4b9f35e4156e926ef518e7deb3b1420f44b9dd02ff9e0421a13
+  source: 'https://archive.apache.org/dist/flex/4.14.0/binaries/apache-flex-sdk-4.14.0-bin.zip'
+
+- name: flex-sdk-4.14.0-src-tar-gz
+  file: apache-flex-sdk-4.14.0-src.tar.gz
+  size: 39503364
+  sha256: a9ba47c122b0ebf0813168b137c02b53639f99201fcdc2d15a2e1eca770e533a
+  source: 'https://archive.apache.org/dist/flex/4.14.0/apache-flex-sdk-4.14.0-src.tar.gz'
+
+- name: flex-sdk-4.14.0-src-zip
+  file: apache-flex-sdk-4.14.0-src.zip
+  size: 50574272
+  sha256: 44202ca44ebe583668bca0213cabfc86c6fa1a3a60ff727a7e871fc258b557b7
+  source: 'https://archive.apache.org/dist/flex/4.14.0/apache-flex-sdk-4.14.0-src.zip'
+
+- name: flex-sdk-4.14.0-asdocs
+  file: apache-flex-sdk-4.14.0-asdocs.zip
+  size: 24177633
+  sha256: 9b791d86f81089538922737b5a3c8490809605285a55cafeaf28ddccfb82f416
+  source: 'https://archive.apache.org/dist/flex/4.14.0/docs/apache-flex-sdk-4.14.0-asdocs.zip'

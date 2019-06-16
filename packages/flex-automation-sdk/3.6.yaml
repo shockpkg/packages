@@ -1,0 +1,5 @@
+- name: flex-automation-sdk-3.6-bin
+  file: automation_sdk3.6.zip
+  size: 341130
+  sha256: a40373da25214a011fa50cba15161203db5c355b6fcf7814dc41ba50901ba768
+  source: 'https://download.macromedia.com/pub/flex/sdk/automation_sdk3.6.zip'

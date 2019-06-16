@@ -1,0 +1,5 @@
+- name: flex-sdk-3.6.0.16995-bin
+  file: flex_sdk_3.6.0.16995.zip
+  size: 125761543
+  sha256: 1ed6d2b9cc299e554b105567c94128ac6df3329955d74102e2f8285613e9603c
+  source: 'https://download.macromedia.com/pub/flex/sdk/builds/flex3/flex_sdk_3.6.0.16995.zip'

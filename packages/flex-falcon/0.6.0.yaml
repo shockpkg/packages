@@ -1,0 +1,23 @@
+- name: flex-falcon-0.6.0-bin-tar-gz
+  file: apache-flex-falconjx-0.6.0-bin.tar.gz
+  size: 9272064
+  sha256: b65e2519751af752359064680dba9f4220a5da9d09ae1606e76ca8794cf42760
+  source: 'https://archive.apache.org/dist/flex/falcon/0.6.0/binaries/apache-flex-falconjx-0.6.0-bin.tar.gz'
+
+- name: flex-falcon-0.6.0-bin-zip
+  file: apache-flex-falconjx-0.6.0-bin.zip
+  size: 12118790
+  sha256: 7e36cfab55c49b00f2cec9f71a526ed0ebd06bf8c769a2d542b1b169ca1c3dfb
+  source: 'https://archive.apache.org/dist/flex/falcon/0.6.0/binaries/apache-flex-falconjx-0.6.0-bin.zip'
+
+- name: flex-falcon-0.6.0-src-tar-gz
+  file: apache-flex-falconjx-0.6.0-src.tar.gz
+  size: 3169261
+  sha256: 2a285272be01cc4e89fc26a51cf1062c7dcd87dafa930a829f853445efe9e03d
+  source: 'https://archive.apache.org/dist/flex/falcon/0.6.0/apache-flex-falconjx-0.6.0-src.tar.gz'
+
+- name: flex-falcon-0.6.0-src-zip
+  file: apache-flex-falconjx-0.6.0-src.zip
+  size: 5912236
+  sha256: d09e7fb2e3b75dcac682d80b671a7e66309f92fb8db52bb0ed1755ea87ad403f
+  source: 'https://archive.apache.org/dist/flex/falcon/0.6.0/apache-flex-falconjx-0.6.0-src.zip'

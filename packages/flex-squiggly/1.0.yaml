@@ -1,0 +1,23 @@
+- name: flex-squiggly-1.0-bin-tar-gz
+  file: apache-flex-squiggly-1.0-bin.tar.gz
+  size: 337189
+  sha256: 11235b482791806177b9576091b2ccb05cae217c71375ea8b4e16f9f999a80bc
+  source: 'https://archive.apache.org/dist/flex/squiggly/1.0/apache-flex-squiggly-1.0-bin.tar.gz'
+
+- name: flex-squiggly-1.0-bin-zip
+  file: apache-flex-squiggly-1.0-bin.zip
+  size: 530366
+  sha256: a59e4a41a1f75c8adb91070f890a4f53b4ab65d28f36122be44ba28dcf3ac42c
+  source: 'https://archive.apache.org/dist/flex/squiggly/1.0/apache-flex-squiggly-1.0-bin.zip'
+
+- name: flex-squiggly-1.0-src-tar-gz
+  file: apache-flex-squiggly-1.0-src.tar.gz
+  size: 172139
+  sha256: 34aea3f74adabf14c203e9036163999e4cf47424833d328f5140968e7ace8f4c
+  source: 'https://archive.apache.org/dist/flex/squiggly/1.0/apache-flex-squiggly-1.0-src.tar.gz'
+
+- name: flex-squiggly-1.0-src-zip
+  file: apache-flex-squiggly-1.0-src.zip
+  size: 364725
+  sha256: b655327a8326b90efaef37405c70e04a8b4eed0ef0c7d57aca86482b4e51e310
+  source: 'https://archive.apache.org/dist/flex/squiggly/1.0/apache-flex-squiggly-1.0-src.zip'

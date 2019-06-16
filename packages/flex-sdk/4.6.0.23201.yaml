@@ -1,0 +1,5 @@
+- name: flex-sdk-4.6.0.23201-bin
+  file: flex_sdk_4.6.0.23201.zip
+  size: 343973963
+  sha256: 622b63f29de44600ff8d4231174a70fcb3085812c0e146a42e91877ca8b46798
+  source: 'https://download.macromedia.com/pub/flex/sdk/builds/flex4.6/flex_sdk_4.6.0.23201.zip'

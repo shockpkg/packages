@@ -1,0 +1,23 @@
+- name: flex-falcon-0.0.1-bin-tar-gz
+  file: apache-flex-falconjx-0.0.1-bin.tar.gz
+  size: 6763701
+  sha256: fb5ed4c7b928da89292aad3804b9e139b2fad7fe71416f55dd2c7cd9057d8ce3
+  source: 'https://archive.apache.org/dist/flex/falcon/0.0.1/binaries/apache-flex-falconjx-0.0.1-bin.tar.gz'
+
+- name: flex-falcon-0.0.1-bin-zip
+  file: apache-flex-falconjx-0.0.1-bin.zip
+  size: 8821382
+  sha256: 5db8a46ad123a7c7113b3fe50cce75a5015402bc50908138c8241e4b6d2ac7fe
+  source: 'https://archive.apache.org/dist/flex/falcon/0.0.1/binaries/apache-flex-falconjx-0.0.1-bin.zip'
+
+- name: flex-falcon-0.0.1-src-tar-gz
+  file: apache-flex-falconjx-0.0.1-src.tar.gz
+  size: 2369312
+  sha256: 6c2381c183f69dab56dd337f8f86fc483ec6f4f53220c9673a0490cc8f6eefee
+  source: 'https://archive.apache.org/dist/flex/falcon/0.0.1/apache-flex-falconjx-0.0.1-src.tar.gz'
+
+- name: flex-falcon-0.0.1-src-zip
+  file: apache-flex-falconjx-0.0.1-src.zip
+  size: 4388392
+  sha256: e6f9b619dea43bb6b93591029950d540c7ea0d03bd08d76ee082b5a55e70a59b
+  source: 'https://archive.apache.org/dist/flex/falcon/0.0.1/apache-flex-falconjx-0.0.1-src.zip'

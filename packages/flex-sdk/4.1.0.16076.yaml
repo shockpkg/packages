@@ -1,0 +1,5 @@
+- name: flex-sdk-4.1.0.16076-bin
+  file: flex_sdk_4.1.0.16076.zip
+  size: 179311711
+  sha256: a5630ef4a0d785075361ccfab9d342fe69b91c439314f002424e1f25d0ab1ed5
+  source: 'https://download.macromedia.com/pub/flex/sdk/builds/flex4/flex_sdk_4.1.0.16076.zip'

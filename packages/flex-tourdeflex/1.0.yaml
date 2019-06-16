@@ -1,0 +1,11 @@
+- name: flex-tourdeflex-1.0-src-tar-gz
+  file: apache-flex-tour-de-flex-component-explorer-1.0-src.tar.gz
+  size: 4083636
+  sha256: 3eebc1b36c569e6c208aa19b2b750c5ab38029b64e2792bd2292ca18766d63dc
+  source: 'https://archive.apache.org/dist/flex/tourdeflex/1.0/apache-flex-tour-de-flex-component-explorer-1.0-src.tar.gz'
+
+- name: flex-tourdeflex-1.0-src-zip
+  file: apache-flex-tour-de-flex-component-explorer-1.0-src.zip
+  size: 4664535
+  sha256: b17c24328a9796734adf7341a4ceca679358e977e7758cf56f811c2e1aa29fec
+  source: 'https://archive.apache.org/dist/flex/tourdeflex/1.0/apache-flex-tour-de-flex-component-explorer-1.0-src.zip'

@@ -1,0 +1,5 @@
+- name: flex-blazeds-4.7.3-src-zip
+  file: blazeds-4.7.3-source-release.zip
+  size: 1380865
+  sha256: 7bf76d359be64ce21eed055e39a6f64a138f0d6eed70f2c8d5223c116535982b
+  source: 'https://archive.apache.org/dist/flex/BlazeDS/4.7.3/blazeds-4.7.3-source-release.zip'

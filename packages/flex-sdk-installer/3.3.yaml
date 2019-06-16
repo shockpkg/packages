@@ -1,0 +1,23 @@
+- name: flex-sdk-installer-3.3-bin-windows
+  file: apache-flex-sdk-installer-3.3.0-bin.exe
+  size: 2774278
+  sha256: b622c8dd8cc3c303baa82e7ed59ed075221e548ff35a1f5d79a7b36dec77f20e
+  source: 'https://archive.apache.org/dist/flex/installer/3.3/binaries/apache-flex-sdk-installer-3.3.0-bin.exe'
+
+- name: flex-sdk-installer-3.3-bin-mac
+  file: apache-flex-sdk-installer-3.3.0-bin.dmg
+  size: 3422763
+  sha256: 2a587edd460e0b70553e2da3b573435bffdad5d86b96212237935614ee23cd82
+  source: 'https://archive.apache.org/dist/flex/installer/3.3/binaries/apache-flex-sdk-installer-3.3.0-bin.dmg'
+
+- name: flex-sdk-installer-3.3-src-tar-gz
+  file: apache-flex-sdk-installer-3.3.0-src.tar.gz
+  size: 2015854
+  sha256: d0326d784820ad9328de52fb22823f1391a712d494f7d326434e662ea6b48153
+  source: 'https://archive.apache.org/dist/flex/installer/3.3/apache-flex-sdk-installer-3.3.0-src.tar.gz'
+
+- name: flex-sdk-installer-3.3-src-zip
+  file: apache-flex-sdk-installer-3.3.0-src.zip
+  size: 2190830
+  sha256: 4801ca46141a8a9817e2bfdee36078e4a8932712fd7575fb0be1138967313de5
+  source: 'https://archive.apache.org/dist/flex/installer/3.3/apache-flex-sdk-installer-3.3.0-src.zip'

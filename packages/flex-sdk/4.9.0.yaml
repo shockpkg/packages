@@ -1,0 +1,29 @@
+- name: flex-sdk-4.9.0-bin-tar-gz
+  file: apache-flex-sdk-4.9.0-bin.tar.gz
+  size: 62957964
+  sha256: 7c2c7fcd8907df35a2255e80517645e14aa84c3d60a623ee5eba24b230fd4fe8
+  source: 'https://archive.apache.org/dist/flex/4.9.0/binaries/apache-flex-sdk-4.9.0-bin.tar.gz'
+
+- name: flex-sdk-4.9.0-bin-zip
+  file: apache-flex-sdk-4.9.0-bin.zip
+  size: 68512472
+  sha256: 54260f30de18505f2c866ae8d2a851d528b0284d7105b0b0f6f41ebc9534b213
+  source: 'https://archive.apache.org/dist/flex/4.9.0/binaries/apache-flex-sdk-4.9.0-bin.zip'
+
+- name: flex-sdk-4.9.0-src-tar-gz
+  file: apache-flex-sdk-4.9.0-src.tar.gz
+  size: 38657232
+  sha256: 0bb5c8649441cc4e18a010fa26186e63d105ffa73b159254b8841d20f19d1800
+  source: 'https://archive.apache.org/dist/flex/4.9.0/apache-flex-sdk-4.9.0-src.tar.gz'
+
+- name: flex-sdk-4.9.0-src-zip
+  file: apache-flex-sdk-4.9.0-src.zip
+  size: 48865570
+  sha256: 383f45d175e7c30f0ef2eb1fea461a20c1c159645c3104b3cd92c0045c7d1107
+  source: 'https://archive.apache.org/dist/flex/4.9.0/apache-flex-sdk-4.9.0-src.zip'
+
+- name: flex-sdk-4.9.0-asdocs
+  file: apache-flex-sdk-4.9.0-asdocs.zip
+  size: 17431994
+  sha256: 452edd7166104aed29d78b4c27c10ed2fcd18992413d13d268f63ccc0cacbd85
+  source: 'https://archive.apache.org/dist/flex/4.9.0/doc/apache-flex-sdk-4.9.0-asdocs.zip'
