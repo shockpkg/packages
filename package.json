@@ -1,7 +1,6 @@
 {
 	"private": true,
 	"scripts": {
-		"upgrade-interactive": "npm-check --update",
 		"lint": "eslint .",
 		"test": "jasmine",
 		"test-verbose": "SPEC_REPORTER=1 jasmine",
@@ -21,7 +20,6 @@
 		"jasmine-core": "^3.4.0",
 		"jasmine-spec-reporter": "^4.2.1",
 		"js-yaml": "^3.13.1",
-		"npm-check": "^5.9.0",
 		"request": "^2.88.0",
 		"rimraf": "^2.6.3",
 		"yauzl": "^2.10.0"
