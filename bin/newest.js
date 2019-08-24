@@ -15,42 +15,43 @@ const resources = [
 	// 	lastModified: 'Tue, 26 Mar 2019 04:34:58 GMT',
 	// 	eTag: '"13b7b2-584f7d7ef82db"'
 	// },
-	// {
-	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Full.exe',
-	// 	size: 15124440,
-	// 	lastModified: 'Tue, 26 Mar 2019 04:34:55 GMT',
-	// 	eTag: '"e6c7d8-584f7d7c2de38"'
-	// },
-	// {
-	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installer.exe',
-	// 	size: 13126832,
-	// 	lastModified: 'Tue, 26 Mar 2019 04:34:56 GMT',
-	// 	eTag: '"c84cb0-584f7d7d11014"'
-	// },
-	// {
-	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installer.msi',
-	// 	size: 24256512,
-	// 	lastModified: 'Tue, 26 Mar 2019 04:35:03 GMT',
-	// 	eTag: '"1722000-584f7d83b17b1"'
-	// },
-	// {
-	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe',
-	// 	size: 6257824,
-	// 	lastModified: 'Tue, 26 Mar 2019 04:34:53 GMT',
-	// 	eTag: '"5f7ca0-584f7d7abb4d3"'
-	// },
-	// {
-	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_slim_installer.exe',
-	// 	size: 4262176,
-	// 	lastModified: 'Tue, 26 Mar 2019 04:34:54 GMT',
-	// 	eTag: '"410920-584f7d7bb709f"'
-	// },
-	// {
-	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full_64bit.dmg',
-	// 	size: 18771823,
-	// 	lastModified: 'Thu, 29 Sep 2016 10:27:21 GMT',
-	// 	eTag: '"11e6f6f-53da2ec48cdf6"'
-	// },
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Full.exe',
+		size: 15124440,
+		lastModified: 'Fri, 12 Apr 2019 10:50:11 GMT',
+		eTag: '"e6c7d8-586531128c3d0"'
+	},
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installer.exe',
+		size: 13126832,
+		lastModified: 'Fri, 12 Apr 2019 10:50:12 GMT',
+		eTag: '"c84cb0-5865311315acb"'
+	},
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installer.msi',
+		size: 24256512,
+		lastModified: 'Fri, 12 Apr 2019 10:46:49 GMT',
+		eTag: '"1722000-58653051e587f"'
+	},
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe',
+		size: 6257824,
+		lastModified: 'Fri, 12 Apr 2019 10:50:07 GMT',
+		eTag: '"5f7ca0-5865310e86db4"'
+	},
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_slim_installer.exe',
+		size: 4262176,
+		lastModified: 'Fri, 12 Apr 2019 10:50:07 GMT',
+		eTag: '"410920-5865310eb2c5a"'
+	},
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full_64bit.dmg',
+		size: 18771823,
+		lastModified: 'Mon, 15 Apr 2019 05:30:08 GMT',
+		eTag: '"11e6f6f-5868af21a4ce4"'
+	}
+	// ,
 	// {
 	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full.dmg',
 	// 	size: 22513907,
@@ -135,7 +136,7 @@ async function main() {
 			taskEnd(task, err);
 		});
 
-		q.drai(() => {
+		q.drain(() => {
 			resolve(report);
 		});
 
