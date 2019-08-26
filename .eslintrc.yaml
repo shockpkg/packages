@@ -1,6 +1,5 @@
 parserOptions:
   ecmaVersion: 9
-  sourceType: script
 
 env:
   es6: true
@@ -13,13 +12,13 @@ rules:
   getter-return:
   - error
   - allowImplicit: true
+  no-async-promise-executor: error
   no-await-in-loop: error
   no-compare-neg-zero: error
-  no-cond-assign:
-  - error
-  - except-parens
+  no-cond-assign: error
   no-console: error
   no-constant-condition: error
+  no-control-regex: error
   no-debugger: error
   no-dupe-args: error
   no-dupe-keys: error
@@ -30,11 +29,10 @@ rules:
   no-extra-boolean-cast: error
   no-extra-semi: error
   no-func-assign: error
-  no-inner-declarations:
-  - error
-  - functions
+  no-inner-declarations: error
   no-invalid-regexp: error
   no-irregular-whitespace: error
+  no-misleading-character-class: error
   no-obj-calls: error
   no-prototype-builtins: error
   no-regex-spaces: error
@@ -48,16 +46,11 @@ rules:
   valid-typeof: error
 
   # Best Practices:
-  accessor-pairs:
-  - error
-  - getWithoutSet: true
-    setWithoutGet: true
+  accessor-pairs: error
   array-callback-return: error
   block-scoped-var: error
   consistent-return: error
-  curly:
-  - error
-  - all
+  curly: error
   default-case: error
   dot-location:
   - error
@@ -65,9 +58,11 @@ rules:
   dot-notation:
   - error
   - allowKeywords: true
-    allowPattern: ''
   eqeqeq: error
   guard-for-in: error
+  max-classes-per-file:
+  - error
+  - 1
   no-alert: error
   no-caller: error
   no-case-declarations: error
@@ -77,9 +72,7 @@ rules:
   no-empty-pattern: error
   no-eq-null: error
   no-eval: error
-  no-extend-native:
-  - error
-  - exceptions: []
+  no-extend-native: error
   no-extra-bind: error
   no-extra-label: error
   no-fallthrough: error
@@ -103,12 +96,8 @@ rules:
   no-octal: error
   no-octal-escape: error
   no-proto: error
-  no-redeclare:
-  - error
-  - builtinGlobals: false
-  no-return-assign:
-  - error
-  - except-parens
+  no-redeclare: error
+  no-return-assign: error
   no-return-await: error
   no-script-url: error
   no-self-assign: error
@@ -116,35 +105,21 @@ rules:
   no-sequences: error
   no-throw-literal: error
   no-unmodified-loop-condition: error
-  no-unused-expressions:
-  - error
-  - allowShortCircuit: false
-    allowTernary: false
+  no-unused-expressions: error
   no-unused-labels: error
   no-useless-call: error
+  no-useless-catch: error
   no-useless-concat: error
   no-useless-escape: error
   no-void: error
-  no-warning-comments:
-  - warn
-  - terms:
-    - todo
-    - fixme
-    - xxx
-    location: start
+  no-warning-comments: warn
   no-with: error
-  radix:
-  - error
-  - always
+  radix: error
   require-await: error
   wrap-iife:
   - error
   - inside
-  yoda:
-  - error
-  - never
-  - exceptRange: false
-    onlyEquality: false
+  yoda: error
 
   # Strict Mode:
   strict:
@@ -152,7 +127,6 @@ rules:
   - global
 
   # Variables:
-  no-catch-shadow: error
   no-delete-var: error
   no-label-var: error
   no-shadow-restricted-names: error
@@ -165,8 +139,6 @@ rules:
   - error
   - vars: all
     args: none
-    varsIgnorePattern: ''
-    argsIgnorePattern: ''
   no-use-before-define:
   - error
   - nofunc
@@ -177,6 +149,7 @@ rules:
   - - callback
     - cb
     - next
+    - done
   global-require: error
   handle-callback-err: error
   no-buffer-constructor: error
@@ -203,7 +176,6 @@ rules:
   - allowSingleLine: false
   camelcase:
   - error
-  - properties: always
   comma-dangle:
   - error
   - arrays: never
@@ -226,7 +198,6 @@ rules:
   - unix
   func-call-spacing:
   - error
-  - never
   func-name-matching:
   - error
   - always
@@ -272,19 +243,14 @@ rules:
   - 4
   - ignoreComments: false
     ignoreUrls: true
+    ignorePattern: '^\s*(//|/\*)\s*eslint'
   max-nested-callbacks:
   - error
   - 4
   max-params:
   - error
   - 8
-  new-cap:
-  - error
-  - newIsCap: true
-    capIsNew: true
-    newIsCapExceptions: []
-    capIsNewExceptions: []
-    properties: true
+  new-cap: error
   new-parens: error
   newline-per-chained-call:
   - error
@@ -329,14 +295,14 @@ rules:
   - error
   - never
   padding-line-between-statements:
-    - error
-    - blankLine: "always"
-      prev: "directive"
-      next: "*"
+  - error
+  - blankLine: "always"
+    prev: "directive"
+    next: "*"
   quote-props:
   - error
   - as-needed
-  - keywords: true
+  - keywords: false
     unnecessary: true
     numbers: true
   quotes:
@@ -372,13 +338,6 @@ rules:
   spaced-comment:
   - error
   - always
-  - line:
-      exceptions: []
-      markers: []
-    block:
-      exceptions: []
-      markers:
-      - "!"
   switch-colon-spacing:
   - error
   - after: true
