@@ -1,5 +1,5 @@
 - name: flash-playerglobal-32.0
   file: playerglobal32_0.swc
-  size: 472411
-  sha256: 5da677d9d259375ab73c8d16b2614df8e6dcce58e94d55f92d9f351c21c2e812
+  size: 472345
+  sha256: db9628ba14bb5856c218779744e15dacbd96c27c4dcc3a3c2bd57c28dcb2aeae
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/playerglobal/playerglobal32_0.swc'
