@@ -23,6 +23,8 @@ async function main() {
 	for (const {name, source} of list.downloads) {
 		console.log(`Checking: ${name}`);
 		console.log(`URL: ${source}`);
+
+		// eslint-disable-next-line no-await-in-loop
 		const {response} = await requestPromise({
 			method: 'HEAD',
 			url: source,

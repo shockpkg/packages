@@ -1,11 +1,10 @@
 'use strict';
 
-const request = require('request');
 const puppeteer = require('puppeteer');
 
 const base = 'https://airsdk.harman.com/download';
 
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+// const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 async function list() {
 	const browser = await puppeteer.launch({
@@ -51,7 +50,7 @@ async function list() {
 	if (!titleMatch) {
 		throw new Error(`Failed to extract version from title: ${title}`);
 	}
-	const version = titleMatch[1];
+	const [, version] = titleMatch;
 
 	// Parse out the downloads.
 	const downloadsClean = [];
