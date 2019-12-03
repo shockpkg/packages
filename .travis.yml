@@ -13,6 +13,7 @@ script:
 - npm run test
 - npm run verify
 - npm run newest
+- npm run newest-harman-airsdk
 - npm run build
 
 deploy:
