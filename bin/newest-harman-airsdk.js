@@ -16,7 +16,7 @@ const expected = new Map([
 async function main() {
 	const start = Date.now();
 
-	let passed = new Set();
+	const passed = new Set();
 	const list = await harmanAirsdk.list();
 	const cookie = harmanAirsdk.cookies(list.cookies);
 	for (const {name, source} of list.downloads) {
