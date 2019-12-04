@@ -16,8 +16,7 @@ const expected = new Map([
 async function main() {
 	const start = Date.now();
 
-	let failed = 0;
-	let passed = 0;
+	let passed = new Set();
 	const list = await harmanAirsdk.list();
 	const cookie = harmanAirsdk.cookies(list.cookies);
 	for (const {name, source} of list.downloads) {
@@ -34,43 +33,34 @@ async function main() {
 		});
 
 		if (response.statusCode !== 200) {
-			console.log(
-				`Error: ${name}: Status code: ${response.statusCode}`
-			);
+			console.log(`Error: Status code: ${response.statusCode}`);
 			console.log('');
-			failed++;
 			continue;
 		}
 
 		const size = +response.headers['content-length'];
 		console.log(`Size: ${size}`);
 		if (!expected.has(name)) {
-			console.log(
-				`Error: ${name}: Unknown name: ${name}`
-			);
+			console.log(`Error: Unknown name: ${name}`);
 			console.log('');
-			failed++;
 			continue;
 		}
 
 		const sized = expected.get(name);
 		if (size !== sized) {
-			console.log(
-				`Error: ${name}: Unexpected size: ${size}`
-			);
+			console.log(`Error: Unexpected size: ${size}`);
 			console.log('');
-			failed++;
 			continue;
 		}
 
-		passed++;
+		passed.add(name);
 		console.log('');
 	}
-	failed += expected.size - passed;
 
 	const end = Date.now();
+	const failed = expected.size - passed.size;
 
-	console.log(`Passed: ${passed}`);
+	console.log(`Passed: ${passed.size}`);
 	console.log(`Failed: ${failed}`);
 	console.log(`Done after ${end - start}ms`);
 	console.log('');
