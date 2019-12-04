@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-- v12.9.1
+- v13.3.0
 
 env:
   global:
