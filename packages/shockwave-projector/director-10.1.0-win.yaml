@@ -4,11 +4,23 @@
   sha256: b7422b35d7c09699a9f0ba3803587171e0f9a4888b6d913376758e4f3ac1d4a7
   source: https://gitlab.com/swarchive/projector/raw/master/director/win/10.1.0/mac-classic/projector.dmg
 
+- name: shockwave-projector-director-10.1.0-win-mac-classic-zip
+  file: projector.zip
+  size: 5688968
+  sha256: 586b166bfa8265505ea880885e31f32c6479f66b32fd91d4dd22fa6b1009292f
+  source: https://gitlab.com/swarchive/projector/raw/master/director/win/10.1.0/mac-classic/projector.zip
+
 - name: shockwave-projector-director-10.1.0-win-mac
   file: projector.dmg
   size: 7808792
   sha256: eca6f0e49633ebd441c10ab6b61a88e22aecbaeec304a7fb4de8a18c7419ff15
   source: https://gitlab.com/swarchive/projector/raw/master/director/win/10.1.0/mac/projector.dmg
+
+- name: shockwave-projector-director-10.1.0-win-mac-zip
+  file: projector.zip
+  size: 6014731
+  sha256: 7928e2518d05518a0faf6242ca8c2587f259a7ae72c922adb006fadf40346edb
+  source: https://gitlab.com/swarchive/projector/raw/master/director/win/10.1.0/mac/projector.zip
 
 - name: shockwave-projector-director-10.1.0-win-win
   file: projector.zip

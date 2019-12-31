@@ -4,6 +4,12 @@
   sha256: f6f7f854a9370384670caa7600a99ee7026f9eceddf08152b8ce6559c3742106
   source: https://gitlab.com/swarchive/projector/raw/master/director/mac/11.5.9/mac/projector.dmg
 
+- name: shockwave-projector-director-11.5.9-mac-mac-zip
+  file: projector.zip
+  size: 49832217
+  sha256: cf382bee370439cf1a897c4785f3499af211b6d233c50d2b7ba09f118c47edc7
+  source: https://gitlab.com/swarchive/projector/raw/master/director/mac/11.5.9/mac/projector.zip
+
 - name: shockwave-projector-director-11.5.9-mac-win
   file: projector.zip
   size: 9825132
