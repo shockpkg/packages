@@ -2,4 +2,4 @@
   file: AdobeAIRSDK.zip
   size: 16776678
   sha256: d6f426315e09974bfc422d65fbc1fdd414935572815bca7c09cd7c194349a1bf
-  source: 'https://fpdownload.macromedia.com/air/win/download/1.5.2/AdobeAIRSDK.zip'
+  source: 'https://gitlab.com/fparchive/air-1.5.2.8900/raw/master/win/AdobeAIRSDK.zip'

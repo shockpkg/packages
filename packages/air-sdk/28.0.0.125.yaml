@@ -2,22 +2,22 @@
   file: AdobeAIRSDK.zip
   size: 475740613
   sha256: 325e318fe30c7efa8dab1cca85f3f324faec95ad0e876a74ab0d0d54353d02a3
-  source: 'https://fpdownload.macromedia.com/air/win/download/28.0/AdobeAIRSDK.zip'
+  source: 'https://gitlab.com/fparchive/air-28.0.0.125/raw/master/win/AdobeAIRSDK.zip'
 
 - name: air-sdk-28.0.0.125-windows-compiler
   file: AIRSDK_Compiler.zip
   size: 512783022
   sha256: 80c4e94f82e365d4dcaacf9fc9ca197f7c2a0d971ab7315253d4f118bedb2003
-  source: 'https://fpdownload.macromedia.com/air/win/download/28.0/AIRSDK_Compiler.zip'
+  source: 'https://gitlab.com/fparchive/air-28.0.0.125/raw/master/win/AIRSDK_Compiler.zip'
 
 - name: air-sdk-28.0.0.125-mac
   file: AdobeAIRSDK.dmg
   size: 428831705
   sha256: ed1e43cd2be72905b0ae26c9a5734134a81a16c041f78fef48585c3190fb8f5c
-  source: 'https://fpdownload.macromedia.com/air/mac/download/28.0/AdobeAIRSDK.dmg'
+  source: 'https://gitlab.com/fparchive/air-28.0.0.125/raw/master/mac/AdobeAIRSDK.dmg'
 
 - name: air-sdk-28.0.0.125-mac-compiler
   file: AIRSDK_Compiler.dmg
   size: 466225744
   sha256: 485de6aed65ee32be7df05269c3751dc8d59c6a389512592fa685484bd297b90
-  source: 'https://fpdownload.macromedia.com/air/mac/download/28.0/AIRSDK_Compiler.dmg'
+  source: 'https://gitlab.com/fparchive/air-28.0.0.125/raw/master/mac/AIRSDK_Compiler.dmg'

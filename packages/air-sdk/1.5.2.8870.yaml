@@ -2,10 +2,10 @@
   file: AdobeAIRSDK.dmg
   size: 23496185
   sha256: 735bdddc63729b78c4f975a387f1a351a582a29e0dfce7ea3a14e921da544a81
-  source: 'https://fpdownload.macromedia.com/air/mac/download/1.5.2/AdobeAIRSDK.dmg'
+  source: 'https://gitlab.com/fparchive/air-1.5.2.8870/raw/master/mac/AdobeAIRSDK.dmg'
 
 - name: air-sdk-1.5.2.8870-linux
   file: AdobeAIRSDK.tbz2
   size: 19686708
   sha256: deb39cc2f59fd771f718f4ee677356eea8bf2f81be864bf0c40b38d71763c147
-  source: 'https://fpdownload.macromedia.com/air/lin/download/1.5.2/AdobeAIRSDK.tbz2'
+  source: 'https://gitlab.com/fparchive/air-1.5.2.8870/raw/master/lin/AdobeAIRSDK.tbz2'

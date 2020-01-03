@@ -2,7 +2,7 @@
   file: AdobeAIR.zip
   size: 27453581
   sha256: 8887edf26767853c002cff78ae203da7ccc1e2b84ab48aee77d2b4029f44b916
-  source: 'https://fpdownload.macromedia.com/air/mac/download/3.7/AdobeAIR.zip'
+  source: 'https://gitlab.com/fparchive/air-3.7.0.2100/raw/master/mac/AdobeAIR.zip'
   packages:
     - name: air-runtime-3.7.0.2100-mac
       file: AdobeAIR.dmg

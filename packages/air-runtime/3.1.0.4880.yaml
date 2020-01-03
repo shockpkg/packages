@@ -2,7 +2,7 @@
   file: AdobeAIRInstaller.zip
   size: 15105488
   sha256: 8f50604d57f55e1b455deabcade5a5b5033d2f214a96b1597a869b8f709351db
-  source: 'https://fpdownload.macromedia.com/air/win/download/3.1/AdobeAIRInstaller.zip'
+  source: 'https://gitlab.com/fparchive/air-3.1.0.4880/raw/master/win/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-3.1.0.4880-windows
       file: AdobeAIRInstaller.exe
@@ -14,7 +14,7 @@
   file: AdobeAIR.zip
   size: 23498204
   sha256: 79face4ccf7b2993babb13d78d9f0f7801b7a56ff6de2928158039b27188ad12
-  source: 'https://fpdownload.macromedia.com/air/mac/download/3.1/AdobeAIR.zip'
+  source: 'https://gitlab.com/fparchive/air-3.1.0.4880/raw/master/mac/AdobeAIR.zip'
   packages:
     - name: air-runtime-3.1.0.4880-mac
       file: AdobeAIR.dmg

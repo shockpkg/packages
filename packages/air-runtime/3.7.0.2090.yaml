@@ -2,7 +2,7 @@
   file: AdobeAIRInstaller.zip
   size: 17935540
   sha256: 43e26ac7812eb7068156bf3fd927d4cfde33e8b584c0626f4fefc1bd51310d09
-  source: 'https://fpdownload.macromedia.com/air/win/download/3.7/AdobeAIRInstaller.zip'
+  source: 'https://gitlab.com/fparchive/air-3.7.0.2090/raw/master/win/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-3.7.0.2090-windows
       file: AdobeAIRInstaller.exe

@@ -2,22 +2,22 @@
   file: AdobeAIRSDK.zip
   size: 170797891
   sha256: 3125df4d7577762221c31b5ff7c975eecca5c906fda4f21d92a72e6f26233c0e
-  source: 'https://fpdownload.macromedia.com/air/win/download/3.5/AdobeAIRSDK.zip'
+  source: 'https://gitlab.com/fparchive/air-3.5.0.1060/raw/master/win/AdobeAIRSDK.zip'
 
 - name: air-sdk-3.5.0.1060-windows-compiler
   file: AIRSDK_Compiler.zip
   size: 209159283
   sha256: 53c290560ec07f3ca7e47955055a16dd7472ddfeeeabdc60702996f359faa506
-  source: 'https://fpdownload.macromedia.com/air/win/download/3.5/AIRSDK_Compiler.zip'
+  source: 'https://gitlab.com/fparchive/air-3.5.0.1060/raw/master/win/AIRSDK_Compiler.zip'
 
 - name: air-sdk-3.5.0.1060-mac
   file: AdobeAIRSDK.tbz2
   size: 151851050
   sha256: e6a28a1d0575a035b67b2705e80c2c91b87289030f47589aa5eb71db56cf8775
-  source: 'https://fpdownload.macromedia.com/air/mac/download/3.5/AdobeAIRSDK.tbz2'
+  source: 'https://gitlab.com/fparchive/air-3.5.0.1060/raw/master/mac/AdobeAIRSDK.tbz2'
 
 - name: air-sdk-3.5.0.1060-mac-compiler
   file: AIRSDK_Compiler.tbz2
   size: 188827988
   sha256: 0305df154026d3c6aa650bfd1497bf758272313ab8d5aa0cffaf74bfd3402a76
-  source: 'https://fpdownload.macromedia.com/air/mac/download/3.5/AIRSDK_Compiler.tbz2'
+  source: 'https://gitlab.com/fparchive/air-3.5.0.1060/raw/master/mac/AIRSDK_Compiler.tbz2'

@@ -2,4 +2,4 @@
   file: AdobeAIRAndroid.apk
   size: 15564567
   sha256: 0f4d49ae4de5bb1644a4c7fe51a5a9f7cb7165f2ca88b7984474c7ca93a3038c
-  source: 'https://fpdownload.macromedia.com/air/android/download/14.0.0.179/AdobeAIRAndroid.apk'
+  source: 'https://gitlab.com/fparchive/air-14.0.0.179/raw/master/android/AdobeAIRAndroid.apk'

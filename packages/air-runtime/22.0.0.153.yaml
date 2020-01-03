@@ -2,13 +2,13 @@
   file: AdobeAIRAndroid.apk
   size: 21293768
   sha256: c8e5fbcd104f002ad557036d68ba094ddb54d0c8f2313395b6390c0b09f7cd01
-  source: 'https://fpdownload.macromedia.com/air/android/download/22.0.0.153/AdobeAIRAndroid.apk'
+  source: 'https://gitlab.com/fparchive/air-22.0.0.153/raw/master/android/AdobeAIRAndroid.apk'
 
 - name: air-runtime-22.0.0.153-windows-archive
   file: AdobeAIRInstaller.zip
   size: 10435040
   sha256: e7a18c38856a24c1c444a24c535c2bc94f0ccec7fd56d6ffdb625b6431769334
-  source: 'https://fpdownload.macromedia.com/air/win/download/22.0/AdobeAIRInstaller.zip'
+  source: 'https://gitlab.com/fparchive/air-22.0.0.153/raw/master/win/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-22.0.0.153-windows
       file: AdobeAIRInstaller.exe
@@ -20,4 +20,4 @@
   file: AdobeAIR.tbz2
   size: 16702089
   sha256: ff765c0148771902321bc86c5cf09be38d8b841d14e9f8391919a9c9238b79b0
-  source: 'https://fpdownload.macromedia.com/air/mac/download/22.0/AdobeAIR.tbz2'
+  source: 'https://gitlab.com/fparchive/air-22.0.0.153/raw/master/mac/AdobeAIR.tbz2'

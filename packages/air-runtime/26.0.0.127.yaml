@@ -2,7 +2,7 @@
   file: AdobeAIRInstaller.zip
   size: 10571576
   sha256: 1041228a922eb4782fb78d95f2a900f5a2a2a26ba48f01a324f3109a01f36553
-  source: 'https://fpdownload.macromedia.com/air/win/download/26.0/AdobeAIRInstaller.zip'
+  source: 'https://gitlab.com/fparchive/air-26.0.0.127/raw/master/win/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-26.0.0.127-windows
       file: AdobeAIRInstaller.exe
@@ -14,4 +14,4 @@
   file: AdobeAIR.dmg
   size: 19601319
   sha256: bd4746da1189a0c38ad7313922d3b7a7e8d221800bc8dc0c5efdb02a13ecbd19
-  source: 'https://fpdownload.macromedia.com/air/mac/download/26.0/AdobeAIR.dmg'
+  source: 'https://gitlab.com/fparchive/air-26.0.0.127/raw/master/mac/AdobeAIR.dmg'

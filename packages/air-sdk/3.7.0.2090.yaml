@@ -2,10 +2,10 @@
   file: AdobeAIRSDK.zip
   size: 176436883
   sha256: af36e15b5401fa0d33341c270d6fc67bf4e3a575e4cbcfc6ab0ca8da1848302d
-  source: 'https://fpdownload.macromedia.com/air/win/download/3.7/AdobeAIRSDK.zip'
+  source: 'https://gitlab.com/fparchive/air-3.7.0.2090/raw/master/win/AdobeAIRSDK.zip'
 
 - name: air-sdk-3.7.0.2090-windows-compiler
   file: AIRSDK_Compiler.zip
   size: 213473412
   sha256: 4432860e662424e36576b3a74276890505ebb8806c7dee2e10f08b7f3c852db5
-  source: 'https://fpdownload.macromedia.com/air/win/download/3.7/AIRSDK_Compiler.zip'
+  source: 'https://gitlab.com/fparchive/air-3.7.0.2090/raw/master/win/AIRSDK_Compiler.zip'

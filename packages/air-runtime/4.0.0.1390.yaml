@@ -2,13 +2,13 @@
   file: AdobeAIRAndroid.apk
   size: 12386729
   sha256: 306e74c3dcfe569de3a18790a7ec3dfaaf034ae3b22784433a99ff4100c94c5b
-  source: 'https://fpdownload.macromedia.com/air/android/download/4.0.0.1390/AdobeAIRAndroid.apk'
+  source: 'https://gitlab.com/fparchive/air-4.0.0.1390/raw/master/android/AdobeAIRAndroid.apk'
 
 - name: air-runtime-4.0.0.1390-windows-archive
   file: AdobeAIRInstaller.zip
   size: 18070082
   sha256: 51c49d0afd792dc157bd5efbb6f615d59540dd5015256d783107ddc5b92b13f0
-  source: 'https://fpdownload.macromedia.com/air/win/download/4.0/AdobeAIRInstaller.zip'
+  source: 'https://gitlab.com/fparchive/air-4.0.0.1390/raw/master/win/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-4.0.0.1390-windows
       file: AdobeAIRInstaller.exe
@@ -20,7 +20,7 @@
   file: AdobeAIR.zip
   size: 27559561
   sha256: 5b08f7dc92ebad7d85a2748e82b9186c94087aa65671559053ebef361d1d33b3
-  source: 'https://fpdownload.macromedia.com/air/mac/download/4.0/AdobeAIR.zip'
+  source: 'https://gitlab.com/fparchive/air-4.0.0.1390/raw/master/mac/AdobeAIR.zip'
   packages:
     - name: air-runtime-4.0.0.1390-mac
       file: AdobeAIR.dmg
