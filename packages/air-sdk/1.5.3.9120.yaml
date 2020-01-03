@@ -10,6 +10,12 @@
   sha256: 5392dca7446ce6b8a59878c9cbab7ccc21fec14f01a5a1a6fdd13a9f5756e99e
   source: 'https://gitlab.com/fparchive/air-1.5.3.9120/raw/master/mac/AdobeAIRSDK.dmg'
 
+- name: air-sdk-1.5.3.9120-mac-zip
+  file: AdobeAIRSDK.zip
+  size: 24995908
+  sha256: ff8fbb927d3fb5054c17e84b83370c8df47a5ce147c1aaed0cbc9ce3eee12299
+  source: 'https://gitlab.com/fparchive/air-1.5.3.9120/raw/master/mac/AdobeAIRSDK.zip'
+
 - name: air-sdk-1.5.3.9120-linux
   file: AdobeAIRSDK.tbz2
   size: 19700568

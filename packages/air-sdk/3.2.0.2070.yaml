@@ -9,3 +9,9 @@
   size: 133223967
   sha256: a16b110364b425bcd3bb6238c5bf52238200e47fb58f5ddc4d5a9e5889a861eb
   source: 'https://gitlab.com/fparchive/air-3.2.0.2070/raw/master/mac/AdobeAIRSDK.tbz2'
+
+- name: air-sdk-3.2.0.2070-mac-zip
+  file: AdobeAIRSDK.zip
+  size: 151194398
+  sha256: de8b800e9b1f1aebc88202ee02c5e3bdff8b9b255e1c8ff08bb9f06f1fe8af94
+  source: 'https://gitlab.com/fparchive/air-3.2.0.2070/raw/master/mac/AdobeAIRSDK.zip'

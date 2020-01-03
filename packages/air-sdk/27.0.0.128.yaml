@@ -4,8 +4,20 @@
   sha256: 0d187ec68da475a24d03a8a3e8f5bd6c020bd38ba91ea4338d51d010642e29d0
   source: 'https://gitlab.com/fparchive/air-27.0.0.128/raw/master/mac/AdobeAIRSDK.dmg'
 
+- name: air-sdk-27.0.0.128-mac-zip
+  file: AdobeAIRSDK.zip
+  size: 479696970
+  sha256: 6a24bbdb36359286528b1e5236d7ce8b3626e33ffc5cd13f8bc9b74f379bdd39
+  source: 'https://gitlab.com/fparchive/air-27.0.0.128/raw/master/mac/AdobeAIRSDK.zip'
+
 - name: air-sdk-27.0.0.128-mac-compiler
   file: AIRSDK_Compiler.dmg
   size: 474734570
   sha256: 15378bc0dfa8d46f1f95c3cab4974e0fb6cb8f6362dd0590e74480e29a9d463a
   source: 'https://gitlab.com/fparchive/air-27.0.0.128/raw/master/mac/AIRSDK_Compiler.dmg'
+
+- name: air-sdk-27.0.0.128-mac-compiler-zip
+  file: AIRSDK_Compiler.zip
+  size: 516766713
+  sha256: 12e27ef23bd41ec7097051f4bc9c9cfd88988d68ab871dc9f2dd3341452e29e2
+  source: 'https://gitlab.com/fparchive/air-27.0.0.128/raw/master/mac/AIRSDK_Compiler.zip'

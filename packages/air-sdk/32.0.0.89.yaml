@@ -16,8 +16,20 @@
   sha256: 59d143ee495d83197939db7b0dfe88449215696833f55fd00ddc20e54d741697
   source: 'https://gitlab.com/fparchive/air-32.0.0.89/raw/master/mac/AdobeAIRSDK.dmg'
 
+- name: air-sdk-32.0.0.89-mac-zip
+  file: AdobeAIRSDK.zip
+  size: 368323776
+  sha256: 5302be5acfcc359fd8c63822a1ec3a704e3f7c6a4cc0ddb7aca7b488e9a48c4d
+  source: 'https://gitlab.com/fparchive/air-32.0.0.89/raw/master/mac/AdobeAIRSDK.zip'
+
 - name: air-sdk-32.0.0.89-mac-compiler
   file: AIRSDK_Compiler.dmg
   size: 373812815
   sha256: 1e984769b71cc86447754bb0e0834ec23f2370904f40f9f223b66f1106c7e81a
   source: 'https://gitlab.com/fparchive/air-32.0.0.89/raw/master/mac/AIRSDK_Compiler.dmg'
+
+- name: air-sdk-32.0.0.89-mac-compiler-zip
+  file: AIRSDK_Compiler.zip
+  size: 405393973
+  sha256: d22171ec564395941ba34f974633ccc2cb26885e0589ceb9610fb93570b21813
+  source: 'https://gitlab.com/fparchive/air-32.0.0.89/raw/master/mac/AIRSDK_Compiler.zip'

@@ -4,6 +4,12 @@
   sha256: 735bdddc63729b78c4f975a387f1a351a582a29e0dfce7ea3a14e921da544a81
   source: 'https://gitlab.com/fparchive/air-1.5.2.8870/raw/master/mac/AdobeAIRSDK.dmg'
 
+- name: air-sdk-1.5.2.8870-mac-zip
+  file: AdobeAIRSDK.zip
+  size: 24971603
+  sha256: 8576558cc276b285de866c3acce5ea30b1b26ae3ebaf66228ada131833ba5a85
+  source: 'https://gitlab.com/fparchive/air-1.5.2.8870/raw/master/mac/AdobeAIRSDK.zip'
+
 - name: air-sdk-1.5.2.8870-linux
   file: AdobeAIRSDK.tbz2
   size: 19686708
