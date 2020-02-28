@@ -30,11 +30,15 @@ async function list() {
 		const title = document.querySelector(
 			'#downloadContent .contentTitle'
 		).textContent;
+		const downloadContentText = document.querySelector(
+			'#downloadContent'
+		).textContent;
 		const downloads = [...document.querySelectorAll('#downloadArea a')].map(
 			a => a.href
 		);
 		return '' + JSON.stringify({
 			title,
+			downloadContentText,
 			downloads
 		});
 		/* eslint-enable */
@@ -43,14 +47,16 @@ async function list() {
 	await page.close();
 	await browser.close();
 
-	const {title, downloads} = JSON.parse(info);
+	const {downloadContentText, downloads} = JSON.parse(info);
 
 	// Parse out the version.
-	const titleMatch = title.match(/version\s+([\d.]+)(\s|$)/i);
-	if (!titleMatch) {
-		throw new Error(`Failed to extract version from title: ${title}`);
+	const versionMatch = downloadContentText.match(
+		/\s([\d]+\.[\d]+\.[\d]+\.[\d]+)[\s|\.]/i
+	);
+	if (!versionMatch) {
+		throw new Error(`Failed to extract version from body: ${versionMatch}`);
 	}
-	const [, version] = titleMatch;
+	const [, version] = versionMatch;
 
 	// Parse out the downloads.
 	const downloadsClean = [];
