@@ -51,7 +51,7 @@ async function list() {
 
 	// Parse out the version.
 	const versionMatch = downloadContentText.match(
-		/\s([\d]+\.[\d]+\.[\d]+\.[\d]+)[\s|\.]/i
+		/\s([\d]+\.[\d]+\.[\d]+\.[\d]+)[\D|$]/i
 	);
 	if (!versionMatch) {
 		throw new Error(`Failed to extract version from body: ${versionMatch}`);
