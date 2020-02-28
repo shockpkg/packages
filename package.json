@@ -11,21 +11,21 @@
 		"build": "node ./bin/build"
 	},
 	"devDependencies": {
-		"async": "^3.1.0",
+		"async": "^3.2.0",
 		"buffer-crc32": "^0.2.13",
 		"cheerio": "^1.0.0-rc.3",
-		"eslint": "^6.7.2",
+		"eslint": "^6.8.0",
 		"fs-extra": "^8.1.0",
 		"glob": "^7.1.6",
 		"jasmine": "^3.5.0",
 		"jasmine-core": "^3.5.0",
 		"jasmine-spec-reporter": "^4.2.1",
 		"js-yaml": "^3.13.1",
-		"request": "^2.88.0",
-		"rimraf": "^3.0.0",
+		"request": "^2.88.2",
+		"rimraf": "^3.0.2",
 		"yauzl": "^2.10.0"
 	},
 	"dependencies": {
-		"puppeteer": "^2.0.0"
+		"puppeteer": "^2.1.1"
 	}
 }
