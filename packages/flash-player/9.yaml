@@ -586,7 +586,7 @@
       sha256: 800e117bf0ebe45f61ebac7852403aeba44994130f12c7c550170142045800ee
       source: fp9_archive/9r262/flashplayer9r262_ub_mac.dmg
 
-    - name: flash-player-9.0.262.0-linux-sa
+    - name: flash-player-9.0.262.0-linux-dev
       file: flashplayer9r262_linux_sa.tar.gz
       size: 12876271
       sha256: 9a51595bdca16f9e1f3cd593522e789d893fe6568ea01d9b02d158f99c1493af
