@@ -268,7 +268,7 @@
       sha256: 423ac7830c8a55ac931acb9e07a51f2aa981aedb63b45745460b4556a10e157b
       source: fp10_archive/10r45_2/flashplayer_10r45_2_linux.tar.gz
 
-    - name: flash-player-10.0.45.2-linux-sa
+    - name: flash-player-9.0.262.0-linux-sa
       file: flashplayer_10r45_2_linux_sa.tar.gz
       size: 3079023
       sha256: d12b15507ba8c9fd483e5576af5fb7fb1de04db0fad9fd64be9ac460d1bdef19
