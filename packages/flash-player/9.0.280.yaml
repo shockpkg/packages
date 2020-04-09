@@ -99,9 +99,3 @@
       size: 3282360
       sha256: 9389667df1c8773fe6a1ac7866c3c6025717ccc225c31194ed1351fda03db72c
       source: fp9r280_plus_debug_archive/9r280/flashplayer9r280_linux_debug.tar.gz
-
-    - name: flash-player-9.0.280.0-linux-sa-debug
-      file: flashplayer9r280_linux_sa_debug.tar.gz
-      size: 3313015
-      sha256: f181329f2d726763097a0dfe7b78fa381237b447fa1bf97f0bb61764df8fea9a
-      source: fp9r280_plus_debug_archive/9r280/flashplayer9r280_linux_sa_debug.tar.gz

@@ -190,12 +190,6 @@
       sha256: 7495d400b7caaca605a9fffd16544c3d9ecd53aa8d8730019336f9ea2af1da69
       source: Flash Player 10.1.85.3/10_1r85_3/flashplayer10_1r85_3_linux_sa.tar.gz
 
-    - name: flash-player-10.1.85.3-linux-sa-debug
-      file: flashplayer10_1r85_3_linux_sa_debug.tar.gz
-      size: 5276797
-      sha256: 7acafd5c16e211acd3c981c6d2d9fa8d37374c1f8a5c749e4b4ce24a46b317c3
-      source: Flash Player 10.1.85.3/10_1r85_3_debug/flashplayer10_1r85_3_linux_sa_debug.tar.gz
-
     - name: flash-player-10.1.85.3-solaris-sparc-npapi
       file: flashplayer10_1r85_3_solaris_sparc.tar.bz2
       size: 5134328
