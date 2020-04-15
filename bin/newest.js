@@ -8,6 +8,7 @@ const asyncQueue = require('async/queue');
 const {requestPromise} = require('../util/request');
 
 // Used to check for Shockwave Player updates, but downloads are all down.
+// https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [
 	// {
 	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/cabs/director/sw.cab',
@@ -44,6 +45,18 @@ const resources = [
 		size: 4262176,
 		lastModified: 'Fri, 12 Apr 2019 10:50:07 GMT',
 		eTag: '"410920-5865310eb2c5a"'
+	},
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installerj.exe',
+		size: 13126832,
+		lastModified: 'Fri, 12 Apr 2019 10:50:08 GMT',
+		eTag: '"c84cb0-5865310f2becc"'
+	},
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_slim_installerj.exe',
+		size: 4262176,
+		lastModified: 'Fri, 12 Apr 2019 10:50:07 GMT',
+		eTag: '"410920-5865310eda9c4"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full_64bit.dmg',
