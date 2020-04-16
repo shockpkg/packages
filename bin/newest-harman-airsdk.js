@@ -7,11 +7,10 @@ const {requestPromise} = require('../util/request');
 const harmanAirsdk = require('../util/harman-airsdk');
 
 const expected = new Map([
-	// These are really 33.1.1.98, now mislabeled.
-	['air-sdk-33.1.1.86-windows', 600932040],
-	['air-sdk-33.1.1.86-windows-compiler', 637974807],
-	['air-sdk-33.1.1.86-mac', 597940503],
-	['air-sdk-33.1.1.86-mac-compiler', 635013157]
+	['air-sdk-33.1.1.98-windows', 600932040],
+	['air-sdk-33.1.1.98-windows-compiler', 637974807],
+	['air-sdk-33.1.1.98-mac', 597940503],
+	['air-sdk-33.1.1.98-mac-compiler', 635013157]
 ]);
 
 async function main() {
