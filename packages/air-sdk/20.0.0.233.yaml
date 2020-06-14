@@ -1,0 +1,17 @@
+- name: air-sdk-20.0.0.233-windows
+  file: AdobeAIRSDK.zip
+  size: 205841568
+  sha256: 7889d3e56e54998165e989264fc837bd9ffc42e05e71a99bfe2935dd8e847176
+  source: 'https://gitlab.com/fparchive/air-20.0.0.233/raw/master/win/AdobeAIRSDK.zip'
+
+- name: air-sdk-20.0.0.233-mac
+  file: AdobeAIRSDK.tbz2
+  size: 213879665
+  sha256: 33759e56f709eb1c838b2eb9c01c2bd07edd7546d1540a2394a2ada2f91280d6
+  source: 'https://gitlab.com/fparchive/air-20.0.0.233/raw/master/mac/AdobeAIRSDK.tbz2'
+
+- name: air-sdk-20.0.0.233-mac-zip
+  file: AdobeAIRSDK.zip
+  size: 230494293
+  sha256: 5e551518c5d951fb2df13377f630b3d455758ec1e40ddc90b6e6f43c1423ba14
+  source: 'https://gitlab.com/fparchive/air-20.0.0.233/raw/master/mac/AdobeAIRSDK.zip'

@@ -3,3 +3,15 @@
   size: 19823240
   sha256: a50cf544d842c489e48f5963fca8b15f5fc5ad1d518a1f3f1167e8ec00a55061
   source: 'https://gitlab.com/fparchive/air-20.0.0.233/raw/master/android/AdobeAIRAndroid.apk'
+
+- name: air-runtime-20.0.0.233-windows
+  file: AdobeAIRInstaller.exe
+  size: 18348472
+  sha256: ed67713fdcfd6c2bf4600ac8e45cb13c2134dd1a8faad7efb2a2939134873ddb
+  source: 'https://gitlab.com/fparchive/air-20.0.0.233/raw/master/win/AdobeAIRInstaller.exe'
+
+- name: air-runtime-20.0.0.233-mac
+  file: AdobeAIR.dmg
+  size: 32753981
+  sha256: 9d61846396088e8864321e1b4a89802ac5f7b07cbca0b9ab3e07163932e44898
+  source: 'https://gitlab.com/fparchive/air-20.0.0.233/raw/master/mac/AdobeAIR.dmg'

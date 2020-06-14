@@ -75,3 +75,15 @@
       size: 233532
       sha256: 266bbcbe38834098299a8854818ce6f08f27e670aa7a3f7d6f3736edf9ca63bc
       source: fp_11.8.800.168_archive/11_8_r800_168/uninstall_flashplayer11_8r800_168_mac.dmg
+
+- name: flash-player-11.8.800.168-windows-sa
+  file: flashplayer_11_sa.exe
+  size: 10248072
+  sha256: 14529f3a8f33a10ed1e2b0e657bf3f00080b5726844dfde69c1c0773ea2419c3
+  source: 'https://gitlab.com/fparchive/player-11.8.800.168/raw/master/flashplayer_11_sa.exe'
+
+- name: flash-player-11.8.800.168-mac-sa
+  file: flashplayer_11_sa.dmg
+  size: 15481799
+  sha256: 8535cc76f1d88bf2d1e7b17cdcbcb197f56d5508f39409aa70cf90dc478d9205
+  source: 'https://gitlab.com/fparchive/player-11.8.800.168/raw/master/flashplayer_11_sa.dmg'

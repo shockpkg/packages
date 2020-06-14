@@ -1,0 +1,11 @@
+- name: air-runtime-21.0.0.198-windows
+  file: AdobeAIRInstaller.exe
+  size: 18672512
+  sha256: 2ecc151db4afce5b962ecd7736258b598e8380c93fd4e99f6626be199474b6cf
+  source: 'https://gitlab.com/fparchive/air-21.0.0.198/raw/master/win/AdobeAIRInstaller.exe'
+
+- name: air-runtime-21.0.0.198-mac
+  file: AdobeAIR.dmg
+  size: 33469375
+  sha256: 392980b5c8dd692581d3170ede0abc87af48c68cb86e56574fe0b6dbfcf5e076
+  source: 'https://gitlab.com/fparchive/air-21.0.0.198/raw/master/mac/AdobeAIR.dmg'

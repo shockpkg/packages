@@ -21,3 +21,9 @@
   size: 17092840
   sha256: 28c529cf7cbfb902cd441a4242c738f29f2d69796a377580ec46d79f2904614f
   source: 'https://gitlab.com/fparchive/air-23.0.0.257/raw/master/mac/AdobeAIR.tbz2'
+
+- name: air-runtime-23.0.0.257-mac-dmg
+  file: AdobeAIR.dmg
+  size: 20467467
+  sha256: 39339dbbd3218eb1bad35c29ee8b9b4de1ba23e7c013111ed6db9a0a7d55fe49
+  source: 'https://gitlab.com/fparchive/air-23.0.0.257/raw/master/mac/AdobeAIR.dmg'

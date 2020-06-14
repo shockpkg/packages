@@ -15,3 +15,9 @@
   size: 25854068
   sha256: bd6da74e83c8350db9fcd9bf5231e16aa1a9c3623862a2368113d5088cd4c8fb
   source: 'https://gitlab.com/fparchive/air-17.0.0.172/raw/master/mac/AdobeAIR.tbz2'
+
+- name: air-runtime-17.0.0.172-mac-dmg
+  file: AdobeAIR.dmg
+  size: 30834215
+  sha256: ff5dba2abe9e9ff704ce6d91660f09c780307037dea75a0997aeebd0b4803f71
+  source: 'https://gitlab.com/fparchive/air-17.0.0.172/raw/master/mac/AdobeAIR.dmg'

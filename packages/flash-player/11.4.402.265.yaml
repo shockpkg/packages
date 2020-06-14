@@ -27,3 +27,21 @@
       size: 229949
       sha256: c28dcf8ce48d207b08880596aacd65ccf269137e6314b6c49f32b4bcef261872
       source: fp_11.4.r402.265_archive/11_4_r402_265/uninsstall_flashplayer11_4r402_265_mac.dmg
+
+- name: flash-player-11.4.402.265-windows-sa
+  file: flashplayer_11_sa.exe
+  size: 8872648
+  sha256: 915f75a32a7e7e1b62e80872c02b241d482721b30d0ff07d30471e622bbd7b78
+  source: 'https://gitlab.com/fparchive/player-11.4.402.265/raw/master/flashplayer_11_sa.exe'
+
+- name: flash-player-11.4.402.265-windows-sa-debug
+  file: flashplayer_11_sa_debug.exe
+  size: 10329288
+  sha256: 0bec8c08bab1944d98760e5b277bb888cdae3174b574341e48709a38cc5998d4
+  source: 'https://gitlab.com/fparchive/player-11.4.402.265/raw/master/flashplayer_11_sa_debug.exe'
+
+- name: flash-player-11.4.402.265-mac-sa
+  file: flashplayer_11_sa.app.zip
+  size: 14921171
+  sha256: dbadc6b472775d7244f76b886a2d9c2fecfec399aa542c2a9ea1a4f6542b79c2
+  source: 'https://gitlab.com/fparchive/player-11.4.402.265/raw/master/flashplayer_11_sa.app.zip'

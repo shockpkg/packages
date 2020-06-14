@@ -1,0 +1,5 @@
+- name: air-runtime-3.8.0.870-windows
+  file: AdobeAIRInstaller.exe
+  size: 18066392
+  sha256: 3a94b41a15d4b3d616e4278c24077e1438b3e0a703be6db159790481e3b1cb68
+  source: 'https://gitlab.com/fparchive/air-3.8.0.870/raw/master/win/AdobeAIRInstaller.exe'

@@ -1,0 +1,5 @@
+- name: air-runtime-18.0.0.144-windows
+  file: AdobeAIRInstaller.exe
+  size: 18054744
+  sha256: 6b4d889babbff986da115bce7403c3b74397eceb4f85df79f8118a86bc2699af
+  source: 'https://gitlab.com/fparchive/air-18.0.0.144/raw/master/win/AdobeAIRInstaller.exe'

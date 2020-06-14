@@ -1,0 +1,5 @@
+- name: air-runtime-2.5.1.17750-mac
+  file: AdobeAIR.dmg
+  size: 18314006
+  sha256: 2f0905b55b68d630c9e820cadc3d3eca2f26dc73f808c790634e18f0491d4344
+  source: 'https://gitlab.com/fparchive/air-2.5.1.17750/raw/master/mac/AdobeAIR.dmg'

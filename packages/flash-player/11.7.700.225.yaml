@@ -22,7 +22,7 @@
       sha256: ea4669091d3a2d969a71759be272d61ced08fc4c7de85149d0e3f2468f66e320
       source: fp_11.7.700.225_archive/11_7_r700_225/flashplayer_11_7r700_225_mac_sa.app.zip
 
-    - name: flash-player-11.7.700.225-mac-sa-debug
+    - name: flash-player-11.7.700.225-mac-sa-debug-zip
       file: flashplayer11_7r700_225_mac_sa_debug.zip
       size: 16551230
       sha256: ced4670a0ff22070adf5ec53e9c2d5c47e2d17ab1d591aafd1d85e2384976423
@@ -33,3 +33,15 @@
       size: 233411
       sha256: f766b061793edfd030a04fa3bd990f3cc3daa2348adf07ad968dcc3f41688214
       source: fp_11.7.700.225_archive/11_7_r700_225/uninstall_flashplayer11_7r700_225_mac.dmg
+
+- name: flash-player-11.7.700.225-windows-sa
+  file: flashplayer_11_sa.exe
+  size: 10197896
+  sha256: 4fc24e4c32768e0c45b0ea4128869014f9a1cf73330b2d722e8a5d82a144cf19
+  source: 'https://gitlab.com/fparchive/player-11.7.700.225/raw/master/flashplayer_11_sa.exe'
+
+- name: flash-player-11.7.700.225-mac-sa-debug
+  file: flashplayer_11_sa_debug.dmg
+  size: 15947937
+  sha256: c7747b659705717a96a8f66b900080948d53691f96d8fe6e64c80b22291f3708
+  source: 'https://gitlab.com/fparchive/player-11.7.700.225/raw/master/flashplayer_11_sa_debug.dmg'

@@ -63,3 +63,9 @@
       size: 241404
       sha256: 698dd08cff338f03a9f9746a96ec358f0a3a8dccaff8c6e4c82a5e1c91db0ada
       source: fp_14.0.0.176_archive/14_0_r0_176/uninstall_flashplayer14_0r0_176_mac.dmg
+
+- name: flash-player-14.0.0.176-windows-sa
+  file: flashplayer_14_sa.exe
+  size: 11131056
+  sha256: 8640c42e73dc44125045e17abd32412c48f3808a8393c94fc8281cf4b0d87bdc
+  source: 'https://gitlab.com/fparchive/player-14.0.0.176/raw/master/flashplayer_14_sa.exe'

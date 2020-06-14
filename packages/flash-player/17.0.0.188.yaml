@@ -105,3 +105,9 @@
       size: 258569
       sha256: eca4c7d16f5f755376633cc309d8bbb359cb100eb95ef030ce3385e7ecf1a23d
       source: fp_17.0.0.188_archive/17_0_r0_188/uninstall_flashplayer17_0r0_188_mac.dmg
+
+- name: flash-player-17.0.0.188-windows-sa
+  file: flashplayer_17_sa.exe
+  size: 11247792
+  sha256: fa9dce480dac8e44f8c7be1c4a1b0d9e91d4495cbb0e99c7efeddc0897156e32
+  source: 'https://gitlab.com/fparchive/player-17.0.0.188/raw/master/flashplayer_17_sa.exe'

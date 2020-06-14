@@ -1,0 +1,17 @@
+- name: flash-player-11.2.202.236-linux-i386-npapi-debug
+  file: flashplayer_11_plugin_debug.i386.tar.gz
+  size: 7395698
+  sha256: 30e0513fa6759267593366d7fbf0752b41a7f360e9edc539b995ef3f97006841
+  source: 'https://gitlab.com/fparchive/player-11.2.202.236/raw/master/flashplayer_11_plugin_debug.i386.tar.gz'
+
+- name: flash-player-11.2.202.236-linux-i386-sa
+  file: flashplayer_11_sa.i386.tar.gz
+  size: 6001743
+  sha256: 03b38c56f1dbcfd8b95ab6ad8da1240df8f030687a4bcbafe005b47ed0ca038d
+  source: 'https://gitlab.com/fparchive/player-11.2.202.236/raw/master/flashplayer_11_sa.i386.tar.gz'
+
+- name: flash-player-11.2.202.236-linux-i386-sa-debug
+  file: flashplayer_11_sa_debug.i386.tar.gz
+  size: 6451833
+  sha256: 80717f7491f805b45f19849cf2a10f1dbc08f9c4296304e81b6b87de714966ba
+  source: 'https://gitlab.com/fparchive/player-11.2.202.236/raw/master/flashplayer_11_sa_debug.i386.tar.gz'

@@ -1,0 +1,11 @@
+- name: air-runtime-18.0.0.180-windows
+  file: AdobeAIRInstaller.exe
+  size: 18096736
+  sha256: b998221d3414529c7b9d0bfb879d499788f8cfb1022674910470408ebf0a5145
+  source: 'https://gitlab.com/fparchive/air-18.0.0.180/raw/master/win/AdobeAIRInstaller.exe'
+
+- name: air-runtime-18.0.0.180-mac
+  file: AdobeAIR.dmg
+  size: 32123520
+  sha256: d695272e3575df56e45eb305a86b9f6f83b9b7d8d9cf72fec72efa70c0006beb
+  source: 'https://gitlab.com/fparchive/air-18.0.0.180/raw/master/mac/AdobeAIR.dmg'

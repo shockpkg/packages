@@ -3,3 +3,15 @@
   size: 20792244
   sha256: ced5207639d6d0772a53812c5f584125e73d90b20db6b76c20ab91ef8b76f9cc
   source: 'https://gitlab.com/fparchive/air-21.0.0.176/raw/master/android/AdobeAIRAndroid.apk'
+
+- name: air-runtime-21.0.0.176-windows
+  file: AdobeAIRInstaller.exe
+  size: 18667480
+  sha256: 533c3776d84992694c18df2e920e9382b7f1ec882dfbc076fcb179f351e8153c
+  source: 'https://gitlab.com/fparchive/air-21.0.0.176/raw/master/win/AdobeAIRInstaller.exe'
+
+- name: air-runtime-21.0.0.176-mac
+  file: AdobeAIR.dmg
+  size: 33187162
+  sha256: 6f9a16c35502475ac21e575c55ed097dcf81072b939246d57adc175377595adb
+  source: 'https://gitlab.com/fparchive/air-21.0.0.176/raw/master/mac/AdobeAIR.dmg'

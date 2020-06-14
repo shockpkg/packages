@@ -1,0 +1,5 @@
+- name: flash-player-18.0.0.326-windows-activex-debug
+  file: flashplayer_18_ax_debug.exe
+  size: 18648264
+  sha256: c66d7e04c4adff74b50fe52af58171e8d39cbee0673be116c1da806528e9bfc6
+  source: 'https://gitlab.com/fparchive/player-18.0.0.326/raw/master/flashplayer_18_ax_debug.exe'

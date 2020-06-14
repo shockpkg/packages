@@ -1,0 +1,11 @@
+- name: air-runtime-1.0.7.4880-windows
+  file: AdobeAIRInstaller.exe
+  size: 11796424
+  sha256: 3e5072d2d0d4cac378020bee93225015554b48cb8f2a9231680fdd84f237c08d
+  source: 'https://gitlab.com/fparchive/air-1.0.7.4880/raw/master/win/AdobeAIRInstaller.exe'
+
+- name: air-runtime-1.0.7.4880-mac
+  file: AdobeAIRInstaller.dmg
+  size: 17239201
+  sha256: a8e031aa289f9a114bff3edada5f7a970fb29fda6846ef86c356eae14b7cc1ac
+  source: 'https://gitlab.com/fparchive/air-1.0.7.4880/raw/master/mac/AdobeAIRInstaller.dmg'

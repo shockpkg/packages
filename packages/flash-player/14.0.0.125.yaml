@@ -75,3 +75,9 @@
       size: 241275
       sha256: 3a44ba0cc0341433a0c5a4424eed12543c2a4399db5b74314d6671a5e302bdad
       source: 14_0_r0_125/uninstall_flashplayer14_0r0_125_mac.dmg
+
+- name: flash-player-14.0.0.125-mac-sa
+  file: flashplayer_14_sa.dmg
+  size: 13399050
+  sha256: fa5eef90162516da0ba4de071abdff202f6bb5281d5a39b62169cad60d214a90
+  source: 'https://gitlab.com/fparchive/player-14.0.0.125/raw/master/flashplayer_14_sa.dmg'

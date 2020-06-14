@@ -1,0 +1,11 @@
+- name: air-runtime-17.0.0.124-windows
+  file: AdobeAIRInstaller.exe
+  size: 17721040
+  sha256: 1704ff6ff49d731decc12d204b6850e531cfd7c2fd284deeabcaa02d5861bba1
+  source: 'https://gitlab.com/fparchive/air-17.0.0.124/raw/master/win/AdobeAIRInstaller.exe'
+
+- name: air-runtime-17.0.0.124-mac
+  file: AdobeAIR.dmg
+  size: 31703399
+  sha256: 87e145fcec7eed2365b493113e09525e9739666531932d6766f2a13a6f47f58b
+  source: 'https://gitlab.com/fparchive/air-17.0.0.124/raw/master/mac/AdobeAIR.dmg'

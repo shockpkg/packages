@@ -15,3 +15,9 @@
   size: 19686708
   sha256: deb39cc2f59fd771f718f4ee677356eea8bf2f81be864bf0c40b38d71763c147
   source: 'https://gitlab.com/fparchive/air-1.5.2.8870/raw/master/lin/AdobeAIRSDK.tbz2'
+
+- name: air-sdk-1.5.2.8870-linux-zip
+  file: AdobeAIRSDK.zip
+  size: 20721858
+  sha256: f87104e5e51a6be724656ecd1460af22011279a91fcdcafb0013c2f5def495e2
+  source: 'https://gitlab.com/fparchive/air-1.5.2.8870/raw/master/lin/AdobeAIRSDK.zip'

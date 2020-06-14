@@ -105,3 +105,15 @@
       size: 272788
       sha256: 2d9cb2efad925677a5387974cce73fb098fbc8b38593ca3ff29a445bb5bc4825
       source: fp_19.0.0.185_archive/19_0_r0_185/uninstall_flashplayer19_0r0_185_mac.dmg
+
+- name: flash-player-19.0.0.185-windows-sa
+  file: flashplayer_19_sa.exe
+  size: 12937416
+  sha256: 0892f51f7f0d49a061e6f61dfb67aab489c63bdbd3d143bc36bf300c7e6b9218
+  source: 'https://gitlab.com/fparchive/player-19.0.0.185/raw/master/flashplayer_19_sa.exe'
+
+- name: flash-player-19.0.0.185-mac-sa
+  file: flashplayer_19_sa.dmg
+  size: 13663268
+  sha256: b4a0febba1106f9036fcb0b7eef52a8b2d82ca3160b532ced969f90f7dcc742b
+  source: 'https://gitlab.com/fparchive/player-19.0.0.185/raw/master/flashplayer_19_sa.dmg'

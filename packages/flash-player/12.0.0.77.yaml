@@ -75,3 +75,15 @@
       size: 235545
       sha256: 2df42b1e872fc1fe522c8580c75ad119fae69a13bdecee3373ad8c1fb1a38676
       source: fp_12.0.0.77_archive/12_0_r0_77/uninstall_flashplayer12_0r0_77_mac.dmg
+
+- name: flash-player-12.0.0.77-windows-sa
+  file: flashplayer_12_sa.exe
+  size: 10360200
+  sha256: 2d661d16b078eebed0bbf71987108d2d2e5ac5d2d68b706ea39d18c0b67c94cd
+  source: 'https://gitlab.com/fparchive/player-12.0.0.77/raw/master/flashplayer_12_sa.exe'
+
+- name: flash-player-12.0.0.77-mac-sa
+  file: flashplayer_12_sa.dmg
+  size: 15400489
+  sha256: f63c8931502b88bdde25fa38f379f78d851aed9f383f782b10621a508cdf832c
+  source: 'https://gitlab.com/fparchive/player-12.0.0.77/raw/master/flashplayer_12_sa.dmg'

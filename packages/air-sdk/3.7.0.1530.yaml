@@ -1,0 +1,17 @@
+- name: air-sdk-3.7.0.1530-windows-compiler
+  file: AIRSDK_Compiler.zip
+  size: 213447548
+  sha256: 8d785503d186a637cfd98f5b2a5c7162dc076a97b3f152cf41867d209a4d5b83
+  source: 'https://gitlab.com/fparchive/air-3.7.0.1530/raw/master/win/AIRSDK_Compiler.zip'
+
+- name: air-sdk-3.7.0.1530-mac-compiler
+  file: AIRSDK_Compiler.tbz2
+  size: 193563766
+  sha256: a482230116160c776becce0725cd3b90e07274b22c69863f2e3f1b2cb96affbd
+  source: 'https://gitlab.com/fparchive/air-3.7.0.1530/raw/master/mac/AIRSDK_Compiler.tbz2'
+
+- name: air-sdk-3.7.0.1530-mac-compiler-zip
+  file: AIRSDK_Compiler.zip
+  size: 213330984
+  sha256: 96b2bd4993c3e597c5fbf458df4945d919bcd38caef2ef2af31edf9c58538f3e
+  source: 'https://gitlab.com/fparchive/air-3.7.0.1530/raw/master/mac/AIRSDK_Compiler.zip'

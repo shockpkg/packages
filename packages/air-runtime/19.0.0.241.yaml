@@ -15,3 +15,9 @@
   size: 26536808
   sha256: 38fdb4ea584322f2ec7aa4a2f50c6a9044a244be45666d50badc763d4dda90c3
   source: 'https://gitlab.com/fparchive/air-19.0.0.241/raw/master/mac/AdobeAIR.tbz2'
+
+- name: air-runtime-19.0.0.241-mac-dmg
+  file: AdobeAIR.dmg
+  size: 32314589
+  sha256: 38a4a9086f19650c347c42b24bc1c3f8d708708053adddff861c87a8eba6b9b7
+  source: 'https://gitlab.com/fparchive/air-19.0.0.241/raw/master/mac/AdobeAIR.dmg'

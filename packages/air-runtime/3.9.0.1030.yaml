@@ -1,0 +1,11 @@
+- name: air-runtime-3.9.0.1030-windows
+  file: AdobeAIRInstaller.exe
+  size: 18080872
+  sha256: f6142cd8f575721f18d2c4f4ca10929b2081d5d767a13410b3b049ce2514c4e1
+  source: 'https://gitlab.com/fparchive/air-3.9.0.1030/raw/master/win/AdobeAIRInstaller.exe'
+
+- name: air-runtime-3.9.0.1030-mac
+  file: AdobeAIR.dmg
+  size: 27580452
+  sha256: be249017466ceff477ad62254c478eca7a85c2bd1777b6a58180b88130df9066
+  source: 'https://gitlab.com/fparchive/air-3.9.0.1030/raw/master/mac/AdobeAIR.dmg'

@@ -105,3 +105,15 @@
       size: 257048
       sha256: 4dc1474f5434b9ffa277fe88535077ce86fdf06ff1bcd0336d9ab63ef69882e8
       source: fp_16.0.0.305_archive/16_0_r0_305/uninstall_flashplayer16_0r0_305_mac.dmg
+
+- name: flash-player-16.0.0.305-windows-sa
+  file: flashplayer_16_sa.exe
+  size: 11233456
+  sha256: 2da3d122adf7d7ca49aef4392d5366d45f30060d709c062b8ecebefe1ab73214
+  source: 'https://gitlab.com/fparchive/player-16.0.0.305/raw/master/flashplayer_16_sa.exe'
+
+- name: flash-player-16.0.0.305-mac-sa
+  file: flashplayer_16_sa.dmg
+  size: 13500714
+  sha256: 97de37554de73492c0c13b5ffa8f6eb13e853f50b0bdcf565b16b0b024a6593c
+  source: 'https://gitlab.com/fparchive/player-16.0.0.305/raw/master/flashplayer_16_sa.dmg'

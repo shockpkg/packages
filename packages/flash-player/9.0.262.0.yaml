@@ -1,0 +1,29 @@
+- name: flash-player-9.0.262.0-windows-npapi-msi
+  file: 'Install Flash Player 9 Plugin.msi'
+  size: 4407296
+  sha256: e4f9b44d6a8ca6b14a5fee28ec688158a58a8aeec4e17aa0980e2a453b34b89e
+  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Release/Install%20Flash%20Player%209%20Plugin.msi'
+
+- name: flash-player-9.0.262.0-windows-npapi-debug-msi
+  file: 'Install Flash Player 9 Plugin.msi'
+  size: 4518912
+  sha256: fe7093ad2c5de749e255cc499666bf33cc00dccb40310c42379727cf97590a7a
+  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Debug/Install%20Flash%20Player%209%20Plugin.msi'
+
+- name: flash-player-9.0.262.0-windows-activex-msi
+  file: 'Install Flash Player 9 ActiveX.msi'
+  size: 4525056
+  sha256: 7a01feec6567029c799da8523761f4c131a9796ab06f5cfade8fd41f3f0d1dc9
+  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Release/Install%20Flash%20Player%209%20ActiveX.msi'
+
+- name: flash-player-9.0.262.0-windows-activex-debug-msi
+  file: 'Install Flash Player 9 ActiveX.msi'
+  size: 4634112
+  sha256: cd2eaf292007c719b892623e10673b5343604d252e11588a1ff7839bfd684290
+  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Debug/Install%20Flash%20Player%209%20ActiveX.msi'
+
+- name: flash-player-9.0.262.0-windows-sa
+  file: FlashPlayer.exe
+  size: 3424504
+  sha256: a1a70101668daedf518687b17ff9d1b198e41bf9c8ccdd848cdb0b053c73b1db
+  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Release/FlashPlayer.exe'

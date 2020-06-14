@@ -1,0 +1,11 @@
+- name: air-runtime-20.0.0.204-windows
+  file: AdobeAIRInstaller.exe
+  size: 18275664
+  sha256: 8dfdb4fb3dcf4f703db18edc3e2c9fb5fb3c4735fd6d70e72916bffbf751f7ee
+  source: 'https://gitlab.com/fparchive/air-20.0.0.204/raw/master/win/AdobeAIRInstaller.exe'
+
+- name: air-runtime-20.0.0.204-mac
+  file: AdobeAIR.dmg
+  size: 35004028
+  sha256: a382b7dd143d059c8d1eb47e7252d43c64deeaa0ba0531eb019742b2b43b7d07
+  source: 'https://gitlab.com/fparchive/air-20.0.0.204/raw/master/mac/AdobeAIR.dmg'

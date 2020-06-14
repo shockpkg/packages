@@ -75,3 +75,15 @@
       size: 243661
       sha256: 9dfa69626230bdc581ad49326a450ae94910997061c623826b15d42ddbe1528c
       source: fp_13.0.0.206_archive/13_0_r0_206/uninstall_flashplayer13_0r0_206_mac.dmg
+
+- name: flash-player-13.0.0.206-windows-sa
+  file: flashplayer_13_sa.exe
+  size: 10431152
+  sha256: 1fb9a37f6da7f7482b188579717b7308d008a341e7c8e527b52f8665d96a8ead
+  source: 'https://gitlab.com/fparchive/player-13.0.0.206/raw/master/flashplayer_13_sa.exe'
+
+- name: flash-player-13.0.0.206-mac-sa
+  file: flashplayer_13_sa.dmg
+  size: 12188141
+  sha256: eeb47ba093876fc25d4993e0f7652e398c66c9f0a0e89d01586ab33c7a82bab2
+  source: 'https://gitlab.com/fparchive/player-13.0.0.206/raw/master/flashplayer_13_sa.dmg'

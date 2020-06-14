@@ -15,3 +15,9 @@
   size: 29175790
   sha256: 988be0e16f37b56941bc92c58727aa556e995067dc0191e51081cf59b3a3ee7d
   source: 'https://gitlab.com/fparchive/air-21.0.0.215/raw/master/mac/AdobeAIR.tbz2'
+
+- name: air-runtime-21.0.0.215-mac-dmg
+  file: AdobeAIR.dmg
+  size: 33463544
+  sha256: 543d121118b311e726f9288833de06b74ca861d50fb08ba029a227fac097dc82
+  source: 'https://gitlab.com/fparchive/air-21.0.0.215/raw/master/mac/AdobeAIR.dmg'

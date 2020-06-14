@@ -81,3 +81,15 @@
       size: 241971
       sha256: fe69814bf56515593963832a8f00161f05204c2c0dd866e2af6f52e1c7e00252
       source: fp_15.0.0.152_archive/15_0_r0_152/uninstall_flashplayer15_0r0_152_mac.dmg
+
+- name: flash-player-15.0.0.152-windows-sa
+  file: flashplayer_15_sa.exe
+  size: 11206320
+  sha256: 853fc83c8588de73f9b5b61ea32732003746a7f97484c26fd5863a61a94a3590
+  source: 'https://gitlab.com/fparchive/player-15.0.0.152/raw/master/flashplayer_15_sa.exe'
+
+- name: flash-player-15.0.0.152-mac-sa
+  file: flashplayer_15_sa.dmg
+  size: 13484941
+  sha256: 471dc1b5b1838afcc7f78a47c194081687c2c44a1fb59d4e51e25e4715c68d80
+  source: 'https://gitlab.com/fparchive/player-15.0.0.152/raw/master/flashplayer_15_sa.dmg'

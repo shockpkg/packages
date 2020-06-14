@@ -3,3 +3,9 @@
   size: 17061919
   sha256: 9e07aeebfa3131373aec1a189d0608f31262c351e3047032131c5d1058819eac
   source: 'https://gitlab.com/fparchive/air-18.0.0.143/raw/master/android/AdobeAIRAndroid.apk'
+
+- name: air-runtime-18.0.0.143-mac
+  file: AdobeAIR.dmg
+  size: 32119925
+  sha256: 1ffb37c3ccfeb82b7cc576407fbdc1422175be0bed91831879aa23e08003073e
+  source: 'https://gitlab.com/fparchive/air-18.0.0.143/raw/master/mac/AdobeAIR.dmg'

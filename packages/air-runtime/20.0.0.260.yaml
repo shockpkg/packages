@@ -15,3 +15,9 @@
   size: 28669136
   sha256: a947c963978fa56c1d134dc5f27860187ff618dabd378c8c9b656d19beac0963
   source: 'https://gitlab.com/fparchive/air-20.0.0.260/raw/master/mac/AdobeAIR.tbz2'
+
+- name: air-runtime-20.0.0.260-mac-dmg
+  file: AdobeAIR.dmg
+  size: 32477397
+  sha256: 7447812d40e4ffd922dc5c34c7fa9f335a7f5b884067bd85c55e1ac9e2fb316c
+  source: 'https://gitlab.com/fparchive/air-20.0.0.260/raw/master/mac/AdobeAIR.dmg'

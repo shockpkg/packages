@@ -394,6 +394,96 @@
       sha256: 4a639e932a6a5c8628e444e64a6b1d4de2264f59ad39b26ca383f77a93be9eef
       source: Players/Debug/SAFlashPlayer.hqx
 
+- name: flash-player-7-pro-u2-archive
+  file: flash_pro_7-u2_players.zip
+  size: 6810462
+  sha256: 49f17fc171eb45b0d1845bab66b7ce7d353889176724006e811a7c37f1c0fef5
+  source: 'https://gitlab.com/fparchive/player-7/raw/master/flash_pro_7-u2_players.zip'
+  packages:
+    - name: flash-player-7.0.68.0-windows-npapi-debug
+      file: Install Flash Player 7.exe
+      size: 725624
+      sha256: ca2b9e3a1b506f0fed84c584276b3976b5b012ed2478e6f3242b683a3640e158
+      source: Players/Debug/Install Flash Player 7.exe
+
+    - name: flash-player-7.0.68.0-windows-activex-debug
+      file: Install Flash Player 7 AX.exe
+      size: 606840
+      sha256: 83c9801dc0583bd716385e8043aa7248924dc39576181c655218f7e0f120eabd
+      source: Players/Debug/Install Flash Player 7 AX.exe
+
+    - name: flash-player-7.0.68.0-windows-sa
+      file: SAFlashPlayer.exe
+      size: 1029752
+      sha256: acf9d996bed918389c568400a56a10f928f2b0aa18b46193c624365fe42a4072
+      source: Players/Release/SAFlashPlayer.exe
+
+    - name: flash-player-7.0.68.0-windows-sa-debug
+      file: SAFlashPlayer.exe
+      size: 1111672
+      sha256: 046c971ea0e8295db07c57b137722d906de9455a08b673bf64bcb39191e10ca0
+      source: Players/Debug/SAFlashPlayer.exe
+
+    - name: flash-player-7.0.68.0-mac-osx-npapi-debug
+      file: Install Flash Player 7 OSX.hqx
+      size: 2460335
+      sha256: 958fc34dfa6e3c469c9b78cfd5c3d2a6ec3edf365723ad28c986b963e2d4c317
+      source: Players/Debug/Install Flash Player 7 OSX.hqx
+
+    - name: flash-player-7.0.68.0-mac-sa
+      file: SAFlashPlayer.hqx
+      size: 1847182
+      sha256: c80c4c8189568e11dcf8703814500f21b1c28b08ca129762755d72f2fe2d0a20
+      source: Players/Release/SAFlashPlayer.hqx
+
+    - name: flash-player-7.0.68.0-mac-sa-debug
+      file: SAFlashPlayer.hqx
+      size: 1926216
+      sha256: f16db7850f8b07d5d8f1c3fac7b07304568688e58e4f0756f444acb1c97b57a5
+      source: Players/Debug/SAFlashPlayer.hqx
+
+- name: flash-player-7-pro-u3-archive
+  file: flash_pro_7-u3_players.zip
+  size: 6780375
+  sha256: 1d0040ee98fbc4f00d7c62f484016340730c3cdf9f3a3be289d69646bf514a60
+  source: 'https://gitlab.com/fparchive/player-7/raw/master/flash_pro_7-u3_players.zip'
+  packages:
+    - name: flash-player-7.0.69.0-windows-npapi-debug
+      file: Install Flash Player 7.exe
+      size: 726136
+      sha256: 6a16f66a7f14cdca53501d516eea5e51906e01a7d9da332425c6ad48b8b63f3e
+      source: Players/Debug/Install Flash Player 7.exe
+
+    - name: flash-player-7.0.69.0-windows-activex-debug
+      file: Install Flash Player 7 AX.exe
+      size: 603256
+      sha256: 88078ffd776367c676a2ba339d39eb6724dda95e54d6c3264a138d445037ae29
+      source: Players/Debug/Install Flash Player 7 AX.exe
+
+    - name: flash-player-7.0.69.0-windows-sa
+      file: SAFlashPlayer.exe
+      size: 1029752
+      sha256: 747af5b29e5f9deb207b9738b820fc5dccd334b2ba01c7c9aa630afe404e9abc
+      source: Players/Release/SAFlashPlayer.exe
+
+    - name: flash-player-7.0.69.0-windows-sa-debug
+      file: SAFlashPlayer.exe
+      size: 1115768
+      sha256: 38b91cbf79fc53940026201db050c4dcbb2849207363ff4a4259c3312bf1cd53
+      source: Players/Debug/SAFlashPlayer.exe
+
+    - name: flash-player-7.0.69.0-mac-sa
+      file: SAFlashPlayer.hqx
+      size: 1849171
+      sha256: 149b1d85b256ee444947112fc56e6d2960f610d425785ab527c1f8c8a674d013
+      source: Players/Release/SAFlashPlayer.hqx
+
+    - name: flash-player-7.0.69.0-mac-sa-debug
+      file: SAFlashPlayer.hqx
+      size: 1928436
+      sha256: 5885aef9c87c8b7ea5e3ec95d7ab66556d6506e88a9c84c8846fac2083818393
+      source: Players/Debug/SAFlashPlayer.hqx
+
 - name: flash-player-7.0.61.0-linux
   file: install_flash_player_7_linux.tar.gz
   size: 989217

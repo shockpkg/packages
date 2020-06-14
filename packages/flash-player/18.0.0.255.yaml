@@ -81,3 +81,9 @@
       size: 272770
       sha256: c2b68babc26ba7820268f98255948fcd492002d604892df144b1a33216daa119
       source: fp_18.0.0.255_archive/18_0_r0_255/uninstall_flashplayer18_0r0_255_mac.dmg
+
+- name: flash-player-18.0.0.255-mac-sa
+  file: flashplayer_18_sa.dmg
+  size: 13636574
+  sha256: 8df67c036994e1284990ff7bef5dd9085a3bd6e2b070e22fe951f75e4ceff18e
+  source: 'https://gitlab.com/fparchive/player-18.0.0.255/raw/master/flashplayer_18_sa.dmg'

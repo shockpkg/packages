@@ -17,6 +17,12 @@
       source: AdobeAIRInstaller.exe
 
 - name: air-runtime-15.0.0.356-mac
+  file: AdobeAIR.dmg
+  size: 31268000
+  sha256: 0fd04ae2ecb839a70b148a8194db1143fb3c2a8a2000d42e579c08aca65c0691
+  source: 'https://gitlab.com/fparchive/air-15.0.0.356/raw/master/mac/AdobeAIR.dmg'
+
+- name: air-runtime-15.0.0.356-mac-zip
   file: AdobeAIR.zip
   size: 27246714
   sha256: 5688e89dd24e5a9e20d7f7c10897af39ecd2c5148e021e80b3a0338ec6c721ae

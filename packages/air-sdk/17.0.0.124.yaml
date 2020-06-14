@@ -1,0 +1,17 @@
+- name: air-sdk-17.0.0.124-windows
+  file: AdobeAIRSDK.zip
+  size: 189519126
+  sha256: 459bf5ab98e2eaebf2c4ad6ac53cddf358980dc6bb56d054526dcc803bbf8fc8
+  source: 'https://gitlab.com/fparchive/air-17.0.0.124/raw/master/win/AdobeAIRSDK.zip'
+
+- name: air-sdk-17.0.0.124-mac
+  file: AdobeAIRSDK.tbz2
+  size: 177493047
+  sha256: b1846e3ef4a286e800cbd93100850ef64ae05d5b0fe826b3e7fee3973515ee93
+  source: 'https://gitlab.com/fparchive/air-17.0.0.124/raw/master/mac/AdobeAIRSDK.tbz2'
+
+- name: air-sdk-17.0.0.124-mac-zip
+  file: AdobeAIRSDK.zip
+  size: 188205298
+  sha256: dcfa074132b4e590ee661e5d230474616e73a92ab052de0e301929f77c58dc50
+  source: 'https://gitlab.com/fparchive/air-17.0.0.124/raw/master/mac/AdobeAIRSDK.zip'

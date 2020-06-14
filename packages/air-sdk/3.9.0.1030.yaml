@@ -1,0 +1,35 @@
+- name: air-sdk-3.9.0.1030-windows
+  file: AdobeAIRSDK.zip
+  size: 181121195
+  sha256: c0ee8277ea1bc9a2fcdf805061ff160e54809215ec67ad050771a9dbfa7655da
+  source: 'https://gitlab.com/fparchive/air-3.9.0.1030/raw/master/win/AdobeAIRSDK.zip'
+
+- name: air-sdk-3.9.0.1030-windows-compiler
+  file: AIRSDK_Compiler.zip
+  size: 218156561
+  sha256: 537bae42d682188e6bbb566764b57b5369cc8045a4d0be90961c71e1db5bfdc3
+  source: 'https://gitlab.com/fparchive/air-3.9.0.1030/raw/master/win/AIRSDK_Compiler.zip'
+
+- name: air-sdk-3.9.0.1030-mac
+  file: AdobeAIRSDK.tbz2
+  size: 161467744
+  sha256: 9bb13029acd3ecd8ba58682d6102a15d280ae238a0af0b9f7b75175ae25fe2ee
+  source: 'https://gitlab.com/fparchive/air-3.9.0.1030/raw/master/mac/AdobeAIRSDK.tbz2'
+
+- name: air-sdk-3.9.0.1030-mac-zip
+  file: AdobeAIRSDK.zip
+  size: 181632324
+  sha256: 1fcfee6a5f1ce2fb5aba63670400c34dc2faeb36fb53a0fe944dab51488886c6
+  source: 'https://gitlab.com/fparchive/air-3.9.0.1030/raw/master/mac/AdobeAIRSDK.zip'
+
+- name: air-sdk-3.9.0.1030-mac-compiler
+  file: AIRSDK_Compiler.tbz2
+  size: 198934528
+  sha256: 6b449904c9f34863ae0974e5271c06dae0276a0c3d26d2a06b0d9378a42c2cb6
+  source: 'https://gitlab.com/fparchive/air-3.9.0.1030/raw/master/mac/AIRSDK_Compiler.tbz2'
+
+- name: air-sdk-3.9.0.1030-mac-compiler-zip
+  file: AIRSDK_Compiler.zip
+  size: 218674172
+  sha256: 877743a8be2cb5aab525f11d76315c74eb8c199370f963e895ab10031c351998
+  source: 'https://gitlab.com/fparchive/air-3.9.0.1030/raw/master/mac/AIRSDK_Compiler.zip'
