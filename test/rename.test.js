@@ -18,8 +18,10 @@ describe('rename', () => {
 					expect(entry.file).toBe(renamed[entry.name]);
 				}
 				else {
-					const urlFile = url.parse(entry.source).pathname
-						.split('/').pop();
+					const urlFile = decodeURI(
+						url.parse(entry.source).pathname
+							.split('/').pop()
+					);
 					expect(entry.file).toBe(urlFile);
 				}
 			});
