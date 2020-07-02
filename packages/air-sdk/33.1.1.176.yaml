@@ -1,0 +1,23 @@
+- name: air-sdk-33.1.1.176-windows
+  file: AIRSDK_Flex_Windows.zip
+  size: 603690890
+  sha256: 3858500fef2f3f773888622903c9a8cdb68e8b8bd26ffb411a3a548b898b3959
+  source: 'https://gitlab.com/fparchive/air-33.1.1.176/raw/master/win/AIRSDK_Flex_Windows.zip'
+
+- name: air-sdk-33.1.1.176-windows-compiler
+  file: AIRSDK_Windows.zip
+  size: 640733657
+  sha256: 3a5a0857b7918186bfee08b17a9f689705ef2b95ecce7e3b90ffb25986bc6953
+  source: 'https://gitlab.com/fparchive/air-33.1.1.176/raw/master/win/AIRSDK_Windows.zip'
+
+- name: air-sdk-33.1.1.176-mac
+  file: AIRSDK_Flex_MacOS.zip
+  size: 587134419
+  sha256: b88937b35afc39381eb6961361fb681198c499f71eeb96eaf50f11a28a2c887f
+  source: 'https://gitlab.com/fparchive/air-33.1.1.176/raw/master/mac/AIRSDK_Flex_MacOS.zip'
+
+- name: air-sdk-33.1.1.176-mac-compiler
+  file: AIRSDK_MacOS.zip
+  size: 624207086
+  sha256: 2b96b9b3a75bacbc2d1a4257e89f14486b846af29cc995a52820e98d537f4c6c
+  source: 'https://gitlab.com/fparchive/air-33.1.1.176/raw/master/mac/AIRSDK_MacOS.zip'
