@@ -27,6 +27,16 @@ const validators = {
 		expect(value.length).toBe(64);
 		expect(value).toMatch(/^[a-z0-9]+$/);
 	},
+	sha1: (root, value) => {
+		expect(typeof value).toBe('string');
+		expect(value.length).toBe(40);
+		expect(value).toMatch(/^[a-z0-9]+$/);
+	},
+	md5: (root, value) => {
+		expect(typeof value).toBe('string');
+		expect(value.length).toBe(32);
+		expect(value).toMatch(/^[a-z0-9]+$/);
+	},
 	source: (root, value) => {
 		expect(typeof value).toBe('string');
 		expect(value.length).toBeGreaterThan(0);
@@ -55,13 +65,9 @@ describe('properties', () => {
 		describe('roots', () => {
 			for (const entry of entriesRoot) {
 				it(entry.name, () => {
-					validators.name(true, entry.name);
-					validators.file(true, entry.file);
-					validators.size(true, entry.size);
-					validators.sha256(true, entry.sha256);
-					validators.source(true, entry.source);
-					validators.packages(true, entry.packages);
-
+					for (const p of Object.keys(validators)) {
+						validators[p](true, entry[p]);
+					}
 					for (const p of Object.keys(entry)) {
 						expect(allowedProps.has(p)).toBe(true);
 					}
@@ -72,13 +78,9 @@ describe('properties', () => {
 		describe('childs', () => {
 			for (const entry of entriesChild) {
 				it(entry.name, () => {
-					validators.name(false, entry.name);
-					validators.file(false, entry.file);
-					validators.size(false, entry.size);
-					validators.sha256(false, entry.sha256);
-					validators.source(false, entry.source);
-					validators.packages(false, entry.packages);
-
+					for (const p of Object.keys(validators)) {
+						validators[p](false, entry[p]);
+					}
 					for (const p of Object.keys(entry)) {
 						expect(allowedProps.has(p)).toBe(true);
 					}
