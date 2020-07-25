@@ -3,7 +3,7 @@
 const {entries, entriesRoot} = require('./shared');
 
 describe('unique', () => {
-	describe('name + sha256', () => {
+	describe('name + sha256 + sha1 + md5', () => {
 		const seen = new Set();
 		for (const entry of entries) {
 			it(entry.name, () => {
@@ -13,6 +13,14 @@ describe('unique', () => {
 			it(entry.sha256, () => {
 				expect(seen.has(entry.sha256)).toBe(false);
 				seen.add(entry.sha256);
+			});
+			it(entry.sha1, () => {
+				expect(seen.has(entry.sha1)).toBe(false);
+				seen.add(entry.sha1);
+			});
+			it(entry.md5, () => {
+				expect(seen.has(entry.md5)).toBe(false);
+				seen.add(entry.md5);
 			});
 		}
 	});
