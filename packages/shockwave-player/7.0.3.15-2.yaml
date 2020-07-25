@@ -2,46 +2,62 @@
   file: Shockwave7.03.015.sit
   size: 5452215
   sha256: 4c88cb71a7fe6597004472efb2d3ee50ca3e1111a42fcf81deefb4b19794d062
+  sha1: dbdcd847843ec3b958ac98ba6b3333ac3bcd2a67
+  md5: 0b3ea9f62a86d44e7be74e9a35bb72cb
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.3.15-2/mac-archive/Shockwave7.03.015.sit'
 
 - name: shockwave-player-7.0.3.15-2-mac-full
   file: Shockwave_Full-703_15.hqx
   size: 3643276
   sha256: b28fa5338a48acf0be6a7b92e40aedc53e65677db79c2bea61e7653d7d21aec1
+  sha1: b1a41b937cb88b4cca39da9faa0cb05a9a29aa76
+  md5: cf63ee620f3c231512be7e20a6f4ba2e
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.3.15-2/mac-full/Shockwave_Full-703_15.hqx'
 
 - name: shockwave-player-7.0.3.15-2-mac-shim
   file: shockwaveinstaller.hqx
   size: 779975
   sha256: 41bb5d8f1044f65f8962f3ec7290970c30782f8b6a26074e0daf4b2ac2b90aa2
+  sha1: 165fd4f058c1f7c02f81c7f9784af425a924e079
+  md5: 37fe55db1c21f3748d0cbb79117fb23d
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.3.15-2/mac-shim/shockwaveinstaller.hqx'
 
 - name: shockwave-player-7.0.3.15-2-mac-shock
   file: shockwaveinstaller703r3.hqx
   size: 3088649
   sha256: c3b2dce0dc9b3c3760a98657eca66f7c7f2409a89b3eb8e019b809f672757b18
+  sha1: 477e6e65defbeb118dba3e53a95f186f0648e3c5
+  md5: ac9d84eccc33b670f6ab07c200f7e920
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.3.15-2/mac-shock/shockwaveinstaller703r3.hqx'
 
 - name: shockwave-player-7.0.3.15-2-windows-archive
   file: Shockwave7.03.015.zip
   size: 5373824
   sha256: 953b3a5770d0fb22796e65c67238abba455fd3a9624a50e13824975303a76a0f
+  sha1: 6e79dcdbee190b3838336799ee868ad169d1d2d8
+  md5: 12eedd3718f472b10ea83eb62ecd1d9c
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.3.15-2/win-archive/Shockwave7.03.015.zip'
 
 - name: shockwave-player-7.0.3.15-2-windows-full
   file: Shockwave_Full-703_15.exe
   size: 3065577
   sha256: a8cc1e2c7f905e1680ab6711fc4f742d67e061f3c9679f55cbc3be3eb2b30982
+  sha1: fbf54581c7c07bb4f0f335b67cc5905bb585c470
+  md5: dd56ffd872d133bf076cfa204240ec6f
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.3.15-2/win-full/Shockwave_Full-703_15.exe'
 
 - name: shockwave-player-7.0.3.15-2-windows-shim-netscape
   file: shockwaveinstaller.exe
   size: 386275
   sha256: 1c90b494714ba3d306343f22a6ff7d9c388969b7e826fa2c10669bf1722fe295
+  sha1: dfb0b0148349c656ebf1128ad24b71ded4f894c8
+  md5: 025269dd1e19f23711506c8e3d553b10
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.3.15-2/win-shim-ns/shockwaveinstaller.exe'
 
 - name: shockwave-player-7.0.3.15-2-windows-shock
   file: shockwaveinstaller703r1.exe
   size: 1958513
   sha256: a31172ae850bb55025d32aa160da58999b85727f1b54a26be882fc26ea77a4bf
+  sha1: 600d21f9fbdee9b99a63a26ca90db00aecae0c68
+  md5: aaecf2526eb9946e0b6ff8475644234e
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.3.15-2/win-shock/shockwaveinstaller703r1.exe'

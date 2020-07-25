@@ -2,28 +2,38 @@
   file: fp_13.0.0.201_archive.zip
   size: 44676862
   sha256: bf79c47bf35380556c808f1aa8ade3f6e17f89ee98290c17d4f6227a9bb9e084
+  sha1: 04d92f7b185b17d7f49b4b4f4aa7678aad8be71f
+  md5: 6e7d079e3e56fec7520f4d17f2dc3d87
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_13.0.0.201_archive.zip'
   packages:
     - name: flash-player-13.0.0.201-mac-npapi
       file: flashplayer13_0r0_201_mac.dmg
       size: 15718323
       sha256: 6a7355c19dc06adb1ddd44f0d21474bf8fc122b6b92a14067c1b3bcf3b91b483
+      sha1: 73e4295d01eb52964b74d33d09d86d70791414cc
+      md5: acd20fcd55b9c83934941a547fa71065
       source: fp_13.0.0.201_archive/13_0_r0_201/flashplayer13_0r0_201_mac.dmg
 
     - name: flash-player-13.0.0.201-mac-npapi-debug
       file: flashplayer13_0r0_201_mac_debug.dmg
       size: 16064800
       sha256: d8bae29c64685eea30620261145d3de366f4739f3e6c15c6439a20306af849c1
+      sha1: 63a4a22f080bf82fbb281a7f911fb0c90300ae09
+      md5: 710ed8bb3ef5723cd0bc81de6e68804c
       source: fp_13.0.0.201_archive/13_0_r0_201_debug/flashplayer13_0r0_201_mac_debug.dmg
 
     - name: flash-player-13.0.0.201-mac-sa-debug
       file: flashplayer13_0r0_201_mac_sa_debug.dmg
       size: 12675972
       sha256: ee7b65ed7ec63158beb724f238db7697eebfbc40d14d9ff4e62202a198a58370
+      sha1: d1b7829c47a8507902ac10da3db4fa5736a17a72
+      md5: 90b6feb9b1c8dfc0e9973084d8b83721
       source: fp_13.0.0.201_archive/13_0_r0_201_debug/flashplayer13_0r0_201_mac_sa_debug.dmg
 
     - name: flash-player-13.0.0.201-mac-uninstaller
       file: uninstall_flashplayer13_0r0_201_mac.dmg
       size: 243652
       sha256: f187f50d63915285b08369ae2b210bb40f2b9f88381b5f02e4fcad847fce6d65
+      sha1: 8f09e910f37e33a3f57802fa4284aa36bd74a4a9
+      md5: d73aa8d471034500f4992aba1d2c60f0
       source: fp_13.0.0.201_archive/13_0_r0_201/uninstall_flashplayer13_0r0_201_mac.dmg

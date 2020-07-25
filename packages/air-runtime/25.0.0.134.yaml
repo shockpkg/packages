@@ -2,22 +2,30 @@
   file: AdobeAIRAndroid.apk
   size: 22746029
   sha256: 25b8709e2488b33eb204d1de135296e4b0e45b2565a98e6cefb1ba914c8f300f
+  sha1: 77382b90aaa22d0556fc8a72bde0db16ad5028ca
+  md5: 26c6f8df07bcd305d5f4ed1bf40eb4e5
   source: 'https://gitlab.com/fparchive/air-25.0.0.134/raw/master/android/AdobeAIRAndroid.apk'
 
 - name: air-runtime-25.0.0.134-windows-archive
   file: AdobeAIRInstaller.zip
   size: 10584395
   sha256: 935d6139f05d16414263307fb70601541d7d3588e9ae800395fa283495c32728
+  sha1: 4d7e1cabf5432f3601ed2241d31f37ae2fc251ad
+  md5: 87a59e5d491080ef0b8b856a7c2e7389
   source: 'https://gitlab.com/fparchive/air-25.0.0.134/raw/master/win/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-25.0.0.134-windows
       file: AdobeAIRInstaller.exe
       size: 10906744
       sha256: f4b7c9613e5915734bca6f97d6ba38efd58897a0c3941a8544b16100ab2fed77
+      sha1: ecfd21c5d080788c22d5c5e5fab9147b3bab45d7
+      md5: 6737411d000cd8f7b52e5389e854d11e
       source: AdobeAIRInstaller.exe
 
 - name: air-runtime-25.0.0.134-mac
   file: AdobeAIR.dmg
   size: 21312944
   sha256: 3518863f6222127892b5fe0910568120ecd9ce3f16471a088f5eda77110749dd
+  sha1: 88383e1c9a3eced43499c2fa84e19b784f81472f
+  md5: 20157d629791b43b2af9b6d3986f8f97
   source: 'https://gitlab.com/fparchive/air-25.0.0.134/raw/master/mac/AdobeAIR.dmg'

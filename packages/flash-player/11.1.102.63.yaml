@@ -2,160 +2,214 @@
   file: fp_11.1.102.63_archive.zip
   size: 183422188
   sha256: e9d5f2799050e51697b71ae6948fe8bfc0f12ae12aa54ea5a30c08b0380e4350
+  sha1: 8da919c527fec034bad82ed2c13b57db78d86bf2
+  md5: 1c43121e55c0d5774b2978323ceb64b7
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.1.102.63_archive.zip'
   packages:
     - name: flash-player-11.1.102.63-windows-32bit-npapi
       file: flashplayer11_1r102_63_win_32bit.exe
       size: 3767456
       sha256: 0033aed3d2211b50bec7d29fca72ed2f5f28a914800600a271210abbfbca1487
+      sha1: 8fd4c031c3975028c014d09fe0544c4fdc6f310a
+      md5: 53fa17fd806d120a61a64bee1998fc97
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_win_32bit.exe
 
     - name: flash-player-11.1.102.63-windows-32bit-npapi-msi
       file: flashplayer11_1r102_63_win_32bit.msi
       size: 4830208
       sha256: 25148173c64cc9b38f4a94f192d2760a2a57b3b72baa0cb8b0c629beeb70f6e1
+      sha1: a9f6b5513a2db0d8e8ae1f5527f3a12458679f5b
+      md5: e06ef8d2c37d04c24a42bda6b95a49a6
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_win_32bit.msi
 
     - name: flash-player-11.1.102.63-windows-32bit-npapi-debug
       file: flashplayer11_1r102_63_win_debug_32bit.exe
       size: 4094112
       sha256: 0f42e59818a33e1f4ba1696e5054dfdb0f868eaf90b7cd535586ee0774906be5
+      sha1: 53533119fbec2c0a1d89e8dc6d63a0e26ec566e0
+      md5: c2f39846cb9be9602b888e00ebd62fc3
       source: fp_11.1.102.63_archive/11_1r102_63_32bit_debug/flashplayer11_1r102_63_win_debug_32bit.exe
 
     - name: flash-player-11.1.102.63-windows-32bit-activex
       file: flashplayer11_1r102_63_winax_32bit.exe
       size: 3804320
       sha256: 4e9fd9a348735ac2983e62714790012f3963c6471910973fd57999af942e2e66
+      sha1: a4c79c4328b655b0ef0f9fdde705ab33f6ecce4f
+      md5: 1728f4f69c97bdf7b784cfa903177ee2
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_winax_32bit.exe
 
     - name: flash-player-11.1.102.63-windows-32bit-activex-msi
       file: flashplayer11_1r102_63_winax_32bit.msi
       size: 4867584
       sha256: 89677044556941537f9a59ae73504abae5187b1b1d04b2ad55387a589119c609
+      sha1: 67995c443036cdbc16ae696f8bbe94b5eaca9812
+      md5: f97ecf6ec83145d77b7ada9c4985324d
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_winax_32bit.msi
 
     - name: flash-player-11.1.102.63-windows-32bit-activex-debug
       file: flashplayer11_1r102_63_winax_debug_32bit.exe
       size: 4131488
       sha256: cd8e353d8395f8bb2eccdd863d310dbbe6f6bbf84fc77d2ca2046c5a3d53c524
+      sha1: 767fd427e3790d93660b668d4083a1c58e14fcce
+      md5: 4d09197ae970c48879a49042c7c1038e
       source: fp_11.1.102.63_archive/11_1r102_63_32bit_debug/flashplayer11_1r102_63_winax_debug_32bit.exe
 
     - name: flash-player-11.1.102.63-windows-32bit-sa
       file: flashplayer11_1r102_63_win_sa_32bit.exe
       size: 8052896
       sha256: e677be9f0f0df3ced3253e3d13255d3c1b19b3f6a8a003f8b97ffb5447069d6a
+      sha1: c7ea88aab7f4b1e8e83620a7f3002a4e9031aa48
+      md5: b2987e88d43e37f5b8c893043603d3a8
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_win_sa_32bit.exe
 
     - name: flash-player-11.1.102.63-windows-32bit-sa-debug
       file: flashplayer11_1r102_63_win_sa_debug_32bit.exe
       size: 9351328
       sha256: a9baabb710751b066e0b6013d18d63bffad551ed973f96a4e13d4a37618d5711
+      sha1: 51d1f8db431773367cb4def4ca9badb7fea16842
+      md5: 6fbc96203b878529a5baefe2226a403e
       source: fp_11.1.102.63_archive/11_1r102_63_32bit_debug/flashplayer11_1r102_63_win_sa_debug_32bit.exe
 
     - name: flash-player-11.1.102.63-windows-32bit-uninstaller
       file: uninstall_flashplayer11_1r102_63_win_32bit.exe
       size: 250528
       sha256: c3e4fc1a085e8c37ee83a6c02f20dc008e7edb0625ac0f6b60c560c15ee43ff8
+      sha1: cefe90dc6f67a13b202001f2ba6ce6a69e982ca2
+      md5: 0766d2b804f102cbfe22a3851b8a1a79
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/uninstall_flashplayer11_1r102_63_win_32bit.exe
 
     - name: flash-player-11.1.102.63-windows-64bit-npapi
       file: flashplayer11_1r102_63_win_64bit.exe
       size: 8129184
       sha256: 48c1d7999a4157d10a7fef959dfef374e3d24d98fdee4b1740d2ba8e28149a67
+      sha1: 8c93a047e628ba20fd92a6c27ce9d6b0dde8dc5a
+      md5: f4926d164bf2e657f10c068f86140a11
       source: fp_11.1.102.63_archive/11_1r102_63_64bit/flashplayer11_1r102_63_win_64bit.exe
 
     - name: flash-player-11.1.102.63-windows-64bit-npapi-msi
       file: flashplayer11_1r102_63_win_64bit.msi
       size: 9323520
       sha256: 5ff0891af180430d06a1e5670fbb35f2bbb49b52f18140741afd96c042b2acd0
+      sha1: 85a00dae895a778988f783c6e42ad88c94b2a607
+      md5: 03ecf4699384cf455f12a97cfb7f8641
       source: fp_11.1.102.63_archive/11_1r102_63_64bit/flashplayer11_1r102_63_win_64bit.msi
 
     - name: flash-player-11.1.102.63-windows-64bit-activex
       file: flashplayer11_1r102_63_winax_64bit.exe
       size: 8209056
       sha256: 1c732e99b5b0233bb90d93362d656ec84baf1bcc0de49b1eff6b84ce219e8c22
+      sha1: 6fc50c920c0b6e3bb5d3d8e6665189ad6c58ad3a
+      md5: 418cf198c6e5de37d43619df166a2019
       source: fp_11.1.102.63_archive/11_1r102_63_64bit/flashplayer11_1r102_63_winax_64bit.exe
 
     - name: flash-player-11.1.102.63-windows-64bit-activex-msi
       file: flashplayer11_1r102_63_winax_64bit.msi
       size: 9404928
       sha256: cd7374f56e2e6001ce6e0e4165270cb8391c13ff10acb1bbe4f8d35b40abea25
+      sha1: 45f6a18384d7074436b661c0e907bcbe324b312e
+      md5: b62e2045af088ce39cb70a69f9b0f220
       source: fp_11.1.102.63_archive/11_1r102_63_64bit/flashplayer11_1r102_63_winax_64bit.msi
 
     - name: flash-player-11.1.102.63-windows-64bit-uninstaller
       file: uninstall_flashplayer11_1r102_63_win_64bit.exe
       size: 466080
       sha256: 17e63367ba44bf45c924eb8736764601d4340491a4762972cbfd3fba0848bb63
+      sha1: 07a93a8b7ab9e763b507bd00597ba2cba2c5baa1
+      md5: 5ef4388772e89284b4962b30022a58fd
       source: fp_11.1.102.63_archive/11_1r102_63_64bit/uninstall_flashplayer11_1r102_63_win_64bit.exe
 
     - name: flash-player-11.1.102.63-mac-npapi
       file: flashplayer11_1r102_63_mac.dmg
       size: 14781245
       sha256: 00717644da176bfc453c0095c0cd671a75b3b458755273f1c1ccc1881a53d753
+      sha1: 5ec4084bdc8c44fc445459d5c44b1470a500a89b
+      md5: 9c42bc6f2a39246e7452d5815489644d
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_mac.dmg
 
     - name: flash-player-11.1.102.63-mac-npapi-debug
       file: flashplayer11_1r102_64_mac_debug.dmg
       size: 15673467
       sha256: 5076caaa8600a33780e8a7958bcc92069df1e23a248e925cbac36cd4d08a3824
+      sha1: 3377cd408d96397f8128aa5eaf6d3f00a0f55a10
+      md5: 0446e37392e203129a57fc6a0247eac5
       source: fp_11.1.102.63_archive/11_1r102_63_32bit_debug/flashplayer11_1r102_64_mac_debug.dmg
 
     - name: flash-player-11.1.102.63-mac-sa
       file: flashplayer11_1r102_64_mac_sa.app.zip
       size: 13772652
       sha256: 5645277744c05b52d07b86de82a9d8d3ab29e48d8e7fb16efc321448d691ec27
+      sha1: 5b8db5de11e2f0e0f22d8e960ad6507dac9af958
+      md5: 3b97169d63dc7e897628e6411cf801c5
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_64_mac_sa.app.zip
 
     - name: flash-player-11.1.102.63-mac-sa-debug
       file: flashplayer11_1r102_64_mac_sa_debug.app.zip
       size: 14659000
       sha256: 03bf128f0a3c6bd917f22821457d8891d6e031c77dbb87ae72852c57c96303c2
+      sha1: 362d462fee88157f172712d2ee884cb916330e1b
+      md5: 861e7b57ffae780ba391ac6adcb40a0d
       source: fp_11.1.102.63_archive/11_1r102_63_32bit_debug/flashplayer11_1r102_64_mac_sa_debug.app.zip
 
     - name: flash-player-11.1.102.63-mac-uninstaller
       file: uninstall_flashplayer11_1r102_63_mac.dmg
       size: 447294
       sha256: c2d8a315a6b5fbdce61a687669daf745e0449c428014cc7d97bbd2c0d5177d47
+      sha1: 94cef3ada5c659bdebfe09e4d6cdc2e2232fd73e
+      md5: 280027f62731f809859b8b1018fdbd08
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/uninstall_flashplayer11_1r102_63_mac.dmg
 
     - name: flash-player-11.1.102.63-linux-i386-npapi
       file: flashplayer11_1r102_63_linux.i386.tar.gz
       size: 6746733
       sha256: dff9d475b3e8900e5c9a5d1d69ba766d0cdf9471217ef35c931ccefdf7b68246
+      sha1: 2893aeb9b53e34a4e8a878a0158c39e5a6cb308d
+      md5: edc3326dd25adee13a8109834d8c05ce
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_linux.i386.tar.gz
 
     - name: flash-player-11.1.102.63-linux-i386-npapi-debug
       file: flashplayer11_1r102_63_linux_debug.i386.tar.gz
       size: 7201025
       sha256: 05c9c77d450be64d05016cd8b43a68af60b7d9f7a5bfd848b6bf15cf6d8f3985
+      sha1: a1bc67bce4c9ad575565d94531273beff2523bcc
+      md5: d350df2c463e327924b2333abce486e8
       source: fp_11.1.102.63_archive/11_1r102_63_32bit_debug/flashplayer11_1r102_63_linux_debug.i386.tar.gz
 
     - name: flash-player-11.1.102.63-linux-i386-sa
       file: flashplayer11_1r102_63_linux_sa.i386.tar.gz
       size: 5552386
       sha256: d81a782806f26d060be7ba80d4a14886644821cf7813876d371e168e00be15f9
+      sha1: 9767d7127f0d3fbceb298d4a36145fec77c74d87
+      md5: 8a1001a9e8e4cc57dfb2ba428dd6e49c
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_linux_sa.i386.tar.gz
 
     - name: flash-player-11.1.102.63-linux-i386-sa-debug
       file: flashplayer11_1r102_63_linux_sa_debug.i386.tar.gz
       size: 5971922
       sha256: 8e5907a0507e5e54cf9868a09409e49124925059355436f085a0064039f65b96
+      sha1: 29c8eab628a23d9a8be5afa670205f364b69777b
+      md5: 2d5d0da2bcf4b76afe75f7a113f4f3f1
       source: fp_11.1.102.63_archive/11_1r102_63_32bit_debug/flashplayer11_1r102_63_linux_sa_debug.i386.tar.gz
 
     - name: flash-player-11.1.102.63-linux-x86_64-npapi
       file: flashplayer11_1r102_63_linux.x86_64.tar.gz
       size: 7042923
       sha256: 8e78ecf8262f318d26934a6a731cefa97b9cbd40e2312c1ab2e5b8634e600190
+      sha1: e210a4bb31f1b9eba9f0898842660617715dd376
+      md5: 144b9ab0fec08d589b5369b1417d8332
       source: fp_11.1.102.63_archive/11_1r102_63_64bit/flashplayer11_1r102_63_linux.x86_64.tar.gz
 
     - name: flash-player-11.1.102.63-solaris-x86-npapi
       file: flashplayer11_1r102_63_solaris_x86.tar.bz2
       size: 6085590
       sha256: f45e738cedf8b9aa6cba4ef931441e02de2368d63dbc19dc7279ce523d5fcf8a
+      sha1: c1b1bfd47183579799182c0e82e10d1f3a2b3da4
+      md5: 9bd3ded9e18cfb8abc6f0498d652dfd3
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_solaris_x86.tar.bz2
 
     - name: flash-player-11.1.102.63-solaris-sparc-npapi
       file: flashplayer11_1r102_63_solaris_sparc.tar.bz2
       size: 5549508
       sha256: 4d49658cba6465290700313e0a00a97eaa908b385730288f57adad2b860d4a0a
+      sha1: a6c1e14e1b21a1755f1b8ede45770d24718d9320
+      md5: a6447cc6ad582b7baf8b1ffd8332c04c
       source: fp_11.1.102.63_archive/11_1r102_63_32bit/flashplayer11_1r102_63_solaris_sparc.tar.bz2

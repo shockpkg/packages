@@ -2,34 +2,46 @@
   file: fp_11.2.202.406_archive.zip
   size: 33965772
   sha256: e9ef884ed4b87836947a5c9a8b64461e671245951a04060e2423b38a8ca2d9da
+  sha1: 6ed94d0cc47fafd4fe5b6b629f7f5343fbecf79f
+  md5: 2e6cdca0ff42de56d8764e0334219da8
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.406_archive.zip'
   packages:
     - name: flash-player-11.2.202.406-linux-i386-npapi
       file: flashplayer_11_2r202_406_linux.i386.tar.gz
       size: 6925631
       sha256: 8b44f49b85ed7dba310306cd62a3de35d37bb8468c3841e4d713a0b80541c381
+      sha1: 316a53c1606f3604202c2ef928ea25b24937f300
+      md5: 5b1afa315cca86c6c70b05d0797a3516
       source: fp_11.2.202.406_archive/11_2r202_406_32bit/flashplayer_11_2r202_406_linux.i386.tar.gz
 
     - name: flash-player-11.2.202.406-linux-i386-npapi-debug
       file: flashplayer11_2r202_406_linux_debug.i386.tar.gz
       size: 7406685
       sha256: 2761c477216351dd84b7626ee867affe2166c4d0632cf7d1a1f0520ce13408c6
+      sha1: d64b72c15e31f7fdffa70ce22dd3c0a3623d2227
+      md5: e076420ae956bd1f3850daeb59f2d58d
       source: fp_11.2.202.406_archive/11_2r202_406_32bit_debug/flashplayer11_2r202_406_linux_debug.i386.tar.gz
 
     - name: flash-player-11.2.202.406-linux-i386-sa
       file: flashplayer_11_2r202_406_linux_sa.i386.tar.gz
       size: 5959726
       sha256: 2c4b49f308c06b7378e53d13de378b965bb99f25c5118d28e7bb7bfb2e46b728
+      sha1: 0e2b2df4865891d212a94ec01bbeebe9b343e73a
+      md5: 4090b5df381aad75620ecbbc71e2a130
       source: fp_11.2.202.406_archive/11_2r202_406_32bit/flashplayer_11_2r202_406_linux_sa.i386.tar.gz
 
     - name: flash-player-11.2.202.406-linux-i386-sa-debug
       file: flashplayer11_2r202_406_linux_sa_debug.i386.tar.gz
       size: 6430930
       sha256: 7525a3cee92575e8c8f6e2ab35be8fb8e8b7d036e4d2d2382f3e9b5565b3bba5
+      sha1: 9497608106b3908fa352ebdbc7c9eda7af8b25d9
+      md5: 4cc365fa7e95685e966bc70452e52cce
       source: fp_11.2.202.406_archive/11_2r202_406_32bit_debug/flashplayer11_2r202_406_linux_sa_debug.i386.tar.gz
 
     - name: flash-player-11.2.202.406-linux-x86_64-npapi
       file: flash-plugin-11.2.202.406-release.x86_64.tar.gz
       size: 7241482
       sha256: a003ba4e7bd8189b67e04c2ce8f0ae5a896fd512e7726315b40cfc9910675315
+      sha1: f0767d92edae639382b2d25eeb0a98ccc8e8f54a
+      md5: 72054dbbceabda51bce37137568e2a1b
       source: fp_11.2.202.406_archive/11_2r202_406_64bit/flash-plugin-11.2.202.406-release.x86_64.tar.gz

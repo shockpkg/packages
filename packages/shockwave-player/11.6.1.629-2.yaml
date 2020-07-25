@@ -2,10 +2,14 @@
   file: sw_lic_full_installer.msi
   size: 17560576
   sha256: 424ee2dff12340fe398a55655387604127600f0da0bdc607a17a46190df8550b
+  sha1: 5a77d0e6a1607b4b3cf599c9a2d79dcc96ddb434
+  md5: 8f7abe57065bec952a1c99ab2ecf94c0
   source: 'https://gitlab.com/swarchive/player/raw/master/11.6.1.629-2/win-full-lic-msi/sw_lic_full_installer.msi'
 
 - name: shockwave-player-11.6.1.629-2-windows-full-licensed
   file: sw_lic_full_installer.exe
   size: 9512184
   sha256: 8fb542b0bc4841c0af86d1ff17c6b77715d113310c77de44ccc84868e2cebae9
+  sha1: 00a82ff68802a86140db51471e13d553d2d8a274
+  md5: fd9af8eb504fb45e5a3a20f64e4dc582
   source: 'https://gitlab.com/swarchive/player/raw/master/11.6.1.629-2/win-full-lic/sw_lic_full_installer.exe'

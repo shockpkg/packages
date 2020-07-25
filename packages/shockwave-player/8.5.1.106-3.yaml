@@ -2,10 +2,14 @@
   file: SW851106_FullPing.hqx
   size: 5893452
   sha256: 49ca0dc6cdb0c608b001ab15dacb56a7ec75ffb5a4c6da754a3be18229259414
+  sha1: 89e023c3b61e7d6ded9d4d4edac0762148b9c932
+  md5: 291c088c5f19ec6a6895df693e07e5b6
   source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.106-3/mac-classic-full/SW851106_FullPing.hqx'
 
 - name: shockwave-player-8.5.1.106-3-windows-foo
   file: installer.foo.exe
   size: 3616512
   sha256: b1331329f03d4b687a06d8ddaba400ccf92699b63c87bbff0a93cdd5720c30c5
+  sha1: eb28f3c9b2001c9591a19d3f89f9620bb5312354
+  md5: 99aa65bf9775f87eac8c073466095370
   source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.106-3/win-foo/installer.foo.exe'

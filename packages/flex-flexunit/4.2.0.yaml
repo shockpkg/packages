@@ -2,22 +2,30 @@
   file: apache-flex-flexunit-4.2.0-4.12.0-bin.tar.gz
   size: 5488560
   sha256: f2e37c77cf36c3491364c318141a28ba9ef7ca3216e0bccae0492000bdf6823d
+  sha1: 93ee9049373f6ba5126aa7725f0c00ee8840081a
+  md5: 568a702544059b9c7046a98300701798
   source: 'https://archive.apache.org/dist/flex/flexunit/4.2.0/binaries/apache-flex-flexunit-4.2.0-4.12.0-bin.tar.gz'
 
 - name: flex-flexunit-4.2.0-bin-zip
   file: apache-flex-flexunit-4.2.0-4.12.0-bin.zip
   size: 6112044
   sha256: af3ae657c99e12f3e562fd2a8c92bd95c5cb1a99e4483d305adf19bc16fcb5c7
+  sha1: 9d813ae4e83792e1dc915650269074db8dde12d8
+  md5: 9a818a5051b9a71f9670f00fb1fabedd
   source: 'https://archive.apache.org/dist/flex/flexunit/4.2.0/binaries/apache-flex-flexunit-4.2.0-4.12.0-bin.zip'
 
 - name: flex-flexunit-4.2.0-src-tar-gz
   file: apache-flex-flexunit-4.2.0-4.12.0-src.tar.gz
   size: 746354
   sha256: 3eb7452c368aad4ff076a28d60b3569c23031793a3dbb8dbbe577a59d1680b13
+  sha1: a52c368fec4eb22b31ef4af5496204376267c3c0
+  md5: 02202c44a51d5a3bcd5e6b37d1a1223a
   source: 'https://archive.apache.org/dist/flex/flexunit/4.2.0/apache-flex-flexunit-4.2.0-4.12.0-src.tar.gz'
 
 - name: flex-flexunit-4.2.0-src-zip
   file: apache-flex-flexunit-4.2.0-4.12.0-src.zip
   size: 1703221
   sha256: 8d0cb287b4ef8d0dbb216df73d28651020902519e5a47fc96f0c4e08eb72b3cd
+  sha1: 4be0c360bba38c89cbfbf642c200ab912471066d
+  md5: 1a726c2320267f77f7b7ad3a21bc98f7
   source: 'https://archive.apache.org/dist/flex/flexunit/4.2.0/apache-flex-flexunit-4.2.0-4.12.0-src.zip'

@@ -2,4 +2,6 @@
   file: AdobeAIRInstaller.exe
   size: 18054744
   sha256: 6b4d889babbff986da115bce7403c3b74397eceb4f85df79f8118a86bc2699af
+  sha1: d0c7844f0d455599c073063abf6a5feca79a64f1
+  md5: 04568922dd0dde6088437af4b814ca17
   source: 'https://gitlab.com/fparchive/air-18.0.0.144/raw/master/win/AdobeAIRInstaller.exe'

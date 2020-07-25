@@ -2,58 +2,78 @@
   file: fp_10.3.183.23_archive.zip
   size: 44672546
   sha256: c664d561e9d50c1e86e06ed4455022316d6a5f34582b1eb55d11286d940315c0
+  sha1: 092f2b82bc1b52aac482dfde47281c138a24f171
+  md5: c50012e3ceba4934bfa0908feb7a7cd5
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.183.23_archive.zip'
   packages:
     - name: flash-player-10.3.183.23-mac-npapi
       file: flashplayer10_3r183_23_mac_intel.dmg
       size: 6380549
       sha256: e3da8aa535943c23b5d09c47932b045e94040fb55cf925792f36b31b1f9f3822
+      sha1: 7cc8d2d6544eec333bf8d30d9cf57ef2c2b4fd06
+      md5: 3994ad0dd02c06bcae82fc0c8952b70d
       source: fp_10.3.183.23_archive/10.3.183.23/flashplayer10_3r183_23_mac_intel.dmg
 
     - name: flash-player-10.3.183.23-mac-npapi-debug
       file: flashplayer10_3r183_23_mac_intel_debug.dmg
       size: 6753515
       sha256: 9517ffd17bcd35e8be48867d1deb1532330721959a14f3eb5a74a21bb3810676
+      sha1: 45b6be78f95f2eaecf1d4e2eacf30fb2cd57ea55
+      md5: 75f990d987aac8d5b1621182444f327b
       source: fp_10.3.183.23_archive/10.3.183.23_debug/flashplayer10_3r183_23_mac_intel_debug.dmg
 
     - name: flash-player-10.3.183.23-mac-sa
       file: flashplayer10_3r183_23_mac_sa.app.zip
       size: 5186980
       sha256: c4b12b95f03adef4d392363626e91d92b10586b4377d22761caadc7e77f53155
+      sha1: b170df70fbb8fd79b0e209d4576725d436710954
+      md5: 32a12ae02472008adc74d0399ed1296c
       source: fp_10.3.183.23_archive/10.3.183.23/flashplayer10_3r183_23_mac_sa.app.zip
 
     - name: flash-player-10.3.183.23-mac-sa-debug
       file: flashplayer10_3r183_23_mac_sa_debug.app.zip
       size: 5524665
       sha256: edb275551df7dd2dc8b394af47a559c0aa7f27866d074e04a58156aaf6c053ad
+      sha1: 0c99ac69a2aaaab6d30a36f1ed3196ea0a52d3b4
+      md5: 58bebd601515cae9a3ce5d2b8c5515e0
       source: fp_10.3.183.23_archive/10.3.183.23_debug/flashplayer10_3r183_23_mac_sa_debug.app.zip
 
     - name: flash-player-10.3.183.23-mac-uninstaller
       file: uninstall_flashplayer10_3r183_23_mac_intel.dmg
       size: 446342
       sha256: 6b46adf183b54d4d548989b0501d5fd7049b83aca833fcfa7cf619b564b176a1
+      sha1: 79e4b916b98d0b6d296d5b3423652d75ddafdd74
+      md5: 6f909acf3a691a92f975a78208cd207c
       source: fp_10.3.183.23_archive/10.3.183.23/uninstall_flashplayer10_3r183_23_mac_intel.dmg
 
     - name: flash-player-10.3.183.23-linux-npapi
       file: flashplayer_10_3r183_23_linux.tar.gz
       size: 5459360
       sha256: 02abf4a37c4ebb276c5b5f1a50e719a27553e5fc1703887e42f0c27aad814635
+      sha1: 8adebaf6cabda7b5a3d6c5d744d761340900e806
+      md5: 729c3870157998b5eab2f7e27101f11d
       source: fp_10.3.183.23_archive/10.3.183.23/flashplayer_10_3r183_23_linux.tar.gz
 
     - name: flash-player-10.3.183.23-linux-npapi-debug
       file: flashplayer10_3r183_23_linux_debug.tar.gz
       size: 5865002
       sha256: 809bd429ddb12d27f9f1a48ac5af23a1eeee229782a87974e4cc235e25bcbfab
+      sha1: 4eaad3aa002c37734f6824d4d0a5cf689c1ab0a1
+      md5: 5a8e066cc73a2d21f680b3af55bc947d
       source: fp_10.3.183.23_archive/10.3.183.23_debug/flashplayer10_3r183_23_linux_debug.tar.gz
 
     - name: flash-player-10.3.183.23-linux-sa
       file: flashplayer_10_3r183_23_linux_sa.tar.gz
       size: 4450222
       sha256: 9b8bceb81a0a15809036b5e23cc7894abfcc0dd01a61e4f89656925f572fcce9
+      sha1: 08e09229f9437f93f83e9c2eb8a057356b9ea5ea
+      md5: 9650c8fd461e9fe7cc6ae9677668bd46
       source: fp_10.3.183.23_archive/10.3.183.23/flashplayer_10_3r183_23_linux_sa.tar.gz
 
     - name: flash-player-10.3.183.23-linux-sa-debug
       file: flashplayer10_3r183_23_linux_sa_debug.tar.gz
       size: 4804907
       sha256: 6bae1d2bd8ebe600b62a3a120608d991a5bedac77859442917ddd0c8160d645e
+      sha1: 3516086394dd963185c2b98ce27dabb3364688b9
+      md5: 46860b2e5d9a7b72a0173e7d18ef4eef
       source: fp_10.3.183.23_archive/10.3.183.23_debug/flashplayer10_3r183_23_linux_sa_debug.tar.gz

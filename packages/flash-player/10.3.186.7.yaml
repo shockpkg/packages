@@ -2,4 +2,6 @@
   file: install_flash_player.apk
   size: 4432807
   sha256: cb3c22f52f3743a127c7108d58d5f6a85010e63f602ba3c248a08353fc8beb63
+  sha1: 4403713a1d5222fbe93b905004a758fee97edf8d
+  md5: 42376fc436b5ae6f42dbf94f84843c73
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/android/10.3.186.7/install_flash_player.apk'

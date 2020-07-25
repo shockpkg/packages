@@ -2,16 +2,22 @@
   file: Swdir_Alt_Pub.cab
   size: 34524
   sha256: d9c6a3978936d08440990daec600da41596cecd7032faa178726bb5d5854d8c6
+  sha1: 7e6abbb147dcd356747bba4b19a42cad3b54490d
+  md5: 90d50607e02971fc2d46aaebc8e7233c
   source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.102-3/win-activex/Swdir_Alt_Pub.cab'
 
 - name: shockwave-player-8.5.1.102-3-windows-foo
   file: installer.foo.exe
   size: 3348176
   sha256: 1b69caa3bd7912564045b7bcfd3adf8f9228eeb97574572422951446c47c47d6
+  sha1: 62a8f85e224e5f8e0c0997dacdaf50a511af2627
+  md5: ccb218c8c2ddf2f4b123fd63d6ce8a1f
   source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.102-3/win-foo/installer.foo.exe'
 
 - name: shockwave-player-8.5.1.102-3-windows-shim
   file: shockwaveinstaller.exe
   size: 499920
   sha256: ecb943ce6c6ddf113b6e5a726a455bd8f752888f6ee3c08ea555c50d4fc66b9e
+  sha1: 65209ff89372aae8bdb5913f56592808536afc46
+  md5: 43c238a4fa19e4dfecb0d770a7cb4bc3
   source: 'https://gitlab.com/swarchive/player/raw/master/8.5.1.102-3/win-shim/shockwaveinstaller.exe'

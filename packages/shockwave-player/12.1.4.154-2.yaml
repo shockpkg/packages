@@ -2,4 +2,6 @@
   file: sw.cab
   size: 252353
   sha256: c7e7c7799292f6a67c334510d56af39e29b853d46c30f67302c3e0be13de326c
+  sha1: fd01f36ba42e7b62f80b7bef3a202561e23361fd
+  md5: 18e944b2c0deee9511dd2b75ef30578d
   source: 'https://gitlab.com/swarchive/player/raw/master/12.1.4.154-2/win-activex/sw.cab'

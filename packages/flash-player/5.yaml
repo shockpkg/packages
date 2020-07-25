@@ -2,160 +2,214 @@
   file: fp5_archive.zip
   size: 2207455
   sha256: 85af38fe8e04f0d874372747b0dde025dcd6227dd8150091a37406f825d7d782
+  sha1: 25eedf457ead8830c1106f734debd92dc71a2719
+  md5: 8d85f5541876b3ff8f160493e197a503
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp5_archive.zip'
   packages:
     - name: flash-player-5.0.30.0-windows-npapi
       file: fp_5.0.30_plugin.exe
       size: 317635
       sha256: 3204582df33a1e8f5e4275ba6c174c7ffcb7933888a4e0d031158791909b5ea4
+      sha1: 120ebb39cedf48bd2f7113c5c10fae491e39409d
+      md5: 1328b398dc185854e8decf187d9ae262
       source: FP5_archive/r30/fp_5.0.30_plugin.exe
 
     - name: flash-player-5.0.30.0-windows-activex
       file: fp_5.0.30_activex.exe
       size: 351024
       sha256: 527caf632adb894284970c4862e02d7fa3122df213a56a5fbc4f0c9a8e11ca89
+      sha1: 9ce51a0aac25c6b0978427f05dbd6e235abd3414
+      md5: 5c170759b5af2df6bd63c94b67d648ab
       source: FP5_archive/r30/fp_5.0.30_activex.exe
 
     - name: flash-player-5.0.30.0-mac-classic-npapi
       file: fp_5.0.30_mac_classic.hqx
       size: 600156
       sha256: 1b929d752e353b6f014aad6c76fc64e5782d600f213cd5203df5e6850b88d93e
+      sha1: cc62c16c2affac3a56b054c63b6802a54bd700b6
+      md5: 0aaecf410fbd4ad7f419917bc8d1ee90
       source: FP5_archive/r30/fp_5.0.30_mac_classic.hqx
 
     - name: flash-player-5.0.41.0-windows-activex
       file: flashplayer5installer.exe
       size: 318853
       sha256: 44285cf6d422d9fb3687b00816632b8b80fefc82f63be7d0ad8d03127c5adc08
+      sha1: 09b9cb793e7a155efd0743c25db4c039b12fbca7
+      md5: e50518b182d2d78b35490f01dc8b8786
       source: FP5_archive/r41_42/flashplayer5installer.exe
 
     - name: flash-player-5.0.41.0-mac-classic-npapi
       file: flashplayer5installer.hqx
       size: 514514
       sha256: de4d0bd90e4d3a35a5e57d7badea8cbb370b8d95e9e70d579778572090f3f534
+      sha1: b9a8f9156167faf36e09e1a18148d35aefa5b77f
+      md5: 483dee90c9978c84cbb6e81e2a2a4c29
       source: FP5_archive/r41_42/flashplayer5installer.hqx
 
     - name: flash-player-5.0.43.0-windows-activex-ocx
       file: SwFlash.ocx
       size: 409600
       sha256: 16e3f19a8ab90257c8f7248a3f3198b3c411fde940f109c669203fba0afd0051
+      sha1: 27b37bac22bc137ddc10815b96a8a18c8e30d803
+      md5: a15ae49cb0f8e02b072e506b42604e42
       source: FP5_archive/r41_42/SwFlash.ocx
 
     - name: flash-player-5.0.58.0-mac-osx-npapi
       file: flashplayer5_macosx.hqx
       size: 303286
       sha256: 38958f54ef57152b3236ca88c949fd4ff57ba435ce8a2e3d92a1446abf567748
+      sha1: 9d297bbaaa699f0e30f30430442af03e4e54bc3d
+      md5: ea4fa1fc86b7845ca98989399abd1385
       source: FP5_archive/r41_42/flashplayer5_macosx.hqx
 
 - name: flash-player-5-pro-archive
   file: flash_pro_5_players.zip
   size: 3200849
   sha256: d0a29035d10f1a5e6f11ace00fc162e47a9a48770f040c74554f55fa3b770932
+  sha1: c0feb35d53cdf4d000df98872a0d9eaa7f1c7da6
+  md5: 39e3cf4bcc6fd200e0af53b1d9d6ea5d
   source: 'https://gitlab.com/fparchive/player-5/raw/master/flash_pro_5_players.zip'
   packages:
     - name: flash-player-5.0.30.0-windows-npapi-debug
       file: flash32.EXE
       size: 322224
       sha256: 1eeea6dc4f926367db752c6222b8c71759608a30b3986addf7c2a6cf1f969a89
+      sha1: 31e421d54dc4e82be4ce9ea11261a916cb3d44ec
+      md5: 57beaab914c41c3ea566824f3539dd1f
       source: Players/Debug/flash32.EXE
 
     - name: flash-player-5.0.30.0-windows-activex-debug
       file: InstallAXFlash.exe
       size: 349824
       sha256: 927d8b8020089c766d5bde1ab6e904f3f281f45697633d4388baa8123464ab33
+      sha1: b40a0ea48b4a6aec810b038e2be5b8315136ed87
+      md5: a9fa0cc0386be8e238479aef6480862d
       source: Players/Debug/InstallAXFlash.exe
 
     - name: flash-player-5.0.30.0-windows-sa
       file: FlashPla.exe
       size: 376832
       sha256: 81b73addb83c2687a714016005dd62864f7c83cdc4e04016eb07a460b10ab761
+      sha1: 542d17808e87dbef37f73d9ecc2cc086d8148830
+      md5: 17f64e891f68f82b7b04379b6ad5b1f7
       source: Players/Release/FlashPla.exe
 
     - name: flash-player-5.0.30.0-windows-sa-debug
       file: FlashPla.exe
       size: 389120
       sha256: b20083fd047fb9c405d0a5a04c84eb25650e7f76b46c5863e2bb61cc2ec06440
+      sha1: 27c8af3bd4a74f683b0fae1b099bf532b4a4dbbf
+      md5: 4afa251dca3d6c084c322c5376ab8e94
       source: Players/Debug/FlashPla.exe
 
     - name: flash-player-5.0.30.0-mac-npapi
       file: Flash 5 Player Installer.hqx
       size: 480338
       sha256: 73ea5a5f11aec84204a522a2495e42fb36d48bba0e29148035d94636400c1594
+      sha1: cda3b8740fe55688408481833a251757366251f4
+      md5: c04befeec8e03e75ec8af083babbb026
       source: Players/Release/Flash 5 Player Installer.hqx
 
     - name: flash-player-5.0.30.0-mac-npapi-debug
       file: Flash 5 Player Installer.hqx
       size: 486338
       sha256: 22e7e3405345ebb004e3025d0ed5202c00368f111652fa3dfef26e8b29b537b6
+      sha1: f90581b5bdee246985ef2a893ffabaeeedab59c3
+      md5: af47bc19a940aec55913209f18103445
       source: Players/Debug/Flash 5 Player Installer.hqx
 
     - name: flash-player-5.0.30.0-mac-sa
       file: FlashPla.hqx
       size: 691921
       sha256: 48782cf52c0d4856d6f1a41f2353c6f60c2f4b567828f5f86466ab2e640c5ae8
+      sha1: 29c60ce996889c554ad6625ab8fd93cc22135b6a
+      md5: ea6e7a6944060f7a32f1910fa224793b
       source: Players/Release/FlashPla.hqx
 
     - name: flash-player-5.0.30.0-mac-sa-debug
       file: FlashPla.hqx
       size: 709186
       sha256: 96cab75cf3dfbe0df18307c493f9f97ca3d26f26a9d84a001c4ec22f8c4748e7
+      sha1: 02f2d474941c9e2e61ddf7db56756f3bcfeaf795
+      md5: f644a0c69b3142237a8e05759cc5ed45
       source: Players/Debug/FlashPla.hqx
 
 - name: flash-player-5-pro-update-archive
   file: flash_pro_5_player_updated.zip
   size: 198279
   sha256: bd4d850ab6b59ddd28d6898560a793d48ee87e22c24474c0590aae515cf0de0e
+  sha1: 2742e187768beac71cddc5a5898601d73660a247
+  md5: 736925756ad8e0779deaecdf140c06d7
   source: 'https://gitlab.com/fparchive/player-5/raw/master/flash_pro_5_player_updated.zip'
   packages:
     - name: flash-player-5.0.30.2-windows-sa
       file: FlashPla.exe
       size: 376832
       sha256: 8a110e803508bd29edf3febf928b056a04ec25d4bbe10bfbc699ca438c7f9f4d
+      sha1: d6ff36d4a7794a02f7ce332dafb22791200cfa25
+      md5: 238f091a2e29d47081302e80d3078f0b
       source: FlashPla.exe
 
 - name: flash-player-5.0.4.0-os2
   file: flashos2.exe
   size: 1316205
   sha256: 73bcd8d72929b5149da4bebf982383dcdc358d6f8ba40d4266c31a864a331643
+  sha1: db69bd8d5b7f4f2046af94ff218e5ce63ca826d7
+  md5: 65e9352d71aaf91d854404fc0eaa7d81
   source: 'https://gitlab.com/fparchive/player-5/raw/master/os2-r4/flashos2.exe'
 
 - name: flash-player-5.0.5.0-os2
   file: flashos2.exe
   size: 1364239
   sha256: 5020393d18806321722d3d401d39a37fe2a7c3065ef58b0761e76c8730a1846d
+  sha1: ba5fd275f4f18b8ab95e4d3724c42cbc76c2864d
+  md5: 5ec9fffbcee9f21beeee5c099caf96ce
   source: 'https://gitlab.com/fparchive/player-5/raw/master/os2-r5/flashos2.exe'
 
 - name: flash-player-5.0.47.0-linux
   file: flash_linux.tar.gz
   size: 574724
   sha256: 999720039f2f0dc16afb2e4eccdfb71f27f4b5c0ae633aebc597b5a5743a7e8f
+  sha1: e40030f0a62104ffed7997723a3e412e2d403476
+  md5: 5e27c9c86790fce3f667819fc1c40c46
   source: 'https://gitlab.com/fparchive/player-5/raw/master/linux-5.0r47/flash_linux.tar.gz'
 
 - name: flash-player-5.0.48.0-linux
   file: flash_linux.tar.gz
   size: 574415
   sha256: 15baa1e4ca1f14ead6685a1c2df73fc888db37cb0116928c07a70235563ff989
+  sha1: 843eb01e38a88dd9924beb7f68db0e59a1934f1a
+  md5: 32e7cd660f44e23db1d5fbc294622f46
   source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/5.0r48/flash_linux.tar.gz'
 
 - name: flash-player-5.0.51.0-linux
   file: flash_linux.tar.gz
   size: 568380
   sha256: 3a10f49c6ec2ceb8954cae36368a8cbb56a5da1ad486ab3889435ee4f7d2273c
+  sha1: 757b616634b3d9398d76437c5c41927fb91f0b9d
+  md5: 0585bd78ef9fbe6ae7d63f42a450f127
   source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/5.0r51/flash_linux.tar.gz'
 
 - name: flash-player-5.0.52.0-solaris
   file: flash_solaris.tar.gz
   size: 627444
   sha256: ea2f51fe4ae2cff35809a563180e721e4954eba920e255ab4fad19e2a0536c37
+  sha1: c6e71f85ad9dfb00814f3aa574c88d73ac987586
+  md5: c9d782711553efabc0bcf8b0c3850cc4
   source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/5.0r52/flash_solaris.tar.gz'
 
 - name: flash-player-5.0.53.0-solaris
   file: flash_solaris.tar.gz
   size: 628531
   sha256: 6449eb8d99b30ccd66611001a15e49748e8a8ccead1fe6b2018c4269f1b6e328
+  sha1: 8b5c858b0c7dcc10363013eff8f04b93600645f8
+  md5: 62dc28bc8232842ad8715ac159910df8
   source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/5.0r53/flash_solaris.tar.gz'
 
 - name: flash-player-5.0.55.0-solaris
   file: flash_solaris.tar.gz
   size: 628648
   sha256: 8149bf0d8e7b6a768c22b39194b9ca8d95d15cae146b41f9f4f54f32b7bd5686
+  sha1: 6fa0e4f61291f9ab28230cd0f3f26abe53f1fc61
+  md5: 09bada3709bd2fb7d653db8105d52fce
   source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/5.0r55/flash_solaris.tar.gz'

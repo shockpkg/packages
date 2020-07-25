@@ -2,10 +2,14 @@
   file: apache-flex-tour-de-flex-component-explorer-1.2-src.tar.gz
   size: 4163270
   sha256: ca144f904d2968a101e13721357b902944e76c245409ad081b3ccc23cc6cc07b
+  sha1: 881e2ad523bffba27e3039f26e4410657b2593a3
+  md5: 150c35672e29ad3928bfe9a10b99888e
   source: 'https://archive.apache.org/dist/flex/tourdeflex/1.2/apache-flex-tour-de-flex-component-explorer-1.2-src.tar.gz'
 
 - name: flex-tourdeflex-1.2-src-zip
   file: apache-flex-tour-de-flex-component-explorer-1.2-src.zip
   size: 4742772
   sha256: 429fcbeec42afbab415000fc94d527b33ac099548bd4a824e7e426b4fb475780
+  sha1: 516e464a4534aec400473375e9603c36721f8104
+  md5: 58d81dbc97750503bc2964c0d160d90e
   source: 'https://archive.apache.org/dist/flex/tourdeflex/1.2/apache-flex-tour-de-flex-component-explorer-1.2-src.zip'

@@ -2,130 +2,174 @@
   file: fp_22.0.0.192_archive.zip
   size: 327361883
   sha256: 8126a8609e462755d942ea3152e73b9678bfdcab07052c30aaacfb6e19b7cb78
+  sha1: 6c85bb874eb6d266f23d103b473dbde2d3e19db6
+  md5: f8421c518b28d5474ab1159199378fa5
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_22.0.0.192_archive.zip'
   packages:
     - name: flash-player-22.0.0.192-windows-npapi
       file: flashplayer22_0r0_192_win.exe
       size: 20019904
       sha256: 217405bfa4520ff96b0513efb7d05f07eca35d525f1b4861adf6ff1ae3afe944
+      sha1: c269258ed523a2b46d5feea682ba7eb73636b87c
+      md5: 8055df1eade4557feefcb77909623c6e
       source: 22_0_r0_192/flashplayer22_0r0_192_win.exe
 
     - name: flash-player-22.0.0.192-windows-npapi-msi
       file: flashplayer22_0r0_192_win.msi
       size: 21203968
       sha256: 36c37cec198a2e7aacb77200609e495751a2cee30c6b9f010f5b9a48c3f191ce
+      sha1: 6ba3f37e9736f1d2b4200ce1a98d7c0c79a4dc60
+      md5: 02f93e5032695bb71446837a7dd48793
       source: 22_0_r0_192/flashplayer22_0r0_192_win.msi
 
     - name: flash-player-22.0.0.192-windows-npapi-debug
       file: flashplayer22_0r0_192_win_debug.exe
       size: 19829952
       sha256: 9d4d23bdd830a61c64383b84bbc0388f5588fb44c1a49ce0ea4d0960b302f400
+      sha1: 60c8fe7b9374de12b0a9eaf0a070915a556f4b73
+      md5: 6667338af1f28f2cec8ac81cb197adab
       source: 22_0_r0_192_debug/flashplayer22_0r0_192_win_debug.exe
 
     - name: flash-player-22.0.0.192-windows-ppapi
       file: flashplayer22_0r0_192_winpep.exe
       size: 20461248
       sha256: 36f88fc5ba485b4fd4ff893ad463d07d40fafbc43faeaddccaed045169fa720a
+      sha1: bfa03a784b1bcc53a46659b4e92ef9e421ef2e0f
+      md5: ec4a9da145c12af254c7983803ded75e
       source: 22_0_r0_192/flashplayer22_0r0_192_winpep.exe
 
     - name: flash-player-22.0.0.192-windows-ppapi-msi
       file: flashplayer22_0r0_192_winpep.msi
       size: 21645824
       sha256: 81112e9a4eacc52c900626501868f17712481f47efc44801d55747a6574435a5
+      sha1: 8b412e3f5fe4ed250d4543cff87853cac7bec677
+      md5: 194e7d2b051cd27a63c425884fa85ea5
       source: 22_0_r0_192/flashplayer22_0r0_192_winpep.msi
 
     - name: flash-player-22.0.0.192-windows-ppapi-debug
       file: flashplayer22_0r0_192_winpep_debug.exe
       size: 20925632
       sha256: 46bdfbfd1afc3ab4c8cea1e8ac391316e67650e4d7efd3991699921fabd4cb8d
+      sha1: 1b973f01c2cd2c59adc1fa25ecb62302b9eaccd6
+      md5: 38d3c3ae6ec00a8cc5e87f00110e02ed
       source: 22_0_r0_192_debug/flashplayer22_0r0_192_winpep_debug.exe
 
     - name: flash-player-22.0.0.192-windows-activex
       file: flashplayer22_0r0_192_winax.exe
       size: 19492032
       sha256: cbc0047a3a5d3a8771146fc2959e063be735dd59aa4c6c0ca9d72ac1c431cc9e
+      sha1: a544854b4a27cc92af4d7e51cbdd3e38d4d8dce5
+      md5: 02b808349e4994811c091dd77f1f4527
       source: 22_0_r0_192/flashplayer22_0r0_192_winax.exe
 
     - name: flash-player-22.0.0.192-windows-activex-msi
       file: flashplayer22_0r0_192_winax.msi
       size: 20737024
       sha256: ddecf24788be3aca3829da75de0a08f65b708996be96b0536b9c2f83f4559116
+      sha1: 6aba77bca04f7170ac90c3852b837027f840b051
+      md5: 9a7c9a56d08ae2aaf478fe870d8e716b
       source: 22_0_r0_192/flashplayer22_0r0_192_winax.msi
 
     - name: flash-player-22.0.0.192-windows-activex-debug
       file: flashplayer22_0r0_192_winax_debug.exe
       size: 19879616
       sha256: 7bab9b36f4486d673abbc36582de2e52149f8c5820c70b722b1affe4a42410a7
+      sha1: 58ac356c09ab960c93a05c22ba1fc23c2544cfaa
+      md5: df6bbb2770ab68c25aaa04527d1876bb
       source: 22_0_r0_192_debug/flashplayer22_0r0_192_winax_debug.exe
 
     - name: flash-player-22.0.0.192-windows-sa
       file: flashplayer22_0r0_192_win_sa.exe
       size: 14758080
       sha256: eb47e4978cb27ee365067b29983696d0df7eeceb814e2a8fc9124013b7be184d
+      sha1: 403178c5db7fd51e060e4922744012edd20bad75
+      md5: ceee57d4d37a7f73fd0036725da99a8c
       source: 22_0_r0_192/flashplayer22_0r0_192_win_sa.exe
 
     - name: flash-player-22.0.0.192-windows-sa-debug
       file: flashplayer22_0r0_192_win_sa_debug.exe
       size: 15603904
       sha256: d290d19b07b5e5d1c068d8d0a506e84bc239b472382030b8466f0f64b4795c18
+      sha1: 5df2eafa227bac7a7510a1a8de7b32d52c37ffb1
+      md5: e1ee0c45f37ebc93cb04cdae6d57de85
       source: 22_0_r0_192_debug/flashplayer22_0r0_192_win_sa_debug.exe
 
     - name: flash-player-22.0.0.192-windows-uninstaller
       file: uninstall_flashplayer22_0r0_192_win.exe
       size: 1203392
       sha256: ef2df063931d43b8ac8595f4e74f8c73448bfc422f84fe09f2a3f18e35e4d022
+      sha1: 6b5e6ba41ee63ab4d078263bf6887d2098d0b9da
+      md5: d89468de0a92de2c72e15f4d2e614dbc
       source: 22_0_r0_192/uninstall_flashplayer22_0r0_192_win.exe
 
     - name: flash-player-22.0.0.192-mac-npapi
       file: flashplayer22_0r0_192_mac.dmg
       size: 17740177
       sha256: ce1679526d5e5b6dce7b05c5115d0388b96f18e7972d990fb15b4979e6b6920a
+      sha1: 63ad484163c1fa57665df79c4dfd6b7abfbf7012
+      md5: da9bf591cba53728e374c54ff8e726a2
       source: 22_0_r0_192/flashplayer22_0r0_192_mac.dmg
 
     - name: flash-player-22.0.0.192-mac-npapi-pkg
       file: flashplayer22_0r0_192_mac_pkg.dmg
       size: 17355649
       sha256: 7f0149c26f06d6b8b5b81a4c03be7f6a5651baf8b72638e5a39d968e3bbf5da2
+      sha1: 08220d0d4353f2af51f4efc6bf7ef73680c43fb3
+      md5: cea1c28c644048a0ed02f09f25c75381
       source: 22_0_r0_192/flashplayer22_0r0_192_mac_pkg.dmg
 
     - name: flash-player-22.0.0.192-mac-npapi-debug
       file: flashplayer22_0r0_192_mac_debug.dmg
       size: 18090193
       sha256: 58ebf50f1a20149ead917d32e2f168a696b7c4ae35616f4031263e35f19cd6cd
+      sha1: 3f8fd66d1983a474121c2cb0ec695bd36a8e0211
+      md5: 80a88e886c98a431cdc027fd7e8217e9
       source: 22_0_r0_192_debug/flashplayer22_0r0_192_mac_debug.dmg
 
     - name: flash-player-22.0.0.192-mac-ppapi
       file: flashplayer22_0r0_192_macpep.dmg
       size: 17529148
       sha256: 1c368765a22cf5ab170184d046bba161cff8758bc452c6137a135a9963caffbd
+      sha1: 6860972da0abbb9fc8660ba54a1910bd7057826b
+      md5: 9286257dfb30bb046d9d18ed4cb28e96
       source: 22_0_r0_192/flashplayer22_0r0_192_macpep.dmg
 
     - name: flash-player-22.0.0.192-mac-ppapi-pkg
       file: flashplayer22_0r0_192_macpep_pkg.dmg
       size: 17146695
       sha256: dcf841c4e440bc3f690f2f6383440d781ef3e65081610da2911c04068149f428
+      sha1: 9e4234022ab0c21e98465e5ed6d48e4af743d67b
+      md5: 48aa63970530cb62c7903c0db502260f
       source: 22_0_r0_192/flashplayer22_0r0_192_macpep_pkg.dmg
 
     - name: flash-player-22.0.0.192-mac-ppapi-debug
       file: flashplayer22_0r0_192_macpep_debug.dmg
       size: 17944789
       sha256: 4a8d63fda495caf7ecf9fd0374dd5aec2fdb7d110b3fa78a220c4e0d7f0afd6b
+      sha1: ec9fcf4d2f52ed62864e82041c02a48e69996de5
+      md5: ddf6388d8ab51c5b07a428ed8de54404
       source: 22_0_r0_192_debug/flashplayer22_0r0_192_macpep_debug.dmg
 
     - name: flash-player-22.0.0.192-mac-sa
       file: flashplayer22_0r0_192_mac_sa.dmg
       size: 14930034
       sha256: 1cdc1b3494ebbcbfc215f3ce4e84dd93ebe97e14e77d03034f70ad25fc93631b
+      sha1: 8fd7710153015e479d5f1a3a8580bd887643cd94
+      md5: 2e3e6bc749b894bb87ad4c1e9656ec2a
       source: 22_0_r0_192/flashplayer22_0r0_192_mac_sa.dmg
 
     - name: flash-player-22.0.0.192-mac-sa-debug
       file: flashplayer22_0r0_192_mac_sa_debug.dmg
       size: 15410629
       sha256: 053faf272fee690cb1afe124de0cee5e5f8878e1a01072c2d2a63390e55248c1
+      sha1: 16d69109c5098d1bf51447cfcf1e726e823f00bc
+      md5: bf655d4d996d59c6460d2db40e8d4fff
       source: 22_0_r0_192_debug/flashplayer22_0r0_192_mac_sa_debug.dmg
 
     - name: flash-player-22.0.0.192-mac-uninstaller
       file: uninstall_flashplayer22_0r0_192_mac.dmg
       size: 279249
       sha256: 33c78eb2a259b29a98c834e3ab7da414a60c5c5abebb665e8410f2c25ad7127f
+      sha1: 6d4ed38bc9e4051b90dfc80a8c6bf56e8cb9bac6
+      md5: b0330791184c9083a8711210165fda08
       source: 22_0_r0_192/uninstall_flashplayer22_0r0_192_mac.dmg

@@ -2,28 +2,38 @@
   file: apache-flex-flexjs-0.0.2-bin.tar.gz
   size: 761248
   sha256: 4e2b1ba3051a4045a6363847b3f5af4d1c18cd63470cd15f6441de09f38f92fd
+  sha1: 8f9990656e30a0857c1307deb414b5d3b482a23f
+  md5: eb04b5b05924bbac96ab27baf96d28a2
   source: 'https://archive.apache.org/dist/flex/flexjs/0.0.2/binaries/apache-flex-flexjs-0.0.2-bin.tar.gz'
 
 - name: flex-flexjs-0.0.2-bin-zip
   file: apache-flex-flexjs-0.0.2-bin.zip
   size: 1395166
   sha256: 2983eeb7cda1452a04721fc1c21d778b6285596e4ae36687dbc125eac3bc7382
+  sha1: d7d8fdb8ffa6e9fa4e131105033661adba479543
+  md5: 289b22e6288f91b4bda912c047c33a50
   source: 'https://archive.apache.org/dist/flex/flexjs/0.0.2/binaries/apache-flex-flexjs-0.0.2-bin.zip'
 
 - name: flex-flexjs-0.0.2-src-tar-gz
   file: apache-flex-flexjs-0.0.2-src.tar.gz
   size: 551879
   sha256: 1d612a6c40b797c938f969e91ad30ff0da32cd01de1f295b749b48cbb6ef1b3f
+  sha1: 82334c2757ad60c2a29c920edbb4d153f1a7e09d
+  md5: 03b5ea6e9e10fdbd8c84fd054d61a582
   source: 'https://archive.apache.org/dist/flex/flexjs/0.0.2/apache-flex-flexjs-0.0.2-src.tar.gz'
 
 - name: flex-flexjs-0.0.2-src-zip
   file: apache-flex-flexjs-0.0.2-src.zip
   size: 1169073
   sha256: 417aec9348d4f0eb52a442c609f7f0cc616a36e19917d2cd8c7ec1819cb0eee2
+  sha1: da151b37da8cfd383b14e88bc4e3e0126cc0281d
+  md5: 140cb636d8fc3005b3437d9980ccf5f6
   source: 'https://archive.apache.org/dist/flex/flexjs/0.0.2/apache-flex-flexjs-0.0.2-src.zip'
 
 - name: flex-flexjs-0.0.2-asdocs
   file: apache-flex-flexjs-0.0.2-asdocs.zip
   size: 1090009
   sha256: 3a2ecc92f783b91bef4962d86e7d34c1540badeff43d102428401c75f37cde74
+  sha1: 25f126515ec46eba863075530eea5ce01a1d68f5
+  md5: a46423e2e26f2a15cdda4640ec0ecca3
   source: 'https://archive.apache.org/dist/flex/flexjs/0.0.2/doc/apache-flex-flexjs-0.0.2-asdocs.zip'

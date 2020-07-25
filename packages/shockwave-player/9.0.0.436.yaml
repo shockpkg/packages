@@ -2,4 +2,6 @@
   file: installer.foo.exe
   size: 3636992
   sha256: b6da85d0a916da66cca1efdadb806e1988a190ce56bb3d68e761208dc8b8c3dc
+  sha1: a6dd1bdc5134b951b1b35a1ad852d212c928c7ec
+  md5: 136cec4b7f3bb50a65edf70692ef2a28
   source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.436/win-foo/installer.foo.exe'

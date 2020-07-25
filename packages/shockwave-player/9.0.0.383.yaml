@@ -2,4 +2,6 @@
   file: Shockwave_Installer_Full.exe
   size: 4882567
   sha256: be834ad01857e01fc06ba31725688ff4cd38ac8d90acabb8158fef49316e37cd
+  sha1: 900c95371f1e4b582a3978c47f5d06d315c7da27
+  md5: f3356dd309cb4ec8b4c55508020ef34e
   source: 'https://gitlab.com/swarchive/player/raw/master/9.0.0.383/win-full/Shockwave_Installer_Full.exe'

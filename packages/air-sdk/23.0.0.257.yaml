@@ -2,34 +2,46 @@
   file: AdobeAIRSDK.zip
   size: 199255056
   sha256: 1c6e72dfb79169d632bafa4e3df0cd93b152c28b94ba24bb5c874a32e3905c75
+  sha1: 1188ff3c42b8a753eab58ef5dd05287ece3cc1b5
+  md5: d40671f391702fe1d91266516c3de43a
   source: 'https://gitlab.com/fparchive/air-23.0.0.257/raw/master/win/AdobeAIRSDK.zip'
 
 - name: air-sdk-23.0.0.257-windows-compiler
   file: AIRSDK_Compiler.zip
   size: 236297310
   sha256: 87a13c95b92879e4ad9143f69a960981288846a2f614aeb66c45ea21b157c47c
+  sha1: 9a5b5572ec82ff83ec11b84322cf4dfeb0006547
+  md5: b9e939bcf2e6fd690f1457e4af2db28f
   source: 'https://gitlab.com/fparchive/air-23.0.0.257/raw/master/win/AIRSDK_Compiler.zip'
 
 - name: air-sdk-23.0.0.257-mac
   file: AdobeAIRSDK.tbz2
   size: 205017900
   sha256: c632b8e5e7afe9dd514559e3108ecba1456ec2dfc742416bcc912ddb93f192b9
+  sha1: 40615e8826a593ab18c99b0c02d838e696008081
+  md5: 47dff14e80da1ab5d867920d2c0c073e
   source: 'https://gitlab.com/fparchive/air-23.0.0.257/raw/master/mac/AdobeAIRSDK.tbz2'
 
 - name: air-sdk-23.0.0.257-mac-zip
   file: AdobeAIRSDK.zip
   size: 221196543
   sha256: 6d11737aa30840e5efb6009dca0bc78986be5c9f81eca4357e68c9bcbcdd90d4
+  sha1: 34c150706db0ad4ca100368133dd3e69140919fe
+  md5: e38a908db62876d73257eb11a286ec5c
   source: 'https://gitlab.com/fparchive/air-23.0.0.257/raw/master/mac/AdobeAIRSDK.zip'
 
 - name: air-sdk-23.0.0.257-mac-compiler
   file: AIRSDK_Compiler.tbz2
   size: 242171413
   sha256: 773ccb13c0fc6ec7fb0c0f7d0bacadd0e9d9af60e6d3da0f9a3c357e8bd461ac
+  sha1: 4fcdcae7e035567cf4b9b5e0c7d147ea4b97a79d
+  md5: 0f24fc72cb4c5912ff4182f6e12c0efd
   source: 'https://gitlab.com/fparchive/air-23.0.0.257/raw/master/mac/AIRSDK_Compiler.tbz2'
 
 - name: air-sdk-23.0.0.257-mac-compiler-zip
   file: AIRSDK_Compiler.zip
   size: 258238797
   sha256: 8b2b5afb872299d3af8b46fcf155ffeae422d10313157a40c400ee8fc863020a
+  sha1: 79d5cb4c992ca8b772d221734e32c51e7887ab9f
+  md5: 1b822b0a8c499e8fdd4a264349eb5a1e
   source: 'https://gitlab.com/fparchive/air-23.0.0.257/raw/master/mac/AIRSDK_Compiler.zip'

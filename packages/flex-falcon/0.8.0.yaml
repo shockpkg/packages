@@ -2,22 +2,30 @@
   file: apache-flex-falconjx-0.8.0-bin.tar.gz
   size: 18077864
   sha256: 06fa85e18318d3d9b332d7aa1337f04bc971d1bc68d53802ab1b26d17780adb9
+  sha1: f69083b93780b08714e775eae7e6099e04b4e494
+  md5: 0750b22c38d7b41f2acb943565537d86
   source: 'https://archive.apache.org/dist/flex/falcon/0.8.0/binaries/apache-flex-falconjx-0.8.0-bin.tar.gz'
 
 - name: flex-falcon-0.8.0-bin-zip
   file: apache-flex-falconjx-0.8.0-bin.zip
   size: 22534688
   sha256: 985571c23dfbf7303d56b2479ab317870c4d27e5dcf6c83c096494fb8a46ef01
+  sha1: 50430a13a023b910e694082e04c6c4ca9dbfb9fd
+  md5: de2663d6999edfa82392e4873662dc67
   source: 'https://archive.apache.org/dist/flex/falcon/0.8.0/binaries/apache-flex-falconjx-0.8.0-bin.zip'
 
 - name: flex-falcon-0.8.0-src-tar-gz
   file: apache-flex-falconjx-0.8.0-src.tar.gz
   size: 3446452
   sha256: 58be35f298ce55a4f8cb3f16bb7a98d7cc11c7d09861748a96171825e2de8c35
+  sha1: e36963c80c9dea84216f96cb5dc40039cf9f1724
+  md5: acd0c559e38ed5e9184748d6423b1ced
   source: 'https://archive.apache.org/dist/flex/falcon/0.8.0/apache-flex-falconjx-0.8.0-src.tar.gz'
 
 - name: flex-falcon-0.8.0-src-zip
   file: apache-flex-falconjx-0.8.0-src.zip
   size: 6477510
   sha256: ad4dd2283167b7ceaf45be8114e16004b2a7dcde1e4106eed357c598f17c5c64
+  sha1: 9dd4e6f2b976e4afe43155ac55b0bf1c1599e9e0
+  md5: 1c766292c7194f763614027857c231d0
   source: 'https://archive.apache.org/dist/flex/falcon/0.8.0/apache-flex-falconjx-0.8.0-src.zip'

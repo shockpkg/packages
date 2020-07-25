@@ -2,16 +2,22 @@
   file: AdobeAIRInstaller.bin
   size: 16127348
   sha256: 2c89002bbfd13f7c119b66380e6023a1268a7b8d66d4a2c5f287bb656ed90005
+  sha1: e25912fd4247929d798fd2250aca380ecedba04f
+  md5: a91369be7ab40e3c5d5bc9fb02b95041
   source: 'https://gitlab.com/fparchive/air-2.6.0.19170/raw/master/lin/AdobeAIRInstaller.bin'
 
 - name: air-runtime-2.6.0.19170-linux-rpm
   file: adobeair.i386.rpm
   size: 20846023
   sha256: 56ef86a03e05b26400abcd16f5c54e67966538754fa21cddd6dfe320ef181254
+  sha1: 458d3009afee1ca4bdec077507008031f64d1c48
+  md5: 895c251e3070289c045d633ecb12b5bc
   source: 'https://gitlab.com/fparchive/air-2.6.0.19170/raw/master/lin/adobeair.i386.rpm'
 
 - name: air-runtime-2.6.0.19170-linux-tbz2
   file: AIR_Lin_installer_files.tbz2
   size: 20543926
   sha256: 365df8f9bb37a31bee691b5646894b783dceaf44dd80f3000326e02395207580
+  sha1: 25196f1f52761a779a954c63d1ae4afeba8488ea
+  md5: 7b9a3485a98708013d3cc1f315eba953
   source: 'https://gitlab.com/fparchive/air-2.6.0.19170/raw/master/lin/AIR_Lin_installer_files.tbz2'

@@ -2,10 +2,14 @@
   file: ShockwaveInstaller.hqx
   size: 622330
   sha256: a0b9f4ad5f79216d3158d5360ab5b4f4a13fcf948f3290358359ab8a729ad579
+  sha1: d388b254eb7571219ef33ecdad19bc100696dcf4
+  md5: 0fad4d0a6e13f5367f2d9a63acf6799e
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.0.205/mac-shim/ShockwaveInstaller.hqx'
 
 - name: shockwave-player-7.0.0.205-windows-shim-netscape
   file: Shockwave_Installer.exe
   size: 311775
   sha256: 4831d0ebadd6815ab13b8322b40e0c8d7857dc3cbc22b2b127d0edb97172d152
+  sha1: b86928f86e16b343d3f162f97901987127751616
+  md5: 07603e5894e2df720e99ea167b266bde
   source: 'https://gitlab.com/swarchive/player/raw/master/7.0.0.205/win-shim-ns/Shockwave_Installer.exe'

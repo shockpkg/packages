@@ -2,106 +2,142 @@
   file: fp_17.0.0.134_archive.zip
   size: 247445306
   sha256: c321c4a532b88698ffb52c6e35a1946ab24181b0b8161863b8bac8a727988ca1
+  sha1: 72d8bc051b067d9bdd6ed6c0d505ab19e6125e6d
+  md5: 3d98e54271d33c10064deba899b16b24
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_17.0.0.134_archive.zip'
   packages:
     - name: flash-player-17.0.0.134-windows-npapi
       file: flashplayer17_0r0_134_win.exe
       size: 18240176
       sha256: 04cfb59a4f2988f7d274b8443b2f39de5d396d0cefc277542ad64f8931ea74db
+      sha1: 5ab89efadf90e7c621c9925f30b76dead4d1e138
+      md5: 5f4b386fd21290c4d3f101953a76f47a
       source: fp_17.0.0.134_archive/17_0_r0_134/flashplayer17_0r0_134_win.exe
 
     - name: flash-player-17.0.0.134-windows-npapi-msi
       file: flashplayer17_0r0_134_win.msi
       size: 19305984
       sha256: f292215f4966f949e9623aa44d14b36dd28427574980aac92fc4c7babce5fd95
+      sha1: 92806ecd5f7df1008ac494893494552bfa94bcf1
+      md5: 9dd714dfc01f5b93d0e729e452e7ab1d
       source: fp_17.0.0.134_archive/17_0_r0_134/flashplayer17_0r0_134_win.msi
 
     - name: flash-player-17.0.0.134-windows-npapi-debug
       file: flashplayer17_0r0_134_win_debug.exe
       size: 17980592
       sha256: 3b88fb2cd357e9d0b8ab91a6d3775b5bfa02f26c5e4f1a0c2e294272d36eca11
+      sha1: da52c55ce446277e4ad68b99b09ad60ff37062f8
+      md5: 1f44297ecda79321c05bd085aea7d763
       source: fp_17.0.0.134_archive/17_0_r0_134_debug/flashplayer17_0r0_134_win_debug.exe
 
     - name: flash-player-17.0.0.134-windows-ppapi
       file: flashplayer17_0r0_169_winpep.exe
       size: 17311408
       sha256: b20d062ada31b25205e4bc1367535da83a48367b39b944db9ddaa91c05e55da6
+      sha1: 9edc8c54f65bc4646900e8c079a6a8712a74ec24
+      md5: 6d7db69ac529da1831c314d86d8ec052
       source: fp_17.0.0.134_archive/17_0_r0_134/flashplayer17_0r0_169_winpep.exe
 
     - name: flash-player-17.0.0.134-windows-ppapi-debug
       file: flashplayer17_0r0_169_winpep_debug.exe
       size: 17695920
       sha256: ecbaa137aaf1fd2ef8326927b278943eb4f834ad05e2f2dae1eb80ee63d4fc0b
+      sha1: 81da95575c9558d20801395cf34e08fa6a7bc762
+      md5: e87d1ee150127db1c168e9a30cbe3df1
       source: fp_17.0.0.134_archive/17_0_r0_134_debug/flashplayer17_0r0_169_winpep_debug.exe
 
     - name: flash-player-17.0.0.134-windows-activex
       file: flashplayer17_0r0_134_winax.exe
       size: 17658544
       sha256: 5013f51b150997edcc6defd517e6d2ee71a08fea3ceef114ba72031f16c268fb
+      sha1: 4b4d85855b30cc5633c53ab71432a1b3e4b2292f
+      md5: 5e216e4367525d86436594a4065ebdbc
       source: fp_17.0.0.134_archive/17_0_r0_134/flashplayer17_0r0_134_winax.exe
 
     - name: flash-player-17.0.0.134-windows-activex-msi
       file: flashplayer17_0r0_134_winax.msi
       size: 18784256
       sha256: ceb2714990b1570a9f199340c63b523b366d47592409ae97d6d32cdb45a05d34
+      sha1: 65687a5bb8cefcca9072f7c137ecf3e25d467403
+      md5: a216fed9726b0ebf32df673b6bf35893
       source: fp_17.0.0.134_archive/17_0_r0_134/flashplayer17_0r0_134_winax.msi
 
     - name: flash-player-17.0.0.134-windows-activex-debug
       file: flashplayer17_0r0_134_winax_debug.exe
       size: 18036912
       sha256: 93287d97410e82572e48363e03e9b4fbe827a3e061adddd98e85038b379180b6
+      sha1: a403f3a7f473d8b588c580cf750f88386c38cd7a
+      md5: cd1e7b2b68dc78fc9368463ddf7b1196
       source: fp_17.0.0.134_archive/17_0_r0_134_debug/flashplayer17_0r0_134_winax_debug.exe
 
     - name: flash-player-17.0.0.134-windows-sa-debug
       file: flashplayer17_0r0_134_win_sa_debug.exe
       size: 12085936
       sha256: 79600c0948af5b6c6c9210818c25eb5740007ee9163ce324928f588cc1aef58d
+      sha1: 56798ecf24897e58777dfba87b9e7392e791b7a1
+      md5: c5ee0e303474954dd240b29e208416eb
       source: fp_17.0.0.134_archive/17_0_r0_134_debug/flashplayer17_0r0_134_win_sa_debug.exe
 
     - name: flash-player-17.0.0.134-windows-uninstaller
       file: uninstall_flashplayer17_0r0_134_win.exe
       size: 962736
       sha256: d3b0db5a188c74f47e7589aab4e79596c36d9c132e7c2ecd37dc27562db148d3
+      sha1: 5acb12797d0d169e711796b1d34f5c7a4eb97b1a
+      md5: 7adc1c546e42fa7fb7b468facfa38845
       source: fp_17.0.0.134_archive/17_0_r0_134/uninstall_flashplayer17_0r0_134_win.exe
 
     - name: flash-player-17.0.0.134-mac-npapi
       file: flashplayer17_0r0_134_mac.dmg
       size: 15658882
       sha256: 9e60b4c0ed492c2e77d674f84e402f2f8e0777fc43fd31a273d6b682cc16bdbe
+      sha1: 3039dd6c36452194e7bb55c9336d21d0d766ef45
+      md5: 8b13fa04ea68b511942f259c33d6e6bb
       source: fp_17.0.0.134_archive/17_0_r0_134/flashplayer17_0r0_134_mac.dmg
 
     - name: flash-player-17.0.0.134-mac-npapi-pkg
       file: flashplayer17_0r0_134_mac_pkg.dmg
       size: 15397918
       sha256: e6297ffa5ff28d2fcfa5f188bcfa4ae3c873be654d68d2e69fbdf15f5f49cacd
+      sha1: 8607a2f57b5e6a6193e134a0b580de07631e66ed
+      md5: cc2c162b099fc466ac572d4da76e774e
       source: fp_17.0.0.134_archive/17_0_r0_134/flashplayer17_0r0_134_mac_pkg.dmg
 
     - name: flash-player-17.0.0.134-mac-npapi-debug
       file: flashplayer17_0r0_134_mac_debug.dmg
       size: 15996092
       sha256: bf048b34257cb228cc85d2425a6463698f0840b030f7d786bcf93efba9969e28
+      sha1: 997ae4eed0ad5f29c0de8a5180ba4dab4b901791
+      md5: 33951cf0d7446715d4bc0a4ea82a2e7c
       source: fp_17.0.0.134_archive/17_0_r0_134_debug/flashplayer17_0r0_134_mac_debug.dmg
 
     - name: flash-player-17.0.0.134-mac-ppapi
       file: flashplayer17_0r0_169_macpep.dmg
       size: 13833022
       sha256: 54be507c1449d1601ed6c02cc0acb241f1aa3d4075c7f670b297f16cff824991
+      sha1: 9aeb6468765a1e3b8a3e2974499415907e1d1e6e
+      md5: 4b193edd506113739f6edd219dea4f77
       source: fp_17.0.0.134_archive/17_0_r0_134/flashplayer17_0r0_169_macpep.dmg
 
     - name: flash-player-17.0.0.134-mac-ppapi-debug
       file: flashplayer17_0r0_169_macpep_debug.dmg
       size: 14204456
       sha256: de50abec4e9905b43e30cf782a2da40d707d6731f23f2f7c5f891e689a759fd1
+      sha1: 32f91eee79955de673f37e7bd471e01b36f0d821
+      md5: 173a391ea408e040b5d6b30eb7996a49
       source: fp_17.0.0.134_archive/17_0_r0_134_debug/flashplayer17_0r0_169_macpep_debug.dmg
 
     - name: flash-player-17.0.0.134-mac-sa-debug
       file: flashplayer17_0r0_134_mac_sa_debug.dmg
       size: 14031007
       sha256: 094be9578985c398ca916aeac693016ebba43443087cd990de76cef95d549942
+      sha1: b7df133e1f126aca99bb786e4d89e48e097e6c34
+      md5: 681332aa321b357c97cfada6eff45530
       source: fp_17.0.0.134_archive/17_0_r0_134_debug/flashplayer17_0r0_134_mac_sa_debug.dmg
 
     - name: flash-player-17.0.0.134-mac-uninstaller
       file: uninstall_flashplayer17_0r0_134_mac.dmg
       size: 257745
       sha256: 3bba6b2f329e9bf0926ef550a635b93567803b1378838f705272de32cb4bb372
+      sha1: 1aa0c591ca6b3249f8a898b125e4c97424263038
+      md5: 1fcc737eac96a97397f6740caffc3e2c
       source: fp_17.0.0.134_archive/17_0_r0_134/uninstall_flashplayer17_0r0_134_mac.dmg

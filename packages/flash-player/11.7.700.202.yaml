@@ -2,76 +2,102 @@
   file: fp_11.7.700.202_archive.zip
   size: 163144590
   sha256: e0cb4474174b0f0b8ad7ca886ebdb95ab79ceb9a6c1c002607ff8e955d9787b8
+  sha1: 8cd625f0fe6e1a92ec7b62a67425fe4e93e5c13d
+  md5: 28dbba9b7ad5b27e1d0bd233dbbfd888
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.7.700.202_archive.zip'
   packages:
     - name: flash-player-11.7.700.202-windows-npapi
       file: flashplayer11_7r700_202_win.exe
       size: 17613192
       sha256: 2d4cc183acdf4c95b297edb57e4b0efee70a79d760b674e44b6e75b33d228008
+      sha1: 8398b349f04200a8d422f0102b6fa94b7d73ec34
+      md5: 830e8f94edf8d6e770fd3426d8fb4fd8
       source: fp_11.7.700.202_archive/11_7_r700_202/flashplayer11_7r700_202_win.exe
 
     - name: flash-player-11.7.700.202-windows-npapi-msi
       file: flashplayer11_7r700_202_win.msi
       size: 18701824
       sha256: 8179c4b9bf93ea8b4937d3bb5f5034be19adeb3d017f290ab9dce89190775da4
+      sha1: 1cbd99b086b6ec76081b904b08f9ce1b3ad3205c
+      md5: 51037b37e8193a9086d1ed684517d101
       source: fp_11.7.700.202_archive/11_7_r700_202/flashplayer11_7r700_202_win.msi
 
     - name: flash-player-11.7.700.202-windows-npapi-debug
       file: flashplayer11_7r700_202_win_debug.exe
       size: 18049928
       sha256: 3a94c5be586eb16488a8bc913138261884ba6da4c3e9cd74c13ca186970fabdd
+      sha1: c32327f0520b44092855e76778ffecc86045a00a
+      md5: f3697bcba512d45040a3b0528b750287
       source: fp_11.7.700.202_archive/11_7_r700_202_debug/flashplayer11_7r700_202_win_debug.exe
 
     - name: flash-player-11.7.700.202-windows-activex
       file: flashplayer11_7r700_202_winax.exe
       size: 16948616
       sha256: 371d4a73bab356afd87d1e8b0e8a61fba7e8a14f9dab8461acc73009e31c1c7f
+      sha1: 29bc8c2e36a0af8c5b2cfb7e1ff62fbb3cb2bdd4
+      md5: 098249e33f5dd4e6c840a8e8c57c02d0
       source: fp_11.7.700.202_archive/11_7_r700_202/flashplayer11_7r700_202_winax.exe
 
     - name: flash-player-11.7.700.202-windows-activex-msi
       file: flashplayer11_7r700_202_winax.msi
       size: 18038784
       sha256: 986bdd50cdd4a95b1c67d9f268aeb4c100ee87ebdeccd74ba9094cfd679546d0
+      sha1: 9a1169fca55bf36887ceaea918f8acbdf2b6e164
+      md5: 18979887a8451cafec4d0ef0bd57c821
       source: fp_11.7.700.202_archive/11_7_r700_202/flashplayer11_7r700_202_winax.msi
 
     - name: flash-player-11.7.700.202-windows-activex-debug
       file: flashplayer11_7r700_202_winax_debug.exe
       size: 17392520
       sha256: 98476f88db918f7ed7884a560a39ddb4cddb333bbe536b51829f24f7b02217c5
+      sha1: d3de3419d28db9f26b1dc114c0abe04fa8a08713
+      md5: 20faf4e167f9e8e3dcc3218c331f7202
       source: fp_11.7.700.202_archive/11_7_r700_202_debug/flashplayer11_7r700_202_winax_debug.exe
 
     - name: flash-player-11.7.700.202-windows-sa-debug
       file: flashplayer11_7r700_202_win_sa_debug.exe
       size: 11035528
       sha256: 7adfb0168b30042d05c1babde3eb73cdbf6eaf56de9838b2456940f3455fb586
+      sha1: cefb3e7a941e8c23cb1c068a8821701864595c6e
+      md5: 4984bd78c5178b6418e2da7a6941ad5c
       source: fp_11.7.700.202_archive/11_7_r700_202_debug/flashplayer11_7r700_202_win_sa_debug.exe
 
     - name: flash-player-11.7.700.202-windows-uninstaller
       file: uninstall_flashplayer11_7r700_202_win.exe
       size: 813448
       sha256: e75d894ad2fe2299f347dc24a524bdecefb7ae19eac05f0ca2d2f6fb9c616a76
+      sha1: b10a983ff1fc234791ab82d4f5b56f739455a600
+      md5: c22a15e534eda7e5470eea1f5f14e21a
       source: fp_11.7.700.202_archive/11_7_r700_202/uninstall_flashplayer11_7r700_202_win.exe
 
     - name: flash-player-11.7.700.202-mac-npapi
       file: flashplayer11_7r700_202_mac.dmg
       size: 18004789
       sha256: 9b4597ce65660c786ff0e3e7064f8da03449d0b04afcc917476e694013a0f958
+      sha1: 7305fb5caed3627b335e5666c261f8fb218f4e3f
+      md5: 075bda63e8454c403c83fb02bcb8800d
       source: fp_11.7.700.202_archive/11_7_r700_202/flashplayer11_7r700_202_mac.dmg
 
     - name: flash-player-11.7.700.202-mac-npapi-debug
       file: flashplayer11_7r700_202_mac_debug.dmg
       size: 18490477
       sha256: ac31f4004e19e0b96dd4a2bae49600a7eaa0839c07477586b70ad8c8aa09080e
+      sha1: 96c678890f2698b36801c28a33449c22d029f648
+      md5: 9fce28897133ecb8c66617390f2186b2
       source: fp_11.7.700.202_archive/11_7_r700_202_debug/flashplayer11_7r700_202_mac_debug.dmg
 
     - name: flash-player-11.7.700.202-mac-sa-debug
       file: flashplayer11_7r700_202_mac_sa_debug.zip
       size: 16549133
       sha256: e900a2dffca20086a228532cab472344c90598aabd849c4151d1f4c6b9fd6b53
+      sha1: c1062addef6ef4883619a967e85c02fb42ca5c72
+      md5: fbe5053e831314ce6c820a449cca0f2c
       source: fp_11.7.700.202_archive/11_7_r700_202_debug/flashplayer11_7r700_202_mac_sa_debug.zip
 
     - name: flash-player-11.7.700.202-mac-uninstaller
       file: uninstall_flashplayer11_7r700_202_mac.dmg
       size: 233255
       sha256: c6cef56fde50ad5003b8ada6cb9e8e4621003afd4d78f9d2354960c8376f4804
+      sha1: 476a671c6100626eb228e694a3e4a42971c04171
+      md5: 4dfaaa8c11a7d83ade39773a26f5c5a7
       source: fp_11.7.700.202_archive/11_7_r700_202/uninstall_flashplayer11_7r700_202_mac.dmg

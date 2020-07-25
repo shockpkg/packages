@@ -2,184 +2,246 @@
   file: fp_29.0.0.140_archive.zip
   size: 442080713
   sha256: ad5fffca8aa275752726d750e6be82472fd914b5602654c3fe48549157cb3c8b
+  sha1: feb05d7dfe8eb0e1f53b0d74f8a650830add6ed1
+  md5: 468e2eb844447fffad1414af17de5d6c
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_29.0.0.140_archive.zip'
   packages:
     - name: flash-player-29.0.0.140-windows-npapi
       file: flashplayer29_0r0_140_win.exe
       size: 20865024
       sha256: 21b54aa0ef2a955f77269001831ec7cadd7f29ad9a6c04cf8e998ad84a90b89f
+      sha1: 5f57bdb4a0886d1a7d891268d7fddce6085a271f
+      md5: 2a0c6e7e3f8a3e9da4ac4c52dd866d2d
       source: 29_0_r0_140/flashplayer29_0r0_140_win.exe
 
     - name: flash-player-29.0.0.140-windows-npapi-msi
       file: flashplayer29_0r0_140_win.msi
       size: 21985792
       sha256: 16f7618ec50b2ba8719a129c3ea01255b1a6f9bb54eb66052d6307d4a4b0ca37
+      sha1: e1ecc0a8aae76ff3f5d0bffdf96caa5cd8acf419
+      md5: 729f992ea63c1eeb5017d098177a2491
       source: 29_0_r0_140/flashplayer29_0r0_140_win.msi
 
     - name: flash-player-29.0.0.140-windows-npapi-debug
       file: flashplayer29_0r0_140_win_debug.exe
       size: 20656128
       sha256: 32f2c1657cbfd3056a824ba13b2bbb508b4e295611b4066f6d531000a4595c00
+      sha1: 81bca9e92232c9529e623debd45a66a4bc4153fd
+      md5: b0429e53d1daa649bc6df551ffc11873
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_win_debug.exe
 
     - name: flash-player-29.0.0.140-windows-ppapi
       file: flashplayer29_0r0_140_winpep.exe
       size: 20836864
       sha256: b4794bbc357efb7271ddf83f22e6b3d302c81f9f3cc3be10cc517c8af269e09c
+      sha1: 957fd153cd0f971fb27f77baa0de1f20b99c102a
+      md5: 284e77604ec599510094463145ee7115
       source: 29_0_r0_140/flashplayer29_0r0_140_winpep.exe
 
     - name: flash-player-29.0.0.140-windows-ppapi-msi
       file: flashplayer29_0r0_140_winpep.msi
       size: 21958656
       sha256: 3f68856bbce1144dd9d8534067a23983f9627b129baea43b404bd5f6bff21958
+      sha1: 061cb1624a0392ed44274a406ccc93b0c90def6a
+      md5: 9d04980e88f10f120c62820240d6e085
       source: 29_0_r0_140/flashplayer29_0r0_140_winpep.msi
 
     - name: flash-player-29.0.0.140-windows-ppapi-debug
       file: flashplayer29_0r0_140_winpep_debug.exe
       size: 21313024
       sha256: 0a58055d2084adf12ae225f673514064a38404a9defe6ae01ada2d34c56d9efd
+      sha1: f6ffeaa28bb2056b4eaaf89a97748e4a0152ce19
+      md5: ff6b1bc640b351961b9190ac7d8b85be
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_winpep_debug.exe
 
     - name: flash-player-29.0.0.140-windows-activex
       file: flashplayer29_0r0_140_winax.exe
       size: 20342272
       sha256: 342b22d1e8143102b98b2bd2a1f455ecca4fc54fd1dfa3fe63e4bb76300ca2ce
+      sha1: d8fe94e502a634888ec4a9542a726906d40a9501
+      md5: 9aae448f6cd4747db9eb0602bab42722
       source: 29_0_r0_140/flashplayer29_0r0_140_winax.exe
 
     - name: flash-player-29.0.0.140-windows-activex-msi
       file: flashplayer29_0r0_140_winax.msi
       size: 21458944
       sha256: 07da512903214553a78ae5d7a255f1ae7270790ad631bfc2fec29af276185507
+      sha1: ed2d4358477b393438f455a7283d583fc98ef073
+      md5: f763faa77210371f938cd50c6039fcd6
       source: 29_0_r0_140/flashplayer29_0r0_140_winax.msi
 
     - name: flash-player-29.0.0.140-windows-activex-debug
       file: flashplayer29_0r0_140_winax_debug.exe
       size: 20711936
       sha256: 358de94c47b8fd9d064cb7c0f20a5e7db8f0b4be4b594c27e6aaa0ea43cefb3d
+      sha1: 1bdd8d51544dca1f618890a0dc87e708e977b2b5
+      md5: 5406dcec21071467c9956b4b9a40e729
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_winax_debug.exe
 
     - name: flash-player-29.0.0.140-windows-sa
       file: flashplayer29_0r0_140_win_sa.exe
       size: 16025600
       sha256: b7a33673f7d9d981369b46b698d2199a69754971084153da23615f25724d3d99
+      sha1: c096975e4b582dd9a716e25a8a9cd49001f6d4f6
+      md5: 1575d4baa5f681a687ecaa26d67a78b3
       source: 29_0_r0_140/flashplayer29_0r0_140_win_sa.exe
 
     - name: flash-player-29.0.0.140-windows-sa-debug
       file: flashplayer29_0r0_140_win_sa_debug.exe
       size: 16855040
       sha256: b5b344e25a73f7ed952e2e740f9a92f7d0414e1572618a31e27241fa9f201c5f
+      sha1: 62114cc8bf628066fe5b7aa5a3ea6e629eac5864
+      md5: c4f0641e4d7dbe71ccd64f7a343951fd
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_win_sa_debug.exe
 
     - name: flash-player-29.0.0.140-windows-uninstaller
       file: uninstall_flashplayer29_0r0_140_win.exe
       size: 1367040
       sha256: 8a3b31128cbf3122f8fac71f841aea94c37cd7b523abdf2832bb89378aaf8ae0
+      sha1: dee54be15e5a5ff46df4883725596ff383884098
+      md5: 52b82e9d855197acbb37c05c6d758167
       source: 29_0_r0_140/uninstall_flashplayer29_0r0_140_win.exe
 
     - name: flash-player-29.0.0.140-mac-npapi
       file: flashplayer29_0r0_140_mac.dmg
       size: 22340124
       sha256: 173d1201269371761460f36656edf92c23b90d1b21389c2b288c47be093951ae
+      sha1: 028222fd9c5df38bf2557169f97d588cd15822b8
+      md5: edec8c6e91d3263e066f1d0ba65d9c8b
       source: 29_0_r0_140/flashplayer29_0r0_140_mac.dmg
 
     - name: flash-player-29.0.0.140-mac-npapi-pkg
       file: flashplayer29_0r0_140_mac_pkg.dmg
       size: 20873025
       sha256: 595ee00227dbb3f0e4503c4ff221fbe8e509ae7b288eb812a49526accccb3b24
+      sha1: e6728cd4cf4a676fab24c4a5b3e625fc2eb09c3b
+      md5: 50caae3a97a31818d92d7aa0d7f50800
       source: 29_0_r0_140/flashplayer29_0r0_140_mac_pkg.dmg
 
     - name: flash-player-29.0.0.140-mac-npapi-debug
       file: flashplayer29_0r0_140_mac_debug.dmg
       size: 21652477
       sha256: be38f839ab0fe5908aa2acfd389b0ea27944dddbe326d374e3a26ddb5f35e8f7
+      sha1: 8c0229206cfb95622ea275d635bdb5a4200eef09
+      md5: 3af5e1c8f34617785deafb103d953914
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_mac_debug.dmg
 
     - name: flash-player-29.0.0.140-mac-ppapi
       file: flashplayer29_0r0_140_macpep.dmg
       size: 21747515
       sha256: 2469e8e8d972f327d72e9590834a0c69975bd09ffeb38f3a215595b95d6d9538
+      sha1: 767a629dacebaa8a4112a82e6cfd4f54df56d14f
+      md5: 06506cc3f13246808b9b9dae29e164d7
       source: 29_0_r0_140/flashplayer29_0r0_140_macpep.dmg
 
     - name: flash-player-29.0.0.140-mac-ppapi-pkg
       file: flashplayer29_0r0_140_macpep_pkg.dmg
       size: 20283220
       sha256: 3afd9c6426b64d7eb5303d0a369237db755041751743fc8dff329f8ccc083bb0
+      sha1: d37c6a497ac371f436c8443c65d805ada73751ce
+      md5: 38856a2abf1c02e73dd970d304dc58b7
       source: 29_0_r0_140/flashplayer29_0r0_140_macpep_pkg.dmg
 
     - name: flash-player-29.0.0.140-mac-ppapi-debug
       file: flashplayer29_0r0_140_macpep_debug.dmg
       size: 21182057
       sha256: 6348c02b5d3e177f05c29f2321dabbaa8ba724fb1445e4c06a4c3d2afd1d0003
+      sha1: 2d79f4157b5ff013624f8cd65d5bb1d8678247d8
+      md5: 5de8eea90a6d95f828621c8b2066759d
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_macpep_debug.dmg
 
     - name: flash-player-29.0.0.140-mac-sa
       file: flashplayer29_0r0_140_mac_sa.dmg
       size: 17233699
       sha256: fb4cff72296eaa95c3b9363a74765413391ac2b51b2559705d73832f3e2b39ed
+      sha1: c761f80acc5e5ec7a26e5e4b6cddb989ad786688
+      md5: b484fb7b0bca7c72f68223ff630f5a6c
       source: 29_0_r0_140/flashplayer29_0r0_140_mac_sa.dmg
 
     - name: flash-player-29.0.0.140-mac-sa-debug
       file: flashplayer29_0r0_140_mac_sa_debug.dmg
       size: 17816685
       sha256: 9797d2561572a79c973f49a21403810c95f1f6550f61a35ae0afd40002c1f548
+      sha1: 30875e9bcbf6e3517ad673d7878d6fa7e4a3c79c
+      md5: 0516c942bd2c53affe69bac26742f072
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_mac_sa_debug.dmg
 
     - name: flash-player-29.0.0.140-mac-uninstaller
       file: uninstall_flashplayer29_0r0_140_mac.dmg
       size: 1354879
       sha256: ac447e32c164d83c3c1e63df8ae7fec7740de2b96a58774bcd690b250ec896b1
+      sha1: f031a0fd78c7cdacc6e3c5a5699ec44d80d116a2
+      md5: a5affb2f534199238d57e85479cb71a5
       source: 29_0_r0_140/uninstall_flashplayer29_0r0_140_mac.dmg
 
     - name: flash-player-29.0.0.140-linux-i386-npapi
       file: flashplayer29_0r0_140_linux.i386.tar.gz
       size: 8520298
       sha256: e1df67829a0733fe1b313302cfc2e94996d80b45db615c0f8addfd9b97506876
+      sha1: 46c0264baeb556f6a142e754f73b92255ecb12eb
+      md5: 5e0e7eeb75c336b486376a397812acad
       source: 29_0_r0_140/flashplayer29_0r0_140_linux.i386.tar.gz
 
     - name: flash-player-29.0.0.140-linux-i386-npapi-debug
       file: flashplayer29_0r0_140_linux_debug.i386.tar.gz
       size: 8842524
       sha256: 904b10830a2d742acfc32b126ff3636251d2f440508ef0283637e2d77c135a99
+      sha1: cf7711789f6c7e518def17c9666fdc2d19b31ef9
+      md5: a2fada5b8c97e4faa5a4d45058a283e3
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_linux_debug.i386.tar.gz
 
     - name: flash-player-29.0.0.140-linux-i386-ppapi
       file: flashplayer29_0r0_140_linuxpep.i386.tar.gz
       size: 8554989
       sha256: d97e7aff5636c5d13ef1d4802e9d798133cc99b45c8b46b8c32dc4586964ee59
+      sha1: 1c1b3d54e50cb0b62e554b26251660ae35317b51
+      md5: ea7a66539036054104b7fb69c42cceee
       source: 29_0_r0_140/flashplayer29_0r0_140_linuxpep.i386.tar.gz
 
     - name: flash-player-29.0.0.140-linux-x86_64-npapi
       file: flashplayer29_0r0_140_linux.x86_64.tar.gz
       size: 9036010
       sha256: 273aee77a9c7ff0364fd0ae36f6eede94994d0dc62334925155b78fd63914683
+      sha1: dcef00f01fdeadba3facd9fdfc8f0a0b274fd6ae
+      md5: 658110b842a0e44f74fc16af0d8e3ab6
       source: 29_0_r0_140/flashplayer29_0r0_140_linux.x86_64.tar.gz
 
     - name: flash-player-29.0.0.140-linux-x86_64-npapi-debug
       file: flashplayer29_0r0_140_linux_debug.x86_64.tar.gz
       size: 9397919
       sha256: 77448f33ea44fef4055d4f8fb21ba610d4ef031a0c819ad75c8eeb96126a402e
+      sha1: aa9621e0b3e6d9b87bf6a56629edb024088140ad
+      md5: 8cd529010f93fb76dc29daf5eb7c751e
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_linux_debug.x86_64.tar.gz
 
     - name: flash-player-29.0.0.140-linux-x86_64-ppapi
       file: flashplayer29_0r0_140_linuxpep.x86_64.tar.gz
       size: 9471488
       sha256: 5d24a30156b53d405b17e16f766bb835e271ab29f7e304afd60fc2a7ef55a9ea
+      sha1: 8f22f4bd11537ccaaa6d550fa7236f51b1ec876a
+      md5: 36c4818ba41c3259b65fd32d62d0c5ae
       source: 29_0_r0_140/flashplayer29_0r0_140_linuxpep.x86_64.tar.gz
 
     - name: flash-player-29.0.0.140-linux-x86_64-ppapi-debug
       file: flashplayer29_0r0_140_linuxpep_debug.x86_64.tar.gz
       size: 9907835
       sha256: 28742c2f54b646db2307ca4199b1405f7a50c79984561b55403a2c2d5df12d63
+      sha1: 6c6f23f6dd648d865047eb403b8a599f82d40247
+      md5: 45c0b3d0a72e6ac7b3e3698af4f33cd6
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_linuxpep_debug.x86_64.tar.gz
 
     - name: flash-player-29.0.0.140-linux-x86_64-sa
       file: flashplayer29_0r0_140_linux_sa.x86_64.tar.gz
       size: 8495062
       sha256: d41512dc6822fd970a694edb581a3d83ce524091c8afc8613f891f42010b4221
+      sha1: d4e88070a35819bbd570bb85d90d19b1e982e760
+      md5: 29430160067a0370d13dfd1ae315c693
       source: 29_0_r0_140/flashplayer29_0r0_140_linux_sa.x86_64.tar.gz
 
     - name: flash-player-29.0.0.140-linux-x86_64-sa-debug
       file: flashplayer29_0r0_140_linux_sa_debug.x86_64.tar.gz
       size: 8809663
       sha256: a57d73ee6b45902afa1cdac65a3ce79d71da50e8f05fae5d1a5e54433ea96ebf
+      sha1: 5400ea1e8913ba0103895726588f3e72a5232664
+      md5: 1b7e4bc0b98e979c31e3141a2f2d80d6
       source: 29_0_r0_140_debug/flashplayer29_0r0_140_linux_sa_debug.x86_64.tar.gz

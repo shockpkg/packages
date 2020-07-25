@@ -2,4 +2,6 @@
   file: install_flash_player_10_linux.tar.gz
   size: 4911328
   sha256: c26800f60ff01ba82fd7edac45fd3c71fb5c9977cf3ccd0c3615b438d44ed3c9
+  sha1: d7addfbb4a541817933d195fd20718aaa7c6ffcc
+  md5: f628237fc297db061a582c42b639871a
   source: 'https://gitlab.com/fparchive/player-10.1.102.65/raw/master/install_flash_player_10_linux.tar.gz'

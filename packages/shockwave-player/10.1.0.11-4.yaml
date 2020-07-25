@@ -2,22 +2,30 @@
   file: Shockwave_InstallerJ.dmg
   size: 4868083
   sha256: 2c7423cb6fc96eda70b90f893b990177ac4f5f772ad49dceb0d115e675cab56d
+  sha1: 3cabc81d88a1489ecd1ab17c84ff0c6027c9b2ac
+  md5: ac8fc1e4bb61820f5558ca639fc266d9
   source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11-4/mac-osx-full-japanese/Shockwave_InstallerJ.dmg'
 
 - name: shockwave-player-10.1.0.11-4-mac-osx-slim
   file: Shockwave_Installer_Slim.dmg
   size: 2078545
   sha256: 0163f14dbad2c0b0bc613c6ff25382a766a333e9b1e45a5dded0b8e5d1f55ee6
+  sha1: 02749474d13b68ce28f712759f5f4825b43afaf1
+  md5: f8b7893c075c0f8c83dd8cbbf03b778a
   source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11-4/mac-osx-slim/Shockwave_Installer_Slim.dmg'
 
 - name: shockwave-player-10.1.0.11-4-windows-activex
   file: sw.cab
   size: 48206
   sha256: 2247b667e0235b9380a717dfe89274e8793f337c3b1e8511fb78398bca74dff3
+  sha1: b2d0173e4ff2c3563916d26f6f1990ceff5aa63b
+  md5: cb8b5fb7095866d5c267207093eb7cfe
   source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11-4/win-activex/sw.cab'
 
 - name: shockwave-player-10.1.0.11-4-windows-slim-japanese
   file: Shockwave_Installer_SlimJ.exe
   size: 2454224
   sha256: 6df96599ea9ae2e846043d2b1828ef2d249ecdd43d56b565532613347cc3b501
+  sha1: d6fe0293321e99652838036bb96d00ef5ed91800
+  md5: 0f7153eac1da3fb8012ecbb16fdab66b
   source: 'https://gitlab.com/swarchive/player/raw/master/10.1.0.11-4/win-slim-japanese/Shockwave_Installer_SlimJ.exe'

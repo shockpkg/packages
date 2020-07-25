@@ -2,22 +2,30 @@
   file: AdobeAIRInstaller.zip
   size: 18032955
   sha256: e62a6b2eaf5f8740362602d7ffa38de2202717a75056e33f47a1798d515e4fe8
+  sha1: db2404aed71fe1d4effe9fee3e1eb02c4e64e876
+  md5: 7236c038a38402c871e3f2c64081a38e
   source: 'https://gitlab.com/fparchive/air-20.0.0.260/raw/master/win/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-20.0.0.260-windows
       file: AdobeAIRInstaller.exe
       size: 18346464
       sha256: 318770b9a18e59ca4a721a1f5c2b0235cffdbe77a043e99cb2af32074d61de45
+      sha1: 2fdd561556fe881c4e5538d4ee37f523871befd3
+      md5: c296ddd5941b50ca1a05f5bd9c3cc815
       source: AdobeAIRInstaller.exe
 
 - name: air-runtime-20.0.0.260-mac
   file: AdobeAIR.tbz2
   size: 28669136
   sha256: a947c963978fa56c1d134dc5f27860187ff618dabd378c8c9b656d19beac0963
+  sha1: e8935b68e0895599ae431fe25c39971d1b1f986d
+  md5: 226016917380f296dc9dcb72156ceac3
   source: 'https://gitlab.com/fparchive/air-20.0.0.260/raw/master/mac/AdobeAIR.tbz2'
 
 - name: air-runtime-20.0.0.260-mac-dmg
   file: AdobeAIR.dmg
   size: 32477397
   sha256: 7447812d40e4ffd922dc5c34c7fa9f335a7f5b884067bd85c55e1ac9e2fb316c
+  sha1: 20adc0c4706de9532049236390b3842993f03534
+  md5: 4c3dbbf07ff7dff99def1abb24aadd06
   source: 'https://gitlab.com/fparchive/air-20.0.0.260/raw/master/mac/AdobeAIR.dmg'

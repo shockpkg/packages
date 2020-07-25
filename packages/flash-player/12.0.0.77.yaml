@@ -2,88 +2,118 @@
   file: fp_12.0.0.77_archive.zip
   size: 165287121
   sha256: 124cfb10147a3bc1382a888610c9ec6fde0440bf9ca0331be53ee5ca7939bb3a
+  sha1: 02530710b5ad395083008e2fbb816baf61c96547
+  md5: 5e45ee2a3ec494787cd2ad148eeb99f0
   source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_12.0.0.77_archive.zip'
   packages:
     - name: flash-player-12.0.0.77-windows-npapi
       file: flashplayer12_0r0_77_win.exe
       size: 17879432
       sha256: 9bd1ffd7d32dd95af9a7365f99fe0ccec18c6766b60499c5d82216aac69d2b87
+      sha1: 5c265ebce54854885c860aa7f81466d4267923f6
+      md5: 16a84718fb300915e3c7ca7ea271eddc
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_win.exe
 
     - name: flash-player-12.0.0.77-windows-npapi-msi
       file: flashplayer12_0r0_77_win.msi
       size: 18971136
       sha256: ec8d8353cc89bcbf7d8dbc792d3bed1aa47db4d9c61611c3084910fd7f67d0f6
+      sha1: 81198af3238f83a3359fb2ada39a5f9b235b1b00
+      md5: 295b79b8c0f381223ebaf53de2bf94ad
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_win.msi
 
     - name: flash-player-12.0.0.77-windows-npapi-debug
       file: flashplayer12_0r0_77_win_debug.exe
       size: 18326408
       sha256: fddd9bc7b20970e6029160a49604d27be35b0b6b128c108e7ade8e01ea6dec5e
+      sha1: b355db80d64be5637b759886a0218296f709b8dd
+      md5: d08a7eada0a9a952f96311d897576e77
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_win_debug.exe
 
     - name: flash-player-12.0.0.77-windows-activex
       file: flashplayer12_0r0_77_winax.exe
       size: 17293704
       sha256: 15bd5ae1b00c374e88c62e56d5cbcf317e719413e590575f464a8c5d8c54bb4a
+      sha1: a410637349ab43ae08e33466da67fff76a6934ed
+      md5: b165fd256a586cdcc2237b6f03e5a8bd
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_winax.exe
 
     - name: flash-player-12.0.0.77-windows-activex-msi
       file: flashplayer12_0r0_77_winax.msi
       size: 18381312
       sha256: b49591e80a9431662a6ade5cc18697d58221aad6d5405a09c974c3efb5e69af6
+      sha1: 0020cb42f9fbf0713c909e0b1d28b810a3f9f9d7
+      md5: 66e4a45ecccc91c8c00827b73c28cc21
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_winax.msi
 
     - name: flash-player-12.0.0.77-windows-activex-debug
       file: flashplayer12_0r0_77_winax_debug.exe
       size: 17732488
       sha256: 5560a1b10d885f01b498fdc2e15ad360b42881ac82f676435e2a354fbfc2b001
+      sha1: 1d5d21cb58a02a942d0406cd23439a985173ce20
+      md5: 01871c5a3733eb8f6284af25e76f3b73
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_winax_debug.exe
 
     - name: flash-player-12.0.0.77-windows-sa-debug
       file: flashplayer12_0r0_77_win_sa_debug.exe
       size: 11202440
       sha256: d65d32e86c53cb9bf425fcaf6d70cf140353a67c130d5a20c2629b6557b6e206
+      sha1: 74fefb0fea51aa29571db008256cbc52a4abe477
+      md5: b6e5ec4bf9c293c2f8fb8063bdd75401
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_win_sa_debug.exe
 
     - name: flash-player-12.0.0.77-windows-uninstaller
       file: uninstall_flashplayer12_0r0_77_win.exe
       size: 841096
       sha256: cd6d10427b11245e0a79bbe284105a4f134053010b6b5487ae6884f923a353f8
+      sha1: 49eecc3f1588188bb224d4afcdc5b8daa75be732
+      md5: bc6b64d2efab6cd5bdf6d9b023d9bc47
       source: fp_12.0.0.77_archive/12_0_r0_77/uninstall_flashplayer12_0r0_77_win.exe
 
     - name: flash-player-12.0.0.77-mac-npapi
       file: flashplayer12_0r0_77_mac.dmg
       size: 18416511
       sha256: 15a2a7227372c1d7cd33f9ce015bfe33f175b452ed01730a2ae2dca91b63149c
+      sha1: 748d5864ea5a100eb8199392920acd6318f66048
+      md5: cf8fe902ec4c46356e213e8fa25c1a6d
       source: fp_12.0.0.77_archive/12_0_r0_77/flashplayer12_0r0_77_mac.dmg
 
     - name: flash-player-12.0.0.77-mac-npapi-debug
       file: flashplayer12_0r0_77_mac_debug.dmg
       size: 18858287
       sha256: 932b64964c62281edb679a1e22520e62ce94c11b78c60e974feffb78b49b9573
+      sha1: 35dd254cc085c0e212e4a95b76b5ae29bb9dca23
+      md5: 8d9b39c6786c7101fe85c2209a6cc539
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_mac_debug.dmg
 
     - name: flash-player-12.0.0.77-mac-sa-debug
       file: flashplayer12_0r0_77_mac_sa_debug.dmg
       size: 16055586
       sha256: f4bef96ee3af9d7f53ff9edb287ef47f638383c5c6e1afb2627863752e943108
+      sha1: 906291444585686ea394fc75579358fe42c344f1
+      md5: 6d16e9bcf2eaeadd475498796a36370e
       source: fp_12.0.0.77_archive/12_0_r0_77_debug/flashplayer12_0r0_77_mac_sa_debug.dmg
 
     - name: flash-player-12.0.0.77-mac-uninstaller
       file: uninstall_flashplayer12_0r0_77_mac.dmg
       size: 235545
       sha256: 2df42b1e872fc1fe522c8580c75ad119fae69a13bdecee3373ad8c1fb1a38676
+      sha1: 51645e02d8174b25a251211bca6c205ee37c17ed
+      md5: 2af54ce9f12ef578afc25c14c045fee0
       source: fp_12.0.0.77_archive/12_0_r0_77/uninstall_flashplayer12_0r0_77_mac.dmg
 
 - name: flash-player-12.0.0.77-windows-sa
   file: flashplayer_12_sa.exe
   size: 10360200
   sha256: 2d661d16b078eebed0bbf71987108d2d2e5ac5d2d68b706ea39d18c0b67c94cd
+  sha1: 7efad08c15082453da909f720ea520cf25291eeb
+  md5: 6c08f0d1b906cfb5e13b92f878856c30
   source: 'https://gitlab.com/fparchive/player-12.0.0.77/raw/master/flashplayer_12_sa.exe'
 
 - name: flash-player-12.0.0.77-mac-sa
   file: flashplayer_12_sa.dmg
   size: 15400489
   sha256: f63c8931502b88bdde25fa38f379f78d851aed9f383f782b10621a508cdf832c
+  sha1: 784a19901fd998c76b92bde811ae4bfd42e10a82
+  md5: 7eab58eda20497ed023f930e279de257
   source: 'https://gitlab.com/fparchive/player-12.0.0.77/raw/master/flashplayer_12_sa.dmg'

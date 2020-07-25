@@ -2,28 +2,38 @@
   file: AdobeAIRSDK.zip
   size: 32056030
   sha256: 6fe994ec5981fe3c862815e4339109684e266d46831bd3f85f9517decbaef127
+  sha1: c1f05f4f1cd2b66a42bb16856dea838e0f04a644
+  md5: 153018302f4688d5d7df744753803e11
   source: 'https://gitlab.com/fparchive/air-2.5.0.16600/raw/master/win/AdobeAIRSDK.zip'
 
 - name: air-sdk-2.5.0.16600-mac
   file: AdobeAIRSDK.tbz2
   size: 32902651
   sha256: c1a4c6b4cd1983b1669b2f26f0ddb0194a62202cd8b3ba5cbcd311c0d6ebffd0
+  sha1: 8c3021b437da259a8c8d86d488bdae3b01a2aecd
+  md5: e46e1da07f01611d905b6ec89b8b1331
   source: 'https://gitlab.com/fparchive/air-2.5.0.16600/raw/master/mac/AdobeAIRSDK.tbz2'
 
 - name: air-sdk-2.5.0.16600-mac-zip
   file: AdobeAIRSDK.zip
   size: 34090849
   sha256: 686367139036457915b114c8500d9a217e7651426ce38d94e311719928579226
+  sha1: 90d09ab0cfc79060954712a5e1b05baf64d0068c
+  md5: 22b9c428c991edf74c90d9847f2438a7
   source: 'https://gitlab.com/fparchive/air-2.5.0.16600/raw/master/mac/AdobeAIRSDK.zip'
 
 - name: air-sdk-2.5.0.16600-linux
   file: AdobeAIRSDK.tbz2
   size: 34681885
   sha256: eb805725a8aedb09d9611330b9afac5b64d669a295b20bd29642d7eef6972d6e
+  sha1: a25041a82768bf82c288a195c4bab1e825bef97f
+  md5: 332ed7b5c320b4a035ff9c40fe32857f
   source: 'https://gitlab.com/fparchive/air-2.5.0.16600/raw/master/lin/AdobeAIRSDK.tbz2'
 
 - name: air-sdk-2.5.0.16600-linux-zip
   file: AdobeAIRSDK.zip
   size: 35322364
   sha256: b7f83b73fa36da6c4888cddd30b95dbd97bb9ee660925a47d39df649167e9de8
+  sha1: 6227e2b65507c78f6087578f31fe0f58141185fc
+  md5: 959e3a20b3118ea9915c0e5ba5169b3e
   source: 'https://gitlab.com/fparchive/air-2.5.0.16600/raw/master/lin/AdobeAIRSDK.zip'
