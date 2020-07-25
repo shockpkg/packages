@@ -2,10 +2,10 @@
   file: projector.zip
   size: 2455652
   sha256: c7ef8648aa13c50670bc857c93801bfa1d630274b07b6515df7800e75ced33b8
-  source: https://gitlab.com/swarchive/projector/raw/master/director/win/5.0.0/win-16bit/projector.zip
+  source: 'https://gitlab.com/swarchive/projector/raw/master/director/win/5.0.0/win-16bit/projector.zip'
 
 - name: shockwave-projector-director-5.0.0-win-win-32bit
   file: projector.zip
   size: 2504780
   sha256: 8d0a655b141bacef1a77d2e84325042265aec2c74f169dfe6ecaf437e78691ed
-  source: https://gitlab.com/swarchive/projector/raw/master/director/win/5.0.0/win-32bit/projector.zip
+  source: 'https://gitlab.com/swarchive/projector/raw/master/director/win/5.0.0/win-32bit/projector.zip'

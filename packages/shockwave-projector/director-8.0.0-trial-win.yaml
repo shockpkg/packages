@@ -2,4 +2,4 @@
   file: projector.zip
   size: 6334805
   sha256: 98c4c628dd44ef7375e2a2e61743500d2da8bbc031ef37e01eb97ab5207f730b
-  source: https://gitlab.com/swarchive/projector/raw/master/director/win/8.0.0-trial/win/projector.zip
+  source: 'https://gitlab.com/swarchive/projector/raw/master/director/win/8.0.0-trial/win/projector.zip'
