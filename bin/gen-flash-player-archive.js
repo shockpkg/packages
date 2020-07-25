@@ -336,6 +336,10 @@ async function main() {
 
 	const sha256 = await hash.file(cached.filepath, 'sha256');
 	console.log(`SHA256: ${sha256}`);
+	const sha1 = await hash.file(cached.filepath, 'sha1');
+	console.log(`SHA1: ${sha1}`);
+	const md5 = await hash.file(cached.filepath, 'md5');
+	console.log(`MD5: ${md5}`);
 	console.log('');
 
 	const packagesMeta = [];
@@ -357,6 +361,10 @@ async function main() {
 
 		const sha256 = await hash.buffer(data, 'sha256');
 		console.log(`SHA256: ${sha256}`);
+		const sha1 = await hash.buffer(data, 'sha1');
+		console.log(`SHA1: ${sha1}`);
+		const md5 = await hash.buffer(data, 'md5');
+		console.log(`MD5: ${md5}`);
 
 		const meta = createMeta(filepath);
 		const name = metaToName(version, meta);
@@ -368,6 +376,8 @@ async function main() {
 			file: filename,
 			size,
 			sha256,
+			sha1,
+			md5,
 			source: filepath
 		});
 
@@ -383,6 +393,8 @@ async function main() {
 		file: entry.file,
 		size: entry.size,
 		sha256: entry.sha256,
+		sha1: entry.sha1,
+		md5: entry.md5,
 		source: entry.source
 	}));
 
@@ -391,6 +403,8 @@ async function main() {
 		file: url.split('/').pop(),
 		size,
 		sha256,
+		sha1,
+		md5,
 		source: url
 	};
 	if (packages.length) {
