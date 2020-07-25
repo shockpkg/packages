@@ -74,9 +74,11 @@ async function main() {
 		// eslint-disable-next-line no-await-in-loop
 		const sha256 = await hash.file(cached.filepath, 'sha256');
 		console.log(`SHA256: ${sha256}`);
-		const sha1 = await hash.buffer(data, 'sha1');
+		// eslint-disable-next-line no-await-in-loop
+		const sha1 = await hash.file(cached.filepath, 'sha1');
 		console.log(`SHA1: ${sha1}`);
-		const md5 = await hash.buffer(data, 'md5');
+		// eslint-disable-next-line no-await-in-loop
+		const md5 = await hash.file(cached.filepath, 'md5');
 		console.log(`MD5: ${md5}`);
 
 		const entry = {
