@@ -64,7 +64,7 @@ function genList(version) {
 		],
 		[
 			`flash-player-${version}-windows-uninstaller`,
-			`https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player.exe`
+			'https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player.exe'
 		],
 		[
 			`flash-player-${version}-mac-npapi`,
@@ -96,7 +96,7 @@ function genList(version) {
 		],
 		[
 			`flash-player-${version}-mac-uninstaller`,
-			`https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player_osx.dmg`
+			'https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player_osx.dmg'
 		],
 		[
 			`flash-player-${version}-linux-i386-npapi`,
