@@ -15,10 +15,16 @@ const packagesDir = path.join(path.dirname(__dirname), 'packages');
 
 function genList(version) {
 	const [versionMajor] = version.split('.');
+	// Licensed installers are here, but they are all login protected:
+	// https://fpdownload.macromedia.com/get/flashplayer/distyfp/current/OS/FILE
 	return [
 		[
 			`flash-player-${version}-windows-npapi`,
 			`https://fpdownload.macromedia.com/get/flashplayer/pdc/${version}/install_flash_player.exe`
+		],
+		[
+			`flash-player-${version}-windows-npapi-msi`,
+			`https://fpdownload.macromedia.com/get/flashplayer/pdc/${version}/install_flash_player_${versionMajor}_plugin.msi`
 		],
 		[
 			`flash-player-${version}-windows-npapi-debug`,
@@ -29,12 +35,20 @@ function genList(version) {
 			`https://fpdownload.macromedia.com/get/flashplayer/pdc/${version}/install_flash_player_ppapi.exe`
 		],
 		[
+			`flash-player-${version}-windows-ppapi-msi`,
+			`https://fpdownload.macromedia.com/get/flashplayer/pdc/${version}/install_flash_player_${versionMajor}_ppapi.msi`
+		],
+		[
 			`flash-player-${version}-windows-ppapi-debug`,
 			`https://fpdownload.macromedia.com/get/flashplayer/updaters/${versionMajor}/flashplayer_${versionMajor}_ppapi_debug.exe`
 		],
 		[
 			`flash-player-${version}-windows-activex`,
 			`https://fpdownload.macromedia.com/get/flashplayer/pdc/${version}/install_flash_player_ax.exe`
+		],
+		[
+			`flash-player-${version}-windows-activex-msi`,
+			`https://fpdownload.macromedia.com/get/flashplayer/pdc/${version}/install_flash_player_${versionMajor}_active_x.msi`
 		],
 		[
 			`flash-player-${version}-windows-activex-debug`,
@@ -49,9 +63,15 @@ function genList(version) {
 			`https://fpdownload.macromedia.com/get/flashplayer/updaters/${versionMajor}/flashplayer_${versionMajor}_sa_debug.exe`
 		],
 		[
+			`flash-player-${version}-windows-uninstaller`,
+			`https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player.exe`
+		],
+		[
 			`flash-player-${version}-mac-npapi`,
 			`https://fpdownload.macromedia.com/get/flashplayer/pdc/${version}/install_flash_player_osx.dmg`
 		],
+		// PKG version not available outside licensed?
+		// `install_flash_player_${versionMajor}_osx_pkg.dmg`
 		[
 			`flash-player-${version}-mac-npapi-debug`,
 			`https://fpdownload.macromedia.com/get/flashplayer/updaters/${versionMajor}/flashplayer_${versionMajor}_plugin_debug.dmg`
@@ -60,6 +80,8 @@ function genList(version) {
 			`flash-player-${version}-mac-ppapi`,
 			`https://fpdownload.macromedia.com/get/flashplayer/pdc/${version}/install_flash_player_osx_ppapi.dmg`
 		],
+		// PKG version not available outside licensed?
+		// `install_flash_player_${versionMajor}_osx_ppapi_pkg.dmg`
 		[
 			`flash-player-${version}-mac-ppapi-debug`,
 			`https://fpdownload.macromedia.com/get/flashplayer/updaters/${versionMajor}/flashplayer_${versionMajor}_ppapi_debug.dmg`
@@ -71,6 +93,10 @@ function genList(version) {
 		[
 			`flash-player-${version}-mac-sa-debug`,
 			`https://fpdownload.macromedia.com/get/flashplayer/updaters/${versionMajor}/flashplayer_${versionMajor}_sa_debug.dmg`
+		],
+		[
+			`flash-player-${version}-mac-uninstaller`,
+			`https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player_osx.dmg`
 		],
 		[
 			`flash-player-${version}-linux-i386-npapi`,
@@ -139,19 +165,29 @@ async function main() {
 		}
 
 		// eslint-disable-next-line no-await-in-loop
-		const stat = await fse.stat(cached.filepath);
-		const {size} = stat;
+		const data = await fse.readFile(cached.filepath);
+		const size = data.length;
 		console.log(`Size: ${size}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const sha256 = await hash.file(cached.filepath, 'sha256');
+		const sha256 = await hash.buffer(data, 'sha256');
 		console.log(`SHA256: ${sha256}`);
+
+		// eslint-disable-next-line no-await-in-loop
+		const sha1 = await hash.buffer(data, 'sha1');
+		console.log(`SHA1: ${sha1}`);
+
+		// eslint-disable-next-line no-await-in-loop
+		const md5 = await hash.buffer(data, 'md5');
+		console.log(`MD5: ${md5}`);
 
 		doc.push({
 			name,
 			file: url.split('/').pop(),
 			size,
 			sha256,
+			sha1,
+			md5,
 			source: url
 		});
 
