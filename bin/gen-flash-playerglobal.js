@@ -27,8 +27,9 @@ async function main() {
 	);
 
 	const versionURL = version.replace(/\./, '_');
+	const versionMajor = version.split('.')[0];
 	const name = `flash-playerglobal-${version}`;
-	const url = `https://fpdownload.macromedia.com/get/flashplayer/installers/archive/playerglobal/playerglobal${versionURL}.swc`;
+	const url = `https://fpdownload.macromedia.com/get/flashplayer/updaters/${versionMajor}/playerglobal${versionURL}.swc`;
 
 	console.log(`Name: ${name}`);
 	console.log(`URL: ${url}`);
