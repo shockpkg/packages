@@ -4,7 +4,7 @@
   sha256: b5ae5c5f59c75b09b3c45d58ee69d7d86b1d79f6a1bd7a25efe9a9c9f5b7673b
   sha1: 535c915a2c705cf5b4ceb57fb370af98fe52e55b
   md5: de5b89f74c0ecbbe0fd55de89f031dd0
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_14.0.0.125_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_b/b5/ae/5c5f59c75b09b3c45d58ee69d7d86b1d79f6a1bd7a25efe9a9c9f5b7673b/fp_14.0.0.125_archive.zip'
   packages:
     - name: flash-player-14.0.0.125-windows-npapi
       file: flashplayer14_0r0_125_win.exe

@@ -4,7 +4,7 @@
   sha256: 2e3b91339c1936c38f88805d22e6796096a4b469c535005c4f68e7c1fb546661
   sha1: 2ea298d232c668a7aa48f21ffb1b38d34eb5c30b
   md5: cf2aeafa5572f90b2cd011780ce712c6
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.8.800.94_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_2/2e/3b/91339c1936c38f88805d22e6796096a4b469c535005c4f68e7c1fb546661/fp_11.8.800.94_archive.zip'
   packages:
     - name: flash-player-11.8.800.94-windows-npapi
       file: flashplayer11_8r800_94_win.exe

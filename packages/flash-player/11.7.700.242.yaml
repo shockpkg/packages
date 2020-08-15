@@ -4,7 +4,7 @@
   sha256: abeee764a0174f4cdee92f39546c2636218e3d84a61b247f1bd2371b044a853f
   sha1: e092c6fe0c15b8acabf2f3fc5ef369e41e054e0a
   md5: c7426727d9b88a1b6d906a01639f52b2
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.7.700.242_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_a/ab/ee/e764a0174f4cdee92f39546c2636218e3d84a61b247f1bd2371b044a853f/fp_11.7.700.242_archive.zip'
   packages:
     - name: flash-player-11.7.700.242-windows-npapi
       file: flashplayer_11_7r700_242_win.exe

@@ -4,7 +4,7 @@
   sha256: 8126a8609e462755d942ea3152e73b9678bfdcab07052c30aaacfb6e19b7cb78
   sha1: 6c85bb874eb6d266f23d103b473dbde2d3e19db6
   md5: f8421c518b28d5474ab1159199378fa5
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_22.0.0.192_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_8/81/26/a8609e462755d942ea3152e73b9678bfdcab07052c30aaacfb6e19b7cb78/fp_22.0.0.192_archive.zip'
   packages:
     - name: flash-player-22.0.0.192-windows-npapi
       file: flashplayer22_0r0_192_win.exe

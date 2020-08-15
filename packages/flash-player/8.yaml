@@ -4,7 +4,7 @@
   sha256: 035433293173d7530e6f04c7a33d8e1636775062578ad126a9c3dad18532f9ea
   sha1: 088e55fd0df7d9964bc33313a83f80c2439877c4
   md5: 82888faa09b7d15b9bcadf3b32e01a0c
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp8_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_0/03/54/33293173d7530e6f04c7a33d8e1636775062578ad126a9c3dad18532f9ea/fp8_archive.zip'
   packages:
     - name: flash-player-8.0.22.0-windows-npapi
       file: flashplayer8r22_win.exe

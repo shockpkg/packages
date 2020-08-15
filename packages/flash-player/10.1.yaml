@@ -4,7 +4,7 @@
   sha256: 5b9383ec0e959d346d966fd6bd9fa0741fa4c10bfc883fdddaead0d5fa0e0af4
   sha1: 153fce0b055a4b25ff5bdb6fb2e56774d164e513
   md5: b663380b6f145001587e227c8f7d3c3e
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp10.1_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_5/5b/93/83ec0e959d346d966fd6bd9fa0741fa4c10bfc883fdddaead0d5fa0e0af4/fp10.1_archive.zip'
   packages:
     - name: flash-player-10.1.53.64-windows-npapi
       file: flashplayer10_1r53_64_win.exe
@@ -140,7 +140,7 @@
   sha256: 0ae0ac5ebeb1e82899ed51c9117b1f15d9bddee0a28844e66b2be9cf7d9f7154
   sha1: 6fce190797beebbf8caa962e3122437ca62bd48f
   md5: cecfd88e499631f6a0cb476d2090b378
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp10.1_debug_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_0/0a/e0/ac5ebeb1e82899ed51c9117b1f15d9bddee0a28844e66b2be9cf7d9f7154/fp10.1_debug_archive.zip'
   packages:
     - name: flash-player-10.1.53.64-windows-npapi-debug
       file: flashplayer10_1r53_64_win_debug.exe

@@ -4,7 +4,7 @@
   sha256: ba3f0df3777abf5fea1f78f1bcd30791cf71fde84210e8dc878c74f137e88dec
   sha1: 8173a8800024dad7a0ad7fe494fce5f0ed82e463
   md5: a184a60c58f44f3e71b64d71540d0d0f
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_24.0.0.194_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_b/ba/3f/0df3777abf5fea1f78f1bcd30791cf71fde84210e8dc878c74f137e88dec/fp_24.0.0.194_archive.zip'
   packages:
     - name: flash-player-24.0.0.194-windows-npapi
       file: flashplayer24_0r0_194_win.exe

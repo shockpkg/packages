@@ -4,7 +4,7 @@
   sha256: 92786f7acd614e0afbbeb4ee006e6a4519f437fe3db560d9bb5b4a1278eca508
   sha1: 16cf1dd888ae699cef84ce33469090f0197ccfcc
   md5: 3f55495bb1396f25847613eeedfd2592
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_27.0.0.187_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_9/92/78/6f7acd614e0afbbeb4ee006e6a4519f437fe3db560d9bb5b4a1278eca508/fp_27.0.0.187_archive.zip'
   packages:
     - name: flash-player-27.0.0.187-windows-npapi
       file: flashplayer27_0r0_187_win.exe

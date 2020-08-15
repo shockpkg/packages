@@ -4,7 +4,7 @@
   sha256: 970146e190db6eb2f2333c85d003a4ceeeafc7d599462870b066ac9ab694b0bb
   sha1: 01949b99ef7dfe01d125d911b1b62667f0b4e5af
   md5: 1391bb0a1910eca1756d9c1dbb7f4137
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_20.0.0.306_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_9/97/01/46e190db6eb2f2333c85d003a4ceeeafc7d599462870b066ac9ab694b0bb/fp_20.0.0.306_archive.zip'
   packages:
     - name: flash-player-20.0.0.306-windows-npapi
       file: flashplayer20_0r0_306_win.exe

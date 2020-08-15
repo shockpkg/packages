@@ -4,7 +4,7 @@
   sha256: 0baeefc162bda99f98ed0a79e23db2f2ac11b26d46071c320ed9265859fdc495
   sha1: 46443c00702f3d8a5fa15b5e2f5eece09d871eff
   md5: ad4e61618cabb26307cb0e4236605c22
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.181.16_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_0/0b/ae/efc162bda99f98ed0a79e23db2f2ac11b26d46071c320ed9265859fdc495/fp_10.3.181.16_archive.zip'
   packages:
     - name: flash-player-10.3.181.16-windows-activex
       file: flashplayer10_3r181_16_winax.exe

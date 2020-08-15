@@ -4,7 +4,7 @@
   sha256: 090a964a6888db404b850e74ec727111ed9079bfd994a2ead0cbb2944a8684d2
   sha1: 84a9f4a7960eb41231333e54691f3ea3a49fb726
   md5: 634831d4e4dc5090d5a2aad5ddc7cb46
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_23.0.0.205_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_0/09/0a/964a6888db404b850e74ec727111ed9079bfd994a2ead0cbb2944a8684d2/fp_23.0.0.205_archive.zip'
   packages:
     - name: flash-player-23.0.0.205-windows-npapi
       file: flashplayer23_0r0_205_win.exe

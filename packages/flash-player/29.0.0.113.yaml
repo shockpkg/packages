@@ -4,7 +4,7 @@
   sha256: 563a0660be310fe6f451a14aed5667b37dcf735e5c19472ba4651653279f5331
   sha1: e77292a9c975a11d6e1b8fb39032b778c1739fa7
   md5: 0a80aa2ed223b39ab395b6591e0e5929
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_29.0.0.113_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_5/56/3a/0660be310fe6f451a14aed5667b37dcf735e5c19472ba4651653279f5331/fp_29.0.0.113_archive.zip'
   packages:
     - name: flash-player-29.0.0.113-windows-npapi
       file: flashplayer29_0r0_113_win.exe

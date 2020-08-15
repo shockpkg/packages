@@ -4,7 +4,7 @@
   sha256: 000e1d9b03db3ddecf7e78a90a8ecfeddfc0c7df39886eb4fb03b65b8bed661c
   sha1: a59b4ebbda726aa88336ac6c69fa3969458aaf2a
   md5: 802ad61f734a165eab90ed20d8e1bee4
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_13.0.0.258_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_0/00/0e/1d9b03db3ddecf7e78a90a8ecfeddfc0c7df39886eb4fb03b65b8bed661c/fp_13.0.0.258_archive.zip'
   packages:
     - name: flash-player-13.0.0.258-windows-npapi
       file: flashplayer13_0r0_258_win.exe

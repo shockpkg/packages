@@ -4,7 +4,7 @@
   sha256: e66c4b81860def8077b11fe6d048a9bb4570e96e79e3d07e67532ec13fe57b1a
   sha1: 9ffd4fcb5fdd55b43151266a3f14a348a06e8074
   md5: 5e696de35d569a9fd77ae55adef52fc4
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_31.0.0.108_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_e/e6/6c/4b81860def8077b11fe6d048a9bb4570e96e79e3d07e67532ec13fe57b1a/fp_31.0.0.108_archive.zip'
   packages:
     - name: flash-player-31.0.0.108-windows-npapi
       file: flashplayer31_0r0_108_win.exe

@@ -4,7 +4,7 @@
   sha256: ce5bdd32d5c40ff2262692aeed514ac0f2b535ed7f7c79b6de13d581082534bb
   sha1: f96ad8766bca5bb312b694319f51a71983d45493
   md5: a77ae63c33344bf7b03c204bccf3e421
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_32.0.0.371_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_c/ce/5b/dd32d5c40ff2262692aeed514ac0f2b535ed7f7c79b6de13d581082534bb/fp_32.0.0.371_archive.zip'
   packages:
     - name: flash-player-32.0.0.371-windows-npapi
       file: flashplayer32_0r0_371_win.exe

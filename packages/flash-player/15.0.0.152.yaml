@@ -4,7 +4,7 @@
   sha256: 2df8de10fa08488be73cd2606825eb70242d8acfa3687a7eb38002b5ca0c200f
   sha1: 7ee6b924d9b228bc4cddb2366df0022bc4919b37
   md5: eeb1ac7cf791c49bb5ef8da5cc237756
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_15.0.0.152_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_2/2d/f8/de10fa08488be73cd2606825eb70242d8acfa3687a7eb38002b5ca0c200f/fp_15.0.0.152_archive.zip'
   packages:
     - name: flash-player-15.0.0.152-windows-npapi
       file: flashplayer15_0r0_152_win.exe

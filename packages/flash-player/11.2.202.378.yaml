@@ -4,7 +4,7 @@
   sha256: 95eb4a995b292477fe9114eeb14b47c5cb4d4b02d9cd7568e2e9043d726b420d
   sha1: a3bead1b5328dcf141dfe36b953e48d70e544329
   md5: 8f16ebb609fd44b7cc1603a54a95edbb
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.378_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_9/95/eb/4a995b292477fe9114eeb14b47c5cb4d4b02d9cd7568e2e9043d726b420d/fp_11.2.202.378_archive.zip'
   packages:
     - name: flash-player-11.2.202.378-linux-i386-npapi
       file: flashplayer_11_2r202_378_linux.i386.tar.gz

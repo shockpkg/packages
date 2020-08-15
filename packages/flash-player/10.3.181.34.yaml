@@ -4,7 +4,7 @@
   sha256: 6e6bb2b6f4e40ddd0b02d5768436f0d14c52c66d73642b07559ed416de84e64d
   sha1: fcde319aae566621f04a254232ca3a40fdb6f054
   md5: 61834fdd4205be93217969a1d23acc8d
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.181.34_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_6/6e/6b/b2b6f4e40ddd0b02d5768436f0d14c52c66d73642b07559ed416de84e64d/fp_10.3.181.34_archive.zip'
   packages:
     - name: flash-player-10.3.181.34-windows-npapi
       file: flashplayer10_3r181_34_win.exe

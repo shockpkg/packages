@@ -4,7 +4,7 @@
   sha256: 3fd9108dc425ab2c766c6f46928de28211598bbe4e78ea71a540ab4b43a2d70e
   sha1: 7188c8f39a11b981a5ee0ebf536f8578841b4805
   md5: 213b53fe84d4178b1bbc7a686e42d4aa
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_20.0.0.228_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_3/3f/d9/108dc425ab2c766c6f46928de28211598bbe4e78ea71a540ab4b43a2d70e/fp_20.0.0.228_archive.zip'
   packages:
     - name: flash-player-20.0.0.228-windows-ppapi
       file: flashplayer20_0d0_228_winpep.exe

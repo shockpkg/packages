@@ -4,7 +4,7 @@
   sha256: ce7adc4134186a80b62ded3ce22be1c62580994b5f9bc5a2b4589c8f9a6b8e8f
   sha1: ee9e50fdce0393706db271c852876708475b7a3c
   md5: 4b917997b9c41c7e0aab2fd39528fc99
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_21.0.0.182_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_c/ce/7a/dc4134186a80b62ded3ce22be1c62580994b5f9bc5a2b4589c8f9a6b8e8f/fp_21.0.0.182_archive.zip'
   packages:
     - name: flash-player-21.0.0.182-windows-npapi
       file: flashplayer21_0r0_182_win.exe

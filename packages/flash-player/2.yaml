@@ -4,7 +4,7 @@
   sha256: a045b93f02f07f2bc59ad1a0b3ed3a7c76bf2deb506abcef16d499ef62bfb958
   sha1: fb53c41fde0e5a75940cac6208f7909aec365729
   md5: 85133911ccbb8ff971bd864f9bc2f580
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp2_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_a/a0/45/b93f02f07f2bc59ad1a0b3ed3a7c76bf2deb506abcef16d499ef62bfb958/fp2_archive.zip'
   packages:
     - name: flash-player-2.0.0.11-windows-16bit-npapi
       file: SWFlash.exe

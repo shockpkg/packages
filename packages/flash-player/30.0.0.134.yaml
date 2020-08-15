@@ -4,7 +4,7 @@
   sha256: 8c91a44e5c9f0b2d98933fcc93a905df3a8c0f5264ce6b87b60b41f3e6ffceb1
   sha1: 4d2b1ee4b18c025829f1ef138ae7d2824b81a1c5
   md5: b7f6f84d6f9b073ef1fe0b523659d99c
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_30.0.0.134_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_8/8c/91/a44e5c9f0b2d98933fcc93a905df3a8c0f5264ce6b87b60b41f3e6ffceb1/fp_30.0.0.134_archive.zip'
   packages:
     - name: flash-player-30.0.0.134-windows-npapi
       file: flashplayer30_0r0_134_win.exe

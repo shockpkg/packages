@@ -4,7 +4,7 @@
   sha256: 27b5e15b865f595f387eacbae34a7a45a5600188acbb754782f8ab04da14fdf4
   sha1: c1b7ad4a52c0ce276ecc4fa008ee464f1f9e47b4
   md5: c73a62323a4e1d83c7215cc33ca2a7ec
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.8.800.175_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_2/27/b5/e15b865f595f387eacbae34a7a45a5600188acbb754782f8ab04da14fdf4/fp_11.8.800.175_archive.zip'
   packages:
     - name: flash-player-11.8.800.175-windows-activex
       file: flashplayer11_8r800_175_winax.exe

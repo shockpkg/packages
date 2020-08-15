@@ -4,7 +4,7 @@
   sha256: 5b1cf02d31d41a1780ec0fc1e3698c8246ac20218fe61d219d5b474761bc18f5
   sha1: 25f1ae20a7e5c3647038c1b832ad0e1808f79421
   md5: 4d5c2c7fd13550d60b641fccab84bc23
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_15.0.0.167_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_5/5b/1c/f02d31d41a1780ec0fc1e3698c8246ac20218fe61d219d5b474761bc18f5/fp_15.0.0.167_archive.zip'
   packages:
     - name: flash-player-15.0.0.167-windows-activex
       file: flashplayer15_0r0_167_winax.exe

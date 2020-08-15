@@ -4,7 +4,7 @@
   sha256: e2ba916ec33430dd8cdf17424f71fdc83ad32e908d20ab4de1a0ba30c81b72c5
   sha1: 2d6f10934536354a1408b5c0605ad1f6509c666b
   md5: 70310894ccfda011e071e0eac1ca55b1
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp9_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_e/e2/ba/916ec33430dd8cdf17424f71fdc83ad32e908d20ab4de1a0ba30c81b72c5/fp9_archive.zip'
   packages:
     - name: flash-player-9.0.16.0-windows-npapi
       file: flashplayer9r16_win.exe
@@ -876,7 +876,7 @@
   sha256: 2717ce904e0406d7cf9679d565b29743e87d8d019a2fe44c0d063ca65be66409
   sha1: 6aef07ff1053eb9ceca937d9dd13fc8fe557a935
   md5: 8e19fb04db7b3266323356d04b3bc180
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp9_debug_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_2/27/17/ce904e0406d7cf9679d565b29743e87d8d019a2fe44c0d063ca65be66409/fp9_debug_archive.zip'
   packages:
     - name: flash-player-9.0.15.0-windows-npapi-debug
       file: flashplayer9r15_win_debug.exe

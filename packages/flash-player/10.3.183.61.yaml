@@ -4,7 +4,7 @@
   sha256: f485835055bbadcafeee3b835e3a5fc8cea0282804a3114b04c54f310db8dac5
   sha1: 2040448279494733a7c45a6334be4bf02c8a4d1d
   md5: 0cc294dadb1b2f1d0c696dd224baa0f1
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_10.3.183.63_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_f/f4/85/835055bbadcafeee3b835e3a5fc8cea0282804a3114b04c54f310db8dac5/fp_10.3.183.63_archive.zip'
   packages:
     - name: flash-player-10.3.183.61-mac-npapi
       file: flashplayer_10_3r183_61_mac_intel.dmg

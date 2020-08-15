@@ -4,7 +4,7 @@
   sha256: eb10cf8907780282bb199c7e639ceaa7c42a1fe546810d7a2320371521ce9e41
   sha1: 3228cfd7a3ce17680fd86ed491fdefe61c57159f
   md5: c09e7536f8362e9ca7aed768a0169df9
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_18.0.0.375_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_e/eb/10/cf8907780282bb199c7e639ceaa7c42a1fe546810d7a2320371521ce9e41/fp_18.0.0.375_archive.zip'
   packages:
     - name: flash-player-18.0.0.375-windows-npapi
       file: flashplayer18_0r0_375_win.exe

@@ -67,11 +67,11 @@ async function main() {
 			task.attempt++;
 
 			console.log(`${task.pkg.name}: Checking [${retryStat(task)}]`);
-
+			const {source} = task.pkg;
 			const {response} = await requestPromise({
 				method: 'HEAD',
-				url: task.pkg.source,
-				followRedirect: false
+				url: source,
+				followRedirect: source.startsWith('https://archive.org/')
 			});
 
 			const {statusCode} = response;

@@ -4,7 +4,7 @@
   sha256: a96d440358beab28df94289e376f4581e5adfaf64d62e2d197b3d947d9d0dfe8
   sha1: 304167ac3ca66a647fc9a7c2eac8d2862d0d0cb1
   md5: 307d836fc88c4d1e7e21a2b5b76fd637
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_16.0.0.287_archive.zip'
+  source: 'https://archive.org/download/shockpkg_packages_a/a9/6d/440358beab28df94289e376f4581e5adfaf64d62e2d197b3d947d9d0dfe8/fp_16.0.0.287_archive.zip'
   packages:
     - name: flash-player-16.0.0.287-windows-npapi
       file: flashplayer16_0r0_287_win.exe
