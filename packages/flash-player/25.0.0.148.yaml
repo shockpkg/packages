@@ -245,3 +245,19 @@
       sha1: 9af9b7d5b02f34ebae500f410ddf9d665864baa4
       md5: 5875f4ca92dcc7484f87d311a0cd257d
       source: 25_0_r0_148_debug/flashplayer25_0r0_148_linux_sa_debug.x86_64.tar.gz
+
+- name: flash-player-25.0.0.148-mac-sa-zip
+  file: flashplayer25_0r0_148_mac_sa.zip
+  size: 17643570
+  sha256: f7750cdc5f86a967407d7fbfcd0cbff257592cdd2d4dabb78ed31ae768173c6f
+  sha1: 5b172752c42a44c59cc5099de1a13043277badbf
+  md5: 0700636e845a94d74fc0864cf0ac8b38
+  source: 'https://archive.org/download/shockpkg_packages_f/f7/75/0cdc5f86a967407d7fbfcd0cbff257592cdd2d4dabb78ed31ae768173c6f/flashplayer25_0r0_148_mac_sa.zip'
+
+- name: flash-player-25.0.0.148-mac-sa-debug-zip
+  file: flashplayer25_0r0_148_mac_sa_debug.zip
+  size: 18200624
+  sha256: c77602b6448b972330eba6d7797efaee63c236e82d6b9446cfb4b83b69230711
+  sha1: 37b25ab2f25165708b1ec50e6280c2cdd636f0cd
+  md5: 958d2e7980395f0792e65c06c78256db
+  source: 'https://archive.org/download/shockpkg_packages_c/c7/76/02b6448b972330eba6d7797efaee63c236e82d6b9446cfb4b83b69230711/flashplayer25_0r0_148_mac_sa_debug.zip'

@@ -149,3 +149,11 @@
   sha1: ac984a74da64a658d598b9a409e08123abfe9193
   md5: d96e951b9a08260b0e398fe6c5d767df
   source: 'https://gitlab.com/fparchive/player-17.0.0.169/raw/master/flashplayer_17_sa.exe'
+
+- name: flash-player-17.0.0.169-mac-sa-debug-zip
+  file: flashplayer17_0r0_169_mac_sa_debug.zip
+  size: 14437325
+  sha256: 7e21f9e915811f30564312ecd7379864595a92a8864ac74bcb49985b067c1959
+  sha1: e04395717f233f5e45405998e62eeb53ffbc88cc
+  md5: 11d342b1492389430d9ed0938f846a9f
+  source: 'https://archive.org/download/shockpkg_packages_7/7e/21/f9e915811f30564312ecd7379864595a92a8864ac74bcb49985b067c1959/flashplayer17_0r0_169_mac_sa_debug.zip'

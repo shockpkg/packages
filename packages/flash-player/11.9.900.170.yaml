@@ -117,3 +117,19 @@
   sha1: 14701968bd90cdc9f1f217af224e8225f6fa75ef
   md5: cbb82f72cb7d9ae02cfdddd7e569a1cf
   source: 'https://gitlab.com/fparchive/player-11.9.900.170/raw/master/flashplayer_11_sa.dmg'
+
+- name: flash-player-11.9.900.170-mac-sa-zip
+  file: flashplayer_11_sa.zip
+  size: 16055624
+  sha256: db1aeca32d71d79b4619998e9d7c14e528ec95c0a61d213ea31918e747561d3e
+  sha1: 1de6e3fd770be59eff6441b1dbbedfcf7b034139
+  md5: 3ab6e863b8b4e9e791d6c8770575a576
+  source: 'https://archive.org/download/shockpkg_packages_d/db/1a/eca32d71d79b4619998e9d7c14e528ec95c0a61d213ea31918e747561d3e/flashplayer_11_sa.zip'
+
+- name: flash-player-11.9.900.170-mac-sa-debug-zip
+  file: flashplayer11_9r900_170_mac_sa_debug.zip
+  size: 16749606
+  sha256: 9f4104eca51e487a31e11c3ba8e5615b705194a635fa644aa4c90395cdb67411
+  sha1: 9986fcc824013404bbb30d6084cc7b02020eeeff
+  md5: 8a147eae31f8bcc999b7598764bc437a
+  source: 'https://archive.org/download/shockpkg_packages_9/9f/41/04eca51e487a31e11c3ba8e5615b705194a635fa644aa4c90395cdb67411/flashplayer11_9r900_170_mac_sa_debug.zip'

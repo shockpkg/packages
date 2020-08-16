@@ -125,3 +125,19 @@
       sha1: 32f203b8d456d7d7b09988e0b7fb3a55cdac65c9
       md5: 760fbb61ed306877a67020fee6635e26
       source: 18_0_r0_268/uninstall_flashplayer18_0r0_268_mac.dmg
+
+- name: flash-player-18.0.0.268-mac-sa-zip
+  file: flashplayer18_0r0_268_mac_sa.zip
+  size: 14032654
+  sha256: edb475799085600d2b0b59fe84817b783ba4ee106a8c458b608ebd03362b92de
+  sha1: 94b3301f33beb20a2fad0c2a1fe36556c91cbcd7
+  md5: b6f2999406c3a1c3f80c31214c3b7b3e
+  source: 'https://archive.org/download/shockpkg_packages_e/ed/b4/75799085600d2b0b59fe84817b783ba4ee106a8c458b608ebd03362b92de/flashplayer18_0r0_268_mac_sa.zip'
+
+- name: flash-player-18.0.0.268-mac-sa-debug-zip
+  file: flashplayer18_0r0_268_mac_sa_debug.zip
+  size: 14576000
+  sha256: 967796a72fada29e6651ed8ecd5783e60eaa1aca237f281c46f8f888df2d76b6
+  sha1: 294e8ac75fb1dde34d82a721a1d43205c7eb5e1b
+  md5: dfae496b5833b3c413cb0c430615e465
+  source: 'https://archive.org/download/shockpkg_packages_9/96/77/96a72fada29e6651ed8ecd5783e60eaa1aca237f281c46f8f888df2d76b6/flashplayer18_0r0_268_mac_sa_debug.zip'

@@ -101,3 +101,19 @@
       sha1: 36e53e8d659ae6ec3286ca29ecc93ae1a2e7a07b
       md5: ca5caefb14870c952826a7b6f3659c40
       source: fp_11.7.700.275_archive/11_7_r700_275/uninstall_flashplayer11_7r700_275_mac.dmg
+
+- name: flash-player-11.7.700.275-mac-sa-zip
+  file: flashplayer_11_7r700_275_mac_sa.zip
+  size: 15876214
+  sha256: 8de07700e8afdba0092b1d5cfa94fcaea2f5baa01aa75067e8c1fc11234cd747
+  sha1: 18bc678b51ea64317b910098924702cd5603197e
+  md5: f3c9449050cf40fb3f14b57910889aba
+  source: 'https://archive.org/download/shockpkg_packages_8/8d/e0/7700e8afdba0092b1d5cfa94fcaea2f5baa01aa75067e8c1fc11234cd747/flashplayer_11_7r700_275_mac_sa.zip'
+
+- name: flash-player-11.7.700.275-mac-sa-debug-zip
+  file: flashplayer11_7r700_275_mac_sa_debug.zip
+  size: 16566184
+  sha256: 1b463b2a155605ff7e398bb4c49ca163c52560634ab80e2ad20dd0398032755a
+  sha1: 6f47a8a06edaf3cecd89b12b4201efe5678a9382
+  md5: 31e68b6de16419ac14a6c42f179f3ea5
+  source: 'https://archive.org/download/shockpkg_packages_1/1b/46/3b2a155605ff7e398bb4c49ca163c52560634ab80e2ad20dd0398032755a/flashplayer11_7r700_275_mac_sa_debug.zip'

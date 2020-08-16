@@ -245,3 +245,19 @@
       sha1: 2e3f0e852a1b9b558ba7c4920b28ea488ab628ce
       md5: 3281c7c12678feac31d0f8471ed65f9d
       source: 32_0_r0_363_debug/flashplayer32_0r0_363_linux_sa_debug.x86_64.tar.gz
+
+- name: flash-player-32.0.0.363-mac-sa-zip
+  file: flashplayer32_0r0_363_mac_sa.zip
+  size: 9919157
+  sha256: 916bf6e59ee4deaa587d73a0457f4ec188fa938288bd3c328463f92c3ab20ac8
+  sha1: 0a80016bedb8767840407f1a0d0b9485df6be882
+  md5: ed84f7e003446da857aafcb00d3f676e
+  source: 'https://archive.org/download/shockpkg_packages_9/91/6b/f6e59ee4deaa587d73a0457f4ec188fa938288bd3c328463f92c3ab20ac8/flashplayer32_0r0_363_mac_sa.zip'
+
+- name: flash-player-32.0.0.363-mac-sa-debug-zip
+  file: flashplayer32_0r0_363_mac_sa_debug.zip
+  size: 10208906
+  sha256: 2ac340bd900d23c91f0c00fd0b703d4acc622626f77fd4fb3bd2897ab7e39837
+  sha1: 099c4bc7866285930bb2956c3a8d683477bfbfec
+  md5: 5081ddaef37458b30e04783563f5496c
+  source: 'https://archive.org/download/shockpkg_packages_2/2a/c3/40bd900d23c91f0c00fd0b703d4acc622626f77fd4fb3bd2897ab7e39837/flashplayer32_0r0_363_mac_sa_debug.zip'

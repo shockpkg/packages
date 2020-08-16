@@ -173,3 +173,19 @@
       sha1: 5bb25bf753e5e5d779ac79b499dda9d6e23813ea
       md5: 254e49f10f53037aed9d0745a16cec11
       source: 21_0_r0_242/uninstall_flashplayer21_0r0_242_mac.dmg
+
+- name: flash-player-21.0.0.242-mac-sa-zip
+  file: flashplayer21_0r0_242_mac_sa.zip
+  size: 15415893
+  sha256: 91bc922da03365595055fe4fc30262bf328aba3f13c74342806a162e170dbb6c
+  sha1: 23e7a9d677dffd337b86bc15b38aa526c0779a97
+  md5: 9b287a66a7ab2508c184016e95c3489f
+  source: 'https://archive.org/download/shockpkg_packages_9/91/bc/922da03365595055fe4fc30262bf328aba3f13c74342806a162e170dbb6c/flashplayer21_0r0_242_mac_sa.zip'
+
+- name: flash-player-21.0.0.242-mac-sa-debug-zip
+  file: flashplayer21_0r0_242_mac_sa_debug.zip
+  size: 15958272
+  sha256: 201d9eb8b6aaf5b24b6cedad52a5367499b5882293725759950227b1df6a4f19
+  sha1: a6d8c24e252a6d3719ae63fd9744bf6866a49a74
+  md5: 65139bbac202cd8d127cb0199c040587
+  source: 'https://archive.org/download/shockpkg_packages_2/20/1d/9eb8b6aaf5b24b6cedad52a5367499b5882293725759950227b1df6a4f19/flashplayer21_0r0_242_mac_sa_debug.zip'

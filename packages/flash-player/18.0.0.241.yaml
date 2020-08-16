@@ -109,3 +109,11 @@
       sha1: a42cb3688d67ecf66a73793b06854257c09e0881
       md5: bcafc84fa390990ab93f5a03fb8e6972
       source: fp_18.0.0.241_archive/18_0_r0_241/uninstall_flashplayer18_0r0_241_mac.dmg
+
+- name: flash-player-18.0.0.241-mac-sa-debug-zip
+  file: flashplayer18_0r0_241_mac_sa_debug.zip
+  size: 14563139
+  sha256: a67b9afef0988ed95958f14a69d96118c1cd5ed8792b7726450dedcee33346c8
+  sha1: d00809a6ef283c3c70eb464f2fd12050f697acc6
+  md5: aceeb5d91400ece5323491c9262ca74b
+  source: 'https://archive.org/download/shockpkg_packages_a/a6/7b/9afef0988ed95958f14a69d96118c1cd5ed8792b7726450dedcee33346c8/flashplayer18_0r0_241_mac_sa_debug.zip'

@@ -141,3 +141,11 @@
       sha1: fe15f574a849d9679259ab0d45c4b7d3e7d3ef51
       md5: d637dee81019023e716af83383bf5135
       source: fp_17.0.0.190_archive/17_0_r0_190/uninstall_flashplayer17_0r0_190_mac.dmg
+
+- name: flash-player-17.0.0.190-mac-sa-debug-zip
+  file: flashplayer17_0r0_190_mac_sa_debug.zip
+  size: 14441517
+  sha256: c7908f9090d8283e61e59a0651633bfe04459fac964652ceeace3cbe8327961d
+  sha1: 4e1e6d0560375fcdf2dde4ba558178bd7701689e
+  md5: 707b1fa282b2d26cb61c9670b15f008e
+  source: 'https://archive.org/download/shockpkg_packages_c/c7/90/8f9090d8283e61e59a0651633bfe04459fac964652ceeace3cbe8327961d/flashplayer17_0r0_190_mac_sa_debug.zip'

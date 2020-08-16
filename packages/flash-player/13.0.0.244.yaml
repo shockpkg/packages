@@ -109,3 +109,11 @@
       sha1: bcfc8341195d1acd19e36aad9a591beb425803b5
       md5: 4298a3c44be86f04e2adb7fea0ba6395
       source: fp_13.0.0.244_archive/13_0_r0_244/uninstall_flashplayer13_0r0_244_mac.dmg
+
+- name: flash-player-13.0.0.244-mac-sa-debug-zip
+  file: flashplayer13_0r0_244_mac_sa_debug.zip
+  size: 13125048
+  sha256: d33c0487da016c1e1a0105b3e29daa2ea4b6194d8be8dba3a0b9d02e7507ef87
+  sha1: 2074f776c0ba57de5c1efa6078d3ce058bbe0c4c
+  md5: 1cd9d2edc0981548b9f412562e8f53d5
+  source: 'https://archive.org/download/shockpkg_packages_d/d3/3c/0487da016c1e1a0105b3e29daa2ea4b6194d8be8dba3a0b9d02e7507ef87/flashplayer13_0r0_244_mac_sa_debug.zip'

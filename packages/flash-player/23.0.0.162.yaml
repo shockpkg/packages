@@ -173,3 +173,19 @@
       sha1: 7fbc22770d0f0969adedda64c64309821b9856a8
       md5: c30486f98f87a9f27152b49b5a2376ad
       source: 23_0_r0_162/uninstall_flashplayer23_0r0_162_mac.dmg
+
+- name: flash-player-23.0.0.162-mac-sa-zip
+  file: flashplayer23_0r0_162_mac_sa.zip
+  size: 17235539
+  sha256: d0362abe83959d63d4d3b090ee6eb9b7a5cf8b0958f8c1d01e81c6f7fd2d50f6
+  sha1: f1f6e0ebee846ef09564ebbc8319d7519c3722e1
+  md5: 402b3ade30273de356a841265951f5f6
+  source: 'https://archive.org/download/shockpkg_packages_d/d0/36/2abe83959d63d4d3b090ee6eb9b7a5cf8b0958f8c1d01e81c6f7fd2d50f6/flashplayer23_0r0_162_mac_sa.zip'
+
+- name: flash-player-23.0.0.162-mac-sa-debug-zip
+  file: flashplayer23_0r0_162_mac_sa_debug.zip
+  size: 17784574
+  sha256: e854f469512facefb0abd2723efaa6e9cada17e4fa719610a36a23fdb5eb596f
+  sha1: a4cb425c4defdbb7c4907fc039c675d445c6423c
+  md5: f7c3755865c82c54e8278daffbf76e5a
+  source: 'https://archive.org/download/shockpkg_packages_e/e8/54/f469512facefb0abd2723efaa6e9cada17e4fa719610a36a23fdb5eb596f/flashplayer23_0r0_162_mac_sa_debug.zip'

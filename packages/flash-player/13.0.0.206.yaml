@@ -117,3 +117,19 @@
   sha1: 7881daca87fe35d77943aa1daa995958eac56b4c
   md5: e89729249121ac8b65450fcb3745fdfe
   source: 'https://gitlab.com/fparchive/player-13.0.0.206/raw/master/flashplayer_13_sa.dmg'
+
+- name: flash-player-13.0.0.206-mac-sa-zip
+  file: flashplayer_13_sa.zip
+  size: 12561937
+  sha256: 21d41a4474f1937d65e0180c22020cda60a6ae5d515e5a14a7eeb117aa33ecd6
+  sha1: 199e3e1199723db8a4ca19a76d36e646547730c7
+  md5: 9cf5afc824cd3065ec2b42327b12ade7
+  source: 'https://archive.org/download/shockpkg_packages_2/21/d4/1a4474f1937d65e0180c22020cda60a6ae5d515e5a14a7eeb117aa33ecd6/flashplayer_13_sa.zip'
+
+- name: flash-player-13.0.0.206-mac-sa-debug-zip
+  file: flashplayer13_0r0_206_mac_sa_debug.zip
+  size: 13101344
+  sha256: 7460a3d78e8854b658212a28fd6d6a527f9030e03eba4ad587b500c17b31d89b
+  sha1: 57598a8e3775a6f9474bb4c0d8856a170d7d2fff
+  md5: 22845905bb831ad78eb25853e6a7940b
+  source: 'https://archive.org/download/shockpkg_packages_7/74/60/a3d78e8854b658212a28fd6d6a527f9030e03eba4ad587b500c17b31d89b/flashplayer13_0r0_206_mac_sa_debug.zip'
