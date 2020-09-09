@@ -4,7 +4,7 @@
   sha256: 4f9f070fe2d9b14154106d6a8ebcfb566bab9bdd42179cf55cfd435fda0de5d7
   sha1: d4c982e89babcb3696e66582bb20a0fda4c4a58f
   md5: 2f5dc96018c54669eab4ad273b9736a7
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/install_flash_player.exe'
+  source: 'https://archive.org/download/shockpkg_packages_4/4f/9f/070fe2d9b14154106d6a8ebcfb566bab9bdd42179cf55cfd435fda0de5d7/install_flash_player.exe'
 
 - name: flash-player-32.0.0.414-windows-npapi-msi
   file: install_flash_player_32_plugin.msi
@@ -12,7 +12,7 @@
   sha256: 7fea7dd726490bf710d7d9c7b888112e3de85958a0ef43e3ef1bc8196b5f3668
   sha1: 2901a871fda6e3c78c50d8c2564be207ed28a495
   md5: b91b84579a2f43302fd3c17d2ca545b6
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/install_flash_player_32_plugin.msi'
+  source: 'https://archive.org/download/shockpkg_packages_7/7f/ea/7dd726490bf710d7d9c7b888112e3de85958a0ef43e3ef1bc8196b5f3668/install_flash_player_32_plugin.msi'
 
 - name: flash-player-32.0.0.414-windows-npapi-debug
   file: flashplayer_32_plugin_debug.exe
@@ -20,7 +20,7 @@
   sha256: 9fbf6ce3804dd7d0ce1d74439910f8dee2ddee72ec40026f40f02ec23df33f94
   sha1: 74fc8ec39b6db1be80133db28198d563716a8563
   md5: e0df637d1d905ed4983a43845406ca12
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_plugin_debug.exe'
+  source: 'https://archive.org/download/shockpkg_packages_9/9f/bf/6ce3804dd7d0ce1d74439910f8dee2ddee72ec40026f40f02ec23df33f94/flashplayer_32_plugin_debug.exe'
 
 - name: flash-player-32.0.0.414-windows-ppapi
   file: install_flash_player_ppapi.exe
@@ -28,7 +28,7 @@
   sha256: c21303f1e3d80e859956380d400652459b96070c90acea20b05e00645b3d1afe
   sha1: 70ee49a2b65d290e43ba5e53ae4f040d6b79a5a6
   md5: 4da09009fa69ea1ee2d3cde0b051c72d
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/install_flash_player_ppapi.exe'
+  source: 'https://archive.org/download/shockpkg_packages_c/c2/13/03f1e3d80e859956380d400652459b96070c90acea20b05e00645b3d1afe/install_flash_player_ppapi.exe'
 
 - name: flash-player-32.0.0.414-windows-ppapi-msi
   file: install_flash_player_32_ppapi.msi
@@ -36,7 +36,7 @@
   sha256: e5fe8105680dbbbade8b4d9498c998bb6a293d3051959fe0f646fd16c3c63b73
   sha1: 301bf145b2c463465bb407b6942ba61d226c44ee
   md5: abffe7ea1dfc7f39a232bc6b3256101c
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/install_flash_player_32_ppapi.msi'
+  source: 'https://archive.org/download/shockpkg_packages_e/e5/fe/8105680dbbbade8b4d9498c998bb6a293d3051959fe0f646fd16c3c63b73/install_flash_player_32_ppapi.msi'
 
 - name: flash-player-32.0.0.414-windows-ppapi-debug
   file: flashplayer_32_ppapi_debug.exe
@@ -44,7 +44,7 @@
   sha256: d9f39d050afdc087f289af67de65865cba0b435b2aa19473f038c968d8145b14
   sha1: 7c6110e7db8abde2b6efb6f9c3c110ea2712c472
   md5: 7b8ff3917f5453e191347c126f1ca6e6
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_ppapi_debug.exe'
+  source: 'https://archive.org/download/shockpkg_packages_d/d9/f3/9d050afdc087f289af67de65865cba0b435b2aa19473f038c968d8145b14/flashplayer_32_ppapi_debug.exe'
 
 - name: flash-player-32.0.0.414-windows-activex
   file: install_flash_player_ax.exe
@@ -52,7 +52,7 @@
   sha256: a63b6d0476eda4dcdc4b6398aa6059b95155d8e7a1bc50e99cc68f3a4e83e710
   sha1: 9ed02fd511c5a00068fabacb939ca929ac4abf8f
   md5: 890b9cd0e7a9bd1b6aabdcd47c7cd61b
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/install_flash_player_ax.exe'
+  source: 'https://archive.org/download/shockpkg_packages_a/a6/3b/6d0476eda4dcdc4b6398aa6059b95155d8e7a1bc50e99cc68f3a4e83e710/install_flash_player_ax.exe'
 
 - name: flash-player-32.0.0.414-windows-activex-msi
   file: install_flash_player_32_active_x.msi
@@ -60,7 +60,7 @@
   sha256: dff1ad8beaf7b36f82936cea7f3d5dab370b5cc0f7e1dee73fa0a05eab54d68e
   sha1: 9681a910fb90f8543363748fa6e4179ec24a03f1
   md5: 87919f747ffafd92a5db9ad054da0f9f
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/install_flash_player_32_active_x.msi'
+  source: 'https://archive.org/download/shockpkg_packages_d/df/f1/ad8beaf7b36f82936cea7f3d5dab370b5cc0f7e1dee73fa0a05eab54d68e/install_flash_player_32_active_x.msi'
 
 - name: flash-player-32.0.0.414-windows-activex-debug
   file: flashplayer_32_ax_debug.exe
@@ -68,7 +68,7 @@
   sha256: f30727d946fae1f8385abdedbd06ba00d58b22c60900430d7340c1d251974184
   sha1: 701ba51b7c7b2ff3e4a6f7bc7d866bb6e50dbcf0
   md5: 39bd833277825e914421c62aab96c513
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_ax_debug.exe'
+  source: 'https://archive.org/download/shockpkg_packages_f/f3/07/27d946fae1f8385abdedbd06ba00d58b22c60900430d7340c1d251974184/flashplayer_32_ax_debug.exe'
 
 - name: flash-player-32.0.0.414-windows-sa
   file: flashplayer_32_sa.exe
@@ -76,7 +76,7 @@
   sha256: eeed1cf46afc9d07e18343300edf6787af88a4859664e32349b6a6d1c5bc1b74
   sha1: 746a1ccbc12b861dfb2606e15bb9624178cf2b4d
   md5: b1add101ae28b60ffb76f9dd34af6af9
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_e/ee/ed/1cf46afc9d07e18343300edf6787af88a4859664e32349b6a6d1c5bc1b74/flashplayer_32_sa.exe'
 
 - name: flash-player-32.0.0.414-windows-sa-debug
   file: flashplayer_32_sa_debug.exe
@@ -84,7 +84,7 @@
   sha256: fa066decd42e6ffba8f7b00dfec680558c67ff23564f4f0d7632f3073df69edf
   sha1: ac56f6b7a717add0872480e11c87cfd2611a997e
   md5: 4c3fe625e99c471de1e1f489e6cb901e
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa_debug.exe'
+  source: 'https://archive.org/download/shockpkg_packages_f/fa/06/6decd42e6ffba8f7b00dfec680558c67ff23564f4f0d7632f3073df69edf/flashplayer_32_sa_debug.exe'
 
 - name: flash-player-32.0.0.414-windows-uninstaller
   file: uninstall_flash_player.exe
@@ -92,7 +92,7 @@
   sha256: 58206204a7ea78bb604407e88554b1306cb008d15337c8961f17e5d8009a020e
   sha1: 8cf2b74e69aaa828ef89eaf0814f4ce96c9ada32
   md5: 9e316853a2cf58088b29e09ed063a5c4
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player.exe'
+  source: 'https://archive.org/download/shockpkg_packages_5/58/20/6204a7ea78bb604407e88554b1306cb008d15337c8961f17e5d8009a020e/uninstall_flash_player.exe'
 
 - name: flash-player-32.0.0.414-mac-npapi
   file: install_flash_player_osx.dmg
@@ -100,7 +100,7 @@
   sha256: 76f760cc1e84625445e6b88a80d30323d89457b97b80d4a6f4c75fe40d0c5e77
   sha1: b6fca50ae2791a5f76390dd172ea744f5bb8215d
   md5: acceb3657ff44694a2fdb08bf77597e2
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/install_flash_player_osx.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_7/76/f7/60cc1e84625445e6b88a80d30323d89457b97b80d4a6f4c75fe40d0c5e77/install_flash_player_osx.dmg'
 
 - name: flash-player-32.0.0.414-mac-npapi-debug
   file: flashplayer_32_plugin_debug.dmg
@@ -108,7 +108,7 @@
   sha256: eb1bacc7d6c07fc8f3a2c904270ac00015612d8070ebd1d96fb805dd7066961c
   sha1: 7021bbc478fd8a71fbc91cd5c08909520e1f7653
   md5: dbbc282ec6df21e45227245d6f56672a
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_plugin_debug.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_e/eb/1b/acc7d6c07fc8f3a2c904270ac00015612d8070ebd1d96fb805dd7066961c/flashplayer_32_plugin_debug.dmg'
 
 - name: flash-player-32.0.0.414-mac-ppapi
   file: install_flash_player_osx_ppapi.dmg
@@ -116,7 +116,7 @@
   sha256: c4dbd6c0ca5fd857bd73c87353cac7f4c4aae37a6949ad610e9c568ba32a3ab7
   sha1: 95ab99c5a16c33b3d731f3e23fad8fb35a5aca66
   md5: ee7a49f3b316f43481e7b835c4135a88
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/install_flash_player_osx_ppapi.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_c/c4/db/d6c0ca5fd857bd73c87353cac7f4c4aae37a6949ad610e9c568ba32a3ab7/install_flash_player_osx_ppapi.dmg'
 
 - name: flash-player-32.0.0.414-mac-ppapi-debug
   file: flashplayer_32_ppapi_debug.dmg
@@ -124,7 +124,7 @@
   sha256: 818b60fe6e85d2b8d5bbfbc83665e1ba601a4d3c8b88df57cf1ec86b77704d3b
   sha1: ae7413c4b57df2037a6c070e111d71ac594e6ea3
   md5: 3f89b25b48017579102d1c7f431c1cb5
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_ppapi_debug.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_8/81/8b/60fe6e85d2b8d5bbfbc83665e1ba601a4d3c8b88df57cf1ec86b77704d3b/flashplayer_32_ppapi_debug.dmg'
 
 - name: flash-player-32.0.0.414-mac-sa
   file: flashplayer_32_sa.dmg
@@ -132,7 +132,7 @@
   sha256: 8d7a8f8902f4262445ee55e58512487b196a061addfaafc3f9b08d77fb6e667c
   sha1: ef2235254fe0f32f5125b46b820dda4cb94c19f2
   md5: a318cb2ab5240ab60396e4244c98d9ee
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_8/8d/7a/8f8902f4262445ee55e58512487b196a061addfaafc3f9b08d77fb6e667c/flashplayer_32_sa.dmg'
 
 - name: flash-player-32.0.0.414-mac-sa-zip
   file: flashplayer_32_sa.zip
@@ -148,7 +148,7 @@
   sha256: 7d66c08635bebdb0b1884e7a0166678055aba839c626348401451b924deb7657
   sha1: 005d9ded5b11637e6ec861dcbb21b98139a5b7f8
   md5: 2362c2e2f926055c35021d188156d225
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa_debug.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_7/7d/66/c08635bebdb0b1884e7a0166678055aba839c626348401451b924deb7657/flashplayer_32_sa_debug.dmg'
 
 - name: flash-player-32.0.0.414-mac-sa-debug-zip
   file: flashplayer_32_sa_debug.zip
@@ -164,7 +164,7 @@
   sha256: dfe9ea55b330d6b53eab0ba7701c3d7237b5713c0cb8e18e811a677cc2837c16
   sha1: ff44de198fd466f62a59a48e6056f1bedb0cb061
   md5: 68e0a1d59267219bfbd27d3f7b3f4454
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player_osx.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_d/df/e9/ea55b330d6b53eab0ba7701c3d7237b5713c0cb8e18e811a677cc2837c16/uninstall_flash_player_osx.dmg'
 
 - name: flash-player-32.0.0.414-linux-i386-npapi
   file: flash_player_npapi_linux.i386.tar.gz
@@ -172,7 +172,7 @@
   sha256: 16feea0ef5dbe93cc9d531f83ef73ea1c40b4677ca8951abe3487c6c3fb4cd3a
   sha1: 920c8a91fd0dc569cc14a98ec771246cbb7a2991
   md5: 163dc73e09dbc8ee6cb76530d3401a12
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/flash_player_npapi_linux.i386.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_1/16/fe/ea0ef5dbe93cc9d531f83ef73ea1c40b4677ca8951abe3487c6c3fb4cd3a/flash_player_npapi_linux.i386.tar.gz'
 
 - name: flash-player-32.0.0.414-linux-i386-npapi-debug
   file: flash_player_npapi_linux_debug.i386.tar.gz
@@ -180,7 +180,7 @@
   sha256: b6b263e943c6c9d9273306bcce279478b7de73344c5f1cb82ffa7e5188570ed5
   sha1: 5bec552a9090c627907c9421ffe83f5f18448488
   md5: c144223a787118fa6bd03ded52f31d86
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_npapi_linux_debug.i386.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_b/b6/b2/63e943c6c9d9273306bcce279478b7de73344c5f1cb82ffa7e5188570ed5/flash_player_npapi_linux_debug.i386.tar.gz'
 
 - name: flash-player-32.0.0.414-linux-i386-ppapi
   file: flash_player_ppapi_linux.i386.tar.gz
@@ -188,7 +188,7 @@
   sha256: a3137daf8cd942ca3c998fe473b3b25b6b708e3f70c24997938a8e100c72d8f6
   sha1: e5788a3b5b439a1055bee41c00f0a33a690d317a
   md5: 8332a02a1b5d4607889825f316237e55
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/flash_player_ppapi_linux.i386.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_a/a3/13/7daf8cd942ca3c998fe473b3b25b6b708e3f70c24997938a8e100c72d8f6/flash_player_ppapi_linux.i386.tar.gz'
 
 - name: flash-player-32.0.0.414-linux-x86_64-npapi
   file: flash_player_npapi_linux.x86_64.tar.gz
@@ -196,7 +196,7 @@
   sha256: 0369f481c97769e0c1b594a539240a2af6590fd4eed900762558d7f3a227e059
   sha1: 5e75cbfb7ff5a3594018b61a98d8666fbd830131
   md5: f706b1755bfb329638c46b6790ce0a0f
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/flash_player_npapi_linux.x86_64.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_0/03/69/f481c97769e0c1b594a539240a2af6590fd4eed900762558d7f3a227e059/flash_player_npapi_linux.x86_64.tar.gz'
 
 - name: flash-player-32.0.0.414-linux-x86_64-npapi-debug
   file: flash_player_npapi_linux_debug.x86_64.tar.gz
@@ -204,7 +204,7 @@
   sha256: 3194ef6373328ddd250bed54c032a418e35e8b624086bf95b9d6a7d97ff298a0
   sha1: c74aa953c1f3a0becd190771d70e4bc520e40314
   md5: 43ee4b7a10f066ba31f79602da0949f3
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_npapi_linux_debug.x86_64.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_3/31/94/ef6373328ddd250bed54c032a418e35e8b624086bf95b9d6a7d97ff298a0/flash_player_npapi_linux_debug.x86_64.tar.gz'
 
 - name: flash-player-32.0.0.414-linux-x86_64-ppapi
   file: flash_player_ppapi_linux.x86_64.tar.gz
@@ -212,7 +212,7 @@
   sha256: bd2291db7f64017dd89ac404996f9ad21723822d96b9f4efa0ddab63a1e041f3
   sha1: f1475e80a434fbeb754215936a32c2b5cdbbe395
   md5: d9f6a01457aaa908fe1051136b695982
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.414/flash_player_ppapi_linux.x86_64.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_b/bd/22/91db7f64017dd89ac404996f9ad21723822d96b9f4efa0ddab63a1e041f3/flash_player_ppapi_linux.x86_64.tar.gz'
 
 - name: flash-player-32.0.0.414-linux-x86_64-ppapi-debug
   file: flash_player_ppapi_linux_debug.x86_64.tar.gz
@@ -220,7 +220,7 @@
   sha256: 419e11598fa6f579e07106dc7cb9f385a0b07e406d8e4638a4f5ab35fe20e814
   sha1: d48bf50d7b0d18aa2d35d9fae2680255d538aa03
   md5: d1244f4f43c13a75e3043e211163dc4b
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_ppapi_linux_debug.x86_64.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_4/41/9e/11598fa6f579e07106dc7cb9f385a0b07e406d8e4638a4f5ab35fe20e814/flash_player_ppapi_linux_debug.x86_64.tar.gz'
 
 - name: flash-player-32.0.0.414-linux-x86_64-sa
   file: flash_player_sa_linux.x86_64.tar.gz
@@ -228,7 +228,7 @@
   sha256: 24afc405025823f1df28314625347101829b4ba73e86c091585baacda11bab5f
   sha1: ef0125bc657688b1c618214079e9b4993d596fc4
   md5: 2f8ed09215e83ef4f6a18eef9663a892
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_sa_linux.x86_64.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_2/24/af/c405025823f1df28314625347101829b4ba73e86c091585baacda11bab5f/flash_player_sa_linux.x86_64.tar.gz'
 
 - name: flash-player-32.0.0.414-linux-x86_64-sa-debug
   file: flash_player_sa_linux_debug.x86_64.tar.gz
@@ -236,4 +236,4 @@
   sha256: 1f6f539da8c29442e058cadb7d3136ad9a3d28b83f702842f236cc6741ecdbe9
   sha1: b7399b13ed0d4d5007ca66471c631763f14e2deb
   md5: 4529d8a63331b21ae25f59c678d5715c
-  source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_sa_linux_debug.x86_64.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_1/1f/6f/539da8c29442e058cadb7d3136ad9a3d28b83f702842f236cc6741ecdbe9/flash_player_sa_linux_debug.x86_64.tar.gz'
