@@ -4,7 +4,7 @@
   sha256: baba2861a564909d656034dcafed8c0030609ce6c1b62760903eef345531b425
   sha1: b32f3624e572ea9d7c6736eba66cf87f363df4c5
   md5: 39d59c4ea34cb364faf81ebd3d2ae714
-  source: 'https://gitlab.com/fparchive/air-16.0.0.245/raw/master/win/AdobeAIRInstaller.exe'
+  source: 'https://archive.org/download/shockpkg_packages_b/ba/ba/2861a564909d656034dcafed8c0030609ce6c1b62760903eef345531b425/AdobeAIRInstaller.exe'
 
 - name: air-runtime-16.0.0.245-mac
   file: AdobeAIR.tbz2
@@ -12,7 +12,7 @@
   sha256: fbf04bd540aaa184b7d88d10e6a36d077cefbed996299ae0277532840645af1b
   sha1: 3de3baf5d34b56fe5f0cd59e849f8babfdf2d5cb
   md5: 09618d7a724124b5e21edf892b23776c
-  source: 'https://gitlab.com/fparchive/air-16.0.0.245/raw/master/mac/AdobeAIR.tbz2'
+  source: 'https://archive.org/download/shockpkg_packages_f/fb/f0/4bd540aaa184b7d88d10e6a36d077cefbed996299ae0277532840645af1b/AdobeAIR.tbz2'
 
 - name: air-runtime-16.0.0.245-mac-dmg
   file: AdobeAIR.dmg
@@ -20,4 +20,4 @@
   sha256: 0e6d2794dbcb01fdfec58b291ee6adc111aa7ee768a655e9491f1ac4ad3ac173
   sha1: 61ddd79f2a39d8c9ef1968112f842b69718758cc
   md5: 3e9ff3dfa02b1ba66905299ebc6e06d3
-  source: 'https://gitlab.com/fparchive/air-16.0.0.245/raw/master/mac/AdobeAIR.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_0/0e/6d/2794dbcb01fdfec58b291ee6adc111aa7ee768a655e9491f1ac4ad3ac173/AdobeAIR.dmg'

@@ -4,7 +4,7 @@
   sha256: c8e5fbcd104f002ad557036d68ba094ddb54d0c8f2313395b6390c0b09f7cd01
   sha1: d69e9153ef61c1c8fece3f64d4d9c9237210e810
   md5: b331f7d0985876e303d622d43c160319
-  source: 'https://gitlab.com/fparchive/air-22.0.0.153/raw/master/android/AdobeAIRAndroid.apk'
+  source: 'https://archive.org/download/shockpkg_packages_c/c8/e5/fbcd104f002ad557036d68ba094ddb54d0c8f2313395b6390c0b09f7cd01/AdobeAIRAndroid.apk'
 
 - name: air-runtime-22.0.0.153-windows-archive
   file: AdobeAIRInstaller.zip
@@ -12,7 +12,7 @@
   sha256: e7a18c38856a24c1c444a24c535c2bc94f0ccec7fd56d6ffdb625b6431769334
   sha1: 0fe51e5ab98d70e23ba28b202c16aea50f71a451
   md5: 86afc5c86cca44dfb0b33e0d72b1284e
-  source: 'https://gitlab.com/fparchive/air-22.0.0.153/raw/master/win/AdobeAIRInstaller.zip'
+  source: 'https://archive.org/download/shockpkg_packages_e/e7/a1/8c38856a24c1c444a24c535c2bc94f0ccec7fd56d6ffdb625b6431769334/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-22.0.0.153-windows
       file: AdobeAIRInstaller.exe
@@ -28,7 +28,7 @@
   sha256: ff765c0148771902321bc86c5cf09be38d8b841d14e9f8391919a9c9238b79b0
   sha1: 2d89a3316d7d6303c7ca90602e7704e7c5d153d9
   md5: 973bec43c78a5563f12cb40f19470340
-  source: 'https://gitlab.com/fparchive/air-22.0.0.153/raw/master/mac/AdobeAIR.tbz2'
+  source: 'https://archive.org/download/shockpkg_packages_f/ff/76/5c0148771902321bc86c5cf09be38d8b841d14e9f8391919a9c9238b79b0/AdobeAIR.tbz2'
 
 - name: air-runtime-22.0.0.153-mac-dmg
   file: AdobeAIR.dmg
@@ -36,4 +36,4 @@
   sha256: da7654dbba874042d414f46d6cd1500bacc1d315e284577b7f6c531ca850d1f3
   sha1: 3eb8a213dbde549eb1794b689bbd8e0173222bd8
   md5: 5e5ab38dfd65dbfad883b99c79edf399
-  source: 'https://gitlab.com/fparchive/air-22.0.0.153/raw/master/mac/AdobeAIR.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_d/da/76/54dbba874042d414f46d6cd1500bacc1d315e284577b7f6c531ca850d1f3/AdobeAIR.dmg'

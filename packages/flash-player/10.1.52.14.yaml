@@ -4,7 +4,7 @@
   sha256: 448471b20b9c9dbf12c7eb998ec79b0db94f3eaa541a641fb4818f26f80eaa0d
   sha1: 4992bfbec57e01c920bf805e2d31eeaf79341c46
   md5: edd4f85dc4e85b1412d923663859538c
-  source: 'https://gitlab.com/fparchive/player-10.1.52.14/raw/master/flashplayer_10_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_4/44/84/71b20b9c9dbf12c7eb998ec79b0db94f3eaa541a641fb4818f26f80eaa0d/flashplayer_10_sa.exe'
 
 - name: flash-player-10.1.52.14-windows-sa-debug
   file: flashplayer_10_sa_debug.exe
@@ -12,4 +12,4 @@
   sha256: 96e2abacce6eac30a814605ce17db64d453ee04a43b920ec95476593c5daa3ee
   sha1: 431c1c92abf34df9e2197085d9ecc807806d0cb6
   md5: 04ccd24ef3cb05a0490e5e2961325583
-  source: 'https://gitlab.com/fparchive/player-10.1.52.14/raw/master/flashplayer_10_sa_debug.exe'
+  source: 'https://archive.org/download/shockpkg_packages_9/96/e2/abacce6eac30a814605ce17db64d453ee04a43b920ec95476593c5daa3ee/flashplayer_10_sa_debug.exe'

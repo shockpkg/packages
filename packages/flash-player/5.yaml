@@ -68,7 +68,7 @@
   sha256: d0a29035d10f1a5e6f11ace00fc162e47a9a48770f040c74554f55fa3b770932
   sha1: c0feb35d53cdf4d000df98872a0d9eaa7f1c7da6
   md5: 39e3cf4bcc6fd200e0af53b1d9d6ea5d
-  source: 'https://gitlab.com/fparchive/player-5/raw/master/flash_pro_5_players.zip'
+  source: 'https://archive.org/download/shockpkg_packages_d/d0/a2/9035d10f1a5e6f11ace00fc162e47a9a48770f040c74554f55fa3b770932/flash_pro_5_players.zip'
   packages:
     - name: flash-player-5.0.30.0-windows-npapi-debug
       file: flash32.EXE
@@ -140,7 +140,7 @@
   sha256: bd4d850ab6b59ddd28d6898560a793d48ee87e22c24474c0590aae515cf0de0e
   sha1: 2742e187768beac71cddc5a5898601d73660a247
   md5: 736925756ad8e0779deaecdf140c06d7
-  source: 'https://gitlab.com/fparchive/player-5/raw/master/flash_pro_5_player_updated.zip'
+  source: 'https://archive.org/download/shockpkg_packages_b/bd/4d/850ab6b59ddd28d6898560a793d48ee87e22c24474c0590aae515cf0de0e/flash_pro_5_player_updated.zip'
   packages:
     - name: flash-player-5.0.30.2-windows-sa
       file: FlashPla.exe
@@ -156,7 +156,7 @@
   sha256: 73bcd8d72929b5149da4bebf982383dcdc358d6f8ba40d4266c31a864a331643
   sha1: db69bd8d5b7f4f2046af94ff218e5ce63ca826d7
   md5: 65e9352d71aaf91d854404fc0eaa7d81
-  source: 'https://gitlab.com/fparchive/player-5/raw/master/os2-r4/flashos2.exe'
+  source: 'https://archive.org/download/shockpkg_packages_7/73/bc/d8d72929b5149da4bebf982383dcdc358d6f8ba40d4266c31a864a331643/flashos2.exe'
 
 - name: flash-player-5.0.5.0-os2
   file: flashos2.exe
@@ -164,7 +164,7 @@
   sha256: 5020393d18806321722d3d401d39a37fe2a7c3065ef58b0761e76c8730a1846d
   sha1: ba5fd275f4f18b8ab95e4d3724c42cbc76c2864d
   md5: 5ec9fffbcee9f21beeee5c099caf96ce
-  source: 'https://gitlab.com/fparchive/player-5/raw/master/os2-r5/flashos2.exe'
+  source: 'https://archive.org/download/shockpkg_packages_5/50/20/393d18806321722d3d401d39a37fe2a7c3065ef58b0761e76c8730a1846d/flashos2.exe'
 
 - name: flash-player-5.0.47.0-linux
   file: flash_linux.tar.gz
@@ -172,7 +172,7 @@
   sha256: 999720039f2f0dc16afb2e4eccdfb71f27f4b5c0ae633aebc597b5a5743a7e8f
   sha1: e40030f0a62104ffed7997723a3e412e2d403476
   md5: 5e27c9c86790fce3f667819fc1c40c46
-  source: 'https://gitlab.com/fparchive/player-5/raw/master/linux-5.0r47/flash_linux.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_9/99/97/20039f2f0dc16afb2e4eccdfb71f27f4b5c0ae633aebc597b5a5743a7e8f/flash_linux.tar.gz'
 
 - name: flash-player-5.0.48.0-linux
   file: flash_linux.tar.gz

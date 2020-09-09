@@ -4,7 +4,7 @@
   sha256: acc9a978847c804a9f48494bb7b553f459c4aa1c1686a5f0fc3684be4d9afff6
   sha1: de50eb64b1259d6429262483c41a91d3e31e43e1
   md5: 47619c85130d7c19944dbda27e58e31f
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/mac/8.5.0-trial/mac/projector.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_a/ac/c9/a978847c804a9f48494bb7b553f459c4aa1c1686a5f0fc3684be4d9afff6/projector.dmg'
 
 - name: shockwave-projector-director-8.5.0-trial-mac-mac-zip
   file: projector.zip
@@ -12,4 +12,4 @@
   sha256: 9de5fca0cd3049f3142786d20b5b6aa5e6db0da4be005372464e001048a48b47
   sha1: 03415919110194ba735edead7f303bb619d62b36
   md5: c6ec8fe80d8529a0e3e13afd0595fb9d
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/mac/8.5.0-trial/mac/projector.zip'
+  source: 'https://archive.org/download/shockpkg_packages_9/9d/e5/fca0cd3049f3142786d20b5b6aa5e6db0da4be005372464e001048a48b47/projector.zip'

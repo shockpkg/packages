@@ -52,7 +52,7 @@
   sha256: 9bddafb1c2d489ae364d8077541315c76de0bbd134619213271a949b315495cf
   sha1: a3a9821b79588b6d91365e3cc364c668088f4f09
   md5: 9feeeac213af1c3f609661a9ae39ebe5
-  source: 'https://gitlab.com/fparchive/player-11.3.300.265/raw/master/flashplayer_11_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_9/9b/dd/afb1c2d489ae364d8077541315c76de0bbd134619213271a949b315495cf/flashplayer_11_sa.exe'
 
 - name: flash-player-11.3.300.265-windows-sa-debug
   file: flashplayer_11_sa_debug.exe
@@ -60,4 +60,4 @@
   sha256: 4406e69d3352fbccbefe7c57f6a512c2cf2fc161bcf80111914b73e2ada65f86
   sha1: 9193a5fe3fb736d2fae11772c1d83e5a20deae3a
   md5: 9fae3139aba0bf908d610e94db2d50a6
-  source: 'https://gitlab.com/fparchive/player-11.3.300.265/raw/master/flashplayer_11_sa_debug.exe'
+  source: 'https://archive.org/download/shockpkg_packages_4/44/06/e69d3352fbccbefe7c57f6a512c2cf2fc161bcf80111914b73e2ada65f86/flashplayer_11_sa_debug.exe'

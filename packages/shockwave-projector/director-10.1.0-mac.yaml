@@ -4,7 +4,7 @@
   sha256: 66a3bb316795b34ff897b7b57155042e27ef73ef3da0290c3ed971c94e3adf6d
   sha1: e9a3ecfaede317d38995b42511bf5cba594f8c18
   md5: cc6e4e8be58defd711787fd4f5b42820
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/mac/10.1.0/mac-classic/projector.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_6/66/a3/bb316795b34ff897b7b57155042e27ef73ef3da0290c3ed971c94e3adf6d/projector.dmg'
 
 - name: shockwave-projector-director-10.1.0-mac-mac-classic-zip
   file: projector.zip
@@ -12,7 +12,7 @@
   sha256: 67db6622f8b2a18aaeaa73cd560fba6c6be3a8e9d8515f9c799f22e4fae10251
   sha1: accdbe137db81592b76fb89596491aa8f88edf4e
   md5: 0201c38160a80dcfead535657b41136c
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/mac/10.1.0/mac-classic/projector.zip'
+  source: 'https://archive.org/download/shockpkg_packages_6/67/db/6622f8b2a18aaeaa73cd560fba6c6be3a8e9d8515f9c799f22e4fae10251/projector.zip'
 
 - name: shockwave-projector-director-10.1.0-mac-mac
   file: projector.dmg
@@ -20,7 +20,7 @@
   sha256: f971ab49e73b0677c0a7282ef2df98982e062965e5b8458e05a693d7cf05a271
   sha1: b24149f7b247d9ccf1a6fb71a72e639fcde303e1
   md5: df2407f996df36348447be87a04dfcdc
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/mac/10.1.0/mac/projector.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_f/f9/71/ab49e73b0677c0a7282ef2df98982e062965e5b8458e05a693d7cf05a271/projector.dmg'
 
 - name: shockwave-projector-director-10.1.0-mac-mac-zip
   file: projector.zip
@@ -28,7 +28,7 @@
   sha256: cfc66987d7fa6ad2aaa4cb3e2ede85c8b80de02c9742b7a4ea4edaa1f0af0897
   sha1: df60a485d58dd124752ad483790e2a3502fb2e91
   md5: 5cbd1e20d74abfdf2febe016d3f80d40
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/mac/10.1.0/mac/projector.zip'
+  source: 'https://archive.org/download/shockpkg_packages_c/cf/c6/6987d7fa6ad2aaa4cb3e2ede85c8b80de02c9742b7a4ea4edaa1f0af0897/projector.zip'
 
 - name: shockwave-projector-director-10.1.0-mac-win
   file: projector.zip
@@ -36,4 +36,4 @@
   sha256: 9f6e2f2b864c3671060b7e86b5e0b4e9c95845ce498b04a47a0cb22540bf808f
   sha1: 041a008e9a1635b664207e7fb22655f8f69f248d
   md5: 6f9c32fd33bc31495cc7fa4a3a186569
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/mac/10.1.0/win/projector.zip'
+  source: 'https://archive.org/download/shockpkg_packages_9/9f/6e/2f2b864c3671060b7e86b5e0b4e9c95845ce498b04a47a0cb22540bf808f/projector.zip'

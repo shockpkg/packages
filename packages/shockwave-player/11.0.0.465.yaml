@@ -4,7 +4,7 @@
   sha256: 7f0fb7aeca2bc1704e3126d42f8d0b3893b85e562c9ae88ab14a2bdae23f06e4
   sha1: 7b5207508850e33e7aa20cafa47a6ad25b47cfbc
   md5: 66534b048ab1f4967356ef6160eca7d0
-  source: 'https://gitlab.com/swarchive/player/raw/master/11.0.0.465/win-activex/sw.cab'
+  source: 'https://archive.org/download/shockpkg_packages_7/7f/0f/b7aeca2bc1704e3126d42f8d0b3893b85e562c9ae88ab14a2bdae23f06e4/sw.cab'
 
 - name: shockwave-player-11.0.0.465-windows-full
   file: Shockwave_Installer_Full.exe
@@ -12,4 +12,4 @@
   sha256: cfc7b3c0c3044b05383c4a25ff6a93236f616e71f270fd44b8d41e88ba810319
   sha1: 34e58415d528bff4241620161700d46b4cabdd64
   md5: bbb61d3d3e5ac2e3e88d2eed55c386f4
-  source: 'https://gitlab.com/swarchive/player/raw/master/11.0.0.465/win-full/Shockwave_Installer_Full.exe'
+  source: 'https://archive.org/download/shockpkg_packages_c/cf/c7/b3c0c3044b05383c4a25ff6a93236f616e71f270fd44b8d41e88ba810319/Shockwave_Installer_Full.exe'

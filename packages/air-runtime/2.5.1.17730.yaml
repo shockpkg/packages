@@ -4,7 +4,7 @@
   sha256: 986bede5b88ca1c47167d7d7dff311841068b9421f13327b95a7207458f14098
   sha1: 2664207ca8e836f5070ee356064829a39785a92e
   md5: d115c4e9518fda5dc250f7038199c4ae
-  source: 'https://gitlab.com/fparchive/air-2.5.1.17730/raw/master/win/AdobeAIRInstaller.exe'
+  source: 'https://archive.org/download/shockpkg_packages_9/98/6b/ede5b88ca1c47167d7d7dff311841068b9421f13327b95a7207458f14098/AdobeAIRInstaller.exe'
 
 - name: air-runtime-2.5.1.17730-mac
   file: AdobeAIR.dmg
@@ -12,4 +12,4 @@
   sha256: c8dc58b3650ccc1d2c5d193a9319a6e4b8257d0b26a07361c9463a66c0c18811
   sha1: e60c8a54bf3fca4a4723755f1333f1a7ec8ebcdc
   md5: 3f4fbbbce31534b7832b990de09b2cdc
-  source: 'https://gitlab.com/fparchive/air-2.5.1.17730/raw/master/mac/AdobeAIR.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_c/c8/dc/58b3650ccc1d2c5d193a9319a6e4b8257d0b26a07361c9463a66c0c18811/AdobeAIR.dmg'

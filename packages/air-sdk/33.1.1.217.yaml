@@ -4,7 +4,7 @@
   sha256: 865b12cdfeda16e0bb66cd28442ea7a2793ec3904ddb22aa41d44f289717d2de
   sha1: ddb9b9be6326ad1ac9ab073c7049cb1154e56e69
   md5: df8b765ee24772641957370ed863bd43
-  source: 'https://gitlab.com/fparchive/air-33.1.1.217/raw/master/win/AIRSDK_Flex_Windows.zip'
+  source: 'https://archive.org/download/shockpkg_packages_8/86/5b/12cdfeda16e0bb66cd28442ea7a2793ec3904ddb22aa41d44f289717d2de/AIRSDK_Flex_Windows.zip'
 
 - name: air-sdk-33.1.1.217-windows-compiler
   file: AIRSDK_Windows.zip
@@ -12,7 +12,7 @@
   sha256: 403132f3f4e775c80c0abadf70cdaa44c53077c5852fd90a15d188b2ce614d5c
   sha1: fb80df56aa8974e3f75962ff90d069da5a97263a
   md5: ff95c72d1ab074a8754b66e162d613ca
-  source: 'https://gitlab.com/fparchive/air-33.1.1.217/raw/master/win/AIRSDK_Windows.zip'
+  source: 'https://archive.org/download/shockpkg_packages_4/40/31/32f3f4e775c80c0abadf70cdaa44c53077c5852fd90a15d188b2ce614d5c/AIRSDK_Windows.zip'
 
 - name: air-sdk-33.1.1.217-mac
   file: AIRSDK_Flex_MacOS.zip
@@ -20,7 +20,7 @@
   sha256: f3302dd93ff00052fb2d545ccd92488c47a28cc6806c66ecb65d5b2938cd4eaf
   sha1: d8347ad8f3b5a0504fedc2f03d5283e36429fb7b
   md5: 00ba80d4e13ed3b660975b1d519229d6
-  source: 'https://gitlab.com/fparchive/air-33.1.1.217/raw/master/mac/AIRSDK_Flex_MacOS.zip'
+  source: 'https://archive.org/download/shockpkg_packages_f/f3/30/2dd93ff00052fb2d545ccd92488c47a28cc6806c66ecb65d5b2938cd4eaf/AIRSDK_Flex_MacOS.zip'
 
 - name: air-sdk-33.1.1.217-mac-compiler
   file: AIRSDK_MacOS.zip
@@ -28,4 +28,4 @@
   sha256: 764c7a5e7dcd953dc9af91f73c6304769d29a79c760ed4799fe8b712a2fc82c0
   sha1: 2d4573bfe393ed17cfd1d1d62493b471febf8429
   md5: 762efc126a98390339507e5f2f478f8b
-  source: 'https://gitlab.com/fparchive/air-33.1.1.217/raw/master/mac/AIRSDK_MacOS.zip'
+  source: 'https://archive.org/download/shockpkg_packages_7/76/4c/7a5e7dcd953dc9af91f73c6304769d29a79c760ed4799fe8b712a2fc82c0/AIRSDK_MacOS.zip'

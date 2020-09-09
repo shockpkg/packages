@@ -116,7 +116,7 @@
   sha256: 853fc83c8588de73f9b5b61ea32732003746a7f97484c26fd5863a61a94a3590
   sha1: ef29754d6b010bc151f4c5d9e1dbfdfabfdae060
   md5: fd8b8b010a71b1b3fb2efd4d36075aaf
-  source: 'https://gitlab.com/fparchive/player-15.0.0.152/raw/master/flashplayer_15_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_8/85/3f/c83c8588de73f9b5b61ea32732003746a7f97484c26fd5863a61a94a3590/flashplayer_15_sa.exe'
 
 - name: flash-player-15.0.0.152-mac-sa
   file: flashplayer_15_sa.dmg
@@ -124,7 +124,7 @@
   sha256: 471dc1b5b1838afcc7f78a47c194081687c2c44a1fb59d4e51e25e4715c68d80
   sha1: b51d75dce8a8a0c2da8c250768b57b0bf45812aa
   md5: ca83244601c09b95d80d69ab069ddc9c
-  source: 'https://gitlab.com/fparchive/player-15.0.0.152/raw/master/flashplayer_15_sa.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_4/47/1d/c1b5b1838afcc7f78a47c194081687c2c44a1fb59d4e51e25e4715c68d80/flashplayer_15_sa.dmg'
 
 - name: flash-player-15.0.0.152-mac-sa-zip
   file: flashplayer_15_sa.zip

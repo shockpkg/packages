@@ -4,7 +4,7 @@
   sha256: c7ef8648aa13c50670bc857c93801bfa1d630274b07b6515df7800e75ced33b8
   sha1: 0e512d6c26c8eaa1dfd3d5d6eb17744caa794df4
   md5: 9c689993e3aedb97dec3ca89e416a9ca
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/win/5.0.0/win-16bit/projector.zip'
+  source: 'https://archive.org/download/shockpkg_packages_c/c7/ef/8648aa13c50670bc857c93801bfa1d630274b07b6515df7800e75ced33b8/projector.zip'
 
 - name: shockwave-projector-director-5.0.0-win-win-32bit
   file: projector.zip
@@ -12,4 +12,4 @@
   sha256: 8d0a655b141bacef1a77d2e84325042265aec2c74f169dfe6ecaf437e78691ed
   sha1: dbab7cd6d7177d1ca2bfa9d6cc8952d16b3fe76f
   md5: a9778dda51ac993da1af2661aca243aa
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/win/5.0.0/win-32bit/projector.zip'
+  source: 'https://archive.org/download/shockpkg_packages_8/8d/0a/655b141bacef1a77d2e84325042265aec2c74f169dfe6ecaf437e78691ed/projector.zip'

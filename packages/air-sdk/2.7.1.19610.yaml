@@ -4,7 +4,7 @@
   sha256: b9751d6f9e48989a009be32f746fba75729e5bf08365936013f8097ba25b8d42
   sha1: 902649664f4fdad10128ef7c57bf7726c299ec38
   md5: 2f5cdcbe73f0e9c8b4b5dab43f9bde38
-  source: 'https://gitlab.com/fparchive/air-2.7.1.19610/raw/master/win/AdobeAIRSDK.zip'
+  source: 'https://archive.org/download/shockpkg_packages_b/b9/75/1d6f9e48989a009be32f746fba75729e5bf08365936013f8097ba25b8d42/AdobeAIRSDK.zip'
 
 - name: air-sdk-2.7.1.19610-mac
   file: AdobeAIRSDK.tbz2
@@ -12,7 +12,7 @@
   sha256: 5733728edfa4cab9f59f22f8046f040bfc810f1e640e69cff001fa0197425e65
   sha1: a90267da9abd647302241bf46bb9e29b2baf1f98
   md5: f93c8a540a6db24509b4fbaddf2f1770
-  source: 'https://gitlab.com/fparchive/air-2.7.1.19610/raw/master/mac/AdobeAIRSDK.tbz2'
+  source: 'https://archive.org/download/shockpkg_packages_5/57/33/728edfa4cab9f59f22f8046f040bfc810f1e640e69cff001fa0197425e65/AdobeAIRSDK.tbz2'
 
 - name: air-sdk-2.7.1.19610-mac-zip
   file: AdobeAIRSDK.zip
@@ -20,4 +20,4 @@
   sha256: 2f8411385248feefd8ad30219e7e118e3e29e5a82f8870b591b4ae347b127afe
   sha1: e091dde4ab1fdab94d6a76d244d345d08b82c6de
   md5: b46943960a208be3066c1010a860bbef
-  source: 'https://gitlab.com/fparchive/air-2.7.1.19610/raw/master/mac/AdobeAIRSDK.zip'
+  source: 'https://archive.org/download/shockpkg_packages_2/2f/84/11385248feefd8ad30219e7e118e3e29e5a82f8870b591b4ae347b127afe/AdobeAIRSDK.zip'

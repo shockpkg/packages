@@ -4,7 +4,7 @@
   sha256: d22e533456889a070065a457d268734ff5112ba85456590feb45e79bd92dc7c7
   sha1: bbf77c1ca9bee46ec2f70c7837853e25cab50cad
   md5: c9ef7beac0214e42f0034c3cae701580
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/win/11.0.0-hotfix-3/mac/projector.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_d/d2/2e/533456889a070065a457d268734ff5112ba85456590feb45e79bd92dc7c7/projector.dmg'
 
 - name: shockwave-projector-director-11.0.0-hotfix-3-win-mac-zip
   file: projector.zip
@@ -12,7 +12,7 @@
   sha256: beeb8f36a9a5e9dff232a2fd7fc5e177bf21408e90b2231db4c100e67474d2ea
   sha1: 211f4b21d10a684fcf04250ae6691c186db51730
   md5: ad33cbe49d17ab3ebc2ffbe21ec73ca8
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/win/11.0.0-hotfix-3/mac/projector.zip'
+  source: 'https://archive.org/download/shockpkg_packages_b/be/eb/8f36a9a5e9dff232a2fd7fc5e177bf21408e90b2231db4c100e67474d2ea/projector.zip'
 
 - name: shockwave-projector-director-11.0.0-hotfix-3-win-win
   file: projector.zip
@@ -20,4 +20,4 @@
   sha256: c60b0fd33254df5a73a9b9357692e1567b1373c089212a0b2dd61eddb4c18c15
   sha1: 831701f06859fbcb4094e6d6c4bf5c1fa47e7625
   md5: 862f412679d901bb60921563630be8f6
-  source: 'https://gitlab.com/swarchive/projector/raw/master/director/win/11.0.0-hotfix-3/win/projector.zip'
+  source: 'https://archive.org/download/shockpkg_packages_c/c6/0b/0fd33254df5a73a9b9357692e1567b1373c089212a0b2dd61eddb4c18c15/projector.zip'

@@ -44,7 +44,7 @@
   sha256: 915f75a32a7e7e1b62e80872c02b241d482721b30d0ff07d30471e622bbd7b78
   sha1: 169690ae0bfb750693c151131bd9bdc0bf5d2086
   md5: 3df811fb6b944f9f6ce93b6f37b76392
-  source: 'https://gitlab.com/fparchive/player-11.4.402.265/raw/master/flashplayer_11_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_9/91/5f/75a32a7e7e1b62e80872c02b241d482721b30d0ff07d30471e622bbd7b78/flashplayer_11_sa.exe'
 
 - name: flash-player-11.4.402.265-windows-sa-debug
   file: flashplayer_11_sa_debug.exe
@@ -52,7 +52,7 @@
   sha256: 0bec8c08bab1944d98760e5b277bb888cdae3174b574341e48709a38cc5998d4
   sha1: 32683bf86e1455e2d220a7191b1bdb1cf71e61a8
   md5: c4f02bc03a8334633f201810fbaab7d9
-  source: 'https://gitlab.com/fparchive/player-11.4.402.265/raw/master/flashplayer_11_sa_debug.exe'
+  source: 'https://archive.org/download/shockpkg_packages_0/0b/ec/8c08bab1944d98760e5b277bb888cdae3174b574341e48709a38cc5998d4/flashplayer_11_sa_debug.exe'
 
 - name: flash-player-11.4.402.265-mac-sa
   file: flashplayer_11_sa.app.zip
@@ -60,4 +60,4 @@
   sha256: dbadc6b472775d7244f76b886a2d9c2fecfec399aa542c2a9ea1a4f6542b79c2
   sha1: a7edf3404625015d195051a9601cea771a6715c6
   md5: babeeff40ccdbb7086892be0dd5ebcaf
-  source: 'https://gitlab.com/fparchive/player-11.4.402.265/raw/master/flashplayer_11_sa.app.zip'
+  source: 'https://archive.org/download/shockpkg_packages_d/db/ad/c6b472775d7244f76b886a2d9c2fecfec399aa542c2a9ea1a4f6542b79c2/flashplayer_11_sa.app.zip'

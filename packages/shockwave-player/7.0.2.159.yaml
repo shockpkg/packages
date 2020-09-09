@@ -4,7 +4,7 @@
   sha256: ceb825a728c4ba13ceb66d85bf8167718ae1edf07c5d60b868708a579d2d4423
   sha1: 2229481d87fb1edd1199197d6110cea618a6cbc9
   md5: 9c0f202402c276d2e947ee3830a42df1
-  source: 'https://gitlab.com/swarchive/player/raw/master/7.0.2.159/mac-shim/shockwaveinstaller.hqx'
+  source: 'https://archive.org/download/shockpkg_packages_c/ce/b8/25a728c4ba13ceb66d85bf8167718ae1edf07c5d60b868708a579d2d4423/shockwaveinstaller.hqx'
 
 - name: shockwave-player-7.0.2.159-windows-shim-netscape
   file: shockwaveinstaller.exe
@@ -12,4 +12,4 @@
   sha256: 3c62a81d0ce3123f0f9948eac8f63bfb7972a9c4c64d16934956ccc5ad9b26cb
   sha1: 1b3f9bf8868fcafcd4f329334334529567b3f8a2
   md5: 7729e79505d53bbb2e4a9fe8839b29f5
-  source: 'https://gitlab.com/swarchive/player/raw/master/7.0.2.159/win-shim-ns/shockwaveinstaller.exe'
+  source: 'https://archive.org/download/shockpkg_packages_3/3c/62/a81d0ce3123f0f9948eac8f63bfb7972a9c4c64d16934956ccc5ad9b26cb/shockwaveinstaller.exe'

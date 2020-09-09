@@ -108,7 +108,7 @@
   sha256: 2d661d16b078eebed0bbf71987108d2d2e5ac5d2d68b706ea39d18c0b67c94cd
   sha1: 7efad08c15082453da909f720ea520cf25291eeb
   md5: 6c08f0d1b906cfb5e13b92f878856c30
-  source: 'https://gitlab.com/fparchive/player-12.0.0.77/raw/master/flashplayer_12_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_2/2d/66/1d16b078eebed0bbf71987108d2d2e5ac5d2d68b706ea39d18c0b67c94cd/flashplayer_12_sa.exe'
 
 - name: flash-player-12.0.0.77-mac-sa
   file: flashplayer_12_sa.dmg
@@ -116,7 +116,7 @@
   sha256: f63c8931502b88bdde25fa38f379f78d851aed9f383f782b10621a508cdf832c
   sha1: 784a19901fd998c76b92bde811ae4bfd42e10a82
   md5: 7eab58eda20497ed023f930e279de257
-  source: 'https://gitlab.com/fparchive/player-12.0.0.77/raw/master/flashplayer_12_sa.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_f/f6/3c/8931502b88bdde25fa38f379f78d851aed9f383f782b10621a508cdf832c/flashplayer_12_sa.dmg'
 
 - name: flash-player-12.0.0.77-mac-sa-zip
   file: flashplayer_12_sa.zip

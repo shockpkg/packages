@@ -108,7 +108,7 @@
   sha256: 38633e3b47cdec50349187c44acff25987b133c18763aec22db5d6c484592211
   sha1: 6056136f4a515b8c23b51c974342792056bbc745
   md5: 7cb3993cc7e5ef7b1c1eb43881f24b53
-  source: 'https://gitlab.com/fparchive/player-11.6.602.167/raw/master/flashplayer_11_sa.app.zip'
+  source: 'https://archive.org/download/shockpkg_packages_3/38/63/3e3b47cdec50349187c44acff25987b133c18763aec22db5d6c484592211/flashplayer_11_sa.app.zip'
 
 - name: flash-player-11.6.602.168-windows-sa
   file: flashplayer_11_sa.exe
@@ -116,4 +116,4 @@
   sha256: d542f65518da3803289d4579962b6b8284c7cae9cf6cb6248e71d12447087752
   sha1: 84e372786de920956c34453db5bffcaf0079cc81
   md5: 299740668ff377928ea9e19469259806
-  source: 'https://gitlab.com/fparchive/player-11.6.602.168/raw/master/flashplayer_11_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_d/d5/42/f65518da3803289d4579962b6b8284c7cae9cf6cb6248e71d12447087752/flashplayer_11_sa.exe'

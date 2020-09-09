@@ -4,7 +4,7 @@
   sha256: ac34cf915b2badd4497edfe686e2f5efc3501429dd7074ab56594696b76d95d0
   sha1: 00fcd8e7d469bcc99e392e4d69519ba705e3cb89
   md5: cc25427d482434564c0205580adcc5f0
-  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.1.629-4/win-full/Shockwave_Installer_Full.exe'
+  source: 'https://archive.org/download/shockpkg_packages_a/ac/34/cf915b2badd4497edfe686e2f5efc3501429dd7074ab56594696b76d95d0/Shockwave_Installer_Full.exe'
 
 - name: shockwave-player-11.6.1.629-4-windows-slim
   file: Shockwave_Installer_Slim.exe
@@ -12,4 +12,4 @@
   sha256: b5e09c40ba1d4a52b5470c397ca67f847a323bdd30ff27172dd3f222109056ce
   sha1: bda75dcd54794dd8c98993cb769fe5afb1746e3d
   md5: ae520edfc498eea6a2d16934862dcaee
-  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.1.629-4/win-slim/Shockwave_Installer_Slim.exe'
+  source: 'https://archive.org/download/shockpkg_packages_b/b5/e0/9c40ba1d4a52b5470c397ca67f847a323bdd30ff27172dd3f222109056ce/Shockwave_Installer_Slim.exe'

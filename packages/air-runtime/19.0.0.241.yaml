@@ -4,7 +4,7 @@
   sha256: f70fc3a76be87a83c3256b1cb5f9ecfbcd4a236df0db7f04a2ac2560e8402af0
   sha1: bb58553a7e3f8d84e54a705e14ecead31f991adf
   md5: 0c24dadef6eb80d95db17e0d60155b9a
-  source: 'https://gitlab.com/fparchive/air-19.0.0.241/raw/master/win/AdobeAIRInstaller.zip'
+  source: 'https://archive.org/download/shockpkg_packages_f/f7/0f/c3a76be87a83c3256b1cb5f9ecfbcd4a236df0db7f04a2ac2560e8402af0/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-19.0.0.241-windows
       file: AdobeAIRInstaller.exe
@@ -20,7 +20,7 @@
   sha256: 38fdb4ea584322f2ec7aa4a2f50c6a9044a244be45666d50badc763d4dda90c3
   sha1: aec35afd69eb40999e5692e2c5cd3b231ec60557
   md5: 5899e6276f19700f00a1ba8efbe0c192
-  source: 'https://gitlab.com/fparchive/air-19.0.0.241/raw/master/mac/AdobeAIR.tbz2'
+  source: 'https://archive.org/download/shockpkg_packages_3/38/fd/b4ea584322f2ec7aa4a2f50c6a9044a244be45666d50badc763d4dda90c3/AdobeAIR.tbz2'
 
 - name: air-runtime-19.0.0.241-mac-dmg
   file: AdobeAIR.dmg
@@ -28,4 +28,4 @@
   sha256: 38a4a9086f19650c347c42b24bc1c3f8d708708053adddff861c87a8eba6b9b7
   sha1: 17f1532eb370cfd902b498631beee757702f3c4b
   md5: 7ecfccb08fe5caa79ae7ccba996af804
-  source: 'https://gitlab.com/fparchive/air-19.0.0.241/raw/master/mac/AdobeAIR.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_3/38/a4/a9086f19650c347c42b24bc1c3f8d708708053adddff861c87a8eba6b9b7/AdobeAIR.dmg'

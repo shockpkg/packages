@@ -148,7 +148,7 @@
   sha256: 0892f51f7f0d49a061e6f61dfb67aab489c63bdbd3d143bc36bf300c7e6b9218
   sha1: 858245929060901c685fefe39b8c644748eb8c08
   md5: 7079207db0725c3c960265be25c1df99
-  source: 'https://gitlab.com/fparchive/player-19.0.0.185/raw/master/flashplayer_19_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_0/08/92/f51f7f0d49a061e6f61dfb67aab489c63bdbd3d143bc36bf300c7e6b9218/flashplayer_19_sa.exe'
 
 - name: flash-player-19.0.0.185-mac-sa
   file: flashplayer_19_sa.dmg
@@ -156,7 +156,7 @@
   sha256: b4a0febba1106f9036fcb0b7eef52a8b2d82ca3160b532ced969f90f7dcc742b
   sha1: 61cc8abe041cc28fea6a9155fabdec6a121ed6a7
   md5: 3d0ddb62e9802a049f24d85913e6abfd
-  source: 'https://gitlab.com/fparchive/player-19.0.0.185/raw/master/flashplayer_19_sa.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_b/b4/a0/febba1106f9036fcb0b7eef52a8b2d82ca3160b532ced969f90f7dcc742b/flashplayer_19_sa.dmg'
 
 - name: flash-player-19.0.0.185-mac-sa-zip
   file: flashplayer_19_sa.zip

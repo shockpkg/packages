@@ -4,7 +4,7 @@
   sha256: a0992d1942628a7f35584ed327c3b12604a30c4f88fd6299b729a0772edc7dd0
   sha1: ba0739f1b666028591c5888fbe0e1b1a4520cc0c
   md5: 8a3869bda5fee84df70525e845f4fb6e
-  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.5.196/win-activex/sw.cab'
+  source: 'https://archive.org/download/shockpkg_packages_a/a0/99/2d1942628a7f35584ed327c3b12604a30c4f88fd6299b729a0772edc7dd0/sw.cab'
 
 - name: shockwave-player-12.2.5.196-windows-full-licensed-msi
   file: sw_lic_full_installer.msi
@@ -12,7 +12,7 @@
   sha256: 8e8844c53ff5c41021e28511d63d437e1ce2757f82106da2e93f8a6e4bd6c992
   sha1: 86eb79ea28ac3801887616cefee2d2b43522312a
   md5: e78c2696301d39d6d949106db5bdf37e
-  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.5.196/win-full-lic-msi/sw_lic_full_installer.msi'
+  source: 'https://archive.org/download/shockpkg_packages_8/8e/88/44c53ff5c41021e28511d63d437e1ce2757f82106da2e93f8a6e4bd6c992/sw_lic_full_installer.msi'
 
 - name: shockwave-player-12.2.5.196-windows-full
   file: Shockwave_Installer_Full.exe
@@ -20,7 +20,7 @@
   sha256: 2d7a3ebe3bf247fa57ae789f3dbbb9f8181657ee01d6e890348d727ac247595b
   sha1: 3dcea299b16fa307f9a689ef4232846502e3db71
   md5: 8e0442ccafb1016478dd65816ba51887
-  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.5.196/win-full/Shockwave_Installer_Full.exe'
+  source: 'https://archive.org/download/shockpkg_packages_2/2d/7a/3ebe3bf247fa57ae789f3dbbb9f8181657ee01d6e890348d727ac247595b/Shockwave_Installer_Full.exe'
 
 - name: shockwave-player-12.2.5.196-windows-slim
   file: Shockwave_Installer_Slim.exe
@@ -28,4 +28,4 @@
   sha256: 591218614eec4bed8a3be09c5ceb36d66d49283a0a7a27ce88f92abd503bcf1e
   sha1: 69eb4be936aa79a922f0693e0b6d41f370f4b2d0
   md5: 6a4d8bc3f9711788322b6e9fcf74b056
-  source: 'https://gitlab.com/swarchive/player/raw/master/12.2.5.196/win-slim/Shockwave_Installer_Slim.exe'
+  source: 'https://archive.org/download/shockpkg_packages_5/59/12/18614eec4bed8a3be09c5ceb36d66d49283a0a7a27ce88f92abd503bcf1e/Shockwave_Installer_Slim.exe'

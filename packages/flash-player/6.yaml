@@ -204,7 +204,7 @@
   sha256: 1b328aba97b8070d91920c7ca8b82d25e09e33ca53c57d58e27968c48f69db99
   sha1: 861233c99a51ea512c7e45722803183032176bf5
   md5: 8e58a6c6709c13b189c130abd0f0dbd5
-  source: 'https://gitlab.com/fparchive/player-6/raw/master/flash_pro_6_players.zip'
+  source: 'https://archive.org/download/shockpkg_packages_1/1b/32/8aba97b8070d91920c7ca8b82d25e09e33ca53c57d58e27968c48f69db99/flash_pro_6_players.zip'
   packages:
     - name: flash-player-6.0.21.0-windows-npapi-debug
       file: Install Flash Player 6.exe
@@ -276,7 +276,7 @@
   sha256: 22460406194a424066e6b544f0038095afc736d7e17e3e9692181e016ac03ee2
   sha1: 669253b81f8990ad090553a12e7bc789b75ecb01
   md5: 945eb3c40ee32a9f8a9fcf7788cc8210
-  source: 'https://gitlab.com/fparchive/player-6/raw/master/flash_pro_6_player_6-0-79-0_win.zip'
+  source: 'https://archive.org/download/shockpkg_packages_2/22/46/0406194a424066e6b544f0038095afc736d7e17e3e9692181e016ac03ee2/flash_pro_6_player_6-0-79-0_win.zip'
   packages:
     - name: flash-player-6.0.79.0-windows-sa
       file: SAFlashPlayer.exe

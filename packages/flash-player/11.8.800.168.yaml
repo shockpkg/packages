@@ -108,7 +108,7 @@
   sha256: 14529f3a8f33a10ed1e2b0e657bf3f00080b5726844dfde69c1c0773ea2419c3
   sha1: f41ce3840308d0797056e2cdb7def55b0d3021a7
   md5: ec15bbc9540a5c0dc47f6a8779d0686b
-  source: 'https://gitlab.com/fparchive/player-11.8.800.168/raw/master/flashplayer_11_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_1/14/52/9f3a8f33a10ed1e2b0e657bf3f00080b5726844dfde69c1c0773ea2419c3/flashplayer_11_sa.exe'
 
 - name: flash-player-11.8.800.168-mac-sa
   file: flashplayer_11_sa.dmg
@@ -116,7 +116,7 @@
   sha256: 8535cc76f1d88bf2d1e7b17cdcbcb197f56d5508f39409aa70cf90dc478d9205
   sha1: 3bd98a04bc2a516482213aa34fe78f079f1e42ff
   md5: 47d32b637519745b62a1b1f54ec84c91
-  source: 'https://gitlab.com/fparchive/player-11.8.800.168/raw/master/flashplayer_11_sa.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_8/85/35/cc76f1d88bf2d1e7b17cdcbcb197f56d5508f39409aa70cf90dc478d9205/flashplayer_11_sa.dmg'
 
 - name: flash-player-11.8.800.168-mac-sa-zip
   file: flashplayer_11_sa.zip

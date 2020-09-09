@@ -372,7 +372,7 @@
   sha256: 9920ad8eb846e8d08ddd427ea67a3b1ab7fc2da9c16e1501f6122eedec9a671f
   sha1: 0cd89a0c6db181ccf32001ce07fde509931aad32
   md5: ce9640a0826ceae0aa43089e5f043df8
-  source: 'https://gitlab.com/fparchive/player-7/raw/master/flash_pro_7_players.zip'
+  source: 'https://archive.org/download/shockpkg_packages_9/99/20/ad8eb846e8d08ddd427ea67a3b1ab7fc2da9c16e1501f6122eedec9a671f/flash_pro_7_players.zip'
   packages:
     - name: flash-player-7.0.14.0-windows-npapi-debug
       file: Install Flash Player 7.exe
@@ -452,7 +452,7 @@
   sha256: 98004e74bc31af46c4d7c62366109f856c96002a7c3627b1aa342d6352c2139f
   sha1: b73bfb7f80b7cd25f0d8ae9f37f7cb7dad119cde
   md5: 113c1ffc35e024acd46e07e5b04f912a
-  source: 'https://gitlab.com/fparchive/player-7/raw/master/flash_pro_7-2_players.zip'
+  source: 'https://archive.org/download/shockpkg_packages_9/98/00/4e74bc31af46c4d7c62366109f856c96002a7c3627b1aa342d6352c2139f/flash_pro_7-2_players.zip'
   packages:
     - name: flash-player-7.0.19.0-windows-npapi-debug
       file: Install Flash Player 7.exe
@@ -532,7 +532,7 @@
   sha256: 49f17fc171eb45b0d1845bab66b7ce7d353889176724006e811a7c37f1c0fef5
   sha1: c97f03f0ccd8d6e6756c2f5169764cf8eed3c0aa
   md5: eea29fa18d2617a1d109831ca656ee33
-  source: 'https://gitlab.com/fparchive/player-7/raw/master/flash_pro_7-u2_players.zip'
+  source: 'https://archive.org/download/shockpkg_packages_4/49/f1/7fc171eb45b0d1845bab66b7ce7d353889176724006e811a7c37f1c0fef5/flash_pro_7-u2_players.zip'
   packages:
     - name: flash-player-7.0.68.0-windows-npapi-debug
       file: Install Flash Player 7.exe
@@ -596,7 +596,7 @@
   sha256: 1d0040ee98fbc4f00d7c62f484016340730c3cdf9f3a3be289d69646bf514a60
   sha1: 7428a075cc47e48120881ed4a7e18a687c101690
   md5: 264d5408fc089e175bf525b3131a0f7a
-  source: 'https://gitlab.com/fparchive/player-7/raw/master/flash_pro_7-u3_players.zip'
+  source: 'https://archive.org/download/shockpkg_packages_1/1d/00/40ee98fbc4f00d7c62f484016340730c3cdf9f3a3be289d69646bf514a60/flash_pro_7-u3_players.zip'
   packages:
     - name: flash-player-7.0.69.0-windows-npapi-debug
       file: Install Flash Player 7.exe
@@ -652,4 +652,4 @@
   sha256: 23857def9bdde26791fbb4d9f733e1232fa9b6838fe3ce9989af494dc983511a
   sha1: c9d53efa89beb052cc989d481bf617bcb6ff30d2
   md5: b063b512076d4c88a56cb7521e6b5409
-  source: 'https://gitlab.com/fparchive/player-7/raw/master/linux-7.0.61.0/install_flash_player_7_linux.tar.gz'
+  source: 'https://archive.org/download/shockpkg_packages_2/23/85/7def9bdde26791fbb4d9f733e1232fa9b6838fe3ce9989af494dc983511a/install_flash_player_7_linux.tar.gz'

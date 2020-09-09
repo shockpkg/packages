@@ -4,7 +4,7 @@
   sha256: 49aad8a4e2f4da1165524becda6a9fb185a2c1950ceae64fbf2c2e863a7ccc73
   sha1: 6888915b247e1a1cd5507968f64139db365ea506
   md5: 5387670ccbfb89a103b956ff18f50759
-  source: 'https://gitlab.com/fparchive/air-16.0.0.273/raw/master/win/AdobeAIRInstaller.zip'
+  source: 'https://archive.org/download/shockpkg_packages_4/49/aa/d8a4e2f4da1165524becda6a9fb185a2c1950ceae64fbf2c2e863a7ccc73/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-16.0.0.273-windows
       file: AdobeAIRInstaller.exe

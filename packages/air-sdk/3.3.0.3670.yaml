@@ -4,7 +4,7 @@
   sha256: edd6e2ac4882d60cef9ce077e4041b0d7545d3312fa1849cbd2a3b45b293dc4a
   sha1: 1d56e01f541e5581ca6afe936c9d946559bfbf55
   md5: 2af13b4e84506aeb556c14bc5c7f82e5
-  source: 'https://gitlab.com/fparchive/air-3.3.0.3670/raw/master/win/AdobeAIRSDK.zip'
+  source: 'https://archive.org/download/shockpkg_packages_e/ed/d6/e2ac4882d60cef9ce077e4041b0d7545d3312fa1849cbd2a3b45b293dc4a/AdobeAIRSDK.zip'
 
 - name: air-sdk-3.3.0.3670-mac
   file: AdobeAIRSDK.tbz2
@@ -12,7 +12,7 @@
   sha256: ff5eea9f8390d416e626973b3e70181ab4a73f07256d2a5a6167c4390f9749f2
   sha1: 6fd563409e59e3ee66fa8ce0b60d4e9896b9a4af
   md5: 27054c8232ee9d7c9a8504cb2d460184
-  source: 'https://gitlab.com/fparchive/air-3.3.0.3670/raw/master/mac/AdobeAIRSDK.tbz2'
+  source: 'https://archive.org/download/shockpkg_packages_f/ff/5e/ea9f8390d416e626973b3e70181ab4a73f07256d2a5a6167c4390f9749f2/AdobeAIRSDK.tbz2'
 
 - name: air-sdk-3.3.0.3670-mac-zip
   file: AdobeAIRSDK.zip
@@ -20,4 +20,4 @@
   sha256: 91592b66235a7f14ae8a72667eaabdb517c110b5fc9155a25132467c3d4fe8f1
   sha1: bfb89a1e8a5fbef2edf9019f162ae26be47e4b63
   md5: 794910019c576f34dcaa9b57bf802521
-  source: 'https://gitlab.com/fparchive/air-3.3.0.3670/raw/master/mac/AdobeAIRSDK.zip'
+  source: 'https://archive.org/download/shockpkg_packages_9/91/59/2b66235a7f14ae8a72667eaabdb517c110b5fc9155a25132467c3d4fe8f1/AdobeAIRSDK.zip'

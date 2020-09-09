@@ -4,7 +4,7 @@
   sha256: 9334f975f4b333fd7b245f8aa052977a98da354e3593d552f7822d619ce4ea8a
   sha1: e1ecdd141fda2699b229c296855854731c425a5a
   md5: 5297aad31a84e8a6ca118736c831e882
-  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.8.638-2/mac-full-64bit/Shockwave_Installer_Full_64bit.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_9/93/34/f975f4b333fd7b245f8aa052977a98da354e3593d552f7822d619ce4ea8a/Shockwave_Installer_Full_64bit.dmg'
 
 - name: shockwave-player-11.6.8.638-2-windows-activex
   file: sw.cab
@@ -12,7 +12,7 @@
   sha256: 681d6bcb6f101f7adb58c8863eed286beb75840761bb5582db7107541571f72c
   sha1: c0ba50839433147630dcd5ab17e1fd4341b6cd2b
   md5: 9b20b23de9af3196edfcbc2ae1740105
-  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.8.638-2/win-activex/sw.cab'
+  source: 'https://archive.org/download/shockpkg_packages_6/68/1d/6bcb6f101f7adb58c8863eed286beb75840761bb5582db7107541571f72c/sw.cab'
 
 - name: shockwave-player-11.6.8.638-2-windows-full
   file: Shockwave_Installer_Full.exe
@@ -20,7 +20,7 @@
   sha256: 3d3acef3b2bb9fb4ae6b235c7f48521d8358f49d8d554fe71544e109157d064d
   sha1: aed83288d53f556e01a2acbf2baa40d16e547ae9
   md5: 4fb9515d7af5375bb30ee02e6974c02d
-  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.8.638-2/win-full/Shockwave_Installer_Full.exe'
+  source: 'https://archive.org/download/shockpkg_packages_3/3d/3a/cef3b2bb9fb4ae6b235c7f48521d8358f49d8d554fe71544e109157d064d/Shockwave_Installer_Full.exe'
 
 - name: shockwave-player-11.6.8.638-2-windows-slim
   file: Shockwave_Installer_Slim.exe
@@ -28,4 +28,4 @@
   sha256: baa157241b31bc03d87640d777620b6139d35a82f46690ce8aed154d0c77e74c
   sha1: fd36d8cb741325ade0ca2d40a0833c565718fa6c
   md5: 4b80bed312b2c3e1f0c8f80db9cf30a1
-  source: 'https://gitlab.com/swarchive/player/raw/master/11.6.8.638-2/win-slim/Shockwave_Installer_Slim.exe'
+  source: 'https://archive.org/download/shockpkg_packages_b/ba/a1/57241b31bc03d87640d777620b6139d35a82f46690ce8aed154d0c77e74c/Shockwave_Installer_Slim.exe'

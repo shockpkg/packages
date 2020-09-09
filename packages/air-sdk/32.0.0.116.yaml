@@ -4,7 +4,7 @@
   sha256: 1b9f9b65af8de3895f5bd55470f6df4bc8f3d104c8344ceb9497fd895559a7c1
   sha1: ffc7cfd4711714595828134268c8107f5fbf677c
   md5: 6e12eda7d01c9ea3485427cd58c71b84
-  source: 'https://gitlab.com/fparchive/air-32.0.0.116/raw/master/win/AdobeAIRSDK.zip'
+  source: 'https://archive.org/download/shockpkg_packages_1/1b/9f/9b65af8de3895f5bd55470f6df4bc8f3d104c8344ceb9497fd895559a7c1/AdobeAIRSDK.zip'
 
 - name: air-sdk-32.0.0.116-windows-compiler
   file: AIRSDK_Compiler.zip
@@ -12,7 +12,7 @@
   sha256: 0a1fc18ea9930e0d2e5931727012f64110b5630faa5d78f8572400cef5b8d28c
   sha1: 8efdcb74085745aa312bf9bfc233f3745c53d4be
   md5: 42c8bb3f1ce02c136be8a2ee12a3417a
-  source: 'https://gitlab.com/fparchive/air-32.0.0.116/raw/master/win/AIRSDK_Compiler.zip'
+  source: 'https://archive.org/download/shockpkg_packages_0/0a/1f/c18ea9930e0d2e5931727012f64110b5630faa5d78f8572400cef5b8d28c/AIRSDK_Compiler.zip'
 
 - name: air-sdk-32.0.0.116-mac
   file: AdobeAIRSDK.dmg
@@ -20,7 +20,7 @@
   sha256: 287d1ed66f62d2b6b93a60d6c8b6e153763976cd19d1e596750206a6b26fb844
   sha1: 68615c3b97bf2a575ada6ec6983e345be99b228e
   md5: 5b3565b83f4b8c0301b46724417b0744
-  source: 'https://gitlab.com/fparchive/air-32.0.0.116/raw/master/mac/AdobeAIRSDK.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_2/28/7d/1ed66f62d2b6b93a60d6c8b6e153763976cd19d1e596750206a6b26fb844/AdobeAIRSDK.dmg'
 
 - name: air-sdk-32.0.0.116-mac-zip
   file: AdobeAIRSDK.zip
@@ -28,7 +28,7 @@
   sha256: 1685ba93a257581c702a4620661d690e36a14fb477257ecb6da3ad0b19714e4d
   sha1: 103c5c5a3ab77e134f9a8f9889ca62dce8daaa90
   md5: 735f4f8e3bd045ee2f51afe3237f08e9
-  source: 'https://gitlab.com/fparchive/air-32.0.0.116/raw/master/mac/AdobeAIRSDK.zip'
+  source: 'https://archive.org/download/shockpkg_packages_1/16/85/ba93a257581c702a4620661d690e36a14fb477257ecb6da3ad0b19714e4d/AdobeAIRSDK.zip'
 
 - name: air-sdk-32.0.0.116-mac-compiler
   file: AIRSDK_Compiler.dmg
@@ -36,7 +36,7 @@
   sha256: 0f910a98c138ac70edec7058647b3e7f247db4a080bf262e0fb3d7528ed99483
   sha1: e4b883373bb5ee80e4063ad2c36314b94f641579
   md5: 1dd1afc894e47676027ce38c975db618
-  source: 'https://gitlab.com/fparchive/air-32.0.0.116/raw/master/mac/AIRSDK_Compiler.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_0/0f/91/0a98c138ac70edec7058647b3e7f247db4a080bf262e0fb3d7528ed99483/AIRSDK_Compiler.dmg'
 
 - name: air-sdk-32.0.0.116-mac-compiler-zip
   file: AIRSDK_Compiler.zip
@@ -44,4 +44,4 @@
   sha256: e4c60453e1c911ec460b9f2690e86ecef747120842205e904796a9c79ef453aa
   sha1: fe9a6961b30565f807ebd3138a7a3d24ecd0996f
   md5: adeec8d3607407dc84cc639bf8383771
-  source: 'https://gitlab.com/fparchive/air-32.0.0.116/raw/master/mac/AIRSDK_Compiler.zip'
+  source: 'https://archive.org/download/shockpkg_packages_e/e4/c6/0453e1c911ec460b9f2690e86ecef747120842205e904796a9c79ef453aa/AIRSDK_Compiler.zip'

@@ -92,7 +92,7 @@
   sha256: 8640c42e73dc44125045e17abd32412c48f3808a8393c94fc8281cf4b0d87bdc
   sha1: 62e5bc2e88b50091847408b9d473ee4a6c185167
   md5: 9d7660e96995b34a61a187186e68ca84
-  source: 'https://gitlab.com/fparchive/player-14.0.0.176/raw/master/flashplayer_14_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_8/86/40/c42e73dc44125045e17abd32412c48f3808a8393c94fc8281cf4b0d87bdc/flashplayer_14_sa.exe'
 
 - name: flash-player-14.0.0.176-mac-sa-debug-zip
   file: flashplayer14_0r0_176_mac_sa_debug.zip

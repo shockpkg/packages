@@ -52,7 +52,7 @@
   sha256: 5c839f897ab0108209ae435881aff9fbf2b06fa3cbd65e819b7a9366936c50e6
   sha1: 7a38859783796ceb4fa8ec7df59f7a3bf82e0a90
   md5: d0317b46011e99717cbd01c0df9a3d6f
-  source: 'https://gitlab.com/fparchive/player-3/raw/master/flash_pro_3_players.zip'
+  source: 'https://archive.org/download/shockpkg_packages_5/5c/83/9f897ab0108209ae435881aff9fbf2b06fa3cbd65e819b7a9366936c50e6/flash_pro_3_players.zip'
   packages:
     - name: flash-player-2-java
       file: Flash Player Java(tm) Edition.zip

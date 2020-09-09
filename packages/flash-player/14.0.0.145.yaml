@@ -116,7 +116,7 @@
   sha256: 03ef9f8814dec1012ef746c35b1f5b08f731a7b082a6eed1a5d7b763d5a9ab14
   sha1: ec4a65ee3b544ca7fe07643d6f403ce5b860e463
   md5: 229806a054d245ec39793f27e03d31cc
-  source: 'https://gitlab.com/fparchive/player-14.0.0.145/raw/master/flashplayer_14_sa.exe'
+  source: 'https://archive.org/download/shockpkg_packages_0/03/ef/9f8814dec1012ef746c35b1f5b08f731a7b082a6eed1a5d7b763d5a9ab14/flashplayer_14_sa.exe'
 
 - name: flash-player-14.0.0.145-mac-sa
   file: flashplayer_14_sa.dmg
@@ -124,7 +124,7 @@
   sha256: d8a2946b46d5ca0c7d343ec3c38b0006a11cc90894719f8435d33176ba35e967
   sha1: d5f9b6cb7d358efb03e9c81f3db3ce992b3d4c27
   md5: ea4383410669860655c8a35479528103
-  source: 'https://gitlab.com/fparchive/player-14.0.0.145/raw/master/flashplayer_14_sa.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_d/d8/a2/946b46d5ca0c7d343ec3c38b0006a11cc90894719f8435d33176ba35e967/flashplayer_14_sa.dmg'
 
 - name: flash-player-14.0.0.145-mac-sa-zip
   file: flashplayer_14_sa.zip

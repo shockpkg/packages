@@ -4,7 +4,7 @@
   sha256: e4f9b44d6a8ca6b14a5fee28ec688158a58a8aeec4e17aa0980e2a453b34b89e
   sha1: 7eb0ff9ff67c2475fd53354ddf1af2de56f44fc2
   md5: 0aafad511af6d133a1f982e2ef8f9816
-  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Release/Install%20Flash%20Player%209%20Plugin.msi'
+  source: 'https://archive.org/download/shockpkg_packages_e/e4/f9/b44d6a8ca6b14a5fee28ec688158a58a8aeec4e17aa0980e2a453b34b89e/Install%20Flash%20Player%209%20Plugin.msi'
 
 - name: flash-player-9.0.262.0-windows-npapi-debug-msi
   file: Install Flash Player 9 Plugin.msi
@@ -12,7 +12,7 @@
   sha256: fe7093ad2c5de749e255cc499666bf33cc00dccb40310c42379727cf97590a7a
   sha1: 78153648045dd23310ee81d0806e276ad40cd659
   md5: 8fdb5e495ff878e9c2332808a5dcce35
-  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Debug/Install%20Flash%20Player%209%20Plugin.msi'
+  source: 'https://archive.org/download/shockpkg_packages_f/fe/70/93ad2c5de749e255cc499666bf33cc00dccb40310c42379727cf97590a7a/Install%20Flash%20Player%209%20Plugin.msi'
 
 - name: flash-player-9.0.262.0-windows-activex-msi
   file: Install Flash Player 9 ActiveX.msi
@@ -20,7 +20,7 @@
   sha256: 7a01feec6567029c799da8523761f4c131a9796ab06f5cfade8fd41f3f0d1dc9
   sha1: d3b0d1a5627134ba6a67f58e481a4d8011cdac0f
   md5: 4db84c548a633fa6c1952e140ca06a01
-  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Release/Install%20Flash%20Player%209%20ActiveX.msi'
+  source: 'https://archive.org/download/shockpkg_packages_7/7a/01/feec6567029c799da8523761f4c131a9796ab06f5cfade8fd41f3f0d1dc9/Install%20Flash%20Player%209%20ActiveX.msi'
 
 - name: flash-player-9.0.262.0-windows-activex-debug-msi
   file: Install Flash Player 9 ActiveX.msi
@@ -28,7 +28,7 @@
   sha256: cd2eaf292007c719b892623e10673b5343604d252e11588a1ff7839bfd684290
   sha1: 1198e3abafebde5ebabce34beb2c5c284ffec74c
   md5: f9372c4a1783e3979c5a15c1d68551f9
-  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Debug/Install%20Flash%20Player%209%20ActiveX.msi'
+  source: 'https://archive.org/download/shockpkg_packages_c/cd/2e/af292007c719b892623e10673b5343604d252e11588a1ff7839bfd684290/Install%20Flash%20Player%209%20ActiveX.msi'
 
 - name: flash-player-9.0.262.0-windows-sa
   file: FlashPlayer.exe
@@ -36,4 +36,4 @@
   sha256: a1a70101668daedf518687b17ff9d1b198e41bf9c8ccdd848cdb0b053c73b1db
   sha1: 9ece1a47656b4c8ef7e90e2a8324b60597951073
   md5: 9d4d15d9d20eda61135e712186f19165
-  source: 'https://gitlab.com/fparchive/player-9.0.262.0/raw/master/Release/FlashPlayer.exe'
+  source: 'https://archive.org/download/shockpkg_packages_a/a1/a7/0101668daedf518687b17ff9d1b198e41bf9c8ccdd848cdb0b053c73b1db/FlashPlayer.exe'

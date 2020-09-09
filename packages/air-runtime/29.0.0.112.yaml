@@ -4,7 +4,7 @@
   sha256: b034340a73fa31e0eef9e014f6189f5264a31e41f2d23d8f228bb2daddd03992
   sha1: 49c1b1ee9251bb720cde7a4935b268760c592269
   md5: 9810c61e749b8f57091e612b40c67927
-  source: 'https://gitlab.com/fparchive/air-29.0.0.112/raw/master/win/AdobeAIRInstaller.zip'
+  source: 'https://archive.org/download/shockpkg_packages_b/b0/34/340a73fa31e0eef9e014f6189f5264a31e41f2d23d8f228bb2daddd03992/AdobeAIRInstaller.zip'
   packages:
     - name: air-runtime-29.0.0.112-windows
       file: AdobeAIRInstaller.exe
@@ -20,4 +20,4 @@
   sha256: 835ef4a459d89b3fb3c5fec84d0e8421997b4db83b2bee89f1260fa17dd8d450
   sha1: 0bbdda04fa741ab1e6cad1d25c3b43c340c4c915
   md5: 456cf3cfa5ad48b6c80a8c1fe3c76e26
-  source: 'https://gitlab.com/fparchive/air-29.0.0.112/raw/master/mac/AdobeAIR.dmg'
+  source: 'https://archive.org/download/shockpkg_packages_8/83/5e/f4a459d89b3fb3c5fec84d0e8421997b4db83b2bee89f1260fa17dd8d450/AdobeAIR.dmg'
