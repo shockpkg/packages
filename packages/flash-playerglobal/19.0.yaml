@@ -1,3 +1,11 @@
+- name: flash-playerglobal-19.0-2015-09-09
+  file: playerglobal19_0.swc
+  size: 389678
+  sha256: c5f53e2d6e4e80d1375888b88426c5e8af799e3526209c7a02e531f0d095e3f7
+  sha1: af11fdc98b2e720b4db1564f323eb809ec75c072
+  md5: 0a33fab8423f9b5428ffd27d62db6e90
+  source: 'https://archive.org/download/shockpkg_packages_c/c5/f5/3e2d6e4e80d1375888b88426c5e8af799e3526209c7a02e531f0d095e3f7/playerglobal19_0.swc'
+
 - name: flash-playerglobal-19.0
   file: playerglobal19_0.swc
   size: 389653

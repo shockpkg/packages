@@ -1,3 +1,11 @@
+- name: flash-playerglobal-11.5-2012-10-28
+  file: playerglobal11_5.swc
+  size: 350964
+  sha256: 043c9532153a776905a540256e6c7174b250f40f936f76ed1ed96930c4cc8d0d
+  sha1: e63181cad8a0195537b2a66ba7fb8d65542bd2b3
+  md5: e4318a48370fd65198c30c4e4b8008ed
+  source: 'https://archive.org/download/shockpkg_packages_0/04/3c/9532153a776905a540256e6c7174b250f40f936f76ed1ed96930c4cc8d0d/playerglobal11_5.swc'
+
 - name: flash-playerglobal-11.5
   file: playerglobal11_5.swc
   size: 351019

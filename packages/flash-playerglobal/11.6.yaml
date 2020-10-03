@@ -1,3 +1,11 @@
+- name: flash-playerglobal-11.6-2013-02-05
+  file: playerglobal11_6.swc
+  size: 351903
+  sha256: 0f3a3b48df754f7844652e497d5c172f1d5374a6d484c008ff7ee01d7944e2a1
+  sha1: 93a84eb29e2eb8094a52ad9a3de3b385570b22b9
+  md5: 5d41f7a3a61da52a66bb46a4844c7914
+  source: 'https://archive.org/download/shockpkg_packages_0/0f/3a/3b48df754f7844652e497d5c172f1d5374a6d484c008ff7ee01d7944e2a1/playerglobal11_6.swc'
+
 - name: flash-playerglobal-11.6
   file: playerglobal11_6.swc
   size: 351500

@@ -1,3 +1,19 @@
+- name: flash-playerglobal-30.0-2018-06-01
+  file: playerglobal30_0.swc
+  size: 472479
+  sha256: de5de55d63bdca709f671950f8e4929506ba43bf466a70c1e2661f4dd80c997a
+  sha1: 39b2bc31a3b1931929b979b679eb7fcb4ddf64c5
+  md5: 269704b421dcaa987e2bc99aeff4637b
+  source: 'https://archive.org/download/shockpkg_packages_d/de/5d/e55d63bdca709f671950f8e4929506ba43bf466a70c1e2661f4dd80c997a/playerglobal30_0.swc'
+
+- name: flash-playerglobal-30.0-2018-06-25
+  file: playerglobal30_0.swc
+  size: 472494
+  sha256: f906e5c9cbb958ec3da5c7eff054627b20eff4ac28a09bee48f6a02618fa3aad
+  sha1: ac65ecc1e2d610fe0273e2de2d380b222c48077b
+  md5: 7604d440e1c66bbbdfc636e135c2cea0
+  source: 'https://archive.org/download/shockpkg_packages_f/f9/06/e5c9cbb958ec3da5c7eff054627b20eff4ac28a09bee48f6a02618fa3aad/playerglobal30_0.swc'
+
 - name: flash-playerglobal-30.0
   file: playerglobal30_0.swc
   size: 472497

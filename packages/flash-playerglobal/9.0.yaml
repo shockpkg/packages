@@ -1,3 +1,11 @@
+- name: flash-playerglobal-9.0-2007-11-20
+  file: playerglobal9_0.swc
+  size: 135505
+  sha256: 7279cf4ab90abc796d54a99e0ce4d5bc9c0feace3c3d0a83963d3f4ebc4f7339
+  sha1: e227c7700ecd51ac7b81a787d5c63412dbf7f531
+  md5: 7f964021c9fd6c59467412d42fe6004d
+  source: 'https://archive.org/download/shockpkg_packages_7/72/79/cf4ab90abc796d54a99e0ce4d5bc9c0feace3c3d0a83963d3f4ebc4f7339/playerglobal9_0.swc'
+
 - name: flash-playerglobal-9.0
   file: playerglobal9_0.swc
   size: 135858
