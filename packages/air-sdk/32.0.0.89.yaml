@@ -1,3 +1,19 @@
+- name: air-sdk-32.0.0.89-windows-broken
+  file: AdobeAIRSDK.zip
+  size: 430293939
+  sha256: 8e0532e525b707acf8ee88d2367aed423130e185d58d00dad6d7d0f522abe311
+  sha1: a2ef7d2d17208886e9a0eb64a01433c0b88bf0aa
+  md5: 08696c3883c21d681fba3caf0d2b4bca
+  source: 'https://archive.org/download/shockpkg_packages_8/8e/05/32e525b707acf8ee88d2367aed423130e185d58d00dad6d7d0f522abe311/AdobeAIRSDK.zip'
+
+- name: air-sdk-32.0.0.89-windows-compiler-broken
+  file: AIRSDK_Compiler.zip
+  size: 467478610
+  sha256: a69bbfb30302360e76c07d817aa9f59b762b861cd7cdf7d5796fa6e2f30a4769
+  sha1: 590970158340665969972cbf3a12d2d30e56d972
+  md5: cf3136fdc9c733d089e55bc5f8d6d312
+  source: 'https://archive.org/download/shockpkg_packages_a/a6/9b/bfb30302360e76c07d817aa9f59b762b861cd7cdf7d5796fa6e2f30a4769/AIRSDK_Compiler.zip'
+
 - name: air-sdk-32.0.0.89-windows
   file: AdobeAIRSDK.zip
   size: 377152138
