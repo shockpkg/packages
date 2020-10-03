@@ -1,3 +1,35 @@
+- name: flash-player-32.0.0.223-windows-activex-2019-06-21
+  file: install_flash_player_ax.exe
+  size: 20786712
+  sha256: 69d2319f3dcee93bd9b1efc725da843e647f049168e84ce3eaea30689477eb29
+  sha1: 5d888aeaf5d7faa7730bd27e9ecb9aba006e1b0e
+  md5: 05cdd341fe8ed87e3496f2328e24f04b
+  source: 'https://archive.org/download/shockpkg_packages_6/69/d2/319f3dcee93bd9b1efc725da843e647f049168e84ce3eaea30689477eb29/install_flash_player_ax.exe'
+
+- name: flash-player-32.0.0.223-windows-npapi-2019-06-21
+  file: install_flash_player.exe
+  size: 21317144
+  sha256: e099a4403640c9e66c1648a1001f841e5f934438d8b08339486e592141a0bff4
+  sha1: 94e9920acf1a69b76965c8912f852db09af09ecc
+  md5: 93ae74c27c068e96fb4fad3acf2b99a7
+  source: 'https://archive.org/download/shockpkg_packages_e/e0/99/a4403640c9e66c1648a1001f841e5f934438d8b08339486e592141a0bff4/install_flash_player.exe'
+
+- name: flash-player-32.0.0.223-windows-ppapi-2019-06-21
+  file: install_flash_player_ppapi.exe
+  size: 21116952
+  sha256: 6ad6c83bdfc7ea2967629cac674475efe89ee002ddc88e63ea6b8c186530cd57
+  sha1: 28834a4badb1382c72f1a20aa9d9334721970ab3
+  md5: 8188efe7a0fbbac1843b8dba1faa9fb2
+  source: 'https://archive.org/download/shockpkg_packages_6/6a/d6/c83bdfc7ea2967629cac674475efe89ee002ddc88e63ea6b8c186530cd57/install_flash_player_ppapi.exe'
+
+- name: flash-player-32.0.0.223-mac-ppapi-2019-06-21
+  file: install_flash_player_osx_ppapi.dmg
+  size: 21776800
+  sha256: b886fdd24d051c4e3c53fb4c1d14b9febabb34cacfe73624b36c2fc85be2828c
+  sha1: d2ebc9d7f85e27069ace3361a355c06176adcb33
+  md5: ff9248f6a22c92b252adaedaad9d2a27
+  source: 'https://archive.org/download/shockpkg_packages_b/b8/86/fdd24d051c4e3c53fb4c1d14b9febabb34cacfe73624b36c2fc85be2828c/install_flash_player_osx_ppapi.dmg'
+
 - name: flash-player-32.0.0.223-archive
   file: fp_32.0.0.223_archive.zip
   size: 445799765

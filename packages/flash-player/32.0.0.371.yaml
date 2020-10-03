@@ -1,3 +1,27 @@
+- name: flash-player-32.0.0.371-windows-npapi-2020-04-24
+  file: install_flash_player.exe
+  size: 21332024
+  sha256: 136e8244c5098b1c6c24748d81b4fd35355dba0cb68942fbeb31092f823afaa1
+  sha1: b34cea5363db3d5b9223912e4218c66a2fa2d823
+  md5: fcd9a65e327acdae72f162f5318c65d9
+  source: 'https://archive.org/download/shockpkg_packages_1/13/6e/8244c5098b1c6c24748d81b4fd35355dba0cb68942fbeb31092f823afaa1/install_flash_player.exe'
+
+- name: flash-player-32.0.0.371-windows-ppapi-2020-04-24
+  file: install_flash_player_ppapi.exe
+  size: 21132344
+  sha256: 12433eff3e051cfab59ebd53324169c001d3028eab8a0ea754d5809f48f2740a
+  sha1: b6bebe4d0a89070deb3b15c0b6095ddf4f51ad99
+  md5: 3cb74eccb84891add355808e29a2366c
+  source: 'https://archive.org/download/shockpkg_packages_1/12/43/3eff3e051cfab59ebd53324169c001d3028eab8a0ea754d5809f48f2740a/install_flash_player_ppapi.exe'
+
+- name: flash-player-32.0.0.371-mac-ppapi-2020-04-24
+  file: install_flash_player_osx_ppapi.dmg
+  size: 21665008
+  sha256: cc6796eea07c403a658057d4ea3601a86ed193ac009a8f5de8c75c07f48c68d3
+  sha1: 689a3109b6a514621c4199e396a13a8d0228818e
+  md5: 431c7200a8f22191befdf2c1cda483e9
+  source: 'https://archive.org/download/shockpkg_packages_c/cc/67/96eea07c403a658057d4ea3601a86ed193ac009a8f5de8c75c07f48c68d3/install_flash_player_osx_ppapi.dmg'
+
 - name: flash-player-32.0.0.371-archive
   file: fp_32.0.0.371_archive.zip
   size: 406477969
