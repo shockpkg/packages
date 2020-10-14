@@ -166,10 +166,18 @@
   md5: a22691f4981d6ed8ac607859ce3cb49b
   source: 'https://archive.org/download/shockpkg_packages_7/74/e7/b5e2a1cbfa0e018204a2a400166889e2efcb62dfebf85f31c043a3c32365/playerglobal32_0.swc'
 
-- name: flash-playerglobal-32.0
+- name: flash-playerglobal-32.0-2020-08-25
   file: playerglobal32_0.swc
   size: 472249
   sha256: 730653da2a766e07f310240af12cd330b91374d8e266669f16eb5bd5a8d532c7
   sha1: c67cf2c6b89c483d1041b65a76dcf5595f939dd4
   md5: 133810a76708bbb54eec5b93dfc2ebaf
+  source: 'https://archive.org/download/shockpkg_packages_7/73/06/53da2a766e07f310240af12cd330b91374d8e266669f16eb5bd5a8d532c7/playerglobal32_0.swc'
+
+- name: flash-playerglobal-32.0
+  file: playerglobal32_0.swc
+  size: 472202
+  sha256: d3e83642757ec663946d391ed67b18021ce50d9238f71d6f62101196a1611360
+  sha1: 600be603e4f8717927850e11c472272ea45d283b
+  md5: aabfd7b972b89f9b1bd5c69f661c6ef0
   source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/playerglobal32_0.swc'
