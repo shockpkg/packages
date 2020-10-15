@@ -134,6 +134,14 @@
   md5: 09dbfad9aad85efb51a1128b2526e3ba
   source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa.dmg'
 
+- name: flash-player-32.0.0.445-mac-sa-zip
+  file: flashplayer_32_sa.zip
+  size: 10198909
+  sha256: b85914cb2ea58ae9d3fcdf47ba9d7978a61b53fabe44039559ba8b6d6cf38d8b
+  sha1: 27d9707e889294c830bbc6c617c939f89d4caeff
+  md5: f17acd383851a8db50ac67e1f3423852
+  source: 'https://archive.org/download/shockpkg_packages_b/b8/59/14cb2ea58ae9d3fcdf47ba9d7978a61b53fabe44039559ba8b6d6cf38d8b/flashplayer_32_sa.zip'
+
 - name: flash-player-32.0.0.445-mac-sa-debug
   file: flashplayer_32_sa_debug.dmg
   size: 10169950
@@ -141,6 +149,14 @@
   sha1: 7cc4916cbcffe23d246f27b05512f11e25d1c56f
   md5: f703aaf969d6e4d37cc6a8f0ba2bc9fc
   source: 'https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flashplayer_32_sa_debug.dmg'
+
+- name: flash-player-32.0.0.445-mac-sa-debug-zip
+  file: flashplayer_32_sa_debug.zip
+  size: 10485437
+  sha256: a272b2d6a679c517da8f8b8b585a88a10a5a6a5b35845bf392d227ceb12b23ad
+  sha1: fd6136572346e13f76026fb77995971b0bb97bb9
+  md5: 9ebe7286c4a08cd1a93dfa9c83277960
+  source: 'https://archive.org/download/shockpkg_packages_a/a2/72/b2d6a679c517da8f8b8b585a88a10a5a6a5b35845bf392d227ceb12b23ad/flashplayer_32_sa_debug.zip'
 
 - name: flash-player-32.0.0.445-mac-uninstaller
   file: uninstall_flash_player_osx.dmg
