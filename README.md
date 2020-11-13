@@ -2,7 +2,7 @@
 
 The master list of shockpkg packages.
 
-[![GitHub Actions](https://github.com/shockpkg/packages/workflows/main/badge.svg?branch=master)](https://github.com/shockpkg/packages/actions?query=workflow%3Amain+branch%3Amaster)
+[![Build Status](https://github.com/shockpkg/packages/workflows/main/badge.svg?branch=master)](https://github.com/shockpkg/packages/actions?query=workflow%3Amain+branch%3Amaster)
 
 
 # Bugs
