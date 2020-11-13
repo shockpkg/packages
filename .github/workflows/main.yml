@@ -14,11 +14,11 @@ jobs:
 
     - run: npm install
     - run: npm run clean
-    # - run: npm run lint
-    # - run: npm run test
-    # - run: npm run verify
-    # - run: npm run newest
-    # - run: npm run newest-harman-airsdk
+    - run: npm run lint
+    - run: npm run test
+    - run: npm run verify
+    - run: npm run newest
+    - run: npm run newest-harman-airsdk
     - run: npm run build
 
     - uses: actions/upload-artifact@v2
