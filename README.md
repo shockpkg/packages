@@ -2,8 +2,6 @@
 
 The master list of shockpkg packages.
 
-[![Build Status](https://travis-ci.com/shockpkg/packages.svg?branch=master)](https://travis-ci.com/shockpkg/packages)
-
 
 # Bugs
 
