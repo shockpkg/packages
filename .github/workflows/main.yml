@@ -12,7 +12,8 @@ jobs:
       with:
         node-version: '14.15.0'
 
-    - run: |
+    - name: Build
+      run: |
         npm install
         npm run clean
         npm run lint
