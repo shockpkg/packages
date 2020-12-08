@@ -1,115 +1,63 @@
 'use strict';
 
-const puppeteer = require('puppeteer');
+const url = require('url');
 
-const base = 'https://airsdk.harman.com/download';
+const {requestPromise} = require('./request');
 
-// const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+// The API this page loads download list from.
+// https://airsdk.harman.com/download
+const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';
+
+function addQueryArg(url, params) {
+	return url + (url.includes('?') ? '&' : '?') +
+		Object.entries(params)
+			.map(a => a.map(encodeURIComponent).join('='))
+			.join('&');
+}
 
 async function list() {
-	const browser = await puppeteer.launch({
-		// headless: false
-	});
-	const page = await browser.newPage();
-	await page.goto(base);
-	await page.waitForFunction(() => {
-		/* eslint-disable */
-		const el = document.querySelector(
-			'#downloadContent [type="checkbox"]'
-		);
-		if (el && !el.checked) {
-			el.click();
-		}
-		return !![...document.querySelectorAll('#downloadArea a')].filter(
-			a => a.href.includes('?id=')
-		).length;
-		/* eslint-enable */
-	});
-	const info = await page.evaluate(() => {
-		/* eslint-disable */
-		const title = document.querySelector(
-			'#downloadContent .contentTitle'
-		).textContent;
-		const downloadContentText = document.querySelector(
-			'#downloadContent'
-		).textContent;
-		const downloads = [...document.querySelectorAll('#downloadArea a')].map(
-			a => a.href
-		);
-		return '' + JSON.stringify({
-			title,
-			downloadContentText,
-			downloads
-		});
-		/* eslint-enable */
-	});
-	const cookies = await page.cookies(base);
-	await page.close();
-	await browser.close();
+	const {response} = await requestPromise(apiUrl);
+	const data = JSON.parse(response.body);
+	const cookies = response.headers['set-cookie']
+		.filter(c => c.startsWith('JSESSIONID='));
 
-	const {downloadContentText, downloads} = JSON.parse(info);
-
-	// Parse out the version.
-	const versionMatch = downloadContentText.match(
-		/\s([\d]+\.[\d]+\.[\d]+\.[\d]+)[\D|$]/i
-	);
-	if (!versionMatch) {
-		throw new Error(`Failed to extract version from body: ${versionMatch}`);
+	const {latestVersion, id} = data;
+	const {versionName: version, links} = latestVersion;
+	if (!/^\d+\.\d+\.\d+\.\d+$/.test(version)) {
+		throw new Error(`Version format: ${version}`);
 	}
-	const [, version] = versionMatch;
 
-	// Parse out the downloads.
-	const downloadsClean = [];
-	for (const download of downloads) {
-		const file = download.split('?')[0].split('#')[0].split('/').pop();
-		const isMac = /macos/i.test(file);
-		const isWindows = /windows/i.test(file);
-		const isFlex = /flex/i.test(file);
-		if (!isMac && !isWindows) {
-			continue;
+	const downloads = [];
+	for (const [name, prop] of [
+		[`air-sdk-${version}-windows`, 'SDK_FLEX_WIN'],
+		[`air-sdk-${version}-windows-compiler`, 'SDK_AS_WIN'],
+		[`air-sdk-${version}-mac`, 'SDK_FLEX_MAC'],
+		[`air-sdk-${version}-mac-compiler`, 'SDK_AS_MAC']
+	]) {
+		const link = links[prop];
+		if (!link) {
+			throw new Error(`Missing link: ${prop}`);
 		}
-		const name = ['air-sdk', version];
-		if (isMac) {
-			name.push('mac');
-		}
-		if (isWindows) {
-			name.push('windows');
-		}
-		if (!isFlex) {
-			name.push('compiler');
-		}
-		downloadsClean.push({
-			name: name.join('-'),
+		const source = addQueryArg(url.resolve(apiUrl, link), {id});
+		const file = decodeURI(source.split(/[?#]/)[0]
+			.split('/')
+			.pop());
+		downloads.push({
+			name,
 			file,
-			source: download
+			source
 		});
 	}
-	downloadsClean.sort((a, b) => {
-		a = a.name.includes('compiler') ? 1 : 0;
-		b = b.name.includes('compiler') ? 1 : 0;
-		return a - b;
-	});
-	downloadsClean.sort((a, b) => {
-		a = a.name.includes('windows') ? 0 : 1;
-		b = b.name.includes('windows') ? 0 : 1;
-		return a - b;
-	});
-
-	// Parse out required cookies.
-	const cookiesClean = cookies.filter(c => c.name === 'JSESSIONID');
 
 	return {
 		version,
-		downloads: downloadsClean,
-		cookies: cookiesClean
+		downloads,
+		cookies
 	};
 }
 exports.list = list;
 
 function cookies(list) {
-	return list.map(c => [
-		c.name,
-		c.value
-	].map(encodeURIComponent).join('=')).join('; ');
+	return list.map(c => c.split(';')[0]).join('; ');
 }
 exports.cookies = cookies;
