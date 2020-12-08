@@ -8,7 +8,7 @@ const {requestPromise} = require('./request');
 // https://airsdk.harman.com/download
 const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';
 
-function addQueryArg(url, params) {
+function addQueryParams(url, params) {
 	return url + (url.includes('?') ? '&' : '?') +
 		Object.entries(params)
 			.map(a => a.map(encodeURIComponent).join('='))
@@ -38,10 +38,12 @@ async function list() {
 		if (!link) {
 			throw new Error(`Missing link: ${prop}`);
 		}
-		const source = addQueryArg(url.resolve(apiUrl, link), {id});
-		const file = decodeURI(source.split(/[?#]/)[0]
-			.split('/')
-			.pop());
+		const source = addQueryParams(url.resolve(apiUrl, link), {id});
+		const file = decodeURI(
+			source.split(/[?#]/)[0]
+				.split('/')
+				.pop()
+		);
 		downloads.push({
 			name,
 			file,
