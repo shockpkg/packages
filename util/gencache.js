@@ -16,7 +16,7 @@ function cacheBin(name) {
 	return path.join(gencacheDir, `${name}.bin`);
 }
 
-async function download(name, url, onprogress = null) {
+async function download(name, url, onprogress = null, headers = {}) {
 	await fse.ensureDir(gencacheDir);
 
 	const fileCacheTmp = cacheTmp(name);
@@ -31,7 +31,8 @@ async function download(name, url, onprogress = null) {
 		// eslint-disable-next-line no-await-in-loop
 		await requestDownloadPromise(
 			{
-				url
+				url,
+				headers
 			},
 			fileCacheTmp,
 			response => {
@@ -66,7 +67,7 @@ async function download(name, url, onprogress = null) {
 	};
 }
 
-async function ensure(name, url, onprogress = null) {
+async function ensure(name, url, onprogress = null, headers = {}) {
 	await fse.ensureDir(gencacheDir);
 
 	const fileCacheBin = cacheBin(name);
@@ -80,7 +81,7 @@ async function ensure(name, url, onprogress = null) {
 		};
 	}
 	else {
-		r = await download(name, url, onprogress);
+		r = await download(name, url, onprogress, headers);
 	}
 	return r;
 }

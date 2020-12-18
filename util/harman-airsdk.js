@@ -17,6 +17,10 @@ function addQueryParams(url, params) {
 
 async function list() {
 	const {response} = await requestPromise(apiUrl);
+	const {statusCode} = response;
+	if (statusCode !== 200) {
+		throw new Error(`Unexpected status code: ${statusCode}`);
+	}
 	const data = JSON.parse(response.body);
 	const cookies = response.headers['set-cookie']
 		.filter(c => c.startsWith('JSESSIONID='));

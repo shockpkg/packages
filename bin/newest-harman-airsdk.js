@@ -5,19 +5,17 @@
 
 const {requestPromise} = require('../util/request');
 const harmanAirsdk = require('../util/harman-airsdk');
-
-const expected = new Map([
-	['air-sdk-33.1.1.300-windows', 604768938],
-	['air-sdk-33.1.1.300-windows-compiler', 641811705],
-	['air-sdk-33.1.1.300-mac', 589492130],
-	['air-sdk-33.1.1.300-mac-compiler', 626564798]
-]);
+const {read: packageRead} = require('../util/package');
 
 async function main() {
 	const start = Date.now();
-
 	const passed = new Set();
+
 	const list = await harmanAirsdk.list();
+	const expected = new Map(
+		(await packageRead('air-sdk', list.version))
+			.map(p => [p.name, p.size])
+	);
 	const cookie = harmanAirsdk.cookies(list.cookies);
 	for (const {name, source} of list.downloads) {
 		console.log(`Checking: ${name}`);
