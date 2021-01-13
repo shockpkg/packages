@@ -152,16 +152,26 @@ async function main() {
 		console.log(`Name: ${name}`);
 		console.log(`URL: ${url}`);
 
-		// eslint-disable-next-line no-await-in-loop
-		const cached = await gencache.ensure(name, url, progress => {
-			const percent = progress * 100;
-			process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%\r`);
-		});
-		if (cached.downloaded) {
-			console.log('');
+		let cached = null;
+		try {
+			// eslint-disable-next-line no-await-in-loop
+			cached = await gencache.ensure(name, url, progress => {
+				const percent = progress * 100;
+				process.stdout.write(
+					`\rDownloading: ${percent.toFixed(2)}%\r`
+				);
+			});
+			if (cached.downloaded) {
+				console.log('');
+			}
+			else {
+				console.log('Cached');
+			}
 		}
-		else {
-			console.log('Cached');
+		catch (err) {
+			console.log(err);
+			console.log('');
+			continue;
 		}
 
 		// eslint-disable-next-line no-await-in-loop
