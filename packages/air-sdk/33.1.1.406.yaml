@@ -1,0 +1,31 @@
+- name: air-sdk-33.1.1.406-windows
+  file: AIRSDK_Flex_Windows.zip
+  size: 605132598
+  sha256: b9c563b4aa5026e52d077e0823b4ba12ceddff4a22b0a003b3e8bb799fd1e17d
+  sha1: 3f967328814beae80cab554041c6b0d6b1444f71
+  md5: 6b8e974dae7dc5d30f68955194950760
+  source: 'https://archive.org/download/shockpkg_packages_b/b9/c5/63b4aa5026e52d077e0823b4ba12ceddff4a22b0a003b3e8bb799fd1e17d/AIRSDK_Flex_Windows.zip'
+
+- name: air-sdk-33.1.1.406-windows-compiler
+  file: AIRSDK_Windows.zip
+  size: 642175365
+  sha256: 8c184e161499b7f9929e9ccead42cb6f03ec7f1cb106e05b1ba0b10aad6c1503
+  sha1: 768c66e47752180d96f6ccf649f3778452420721
+  md5: c867bc00ec2e90a0987abcbb949efebf
+  source: 'https://archive.org/download/shockpkg_packages_8/8c/18/4e161499b7f9929e9ccead42cb6f03ec7f1cb106e05b1ba0b10aad6c1503/AIRSDK_Windows.zip'
+
+- name: air-sdk-33.1.1.406-mac
+  file: AIRSDK_Flex_MacOS.zip
+  size: 590251686
+  sha256: b76ff4033578ba24dd716772cf3ade3491f9b94e830fc25645760ec2c335b44b
+  sha1: 532d33b1b72173556e297e3d0c16e1b754cc9f6a
+  md5: 7788f28bff8c005d45e0dfbdc1156a1b
+  source: 'https://archive.org/download/shockpkg_packages_b/b7/6f/f4033578ba24dd716772cf3ade3491f9b94e830fc25645760ec2c335b44b/AIRSDK_Flex_MacOS.zip'
+
+- name: air-sdk-33.1.1.406-mac-compiler
+  file: AIRSDK_MacOS.zip
+  size: 627324352
+  sha256: e9a83c18fc3f5aad52ea7795ea1e87af20af7796920324c06b3f506c4cef0004
+  sha1: 7e9c4383d1c7a1cdc3236a3de37590298f027bf1
+  md5: 374c2a08739b2086442c008b0e3a45d6
+  source: 'https://archive.org/download/shockpkg_packages_e/e9/a8/3c18fc3f5aad52ea7795ea1e87af20af7796920324c06b3f506c4cef0004/AIRSDK_MacOS.zip'
