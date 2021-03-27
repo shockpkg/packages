@@ -14,6 +14,6 @@ Outdated URL's are typically found by daily testing via a cron script.
 
 # License
 
-Copyright (c) 2018-2020 JrMasterModelBuilder
+Copyright (c) 2018-2021 JrMasterModelBuilder
 
 Licensed under the Mozilla Public License, v. 2.0.
