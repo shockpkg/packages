@@ -1,6 +1,6 @@
 # shockpkg packages
 
-The master list of shockpkg packages.
+The primary list of shockpkg packages.
 
 [![Build Status](https://github.com/shockpkg/packages/workflows/main/badge.svg?branch=master)](https://github.com/shockpkg/packages/actions?query=workflow%3Amain+branch%3Amaster)
 
