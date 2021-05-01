@@ -1,3 +1,11 @@
+- name: flash-playerglobal-20.0-2015-11-21
+  file: playerglobal20_0.swc
+  size: 387768
+  sha256: 438a0d7f0880b5553d2401a22a3a3cf66a72067b6429b6bf3ccf4e0a9c41159b
+  sha1: 8ed7674f4adc920d3e178d4184da9eb5c92e816c
+  md5: 043dde812ca5c3afc109972108ad084b
+  source: 'https://archive.org/download/shockpkg_packages_4/43/8a/0d7f0880b5553d2401a22a3a3cf66a72067b6429b6bf3ccf4e0a9c41159b/playerglobal20_0.swc'
+
 - name: flash-playerglobal-20.0
   file: playerglobal20_0.swc
   size: 388430

@@ -1,3 +1,11 @@
+- name: flash-playerglobal-25.0-2017-02-28
+  file: playerglobal25_0.swc
+  size: 470653
+  sha256: 6e488e4687beb862be2e565ed6cf2dd2222d3bebdaea1c3a9fea51918682ff0f
+  sha1: 6a3c91f4e23dfa8acd8802a6a2b269e6ef2b4f87
+  md5: 0823ab6a2f6b821ff29b363e8ee5a092
+  source: 'https://archive.org/download/shockpkg_packages_6/6e/48/8e4687beb862be2e565ed6cf2dd2222d3bebdaea1c3a9fea51918682ff0f/playerglobal25_0.swc'
+
 - name: flash-playerglobal-25.0
   file: playerglobal25_0.swc
   size: 471045
