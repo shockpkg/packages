@@ -7,7 +7,6 @@ const asyncQueue = require('async/queue');
 
 const {requestPromise} = require('../util/request');
 
-// Used to check for Shockwave Player updates, but downloads are all down.
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [
 	// {
@@ -63,8 +62,7 @@ const resources = [
 		size: 18771823,
 		lastModified: 'Mon, 15 Apr 2019 05:30:08 GMT',
 		eTag: '"11e6f6f-5868af21a4ce4"'
-	}
-	// ,
+	},
 	// {
 	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full.dmg',
 	// 	size: 22513907,
@@ -77,6 +75,16 @@ const resources = [
 	// 	lastModified: 'Thu, 04 Oct 2012 18:22:26 GMT',
 	// 	eTag: '"3b556e-4cb3fd6533c80"'
 	// }
+	{
+		source: 'https://airsdk.harman.com/assets/downloads/AdobeAIR.exe',
+		size: 7836320,
+		lastModified: 'Tue, 13 Apr 2021 09:00:03 GMT'
+	},
+	{
+		source: 'https://airsdk.harman.com/assets/downloads/AdobeAIR.dmg',
+		size: 12580856,
+		lastModified: 'Tue, 13 Apr 2021 09:00:03 GMT'
+	}
 ];
 
 const headerMappings = [
