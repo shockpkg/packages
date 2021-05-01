@@ -6,7 +6,8 @@
 		"test-verbose": "SPEC_REPORTER=1 jasmine",
 		"verify": "node ./bin/verify",
 		"newest": "node ./bin/newest",
-		"newest-harman-airsdk": "node ./bin/newest-harman-airsdk",
+		"newest-harman-air-sdk": "node ./bin/newest-harman-air-sdk",
+		"newest-harman-air-runtime": "node ./bin/newest-harman-air-runtime",
 		"clean": "rimraf ./dist",
 		"build": "node ./bin/build"
 	},
