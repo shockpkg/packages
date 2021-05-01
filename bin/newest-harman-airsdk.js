@@ -10,6 +10,7 @@ const {read: packageRead} = require('../util/package');
 async function main() {
 	const start = Date.now();
 	const passed = new Set();
+	const failed = new Set();
 
 	const list = await harmanAirsdk.list();
 	const expected = new Map(
@@ -31,6 +32,7 @@ async function main() {
 		});
 
 		if (response.statusCode !== 200) {
+			failed.add(name);
 			console.log(`Error: Status code: ${response.statusCode}`);
 			console.log('');
 			continue;
@@ -39,6 +41,7 @@ async function main() {
 		const size = +response.headers['content-length'];
 		console.log(`Size: ${size}`);
 		if (!expected.has(name)) {
+			failed.add(name);
 			console.log(`Error: Unknown name: ${name}`);
 			console.log('');
 			continue;
@@ -46,6 +49,7 @@ async function main() {
 
 		const sized = expected.get(name);
 		if (size !== sized) {
+			failed.add(name);
 			console.log(`Error: Unexpected size: ${size}`);
 			console.log('');
 			continue;
@@ -56,14 +60,13 @@ async function main() {
 	}
 
 	const end = Date.now();
-	const failed = expected.size - passed.size;
 
 	console.log(`Passed: ${passed.size}`);
-	console.log(`Failed: ${failed}`);
+	console.log(`Failed: ${failed.size}`);
 	console.log(`Done after ${end - start}ms`);
 	console.log('');
 
-	if (failed) {
+	if (failed.size) {
 		process.exitCode = 1;
 	}
 }
