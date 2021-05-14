@@ -99,7 +99,7 @@ function read() {
 		// eslint-disable-next-line no-sync
 		const code = fs.readFileSync(filePath, 'utf8');
 
-		const doc = yaml.safeLoad(code);
+		const doc = yaml.load(code);
 		packages.push(...doc);
 	}
 	return {
