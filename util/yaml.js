@@ -3,7 +3,7 @@
 const yaml = require('js-yaml');
 
 function packages(doc) {
-	const y = yaml.safeDump(doc, {
+	const y = yaml.dump(doc, {
 		lineWidth: 1000000,
 		noRefs: true,
 		indent: 2
