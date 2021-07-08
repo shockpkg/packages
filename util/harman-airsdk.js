@@ -36,7 +36,9 @@ async function list() {
 		[`air-sdk-${version}-windows`, 'SDK_FLEX_WIN'],
 		[`air-sdk-${version}-windows-compiler`, 'SDK_AS_WIN'],
 		[`air-sdk-${version}-mac`, 'SDK_FLEX_MAC'],
-		[`air-sdk-${version}-mac-compiler`, 'SDK_AS_MAC']
+		[`air-sdk-${version}-mac-compiler`, 'SDK_AS_MAC'],
+		[`air-sdk-${version}-linux`, 'SDK_FLEX_LIN'],
+		[`air-sdk-${version}-linux-compiler`, 'SDK_AS_LIN']
 	]) {
 		const link = links[prop];
 		if (!link) {
