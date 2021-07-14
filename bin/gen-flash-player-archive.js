@@ -334,11 +334,10 @@ async function main() {
 	const {size} = stat;
 	console.log(`Size: ${size}`);
 
-	const sha256 = await hash.file(cached.filepath, 'sha256');
+	const [sha256, sha1, md5] =
+		await hash.file(cached.filepath, ['sha256', 'sha1', 'md5']);
 	console.log(`SHA256: ${sha256}`);
-	const sha1 = await hash.file(cached.filepath, 'sha1');
 	console.log(`SHA1: ${sha1}`);
-	const md5 = await hash.file(cached.filepath, 'md5');
 	console.log(`MD5: ${md5}`);
 	console.log('');
 
@@ -359,11 +358,10 @@ async function main() {
 		const size = data.length;
 		console.log(`Size: ${size}`);
 
-		const sha256 = await hash.buffer(data, 'sha256');
+		const [sha256, sha1, md5] =
+		await hash.buffer(data, ['sha256', 'sha1', 'md5']);
 		console.log(`SHA256: ${sha256}`);
-		const sha1 = await hash.buffer(data, 'sha1');
 		console.log(`SHA1: ${sha1}`);
-		const md5 = await hash.buffer(data, 'md5');
 		console.log(`MD5: ${md5}`);
 
 		const meta = createMeta(filepath);
