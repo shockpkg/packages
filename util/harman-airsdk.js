@@ -31,19 +31,31 @@ async function list() {
 		throw new Error(`Version format: ${version}`);
 	}
 
-	const downloads = [];
-	for (const [name, prop] of [
+	const mappins = [
 		[`air-sdk-${version}-windows`, 'SDK_FLEX_WIN'],
 		[`air-sdk-${version}-windows-compiler`, 'SDK_AS_WIN'],
 		[`air-sdk-${version}-mac`, 'SDK_FLEX_MAC'],
 		[`air-sdk-${version}-mac-compiler`, 'SDK_AS_MAC'],
 		[`air-sdk-${version}-linux`, 'SDK_FLEX_LIN'],
 		[`air-sdk-${version}-linux-compiler`, 'SDK_AS_LIN']
-	]) {
+	];
+
+	const allLinks = new Set(Object.keys(links));
+	allLinks.delete('RELEASE_NOTES');
+	for (const [name, prop] of mappins) {
 		const link = links[prop];
 		if (!link) {
 			throw new Error(`Missing link: ${prop}`);
 		}
+		allLinks.delete(prop);
+	}
+	if (allLinks.size) {
+		throw new Error(`Unknown links: ${[...allLinks].join(',')}`);
+	}
+
+	const downloads = [];
+	for (const [name, prop] of mappins) {
+		const link = links[prop];
 		const source = addQueryParams(url.resolve(apiUrl, link), {id});
 		const file = decodeURI(
 			source.split(/[?#]/)[0]
