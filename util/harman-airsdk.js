@@ -42,7 +42,7 @@ async function list() {
 
 	const allLinks = new Set(Object.keys(links));
 	allLinks.delete('RELEASE_NOTES');
-	for (const [name, prop] of mappins) {
+	for (const [, prop] of mappins) {
 		const link = links[prop];
 		if (!link) {
 			throw new Error(`Missing link: ${prop}`);
