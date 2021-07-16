@@ -172,7 +172,7 @@ async function main() {
 			}
 
 			if (metadata.private) {
-				throw new Error(`Unexpected private`);
+				throw new Error('Unexpected private');
 			}
 
 			taskEnd(task, null);
