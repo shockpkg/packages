@@ -3,10 +3,92 @@
 /* eslint-disable no-console */
 'use strict';
 
+const {URL} = require('url');
+
 const asyncQueue = require('async/queue');
 
 const packages = require('../util/packages');
 const {requestPromise} = require('../util/request');
+
+function archiveOrgParse(url) {
+	const u = new URL(url);
+	if (u.host !== 'archive.org') {
+		return null;
+	}
+	const path = u.pathname.split('/');
+	if (path.shift() !== '' || path.shift() !== 'download') {
+		return null;
+	}
+	const item = path.shift();
+	return {
+		item,
+		path: decodeURI(path.join('/'))
+	};
+}
+
+const archiveOrgMetadataCache = {};
+function archiveOrgMetadata(item) {
+	if (!archiveOrgMetadataCache[item]) {
+		archiveOrgMetadataCache[item] = requestPromise({
+			url: `https://archive.org/metadata/${encodeURI(item)}/`
+		}).then(({response}) => {
+			const {statusCode} = response;
+			if (statusCode !== 200) {
+				throw new Error(`Unexpected status code: ${statusCode}`);
+			}
+			const files = new Map();
+			for (const file of JSON.parse(response.body).files) {
+				const info = {
+					size: +file.size,
+					md5: file.md5,
+					sha1: file.sha1
+				};
+
+				const parts = file.name.split('/');
+				parts.pop();
+				const maybeSha256 = parts.join('');
+				if (maybeSha256.length === 64) {
+					info.sha256 = maybeSha256;
+				}
+
+				if (file.private) {
+					info.private = true;
+				}
+
+				files.set(file.name, info);
+			}
+			return files;
+		});
+	}
+	return archiveOrgMetadataCache[item];
+}
+
+async function getMetadataForUrl(url) {
+	const archiveOrg = archiveOrgParse(url);
+	if (archiveOrg) {
+		const metadata = await archiveOrgMetadata(archiveOrg.item);
+		const info = metadata.get(archiveOrg.path);
+		if (!info) {
+			throw new Error(`Unknown item entry: ${url}`);
+		}
+		return info;
+	}
+
+	const {response} = await requestPromise({
+		method: 'HEAD',
+		url,
+		followRedirect: url.startsWith('https://archive.org/')
+	});
+
+	const {statusCode} = response;
+	if (statusCode !== 200) {
+		throw new Error(`Unexpected status code: ${statusCode}`);
+	}
+
+	return {
+		size: +response.headers['content-length']
+	};
+}
 
 async function main() {
 	const start = Date.now();
@@ -67,24 +149,30 @@ async function main() {
 			task.attempt++;
 
 			console.log(`${task.pkg.name}: Checking [${retryStat(task)}]`);
-			const {source} = task.pkg;
-			const {response} = await requestPromise({
-				method: 'HEAD',
-				url: source,
-				followRedirect: source.startsWith('https://archive.org/')
-			});
+			const metadata = await getMetadataForUrl(task.pkg.source);
 
-			const {statusCode} = response;
-			if (statusCode !== 200) {
-				throw new Error(`Unexpected status code: ${statusCode}`);
-			}
-
-			const contentLength = +response.headers['content-length'];
-			if (contentLength !== task.pkg.size) {
+			if (metadata.size !== task.pkg.size) {
 				throw new Error(
-					`Unexpected content-length: ${contentLength}` +
+					`Unexpected size: ${metadata.size}` +
 					` (expected ${task.pkg.size})`
 				);
+			}
+
+			for (const algo of ['md5', 'sha1', 'sha256']) {
+				if (!metadata[algo]) {
+					continue;
+				}
+				if (metadata[algo] === task.pkg[algo]) {
+					continue;
+				}
+				throw new Error(
+					`Unexpected ${algo}: ${metadata[algo]}` +
+					` (expected ${task.pkg[algo]})`
+				);
+			}
+
+			if (metadata.private) {
+				throw new Error(`Unexpected private`);
 			}
 
 			taskEnd(task, null);
