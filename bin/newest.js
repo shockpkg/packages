@@ -78,12 +78,12 @@ const resources = [
 	{
 		source: 'https://airsdk.harman.com/assets/downloads/AdobeAIR.exe',
 		size: 7836448,
-		lastModified: 'Thu, 05 Aug 2021 10:15:34 GMT'
+		lastModified: 'Mon, 20 Sep 2021 13:51:13 GMT'
 	},
 	{
 		source: 'https://airsdk.harman.com/assets/downloads/AdobeAIR.dmg',
 		size: 18748657,
-		lastModified: 'Thu, 05 Aug 2021 10:15:34 GMT'
+		lastModified: 'Mon, 20 Sep 2021 13:51:13 GMT'
 	}
 ];
 
