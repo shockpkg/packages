@@ -45,3 +45,19 @@
       sha1: bb564198ae07889f528ee41729d7f54b5844d3d6
       md5: 49819876d0329f3b84eb232b5b88e0d8
       source: fp_11.2.202.569_archive/11_2r202_569_64bit/flash-plugin-11.2.202.569-release.x86_64.tar.gz
+
+- name: flash-player-11.2.202.569-linux-i386-npapi-rpm
+  file: flash-plugin-11.2.202.569-release.i386.rpm
+  size: 6948640
+  sha256: 1061323ee28cd9ad4e66ff4421fc773cd6e5495b67b3a31b02c8816b04676c84
+  sha1: 9328b2f14cff1e5b9e4b0cd341d53edfecfc7ae0
+  md5: 5ecd40d9ba73c78dbc69f58b3c146cd7
+  source: 'https://archive.org/download/shockpkg_packages_1/10/61/323ee28cd9ad4e66ff4421fc773cd6e5495b67b3a31b02c8816b04676c84/flash-plugin-11.2.202.569-release.i386.rpm'
+
+- name: flash-player-11.2.202.569-linux-x86_64-npapi-rpm
+  file: flash-plugin-11.2.202.569-release.x86_64.rpm
+  size: 7257151
+  sha256: 69ded8d5d07ef28e89679e74197204c8eed682d5df25f8074137707e788449f3
+  sha1: bf9af87ee6515b44bd180c6166b87a3b5d57e9d0
+  md5: dc80d6f945137d39387af6bc5c5484eb
+  source: 'https://archive.org/download/shockpkg_packages_6/69/de/d8d5d07ef28e89679e74197204c8eed682d5df25f8074137707e788449f3/flash-plugin-11.2.202.569-release.x86_64.rpm'
