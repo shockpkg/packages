@@ -1582,6 +1582,14 @@
       md5: f885d99f8cf70844a838bb32c026ce31
       source: fp9_debug_archive/9r277/flashplayer9r277_linux_sa_debug.tar.gz
 
+- name: flash-player-9.0.16.0-windows-sa-debug
+  file: SAFlashPlayer.exe
+  size: 2766472
+  sha256: 19eaf4f294b78aa98d056028318fbec0cb1d6fdbcf14ffa1662ed8bee6c15c71
+  sha1: 548292f7302054d02d70040a0f48dc1d83180033
+  md5: 15a6605156e29f68fdfd637e73a889d4
+  source: 'https://archive.org/download/shockpkg_packages_1/19/ea/f4f294b78aa98d056028318fbec0cb1d6fdbcf14ffa1662ed8bee6c15c71/SAFlashPlayer.exe'
+
 - name: flash-player-9.0.28.0-mac-sa-debug-zip
   file: flashplayer9r28_mac_standalone_debug.zip
   size: 4112358
