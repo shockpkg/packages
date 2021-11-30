@@ -1582,7 +1582,7 @@
       md5: f885d99f8cf70844a838bb32c026ce31
       source: fp9_debug_archive/9r277/flashplayer9r277_linux_sa_debug.tar.gz
 
-- name: flash-player-9.0.16.0-windows-sa-debug
+- name: flash-player-9.0.16.0-windows-sa-debug-alt
   file: SAFlashPlayer.exe
   size: 2766472
   sha256: 19eaf4f294b78aa98d056028318fbec0cb1d6fdbcf14ffa1662ed8bee6c15c71
