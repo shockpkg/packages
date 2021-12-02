@@ -573,3 +573,11 @@
       sha1: 7d787655a43a54c37ddb0696e6caa0423e05fc1a
       md5: 800bb769df16ca5d8045342e98534e20
       source: Players/Debug/SAFlashPlayer.hqx
+
+- name: flash-player-8.0.42.0-mac-sa-all
+  file: sa_flashplayer_8_all_release.dmg
+  size: 9086760
+  sha256: 721db339a09c90058aec3e7f6f366587a812cd5fc847c0a247057fb95123e6e0
+  sha1: 0eaa6ee37a083183d25f2a4aa4095399bd80ef42
+  md5: 116475405b513f1e6b86c170ab13f564
+  source: 'https://archive.org/download/shockpkg_packages_7/72/1d/b339a09c90058aec3e7f6f366587a812cd5fc847c0a247057fb95123e6e0/sa_flashplayer_8_all_release.dmg'
