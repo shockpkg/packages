@@ -7,6 +7,7 @@ const {readdir} = require('fs-extra');
 
 const {requestPromise} = require('../util/request');
 const {read: packageRead} = require('../util/package');
+const {buffer: hashBuffer} = require('../util/hash');
 
 const pkgsdir = `${__dirname}/../packages/air-runtime`;
 
@@ -40,17 +41,18 @@ async function main() {
 
 	const version = await newest();
 	const expected = (await packageRead('air-runtime', version))
-		.map(p => [p.name, p.file, p.size]);
-	for (const [name, file, sized] of expected) {
+		.map(p => [p.name, p.file, p.size, p.sha256]);
+	for (const [name, file, sized, sha256] of expected) {
 		const source = `https://airsdk.harman.com/assets/downloads/${file}`;
 
 		console.log(`Checking: ${name}`);
 		console.log(`URL: ${source}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const {response} = await requestPromise({
-			method: 'HEAD',
-			url: source
+		const {response, body} = await requestPromise({
+			method: 'GET',
+			url: source,
+			encoding: null
 		});
 
 		if (response.statusCode !== 200) {
@@ -64,6 +66,14 @@ async function main() {
 		if (size !== sized) {
 			failed.add(name);
 			console.log(`Error: Unexpected size: ${size} != ${sized}`);
+			console.log('');
+			continue;
+		}
+
+		const [rSha256] = hashBuffer(body, ['sha256']);
+		if (rSha256 !== sha256) {
+			failed.add(name);
+			console.log(`Error: Unexpected sha256: ${rSha256} != ${sha256}`);
 			console.log('');
 			continue;
 		}

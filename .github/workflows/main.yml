@@ -23,6 +23,7 @@ jobs:
     - run: npm run test
     - run: npm run verify
     - run: npm run newest
+    - run: npm run newest-harman-air-runtime
     - run: npm run newest-harman-air-sdk
     - run: npm run build
 
