@@ -1,3 +1,11 @@
+- name: flash-playerglobal-13.0-2014-03-26
+  file: playerglobal13_0.swc
+  size: 382191
+  sha256: cb6e26ce7b3a2ea4e97a5fce8ce6a24472a7f7ac96c6c73cdeb2d45fb44c114f
+  sha1: de677f8f653dd21c41117719240528a3b681d8a0
+  md5: 0692c60a1b2ecb1eb8165e48c1fed4c6
+  source: 'https://archive.org/download/shockpkg_packages_c/cb/6e/26ce7b3a2ea4e97a5fce8ce6a24472a7f7ac96c6c73cdeb2d45fb44c114f/playerglobal13_0.swc'
+
 - name: flash-playerglobal-13.0-2014-04-24
   file: playerglobal13_0.swc
   size: 382555
