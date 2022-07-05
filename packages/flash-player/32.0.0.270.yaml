@@ -278,6 +278,14 @@
       md5: 5aac795d50fdfbe02302bcee3c487ed3
       source: 32_0_r0_270_debug/flashplayer32_0r0_270_linux_sa_debug.x86_64.tar.gz
 
+- name: flash-player-32.0.0.270-windows-x86_64-sa
+  file: flashplayer32_0r0_270_win_sa.exe
+  size: 19123768
+  sha256: a11d4ee0ebf2bc00033d48f07b6bfc7977dc07f1adaec78ce20132cb9b057693
+  sha1: 408dd93f8d4dd150479009c0f2a0b1e09b1d6d42
+  md5: d29178910b411bf0c7dc55db817f0a0e
+  source: 'https://archive.org/download/shockpkg_packages_a/a1/1d/4ee0ebf2bc00033d48f07b6bfc7977dc07f1adaec78ce20132cb9b057693/flashplayer32_0r0_270_win_sa.exe'
+
 - name: flash-player-32.0.0.270-mac-sa-zip
   file: flashplayer32_0r0_270_mac_sa.zip
   size: 9914820
