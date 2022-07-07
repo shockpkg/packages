@@ -179,7 +179,7 @@ async function main() {
 
 			for (const [property, header] of headerMappings) {
 				const expected = task.resource[property];
-				if (expected === undefined) {
+				if (typeof expected === 'undefined') {
 					continue;
 				}
 				const actual = response.headers[header];
