@@ -305,18 +305,18 @@
 - name: flash-player-32.0.0.270-mac-sa-cr
   file: Flash Player.zip
   size: 9873641
-  sha256: 01991de4fba0a69fd714cb46bf36214155e13ff22659a1dfe44f5303d97022e9
-  sha1: 7906dac117e5e305e51737055549c73e66511cfb
-  md5: 06d97f765f356903b99037f0a9a803ca
-  source: 'https://archive.org/download/shockpkg_packages_0/01/99/1de4fba0a69fd714cb46bf36214155e13ff22659a1dfe44f5303d97022e9/Flash%20Player.zip'
+  sha256: 528e03ac793e1c984a82764f751e5e35344d48787dc2c0c8d646f211ad81fb7a
+  sha1: ae88c64ca3bef95c1a17755bec96307f28f7795c
+  md5: 2db1c28027016b86adb715a56b64d7ec
+  source: 'https://archive.org/download/shockpkg_packages_5/52/8e/03ac793e1c984a82764f751e5e35344d48787dc2c0c8d646f211ad81fb7a/Flash%20Player.zip'
 
 - name: flash-player-32.0.0.270-mac-sa-debug-cr
   file: Flash Player Debugger.zip
   size: 10165326
-  sha256: 49f9192878a80169d8ca7a59129e9175c0d54e97de2c3c33d20ce5435e37c361
-  sha1: 32e70668eaeda6fc46993507d505c71da0c75a2e
-  md5: 93fccee95a9f3a6bd54fe0fae7c0c934
-  source: 'https://archive.org/download/shockpkg_packages_4/49/f9/192878a80169d8ca7a59129e9175c0d54e97de2c3c33d20ce5435e37c361/Flash%20Player%20Debugger.zip'
+  sha256: d2107d59e6cc450a8dc02190aa86309383535eeb3d37c8d59cc607b60487e9b9
+  sha1: aafe48bfe7c541933ac5e57e8124b6b1d2b5b2aa
+  md5: d38a3b4e32bcbb918b754c2afd24b1e7
+  source: 'https://archive.org/download/shockpkg_packages_d/d2/10/7d59e6cc450a8dc02190aa86309383535eeb3d37c8d59cc607b60487e9b9/Flash%20Player%20Debugger.zip'
 
 - name: flash-player-32.0.0.270-windows-sa-2019-10-21
   file: FlashPlayer.exe
