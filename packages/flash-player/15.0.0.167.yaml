@@ -13,6 +13,7 @@
       sha1: 06a879ad46f98ec0a8b6e6095d08a8a01ea1a1fd
       md5: b9f0f2c0dc990b63ee1a0765bcec06d5
       source: fp_15.0.0.167_archive/15_0_r0_167/flashplayer15_0r0_167_winax.exe
+      zipped: 8-211-17186929
 
     - name: flash-player-15.0.0.167-windows-activex-msi
       file: flashplayer15_0r0_167_winax.msi
@@ -21,6 +22,7 @@
       sha1: 79f04ea94d033c07e7cc889751769e98f99d23fb
       md5: 9d75b1844e17e1b0aa22d7ad6601caca
       source: fp_15.0.0.167_archive/15_0_r0_167/flashplayer15_0r0_167_winax.msi
+      zipped: 8-17187235-17516502
 
     - name: flash-player-15.0.0.167-windows-activex-debug
       file: flashplayer15_0r0_167_winax_debug.exe
@@ -29,6 +31,7 @@
       sha1: 023d6a31542ab0a77233cc4cef2db5ada87f100c
       md5: 0b48c6996ddb94c3f9b2c7bf258636be
       source: fp_15.0.0.167_archive/15_0_r0_167_debug/flashplayer15_0r0_167_winax_debug.exe
+      zipped: 8-35419546-17573938
 
     - name: flash-player-15.0.0.167-windows-uninstaller
       file: uninstall_flashplayer15_0r0_167_win.exe
@@ -37,3 +40,4 @@
       sha1: 629faecfc744767207ce9ea4661d0409e9bda98a
       md5: a2e5173b22c5b08643d20432886916f6
       source: fp_15.0.0.167_archive/15_0_r0_167/uninstall_flashplayer15_0r0_167_win.exe
+      zipped: 8-34703840-715529

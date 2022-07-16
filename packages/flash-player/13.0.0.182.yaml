@@ -13,6 +13,7 @@
       sha1: 068ce8a17038579704272583c39b5ca0f65f16f5
       md5: ff0502cf231dd5aacff01bf8db7e675e
       source: fp_13.0.0.182_archive/13_0_r0_182/flashplayer13_0r0_182_win.exe
+      zipped: 8-15707421-17795930
 
     - name: flash-player-13.0.0.182-windows-npapi-msi
       file: flashplayer13_0r0_182_win.msi
@@ -21,6 +22,7 @@
       sha1: f6c843fb24428ab69751973f67604d016048274a
       md5: e372501df20396bc85171f977100f328
       source: fp_13.0.0.182_archive/13_0_r0_182/flashplayer13_0r0_182_win.msi
+      zipped: 8-33503444-18091122
 
     - name: flash-player-13.0.0.182-windows-npapi-debug
       file: flashplayer13_0r0_182_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 965c9981f8bc0f85f5d098190650ef47aa05d110
       md5: eada3ff9cad39042b76795de0add55cb
       source: fp_13.0.0.182_archive/13_0_r0_182_debug/flashplayer13_0r0_182_win_debug.exe
+      zipped: 8-133621430-17607735
 
     - name: flash-player-13.0.0.182-windows-activex
       file: flashplayer13_0r0_182_winax.exe
@@ -37,6 +40,7 @@
       sha1: 88bb28e25e841bf395845c47615982f932c9635f
       md5: 21c43e09f3e0fed5a21133808aab079b
       source: fp_13.0.0.182_archive/13_0_r0_182/flashplayer13_0r0_182_winax.exe
+      zipped: 8-51594661-17207621
 
     - name: flash-player-13.0.0.182-windows-activex-msi
       file: flashplayer13_0r0_182_winax.msi
@@ -45,6 +49,7 @@
       sha1: fbe7a2698da29284be8366adaf8765e9990fd6e0
       md5: 0198596215c22895ceb533efc8508dc1
       source: fp_13.0.0.182_archive/13_0_r0_182/flashplayer13_0r0_182_winax.msi
+      zipped: 8-68802377-17500125
 
     - name: flash-player-13.0.0.182-windows-activex-debug
       file: flashplayer13_0r0_182_winax_debug.exe
@@ -53,6 +58,7 @@
       sha1: acee4dff71ecdeb8dd66b91ee2b96e770878379f
       md5: e5f0bad1e099bbd77d60dc4f9e070012
       source: fp_13.0.0.182_archive/13_0_r0_182_debug/flashplayer13_0r0_182_winax_debug.exe
+      zipped: 8-115970184-17651141
 
     - name: flash-player-13.0.0.182-windows-sa-debug
       file: flashplayer13_0r0_182_win_sa_debug.exe
@@ -61,6 +67,7 @@
       sha1: f1cbeab52864142a53747544b009912edf6a1327
       md5: 66d6083486183099705777a1e634417b
       source: fp_13.0.0.182_archive/13_0_r0_182_debug/flashplayer13_0r0_182_win_sa_debug.exe
+      zipped: 8-151229273-4883104
 
     - name: flash-player-13.0.0.182-windows-uninstaller
       file: uninstall_flashplayer13_0r0_182_win.exe
@@ -69,6 +76,7 @@
       sha1: 16e4359fd3f75e360467bd5c173b9cc4b00addaa
       md5: 8d34173b03b6cf7c8ccd925bf2b44d5e
       source: fp_13.0.0.182_archive/13_0_r0_182/uninstall_flashplayer13_0r0_182_win.exe
+      zipped: 8-86541738-703573
 
     - name: flash-player-13.0.0.182-mac-npapi
       file: flashplayer13_0r0_182_mac.dmg
@@ -77,6 +85,7 @@
       sha1: 3beeb64cb4f8384ad47b99314dcce57f39c68d6a
       md5: 806b4571bb915c77e84438a8e03c9f44
       source: fp_13.0.0.182_archive/13_0_r0_182/flashplayer13_0r0_182_mac.dmg
+      zipped: 8-209-15707119
 
     - name: flash-player-13.0.0.182-mac-npapi-debug
       file: flashplayer13_0r0_182_mac_debug.dmg
@@ -85,6 +94,7 @@
       sha1: c61eba9e55a93c78a0cea69c3ee6929147a57e7e
       md5: 95df44657b9f348157f1c207d992c457
       source: fp_13.0.0.182_archive/13_0_r0_182_debug/flashplayer13_0r0_182_mac_debug.dmg
+      zipped: 8-87245486-16059401
 
     - name: flash-player-13.0.0.182-mac-sa-debug
       file: flashplayer13_0r0_182_mac_sa_debug.dmg
@@ -93,6 +103,7 @@
       sha1: bd65f15c818d031d0f027253276e9a0f29b20c57
       md5: d723a2a6ff38a2586444ee450da5fb5d
       source: fp_13.0.0.182_archive/13_0_r0_182_debug/flashplayer13_0r0_182_mac_sa_debug.dmg
+      zipped: 8-103304995-12665082
 
     - name: flash-player-13.0.0.182-mac-uninstaller
       file: uninstall_flashplayer13_0r0_182_mac.dmg
@@ -101,6 +112,7 @@
       sha1: a61537c958c6005a57d5a588f805b48cf2557e09
       md5: 20bc2a33fe904d139eef521d0a423ada
       source: fp_13.0.0.182_archive/13_0_r0_182/uninstall_flashplayer13_0r0_182_mac.dmg
+      zipped: 8-86302605-239030
 
 - name: flash-player-13.0.0.182-mac-sa-debug-zip
   file: flashplayer13_0r0_182_mac_sa_debug.zip

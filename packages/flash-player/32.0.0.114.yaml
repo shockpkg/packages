@@ -45,6 +45,7 @@
       sha1: 2be539fd341ceeeb75d6770c314f745c4fed7ae1
       md5: 6fea37be9c694045f46585d4c79d2e0b
       source: 32_0_r0_114/flashplayer32_0r0_114_win.exe
+      zipped: 8-145865090-20799964
 
     - name: flash-player-32.0.0.114-windows-npapi-msi
       file: flashplayer32_0r0_114_win.msi
@@ -53,6 +54,7 @@
       sha1: 57628cc1546209788d4821d9d6a29ad32f0c23f5
       md5: 7fc1868d5c6ed615d030e039644faa19
       source: 32_0_r0_114/flashplayer32_0r0_114_win.msi
+      zipped: 8-166665157-21157821
 
     - name: flash-player-32.0.0.114-windows-npapi-debug
       file: flashplayer32_0r0_114_win_debug.exe
@@ -61,6 +63,7 @@
       sha1: 6f500c74999730bd789ad169b754d0e00930a140
       md5: 642fbe893e84785c673208b98c2089bf
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_win_debug.exe
+      zipped: 8-376470060-20542153
 
     - name: flash-player-32.0.0.114-windows-ppapi
       file: flashplayer32_0r0_114_winpep.exe
@@ -69,6 +72,7 @@
       sha1: 5f6001da165d6f22f6cec67380d3eb96360ef7c1
       md5: 54360775a307eb971288499eb12654a6
       source: 32_0_r0_114/flashplayer32_0r0_114_winpep.exe
+      zipped: 8-235391656-20608525
 
     - name: flash-player-32.0.0.114-windows-ppapi-msi
       file: flashplayer32_0r0_114_winpep.msi
@@ -77,6 +81,7 @@
       sha1: ff046597cb68ae403ee074599d96e41d44bedc5c
       md5: edced10c3f7fef99490fde42e491f62e
       source: 32_0_r0_114/flashplayer32_0r0_114_winpep.msi
+      zipped: 8-256000287-20965540
 
     - name: flash-player-32.0.0.114-windows-ppapi-debug
       file: flashplayer32_0r0_114_winpep_debug.exe
@@ -85,6 +90,7 @@
       sha1: afa914cb2b1c8581de4bc69a4151fa128b38963b
       md5: 7d646ebb0918111b972620519bb9f381
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_winpep_debug.exe
+      zipped: 8-424558819-21039337
 
     - name: flash-player-32.0.0.114-windows-activex
       file: flashplayer32_0r0_114_winax.exe
@@ -93,6 +99,7 @@
       sha1: 09ef77b14d58070393414f18ebec66340e9082b8
       md5: 4aee35213907d821d533abe1d6301ecf
       source: 32_0_r0_114/flashplayer32_0r0_114_winax.exe
+      zipped: 8-194479296-20278141
 
     - name: flash-player-32.0.0.114-windows-activex-msi
       file: flashplayer32_0r0_114_winax.msi
@@ -101,6 +108,7 @@
       sha1: 5d74603b8156921b87720f8cdf6a9b95334b0cb6
       md5: 5525089610a199e422f5597be469761c
       source: 32_0_r0_114/flashplayer32_0r0_114_winax.msi
+      zipped: 8-214757542-20634008
 
     - name: flash-player-32.0.0.114-windows-activex-debug
       file: flashplayer32_0r0_114_winax_debug.exe
@@ -109,6 +117,7 @@
       sha1: 9c4002c8dc4f25244c45aac1b54edafef5e08551
       md5: 4b03bad35ccacdb98293f876a9270b00
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_winax_debug.exe
+      zipped: 8-403950427-20608274
 
     - name: flash-player-32.0.0.114-windows-sa
       file: flashplayer32_0r0_114_win_sa.exe
@@ -117,6 +126,7 @@
       sha1: 6293cd4dac89609b72a54efd09bb5a417824725f
       md5: 119a51deb45b5f3ed6102b3c077e1eb4
       source: 32_0_r0_114/flashplayer32_0r0_114_win_sa.exe
+      zipped: 8-187823084-6656107
 
     - name: flash-player-32.0.0.114-windows-sa-debug
       file: flashplayer32_0r0_114_win_sa_debug.exe
@@ -125,6 +135,7 @@
       sha1: 423a5d2e690774a78eb6b116079ecfcb6980150a
       md5: 672726a6a020ab646a3236a4e51afdc8
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_win_sa_debug.exe
+      zipped: 8-397012331-6937979
 
     - name: flash-player-32.0.0.114-windows-uninstaller
       file: uninstall_flashplayer32_0r0_114_win.exe
@@ -133,6 +144,7 @@
       sha1: 97e98c357b615228ee36de65db2f1e973f7086e3
       md5: 6446ae6ab71611b539d76a7ece1b716b
       source: 32_0_r0_114/uninstall_flashplayer32_0r0_114_win.exe
+      zipped: 8-278314758-949150
 
     - name: flash-player-32.0.0.114-mac-npapi
       file: flashplayer32_0r0_114_mac.dmg
@@ -141,6 +153,7 @@
       sha1: e89f17db75baf1454facc2b02c4634f964b5a6c2
       md5: 7518e866e0bdccdefd2d887bc58a2312
       source: 32_0_r0_114/flashplayer32_0r0_114_mac.dmg
+      zipped: 8-43541290-22357432
 
     - name: flash-player-32.0.0.114-mac-npapi-pkg
       file: flashplayer32_0r0_114_mac_pkg.dmg
@@ -149,6 +162,7 @@
       sha1: b55fdadf63556861c239ff0d018017bb669e274e
       md5: 3a9bb4bc6f33ca9fd6639a13c160417c
       source: 32_0_r0_114/flashplayer32_0r0_114_mac_pkg.dmg
+      zipped: 8-65898829-20761570
 
     - name: flash-player-32.0.0.114-mac-npapi-debug
       file: flashplayer32_0r0_114_mac_debug.dmg
@@ -157,6 +171,7 @@
       sha1: 439da8eeb217bc9c20349273c30bd8f039e4d1c8
       md5: 5dd4ac8b055d8ff6c04ddf9fc3f4ac8a
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_mac_debug.dmg
+      zipped: 8-315748365-21697797
 
     - name: flash-player-32.0.0.114-mac-ppapi
       file: flashplayer32_0r0_114_macpep.dmg
@@ -165,6 +180,7 @@
       sha1: 2a4858ac5cd6caf432dc301d3ddd44a68415bd31
       md5: bd3c411d767d88933d59f2e5421156cd
       source: 32_0_r0_114/flashplayer32_0r0_114_macpep.dmg
+      zipped: 8-103921619-21768015
 
     - name: flash-player-32.0.0.114-mac-ppapi-pkg
       file: flashplayer32_0r0_114_macpep_pkg.dmg
@@ -173,6 +189,7 @@
       sha1: 9606c18ff10635e69e6809447cd008b03f842390
       md5: 476b9333b1d32cde1a60262f4ca6d3e5
       source: 32_0_r0_114/flashplayer32_0r0_114_macpep_pkg.dmg
+      zipped: 8-125689744-20175243
 
     - name: flash-player-32.0.0.114-mac-ppapi-debug
       file: flashplayer32_0r0_114_macpep_debug.dmg
@@ -181,6 +198,7 @@
       sha1: ed1c9f6a121d7134a12e6a432599d07df880e915
       md5: 18b67794993f771e4af1c3a71ecc8ca7
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_macpep_debug.dmg
+      zipped: 8-355267084-21202861
 
     - name: flash-player-32.0.0.114-mac-sa
       file: flashplayer32_0r0_114_mac_sa.dmg
@@ -189,6 +207,7 @@
       sha1: 8a323facd308d53f1e9e9da73dbaac61267f3282
       md5: e94028a1c530658f17a56de3aaa47b26
       source: 32_0_r0_114/flashplayer32_0r0_114_mac_sa.dmg
+      zipped: 8-86660505-17261008
 
     - name: flash-player-32.0.0.114-mac-sa-debug
       file: flashplayer32_0r0_114_mac_sa_debug.dmg
@@ -197,6 +216,7 @@
       sha1: 8e634cd25bad5d2b40905bd56441452a5e76d5ab
       md5: 6a05960917eb328edccc74bb13d5c453
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_mac_sa_debug.dmg
+      zipped: 8-337446280-17820686
 
     - name: flash-player-32.0.0.114-mac-uninstaller
       file: uninstall_flashplayer32_0r0_114_mac.dmg
@@ -205,6 +225,7 @@
       sha1: 3112b39d7bffbe4f4c20e6f08debfae0c944f5be
       md5: 9e60bb8644e5344a4cf15e63728a2b0e
       source: 32_0_r0_114/uninstall_flashplayer32_0r0_114_mac.dmg
+      zipped: 8-276965940-1348705
 
     - name: flash-player-32.0.0.114-linux-i386-npapi
       file: flashplayer32_0r0_114_linux.i386.tar.gz
@@ -213,6 +234,7 @@
       sha1: a8d807527d05d64326af1919321d213c2697087b
       md5: 2fbff32fdf124aa1fd34f8a66761f26d
       source: 32_0_r0_114/flashplayer32_0r0_114_linux.i386.tar.gz
+      zipped: 8-155-8401822
 
     - name: flash-player-32.0.0.114-linux-i386-npapi-debug
       file: flashplayer32_0r0_114_linux_debug.i386.tar.gz
@@ -221,6 +243,7 @@
       sha1: c155fb91c67c8938efa03911bfefb81e55177da6
       md5: 4f934e98d6d303ce389b121703686bed
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_linux_debug.i386.tar.gz
+      zipped: 8-279264097-8708723
 
     - name: flash-player-32.0.0.114-linux-i386-ppapi
       file: flashplayer32_0r0_114_linuxpep.i386.tar.gz
@@ -229,6 +252,7 @@
       sha1: 68b722d0f5dc35bcce7ca570fe0676ec1a7da382
       md5: 8f6b866f74b1a6422b8785320493e385
       source: 32_0_r0_114/flashplayer32_0r0_114_linuxpep.i386.tar.gz
+      zipped: 8-25758985-8453371
 
     - name: flash-player-32.0.0.114-linux-x86_64-npapi
       file: flashplayer32_0r0_114_linux.x86_64.tar.gz
@@ -237,6 +261,7 @@
       sha1: 8b20c0b66e67fcad409c02792324ef617384bfec
       md5: 218682a72df53d3d0f5071802c198eb2
       source: 32_0_r0_114/flashplayer32_0r0_114_linux.x86_64.tar.gz
+      zipped: 8-8402092-8886754
 
     - name: flash-player-32.0.0.114-linux-x86_64-npapi-debug
       file: flashplayer32_0r0_114_linux_debug.x86_64.tar.gz
@@ -245,6 +270,7 @@
       sha1: 9c63c1b6dca164b2d1984bea1c576ec220781959
       md5: 549876eb75290b9317f3a388261e3c55
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_linux_debug.x86_64.tar.gz
+      zipped: 8-287972947-9241898
 
     - name: flash-player-32.0.0.114-linux-x86_64-ppapi
       file: flashplayer32_0r0_114_linuxpep.x86_64.tar.gz
@@ -253,6 +279,7 @@
       sha1: dcc942f0715e712fccf76e670fff2bfe3fc6ea0a
       md5: 74b3ee090c605ab717c4bb76d9043df0
       source: 32_0_r0_114/flashplayer32_0r0_114_linuxpep.x86_64.tar.gz
+      zipped: 8-34212474-9328713
 
     - name: flash-player-32.0.0.114-linux-x86_64-ppapi-debug
       file: flashplayer32_0r0_114_linuxpep_debug.x86_64.tar.gz
@@ -261,6 +288,7 @@
       sha1: 20ea16b8867a5177615de8abbc74b5c72e9323a8
       md5: 66fdd9997e3772d079c830cb4612de4b
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_linuxpep_debug.x86_64.tar.gz
+      zipped: 8-306000999-9747251
 
     - name: flash-player-32.0.0.114-linux-x86_64-sa
       file: flashplayer32_0r0_114_linux_sa.x86_64.tar.gz
@@ -269,6 +297,7 @@
       sha1: 57538a20eeb7bce097d86a927b709de87f31dda6
       md5: 32c70c54c2b1db3560405ff7369bef0f
       source: 32_0_r0_114/flashplayer32_0r0_114_linux_sa.x86_64.tar.gz
+      zipped: 8-17288964-8469905
 
     - name: flash-player-32.0.0.114-linux-x86_64-sa-debug
       file: flashplayer32_0r0_114_linux_sa_debug.x86_64.tar.gz
@@ -277,6 +306,7 @@
       sha1: eb060a1511afe902a05162c3db8a3cd26e642733
       md5: b1282c6758ffd054f22624c2dcc070ce
       source: 32_0_r0_114_debug/flashplayer32_0r0_114_linux_sa_debug.x86_64.tar.gz
+      zipped: 8-297214975-8785894
 
 - name: flash-player-32.0.0.114-mac-sa-zip
   file: flashplayer32_0r0_114_mac_sa.zip

@@ -13,6 +13,7 @@
       sha1: 65cc20cf67f258fd8df9e5d8f334756c2306306a
       md5: 024197415e2bb49f08f29a0ad2523677
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_win_32bit.exe
+      zipped: 8-40710257-3703085
 
     - name: flash-player-11.0.1.152-windows-32bit-npapi-msi
       file: flashplayer11_0r1_152_win_32bit.msi
@@ -21,6 +22,7 @@
       sha1: fd47f07f50d134cc777dec4c440f136a34b0b5f2
       md5: 8e941db3a5d8fd6c97f7d4b1af917aa6
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_win_32bit.msi
+      zipped: 8-44413446-3936666
 
     - name: flash-player-11.0.1.152-windows-32bit-npapi-debug
       file: flashplayer11_0r1_152_win_debug_32bit.exe
@@ -29,6 +31,7 @@
       sha1: 6e12eaf2787c48e5cbf8a788359c9143ccb5eed0
       md5: 6c8c5b4d641feff0df59aa87060f7f82
       source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_win_debug_32bit.exe
+      zipped: 8-96797841-4029938
 
     - name: flash-player-11.0.1.152-windows-32bit-activex
       file: flashplayer11_0r1_152_winax_32bit.exe
@@ -37,6 +40,7 @@
       sha1: 070be93e553dc197bea1056c53a573a4a87ae8cb
       md5: 97bf940fed52f8cae12aa947ac143d6b
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_winax_32bit.exe
+      zipped: 8-52192374-3739813
 
     - name: flash-player-11.0.1.152-windows-32bit-activex-msi
       file: flashplayer11_0r1_152_winax_32bit.msi
@@ -45,6 +49,7 @@
       sha1: e5163eeacdd938f533e95df024367ba0bf66e9d3
       md5: 2f73e826caac3c969350026904813d76
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_winax_32bit.msi
+      zipped: 8-55932293-3973324
 
     - name: flash-player-11.0.1.152-windows-32bit-activex-debug
       file: flashplayer11_0r1_152_winax_debug_32bit.exe
@@ -53,6 +58,7 @@
       sha1: ffd97d07ee4520d195dc59870902d65f74450745
       md5: 8c07f1d9181dae28a2ab8b33fb7fc88d
       source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_winax_debug_32bit.exe
+      zipped: 8-105080422-4067189
 
     - name: flash-player-11.0.1.152-windows-32bit-sa
       file: flashplayer11_0r1_152_win_sa_32bit.exe
@@ -61,6 +67,7 @@
       sha1: 957243a6604ccf7b00af9f2f0028730b0f95bf19
       md5: 27dc55970e4dfc5109ab13f07848dae1
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_win_sa_32bit.exe
+      zipped: 8-48350219-3842049
 
     - name: flash-player-11.0.1.152-windows-32bit-sa-debug
       file: flashplayer11_0r1_152_win_sa_debug_32bit.exe
@@ -69,6 +76,7 @@
       sha1: e05dd3dd4d956a9bd7cd05c91dd63abd9c9a3c47
       md5: a54cb42e04f59f41d1a061f5cfd41499
       source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_win_sa_debug_32bit.exe
+      zipped: 8-100827898-4252406
 
     - name: flash-player-11.0.1.152-windows-32bit-uninstaller
       file: uninstall_flashplayer11_0r1_152_win_32bit.exe
@@ -77,6 +85,7 @@
       sha1: d0b28bcd637921f40a7b97ccfc3920355de334f3
       md5: 985c8294fb992d6722cfc0cbbd46d7aa
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/uninstall_flashplayer11_0r1_152_win_32bit.exe
+      zipped: 8-60348483-189599
 
     - name: flash-player-11.0.1.152-windows-64bit-npapi
       file: flashplayer11_0r1_152_win_64bit.exe
@@ -85,6 +94,7 @@
       sha1: ede197032f3194fec74cafed06c775d4ca100b44
       md5: d2e2e5cd7e70db1894fd4f65aa6538a6
       source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_win_64bit.exe
+      zipped: 8-137914115-8036816
 
     - name: flash-player-11.0.1.152-windows-64bit-npapi-msi
       file: flashplayer11_0r1_152_win_64bit.msi
@@ -93,6 +103,7 @@
       sha1: 1f246b51095b7c0fe2065369e3ce27b592cdcb16
       md5: ebe94d5d0297c8f4b4a99d4e29b85657
       source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_win_64bit.msi
+      zipped: 8-145951035-8343965
 
     - name: flash-player-11.0.1.152-windows-64bit-activex
       file: flashplayer11_0r1_152_winax_64bit.exe
@@ -101,6 +112,7 @@
       sha1: 9d5194184f03c822920852dc4b2aa868db35f8bd
       md5: d72bb0d9c25863a51fb54fff38a1754c
       source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_winax_64bit.exe
+      zipped: 8-154295106-8117595
 
     - name: flash-player-11.0.1.152-windows-64bit-activex-msi
       file: flashplayer11_0r1_152_winax_64bit.msi
@@ -109,6 +121,7 @@
       sha1: d3c38081eb880301330a6cbffd0a822444265c27
       md5: 1292eb891a4dc31d6a4f84a068976738
       source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_winax_64bit.msi
+      zipped: 8-162412807-8425638
 
     - name: flash-player-11.0.1.152-windows-64bit-uninstaller
       file: uninstall_flashplayer11_0r1_152_win_64bit.exe
@@ -117,6 +130,7 @@
       sha1: b7e86e56ba479655dc5bd095266412cf26fcd16b
       md5: e16a852fc4c228faf6c0540c5783bd90
       source: fp_11.0.1.152_archive/11_0r1_152_64bit/uninstall_flashplayer11_0r1_152_mac.exe
+      zipped: 8-171281305-389453
 
     - name: flash-player-11.0.1.152-mac-npapi
       file: flashplayer11_0r1_152_mac.dmg
@@ -125,6 +139,7 @@
       sha1: 667d6e6c00d4dd7ebd69ba90ca310fbb2d5fefe8
       md5: cb7beb95dbffe8214a0415910fb93908
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_mac.dmg
+      zipped: 8-12178443-14767373
 
     - name: flash-player-11.0.1.152-mac-npapi-debug
       file: flashplayer11_0r1_152_mac_debug.dmg
@@ -133,6 +148,7 @@
       sha1: f0bf10fc6980ee7a9fd21051124a235b34a4c0a6
       md5: 1429d839f973db56ba29671de145703c
       source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_mac_debug.dmg
+      zipped: 8-66490127-15656581
 
     - name: flash-player-11.0.1.152-mac-sa
       file: flashplayer11_0r1_152_mac_sa.app.zip
@@ -141,6 +157,7 @@
       sha1: 01a8ae99cbfa71395e78bc23e64571285a55f52c
       md5: 9e4f8986eaf3ce533e6b4dc916dc5704
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_mac_sa.app.zip
+      zipped: 0-26945921-13764232
 
     - name: flash-player-11.0.1.152-mac-sa-debug
       file: flashplayer11_0r1_152_mac_sa_debug.app.zip
@@ -149,6 +166,7 @@
       sha1: fd26bda7f8efee74d3ab79cea469c5835dd667d0
       md5: 3ed734fb6661a63c84f5ed23709c9b66
       source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_mac_sa_debug.app.zip
+      zipped: 0-82146825-14650900
 
     - name: flash-player-11.0.1.152-mac-uninstaller
       file: uninstall_flashplayer11_0r1_152_mac.dmg
@@ -157,6 +175,7 @@
       sha1: bde8c6d95ff4e86e13a4cbda44efe132092211ad
       md5: a0bed0ac7945840f91bbd424d3ab5bd2
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/uninstall_flashplayer11_0r1_152_mac.dmg
+      zipped: 8-59905725-442644
 
     - name: flash-player-11.0.1.152-linux-i386-npapi
       file: flashplayer11_0r1_152_linux.i386.tar.gz
@@ -165,6 +184,7 @@
       sha1: 051f7974e4152a225e18c963f638e71090ec20ea
       md5: 34051edfcb78e6db14567a6c5f53e161
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_linux.i386.tar.gz
+      zipped: 8-177-6647179
 
     - name: flash-player-11.0.1.152-linux-i386-npapi-debug
       file: flashplayer11_0r1_152_linux_debug.i386.tar.gz
@@ -173,6 +193,7 @@
       sha1: 1cd54a3242860c4686099659f9fe8084742ffdf8
       md5: b2f3d326d75a38f901302690e7e36709
       source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_winax_debug_32bit.gz
+      zipped: 8-109147728-7081524
 
     - name: flash-player-11.0.1.152-linux-i386-sa
       file: flashplayer11_0r1_152_linux_sa.i386.tar.gz
@@ -181,6 +202,7 @@
       sha1: cd5b0018ed1cf0985780f2b3c2f73f4aa1da09c7
       md5: 4d7c80df0614da4cffd46b77ebfaa466
       source: fp_11.0.1.152_archive/11_0r1_152_32bit/flashplayer11_0r1_152_linux_sa.i386.tar.gz
+      zipped: 8-6647467-5530878
 
     - name: flash-player-11.0.1.152-linux-i386-sa-debug
       file: flashplayer11_0r1_152_linux_sa_debug.i386.tar.gz
@@ -189,6 +211,7 @@
       sha1: c75e0c11f03c420d7c119195e80e14454f4e7b3c
       md5: 679da2188a2a689e250cb58bed49115e
       source: fp_11.0.1.152_archive/11_0r1_152_32bit_debug/flashplayer11_0r1_152_linux_sa_debug.i386.tar.gz
+      zipped: 8-60538280-5951737
 
     - name: flash-player-11.0.1.152-linux-x86_64-npapi
       file: flashplayer11_0r1_152_linux.x86_64.tar.gz
@@ -197,3 +220,4 @@
       sha1: d081c36e2a25ab2da9be6e54d9121808af5679e7
       md5: 782952c5730caa4e4cbe7e1d9dfa6214
       source: fp_11.0.1.152_archive/11_0r1_152_64bit/flashplayer11_0r1_152_linux.x86_64.tar.gz
+      zipped: 8-116229431-6917109

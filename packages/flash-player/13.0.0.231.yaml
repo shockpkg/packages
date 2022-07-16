@@ -13,6 +13,7 @@
       sha1: fdb713778644e21b4530886a344b6fc5fee8faf4
       md5: 10393897acd75f6513dfd158739140b4
       source: fp_13.0.0.231_archive/13_0_r0_231/flashplayer13_0r0_231_win.exe
+      zipped: 8-31184583-17811018
 
     - name: flash-player-13.0.0.231-windows-npapi-msi
       file: flashplayer13_0r0_231_win.msi
@@ -21,6 +22,7 @@
       sha1: 342a9b7469615d9354611532b0b23d7666d090e4
       md5: 3da315506bafffb1baca405784f74fce
       source: fp_13.0.0.231_archive/13_0_r0_231/flashplayer13_0r0_231_win.msi
+      zipped: 8-48995694-18118662
 
     - name: flash-player-13.0.0.231-windows-npapi-debug
       file: flashplayer13_0r0_231_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 32ed2b569a960030452a24eeb09e6be440144ec5
       md5: 036fe150091fee6c86cb94e072d145e2
       source: fp_13.0.0.231_archive/13_0_r0_231_debug/flashplayer13_0r0_231_win_debug.exe
+      zipped: 8-149209647-17610464
 
     - name: flash-player-13.0.0.231-windows-activex
       file: flashplayer13_0r0_231_winax.exe
@@ -37,6 +40,7 @@
       sha1: 9b486e2a1da739ae677c2b2b365fe1469ffe1def
       md5: d1215425eab2add9f467d337a1546340
       source: fp_13.0.0.231_archive/13_0_r0_231/flashplayer13_0r0_231_winax.exe
+      zipped: 8-67114451-17219828
 
     - name: flash-player-13.0.0.231-windows-activex-msi
       file: flashplayer13_0r0_231_winax.msi
@@ -45,6 +49,7 @@
       sha1: dd2d458b627f343e6b7938f970d6b32c77aa4180
       md5: f0eb0e945a063f31843de738cbf3a3c3
       source: fp_13.0.0.231_archive/13_0_r0_231/flashplayer13_0r0_231_winax.msi
+      zipped: 8-84334374-17523203
 
     - name: flash-player-13.0.0.231-windows-activex-debug
       file: flashplayer13_0r0_231_winax_debug.exe
@@ -53,6 +58,7 @@
       sha1: a8b37bcee27c9adad454579284619dff07c33d59
       md5: d3bc18c6e97f94ea8e7cc3e4b5a6aa39
       source: fp_13.0.0.231_archive/13_0_r0_231_debug/flashplayer13_0r0_231_winax_debug.exe
+      zipped: 8-131545451-17664091
 
     - name: flash-player-13.0.0.231-windows-sa-debug
       file: flashplayer13_0r0_231_win_sa_debug.exe
@@ -61,6 +67,7 @@
       sha1: e84e2ad72c42475cf5ee8df153765e05732bd5fc
       md5: 599c0d6c0cd8bdff39a60175fe17efb1
       source: fp_13.0.0.231_archive/13_0_r0_231_debug/flashplayer13_0r0_231_win_sa_debug.exe
+      zipped: 8-166820219-5014130
 
     - name: flash-player-13.0.0.231-windows-uninstaller
       file: uninstall_flashplayer13_0r0_231_win.exe
@@ -69,6 +76,7 @@
       sha1: 15d7f673df272e6976fdaabcbd5cc0796a50b186
       md5: ba91b93a1f5b6e4d1c54f3d6ed4975a0
       source: fp_13.0.0.231_archive/13_0_r0_231/uninstall_flashplayer13_0r0_231_win.exe
+      zipped: 8-102096606-709632
 
     - name: flash-player-13.0.0.231-mac-npapi
       file: flashplayer13_0r0_231_mac.dmg
@@ -77,6 +85,7 @@
       sha1: 96b4407be95f9ad2f9ba9efa6e4ed182c5411f68
       md5: 744cbac9d9c7f95d3418ce7d11fb373e
       source: fp_13.0.0.231_archive/13_0_r0_231/flashplayer13_0r0_231_mac.dmg
+      zipped: 8-209-15717714
 
     - name: flash-player-13.0.0.231-mac-npapi-pkg
       file: flashplayer13_0r0_231_mac_pkg.dmg
@@ -85,6 +94,7 @@
       sha1: b5a2daaf6d9a8f82c35760f55bd71e20fc2d6d2e
       md5: 54933ef2c70902b45274c4baa1d94a0b
       source: fp_13.0.0.231_archive/13_0_r0_231/flashplayer13_0r0_231_mac_pkg.dmg
+      zipped: 8-15718020-15466470
 
     - name: flash-player-13.0.0.231-mac-npapi-debug
       file: flashplayer13_0r0_231_mac_debug.dmg
@@ -93,6 +103,7 @@
       sha1: 57b76c8d3d01d3c27b164ccaa93ab7088567466d
       md5: 7797777f8c72614b96ea8c930c92eac3
       source: fp_13.0.0.231_archive/13_0_r0_231_debug/flashplayer13_0r0_231_mac_debug.dmg
+      zipped: 8-102806413-16063779
 
     - name: flash-player-13.0.0.231-mac-sa-debug
       file: flashplayer13_0r0_231_mac_sa_debug.dmg
@@ -101,6 +112,7 @@
       sha1: c9fb037fbbcd37d976be7abf96b2ad722f20cad5
       md5: 0bc6453519c240964061a1451b92ae5f
       source: fp_13.0.0.231_archive/13_0_r0_231_debug/flashplayer13_0r0_231_mac_sa_debug.dmg
+      zipped: 8-118870300-12675044
 
     - name: flash-player-13.0.0.231-mac-uninstaller
       file: uninstall_flashplayer13_0r0_231_mac.dmg
@@ -109,6 +121,7 @@
       sha1: 8a9aca029c95ac8f6643d8dd39550cd939368157
       md5: 34171f3704860098f43eb139323633c5
       source: fp_13.0.0.231_archive/13_0_r0_231/uninstall_flashplayer13_0r0_231_mac.dmg
+      zipped: 8-101857680-238823
 
 - name: flash-player-13.0.0.231-mac-sa-debug-zip
   file: flashplayer13_0r0_231_mac_sa_debug.zip

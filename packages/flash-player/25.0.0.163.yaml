@@ -13,6 +13,7 @@
       sha1: 9976484147b33518197ae3d336ff6ab915e0093d
       md5: 9bf700ec1e344086dd686c89379508fb
       source: 25_0_r0_163/flashplayer25_0r0_163_mac.dmg
+      zipped: 8-113-19153348
 
     - name: flash-player-25.0.0.163-mac-npapi-pkg
       file: flashplayer25_0r0_163_mac_pkg.dmg
@@ -21,6 +22,7 @@
       sha1: 4a1be6480ac590a67daba3b68296bf9fa634f246
       md5: 73ced1f2931f2183c9a327dea823acfc
       source: 25_0_r0_163/flashplayer25_0r0_163_mac_pkg.dmg
+      zipped: 8-19153536-18499215
 
     - name: flash-player-25.0.0.163-mac-npapi-debug
       file: flashplayer25_0r0_163_mac_debug.dmg
@@ -29,3 +31,4 @@
       sha1: 3069a673deb50fa6ae562d5ffe142d2795fdba37
       md5: 956afb6aad3d8fe77fbbbfbe129692f5
       source: 25_0_r0_163_debug/flashplayer25_0r0_163_mac_debug.dmg
+      zipped: 8-37652882-19395458

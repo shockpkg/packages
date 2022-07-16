@@ -13,6 +13,7 @@
       sha1: 4edb7c42ddf2881a79d05e634879038ae6bc1022
       md5: 1b352eb55d88285cd234c36f7c827891
       source: fp_10.3.181.16_archive/10_3r181_16/flashplayer10_3r181_16_winax.exe
+      zipped: 8-162-3063684
 
     - name: flash-player-10.3.181.16-windows-activex-debug
       file: flashplayer10_3r181_16_winax_debug.exe
@@ -21,6 +22,7 @@
       sha1: 0c09d8f77af04cec501979b5d4fb4a12207c29b8
       md5: b6a500611dee38e3bdc2240791e0ee45
       source: fp_10.3.181.16_archive/10_r3_181_16_debug/flashplayer10_3r181_16_winax_debug.exe
+      zipped: 8-3247224-3329108
 
     - name: flash-player-10.3.181.16-windows-uninstaller
       file: uninstall_flashplayer10_3r181_16_win.exe
@@ -29,3 +31,4 @@
       sha1: c53d4e34c46ca9834560552f9df93a7bde0266ca
       md5: 61ad79e521a44d45733028273a671fbf
       source: fp_10.3.181.16_archive/10_3r181_16/uninstall_flashplayer10_3r181_16_win.exe
+      zipped: 8-3063951-183091

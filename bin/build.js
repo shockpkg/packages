@@ -21,7 +21,7 @@ async function main() {
 	const pkgs = packages.packages;
 
 	await writeFile(path.join(distApi, '1', file), JSON.stringify({
-		format: '1.1',
+		format: '1.2',
 		packages: pkgs
 	}));
 }

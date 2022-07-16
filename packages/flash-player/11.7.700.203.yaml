@@ -13,6 +13,7 @@
       sha1: d967541670c0f1ce61613cfbda7c1a5ae74cb2ca
       md5: 7123e0a06b0a8eb7c378dab59233370a
       source: fp_11.7.700.203_archive/11_7_r700_203/flashplayer11_7r700_203_mac.dmg
+      zipped: 8-221-17998709
 
     - name: flash-player-11.7.700.203-mac-npapi-debug
       file: flashplayer11_7r700_203_mac_debug.dmg
@@ -21,6 +22,7 @@
       sha1: 04a64e9b8f6d7e7f432061391cec011dcc372beb
       md5: ff38781b3b0d2f9ee56755d97017b0e1
       source: fp_11.7.700.203_archive/11_7_r700_203_debug/flashplayer11_7r700_203_mac_debug.dmg
+      zipped: 8-18227738-18484802
 
     - name: flash-player-11.7.700.203-mac-sa-debug
       file: flashplayer11_7r700_203_mac_sa_debug.zip
@@ -29,6 +31,7 @@
       sha1: 718fc221dc1b876b5fcd61b1ca439efc8a82ef92
       md5: bc98915e6009e9a5aaa5b9c809138d8e
       source: fp_11.7.700.203_archive/11_7_r700_203_debug/flashplayer11_7r700_203_mac_sa_debug.zip
+      zipped: 8-36712654-16475028
 
     - name: flash-player-11.7.700.203-mac-uninstaller
       file: uninstall_flashplayer11_7r700_203_mac.dmg
@@ -37,6 +40,7 @@
       sha1: b6ce264503bdf70384b9fa909e79a457c3414ccd
       md5: ea0eee7acec204c39352bac67aec4ae4
       source: fp_11.7.700.203_archive/11_7_r700_203/uninstall_flashplayer11_7r700_203_mac.dmg
+      zipped: 8-17999039-228514
 
 - name: flash-player-11.7.700.203-mac-sa
   file: flashplayer_11_sa.app.zip

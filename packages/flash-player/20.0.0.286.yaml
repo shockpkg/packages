@@ -13,6 +13,7 @@
       sha1: cb3f3b21c4add6946c7ed49512aad5ec48d28db1
       md5: 33ba5072f8a025a7b1b3f5c71537e6a8
       source: 20_0_r0_286/flashplayer20_0r0_286_win.exe
+      zipped: 8-64114553-18594383
 
     - name: flash-player-20.0.0.286-windows-npapi-msi
       file: flashplayer20_0r0_286_win.msi
@@ -21,6 +22,7 @@
       sha1: 4855e3bbd052e7780651357a656aaeebb3922893
       md5: 47246b529f9b39370751b053c2ba21d5
       source: 20_0_r0_286/flashplayer20_0r0_286_win.msi
+      zipped: 8-82709039-18950396
 
     - name: flash-player-20.0.0.286-windows-npapi-debug
       file: flashplayer20_0r0_286_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 061362fa3924d8fbfdc27fa9cda0134558840b5d
       md5: 0cf2f7b1a845581187b385c94f2ef886
       source: 20_0_r0_286_debug/flashplayer20_0r0_286_win_debug.exe
+      zipped: 8-212584641-18414725
 
     - name: flash-player-20.0.0.286-windows-ppapi
       file: flashplayer20_0r0_286_winpep.exe
@@ -37,6 +40,7 @@
       sha1: 72033ef33dfc39619bfe98f01c54dc43473f7504
       md5: e7fc99357442afac6c92446f01e27c26
       source: 20_0_r0_286/flashplayer20_0r0_286_winpep.exe
+      zipped: 8-143751001-19179582
 
     - name: flash-player-20.0.0.286-windows-ppapi-debug
       file: flashplayer20_0r0_286_winpep_debug.exe
@@ -45,6 +49,7 @@
       sha1: 20e7e0cdb3156d38857bd6e9e77c80d29c661bfa
       md5: ba19cdb9baa43c5b386ce63569f727c0
       source: 20_0_r0_286_debug/flashplayer20_0r0_286_winpep_debug.exe
+      zipped: 8-255306517-19649614
 
     - name: flash-player-20.0.0.286-windows-activex
       file: flashplayer20_0r0_286_winax.exe
@@ -53,6 +58,7 @@
       sha1: 4b4d96ae619bb75fffdaf242a841fe76dbfb847a
       md5: 5daf37894d84a14a76505fb9d7ccfd73
       source: 20_0_r0_286/flashplayer20_0r0_286_winax.exe
+      zipped: 8-107206631-18082676
 
     - name: flash-player-20.0.0.286-windows-activex-msi
       file: flashplayer20_0r0_286_winax.msi
@@ -61,6 +67,7 @@
       sha1: a1b73c662b7bce03ff2d8a729005e81036ea1a24
       md5: 2a6377e1173f14cfc9117b1b57dd1c34
       source: 20_0_r0_286/flashplayer20_0r0_286_winax.msi
+      zipped: 8-125289412-18461483
 
     - name: flash-player-20.0.0.286-windows-activex-debug
       file: flashplayer20_0r0_286_winax_debug.exe
@@ -69,6 +76,7 @@
       sha1: a79d048148207d28bd72892bbe4da40641bc3b6c
       md5: db46428efc5e12b56b90a7c5ddaaa198
       source: 20_0_r0_286_debug/flashplayer20_0r0_286_winax_debug.exe
+      zipped: 8-236838349-18468050
 
     - name: flash-player-20.0.0.286-windows-sa
       file: flashplayer20_0r0_286_win_sa.exe
@@ -77,6 +85,7 @@
       sha1: 28e9fd38668e068bd5a5e3660ee8615cb2455625
       md5: 003730531d8ea29798d6c9bdbcf60ae4
       source: 20_0_r0_286/flashplayer20_0r0_286_win_sa.exe
+      zipped: 8-101659541-5546985
 
     - name: flash-player-20.0.0.286-windows-sa-debug
       file: flashplayer20_0r0_286_win_sa_debug.exe
@@ -85,6 +94,7 @@
       sha1: c19b232a4be9f0ecbc38ae05223366d47951d7fa
       md5: ff964cd4288ca93d45ad18d7755673be
       source: 20_0_r0_286_debug/flashplayer20_0r0_286_win_sa_debug.exe
+      zipped: 8-230999484-5838748
 
     - name: flash-player-20.0.0.286-windows-uninstaller
       file: uninstall_flashplayer20_0r0_286_win.exe
@@ -93,6 +103,7 @@
       sha1: 73453b15534867f12dceb5e96f98e075884fe624
       md5: ee571b6c9298475c1eb5c9dc4cdc1ceb
       source: 20_0_r0_286/uninstall_flashplayer20_0r0_286_win.exe
+      zipped: 8-163202590-734129
 
     - name: flash-player-20.0.0.286-mac-npapi
       file: flashplayer20_0r0_286_mac.dmg
@@ -101,6 +112,7 @@
       sha1: 56dbfb7506adbfb8d1befc7409acb1a8ce920219
       md5: 0f9331f4e3ddb7d527c363e92ecf5de6
       source: 20_0_r0_286/flashplayer20_0r0_286_mac.dmg
+      zipped: 8-145-16967369
 
     - name: flash-player-20.0.0.286-mac-npapi-pkg
       file: flashplayer20_0r0_286_mac_pkg.dmg
@@ -109,6 +121,7 @@
       sha1: 35d1eb347c95a49b9845317e994f6b8b73d4a7db
       md5: 8061754215bd4295e9d4ec3212b0b4c7
       source: 20_0_r0_286/flashplayer20_0r0_286_mac_pkg.dmg
+      zipped: 8-16967621-16528689
 
     - name: flash-player-20.0.0.286-mac-npapi-debug
       file: flashplayer20_0r0_286_mac_debug.dmg
@@ -117,6 +130,7 @@
       sha1: a9f713965b178084ef61efc3b49a4f083f6bf665
       md5: da81e58cf9eba311f970995809b36b5b
       source: 20_0_r0_286_debug/flashplayer20_0r0_286_mac_debug.dmg
+      zipped: 8-163936898-17082134
 
     - name: flash-player-20.0.0.286-mac-ppapi
       file: flashplayer20_0r0_286_macpep.dmg
@@ -125,6 +139,7 @@
       sha1: 4a9da7e05e2585509161fe2e214c082e146cd4dc
       md5: faaa26f59ab66e73bd44fea7356e0883
       source: 20_0_r0_286/flashplayer20_0r0_286_macpep.dmg
+      zipped: 8-47406411-16708039
 
     - name: flash-player-20.0.0.286-mac-ppapi-debug
       file: flashplayer20_0r0_286_macpep_debug.dmg
@@ -133,6 +148,7 @@
       sha1: 8d4fe8aa1b2fcd42b301f60ad83d1abf0732a3cf
       md5: b3775cd64ecf0dd9717483ea96474d65
       source: 20_0_r0_286_debug/flashplayer20_0r0_286_macpep_debug.dmg
+      zipped: 8-195453765-17130761
 
     - name: flash-player-20.0.0.286-mac-sa
       file: flashplayer20_0r0_286_mac_sa.dmg
@@ -141,6 +157,7 @@
       sha1: e542e9cdb7492d7f203b449b90cb1bdfe014ca8c
       md5: ae4c6c2b889d08df1e8983564e4a27c1
       source: 20_0_r0_286/flashplayer20_0r0_286_mac_sa.dmg
+      zipped: 8-33496416-13909889
 
     - name: flash-player-20.0.0.286-mac-sa-debug
       file: flashplayer20_0r0_286_mac_sa_debug.dmg
@@ -149,6 +166,7 @@
       sha1: 92a31cd1db1c10c16eff7683468eb1670a9371cd
       md5: d5da2c21547300bbe7f6182b678d36ae
       source: 20_0_r0_286_debug/flashplayer20_0r0_286_mac_sa_debug.dmg
+      zipped: 8-181019150-14434497
 
     - name: flash-player-20.0.0.286-mac-uninstaller
       file: uninstall_flashplayer20_0r0_286_mac.dmg
@@ -157,6 +175,7 @@
       sha1: c09ebf521440ab36374190d7e8ba6039b34ff540
       md5: 2b38e5724563c42a53ac731235394901
       source: 20_0_r0_286/uninstall_flashplayer20_0r0_286_mac.dmg
+      zipped: 8-162930696-271781
 
 - name: flash-player-20.0.0.286-mac-sa-zip
   file: flashplayer20_0r0_286_mac_sa.zip

@@ -13,6 +13,7 @@
       sha1: 7099b4220d9a34fe9a77d3b0da4cc521de60bf75
       md5: 8a065b56997109449209bd0501b42eb2
       source: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_win.exe
+      zipped: 8-30989899-17796608
 
     - name: flash-player-15.0.0.246-windows-npapi-debug
       file: flashplayer15_0r0_246_win_debug.exe
@@ -21,6 +22,7 @@
       sha1: 5fc331e8972144de92af20c1cc5875fe8e7a2860
       md5: 602353d4f50cf1b5adef388bd7155b87
       source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_win_debug.exe
+      zipped: 8-96939993-17538336
 
     - name: flash-player-15.0.0.246-windows-activex
       file: flashplayer15_0r0_246_winax.exe
@@ -29,6 +31,7 @@
       sha1: 867923d1263f5933cb1262a09267a4171bfdc919
       md5: 59cb5c707d465112f861b361c19bd62c
       source: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_winax.exe
+      zipped: 8-48786602-17205814
 
     - name: flash-player-15.0.0.246-windows-activex-debug
       file: flashplayer15_0r0_246_winax_debug.exe
@@ -37,6 +40,7 @@
       sha1: 6c1865a7459d6f758324e3e76ddc203a89f3bbf1
       md5: ae31774aae51b9215374bb0de7e2c1c5
       source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_winax_debug.exe
+      zipped: 8-120172316-17589368
 
     - name: flash-player-15.0.0.246-windows-sa-debug
       file: flashplayer15_0r0_246_win_sa_debug.exe
@@ -45,6 +49,7 @@
       sha1: 32d0be63a4036b5f6e717ebbcb237abfd809e5f5
       md5: e6014b5e30d8cccda2fa7887700f14d5
       source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_win_sa_debug.exe
+      zipped: 8-114478437-5693772
 
     - name: flash-player-15.0.0.246-windows-uninstaller
       file: uninstall_flashplayer15_0r0_246_win.exe
@@ -53,6 +58,7 @@
       sha1: f9cadc56ebc083cf5f10148f8b5996747e698e0b
       md5: 343af01b1f350c3fc0525df5b126d316
       source: fp_15.0.0.246_archive/15_0_r0_246/uninstall_flashplayer15_0r0_246_win.exe
+      zipped: 8-66244505-716598
 
     - name: flash-player-15.0.0.246-mac-npapi
       file: flashplayer15_0r0_246_mac.dmg
@@ -61,6 +67,7 @@
       sha1: c197eb04010b7e72a9b577a49befe40b70ee0793
       md5: 1d18ac7818dd48df837f2ef415d3dde0
       source: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_mac.dmg
+      zipped: 8-157-15624151
 
     - name: flash-player-15.0.0.246-mac-npapi-pkg
       file: flashplayer15_0r0_246_mac_pkg.dmg
@@ -69,6 +76,7 @@
       sha1: 1eb720c2decfaf5407a06b96745bffb4a64e7be5
       md5: 4bc949d0ccdc95d23b223d5dd1843249
       source: fp_15.0.0.246_archive/15_0_r0_246/flashplayer15_0r0_246_mac_pkg.dmg
+      zipped: 8-15624405-15365401
 
     - name: flash-player-15.0.0.246-mac-npapi-debug
       file: flashplayer15_0r0_246_mac_debug.dmg
@@ -77,6 +85,7 @@
       sha1: 677e9dc279bef636dc39a4eeb9f20c08cbbdb0bf
       md5: 462a45f266980497813ff29e6213497b
       source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_mac_debug.dmg
+      zipped: 8-66961278-15971355
 
     - name: flash-player-15.0.0.246-mac-sa-debug
       file: flashplayer15_0r0_246_mac_sa_debug.dmg
@@ -85,6 +94,7 @@
       sha1: 88bc96d52a0cd735b9c53bde93288b5fe0a7797d
       md5: d4e96a18b139ad84c20cd6b89a0026b1
       source: fp_15.0.0.246_archive/15_0_r0_246_debug/flashplayer15_0r0_246_mac_sa_debug.dmg
+      zipped: 8-82932741-14007147
 
     - name: flash-player-15.0.0.246-mac-uninstaller
       file: uninstall_flashplayer15_0r0_246_mac.dmg
@@ -93,6 +103,7 @@
       sha1: 6ea7ea2c391b6513a0d32af6690525937009e818
       md5: 7154e843ac9f62089d1041e5aec0492d
       source: fp_15.0.0.246_archive/15_0_r0_246/uninstall_flashplayer15_0r0_246_mac.dmg
+      zipped: 8-65992519-251883
 
 - name: flash-player-15.0.0.246-mac-sa-debug-zip
   file: flashplayer15_0r0_246_mac_sa_debug.zip

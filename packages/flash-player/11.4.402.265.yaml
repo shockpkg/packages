@@ -13,6 +13,7 @@
       sha1: 45ded86d8c556d65ebb3f4f66e1aeaae9d9f6493
       md5: fa6232fd659395be65889cf0f1c4fd56
       source: fp_11.4.r402.265_archive/11_4_r402_265/flashplayer11_4r402_265_mac.dmg
+      zipped: 8-224-11853332
 
     - name: flash-player-11.4.402.265-mac-npapi-debug
       file: flashplayer11_4r402_265_mac_debug.dmg
@@ -21,6 +22,7 @@
       sha1: 36f35dcacd925b07a9a64bb2ef8ed3d61b8f5057
       md5: b4b48ff8b0cb2eda12df68a97bf15dd2
       source: fp_11.4.r402.265_archive/11_4_r402_265_debug/flashplayer11_4r402_265_mac_debug.dmg
+      zipped: 8-12079001-12458537
 
     - name: flash-player-11.4.402.265-mac-sa-debug
       file: flashplayer11_4r402_265_mac_sa_debug.app.zip
@@ -29,6 +31,7 @@
       sha1: ac268f0a538401ca182d5de44a902adb6ab93638
       md5: 78b69fd614fd661529f50bd4f06c4dee
       source: fp_11.4.r402.265_archive/11_4_r402_265_debug/flashplayer11_4r402_265_mac_sa_debug.app.zip
+      zipped: 8-24537657-15879329
 
     - name: flash-player-11.4.402.265-mac-uninstaller
       file: uninsstall_flashplayer11_4r402_265_mac.dmg
@@ -37,6 +40,7 @@
       sha1: d819cf41184d8a63ca9418ac3ac72f8aaedfaf0f
       md5: f9fff9d1b212d46fc4cd6c33f230f1a7
       source: fp_11.4.r402.265_archive/11_4_r402_265/uninsstall_flashplayer11_4r402_265_mac.dmg
+      zipped: 8-11853667-225147
 
 - name: flash-player-11.4.402.265-windows-sa
   file: flashplayer_11_sa.exe

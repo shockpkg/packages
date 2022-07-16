@@ -13,6 +13,7 @@
       sha1: 7cc8d2d6544eec333bf8d30d9cf57ef2c2b4fd06
       md5: 3994ad0dd02c06bcae82fc0c8952b70d
       source: fp_10.3.183.23_archive/10.3.183.23/flashplayer10_3r183_23_mac_intel.dmg
+      zipped: 8-219-6375027
 
     - name: flash-player-10.3.183.23-mac-npapi-debug
       file: flashplayer10_3r183_23_mac_intel_debug.dmg
@@ -21,6 +22,7 @@
       sha1: 45b6be78f95f2eaecf1d4e2eacf30fb2cd57ea55
       md5: 75f990d987aac8d5b1621182444f327b
       source: fp_10.3.183.23_archive/10.3.183.23_debug/flashplayer10_3r183_23_mac_intel_debug.dmg
+      zipped: 8-32426202-6748070
 
     - name: flash-player-10.3.183.23-mac-sa
       file: flashplayer10_3r183_23_mac_sa.app.zip
@@ -29,6 +31,7 @@
       sha1: b170df70fbb8fd79b0e209d4576725d436710954
       md5: 32a12ae02472008adc74d0399ed1296c
       source: fp_10.3.183.23_archive/10.3.183.23/flashplayer10_3r183_23_mac_sa.app.zip
+      zipped: 8-6375348-5159213
 
     - name: flash-player-10.3.183.23-mac-sa-debug
       file: flashplayer10_3r183_23_mac_sa_debug.app.zip
@@ -37,6 +40,7 @@
       sha1: 0c99ac69a2aaaab6d30a36f1ed3196ea0a52d3b4
       md5: 58bebd601515cae9a3ce5d2b8c5515e0
       source: fp_10.3.183.23_archive/10.3.183.23_debug/flashplayer10_3r183_23_mac_sa_debug.app.zip
+      zipped: 8-39174386-5494966
 
     - name: flash-player-10.3.183.23-mac-uninstaller
       file: uninstall_flashplayer10_3r183_23_mac_intel.dmg
@@ -45,6 +49,7 @@
       sha1: 79e4b916b98d0b6d296d5b3423652d75ddafdd74
       md5: 6f909acf3a691a92f975a78208cd207c
       source: fp_10.3.183.23_archive/10.3.183.23/uninstall_flashplayer10_3r183_23_mac_intel.dmg
+      zipped: 8-21387599-441676
 
     - name: flash-player-10.3.183.23-linux-npapi
       file: flashplayer_10_3r183_23_linux.tar.gz
@@ -53,6 +58,7 @@
       sha1: 8adebaf6cabda7b5a3d6c5d744d761340900e806
       md5: 729c3870157998b5eab2f7e27101f11d
       source: fp_10.3.183.23_archive/10.3.183.23/flashplayer_10_3r183_23_linux.tar.gz
+      zipped: 8-11534662-5411426
 
     - name: flash-player-10.3.183.23-linux-npapi-debug
       file: flashplayer10_3r183_23_linux_debug.tar.gz
@@ -61,6 +67,7 @@
       sha1: 4eaad3aa002c37734f6824d4d0a5cf689c1ab0a1
       md5: 5a8e066cc73a2d21f680b3af55bc947d
       source: fp_10.3.183.23_archive/10.3.183.23_debug/flashplayer10_3r183_23_linux_debug.tar.gz
+      zipped: 8-21829458-5802033
 
     - name: flash-player-10.3.183.23-linux-sa
       file: flashplayer_10_3r183_23_linux_sa.tar.gz
@@ -69,6 +76,7 @@
       sha1: 08e09229f9437f93f83e9c2eb8a057356b9ea5ea
       md5: 9650c8fd461e9fe7cc6ae9677668bd46
       source: fp_10.3.183.23_archive/10.3.183.23/flashplayer_10_3r183_23_linux_sa.tar.gz
+      zipped: 8-16946192-4441296
 
     - name: flash-player-10.3.183.23-linux-sa-debug
       file: flashplayer10_3r183_23_linux_sa_debug.tar.gz
@@ -77,3 +85,4 @@
       sha1: 3516086394dd963185c2b98ce27dabb3364688b9
       md5: 46860b2e5d9a7b72a0173e7d18ef4eef
       source: fp_10.3.183.23_archive/10.3.183.23_debug/flashplayer10_3r183_23_linux_sa_debug.tar.gz
+      zipped: 8-27631606-4794483

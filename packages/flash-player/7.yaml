@@ -13,6 +13,7 @@
       sha1: 177984d260f56c857b314914d67e026dc80e2c77
       md5: 96fa807648dcd6f8015a6e5e6d8984cc
       source: fp7_archive/r14/fp_7.0.14_plugin_ns.exe
+      zipped: 8-2282045-606645
 
     - name: flash-player-7.0.14.0-windows-activex-ocx
       file: Flash.ocx
@@ -21,6 +22,7 @@
       sha1: 8282c38c13b477fbb2f3cc2a9d5ab2d4569e47a1
       md5: b414d4ba7bfb6218ae6b224b46c81d60
       source: fp7_archive/r14/Flash.ocx
+      zipped: 8-101-530154
 
     - name: flash-player-7.0.14.0-mac-osx-npapi
       file: fp_7.0.14_plugin_mac_osx.hqx
@@ -29,6 +31,7 @@
       sha1: 21b262b98006405e0f39dd6fadd828be4d37898c
       md5: 96eb58178ceb5ba6f1fdc93726457f33
       source: fp7_archive/r14/fp_7.0.14_plugin_mac_osx.hqx
+      zipped: 8-530329-929824
 
     - name: flash-player-7.0.14.0-mac-classic-npapi
       file: fp_7.0.14_plugin_macclassic.hqx
@@ -37,6 +40,7 @@
       sha1: 1f25520f8ae1386eac14a1eea3b10efb039c2dad
       md5: 0bd1643da4fdfe1964e583b7c7934f84
       source: fp7_archive/r14/fp_7.0.14_plugin_macclassic.hqx
+      zipped: 8-1460230-821746
 
     - name: flash-player-7.0.19.0-windows-npapi
       file: flashplayer7_win.exe
@@ -45,6 +49,7 @@
       sha1: d6685226bd5747f7a96c8dd6507abcb32e6ff26d
       md5: 9e2bb1b15d8bbdaae3569fc8ef3ff94c
       source: fp7_archive/r19/flashplayer7_win.exe
+      zipped: 8-2888802-642267
 
     - name: flash-player-7.0.19.0-windows-activex
       file: flashplayer7_winax.exe
@@ -53,6 +58,7 @@
       sha1: 63fc653e94577533f6ee562ef9b83cf4e217a0e4
       md5: b6777cd80fdf2cd3148d7e1178d59938
       source: fp7_archive/r19/flashplayer7_winax.exe
+      zipped: 8-3531137-529131
 
     - name: flash-player-7.0.19.0-mac-ppc-npapi
       file: flashplayer7_macppc.hqx
@@ -61,6 +67,7 @@
       sha1: 614a21a8bcb09263ca98da7739bf705f16bb5667
       md5: ebe19c5d387dff4b245f91c735077403
       source: fp7_archive/r24/flashplayer7_macppc.hqx
+      zipped: 8-4997155-828447
 
     - name: flash-player-7.0.24.0-mac-osx-npapi
       file: flashplayer7_macosx.hqx
@@ -69,6 +76,7 @@
       sha1: 0cecf85856b08f2b5ca8caf1ee6f108f41e1c5f4
       md5: 2b3ca1cdb5cf698161df8282fd2ec20b
       source: fp7_archive/r24/flashplayer7_macosx.hqx
+      zipped: 8-4060383-936703
 
     - name: flash-player-7.0.25.0-linux-npapi
       file: install_flash_player_7_linux.tar.gz
@@ -77,6 +85,7 @@
       sha1: ae252d5b7b421d2f617f5b9ebb7acea210ecc37c
       md5: 79c59a5ea29347e01c8e6575dd054cd1
       source: fp7_archive/r25/install_flash_player_7_linux.tar.gz
+      zipped: 8-5825729-963590
 
     - name: flash-player-7.0.53.0-solaris-sparc-npapi
       file: install_flash_player_7_solaris_sparc_r53.tar.gz
@@ -85,6 +94,7 @@
       sha1: c93a8109c6abb5647548112b177e32571955afb1
       md5: 9c0c0cdf8391d0371a2b63e2797e2724
       source: fp7_archive/r53/install_flash_player_7_solaris_sparc_r53.tar.gz
+      zipped: 8-6789458-992655
 
     - name: flash-player-7.0.53.0-solaris-x86-npapi
       file: install_flash_player_7_solaris_x86_r53.tar.gz
@@ -93,6 +103,7 @@
       sha1: c05b528fcecca64803a16b22aeff93c97b60c40d
       md5: 7fbc7729c29e5af67a2f0390c8695d43
       source: fp7_archive/r53/install_flash_player_7_solaris_x86_r53.tar.gz
+      zipped: 8-7782204-958326
 
     - name: flash-player-7.0.61.0-windows-npapi
       file: flashplayer7r61_win.exe
@@ -101,6 +112,7 @@
       sha1: 5f1e981c1bfccf605ed7cd8831cc522527eaca77
       md5: ec35f4087e96080a5a426be8b6c69a81
       source: fp7_archive/r61/flashplayer7r61_win.exe
+      zipped: 8-9505725-647453
 
     - name: flash-player-7.0.61.0-windows-activex
       file: flashplayer7r61_winax.exe
@@ -109,6 +121,7 @@
       sha1: 341b9747fbbbe72e7e20a0c26a3a73efefc11199
       md5: 67fe2b3cfe3e057bd021ae356989bb1e
       source: fp7_archive/r61/flashplayer7r61_winax.exe
+      zipped: 8-10153249-530152
 
     - name: flash-player-7.0.61.0-mac-npapi
       file: flashplayer7r61_mac.hqx
@@ -117,6 +130,7 @@
       sha1: 8af9d2232130bd3e776eb59b561de2e3d4181e94
       md5: 503dcd194dca8d962aaf3b0292a9fdd7
       source: fp7_archive/r61/flashplayer7r61_mac.hqx
+      zipped: 8-8740645-765011
 
     - name: flash-player-7.0.63.0-windows-npapi
       file: flashplayer7r63_win.exe
@@ -125,6 +139,7 @@
       sha1: 92d3feb66db4133d1fe5ca63c7bd929779089364
       md5: 6345177e04bea6c18cfe9a17950862fa
       source: fp7_archive/r63/flashplayer7r63_win.exe
+      zipped: 8-12225461-661346
 
     - name: flash-player-7.0.63.0-windows-activex
       file: flashplayer7r63_winax.exe
@@ -133,6 +148,7 @@
       sha1: 89761f2df2700c86957ec160dbd7cdd1270a301e
       md5: 6c7a31cf9a9dd76d420ba37034a71e6d
       source: fp7_archive/r63/flashplayer7r63_winax.exe
+      zipped: 8-12886878-549896
 
     - name: flash-player-7.0.63.0-mac-npapi
       file: flashplayer7r63_mac.hqx
@@ -141,6 +157,7 @@
       sha1: 202eb779860cbfaab9eb91f99fcce2099936f657
       md5: 987ea0a37c741e98356424e98ffdcd14
       source: fp7_archive/r63/flashplayer7r63_mac.hqx
+      zipped: 8-10683516-1541876
 
     - name: flash-player-7.0.63.0-linux-npapi
       file: install_flash_player_7_linux_r63.tar.gz
@@ -149,6 +166,7 @@
       sha1: 16504b1439ccf164436bf0a7193e69702437ced4
       md5: a835bc6613c76f62c74a50406bd5801d
       source: fp7_archive/r63/install_flash_player_7_linux_r63.tar.gz
+      zipped: 8-13436859-997901
 
     - name: flash-player-7.0.63.0-solaris-sparc-npapi
       file: install_flash_player_7_solaris_sparc_r63.tar.gz
@@ -157,6 +175,7 @@
       sha1: d3b21213dc4304ef76c7f10013874d98e01baa7f
       md5: b89999081b3b38bd16289e23c80814c3
       source: fp7_archive/r63/install_flash_player_7_solaris_sparc_r63.tar.gz
+      zipped: 8-14434853-1019897
 
     - name: flash-player-7.0.63.0-solaris-x86-npapi
       file: install_flash_player_7_solaris_x86_r63.tar.gz
@@ -165,6 +184,7 @@
       sha1: c57265459ab678e1c9591e633c31fe901d12a740
       md5: 18a38cfc7d92d414bacf4c8a77fbf308
       source: fp7_archive/r63/install_flash_player_7_solaris_x86_r63.tar.gz
+      zipped: 8-15454841-995541
 
     - name: flash-player-7.0.66.0-solaris-sparc-npapi
       file: install_flash_player_7_solaris_sparc_r66.tar.gz
@@ -173,6 +193,7 @@
       sha1: b4a562f85b9423856ded8c299af026f63747d18b
       md5: dc1ecebb7e637faa58e9714c90eac1ef
       source: fp7_archive/r66/install_flash_player_7_solaris_sparc_r66.tar.gz
+      zipped: 8-16450521-1019574
 
     - name: flash-player-7.0.66.0-solaris-x86-npapi
       file: install_flash_player_7_solaris_x86_r66.tar.gz
@@ -181,6 +202,7 @@
       sha1: 7a94abd3cff666a78368d7e92279e488633eac48
       md5: e3e91fcf6093cd967aa2d0e4b7fec9b9
       source: fp7_archive/r66/install_flash_player_7_solaris_x86_r66.tar.gz
+      zipped: 8-17470186-982638
 
     - name: flash-player-7.0.67.0-solaris-sparc-npapi
       file: install_flash_player_7_solaris_sparc_r67.tar.gz
@@ -189,6 +211,7 @@
       sha1: 39bf5ede969db81318086b770ab43f2769c1d3f0
       md5: 1971a64da47f30194426c6bf088273bc
       source: fp7_archive/r67/install_flash_player_7_solaris_sparc_r67.tar.gz
+      zipped: 8-18452963-1050377
 
     - name: flash-player-7.0.67.0-solaris-x86-npapi
       file: install_flash_player_7_solaris_x86_r67.tar.gz
@@ -197,6 +220,7 @@
       sha1: 35cf4ff6ef4c7bc10adf22a9582c94e1220a00a5
       md5: aca39f813f0c4449539859a9fb642d02
       source: fp7_archive/r67/install_flash_player_7_solaris_x86_r67.tar.gz
+      zipped: 8-19503431-978772
 
     - name: flash-player-7.0.68.0-windows-npapi
       file: flashplayer7r68_win.exe
@@ -205,6 +229,7 @@
       sha1: 2cc71b5c16b183ab338f6430d3a67d61d2cfea13
       md5: 7bb04161007c051bbde435812ef0f1e4
       source: fp7_archive/r68/flashplayer7r68_win.exe
+      zipped: 8-22011054-654161
 
     - name: flash-player-7.0.68.0-windows-activex
       file: flashplayer7r68_winax.exe
@@ -213,6 +238,7 @@
       sha1: e893dec4f7de648fe904ad8f26965ef0c0c82a02
       md5: ccc635c958bb478fe3a9cfc2df86804b
       source: fp7_archive/r68/flashplayer7r68_winax.exe
+      zipped: 8-22665286-549973
 
     - name: flash-player-7.0.68.0-mac-npapi
       file: flashplayer7r68_mac.hqx
@@ -221,6 +247,7 @@
       sha1: a29dec27cdb3bf3b9d16348698a7af1a245dbf5e
       md5: 9167bda506ae459ccbb9bb8556342a60
       source: fp7_archive/r68/flashplayer7r68_mac.hqx
+      zipped: 8-20482318-1528667
 
     - name: flash-player-7.0.68.0-linux-npapi
       file: install_flash_player_7_linux_r68.tar.gz
@@ -229,6 +256,7 @@
       sha1: 5e05b592fd5de85e4f0de3b0789487462070f218
       md5: a18532c8457f1140964c4d896a928c96
       source: fp7_archive/r68/install_flash_player_7_linux_r68.tar.gz
+      zipped: 8-23215344-997350
 
     - name: flash-player-7.0.69.0-windows-npapi
       file: flashplayer7r69_win.exe
@@ -237,6 +265,7 @@
       sha1: 607d4ed1360de02b7ccd0cd80702144bcea8c7c0
       md5: 100e5c0a5ff1ce3751fb17bbdb1028b8
       source: fp7_archive/r69/flashplayer7r69_win.exe
+      zipped: 8-25755684-654714
 
     - name: flash-player-7.0.69.0-windows-activex
       file: flashplayer7r69_winax.exe
@@ -245,6 +274,7 @@
       sha1: a9c13a4a033ac79a5cfcad8211a8a5d1ff3545a3
       md5: b89349dc6a97be067f375e0597bfb1be
       source: fp7_archive/r69/flashplayer7r69_winax.exe
+      zipped: 8-26410469-546080
 
     - name: flash-player-7.0.69.0-mac-npapi
       file: flashplayer7r69_mac.hqx
@@ -253,6 +283,7 @@
       sha1: 7df8d478f0c4021ebdfd2e4feae6367615191582
       md5: 95f599100874bbe5432e9e90b3843117
       source: fp7_archive/r69/flashplayer7r69_mac.hqx
+      zipped: 8-24212809-1542806
 
     - name: flash-player-7.0.69.0-linux-npapi
       file: install_flash_player_7r69_linux.tar.gz
@@ -261,6 +292,7 @@
       sha1: d5835c149b47ab0d155f4a64839dc6bcf3bf251d
       md5: a69b691076d987912e0d0c99d87c18ac
       source: fp7_archive/r69/install_flash_player_7r69_linux.tar.gz
+      zipped: 8-26956633-994639
 
     - name: flash-player-7.0.70.0-windows-npapi
       file: flashplayer7r70_win.exe
@@ -269,6 +301,7 @@
       sha1: 4f946727fae12629577fdcc92cf9b4eef43207dd
       md5: 9ba63cfb0dfd0b6b093f188ac42ecf07
       source: fp7_archive/r70/flashplayer7r70_win.exe
+      zipped: 8-29289708-650927
 
     - name: flash-player-7.0.70.0-windows-activex
       file: flashplayer7r70_winax.exe
@@ -277,6 +310,7 @@
       sha1: 6abb10a28cd4602056be74a11b7b384c183ff5d9
       md5: 2375f8d06e507cf28d91511ade4eb95e
       source: fp7_archive/r70/flashplayer7r70_winax.exe
+      zipped: 8-29940706-542334
 
     - name: flash-player-7.0.70.0-mac-npapi
       file: flashplayer7r70_mac.hqx
@@ -285,6 +319,7 @@
       sha1: 5b99444360883dd6473c254450d9f294554c0f0e
       md5: 59df1d904024780b14055abff872bc1f
       source: fp7_archive/r70/flashplayer7r70_mac.hqx
+      zipped: 8-27951387-1338252
 
     - name: flash-player-7.0.70.0-linux-npapi
       file: install_flash_player_7_linux_r70.tar.gz
@@ -293,6 +328,7 @@
       sha1: 499320944bb10038ef03c7477270f9e6200249da
       md5: 0d0d435a0c8b6b9392c3e08e6bc646a2
       source: fp7_archive/r70/install_flash_player_7_linux_r70.tar.gz
+      zipped: 8-30483125-994647
 
     - name: flash-player-7.0.70.0-solaris-sparc-npapi
       file: install_flash_player_7_solaris_sparc_r70.tar.gz
@@ -301,6 +337,7 @@
       sha1: e73e33c47e131d6a52bfe828a4385da7920b956f
       md5: ae1c61bd338a7abcfe44d8ff5d82cfcd
       source: fp7_archive/r70/install_flash_player_7_solaris_sparc_r70.tar.gz
+      zipped: 8-31477865-1051284
 
     - name: flash-player-7.0.70.0-solaris-x86-npapi
       file: install_flash_player_7_solaris_x86_r70.tar.gz
@@ -309,6 +346,7 @@
       sha1: a420537f36a0121c98bf369173f738767f15254d
       md5: 9dc7019f8c49eb3586d74051276d431e
       source: fp7_archive/r70/install_flash_player_7_solaris_x86_r70.tar.gz
+      zipped: 8-32529240-978821
 
     - name: flash-player-7.0.73.0-windows-npapi
       file: flashplayer7r73_win.exe
@@ -317,6 +355,7 @@
       sha1: 711dbbd84ef5a3c59293f9e33031c82df3f9f9f1
       md5: 321108e0c0bb673f51a26ed218c4cac6
       source: fp7_archive/r73/flashplayer7r73_win.exe
+      zipped: 8-35395496-669424
 
     - name: flash-player-7.0.73.0-windows-activex
       file: flashplayer7r73_winax.exe
@@ -325,6 +364,7 @@
       sha1: 93440086694a4674440693d49a8fb63dee546b76
       md5: 394a1184dc481ad3c5424553fcd53e5b
       source: fp7_archive/r73/flashplayer7r73_winax.exe
+      zipped: 8-36064991-555778
 
     - name: flash-player-7.0.73.0-mac-npapi
       file: flashplayer7r73_mac.hqx
@@ -333,6 +373,7 @@
       sha1: 9916d4602cb7006ad675eb08d76bad0f8d74086a
       md5: 6ab40500751ceba88527dd8e9e7502a8
       source: fp7_archive/r73/flashplayer7r73_mac.hqx
+      zipped: 8-33508176-1359381
 
     - name: flash-player-7.0.73.0-mac-classic-npapi
       file: flashplayer7r73_mac_classic.hqx
@@ -341,6 +382,7 @@
       sha1: a4c47facf19a58ae157f77b5d7f06a2d2a5ddcdd
       md5: bfda8ba43cccd4072e45675f11e0af5d
       source: fp7_archive/r73/flashplayer7r73_mac_classic.hqx
+      zipped: 8-34867634-527793
 
     - name: flash-player-7.0.73.0-linux-npapi
       file: install_flash_player_7_linux_r73.tar.gz
@@ -349,6 +391,7 @@
       sha1: a8a04532e9368dd17e5c775a77c9bac71bdd52bd
       md5: 9367ae7db49a88ab79345bae72f891b7
       source: fp7_archive/r73/install_flash_player_7_linux_r73.tar.gz
+      zipped: 8-36620854-1004503
 
     - name: flash-player-7.0.73.0-solaris-sparc-npapi
       file: install_flash_player_7_solaris_sparc_r73.tar.gz
@@ -357,6 +400,7 @@
       sha1: 8b22537e48f209f8e7b6b352330fbdd6cd9fa177
       md5: adc9bbfe27641936f55db5e3e5f6ebc2
       source: fp7_archive/r73/install_flash_player_7_solaris_sparc_r73.tar.gz
+      zipped: 8-37625450-1036257
 
     - name: flash-player-7.0.73.0-solaris-x86-npapi
       file: install_flash_player_7_solaris_x86_r73.tar.gz
@@ -365,6 +409,7 @@
       sha1: b66381ab8badb4260f3aeb0ebacef8585ec04586
       md5: 5201d0296b7267144ae6d7136b0db686
       source: fp7_archive/r73/install_flash_player_7_solaris_x86_r73.tar.gz
+      zipped: 8-38661798-990720
 
 - name: flash-player-7-pro-archive
   file: flash_pro_7_players.zip
@@ -381,6 +426,7 @@
       sha1: 611bac896d6cd3a771f69f3adacd2abc03cab979
       md5: f81a5bc38364d4ef4c9a31c259dc99ec
       source: Players/Debug/Install Flash Player 7.exe
+      zipped: 8-1468297-635899
 
     - name: flash-player-7.0.14.0-windows-activex
       file: Install Flash Player 7 AX.exe
@@ -389,6 +435,7 @@
       sha1: 9e854a227b6a93c9d0965067da743fb97e94a518
       md5: 6e233b6151fd3e9858e168eb07896ffa
       source: Players/Release/Install Flash Player 7 AX.exe
+      zipped: 8-4802030-515634
 
     - name: flash-player-7.0.14.0-windows-activex-debug
       file: Install Flash Player 7 AX.exe
@@ -397,6 +444,7 @@
       sha1: c41fd6042634fad4a71fa431f5ba01bf250daf6f
       md5: e1cafe0a062c57ebf7ae18e55547301b
       source: Players/Debug/Install Flash Player 7 AX.exe
+      zipped: 8-155-525300
 
     - name: flash-player-7.0.14.0-windows-sa
       file: SAFlashPlayer.exe
@@ -405,6 +453,7 @@
       sha1: eaccb61bdc30dc8d228131042196ba907e2537e4
       md5: 526bd034c8696981fb1a0758e6ea458f
       source: Players/Release/SAFlashPlayer.exe
+      zipped: 8-7651972-523508
 
     - name: flash-player-7.0.14.0-windows-sa-debug
       file: SAFlashPlayer.exe
@@ -413,6 +462,7 @@
       sha1: 8ea19a75034159fe8c2d2cdd954e04609c711c00
       md5: d9bb0df0af7a47b5d01b61fa8dddf9d2
       source: Players/Debug/SAFlashPlayer.exe
+      zipped: 8-2945093-554041
 
     - name: flash-player-7.0.14.0-mac-npapi-debug
       file: Install Flash Player 7.hqx
@@ -421,6 +471,7 @@
       sha1: a145af44e32595189b79a58acbc8c1be4d65b57c
       md5: b239a47feb37fa24d121dda621a5f89e
       source: Players/Debug/Install Flash Player 7.hqx
+      zipped: 8-2104266-840766
 
     - name: flash-player-7.0.14.0-mac-osx-npapi-debug
       file: Install Flash Player 7 OSX.hqx
@@ -429,6 +480,7 @@
       sha1: ec2f537a39d052dbb07d0cc01b693e15a923388e
       md5: 50f86e519130ad4d24f979a30caf648e
       source: Players/Debug/Install Flash Player 7 OSX.hqx
+      zipped: 8-525529-942698
 
     - name: flash-player-7.0.14.0-mac-sa
       file: SAFlashPlayer.hqx
@@ -437,6 +489,7 @@
       sha1: 0c9cd7b1ca089b7ac61e2e32d420c496627978ae
       md5: 3368e0733c4ac7a35230d3cd6ae6573c
       source: Players/Release/SAFlashPlayer.hqx
+      zipped: 8-8175543-804704
 
     - name: flash-player-7.0.14.0-mac-sa-debug
       file: SAFlashPlayer.hqx
@@ -445,6 +498,7 @@
       sha1: f2d84e3586597d36662cacad6be4930f9de9e3c8
       md5: 63774d031a9183c539333a9b5bfe56fc
       source: Players/Debug/SAFlashPlayer.hqx
+      zipped: 8-3499195-838964
 
 - name: flash-player-7-pro-2-archive
   file: flash_pro_7-2_players.zip
@@ -461,6 +515,7 @@
       sha1: 5b7c01e1468537c5ae2b8271bd43a5ec996137c5
       md5: fabdd234702333924cf21c56222e82fc
       source: Players/Debug/Install Flash Player 7.exe
+      zipped: 8-1492676-651049
 
     - name: flash-player-7.0.19.0-windows-activex-debug
       file: Install Flash Player 7 AX.exe
@@ -469,6 +524,7 @@
       sha1: 462c75c103a512d08b015506074cb1d2d1b32376
       md5: 773f009652d2ee32ad3621a0b1a4d8c9
       source: Players/Debug/Install Flash Player 7 AX.exe
+      zipped: 8-155-538031
 
     - name: flash-player-7.0.19.0-windows-sa
       file: SAFlashPlayer.exe
@@ -477,6 +533,7 @@
       sha1: 56dd79fdae84f8bce9b9d1cc384650c52abae0c5
       md5: 129e997d1ad4f55ff12fa65b6d08d596
       source: Players/Release/SAFlashPlayer.exe
+      zipped: 8-7778217-530339
 
     - name: flash-player-7.0.19.0-windows-sa-debug
       file: SAFlashPlayer.exe
@@ -485,6 +542,7 @@
       sha1: 9cd5ac54165e2d7e67aaa841438a8dbe4a6a3f20
       md5: 8d09ee2fd4003c30a76d41ab1379f2cf
       source: Players/Debug/SAFlashPlayer.exe
+      zipped: 8-2990216-560654
 
     - name: flash-player-7.0.19.0-mac-npapi-debug
       file: Install Flash Player 7.hqx
@@ -493,6 +551,7 @@
       sha1: 3ef519ec7ed8269f6aada5804e23ed56cd7283fe
       md5: 91265878bd37010ea55c11c2b8340763
       source: Players/Debug/Install Flash Player 7.hqx
+      zipped: 8-2143795-846360
 
     - name: flash-player-7.0.19.0-mac-osx-npapi
       file: Install Flash Player 7 OSX.hqx
@@ -501,6 +560,7 @@
       sha1: 312bf047552513c13739f4b65c8f1ab884917c78
       md5: 0812c9be16207a9bfce47cf254f33042
       source: Players/Release/Install Flash Player 7 OSX.hqx
+      zipped: 8-5390035-926214
 
     - name: flash-player-7.0.19.0-mac-osx-npapi-debug
       file: Install Flash Player 7 OSX.hqx
@@ -509,6 +569,7 @@
       sha1: 5626562266f37e2fa1ecfb2fd6ed1f4e3932f5d2
       md5: e1a99bf633024df07f20df0a4607da2e
       source: Players/Debug/Install Flash Player 7 OSX.hqx
+      zipped: 8-538260-954346
 
     - name: flash-player-7.0.19.0-mac-sa
       file: SAFlashPlayer.hqx
@@ -517,6 +578,7 @@
       sha1: 76e92edaa200cd62626e1b13263c18de1b99708e
       md5: 1ace299bbe3337dfc9f725c22511879a
       source: Players/Release/SAFlashPlayer.hqx
+      zipped: 8-8308619-812890
 
     - name: flash-player-7.0.19.0-mac-sa-debug
       file: SAFlashPlayer.hqx
@@ -525,6 +587,7 @@
       sha1: 8b89b6182af73fb9c7602b00e975ded907c4b68a
       md5: 6b6cdda782a441d2876c3da6916fd1a8
       source: Players/Debug/SAFlashPlayer.hqx
+      zipped: 8-3550931-846293
 
 - name: flash-player-7-pro-u2-archive
   file: flash_pro_7-u2_players.zip
@@ -541,6 +604,7 @@
       sha1: f0bdd96bc17215d16cf820f2c2f4ea03917b76bd
       md5: 0d0101b5560444d7e8a825c24bcc52b3
       source: Players/Debug/Install Flash Player 7.exe
+      zipped: 8-609519-667452
 
     - name: flash-player-7.0.68.0-windows-activex-debug
       file: Install Flash Player 7 AX.exe
@@ -549,6 +613,7 @@
       sha1: 3b5da3ef72bd4982d6f579a7585ac321f6f7f6d7
       md5: f31a0702fd9c0760f6d2be575100f2cf
       source: Players/Debug/Install Flash Player 7 AX.exe
+      zipped: 8-155-572332
 
     - name: flash-player-7.0.68.0-windows-sa
       file: SAFlashPlayer.exe
@@ -557,6 +622,7 @@
       sha1: ae0e18c7bac54ea50fa203a5b7ac580d58635353
       md5: 5ef2b050a78bca41dc08f54ea74eff75
       source: Players/Release/SAFlashPlayer.exe
+      zipped: 8-5433781-549845
 
     - name: flash-player-7.0.68.0-windows-sa-debug
       file: SAFlashPlayer.exe
@@ -565,6 +631,7 @@
       sha1: d67dc8a529654f12271cdd76ca09b55abe57d986
       md5: 90e161a578c99a466110aef9971b0c29
       source: Players/Debug/SAFlashPlayer.exe
+      zipped: 8-1277032-580120
 
     - name: flash-player-7.0.68.0-mac-osx-npapi-debug
       file: Install Flash Player 7 OSX.hqx
@@ -573,6 +640,7 @@
       sha1: f9dab299e11e8049e9f975dbcf8538f1f83bee5e
       md5: 7c1f0b99fb4f6f5df0e969a827f8865a
       source: Players/Debug/Install Flash Player 7 OSX.hqx
+      zipped: 8-572561-36888
 
     - name: flash-player-7.0.68.0-mac-sa
       file: SAFlashPlayer.hqx
@@ -581,6 +649,7 @@
       sha1: c8c7de9eae19cb3bc2124d74288a242862b8e720
       md5: c4292a85b40c693c244450c931384a52
       source: Players/Release/SAFlashPlayer.hqx
+      zipped: 8-5983689-825259
 
     - name: flash-player-7.0.68.0-mac-sa-debug
       file: SAFlashPlayer.hqx
@@ -589,6 +658,7 @@
       sha1: d6375add781dd123a19cec752fe65302b02c9b7b
       md5: 7908453f361025569cebb80f0c4fafd7
       source: Players/Debug/SAFlashPlayer.hqx
+      zipped: 8-1857213-859927
 
 - name: flash-player-7-pro-u3-archive
   file: flash_pro_7-u3_players.zip
@@ -605,6 +675,7 @@
       sha1: 7623d71c5bf783de8829a77f83fb3744c52ebb60
       md5: fa3512f9aeae7fe6fe2b2eaabb1fcafa
       source: Players/Debug/Install Flash Player 7.exe
+      zipped: 8-568759-667865
 
     - name: flash-player-7.0.69.0-windows-activex-debug
       file: Install Flash Player 7 AX.exe
@@ -613,6 +684,7 @@
       sha1: e3d3770b75de709e4efaa7851836433254fb6d7b
       md5: 1f46d7a94c95ad6fb1cff3501a60fe53
       source: Players/Debug/Install Flash Player 7 AX.exe
+      zipped: 8-155-568534
 
     - name: flash-player-7.0.69.0-windows-sa
       file: SAFlashPlayer.exe
@@ -621,6 +693,7 @@
       sha1: 762955fcbd02a078012eef9bb3524d392deb454c
       md5: ba591b7df3551075b9f530525b4b0ea1
       source: Players/Release/SAFlashPlayer.exe
+      zipped: 8-5402837-550375
 
     - name: flash-player-7.0.69.0-windows-sa-debug
       file: SAFlashPlayer.exe
@@ -629,6 +702,7 @@
       sha1: e33ac453285fc146228a11ae736177594ae36e5a
       md5: 448fde2189225768629ca8ebf31dcc0a
       source: Players/Debug/SAFlashPlayer.exe
+      zipped: 8-1236685-580690
 
     - name: flash-player-7.0.69.0-mac-sa
       file: SAFlashPlayer.hqx
@@ -637,6 +711,7 @@
       sha1: 3947cf9653315d72aea778c2c1fdaeee7daf34ce
       md5: 6fe5e1460d9b62b6bb236d1a799faa52
       source: Players/Release/SAFlashPlayer.hqx
+      zipped: 8-5953275-825712
 
     - name: flash-player-7.0.69.0-mac-sa-debug
       file: SAFlashPlayer.hqx
@@ -645,6 +720,7 @@
       sha1: 78d6ff7047f1e1efb459680436f0b23437c88b8c
       md5: 56eed2c25f39db8944c5c61b39ca3893
       source: Players/Debug/SAFlashPlayer.hqx
+      zipped: 8-1817436-860204
 
 - name: flash-player-7.0.61.0-linux
   file: install_flash_player_7_linux.tar.gz

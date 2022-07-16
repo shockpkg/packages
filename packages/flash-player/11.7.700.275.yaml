@@ -13,6 +13,7 @@
       sha1: 92138419a0d8c574911cc6cdab09b2fb7df7b950
       md5: 4f723053256032a3b4c326579f3f86b5
       source: fp_11.7.700.275_archive/11_7_r700_275/flashplayer_11_7r700_275_win.exe
+      zipped: 8-33141014-17466707
 
     - name: flash-player-11.7.700.275-windows-npapi-debug
       file: flashplayer11_7r700_275_win_debug.exe
@@ -21,6 +22,7 @@
       sha1: ed4219401dd5ddc712a2168d0748519449627455
       md5: aed11f1d9784cab466de8a8a74878f6e
       source: fp_11.7.700.275_archive/11_7_r700_275_debug/flashplayer11_7r700_275_win_debug.exe
+      zipped: 8-124506402-17903379
 
     - name: flash-player-11.7.700.275-windows-activex
       file: flashplayer_11_7r700_275_winax.exe
@@ -29,6 +31,7 @@
       sha1: 68c9c618176760cc61c1470f818e6d04e4d271f3
       md5: 02644365baa5218db7495e885620b2e0
       source: fp_11.7.700.275_archive/11_7_r700_275/flashplayer_11_7r700_275_winax.exe
+      zipped: 8-50607823-16864188
 
     - name: flash-player-11.7.700.275-windows-activex-debug
       file: flashplayer11_7r700_275_winax_debug.exe
@@ -37,6 +40,7 @@
       sha1: 2e95a7b49d4d608585dc8992ea50bb988b226f5b
       md5: 1969c98bcf9ee94cfaf0c0dc3d3dec91
       source: fp_11.7.700.275_archive/11_7_r700_275_debug/flashplayer11_7r700_275_winax_debug.exe
+      zipped: 8-107190465-17315826
 
     - name: flash-player-11.7.700.275-windows-sa
       file: flashplayer_11_7r700_275_win_sa.exe
@@ -45,6 +49,7 @@
       sha1: 457118305be46e6ac0f7e9e41b73b98cbce6e69b
       md5: 3cee497c781ad471b434453485528437
       source: fp_11.7.700.275_archive/11_7_r700_275/flashplayer_11_7r700_275_win_sa.exe
+      zipped: 8-67472114-4492272
 
     - name: flash-player-11.7.700.275-windows-sa-debug
       file: flashplayer11_7r700_275_win_sa_debug.exe
@@ -53,6 +58,7 @@
       sha1: 16b8a9784003a92697bf166059f3a192f8548700
       md5: 10d38d3168874e907e45f00a8ae1168d
       source: fp_11.7.700.275_archive/11_7_r700_275_debug/flashplayer11_7r700_275_win_sa_debug.exe
+      zipped: 8-142409895-4769075
 
     - name: flash-player-11.7.700.275-windows-uninstaller
       file: uninstall_flashplayer11_7r700_275_win.exe
@@ -61,6 +67,7 @@
       sha1: b5e159283758a57971004d203f9dc8f45c0c4a16
       md5: af24492b0efd809aa3ad54d9d8113838
       source: fp_11.7.700.275_archive/11_7_r700_275/uninstall_flashplayer11_7r700_275_win.exe
+      zipped: 8-72193077-678656
 
     - name: flash-player-11.7.700.275-mac-npapi
       file: flashplayer_11_7r700_275_mac_intel.dmg
@@ -69,6 +76,7 @@
       sha1: 6ad5fe3e4f3f4dbfd63ed43a82fa4cdeac051b03
       md5: 8aebb0574d259548291c3bbcb86fb3f0
       source: fp_11.7.700.275_archive/11_7_r700_275/flashplayer_11_7r700_275_mac_intel.dmg
+      zipped: 8-228-17967643
 
     - name: flash-player-11.7.700.275-mac-npapi-debug
       file: flashplayer11_7r700_275_mac_debug.dmg
@@ -77,6 +85,7 @@
       sha1: 890a24d67ceb688a48669b0a1638bee1a7e2be9b
       md5: 94ea812cd0ae66ab7b8c56851bdce409
       source: fp_11.7.700.275_archive/11_7_r700_275_debug/flashplayer11_7r700_275_mac_debug.dmg
+      zipped: 8-72871918-18450501
 
     - name: flash-player-11.7.700.275-mac-sa
       file: flashplayer_11_7r700_275_mac_sa.dmg
@@ -85,6 +94,7 @@
       sha1: f6fa1d4df8ef8fcb41b59d4a2ab27296c0851465
       md5: 2ac7254dfa9ef82e4489e977bea79a1a
       source: fp_11.7.700.275_archive/11_7_r700_275/flashplayer_11_7r700_275_mac_sa.dmg
+      zipped: 8-17967974-15172940
 
     - name: flash-player-11.7.700.275-mac-sa-debug
       file: flashplayer11_7r700_275_mac_sa_debug.dmg
@@ -93,6 +103,7 @@
       sha1: c60905e0bbe6cda035ac9a9534517c23c1833e96
       md5: c3dd18a98f228f7bf2f1bd7b14ee78c2
       source: fp_11.7.700.275_archive/11_7_r700_275_debug/flashplayer11_7r700_275_mac_sa_debug.dmg
+      zipped: 8-91322533-15867819
 
     - name: flash-player-11.7.700.275-mac-uninstaller
       file: uninstall_flashplayer11_7r700_275_mac.dmg
@@ -101,6 +112,7 @@
       sha1: 36e53e8d659ae6ec3286ca29ecc93ae1a2e7a07b
       md5: ca5caefb14870c952826a7b6f3659c40
       source: fp_11.7.700.275_archive/11_7_r700_275/uninstall_flashplayer11_7r700_275_mac.dmg
+      zipped: 8-71964495-228473
 
 - name: flash-player-11.7.700.275-mac-sa-zip
   file: flashplayer_11_7r700_275_mac_sa.zip

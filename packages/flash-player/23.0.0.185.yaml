@@ -13,6 +13,7 @@
       sha1: 5e399e19561d33a089592ee18b694417ccbf7f3a
       md5: 7464f406208cbd7f73a1f4350a6105ef
       source: 23_0_r0_185/flashplayer23_0r0_185_win.exe
+      zipped: 8-90334140-19729494
 
     - name: flash-player-23.0.0.185-windows-npapi-msi
       file: flashplayer23_0r0_185_win.msi
@@ -21,6 +22,7 @@
       sha1: 2f717f6bf29e9d4d9b8c675cd7ff3b40179f2037
       md5: 4f4e7e9dcc81ecf40bb3ceeabf3810bc
       source: 23_0_r0_185/flashplayer23_0r0_185_win.msi
+      zipped: 8-110063737-20088664
 
     - name: flash-player-23.0.0.185-windows-npapi-debug
       file: flashplayer23_0r0_185_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 5b299e107a264588f2b251ffebe3c150b3ebd193
       md5: a6cc9cb4e63834dab66acc1a3027e9df
       source: 23_0_r0_185_debug/flashplayer23_0r0_185_win_debug.exe
+      zipped: 8-272020490-19546025
 
     - name: flash-player-23.0.0.185-windows-ppapi
       file: flashplayer23_0r0_185_winpep.exe
@@ -37,6 +40,7 @@
       sha1: e8c75a40315c264fc6745f139e5b09aee526c459
       md5: ea973243330784bdc1e8c77176456d04
       source: 23_0_r0_185/flashplayer23_0r0_185_winpep.exe
+      zipped: 8-175108058-20042416
 
     - name: flash-player-23.0.0.185-windows-ppapi-msi
       file: flashplayer23_0r0_185_winpep.msi
@@ -45,6 +49,7 @@
       sha1: b5d410afbcfc3d17d487122de29b68a27887d720
       md5: 815513b9e09623b0fb48cce3b86cb59e
       source: 23_0_r0_185/flashplayer23_0r0_185_winpep.msi
+      zipped: 8-195150580-20399322
 
     - name: flash-player-23.0.0.185-windows-ppapi-debug
       file: flashplayer23_0r0_185_winpep_debug.exe
@@ -53,6 +58,7 @@
       sha1: 165c2823e848dd845a2bd3f01626515d40e406e0
       md5: 645b1caec9b7fa2c90240e40e6a9383f
       source: 23_0_r0_185_debug/flashplayer23_0r0_185_winpep_debug.exe
+      zipped: 8-317624911-20531862
 
     - name: flash-player-23.0.0.185-windows-activex
       file: flashplayer23_0r0_185_winax.exe
@@ -61,6 +67,7 @@
       sha1: 5f17a4b8d4f64f35cdd975b9cacf078b5b8b168d
       md5: 43680e9271537f4eedcc50685803608e
       source: 23_0_r0_185/flashplayer23_0r0_185_winax.exe
+      zipped: 8-136317621-19204362
 
     - name: flash-player-23.0.0.185-windows-activex-msi
       file: flashplayer23_0r0_185_winax.msi
@@ -69,6 +76,7 @@
       sha1: b86c4a79c445481992ac41c47a22323068ca40b1
       md5: 387736ef7ed09f888238b8d47e2375f7
       source: 23_0_r0_185/flashplayer23_0r0_185_winax.msi
+      zipped: 8-155522088-19585864
 
     - name: flash-player-23.0.0.185-windows-activex-debug
       file: flashplayer23_0r0_185_winax_debug.exe
@@ -77,6 +85,7 @@
       sha1: 236fde3abf23e53ddaf3d8a386ce66dd1931436e
       md5: c2cb3f2bc82760e3f4d54d0e448fb764
       source: 23_0_r0_185_debug/flashplayer23_0r0_185_winax_debug.exe
+      zipped: 8-298030023-19594770
 
     - name: flash-player-23.0.0.185-windows-sa
       file: flashplayer23_0r0_185_win_sa.exe
@@ -85,6 +94,7 @@
       sha1: e7c4e62581af6982bb785de8afd6a26d2e828f15
       md5: 7cd7290de9ea40eb2f5d98eb3fc78dac
       source: 23_0_r0_185/flashplayer23_0r0_185_win_sa.exe
+      zipped: 8-130152507-6165009
 
     - name: flash-player-23.0.0.185-windows-sa-debug
       file: flashplayer23_0r0_185_win_sa_debug.exe
@@ -93,6 +103,7 @@
       sha1: eb0ab3e80e9793d4fe8c93ed00f53f8e9aa0924b
       md5: 7e4a4ef0728546a337fd6f8bbd1bacd1
       source: 23_0_r0_185_debug/flashplayer23_0r0_185_win_sa_debug.exe
+      zipped: 8-291566633-6463273
 
     - name: flash-player-23.0.0.185-windows-uninstaller
       file: uninstall_flashplayer23_0r0_185_win.exe
@@ -101,6 +112,7 @@
       sha1: 7256c43ea716a5af5e78d7567184021d3df73f8b
       md5: fe7fcf69e2f549299d637d30b357f284
       source: 23_0_r0_185/uninstall_flashplayer23_0r0_185_win.exe
+      zipped: 8-215966903-783084
 
     - name: flash-player-23.0.0.185-mac-npapi
       file: flashplayer23_0r0_185_mac.dmg
@@ -109,6 +121,7 @@
       sha1: f644de92d8e330640e3ed558fb4bad62a754de08
       md5: f5addb9f33a2b342564e2d3ffc1da01e
       source: 23_0_r0_185/flashplayer23_0r0_185_mac.dmg
+      zipped: 8-145-18880398
 
     - name: flash-player-23.0.0.185-mac-npapi-pkg
       file: flashplayer23_0r0_185_mac_pkg.dmg
@@ -117,6 +130,7 @@
       sha1: 49af6dc7b1cb40d6ce8e23c74ac10dd7edee80f6
       md5: b89c5acb44a2679dc7252157c8d549eb
       source: 23_0_r0_185/flashplayer23_0r0_185_mac_pkg.dmg
+      zipped: 8-18880650-18227799
 
     - name: flash-player-23.0.0.185-mac-npapi-debug
       file: flashplayer23_0r0_185_mac_debug.dmg
@@ -125,6 +139,7 @@
       sha1: 61f8f4dc957ade94ad8908e648e203c7e6870279
       md5: ee20f9087e89eb7cf507dfb1a2faa4fe
       source: 23_0_r0_185_debug/flashplayer23_0r0_185_mac_debug.dmg
+      zipped: 8-216750166-19117456
 
     - name: flash-player-23.0.0.185-mac-ppapi
       file: flashplayer23_0r0_185_macpep.dmg
@@ -133,6 +148,7 @@
       sha1: 15f869decfe5b98e30fbb906b56d94dde316cc40
       md5: dff71a32e82cf61f0053ce5e68bc2fba
       source: 23_0_r0_185/flashplayer23_0r0_185_macpep.dmg
+      zipped: 8-53772623-18606452
 
     - name: flash-player-23.0.0.185-mac-ppapi-pkg
       file: flashplayer23_0r0_185_macpep_pkg.dmg
@@ -141,6 +157,7 @@
       sha1: 003b23d98dc6b3d3733404baba57c2dfc52096b7
       md5: cf327557a49b1e4b187098e9051d80e6
       source: 23_0_r0_185/flashplayer23_0r0_185_macpep_pkg.dmg
+      zipped: 8-72379185-17954852
 
     - name: flash-player-23.0.0.185-mac-ppapi-debug
       file: flashplayer23_0r0_185_macpep_debug.dmg
@@ -149,6 +166,7 @@
       sha1: 9d681097da390022cbb01dd4b826de4bef301862
       md5: 6edc7d4b18c0df9ed5ff7cf3a7170b01
       source: 23_0_r0_185_debug/flashplayer23_0r0_185_macpep_debug.dmg
+      zipped: 8-253104393-18915982
 
     - name: flash-player-23.0.0.185-mac-sa
       file: flashplayer23_0r0_185_mac_sa.dmg
@@ -157,6 +175,7 @@
       sha1: 7498eea29829a87189f658d723cd5a6f288ba901
       md5: 1edd874ef16a8a16acc7304ed5c5b1e9
       source: 23_0_r0_185/flashplayer23_0r0_185_mac_sa.dmg
+      zipped: 8-37108555-16663962
 
     - name: flash-player-23.0.0.185-mac-sa-debug
       file: flashplayer23_0r0_185_mac_sa_debug.dmg
@@ -165,6 +184,7 @@
       sha1: 9bae07a2b8dd435e81b89296677f84117f94924c
       md5: 485a2e62e95b8b2f3ef2994288798c05
       source: 23_0_r0_185_debug/flashplayer23_0r0_185_mac_sa_debug.dmg
+      zipped: 8-235867740-17236535
 
     - name: flash-player-23.0.0.185-mac-uninstaller
       file: uninstall_flashplayer23_0r0_185_mac.dmg
@@ -173,6 +193,7 @@
       sha1: 4668ed3e88d2781552b8fd026e5da14a7a0555ba
       md5: 6f29facb6b4a4dbe66c2b28e4c225053
       source: 23_0_r0_185/uninstall_flashplayer23_0r0_185_mac.dmg
+      zipped: 8-215550015-416775
 
 - name: flash-player-23.0.0.185-mac-sa-zip
   file: flashplayer23_0r0_185_mac_sa.zip

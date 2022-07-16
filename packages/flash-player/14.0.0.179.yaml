@@ -13,6 +13,7 @@
       sha1: 1d5725fd0d50eb1361213179ffae9ee24944755a
       md5: 3d539963e937a836c0e36383b1bba6c9
       source: fp_14.0.0.179_archive/14_0_r0_179/flashplayer14_0r0_179_win.exe
+      zipped: 8-209-19047675
 
     - name: flash-player-14.0.0.179-windows-npapi-msi
       file: flashplayer14_0r0_179_win.msi
@@ -21,6 +22,7 @@
       sha1: 1fa1f5869944978fe929f642028156466eaac9fa
       md5: 79efa264eab176499356bcb76d96ebba
       source: fp_14.0.0.179_archive/14_0_r0_179/flashplayer14_0r0_179_win.msi
+      zipped: 8-19047977-19360480
 
     - name: flash-player-14.0.0.179-windows-npapi-debug
       file: flashplayer14_0r0_179_win_debug.exe
@@ -29,3 +31,4 @@
       sha1: ddbc2253e16ae20c98fa6a3a75ddb3fe0766ed74
       md5: e047fe3e1fe77997a45c31717dc05432
       source: fp_14.0.0.179_archive/14_0_r0_179_debug/flashplayer14_0r0_179_win_debug.exe
+      zipped: 8-38408632-18852045

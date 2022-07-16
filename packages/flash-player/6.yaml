@@ -13,6 +13,7 @@
       sha1: 0ee1fcd95e232214f5a991305d009f65b8b28441
       md5: a8010bcae879643a56258b2968fe9c46
       source: FP6_archive/r21/fp_6.0.21_plugin.exe
+      zipped: 8-2002913-511537
 
     - name: flash-player-6.0.21.0-windows-activex
       file: fp_6.0.21_activex.exe
@@ -21,6 +22,7 @@
       sha1: a95f4996d12fbeda4c5dcdd7805017a8c0bd8db0
       md5: d6c275f7d4a840bac691431eb004efb6
       source: FP6_archive/r21/fp_6.0.21_activex.exe
+      zipped: 8-113-511532
 
     - name: flash-player-6.0.21.0-mac-osx-npapi
       file: fp_6.0.21_macosx.hqx
@@ -29,6 +31,7 @@
       sha1: a08ef249966e0ce508d1ba2904f58a6440e17a51
       md5: a92ffd2a645fb84e58b15586194ae0ae
       source: FP6_archive/r21/fp_6.0.21_macosx.hqx
+      zipped: 8-511711-796316
 
     - name: flash-player-6.0.21.0-mac-classic-npapi
       file: fp_6.0.21_mac_classic.hqx
@@ -37,6 +40,7 @@
       sha1: 951f0fce6e85672a130bc4721cf055bfcf8a79ec
       md5: d53ac15062b82a1c3dd01e4343f4d2f7
       source: FP6_archive/r21/fp_6.0.21_mac_classic.hqx
+      zipped: 8-1308098-694749
 
     - name: flash-player-6.0.23.0-windows-npapi
       file: fp_6.0.23_plugin.exe
@@ -45,6 +49,7 @@
       sha1: 67956b0e970eebdda65e8423ddb312699f7ae324
       md5: 7c63f34f0f2625ef7d4659c74b0553d7
       source: FP6_archive/r23/fp_6.0.23_plugin.exe
+      zipped: 8-4519661-511597
 
     - name: flash-player-6.0.23.0-windows-activex
       file: fp_6.0.23_activex.exe
@@ -53,6 +58,7 @@
       sha1: f058d7322b95bde11a8e20a32503dfbf4def28b5
       md5: 604cce9e97cfa8d74c0d1985a74d050c
       source: FP6_archive/r23/fp_6.0.23_activex.exe
+      zipped: 8-2514563-513575
 
     - name: flash-player-6.0.23.0-mac-osx-npapi
       file: fp_6.0.23_macosx.hqx
@@ -61,6 +67,7 @@
       sha1: 629e2c09a7070afa8c50275e9d0f1b8a52a8d017
       md5: d1410b78bf7fa2daa42754b0493a6228
       source: FP6_archive/r23/fp_6.0.23_macosx.hqx
+      zipped: 8-3028204-796437
 
     - name: flash-player-6.0.23.0-mac-classic-npapi
       file: fp_6.0.23_mac_classic.hqx
@@ -69,6 +76,7 @@
       sha1: b1f7525e586be011ada9e7d3953cda6c7b3f7a21
       md5: 486f865607a5294e94811d5248542fbb
       source: FP6_archive/r23/fp_6.0.23_mac_classic.hqx
+      zipped: 8-3824712-694883
 
     - name: flash-player-6.0.29.0-windows-npapi
       file: fp_6.0.29_plugin.exe
@@ -77,6 +85,7 @@
       sha1: b5bf279cb02e287ec4266ddf0c79ce6b4517cd5c
       md5: a2cf5c8ca4b63240eba0f848802a6267
       source: FP6_archive/r29/fp_6.0.29_plugin.exe
+      zipped: 8-7064662-511716
 
     - name: flash-player-6.0.29.0-windows-activex
       file: fp_6.0.29_activex.exe
@@ -85,6 +94,7 @@
       sha1: 759726c416490fe98c8d22184aff298f34932fe8
       md5: 9ef109bcb87358bbc3728deb5441abc5
       source: FP6_archive/r29/fp_6.0.29_activex.exe
+      zipped: 8-5031371-511912
 
     - name: flash-player-6.0.29.0-mac-osx-npapi
       file: fp_6.0.29_macosx.hqx
@@ -93,6 +103,7 @@
       sha1: 8822f9d21744a4996cc8c4f2bb91c124c9971d3a
       md5: 061785076e9d84d206dad35c4e6040d0
       source: FP6_archive/r29/fp_6.0.29_macosx.hqx
+      zipped: 8-5543349-809870
 
     - name: flash-player-6.0.29.0-mac-classic-npapi
       file: fp_6.0.29_mac_classic.hqx
@@ -101,6 +112,7 @@
       sha1: 153973474898da9f690ac62d658d14c132bc1c27
       md5: 59c77741c6f087778dcbce51d4d725f5
       source: FP6_archive/r29/fp_6.0.29_mac_classic.hqx
+      zipped: 8-6353290-711306
 
     - name: flash-player-6.0.47.0-windows-npapi
       file: fp_6.0.47_plugin.exe
@@ -109,6 +121,7 @@
       sha1: f2121692b2a67abfea0ab1d68148f70b98c798d6
       md5: 7a4d4a924e4c73a7d656f28611be0cb3
       source: FP6_archive/r47/fp_6.0.47_plugin.exe
+      zipped: 8-9653703-529268
 
     - name: flash-player-6.0.47.0-windows-activex
       file: fp_6.0.47_activex.exe
@@ -117,6 +130,7 @@
       sha1: 47c19c9586a4fd9ebe444091a5918261c569c9b9
       md5: 0375879ae091f8bb682abbf9233b1906
       source: FP6_archive/r47/fp_6.0.47_activex.exe
+      zipped: 8-7576491-527946
 
     - name: flash-player-6.0.47.0-mac-osx-npapi
       file: fp_6.0.47_macosx.hqx
@@ -125,6 +139,7 @@
       sha1: 158015bbfa7ed391e0a0160a35698e783a826310
       md5: 90c517317b0c5b98e4cd141142ee111b
       source: FP6_archive/r47/fp_6.0.47_macosx.hqx
+      zipped: 8-8104503-823358
 
     - name: flash-player-6.0.47.0-mac-classic-npapi
       file: fp_6.0.47_mac_classic.hqx
@@ -133,6 +148,7 @@
       sha1: 14c0f9bf9c6b41903045d2e5141ebcb550caae44
       md5: 6f18ab41abf6b6b9c69b5cc39581295c
       source: FP6_archive/r47/fp_6.0.47_mac_classic.hqx
+      zipped: 8-8927932-725705
 
     - name: flash-player-6.0.65.0-windows-npapi
       file: fp_6.0.65_plugin.exe
@@ -141,6 +157,7 @@
       sha1: 79302ec70d2a0334350680726fa6e4a4d4e6eb15
       md5: efe6f29228e3df14c6ef59bd30c1c0fa
       source: FP6_archive/r65/fp_6.0.65_plugin.exe
+      zipped: 8-12310186-540761
 
     - name: flash-player-6.0.65.0-windows-activex
       file: fp_6.0.65_activex.exe
@@ -149,6 +166,7 @@
       sha1: 2d8d032b185e61acd541fc3eed280debb3def7ee
       md5: 0b7279c48df11b0a39a004f9548ed02e
       source: FP6_archive/r65/fp_6.0.65_activex.exe
+      zipped: 8-10183084-536309
 
     - name: flash-player-6.0.65.0-mac-osx-npapi
       file: fp_6.0.65_macosx.hqx
@@ -157,6 +175,7 @@
       sha1: 0852ae3b603e6e80d3aa92bc71b9912355e45d42
       md5: 828ce912de8b802d52d095300cf5df21
       source: FP6_archive/r65/fp_6.0.65_macosx.hqx
+      zipped: 8-10719459-841096
 
     - name: flash-player-6.0.65.0-mac-classic-npapi
       file: fp_6.0.65_mac_classic.hqx
@@ -165,6 +184,7 @@
       sha1: 165db1dcb4d48b096efe0888526dfc5ac02faf94
       md5: 86661fa218cf239562b7abfc5a99c328
       source: FP6_archive/r65/fp_6.0.65_mac_classic.hqx
+      zipped: 8-11560626-749494
 
     - name: flash-player-6.0.79.0-windows-npapi
       file: fp_6.0.79_plugin.exe
@@ -173,6 +193,7 @@
       sha1: 69b1e7fc55428b453e8f66de089c612750a74fad
       md5: 36f21028886c1676cfbab7f235833f4f
       source: FP6_archive/r79/fp_6.0.79_plugin.exe
+      zipped: 8-14983504-542333
 
     - name: flash-player-6.0.79.0-windows-activex
       file: fp_6.0.79_activex.exe
@@ -181,6 +202,7 @@
       sha1: 457cb6ffff945beadf90d049c09bd2fe8f92a784
       md5: eb5a3e7d677c2ecfe531b266a8a3a37a
       source: FP6_archive/r79/fp_6.0.79_activex.exe
+      zipped: 8-12851060-538021
 
     - name: flash-player-6.0.79.0-mac-osx-npapi
       file: fp_6.0.79_macosx.hqx
@@ -189,6 +211,7 @@
       sha1: 05029d9bedb03377053d22b5ca5f1d8e51f30700
       md5: 976503072ed43ca023058f635a64bf0e
       source: FP6_archive/r79/fp_6.0.79_macosx.hqx
+      zipped: 8-13389147-842935
 
     - name: flash-player-6.0.79.0-mac-classic-npapi
       file: fp_6.0.79_mac_classic.hqx
@@ -197,6 +220,7 @@
       sha1: e314ff582321c4c94c7bf21314a033fe27993789
       md5: 7676234ad21a098a85cc9711f94f92dd
       source: FP6_archive/r79/fp_6.0.79_mac_classic.hqx
+      zipped: 8-14232153-751285
 
 - name: flash-player-6-pro-archive
   file: flash_pro_6_players.zip
@@ -213,6 +237,7 @@
       sha1: 6708028ac01afb6ef87f980cda35ed761abab048
       md5: 8c3adf7051c9e514998786e902b9088a
       source: Players/Debug/Install Flash Player 6.exe
+      zipped: 8-1329360-526689
 
     - name: flash-player-6.0.21.0-windows-activex-debug
       file: Install Flash Player 6 AX.exe
@@ -221,6 +246,7 @@
       sha1: db91557ed3669ffeeba2087da9b4f70de059b606
       md5: 4a43c0e7819fc5676512b6347faf0bb7
       source: Players/Debug/Install Flash Player 6 AX.exe
+      zipped: 8-155-528113
 
     - name: flash-player-6.0.21.0-windows-sa
       file: SAFlashPlayer.exe
@@ -229,6 +255,7 @@
       sha1: 6e0577397176f87f9a561bbd8de2cf9e5dd1d838
       md5: 0529e490a35bcf93865f3042f1db3c42
       source: Players/Release/SAFlashPlayer.exe
+      zipped: 8-6184739-429477
 
     - name: flash-player-6.0.21.0-windows-sa-debug
       file: SAFlashPlayer.exe
@@ -237,6 +264,7 @@
       sha1: 523c3dea1cb5aa06c65bc954e31bc75277f1f6c8
       md5: 7bf895c69c175413903dbd5243e0b85e
       source: Players/Debug/SAFlashPlayer.exe
+      zipped: 8-2564218-445754
 
     - name: flash-player-6.0.21.0-mac-npapi-debug
       file: Install Flash Player 6.hqx
@@ -245,6 +273,7 @@
       sha1: e0b3ebc430a2e969279996bf0cda56953d91d8ba
       md5: 607fa349057602f0b9f3f7101d461984
       source: Players/Debug/Install Flash Player 6.hqx
+      zipped: 8-1856119-708038
 
     - name: flash-player-6.0.21.0-mac-osx-npapi-debug
       file: Install Flash Player 6 OSX.hqx
@@ -253,6 +282,7 @@
       sha1: 133cdf38285263fc7c9661163799f0f9c6fa755c
       md5: 7a9c7cd7ee42f151419377f0202563cb
       source: Players/Debug/Install Flash Player 6 OSX.hqx
+      zipped: 8-528342-800948
 
     - name: flash-player-6.0.21.0-mac-sa
       file: SAFlashPlayer.hqx
@@ -261,6 +291,7 @@
       sha1: 26ded7dc469dcc852e56d47be642d557c6895563
       md5: 80fbbee14cbc7f23902e97b9f4118fa9
       source: Players/Release/SAFlashPlayer.hqx
+      zipped: 8-6614279-654844
 
     - name: flash-player-6.0.21.0-mac-sa-debug
       file: SAFlashPlayer.hqx
@@ -269,6 +300,7 @@
       sha1: 2600ce8ed8ec923d5c6651c6d82a5e33b13f242d
       md5: 4478e8248b7aad0fa9bba8d141411108
       source: Players/Debug/SAFlashPlayer.hqx
+      zipped: 8-3010033-673385
 
 - name: flash-player-6-pro-6.0.79.0-windows-archive
   file: flash_pro_6_player_6-0-79-0_win.zip
@@ -285,6 +317,7 @@
       sha1: 8bf2a0b4efda67eeca7f6d554ddcfe17cd29ee89
       md5: 92e9309e2313fddb0382972687a2a8da
       source: SAFlashPlayer.exe
+      zipped: 8-47-456008
 
 - name: flash-player-6.0.4.0-windows-sa
   file: SAFlashPlayer.exe

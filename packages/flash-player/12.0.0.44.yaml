@@ -13,6 +13,7 @@
       sha1: 6a38d8e1968437a499da968e59de9188717ecbb3
       md5: 73329b5ef731eb006a8c665ee3614a9c
       source: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_win.exe
+      zipped: 8-18443390-17756537
 
     - name: flash-player-12.0.0.44-windows-npapi-msi
       file: flashplayer12_0r0_44_win.msi
@@ -21,6 +22,7 @@
       sha1: 03f4fbfd950a7f687808f0c014f9e561ff6f721d
       md5: 3dd353dc04f12e17c1e6f05c77a078d9
       source: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_win.msi
+      zipped: 8-36200017-18051902
 
     - name: flash-player-12.0.0.44-windows-npapi-debug
       file: flashplayer12_0r0_44_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 77306b15be8894e171e271b168c0df8abc7e5b99
       md5: 19ae7a79500d7a4f1cd68e4e41fe6288
       source: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_win_debug.exe
+      zipped: 8-142326591-18197592
 
     - name: flash-player-12.0.0.44-windows-activex
       file: flashplayer12_0r0_44_winax.exe
@@ -37,6 +40,7 @@
       sha1: d1bab8909866bff30c3e835feb7820150c31ec82
       md5: dc90a2d087fbde18259134cd5983c5a4
       source: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_winax.exe
+      zipped: 8-54252011-17164623
 
     - name: flash-player-12.0.0.44-windows-activex-msi
       file: flashplayer12_0r0_44_winax.msi
@@ -45,6 +49,7 @@
       sha1: 04663715f1397e9f60fe16cc7a8871487c395381
       md5: e6f0b458fe8314fa698a4a88e069843f
       source: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_winax.msi
+      zipped: 8-71416726-17457458
 
     - name: flash-player-12.0.0.44-windows-activex-debug
       file: flashplayer12_0r0_44_winax_debug.exe
@@ -53,6 +58,7 @@
       sha1: e9d404129576bf331f5912f4934cc214cb608929
       md5: ef68f1961059d30905555113078fce76
       source: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_winax_debug.exe
+      zipped: 8-124724800-17601689
 
     - name: flash-player-12.0.0.44-windows-sa-debug
       file: flashplayer12_0r0_44_win_sa_debug.exe
@@ -61,6 +67,7 @@
       sha1: e243a190243e5200035a6e4a3ecc95ab12c58c5a
       md5: 93624537ca6096bda674910b6bc4d7da
       source: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_win_sa_debug.exe
+      zipped: 8-160524288-4846814
 
     - name: flash-player-12.0.0.44-windows-uninstaller
       file: uninstall_flashplayer12_0r0_44_win.exe
@@ -69,6 +76,7 @@
       sha1: 24294bef088a87b026c4a69a30d1d2fe145542db
       md5: 69bc21e6b721a1385262531d2f85247d
       source: fp_12.0.0.44_archive/12_0_r0_44/uninstall_flashplayer12_0r0_44_win.exe
+      zipped: 8-89105360-699132
 
     - name: flash-player-12.0.0.44-mac-npapi
       file: flashplayer12_0r0_44_mac.dmg
@@ -77,6 +85,7 @@
       sha1: e4fd18f221ad1c773598c1c574fbfda9f98cf274
       md5: dac7e02942b4b26fdcaf6d19007f86d4
       source: fp_12.0.0.44_archive/12_0_r0_44/flashplayer12_0r0_44_mac.dmg
+      zipped: 8-203-18443097
 
     - name: flash-player-12.0.0.44-mac-npapi-debug
       file: flashplayer12_0r0_44_mac_debug.dmg
@@ -85,6 +94,7 @@
       sha1: ebfb69421ff40309426f20da56f0ece9b1abce94
       md5: 76f1ef70c7f7e465ae7667a87c6d294d
       source: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_mac_debug.dmg
+      zipped: 8-89804662-18886805
 
     - name: flash-player-12.0.0.44-mac-sa-debug
       file: flashplayer12_0r0_44_mac_sa_debug.dmg
@@ -93,6 +103,7 @@
       sha1: 2308472842a913aab3ad33d9c4e0c92231a7f91f
       md5: 63d120c4fbad65857a1fa4eb93c10d88
       source: fp_12.0.0.44_archive/12_0_r0_44_debug/flashplayer12_0r0_44_mac_sa_debug.dmg
+      zipped: 8-108691572-16033124
 
     - name: flash-player-12.0.0.44-mac-uninstaller
       file: uninstall_flashplayer12_0r0_44_mac.dmg
@@ -101,6 +112,7 @@
       sha1: df7a15dc4ec38e6255915e8624082e888ad93319
       md5: 9bba5e4a97e3d474e0ecb90e7e8eb7c4
       source: fp_12.0.0.44_archive/12_0_r0_44/uninstall_flashplayer12_0r0_44_mac.dmg
+      zipped: 8-88874284-230976
 
 - name: flash-player-12.0.0.44-mac-sa-debug-zip
   file: flashplayer12_0r0_44_mac_sa_debug.zip

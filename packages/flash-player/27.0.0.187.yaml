@@ -13,6 +13,7 @@
       sha1: 872f388c7857847170d83b874a6c825f0b360d00
       md5: d88e0e4f59f81045fc3cb2086f5d6214
       source: 27_0_r0_187/flashplayer27_0r0_187_win.exe
+      zipped: 8-134110649-20308186
 
     - name: flash-player-27.0.0.187-windows-npapi-msi
       file: flashplayer27_0r0_187_win.msi
@@ -21,6 +22,7 @@
       sha1: 8042a8f4fd317c896246028a2a178485eae0841a
       md5: 121ac4195a2793e49338d7298ad46c71
       source: 27_0_r0_187/flashplayer27_0r0_187_win.msi
+      zipped: 8-154418938-20668962
 
     - name: flash-player-27.0.0.187-windows-npapi-debug
       file: flashplayer27_0r0_187_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: a6516cc5300bdb38876e16a21357fec5968321fb
       md5: a19c81f1ab9142a3cf4e59ed142ddb59
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_win_debug.exe
+      zipped: 8-355059416-20099195
 
     - name: flash-player-27.0.0.187-windows-ppapi
       file: flashplayer27_0r0_187_winpep.exe
@@ -37,6 +40,7 @@
       sha1: 2d3815618d9e7285ac8d9765314d38130aff34e0
       md5: 102640555cf3d3d84e8efc643092f474
       source: 27_0_r0_187/flashplayer27_0r0_187_winpep.exe
+      zipped: 8-221220135-20269345
 
     - name: flash-player-27.0.0.187-windows-ppapi-msi
       file: flashplayer27_0r0_187_winpep.msi
@@ -45,6 +49,7 @@
       sha1: 2dcfe09ff047ebc785c27f1515a06569c906c4fa
       md5: c5b4e31ed4768db5da4118440d9982a8
       source: 27_0_r0_187/flashplayer27_0r0_187_winpep.msi
+      zipped: 8-241489586-20629366
 
     - name: flash-player-27.0.0.187-windows-ppapi-debug
       file: flashplayer27_0r0_187_winpep_debug.exe
@@ -53,6 +58,7 @@
       sha1: b0bc547ac2fc5053d3347272367570321d774839
       md5: 7c24cf6071ac8c9a5a0be444196ae84a
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_winpep_debug.exe
+      zipped: 8-401794411-20743339
 
     - name: flash-player-27.0.0.187-windows-activex
       file: flashplayer27_0r0_187_winax.exe
@@ -61,6 +67,7 @@
       sha1: e80d6c40a4c03837d9dcc537ef5de4edc666d4c2
       md5: 9aa8aad90148d28c037373c68125419e
       source: 27_0_r0_187/flashplayer27_0r0_187_winax.exe
+      zipped: 8-181288497-19787171
 
     - name: flash-player-27.0.0.187-windows-activex-msi
       file: flashplayer27_0r0_187_winax.msi
@@ -69,6 +76,7 @@
       sha1: 4c1e4dc52fbe26f53844cbbf18c5c3675c203895
       md5: 9a5b463c5480749d23c56a13d88de571
       source: 27_0_r0_187/flashplayer27_0r0_187_winax.msi
+      zipped: 8-201075773-20144256
 
     - name: flash-player-27.0.0.187-windows-activex-debug
       file: flashplayer27_0r0_187_winax_debug.exe
@@ -77,6 +85,7 @@
       sha1: 9fb9a3eb74bda1fb467ea7b81727d5932ec2b464
       md5: f1d82d6b93b77a50a529d02a78edf07f
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_winax_debug.exe
+      zipped: 8-381646698-20147595
 
     - name: flash-player-27.0.0.187-windows-sa
       file: flashplayer27_0r0_187_win_sa.exe
@@ -85,6 +94,7 @@
       sha1: 2ab02543c0775556bf2c6d8ff451f0c0761be56d
       md5: c921458a951f4353d5208b5448b900b2
       source: 27_0_r0_187/flashplayer27_0r0_187_win_sa.exe
+      zipped: 8-175088006-6200386
 
     - name: flash-player-27.0.0.187-windows-sa-debug
       file: flashplayer27_0r0_187_win_sa_debug.exe
@@ -93,6 +103,7 @@
       sha1: fea91062448b15524bbc3b819a41b3a265aefe3d
       md5: a968cd13ce53e4bfbe8ccb38cabb6388
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_win_sa_debug.exe
+      zipped: 8-375158729-6487852
 
     - name: flash-player-27.0.0.187-windows-uninstaller
       file: uninstall_flashplayer27_0r0_187_win.exe
@@ -101,6 +112,7 @@
       sha1: 77bf8ee9967d8b9d58c90ed664c4a24fa1dd10ea
       md5: af4648394adbf9ed186aabbb2090b90b
       source: 27_0_r0_187/uninstall_flashplayer27_0r0_187_win.exe
+      zipped: 8-262540798-850779
 
     - name: flash-player-27.0.0.187-mac-npapi
       file: flashplayer27_0r0_187_mac.dmg
@@ -109,6 +121,7 @@
       sha1: 34d8cfa25a6fdffcb043ee78123fa35cf84180da
       md5: 5dfdc84f0508cedac3aba78f62685d0d
       source: 27_0_r0_187/flashplayer27_0r0_187_mac.dmg
+      zipped: 8-43442205-19124205
 
     - name: flash-player-27.0.0.187-mac-npapi-pkg
       file: flashplayer27_0r0_187_mac_pkg.dmg
@@ -117,6 +130,7 @@
       sha1: 7fbaf6228abd0ef5031ebbb26c9aec1d13873dcb
       md5: 49b548d38239f7c139beea224f887e05
       source: 27_0_r0_187/flashplayer27_0r0_187_mac_pkg.dmg
+      zipped: 8-62566517-18462562
 
     - name: flash-player-27.0.0.187-mac-npapi-debug
       file: flashplayer27_0r0_187_mac_debug.dmg
@@ -125,6 +139,7 @@
       sha1: 8c1d4544358928a9f4fb1c3db1d5c795f9058129
       md5: e11ff063cb1d6db7b68ce3e0afe97420
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_mac_debug.dmg
+      zipped: 8-299777429-19336442
 
     - name: flash-player-27.0.0.187-mac-ppapi
       file: flashplayer27_0r0_187_macpep.dmg
@@ -133,6 +148,7 @@
       sha1: 4e42c5bcebbf360f6f5c5a9bbdf618a2f0a9cbf7
       md5: 87c9ae6b5c7c9e1b6e914bbaf13803ae
       source: 27_0_r0_187/flashplayer27_0r0_187_macpep.dmg
+      zipped: 8-97598070-18584332
 
     - name: flash-player-27.0.0.187-mac-ppapi-pkg
       file: flashplayer27_0r0_187_macpep_pkg.dmg
@@ -141,6 +157,7 @@
       sha1: 03936e0ac9a3e8f2002f0930d1bb359950c81fb1
       md5: ccae98f6208798fc71be41a2abad1f1e
       source: 27_0_r0_187/flashplayer27_0r0_187_macpep_pkg.dmg
+      zipped: 8-116182512-17928034
 
     - name: flash-player-27.0.0.187-mac-ppapi-debug
       file: flashplayer27_0r0_187_macpep_debug.dmg
@@ -149,6 +166,7 @@
       sha1: a8458bb5934134ef4d4024516b9d05a99b01c19d
       md5: 81265cde19a4521f5635469c9ff20f47
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_macpep_debug.dmg
+      zipped: 8-336170393-18888908
 
     - name: flash-player-27.0.0.187-mac-sa
       file: flashplayer27_0r0_187_mac_sa.dmg
@@ -157,6 +175,7 @@
       sha1: 44668a7dc97ea5a3ffb002415afa0aa0e6ac10d7
       md5: c4a8bc178b2c8fd2f43d01302a471505
       source: 27_0_r0_187/flashplayer27_0r0_187_mac_sa.dmg
+      zipped: 8-81029185-16568779
 
     - name: flash-player-27.0.0.187-mac-sa-debug
       file: flashplayer27_0r0_187_mac_sa_debug.dmg
@@ -165,6 +184,7 @@
       sha1: fbd240253065ac613302868ba3fcf21d4bf9f481
       md5: c96232f9275055af43f391230ee05797
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_mac_sa_debug.dmg
+      zipped: 8-319113989-17056286
 
     - name: flash-player-27.0.0.187-mac-uninstaller
       file: uninstall_flashplayer27_0r0_187_mac.dmg
@@ -173,6 +193,7 @@
       sha1: 8d2440df0e7d5d1ca4f5aae4aaec1fbabc091035
       md5: 885ee71c36ae1324f7abfff5cf23fb6d
       source: 27_0_r0_187/uninstall_flashplayer27_0r0_187_mac.dmg
+      zipped: 8-262119065-421620
 
     - name: flash-player-27.0.0.187-linux-i386-npapi
       file: flashplayer27_0r0_187_linux.i386.tar.gz
@@ -181,6 +202,7 @@
       sha1: 2c1e483e1d7fb9c1e7338efbb0de84e179af2660
       md5: 199ccf4504cead429e54c829d1189072
       source: 27_0_r0_187/flashplayer27_0r0_187_linux.i386.tar.gz
+      zipped: 8-155-8383307
 
     - name: flash-player-27.0.0.187-linux-i386-npapi-debug
       file: flashplayer27_0r0_187_linux_debug.i386.tar.gz
@@ -189,6 +211,7 @@
       sha1: 7505a1c514db22c1b2d7e4e28bfaae7c75979b54
       md5: a38e2c8adf21cd7f3a57a91026c29d34
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_linux_debug.i386.tar.gz
+      zipped: 8-263391766-8682752
 
     - name: flash-player-27.0.0.187-linux-i386-ppapi
       file: flashplayer27_0r0_187_linuxpep.i386.tar.gz
@@ -197,6 +220,7 @@
       sha1: a8ea3e49f16f151d1ad197af449a940708f2c8e4
       md5: 4ca97472f8bb7ea8bc26b9c07bcdbe3a
       source: 27_0_r0_187/flashplayer27_0r0_187_linuxpep.i386.tar.gz
+      zipped: 8-25698038-8435326
 
     - name: flash-player-27.0.0.187-linux-x86_64-npapi
       file: flashplayer27_0r0_187_linux.x86_64.tar.gz
@@ -205,6 +229,7 @@
       sha1: f9efdcef45e42d489de0c178df335f1e39fd6924
       md5: 0859330909f5314a30032fcbf8e90ca2
       source: 27_0_r0_187/flashplayer27_0r0_187_linux.x86_64.tar.gz
+      zipped: 8-8383577-8865176
 
     - name: flash-player-27.0.0.187-linux-x86_64-npapi-debug
       file: flashplayer27_0r0_187_linux_debug.x86_64.tar.gz
@@ -213,6 +238,7 @@
       sha1: e30edc19da38b3c7a88657221a97d2e2d4360682
       md5: ca5b32c87ad04b14209569698793884e
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_linux_debug.x86_64.tar.gz
+      zipped: 8-272074645-9214909
 
     - name: flash-player-27.0.0.187-linux-x86_64-ppapi
       file: flashplayer27_0r0_187_linuxpep.x86_64.tar.gz
@@ -221,6 +247,7 @@
       sha1: e90508cc82968b4803c704f0efa99263b0a56cbb
       md5: 39a975eb6412c5200276c8b2ff7befeb
       source: 27_0_r0_187/flashplayer27_0r0_187_linuxpep.x86_64.tar.gz
+      zipped: 8-34133482-9308620
 
     - name: flash-player-27.0.0.187-linux-x86_64-ppapi-debug
       file: flashplayer27_0r0_187_linuxpep_debug.x86_64.tar.gz
@@ -229,6 +256,7 @@
       sha1: efc7fef35ad14015adb07d8715f1e6273c320ff8
       md5: ef7ebdd61ee1b4da5c827431fe3c833e
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_linuxpep_debug.x86_64.tar.gz
+      zipped: 8-290054104-9723210
 
     - name: flash-player-27.0.0.187-linux-x86_64-sa
       file: flashplayer27_0r0_187_linux_sa.x86_64.tar.gz
@@ -237,6 +265,7 @@
       sha1: 317d03534422f0c884bf05756e0f3fceea4fa0ae
       md5: 16b267c4a2ebcfc46e32fa42ad3edfad
       source: 27_0_r0_187/flashplayer27_0r0_187_linux_sa.x86_64.tar.gz
+      zipped: 8-17248871-8449051
 
     - name: flash-player-27.0.0.187-linux-x86_64-sa-debug
       file: flashplayer27_0r0_187_linux_sa_debug.x86_64.tar.gz
@@ -245,6 +274,7 @@
       sha1: 54b8274afae7fab3197cc62923373a04725bca73
       md5: 76206e24ecd402c09405fa752bf4be41
       source: 27_0_r0_187_debug/flashplayer27_0r0_187_linux_sa_debug.x86_64.tar.gz
+      zipped: 8-281289684-8764290
 
 - name: flash-player-27.0.0.187-mac-sa-zip
   file: flashplayer27_0r0_187_mac_sa.zip

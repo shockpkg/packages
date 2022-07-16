@@ -13,6 +13,7 @@
       sha1: 120ebb39cedf48bd2f7113c5c10fae491e39409d
       md5: 1328b398dc185854e8decf187d9ae262
       source: FP5_archive/r30/fp_5.0.30_plugin.exe
+      zipped: 8-738473-311270
 
     - name: flash-player-5.0.30.0-windows-activex
       file: fp_5.0.30_activex.exe
@@ -21,6 +22,7 @@
       sha1: 9ce51a0aac25c6b0978427f05dbd6e235abd3414
       md5: 5c170759b5af2df6bd63c94b67d648ab
       source: FP5_archive/r30/fp_5.0.30_activex.exe
+      zipped: 8-113-284797
 
     - name: flash-player-5.0.30.0-mac-classic-npapi
       file: fp_5.0.30_mac_classic.hqx
@@ -29,6 +31,7 @@
       sha1: cc62c16c2affac3a56b054c63b6802a54bd700b6
       md5: 0aaecf410fbd4ad7f419917bc8d1ee90
       source: FP5_archive/r30/fp_5.0.30_mac_classic.hqx
+      zipped: 8-284981-453426
 
     - name: flash-player-5.0.41.0-windows-activex
       file: flashplayer5installer.exe
@@ -37,6 +40,7 @@
       sha1: 09b9cb793e7a155efd0743c25db4c039b12fbca7
       md5: e50518b182d2d78b35490f01dc8b8786
       source: FP5_archive/r41_42/flashplayer5installer.exe
+      zipped: 8-1049866-312465
 
     - name: flash-player-5.0.41.0-mac-classic-npapi
       file: flashplayer5installer.hqx
@@ -45,6 +49,7 @@
       sha1: b9a8f9156167faf36e09e1a18148d35aefa5b77f
       md5: 483dee90c9978c84cbb6e81e2a2a4c29
       source: FP5_archive/r41_42/flashplayer5installer.hqx
+      zipped: 8-1362405-391175
 
     - name: flash-player-5.0.43.0-windows-activex-ocx
       file: SwFlash.ocx
@@ -53,6 +58,7 @@
       sha1: 27b37bac22bc137ddc10815b96a8a18c8e30d803
       md5: a15ae49cb0f8e02b072e506b42604e42
       source: FP5_archive/r41_42/SwFlash.ocx
+      zipped: 8-1984308-221160
 
     - name: flash-player-5.0.58.0-mac-osx-npapi
       file: flashplayer5_macosx.hqx
@@ -61,6 +67,7 @@
       sha1: 9d297bbaaa699f0e30f30430442af03e4e54bc3d
       md5: ea4fa1fc86b7845ca98989399abd1385
       source: FP5_archive/r41_42/flashplayer5_macosx.hqx
+      zipped: 8-1753652-230596
 
 - name: flash-player-5-pro-archive
   file: flash_pro_5_players.zip
@@ -77,6 +84,7 @@
       sha1: 31e421d54dc4e82be4ce9ea11261a916cb3d44ec
       md5: 57beaab914c41c3ea566824f3539dd1f
       source: Players/Debug/flash32.EXE
+      zipped: 8-1149447-315335
 
     - name: flash-player-5.0.30.0-windows-activex-debug
       file: InstallAXFlash.exe
@@ -85,6 +93,7 @@
       sha1: b40a0ea48b4a6aec810b038e2be5b8315136ed87
       md5: a9fa0cc0386be8e238479aef6480862d
       source: Players/Debug/InstallAXFlash.exe
+      zipped: 8-866740-282652
 
     - name: flash-player-5.0.30.0-windows-sa
       file: FlashPla.exe
@@ -93,6 +102,7 @@
       sha1: 542d17808e87dbef37f73d9ecc2cc086d8148830
       md5: 17f64e891f68f82b7b04379b6ad5b1f7
       source: Players/Release/FlashPla.exe
+      zipped: 8-2104379-191967
 
     - name: flash-player-5.0.30.0-windows-sa-debug
       file: FlashPla.exe
@@ -101,6 +111,7 @@
       sha1: 27c8af3bd4a74f683b0fae1b099bf532b4a4dbbf
       md5: 4afa251dca3d6c084c322c5376ab8e94
       source: Players/Debug/FlashPla.exe
+      zipped: 8-351434-196444
 
     - name: flash-player-5.0.30.0-mac-npapi
       file: Flash 5 Player Installer.hqx
@@ -109,6 +120,7 @@
       sha1: cda3b8740fe55688408481833a251757366251f4
       md5: c04befeec8e03e75ec8af083babbb026
       source: Players/Release/Flash 5 Player Installer.hqx
+      zipped: 8-1757677-346644
 
     - name: flash-player-5.0.30.0-mac-npapi-debug
       file: Flash 5 Player Installer.hqx
@@ -117,6 +129,7 @@
       sha1: f90581b5bdee246985ef2a893ffabaeeedab59c3
       md5: af47bc19a940aec55913209f18103445
       source: Players/Debug/Flash 5 Player Installer.hqx
+      zipped: 8-154-351224
 
     - name: flash-player-5.0.30.0-mac-sa
       file: FlashPla.hqx
@@ -125,6 +138,7 @@
       sha1: 29c60ce996889c554ad6625ab8fd93cc22135b6a
       md5: ea6e7a6944060f7a32f1910fa224793b
       source: Players/Release/FlashPla.hqx
+      zipped: 8-2296404-312384
 
     - name: flash-player-5.0.30.0-mac-sa-debug
       file: FlashPla.hqx
@@ -133,6 +147,7 @@
       sha1: 02f2d474941c9e2e61ddf7db56756f3bcfeaf795
       md5: f644a0c69b3142237a8e05759cc5ed45
       source: Players/Debug/FlashPla.hqx
+      zipped: 8-547934-318744
 
 - name: flash-player-5-pro-update-archive
   file: flash_pro_5_player_updated.zip
@@ -149,6 +164,7 @@
       sha1: d6ff36d4a7794a02f7ce332dafb22791200cfa25
       md5: 238f091a2e29d47081302e80d3078f0b
       source: FlashPla.exe
+      zipped: 8-42-198157
 
 - name: flash-player-5.0.4.0-os2
   file: flashos2.exe

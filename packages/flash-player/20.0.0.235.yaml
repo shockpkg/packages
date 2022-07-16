@@ -13,6 +13,7 @@
       sha1: 91a0b70e2d23cfb37ffe067215e277ba2fe21459
       md5: 586b66416056ce48df95cef12668ea92
       source: fp_20.0.0.235_archive/20_0_d0_228/flashplayer20_0d0_235_win.exe
+      zipped: 8-33584038-18450224
 
     - name: flash-player-20.0.0.235-windows-npapi-msi
       file: flashplayer20_0d0_235_win.msi
@@ -21,6 +22,7 @@
       sha1: 75c6d06b76811fa8e840e61cbcd530b51a024457
       md5: 42529a3d4f55685340531b0b0eb3b768
       source: fp_20.0.0.235_archive/20_0_d0_228/flashplayer20_0d0_235_win.msi
+      zipped: 8-52034355-18806049
 
     - name: flash-player-20.0.0.235-windows-npapi-debug
       file: flashplayer20_0d0_235_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: c0ccc5341b35e239bee91487e69f8758b50917d4
       md5: c625f5dea5c5deb854ec7baf7e6a6681
       source: fp_20.0.0.235_archive/20_0_d0_228_debug/flashplayer20_0d0_235_win_debug.exe
+      zipped: 8-88779460-18269896
 
     - name: flash-player-20.0.0.235-windows-uninstaller
       file: uninstall_flashplayer20_0d0_235_win.exe
@@ -37,6 +40,7 @@
       sha1: bb6846e4ea7f2568f3811f05477d55e4c6471278
       md5: 3b67c902d7093bf6f6bb658805ce1e4d
       source: fp_20.0.0.235_archive/20_0_d0_228/uninstall_flashplayer20_0d0_235_win.exe
+      zipped: 8-71112940-735043
 
     - name: flash-player-20.0.0.235-mac-npapi
       file: flashplayer20_0d0_235_mac.dmg
@@ -45,6 +49,7 @@
       sha1: cbb0bbe011e337584271c0b50d8e213f91da30a5
       md5: 833961df8f57715e8227a888866fbfee
       source: fp_20.0.0.235_archive/20_0_d0_228/flashplayer20_0d0_235_mac.dmg
+      zipped: 8-157-17011456
 
     - name: flash-player-20.0.0.235-mac-npapi-pkg
       file: flashplayer20_0d0_235_mac_pkg.dmg
@@ -53,6 +58,7 @@
       sha1: b92193e6b902ac423dea6def807e7a191a484ae7
       md5: 2985cd5ad916f941a8443a529a599aad
       source: fp_20.0.0.235_archive/20_0_d0_228/flashplayer20_0d0_235_mac_pkg.dmg
+      zipped: 8-17011710-16572235
 
     - name: flash-player-20.0.0.235-mac-npapi-debug
       file: flashplayer20_0d0_235_mac_debug.dmg
@@ -61,6 +67,7 @@
       sha1: e0eefff58b8ac7bada2f593c6d5c638d291f0c65
       md5: eb0304a986d3906207f26a9fb969262e
       source: fp_20.0.0.235_archive/20_0_d0_228_debug/flashplayer20_0d0_235_mac_debug.dmg
+      zipped: 8-71848158-16931197
 
     - name: flash-player-20.0.0.235-mac-uninstaller
       file: uninstall_flashplayer20_0d0_235_mac.dmg
@@ -69,3 +76,4 @@
       sha1: 0883fc1c03075dafb1983ac878f248d73be92c6f
       md5: 4bf52ff6008c4f31b0c6adcb5d6b8890
       source: fp_20.0.0.235_archive/20_0_d0_228/uninstall_flashplayer20_0d0_235_mac.dmg
+      zipped: 8-70840507-272330

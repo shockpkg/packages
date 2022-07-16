@@ -13,6 +13,7 @@
       sha1: af3fc42f0841d7e842e0bdf0daec7d11ab369341
       md5: af54d45bf9c80c855f20cc2b73c685af
       source: fp_11.2.202.508_archive/11_2r202_508_32bit/flashplayer_11_2r202_508_linux.i386.tar.gz
+      zipped: 0-115-6947080
 
     - name: flash-player-11.2.202.508-linux-i386-npapi-debug
       file: flashplayer11_2r202_508_linux_debug.i386.tar.gz
@@ -21,6 +22,7 @@
       sha1: f2f05ffd43963b1dbe29794ca92a90761b7a203d
       md5: a9be970e99853f5ba5d7cb43819413d9
       source: fp_11.2.202.508_archive/11_2r202_508_32bit_debug/flashplayer11_2r202_508_linux_debug.i386.tar.gz
+      zipped: 0-12927425-7427656
 
     - name: flash-player-11.2.202.508-linux-i386-sa
       file: flashplayer_11_2r202_508_linux_sa.i386.tar.gz
@@ -29,6 +31,7 @@
       sha1: e514eeccd73bec803878b61eaa161e6ef9596c13
       md5: 2842f2ae497fb043f4a454b55d271742
       source: fp_11.2.202.508_archive/11_2r202_508_32bit/flashplayer_11_2r202_508_linux_sa.i386.tar.gz
+      zipped: 0-6947313-5979986
 
     - name: flash-player-11.2.202.508-linux-i386-sa-debug
       file: flashplayer11_2r202_508_linux_sa_debug.i386.tar.gz
@@ -37,6 +40,7 @@
       sha1: 40469cb45b4639fa41ad1ced67f26f64e11f6458
       md5: 59facdb52a29de4e502f527dabd2e58e
       source: fp_11.2.202.508_archive/11_2r202_508_32bit_debug/flashplayer11_2r202_508_linux_sa_debug.i386.tar.gz
+      zipped: 0-20355210-6452977
 
     - name: flash-player-11.2.202.508-linux-x86_64-npapi
       file: flash-plugin-11.2.202.508-release.x86_64.tar.gz
@@ -45,3 +49,4 @@
       sha1: 047e47f11f3ed211212b8c14821032d490fb2f29
       md5: 96691df0084037eaeebac9b0838bd9a2
       source: fp_11.2.202.508_archive/11_2r202_508_64bit/flash-plugin-11.2.202.508-release.x86_64.tar.gz
+      zipped: 0-26808307-7266504

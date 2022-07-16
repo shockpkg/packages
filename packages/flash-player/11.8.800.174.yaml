@@ -13,6 +13,7 @@
       sha1: f9f3711ce7e03842247289ebe308e49a2a360823
       md5: b6cb874f2af47ab62bc3d9520fc94165
       source: fp_11.8.800.174_archive/11_8_r800_174/flashplayer11_8r800_174_winax.exe
+      zipped: 8-223-17031075
 
     - name: flash-player-11.8.800.174-windows-activex-msi
       file: flashplayer11_8r800_174_winax.msi
@@ -21,6 +22,7 @@
       sha1: f3a466b33e11a72f3bef4ecd40ef63c19f97a077
       md5: 087754ee7b151dba4474f59008ed29dc
       source: fp_11.8.800.174_archive/11_8_r800_174/flashplayer11_8r800_174_winax.msi
+      zipped: 8-17031399-17323045
 
     - name: flash-player-11.8.800.174-windows-activex-debug
       file: flashplayer11_8r800_174_winax_debug.exe
@@ -29,6 +31,7 @@
       sha1: 838efc97d015fb81ef938c296aad3b38f5aeddb5
       md5: 35ae595759f7fb17c16dcf035fad2c4b
       source: fp_11.8.800.174_archive/11_8_r800_174_debug/flashplayer11_8r800_174_winax_debug.exe
+      zipped: 8-35034606-17465842
 
     - name: flash-player-11.8.800.174-windows-uninstaller
       file: uninstall_flashplayer11_8r800_174_win.exe
@@ -37,3 +40,4 @@
       sha1: eb76a95d6c3e13b9682a9410f46d1cb288f00f57
       md5: 33a29c82bd4a94f6679667713bf1af62
       source: fp_11.8.800.174_archive/11_8_r800_174/uninstall_flashplayer11_8r800_174_win.exe
+      zipped: 8-34354553-679866

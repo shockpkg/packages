@@ -13,6 +13,7 @@
       sha1: 7b8270efc5b2d6f18cb5eabf296efe803d527810
       md5: c36196754c2b8a996b932aa6e8cdd047
       source: fp_17.0.0.188_archive/17_0_r0_188/flashplayer17_0r0_188_win.exe
+      zipped: 8-44865643-18017992
 
     - name: flash-player-17.0.0.188-windows-npapi-msi
       file: flashplayer17_0r0_188_win.msi
@@ -21,6 +22,7 @@
       sha1: de8c9c30b54003d453a1cb08a23f5af2f2b91026
       md5: 5a326a1e152b53a0be548f95dc3480c3
       source: fp_17.0.0.188_archive/17_0_r0_188/flashplayer17_0r0_188_win.msi
+      zipped: 8-62883728-18316015
 
     - name: flash-player-17.0.0.188-windows-npapi-debug
       file: flashplayer17_0r0_188_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 173d1e0676a30ecf0b14abd8db98e6df1d9e1bc3
       md5: be7d01b58dbcb2cc20dc469eefe40daf
       source: fp_17.0.0.188_archive/17_0_r0_188_debug/flashplayer17_0r0_188_win_debug.exe
+      zipped: 8-178709477-17772188
 
     - name: flash-player-17.0.0.188-windows-ppapi
       file: flashplayer17_0r0_188_winpep.exe
@@ -37,6 +40,7 @@
       sha1: d2fe656485c69b35666f44a642948121abdcf843
       md5: c574d596c970f95abb9d7b8d45fc2c01
       source: fp_17.0.0.188_archive/17_0_r0_188/flashplayer17_0r0_188_winpep.exe
+      zipped: 8-116380687-17094288
 
     - name: flash-player-17.0.0.188-windows-ppapi-debug
       file: flashplayer17_0r0_188_winpep_debug.exe
@@ -45,6 +49,7 @@
       sha1: 5d566f729531e391711602ad7f97e95b0b72615f
       md5: ace12f2107bc32eaa84848b8afa29c2f
       source: fp_17.0.0.188_archive/17_0_r0_188_debug/flashplayer17_0r0_188_winpep_debug.exe
+      zipped: 8-220009070-17481256
 
     - name: flash-player-17.0.0.188-windows-activex
       file: flashplayer17_0r0_188_winax.exe
@@ -53,6 +58,7 @@
       sha1: 99cb4f6951842fc19530ef5669b4cd6457d40162
       md5: 5c2e3f81996e84d6bd6209160c4c6048
       source: fp_17.0.0.188_archive/17_0_r0_188/flashplayer17_0r0_188_winax.exe
+      zipped: 8-81199838-17431182
 
     - name: flash-player-17.0.0.188-windows-activex-msi
       file: flashplayer17_0r0_188_winax.msi
@@ -61,6 +67,7 @@
       sha1: c82369d8833b56d06468c4e0bc5b6042a138e82c
       md5: 3af2ac73b116a38926d27eb35cecfb8d
       source: fp_17.0.0.188_archive/17_0_r0_188/flashplayer17_0r0_188_winax.msi
+      zipped: 8-98631115-17749476
 
     - name: flash-player-17.0.0.188-windows-activex-debug
       file: flashplayer17_0r0_188_winax_debug.exe
@@ -69,6 +76,7 @@
       sha1: 56fa70100adc46d49b9effb7f7eea5f4211898aa
       md5: 8711b03c1b6d8aad9a40098900d3ef93
       source: fp_17.0.0.188_archive/17_0_r0_188_debug/flashplayer17_0r0_188_winax_debug.exe
+      zipped: 8-202186986-17821976
 
     - name: flash-player-17.0.0.188-windows-sa-debug
       file: flashplayer17_0r0_188_win_sa_debug.exe
@@ -77,6 +85,7 @@
       sha1: ebcfa56f9e001ff8a922d077d06b0c5b65d0ba06
       md5: d5e3c93bca877d4f6e7d3eb4fcea74bb
       source: fp_17.0.0.188_archive/17_0_r0_188_debug/flashplayer17_0r0_188_win_sa_debug.exe
+      zipped: 8-196481773-5705106
 
     - name: flash-player-17.0.0.188-windows-uninstaller
       file: uninstall_flashplayer17_0r0_188_win.exe
@@ -85,6 +94,7 @@
       sha1: fa9c4359d02b47ab74d10840019c0b5896c110e6
       md5: 0b1ba4dc442ee9c6ce87df9df03abd3f
       source: fp_17.0.0.188_archive/17_0_r0_188/uninstall_flashplayer17_0r0_188_win.exe
+      zipped: 8-133729007-771225
 
     - name: flash-player-17.0.0.188-mac-npapi
       file: flashplayer17_0r0_188_mac.dmg
@@ -93,6 +103,7 @@
       sha1: 8b91919123573fb68143201cb71c511df416f53d
       md5: 8cbb7d3b950a4aee5b3c8761616e07c6
       source: fp_17.0.0.188_archive/17_0_r0_188/flashplayer17_0r0_188_mac.dmg
+      zipped: 8-157-15649752
 
     - name: flash-player-17.0.0.188-mac-npapi-pkg
       file: flashplayer17_0r0_188_mac_pkg.dmg
@@ -101,6 +112,7 @@
       sha1: f01d66b62aef61205df085082b1e05274eb85b43
       md5: 2ee57797ae1f8a872bb5503aca4d7dbb
       source: fp_17.0.0.188_archive/17_0_r0_188/flashplayer17_0r0_188_mac_pkg.dmg
+      zipped: 8-15650006-15388090
 
     - name: flash-player-17.0.0.188-mac-npapi-debug
       file: flashplayer17_0r0_188_mac_debug.dmg
@@ -109,6 +121,7 @@
       sha1: 904cb8e0b6272c2e299c9838709e5e2e37604315
       md5: 33278fd52d4ab3c1a32cf20bc4f49f99
       source: fp_17.0.0.188_archive/17_0_r0_188_debug/flashplayer17_0r0_188_mac_debug.dmg
+      zipped: 8-134500407-15993162
 
     - name: flash-player-17.0.0.188-mac-ppapi
       file: flashplayer17_0r0_188_macpep.dmg
@@ -117,6 +130,7 @@
       sha1: 18ea9eb5ef336b2f6e3b2eb0eee1f9e47055d2cc
       md5: ddf81c996c5f9547419c53123e9e8387
       source: fp_17.0.0.188_archive/17_0_r0_188/flashplayer17_0r0_188_macpep.dmg
+      zipped: 8-31038192-13827358
 
     - name: flash-player-17.0.0.188-mac-ppapi-debug
       file: flashplayer17_0r0_188_macpep_debug.dmg
@@ -125,6 +139,7 @@
       sha1: c1ac48679585ed6b2fe771739b5412cffb4773cc
       md5: a4e10c503ca12d8f2086c95905b9cc4e
       source: fp_17.0.0.188_archive/17_0_r0_188_debug/flashplayer17_0r0_188_macpep_debug.dmg
+      zipped: 8-164506960-14202412
 
     - name: flash-player-17.0.0.188-mac-sa-debug
       file: flashplayer17_0r0_188_mac_sa_debug.dmg
@@ -133,6 +148,7 @@
       sha1: 62953806865a1787c24aa1663e688c9a82baa716
       md5: 90a5ef7c478933685f6f7158d6af995e
       source: fp_17.0.0.188_archive/17_0_r0_188_debug/flashplayer17_0r0_188_mac_sa_debug.dmg
+      zipped: 8-150493677-14013175
 
     - name: flash-player-17.0.0.188-mac-uninstaller
       file: uninstall_flashplayer17_0r0_188_mac.dmg
@@ -141,6 +157,7 @@
       sha1: 21cf011d4708365dd6d998a15e75cf4ef7fb494e
       md5: bb80a62df928c08d28d90bca84dbafb4
       source: fp_17.0.0.188_archive/17_0_r0_188/uninstall_flashplayer17_0r0_188_mac.dmg
+      zipped: 8-133475078-253826
 
 - name: flash-player-17.0.0.188-windows-sa
   file: flashplayer_17_sa.exe

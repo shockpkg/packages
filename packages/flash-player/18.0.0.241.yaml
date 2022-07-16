@@ -13,6 +13,7 @@
       sha1: e3ed4dbe90af3c3c921e1dee083777db2558400e
       md5: daca5b1165b787facb42ff096434124a
       source: fp_18.0.0.241_archive/18_0_r0_241/flashplayer18_0r0_241_win.exe
+      zipped: 8-33037556-18319378
 
     - name: flash-player-18.0.0.241-windows-npapi-msi
       file: flashplayer18_0r0_241_win.msi
@@ -21,6 +22,7 @@
       sha1: bc67a847c26f3b14403d6fa748dec9f27fb2c1b0
       md5: 7d0967f53a7c8d27f342d1294ba92177
       source: fp_18.0.0.241_archive/18_0_r0_241/flashplayer18_0r0_241_win.msi
+      zipped: 8-51357027-18674997
 
     - name: flash-player-18.0.0.241-windows-npapi-debug
       file: flashplayer18_0r0_241_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 3f33e42a8b4dd4d8ac567e7b4be2844f8762d91d
       md5: 37cd7b76be88c92b0b54acd121049210
       source: fp_18.0.0.241_archive/18_0_r0_241_debug/flashplayer18_0r0_241_win_debug.exe
+      zipped: 8-137953209-18135462
 
     - name: flash-player-18.0.0.241-windows-activex
       file: flashplayer18_0r0_241_winax.exe
@@ -37,6 +40,7 @@
       sha1: f48c5829577da2405a627ed352a34bbe225e2728
       md5: 3828cd027c01b11310aa0847c248f1b2
       source: fp_18.0.0.241_archive/18_0_r0_241/flashplayer18_0r0_241_winax.exe
+      zipped: 8-70032119-17805581
 
     - name: flash-player-18.0.0.241-windows-activex-msi
       file: flashplayer18_0r0_241_winax.msi
@@ -45,6 +49,7 @@
       sha1: b53ba102084c2d9b3a3712b1dada1b423bc02d7b
       md5: 3af522b61346a18705bbf5adef43c748
       source: fp_18.0.0.241_archive/18_0_r0_241/flashplayer18_0r0_241_winax.msi
+      zipped: 8-87837795-18183248
 
     - name: flash-player-18.0.0.241-windows-activex-debug
       file: flashplayer18_0r0_241_winax_debug.exe
@@ -53,6 +58,7 @@
       sha1: 403bfd9148122a42315eb0d5d593a5abf0f92a4f
       md5: 5b0bffbcaeb93dcc37263ba1cc5e48fd
       source: fp_18.0.0.241_archive/18_0_r0_241_debug/flashplayer18_0r0_241_winax_debug.exe
+      zipped: 8-161834409-18193337
 
     - name: flash-player-18.0.0.241-windows-sa-debug
       file: flashplayer18_0r0_241_win_sa_debug.exe
@@ -61,6 +67,7 @@
       sha1: 8986b016a16765b3e20c820a52a94f3825d28563
       md5: 1c848362af98546ba465203d56082a48
       source: fp_18.0.0.241_archive/18_0_r0_241_debug/flashplayer18_0r0_241_win_sa_debug.exe
+      zipped: 8-156088779-5745523
 
     - name: flash-player-18.0.0.241-windows-uninstaller
       file: uninstall_flashplayer18_0r0_241_win.exe
@@ -69,6 +76,7 @@
       sha1: 0f72e4ebe47e59487d049718f2b7664ad8ed99ca
       md5: 8d96e09e970ed54f89c20d8248e9e838
       source: fp_18.0.0.241_archive/18_0_r0_241/uninstall_flashplayer18_0r0_241_win.exe
+      zipped: 8-106289269-730325
 
     - name: flash-player-18.0.0.241-mac-npapi
       file: flashplayer18_0r0_241_mac.dmg
@@ -77,6 +85,7 @@
       sha1: 2a8acbead3b4d57c195e2459f9fc4d4ee403d9c0
       md5: 2f8129e0bc1860687f7292b0f7632117
       source: fp_18.0.0.241_archive/18_0_r0_241/flashplayer18_0r0_241_mac.dmg
+      zipped: 8-157-16691690
 
     - name: flash-player-18.0.0.241-mac-npapi-pkg
       file: flashplayer18_0r0_241_mac_pkg.dmg
@@ -85,6 +94,7 @@
       sha1: 4b24e0301a6204e64d18d8f2f99edcbff0ff3f06
       md5: adcdc7a162e2c5c8b02b3854c1d7770d
       source: fp_18.0.0.241_archive/18_0_r0_241/flashplayer18_0r0_241_mac_pkg.dmg
+      zipped: 8-16691944-16345519
 
     - name: flash-player-18.0.0.241-mac-npapi-debug
       file: flashplayer18_0r0_241_mac_debug.dmg
@@ -93,6 +103,7 @@
       sha1: b26ce30d63871e506ca1242c2dbfa1a6ba4b0212
       md5: 7d7ac43d1d28e6f8f20ec6ed42107d1e
       source: fp_18.0.0.241_archive/18_0_r0_241_debug/flashplayer18_0r0_241_mac_debug.dmg
+      zipped: 8-107019769-16814271
 
     - name: flash-player-18.0.0.241-mac-sa-debug
       file: flashplayer18_0r0_241_mac_sa_debug.dmg
@@ -101,6 +112,7 @@
       sha1: 10627da5702037f37b1cdbe2b3e713451f08d3e8
       md5: a233fef3fb894218d1bf0fd27c7c7a7d
       source: fp_18.0.0.241_archive/18_0_r0_241_debug/flashplayer18_0r0_241_mac_sa_debug.dmg
+      zipped: 8-123834148-14118956
 
     - name: flash-player-18.0.0.241-mac-uninstaller
       file: uninstall_flashplayer18_0r0_241_mac.dmg
@@ -109,6 +121,7 @@
       sha1: a42cb3688d67ecf66a73793b06854257c09e0881
       md5: bcafc84fa390990ab93f5a03fb8e6972
       source: fp_18.0.0.241_archive/18_0_r0_241/uninstall_flashplayer18_0r0_241_mac.dmg
+      zipped: 8-106021146-268020
 
 - name: flash-player-18.0.0.241-mac-sa-debug-zip
   file: flashplayer18_0r0_241_mac_sa_debug.zip

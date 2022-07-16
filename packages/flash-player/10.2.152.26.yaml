@@ -13,6 +13,7 @@
       sha1: 4a650caf62d8841d14b9d7888ab9b69d5d6f617a
       md5: 93b031983ba99390373b4d3c68af3345
       source: fp_10.2.152.26_archive/10_2r152_26/flashplayer10_2r152_26_win.exe
+      zipped: 8-29684147-2777271
 
     - name: flash-player-10.2.152.26-windows-npapi-debug
       file: flashplayer10_2r152_26_win_debug.exe
@@ -21,6 +22,7 @@
       sha1: 878ac7e8139d4a84812b8efdd4086307b928691b
       md5: df4e2e6f3a1b933e9a34715b536ad658
       source: fp_10.2.152.26_archive/10_2r152_26_debug/flashplayer10_2r152_26_win_debug.exe
+      zipped: 8-60155393-3045447
 
     - name: flash-player-10.2.152.26-windows-activex
       file: flashplayer10_2r152_26_winax.exe
@@ -29,6 +31,7 @@
       sha1: 944c1f2055cd85af37ef44629773c2cf1d02a21c
       md5: 0766fa410de6928f1220023d08d00289
       source: fp_10.2.152.26_archive/10_2r152_26/flashplayer10_2r152_26_winax.exe
+      zipped: 8-35400374-2817036
 
     - name: flash-player-10.2.152.26-windows-activex-debug
       file: flashplayer10_2r152_26_winax_debug.exe
@@ -37,6 +40,7 @@
       sha1: a4348763252f475e45ce300dc2f4e74171b098ef
       md5: 886f57f5508b7bc4069c0302d1e43dfb
       source: fp_10.2.152.26_archive/10_2r152_26_debug/flashplayer10_2r152_26_winax_debug.exe
+      zipped: 8-66467601-3085639
 
     - name: flash-player-10.2.152.26-windows-sa
       file: flashplayer10_2r152_26_win_sa.exe
@@ -45,6 +49,7 @@
       sha1: 28d441cc8d6be5d2d8d0a2cc0725c6b9b6509115
       md5: 20af7bf7a832ff49f9d5133cb0439b31
       source: fp_10.2.152.26_archive/10_2r152_26/flashplayer10_2r152_26_win_sa.exe
+      zipped: 8-32461516-2938761
 
     - name: flash-player-10.2.152.26-windows-sa-debug
       file: flashplayer10_2r152_26_win_sa_debug.exe
@@ -53,6 +58,7 @@
       sha1: 3ab98246e9c11707f201a0dc6e7a0739ce90cea6
       md5: 20ceb8aec312b7045c66d7e3e946ad1a
       source: fp_10.2.152.26_archive/10_2r152_26_debug/flashplayer10_2r152_26_win_sa_debug.exe
+      zipped: 8-63200950-3266542
 
     - name: flash-player-10.2.152.26-windows-uninstaller
       file: uninstall_flashplayer10_2r152_26_win.exe
@@ -61,6 +67,7 @@
       sha1: 6841c1da82d26291670080d20a019d152c8acc14
       md5: 5ba5862fdf5f8644bbe577d1086cc963
       source: fp_10.2.152.26_archive/10_2r152_26/uninstall_flashplayer10_2r152_26_win.exe
+      zipped: 8-38461100-179347
 
     - name: flash-player-10.2.152.26-mac-npapi
       file: flashplayer10_2r152_26_mac_intel.dmg
@@ -69,6 +76,7 @@
       sha1: 6b6adf977efa74f1aa2b7faa4db1196a9ab73c5f
       md5: 781c2f42c7a41e74d5960c0cad93a14c
       source: fp_10.2.152.26_archive/10_2r152_26/flashplayer10_2r152_26_mac_intel.dmg
+      zipped: 8-9181478-5806728
 
     - name: flash-player-10.2.152.26-mac-npapi-debug
       file: flashplayer10_2r152_26_mac_intel_debug.dmg
@@ -77,6 +85,7 @@
       sha1: 4356ac65b1ce40a734a3019062526f920485746c
       md5: ff003322c558b24ea6163db6071909a2
       source: fp_10.2.152.26_archive/10_2r152_26_debug/flashplayer10_2r152_26_mac_intel_debug.dmg
+      zipped: 8-48585622-6196259
 
     - name: flash-player-10.2.152.26-mac-sa
       file: flashplayer10_2r152_26_mac_sa.app.zip
@@ -85,6 +94,7 @@
       sha1: 224881fd2d69de463493a4e08e9ad8a06e9685c1
       md5: 1a3d59deb8c8c013f6dd36dd87ca134e
       source: fp_10.2.152.26_archive/10_2r152_26/flashplayer10_2r152_26_mac_sa.app.zip
+      zipped: 8-14988308-5036334
 
     - name: flash-player-10.2.152.26-mac-sa-debug
       file: flashplayer10_2r152_26_mac_sa_debug.app.zip
@@ -93,6 +103,7 @@
       sha1: 9238a099e14aaf1182b89539fa068538282104e1
       md5: cc2c66a30d810b21ed6188a515a1ceb2
       source: fp_10.2.152.26_archive/10_2r152_26_debug/flashplayer10_2r152_26_mac_sa_debug.app.zip
+      zipped: 8-54781995-5373291
 
     - name: flash-player-10.2.152.26-mac-uninstaller
       file: uninstall_flashplayer10_2r152_26_mac_intel.dmg
@@ -101,6 +112,7 @@
       sha1: 7c38922be9562795663699a19f46aee8c93f28ca
       md5: 3943ea50adde473f39973140996b93fa
       source: fp_10.2.152.26_archive/10_2r152_26/uninstall_flashplayer10_2r152_26_mac_intel.dmg
+      zipped: 8-38217521-243474
 
     - name: flash-player-10.2.152.26-linux-npapi
       file: flashplayer_10_2r152_27_linux.tar.gz
@@ -109,6 +121,7 @@
       sha1: 28ebae160a31b7a8c0bbd7ecbe29a64bea6cb6fa
       md5: e9fc57403796a4992474e4f25857ca14
       source: fp_10.2.152.26_archive/10_2r152_26/flashplayer_10_2r152_27_linux.tar.gz
+      zipped: 8-166-4924305
 
     - name: flash-player-10.2.152.26-linux-npapi-debug
       file: flashplayer_10_2r152_27_linux_debug.tar.gz
@@ -117,6 +130,7 @@
       sha1: 60c509eabbc1b8c7c844232d55bd1388e2eed35c
       md5: ae679116ab822f3ad55db925d040d31e
       source: fp_10.2.152.26_archive/10_2r152_26_debug/flashplayer_10_2r152_27_linux_debug.tar.gz
+      zipped: 8-38640631-5312763
 
     - name: flash-player-10.2.152.26-linux-sa
       file: flashplayer_10_2r152_27_linux_sa.tar.gz
@@ -125,6 +139,7 @@
       sha1: 7a6603b2389ecc4f46f0fa0ad0467f5299758d31
       md5: cba0f7aeedf828604abf84dd68fc98a0
       source: fp_10.2.152.26_archive/10_2r152_26/flashplayer_10_2r152_27_linux_sa.tar.gz
+      zipped: 8-4924575-4256802
 
     - name: flash-player-10.2.152.26-linux-sa-debug
       file: flashplayer_10_2r152_27_linux_sa_debug.tar.gz
@@ -133,6 +148,7 @@
       sha1: 67323513b4670bb306e85ff4d728cf07a61af2ac
       md5: 1a7f2173fe5d22612ce43427ab57c55c
       source: fp_10.2.152.26_archive/10_2r152_26_debug/flashplayer_10_2r152_27_linux_sa_debug.tar.gz
+      zipped: 8-43953510-4631999
 
     - name: flash-player-10.2.152.26-solaris-x86-npapi
       file: flashplayer10_2r152_26_solaris_x86.tar.bz2
@@ -141,6 +157,7 @@
       sha1: 36a349f84d3edd8af82e355e7bb3a99dde0d8e84
       md5: 3769de88b59562974d2d829796c4b1d8
       source: fp_10.2.152.26_archive/10_2r152_26/flashplayer10_2r152_26_solaris_x86.tar.bz2
+      zipped: 8-25150091-4533961
 
     - name: flash-player-10.2.152.26-solaris-sparc-npapi
       file: flashplayer10_2r152_26_solaris_sparc.tar.bz2
@@ -149,3 +166,4 @@
       sha1: 24cb358fec82880f4baf5be8fdc2bf5ac99f8e14
       md5: f26351bdf4840b95c167bfe2d949b3f2
       source: fp_10.2.152.26_archive/10_2r152_26/flashplayer10_2r152_26_solaris_sparc.tar.bz2
+      zipped: 8-20024751-5125233

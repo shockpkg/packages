@@ -13,6 +13,7 @@
       sha1: ab86d306c010ebec37801d14dd8b175cf14d6754
       md5: 9baae3fbc5c6b7e0eb49f3d8a011098a
       source: fp_11.5.502.149_archive/11_5_r502_149/flashplayer11_5r502_149_win.exe
+      zipped: 8-16872569-16268332
 
     - name: flash-player-11.5.502.149-windows-npapi-msi
       file: flashplayer11_5r502_149_win.msi
@@ -21,6 +22,7 @@
       sha1: 3f78ef5b296c0d637a6c34d5234f41b25f5581b1
       md5: bf70da6d58db9492ea987f6f58f96228
       source: fp_11.5.502.149_archive/11_5_r502_149/flashplayer11_5r502_149_win.msi
+      zipped: 8-33141000-16569714
 
     - name: flash-player-11.5.502.149-windows-npapi-debug
       file: flashplayer11_5r502_149_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: bd5af0aecd0d74a3a7f634b9803c301d2e7dfddd
       md5: bff0e89e2814828d000d78e300cd7ffb
       source: fp_11.5.502.149_archive/11_5_r502_149_debug/flashplayer11_5r502_149_win_debug.exe
+      zipped: 8-131899717-17004102
 
     - name: flash-player-11.5.502.149-windows-activex
       file: flashplayer11_5r502_149_winax.exe
@@ -37,6 +40,7 @@
       sha1: 4bca9e834b1f4fb876852566e77f8c7ba5cc756a
       md5: 07a1485b5f927436a937ed4c210aea7d
       source: fp_11.5.502.149_archive/11_5_r502_149/flashplayer11_5r502_149_winax.exe
+      zipped: 8-49710815-15642102
 
     - name: flash-player-11.5.502.149-windows-activex-msi
       file: flashplayer11_5r502_149_winax.msi
@@ -45,6 +49,7 @@
       sha1: 7086f15e59df7414caacdfc4c33847ffd0a35bdb
       md5: 897597f560082a0895a840550b6c889a
       source: fp_11.5.502.149_archive/11_5_r502_149/flashplayer11_5r502_149_winax.msi
+      zipped: 8-65353018-15940221
 
     - name: flash-player-11.5.502.149-windows-activex-debug
       file: flashplayer11_5r502_149_winax_debug.exe
@@ -53,6 +58,7 @@
       sha1: 2f3d54bd1ddd0cb20169e179fb410c18f8b45eb5
       md5: 918e44ccf1eb67aa6cce633f16d0a250
       source: fp_11.5.502.149_archive/11_5_r502_149_debug/flashplayer11_5r502_149_winax_debug.exe
+      zipped: 8-115526188-16373418
 
     - name: flash-player-11.5.502.149-windows-sa-debug
       file: flashplayer11_5r502_149_win_sa_debug.exe
@@ -61,6 +67,7 @@
       sha1: 7d9081b5d0c99e84d95bebb4ef87e4a8040d6b54
       md5: 5f88ddd09c77c0cb665f21bb5bcf1a14
       source: fp_11.5.502.149_archive/11_5_r502_149_debug/flashplayer11_5r502_149_win_sa_debug.exe
+      zipped: 8-148903933-4626400
 
     - name: flash-player-11.5.502.149-windows-uninstaller
       file: uninstall_flashplayer11_5r502_149_win.exe
@@ -69,6 +76,7 @@
       sha1: 9b1f2bb6743f365dced382c8ea1a1fe3997a3bee
       md5: 106f4d6414ba0c7cebb8058237d70066
       source: fp_11.5.502.149_archive/11_5_r502_149/uninstall_flashplayer11_5r502_149_win.exe
+      zipped: 8-81519202-599925
 
     - name: flash-player-11.5.502.149-mac-npapi
       file: flashplayer11_5r502_149_mac.dmg
@@ -77,6 +85,7 @@
       sha1: fc59964274aee28852329b1bc38af8605eb83880
       md5: 10374a9b97a7a50175372f5ca9489656
       source: fp_11.5.502.149_archive/11_5_r502_149/flashplayer11_5r502_149_mac.dmg
+      zipped: 8-221-16872249
 
     - name: flash-player-11.5.502.149-mac-npapi-debug
       file: flashplayer11_5r502_149_mac_debug.dmg
@@ -85,6 +94,7 @@
       sha1: f3de9d3880ed0d5b907566536538eb635b8d3f0e
       md5: 355c90e1b5369d06257c7a6febdfb6e8
       source: fp_11.5.502.149_archive/11_5_r502_149_debug/flashplayer11_5r502_149_mac_debug.dmg
+      zipped: 8-82119312-17496082
 
     - name: flash-player-11.5.502.149-mac-sa-debug
       file: flashplayer11_5r502_149_mac_sa_debug.app.zip
@@ -93,6 +103,7 @@
       sha1: 238ef4f90933f1fcf5373651b6e9145cd0e0ff6d
       md5: 53587703eca38ca63c1310fd6ebfb797
       source: fp_11.5.502.149_archive/11_5_r502_149_debug/flashplayer11_5r502_149_mac_sa_debug.app.zip
+      zipped: 8-99615512-15910563
 
     - name: flash-player-11.5.502.149-mac-uninstaller
       file: uninstall_flashplayer11_5r502_149_mac.dmg
@@ -101,3 +112,4 @@
       sha1: fa117d9870dc19d2928ffd33b7778e9bcc19a87a
       md5: e1fc130b194766d014299434cce15ef8
       source: fp_11.5.502.149_archive/11_5_r502_149/uninstall_flashplayer11_5r502_149_mac.dmg
+      zipped: 8-81293348-225745

@@ -13,6 +13,7 @@
       sha1: ca88fe003d8e21499c5dc17bb632628413ab24a5
       md5: bd273a86906f6e76865e555faf95a34f
       source: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_win.exe
+      zipped: 8-165-9738047
 
     - name: flash-player-11.3.300.273-windows-npapi-msi
       file: flashplayer11_3r300_273_win.msi
@@ -21,6 +22,7 @@
       sha1: 47a4061db84859c862fd23803544633b20831b20
       md5: 3515f377fe233b413c05a0d2c5e6f821
       source: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_win.msi
+      zipped: 8-9738310-9999103
 
     - name: flash-player-11.3.300.273-windows-npapi-debug
       file: flashplayer11_3r300_273_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 1fbf1033bbef9dccc65c3df6b0ba019159b9fddb
       md5: 544d30abf41b9215d467b6ae9ce03937
       source: fp_11.3.300.273_archive/11_3r300_273_debug/flashplayer11_3r300_273_win_debug.exe
+      zipped: 8-42903972-10350448
 
     - name: flash-player-11.3.300.273-windows-activex
       file: flashplayer11_3r300_273_winax.exe
@@ -37,6 +40,7 @@
       sha1: 17074905c26298736449b151987221f03baa9714
       md5: 60b7821ef40b7911b8388d758e2f4f7f
       source: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_winax.exe
+      zipped: 8-23785696-9135216
 
     - name: flash-player-11.3.300.273-windows-activex-msi
       file: flashplayer11_3r300_273_winax.msi
@@ -45,6 +49,7 @@
       sha1: 20bcdfe32e05a36abd6472f33bedc7cd3b262625
       md5: 077f1c7182ea7644af08a032eb376cdf
       source: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_winax.msi
+      zipped: 8-32921012-9392901
 
     - name: flash-player-11.3.300.273-windows-activex-debug
       file: flashplayer11_3r300_273_winax_debug.exe
@@ -53,6 +58,7 @@
       sha1: 5b8364322d0095f3621c7099fda9425b20bc9537
       md5: faaad43ce2e5afe43f1862d910f0d3fd
       source: fp_11.3.300.273_archive/11_3r300_273_debug/flashplayer11_3r300_273_winax_debug.exe
+      zipped: 8-57739122-9751771
 
     - name: flash-player-11.3.300.273-windows-sa
       file: flashplayer11_3r300_273_win_sa.exe
@@ -61,6 +67,7 @@
       sha1: 4f4e123273331075fd42a30786f7084bd4171916
       md5: 0d984f367b9fdb80042cd1b939582037
       source: fp_11.3.300.273_archive/11_3r300_273/flashplayer11_3r300_273_win_sa.exe
+      zipped: 8-19737514-4048082
 
     - name: flash-player-11.3.300.273-windows-uninstaller
       file: uninstall_flashplayer11_3r300_273_win.exe
@@ -69,6 +76,7 @@
       sha1: 8c927f91ca6b0c60806bfafa8a9b6622caa7120c
       md5: 7827ff0e17d05ddbd646943bed9da3d6
       source: fp_11.3.300.273_archive/11_3r300_273/uninstall_flashplayer11_3r300_273_win.exe
+      zipped: 8-42314021-589768
 
     - name: flash-player-11.3.300.273-windows-32bit-sa-debug
       file: flashplayer11_3r300_273_win_sa_debug_32bit.exe
@@ -77,3 +85,4 @@
       sha1: 065ebafc151e570992762c391cc1709aa4e45bc4
       md5: 5fb31ea07f5b11b4d7dc82bf8f7cb6e3
       source: fp_11.3.300.273_archive/11_3r300_273_debug/flashplayer11_3r300_273_win_sa_debug_32bit.exe
+      zipped: 8-53254539-4484471

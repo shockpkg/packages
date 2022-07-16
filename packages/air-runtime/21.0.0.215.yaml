@@ -13,6 +13,7 @@
       sha1: d8360785c749bd37fb246016bdc5a76761e0a2cd
       md5: e7858079092280c04f1fb08f132068e9
       source: AdobeAIRInstaller.exe
+      zipped: 8-51-18368169
 
 - name: air-runtime-21.0.0.215-mac
   file: AdobeAIR.tbz2

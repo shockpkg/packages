@@ -13,6 +13,7 @@
       sha1: 3c8436057072ee811fb4ff429a5a3f6d762573eb
       md5: a987bcb589d14e269ccb76f436bf2412
       source: AdobeAIRInstaller.exe
+      zipped: 8-51-11201982
 
 - name: air-runtime-31.0.0.96-mac
   file: AdobeAIR.dmg

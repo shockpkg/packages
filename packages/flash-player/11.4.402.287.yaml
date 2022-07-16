@@ -13,6 +13,7 @@
       sha1: 2388261523fd9940ad30434b6bcd4ad9f43d6bce
       md5: 2548f78cb2e08ef4c19cb7f32ad1d6d2
       source: fp_11.4.402.287_archive/11_4_r402_287/flashplayer11_4r402_287_win.exe
+      zipped: 8-26790795-10124147
 
     - name: flash-player-11.4.402.287-windows-npapi-msi
       file: flashplayer11_4r402_287_win.msi
@@ -21,6 +22,7 @@
       sha1: a3c9471223b0b1584deef03f52fdcf3336cdce40
       md5: 614b2ad8efd5b964ff24e8594879afad
       source: fp_11.4.402.287_archive/11_4_r402_287/flashplayer11_4r402_287_win.msi
+      zipped: 8-36915041-10387333
 
     - name: flash-player-11.4.402.287-windows-npapi-debug
       file: flashplayer11_4r402_287_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 4417ccea1d78174a1ce5caddcc33d183f8ad3b16
       md5: 5b04a3099af02518c27b914365181ca3
       source: fp_11.4.402.287_archive/11_4_r402_287_debug/flashplayer11_4r402_287_win_debug.exe
+      zipped: 8-99958923-10768891
 
     - name: flash-player-11.4.402.287-windows-activex
       file: flashplayer11_4r402_287_winax.exe
@@ -37,6 +40,7 @@
       sha1: ea6106cda0e0c9845c9ecd34e835b74788cb9543
       md5: 3ddb350b1ea7ffb85610d7bb74656808
       source: fp_11.4.402.287_archive/11_4_r402_287/flashplayer11_4r402_287_winax.exe
+      zipped: 8-51498009-9479866
 
     - name: flash-player-11.4.402.287-windows-activex-msi
       file: flashplayer11_4r402_287_winax.msi
@@ -45,6 +49,7 @@
       sha1: 99fb61ed221df9125698e78d659ee1fc93b97c60
       md5: a43825486e0e1bc1e29e2cacebdc55a4
       source: fp_11.4.402.287_archive/11_4_r402_287/flashplayer11_4r402_287_winax.msi
+      zipped: 8-60977976-9739345
 
     - name: flash-player-11.4.402.287-windows-activex-debug
       file: flashplayer11_4r402_287_winax_debug.exe
@@ -53,6 +58,7 @@
       sha1: 071f69f1c7b9473cbda6e59e258845fa00105431
       md5: 7559cedc004be1152ef798c0e91b0ed1
       source: fp_11.4.402.287_archive/11_4_r402_287_debug/flashplayer11_4r402_287_winax_debug.exe
+      zipped: 8-115383895-10133084
 
     - name: flash-player-11.4.402.287-windows-sa
       file: flashplayer11_4r402_287_win_sa.exe
@@ -61,6 +67,7 @@
       sha1: d0fa308801cae7788edb7580fa9075431c0e0298
       md5: 1085909e63bf2f2d15e2ce26cdf40787
       source: fp_11.4.402.287_archive/11_4_r402_287/flashplayer11_4r402_287_win_sa.exe
+      zipped: 8-47302476-4195432
 
     - name: flash-player-11.4.402.287-windows-uninstaller
       file: uninstall_flashplayer11_4r402_287_win.exe
@@ -69,6 +76,7 @@
       sha1: 79dedaf8ce0a6e5f307d59aa1af82a688808ba04
       md5: 178b0606c5f9eee3f0b257231b645027
       source: fp_11.4.402.287_archive/11_4_r402_287/uninstall_flashplayer11_4r402_287_win.exe
+      zipped: 8-70942800-593943
 
     - name: flash-player-11.4.402.287-windows-32bit-sa-debug
       file: flashplayer11_4r402_287_win_sa_debug_32bit.exe
@@ -77,6 +85,7 @@
       sha1: c4d3d494bed27402738a226f3ca01f41daca66bb
       md5: 58092da68b66f9b242d6a0acc06950b8
       source: fp_11.4.402.287_archive/11_4_r402_287_debug/flashplayer11_4r402_287_win_sa_debug_32bit.exe
+      zipped: 8-110727934-4655848
 
     - name: flash-player-11.4.402.287-mac-npapi
       file: flashplayer11_4r402_287_mac.dmg
@@ -85,6 +94,7 @@
       sha1: 2f4db1b60ee99836e3eb2b8439fed46d681252c6
       md5: d95ee7e0eea3482fdb6723cd255ec9f0
       source: fp_11.4.402.287_archive/11_4_r402_287/flashplayer11_4r402_287_mac.dmg
+      zipped: 8-167-11859554
 
     - name: flash-player-11.4.402.287-mac-npapi-debug
       file: flashplayer11_4r402_287_mac_debug.dmg
@@ -93,6 +103,7 @@
       sha1: fc82903d57605fe9a3470ce3f9df98cb0ec0bc88
       md5: bb6a8e2e8e46642dea58aafa12937182
       source: fp_11.4.402.287_archive/11_4_r402_287_debug/flashplayer11_4r402_287_mac_debug.dmg
+      zipped: 8-71536928-12464934
 
     - name: flash-player-11.4.402.287-mac-sa
       file: flashplayer11_4r402_287_mac_sa.app.zip
@@ -101,6 +112,7 @@
       sha1: b747c554a658319075b6cf96d8eb223e3612e140
       md5: a897924c524cc33c00551019f5b7595e
       source: fp_11.4.402.287_archive/11_4_r402_287/flashplayer11_4r402_287_mac_sa.app.zip
+      zipped: 0-11859827-14930869
 
     - name: flash-player-11.4.402.287-mac-sa-debug
       file: flashplayer11_4r402_287_mac_sa_debug.app.zip
@@ -109,6 +121,7 @@
       sha1: 76014673350d9268275fe7115354d23fb1a6cb28
       md5: 955b16f1c8b84241790ac6a478128c33
       source: fp_11.4.402.287_archive/11_4_r402_287_debug/flashplayer11_4r402_287_mac_sa_debug.app.zip
+      zipped: 0-84001980-15956832
 
     - name: flash-player-11.4.402.287-mac-uninstaller
       file: uninstall_flashplayer11_4r402_287_mac.dmg
@@ -117,3 +130,4 @@
       sha1: f0dee1c6e4611a49a5eb4296f32f9821bffba46d
       md5: 55f196f142d88878339792dc1b6757ef
       source: fp_11.4.402.287_archive/11_4_r402_287/uninstall_flashplayer11_4r402_287_mac.dmg
+      zipped: 8-70717430-225261

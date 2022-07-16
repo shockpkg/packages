@@ -13,6 +13,7 @@
       sha1: b4ae2ed76904b10e6438693fce0cc24287ec37f0
       md5: 4040a0569e27dffae3e903d918f61ac1
       source: fp_11.6.602.168_archive/11_6_r602_168/flashplayer11_6r602_167_mac.dmg
+      zipped: 8-102879803-16922896
 
     - name: flash-player-11.6.602.167-mac-npapi-debug
       file: flashplayer11_6r602_167_mac_debug.dmg
@@ -21,6 +22,7 @@
       sha1: 1c9c09721a22d9da0838e9ddd942aaba0be5aa03
       md5: 9de628609c7fc8ddb31e3e0b8fa3a4c4
       source: fp_11.6.602.168_archive/11_6_r602_168_debug/flashplayer11_6r602_167_mac_debug.dmg
+      zipped: 8-21306483-17395259
 
     - name: flash-player-11.6.602.167-mac-sa-debug
       file: flashplayer11_6r602_167_mac_sa_debug.app.zip
@@ -29,6 +31,7 @@
       sha1: 7c154f9d8491e535015f3275ef1b930cd9e527df
       md5: dfa38cdf9c9b79bb7a0435effc384548
       source: fp_11.6.602.168_archive/11_6_r602_168_debug/flashplayer11_6r602_167_mac_sa_debug.app.zip
+      zipped: 8-54887551-15641829
 
     - name: flash-player-11.6.602.167-mac-uninstaller
       file: uninstall_flashplayer11_6r602_167_mac.dmg
@@ -37,6 +40,7 @@
       sha1: f53a9818c4e7836491cb665521142b9b17473798
       md5: c3aec66678412a4ac158918114525654
       source: fp_11.6.602.168_archive/11_6_r602_168/uninstall_flashplayer11_6r602_167_mac.dmg
+      zipped: 8-70529557-225423
 
     - name: flash-player-11.6.602.168-windows-npapi
       file: flashplayer11_6r602_168_win.exe
@@ -45,6 +49,7 @@
       sha1: 9dc879ed615093400a3bfddb3faf114dc535b83c
       md5: 7a978f32c3d1a199d940f872a98bb0cc
       source: fp_11.6.602.168_archive/11_6_r602_168/flashplayer11_6r602_168_win.exe
+      zipped: 8-70755079-16375929
 
     - name: flash-player-11.6.602.168-windows-npapi-msi
       file: flashplayer11_6r602_168_win.msi
@@ -53,6 +58,7 @@
       sha1: 5999841030e3a0db4d56446ede2bed98243934e7
       md5: 988404ffbb9d11aa2e958219cd57b10f
       source: fp_11.6.602.168_archive/11_6_r602_168/flashplayer11_6r602_168_win.msi
+      zipped: 8-135849556-16677493
 
     - name: flash-player-11.6.602.168-windows-npapi-debug
       file: flashplayer11_6r602_168_win_debug.exe
@@ -61,6 +67,7 @@
       sha1: eec3b7c21a4eddd2df48a999889b8f21694ec803
       md5: c329f2b3fb194dc4a19795578d6dda38
       source: fp_11.6.602.168_archive/11_6_r602_168_debug/flashplayer11_6r602_168_win_debug.exe
+      zipped: 8-4498957-16807415
 
     - name: flash-player-11.6.602.168-windows-activex
       file: flashplayer11_6r602_168_winax.exe
@@ -69,6 +76,7 @@
       sha1: 80b5557d968f805168125313cd79183ac29c23e3
       md5: e4c379e3a56de94888eee3727314283e
       source: fp_11.6.602.168_archive/11_6_r602_168/flashplayer11_6r602_168_winax.exe
+      zipped: 8-87131109-15748595
 
     - name: flash-player-11.6.602.168-windows-activex-msi
       file: flashplayer11_6r602_168_winax.msi
@@ -77,6 +85,7 @@
       sha1: 906f920563403ace6dee9b0cff982ea02d4b5c06
       md5: cb54d85fe5b0dafcf63d2f8e537612d0
       source: fp_11.6.602.168_archive/11_6_r602_168/flashplayer11_6r602_168_winax.msi
+      zipped: 8-119802800-16046657
 
     - name: flash-player-11.6.602.168-windows-activex-debug
       file: flashplayer11_6r602_168_winax_debug.exe
@@ -85,6 +94,7 @@
       sha1: 25b57d9a21dcd412680da8422a36f62cec0da444
       md5: 973ada65538f1f31f8ce2f84525060ec
       source: fp_11.6.602.168_archive/11_6_r602_168_debug/flashplayer11_6r602_168_winax_debug.exe
+      zipped: 8-38701855-16185578
 
     - name: flash-player-11.6.602.168-windows-sa-debug
       file: flashplayer11_6r602_168_win_sa_debug.exe
@@ -93,6 +103,7 @@
       sha1: 9b583f6f5ec22cd26db8a99746d9913d41ddfdeb
       md5: b3457c07ebd8978336074158afeef503
       source: fp_11.6.602.168_archive/11_6_r602_168_debug/flashplayer11_6r602_168_win_sa_debug.exe
+      zipped: 8-242-4498604
 
     - name: flash-player-11.6.602.168-windows-uninstaller
       file: uninstall_flashplayer11_6r602_168_win.exe
@@ -101,6 +112,7 @@
       sha1: aed0d79dc497a3fdefd782d9c01c782ef8e53d7a
       md5: 6f4d352f5d21e273efef45f3284044ed
       source: fp_11.6.602.168_archive/11_6_r602_168/uninstall_flashplayer11_6r602_168_win.exe
+      zipped: 8-152527158-602309
 
 - name: flash-player-11.6.602.167-mac-sa
   file: flashplayer_11_sa.app.zip

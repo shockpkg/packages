@@ -13,6 +13,7 @@
       sha1: 060f11d5479863af609272a24dea82e6b04e0641
       md5: 00265abbb558589a83df1b6c8b941de1
       source: 10.3.183.20/flashplayer10_3r183_20_win.exe
+      zipped: 8-25835121-3035483
 
     - name: flash-player-10.3.183.20-windows-npapi-debug
       file: flashplayer10_3r183_20_win_debug.exe
@@ -21,6 +22,7 @@
       sha1: 0df5278fd18a5bef72e881c4d7873ec4dcca26f1
       md5: 380a5921d5eabdc190bdb476d9af1ccb
       source: 10.3.183.20_debug/flashplayer10_3r183_20_win_debug.exe
+      zipped: 8-58879549-3300645
 
     - name: flash-player-10.3.183.20-windows-activex
       file: flashplayer10_3r183_20_winax.exe
@@ -29,6 +31,7 @@
       sha1: 4020135dfbfe4b49067bb679000e0a6b7c7ed8bc
       md5: d8b39cbbb1e27935f46ff06bd236b6c6
       source: 10.3.183.20/flashplayer10_3r183_20_winax.exe
+      zipped: 8-31904527-3074019
 
     - name: flash-player-10.3.183.20-windows-activex-debug
       file: flashplayer10_3r183_20_winax_debug.exe
@@ -37,6 +40,7 @@
       sha1: 8d245be874ccd0ea58893ac0007d63e376758b04
       md5: 0c486097b3d073859fa171dc39fc78a3
       source: 10.3.183.20_debug/flashplayer10_3r183_20_winax_debug.exe
+      zipped: 8-65541307-3339251
 
     - name: flash-player-10.3.183.20-windows-sa
       file: flashplayer10_3r183_20_win_sa.exe
@@ -45,6 +49,7 @@
       sha1: f918fba9030bbd8d41da28685fa68f151a36e5fb
       md5: a61146e66384c9c78ea47015ae58d826
       source: 10.3.183.20/flashplayer10_3r183_20_win_sa.exe
+      zipped: 8-28870679-3033774
 
     - name: flash-player-10.3.183.20-windows-sa-debug
       file: flashplayer10_3r183_20_win_sa_debug.exe
@@ -53,6 +58,7 @@
       sha1: a90535d5dff618d27f96836d499884265805ffab
       md5: a205b344dbb723d71f883694097b24e0
       source: 10.3.183.20_debug/flashplayer10_3r183_20_win_sa_debug.exe
+      zipped: 8-62180281-3360940
 
     - name: flash-player-10.3.183.20-mac-npapi
       file: flashplayer10_3r183_20_mac_intel.dmg
@@ -61,6 +67,7 @@
       sha1: 37696f8a1d00ae00c35f18f0efd995a7e622312a
       md5: e168a49ee8f2523f827309e5940d043a
       source: 10.3.183.20/flashplayer10_3r183_20_mac_intel.dmg
+      zipped: 8-14275521-6372233
 
     - name: flash-player-10.3.183.20-mac-npapi-debug
       file: flashplayer10_3r183_20_mac_intel_debug.dmg
@@ -69,6 +76,7 @@
       sha1: b2f85ec0abc5b8d631d2d1297ba759c420d2b202
       md5: b2c4834091397654ebcc18029c6efdbf
       source: 10.3.183.20_debug/flashplayer10_3r183_20_mac_intel_debug.dmg
+      zipped: 8-46605963-6748526
 
     - name: flash-player-10.3.183.20-mac-sa
       file: flashplayer10_3r183_20_mac_sa.app.zip
@@ -77,6 +85,7 @@
       sha1: 2ee42e094f7846457953c24762f904967cc361f9
       md5: d3a17d122e42c45b12459e3d3979167e
       source: 10.3.183.20/flashplayer10_3r183_20_mac_sa.app.zip
+      zipped: 0-20647833-5187216
 
     - name: flash-player-10.3.183.20-mac-sa-debug
       file: flashplayer10_3r183_20_mac_sa_debug.app.zip
@@ -85,6 +94,7 @@
       sha1: 68c069dc72fed517aa430a174aea6e9305ef0e7c
       md5: 870606079ee288888a60bac619882a17
       source: 10.3.183.20_debug/flashplayer10_3r183_20_mac_sa_debug.app.zip
+      zipped: 0-53354580-5524885
 
     - name: flash-player-10.3.183.20-mac-uninstaller
       file: uninstall_flashplayer10_3r183_20_mac_intel.dmg
@@ -93,6 +103,7 @@
       sha1: e38e26caa302b48ec26865d0e044f09e9585bcc3
       md5: c583c39d1c1932c28c743801f18e775a
       source: 10.3.183.20/uninstall_flashplayer10_3r183_20_mac_intel.dmg
+      zipped: 8-35566578-442102
 
     - name: flash-player-10.3.183.20-linux-npapi
       file: flashplayer_10_3r183_20_linux.tar.gz
@@ -101,6 +112,7 @@
       sha1: 85c215a756d4961fe363971dbc30d8834bfcb7ea
       md5: 3d4a5d2a5e6c5b6172f5939604ae88bf
       source: 10.3.183.20/flashplayer_10_3r183_20_linux.tar.gz
+      zipped: 8-1457-5412317
 
     - name: flash-player-10.3.183.20-linux-npapi-debug
       file: flashplayer10_3r183_20_linux_debug.tar.gz
@@ -109,6 +121,7 @@
       sha1: e0a4629999c1db9ff6660d34babd1b94b682a5a5
       md5: 6130c2ba656af24c0b27cc17e310ff08
       source: 10.3.183.20_debug/flashplayer10_3r183_20_linux_debug.tar.gz
+      zipped: 8-36008769-5802204
 
     - name: flash-player-10.3.183.20-linux-sa
       file: flashplayer_10_3r183_20_linux_sa.tar.gz
@@ -117,6 +130,7 @@
       sha1: 1ba9a906d1bd2624a12ad3956fc218d2b4df53ee
       md5: 4a5623a4264650bf0102d765f59e23cd
       source: 10.3.183.20/flashplayer_10_3r183_20_linux_sa.tar.gz
+      zipped: 8-5413855-4442430
 
     - name: flash-player-10.3.183.20-linux-sa-debug
       file: flashplayer10_3r183_20_linux_sa_debug.tar.gz
@@ -125,3 +139,4 @@
       sha1: 4827c4c31e43d5de812a440f3b50a9705e082461
       md5: 6283f429d442f19f2ff70a47c8c959d4
       source: 10.3.183.20_debug/flashplayer10_3r183_20_linux_sa_debug.tar.gz
+      zipped: 8-41811065-4794808

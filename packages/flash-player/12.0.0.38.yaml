@@ -13,6 +13,7 @@
       sha1: 8deb33bcbbbbecfcbcbeb0f861d2c7492599da2b
       md5: b4bbe8fccdff22f235ea5dc788a1908a
       source: fp_12.0.0.38_archive/12_0_r0_38/flashplayer12_0r0_38_winax.exe
+      zipped: 8-18446723-17163343
 
     - name: flash-player-12.0.0.38-windows-activex-msi
       file: flashplayer12_0r0_38_winax.msi
@@ -21,6 +22,7 @@
       sha1: e44908c9a813876c1a332a174b2e3e9dff47a4ff
       md5: 0e0bb88300e8d2cf1508cf450353a81d
       source: fp_12.0.0.38_archive/12_0_r0_38/flashplayer12_0r0_38_winax.msi
+      zipped: 8-35610158-17455736
 
     - name: flash-player-12.0.0.38-windows-activex-debug
       file: flashplayer12_0r0_38_winax_debug.exe
@@ -29,6 +31,7 @@
       sha1: 557066dc710e06237f3cc3117402c2621d54c68d
       md5: 21c0ba70797ca23db2de58af0a5df804
       source: fp_12.0.0.38_archive/12_0_r0_38_debug/flashplayer12_0r0_38_winax_debug.exe
+      zipped: 8-124715985-17604803
 
     - name: flash-player-12.0.0.38-windows-sa-debug
       file: flashplayer12_0r0_38_win_sa_debug.exe
@@ -37,6 +40,7 @@
       sha1: e301016738d6d8a8b96428209ef227a081b55717
       md5: 49c9c9c081306029502151e97965763b
       source: fp_12.0.0.38_archive/12_0_r0_38_debug/flashplayer12_0r0_38_win_sa_debug.exe
+      zipped: 8-142320893-4847808
 
     - name: flash-player-12.0.0.38-windows-uninstaller
       file: uninstall_flashplayer12_0r0_38_win.exe
@@ -45,6 +49,7 @@
       sha1: d3fcff4f538b824df577d77485c84206cbefbc64
       md5: 1dc382275d84c28dc4f3f485d6ecf6f0
       source: fp_12.0.0.38_archive/12_0_r0_38/uninstall_flashplayer12_0r0_38_win.exe
+      zipped: 8-89100636-698953
 
     - name: flash-player-12.0.0.38-mac-npapi
       file: flashplayer12_0r0_38_mac.dmg
@@ -53,6 +58,7 @@
       sha1: f845de2a4c23a939c0c836d5ddb98129eb3de702
       md5: 5abe10a487b10876b8f38edf6f0a21e4
       source: fp_12.0.0.38_archive/12_0_r0_38/flashplayer12_0r0_38_mac.dmg
+      zipped: 8-203-18446428
 
     - name: flash-player-12.0.0.38-mac-npapi-debug
       file: flashplayer12_0r0_38_mac_debug.dmg
@@ -61,6 +67,7 @@
       sha1: b302a7f43fd532f2987732dcf4a43e0a426d0137
       md5: 38bb9572538b7601cfac3b2f9f4d0cf6
       source: fp_12.0.0.38_archive/12_0_r0_38_debug/flashplayer12_0r0_38_mac_debug.dmg
+      zipped: 8-89799759-18884952
 
     - name: flash-player-12.0.0.38-mac-sa-debug
       file: flashplayer12_0r0_38_mac_sa_debug.dmg
@@ -69,6 +76,7 @@
       sha1: 7c36f06d49f872cd64bfdf6c73a9668c696fb041
       md5: a109003bf84a872dc7e017c3bc952d03
       source: fp_12.0.0.38_archive/12_0_r0_38_debug/flashplayer12_0r0_38_mac_sa_debug.dmg
+      zipped: 8-108684816-16031065
 
     - name: flash-player-12.0.0.38-mac-uninstaller
       file: uninstall_flashplayer12_0r0_38_mac.dmg
@@ -77,6 +85,7 @@
       sha1: 121a77f94e1cef3bd263c893276816ff0b658f47
       md5: 6cdeff50799bd823892e9dab9618e70c
       source: fp_12.0.0.38_archive/12_0_r0_38/uninstall_flashplayer12_0r0_38_mac.dmg
+      zipped: 8-88869345-231191
 
     - name: flash-player-12.0.0.43-windows-npapi
       file: flashplayer12_0r0_43_win.exe
@@ -85,6 +94,7 @@
       sha1: 5a68f7aa21c4217cf801a46616fe724d601f773a
       md5: 8a9eb1114f9fe238e81fef4bb10762d8
       source: fp_12.0.0.38_archive/12_0_r0_38/flashplayer12_0r0_43_win.exe
+      zipped: 8-53065984-17753757
 
     - name: flash-player-12.0.0.43-windows-npapi-msi
       file: flashplayer12_0r0_43_win.msi
@@ -93,6 +103,7 @@
       sha1: 871d38625475c0e7c93784bfbcf9c97e2af119bf
       md5: 83860f02e2f6fcd07a27a5cd485b2193
       source: fp_12.0.0.38_archive/12_0_r0_38/flashplayer12_0r0_43_win.msi
+      zipped: 8-70819831-18049414
 
     - name: flash-player-12.0.0.43-windows-npapi-debug
       file: flashplayer12_0r0_43_win_debug.exe
@@ -101,6 +112,7 @@
       sha1: 2cdc71119cd0527e9d4448c2abfc8efb8db78672
       md5: 1fde744a31c2514bf4bf8986c2011870
       source: fp_12.0.0.38_archive/12_0_r0_38_debug/flashplayer12_0r0_43_win_debug.exe
+      zipped: 8-147168803-18198082
 
 - name: flash-player-12.0.0.38-mac-sa-debug-zip
   file: flashplayer12_0r0_38_mac_sa_debug.zip

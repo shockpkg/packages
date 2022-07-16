@@ -13,6 +13,7 @@
       sha1: 2fdd561556fe881c4e5538d4ee37f523871befd3
       md5: c296ddd5941b50ca1a05f5bd9c3cc815
       source: AdobeAIRInstaller.exe
+      zipped: 8-51-18032779
 
 - name: air-runtime-20.0.0.260-mac
   file: AdobeAIR.tbz2

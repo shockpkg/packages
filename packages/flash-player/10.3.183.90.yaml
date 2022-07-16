@@ -13,6 +13,7 @@
       sha1: 019e704c7d4ef9f0e578ee303895e3e429e2de57
       md5: 11dadf887e2939522d63daa29db4622e
       source: fp_10.3.183.90_archive/10_3_r183_90/flashplayer_10_3r183_90_win.exe
+      zipped: 8-21476684-3040031
 
     - name: flash-player-10.3.183.90-windows-npapi-debug
       file: flashplayer10_3r183_90_win_debug.exe
@@ -21,6 +22,7 @@
       sha1: 7dfd6c9aec9142f266de84611971de2eeea74f61
       md5: 23f40f8013bf254ad4b66a46fb126e81
       source: fp_10.3.183.90_archive/10_3_r183_90_debug/flashplayer10_3r183_90_win_debug.exe
+      zipped: 8-57482820-3306507
 
     - name: flash-player-10.3.183.90-windows-activex
       file: flashplayer_10_3r183_90_winax.exe
@@ -29,6 +31,7 @@
       sha1: c30680ca7515faf2b1e3c8de219f15ab5c90b048
       md5: 38f5626f346c315f8dffba3c7cbf253d
       source: fp_10.3.183.90_archive/10_3_r183_90/flashplayer_10_3r183_90_winax.exe
+      zipped: 8-24516814-3077758
 
     - name: flash-player-10.3.183.90-windows-activex-debug
       file: flashplayer10_3r183_90_winax_debug.exe
@@ -37,6 +40,7 @@
       sha1: 276a1b33f68b392884b4e3d4e447a4c4f306aa02
       md5: 3a5f25ea96fbef5c869f92256c6d21e8
       source: fp_10.3.183.90_archive/10_3_r183_90_debug/flashplayer10_3r183_90_winax_debug.exe
+      zipped: 8-54137667-3345045
 
     - name: flash-player-10.3.183.90-windows-sa
       file: flashplayer_10_3r183_90_win_sa.exe
@@ -45,6 +49,7 @@
       sha1: 21d94e2e936d20c70d77b65a7291d3d9ada2272f
       md5: 6f4432d4272293b6e829ec8a7150bbe5
       source: fp_10.3.183.90_archive/10_3_r183_90/flashplayer_10_3r183_90_win_sa.exe
+      zipped: 8-27594672-2960199
 
     - name: flash-player-10.3.183.90-windows-sa-debug
       file: flashplayer10_3r183_90_win_sa_debug.exe
@@ -53,6 +58,7 @@
       sha1: b757e624bed60258049162b58cf1b056836ef585
       md5: 703b48d446233925605cbdbeb1b159a6
       source: fp_10.3.183.90_archive/10_3_r183_90_debug/flashplayer10_3r183_90_win_sa_debug.exe
+      zipped: 8-60789438-3271083
 
     - name: flash-player-10.3.183.90-windows-uninstaller
       file: uninstall_flashplayer10_3r183_90_win.exe
@@ -61,6 +67,7 @@
       sha1: 8c78895b2ecc5cfa67ba3710b0e2c627b5149e5f
       md5: 191e56ee14983eb02f5e8ec9e96cacbd
       source: fp_10.3.183.90_archive/10_3_r183_90/uninstall_flashplayer10_3r183_90_win.exe
+      zipped: 8-30997465-188816
 
     - name: flash-player-10.3.183.90-mac-npapi
       file: flashplayer_10_3r183_90_mac_intel.dmg
@@ -69,6 +76,7 @@
       sha1: efacb1492cf5f85e30b547213d71124a30c98224
       md5: 72bf88b5c2fa415b2ee27f7eb840e945
       source: fp_10.3.183.90_archive/10_3_r183_90/flashplayer_10_3r183_90_mac_intel.dmg
+      zipped: 8-9869575-6429417
 
     - name: flash-player-10.3.183.90-mac-npapi-debug
       file: flashplayer10_3r183_90_mac_intel_debug.dmg
@@ -77,6 +85,7 @@
       sha1: fd635afb798705b76e8996b772102dc45d413bb8
       md5: ac5c843b076d075a88e1aab51ef695d2
       source: fp_10.3.183.90_archive/10_3_r183_90_debug/flashplayer10_3r183_90_mac_intel_debug.dmg
+      zipped: 8-41799736-6824727
 
     - name: flash-player-10.3.183.90-mac-sa
       file: flashplayer_10_3r183_90_mac_sa.app.zip
@@ -85,6 +94,7 @@
       sha1: 251cbc2ad7794a6243afd830fd3cb91c332d6cae
       md5: 2381e2a82691ca07768af5ad150d3901
       source: fp_10.3.183.90_archive/10_3_r183_90/flashplayer_10_3r183_90_mac_sa.app.zip
+      zipped: 8-16299096-5177491
 
     - name: flash-player-10.3.183.90-mac-sa-debug
       file: flashplayer10_3r183_90_mac_sa_debug.app.zip
@@ -93,6 +103,7 @@
       sha1: 9de1649c5a42f73f523361380e327044c54c1a47
       md5: bc305a1782a3dbb6c78fcd99d256c5ff
       source: fp_10.3.183.90_archive/10_3_r183_90_debug/flashplayer10_3r183_90_mac_sa_debug.app.zip
+      zipped: 8-48624578-5512979
 
     - name: flash-player-10.3.183.90-mac-uninstaller
       file: uninstall_flashplayer10_3r183_90_mac_intel.dmg
@@ -101,6 +112,7 @@
       sha1: 9d2fb9a0c876fd5df725a37fb0da3e40838672b5
       md5: 481d31c82b58e92bdeffb4640475e54b
       source: fp_10.3.183.90_archive/10_3_r183_90/uninstall_flashplayer10_3r183_90_mac_intel.dmg
+      zipped: 8-30554983-442376
 
     - name: flash-player-10.3.183.90-linux-npapi
       file: flashplayer_10_3r183_90_linux.tar.gz
@@ -109,6 +121,7 @@
       sha1: 59969d1235b5ebef877e33bf30e8f89c715f5be3
       md5: 37d99a0fdad1e8da7834a3d586d5b607
       source: fp_10.3.183.90_archive/10_3_r183_90/flashplayer_10_3r183_90_linux.tar.gz
+      zipped: 8-221-5419648
 
     - name: flash-player-10.3.183.90-linux-npapi-debug
       file: flashplayer10_3r183_90_linux_debug.tar.gz
@@ -117,6 +130,7 @@
       sha1: 00fbfce42485b53ae6deb1e7b8a3c2076fbe77d9
       md5: 81d4bb3f3042cb29a4e421cc289d3bc8
       source: fp_10.3.183.90_archive/10_3_r183_90_debug/flashplayer10_3r183_90_linux_debug.tar.gz
+      zipped: 8-31186466-5810787
 
     - name: flash-player-10.3.183.90-linux-sa
       file: flashplayer_10_3r183_90_linux_sa.tar.gz
@@ -125,6 +139,7 @@
       sha1: 203e21184c84528b691eea47fd3f84700f93fad9
       md5: e899b4844f75685a218d343b7788212e
       source: fp_10.3.183.90_archive/10_3_r183_90/flashplayer_10_3r183_90_linux_sa.tar.gz
+      zipped: 8-5419974-4449498
 
     - name: flash-player-10.3.183.90-linux-sa-debug
       file: flashplayer10_3r183_90_linux_sa_debug.tar.gz
@@ -133,6 +148,7 @@
       sha1: 5ac7f52cc6bff464a9bfa50ca98697be43e01e83
       md5: de697264fb75b2f09e0015b4527c6c54
       source: fp_10.3.183.90_archive/10_3_r183_90_debug/flashplayer10_3r183_90_linux_sa_debug.tar.gz
+      zipped: 8-36997369-4802253
 
 - name: flash-player-10.3.183.90-mac-archive
   file: fp_10.3.183.90_archive_mac_only.zip

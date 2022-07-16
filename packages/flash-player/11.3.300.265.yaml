@@ -13,6 +13,7 @@
       sha1: 27daa2fde6a8992c3f2a671fe7106bb842eeb6da
       md5: 6f23b0d953149633210fe3ba2bde0e54
       source: fp_11.3.300.265_archive/11_3r300_265/flashplayer11_3r300_265_mac.dmg
+      zipped: 8-165-11575148
 
     - name: flash-player-11.3.300.265-mac-npapi-debug
       file: flashplayer11_3r300_265_mac_debug.dmg
@@ -21,6 +22,7 @@
       sha1: 078d196d5388b0cb2d1a1c35a2555858cb7aadbe
       md5: 86cadf6e51cfe9b26ec0465583b7f8a4
       source: fp_11.3.300.265_archive/11_3r300_265_debug/flashplayer11_3r300_265_mac_debug.dmg
+      zipped: 8-26451154-12163250
 
     - name: flash-player-11.3.300.265-mac-sa
       file: flashplayer11_3r300_265_mac_sa.app.zip
@@ -29,6 +31,7 @@
       sha1: 3ecb3a683c0fbcecb615e189aeeb22f4fe6a542f
       md5: d0c2be19d93808f4f23bf987967e5d3d
       source: fp_11.3.300.265_archive/11_3r300_265/flashplayer11_3r300_265_mac_sa.app.zip
+      zipped: 0-11575418-14650191
 
     - name: flash-player-11.3.300.265-mac-sa-debug
       file: flashplayer11_3r300_265_mac_sa_debug.app.zip
@@ -37,6 +40,7 @@
       sha1: e9f4ce39c525e36b26ef5af8c0640ef054434f52
       md5: 11768588ba334f6ed21871e7415bf1de
       source: fp_11.3.300.265_archive/11_3r300_265_debug/flashplayer11_3r300_265_mac_sa_debug.app.zip
+      zipped: 0-38614521-15627952
 
     - name: flash-player-11.3.300.265-mac-uninstaller
       file: uninstall_flashplayer11_3r300_265_mac.dmg
@@ -45,6 +49,7 @@
       sha1: 84eb3b0a0044bbf9b79bf625c7b9bd8e46745df6
       md5: 112ace8918225c77451ec8f30d4dce94
       source: fp_11.3.300.265_archive/11_3r300_265/uninstall_flashplayer11_3r300_265_mac.dmg
+      zipped: 8-26225717-225254
 
 - name: flash-player-11.3.300.265-windows-sa
   file: flashplayer_11_sa.exe

@@ -13,6 +13,7 @@
       sha1: f0c77ffb1774f75ff507bd225da796e742453199
       md5: a041b155cee470c45e3b16a6511b1782
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_win.exe
+      zipped: 8-102925969-1468778
 
     - name: flash-player-9.0.289.0-windows-npapi-debug
       file: flashplayer9_0r289_win_debug.exe
@@ -21,6 +22,7 @@
       sha1: ec04ac36325367015cb58eeb0394fd5a4155afa7
       md5: c56641429518b1000c575710b3a6539b
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289_debug/flashplayer9_0r289_win_debug.exe
+      zipped: 8-127439436-1574870
 
     - name: flash-player-9.0.289.0-windows-activex
       file: flashplayer9_0r289_winax.exe
@@ -29,6 +31,7 @@
       sha1: bd52140c7bf758c68d1ec3b97a1137ffc5f5a962
       md5: 5f16a5c89c2560ba1b60a3cecbbf8b17
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_winax.exe
+      zipped: 8-106174288-1498361
 
     - name: flash-player-9.0.289.0-windows-activex-debug
       file: flashplayer9_0r289_winax_debug.exe
@@ -37,6 +40,7 @@
       sha1: 921da7189bd5c08204afe44cf1d525842d7d6c81
       md5: 97bb0ed79743cfa92b4f73f1e5763ef5
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289_debug/flashplayer9_0r289_winax_debug.exe
+      zipped: 8-130938922-1606073
 
     - name: flash-player-9.0.289.0-windows-sa
       file: flashplayer9_0r289_win_sa.exe
@@ -45,6 +49,7 @@
       sha1: 6058b07e4d10211afd9a7b743027b74944c584b8
       md5: a7a1094a11f82adb0e2f3309b4961005
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_win_sa.exe
+      zipped: 8-104394874-1779288
 
     - name: flash-player-9.0.289.0-windows-sa-debug
       file: flashplayer9_0r289_win_sa_debug.exe
@@ -53,6 +58,7 @@
       sha1: 956c8e2e58dab36d3057dbdd7a9ebf083b0dc63c
       md5: a3c35a938d68c228a5ad46649451c6b6
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289_debug/flashplayer9_0r289_win_sa_debug.exe
+      zipped: 8-129014445-1924339
 
     - name: flash-player-9.0.289.0-mac-npapi
       file: flashplayer9_0r289_mac.dmg
@@ -61,6 +67,7 @@
       sha1: 38ea08e201a8df8c1a7a43452f9097e35955754a
       md5: 1a0719c4ed3fe36197ea87b7e4bc1202
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_mac.dmg
+      zipped: 8-85068996-3103516
 
     - name: flash-player-9.0.289.0-mac-npapi-debug
       file: flashplayer9_0r289_mac_debug.dmg
@@ -69,6 +76,7 @@
       sha1: 61e162c77cf3634ed530528660c2b62911c88721
       md5: f0d00d0cdfae018195beb14ebafd8d3f
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289_debug/flashplayer9_0r289_mac_debug.dmg
+      zipped: 8-114244955-3307247
 
     - name: flash-player-9.0.289.0-mac-sa
       file: flashplayer9_0r289_mac_sa.app.zip
@@ -77,6 +85,7 @@
       sha1: 9f4fa9e9d1bf17291264f80b4a8169bef7edbbf5
       md5: 5170e7b9945bae33dce02b7d102121f0
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_mac_sa.app.zip
+      zipped: 8-88172643-4352999
 
     - name: flash-player-9.0.289.0-mac-sa-debug
       file: flashplayer9_0r289_mac_sa_debug.app.zip
@@ -85,6 +94,7 @@
       sha1: 2653c42c2ed495817d589eb62b023f6a2458579c
       md5: 7d9d0df163b0cd61ad3e1d3a4b59a339
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289_debug/flashplayer9_0r289_mac_sa_debug.app.zip
+      zipped: 8-117552345-4782140
 
     - name: flash-player-9.0.289.0-mac-ub-npapi
       file: flashplayer9_0r289_mac_ub.dmg
@@ -93,6 +103,7 @@
       sha1: e6d1cd4a7eec5dc95ff3473d583b733c3012b21a
       md5: 330c365fcf26c6ca2d87e2d5a60687a0
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_mac_ub.dmg
+      zipped: 8-92525769-4655856
 
     - name: flash-player-9.0.289.0-mac-ub-npapi-debug
       file: flashplayer9_0r289_mac_ub_debug.dmg
@@ -101,6 +112,7 @@
       sha1: b86509025d97dfce86335eb3cde6f2900d10fdf8
       md5: 4e7b7b5724db3aa79efda262edf5bc94
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289_debug/flashplayer9_0r289_mac_ub_debug.dmg
+      zipped: 8-122334624-5104676
 
     - name: flash-player-9.0.289.0-linux-npapi
       file: flashplayer9_0r289_linux.tar.gz
@@ -109,6 +121,7 @@
       sha1: e4c6c77061c0899743284a758480fee95cfb8601
       md5: a2703928b81fb70183a2fbd83f3ca4f4
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_linux.tar.gz
+      zipped: 8-78980917-3050188
 
     - name: flash-player-9.0.289.0-linux-npapi-debug
       file: flashplayer9_0r289_linux_debug.tar.gz
@@ -117,6 +130,7 @@
       sha1: ed29e9343b21b176a96c7d18a4ee76df3e57cfad
       md5: abb70e7314bbfc60a82c93665550e3ae
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289_debug/flashplayer9_0r289_linux_debug.tar.gz
+      zipped: 8-107672894-3292393
 
     - name: flash-player-9.0.289.0-linux-sa
       file: flashplayer9_0r289_linux_sa.tar.gz
@@ -125,6 +139,7 @@
       sha1: bc77ed17d5e78f700f1530f5b332219d1318c13a
       md5: adf1cfa3a650c5d4a16729256e56eb8d
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_linux_sa.tar.gz
+      zipped: 8-82031237-3037635
 
     - name: flash-player-9.0.289.0-linux-sa-debug
       file: flashplayer9_0r289_linux_sa_debug.tar.gz
@@ -133,6 +148,7 @@
       sha1: 7408f85bba98759218f083a2906e209c2ddff1b5
       md5: 3ecfe225842427c51fdd822474989e99
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289_debug/flashplayer9_0r289_linux_sa_debug.tar.gz
+      zipped: 8-110965431-3279388
 
     - name: flash-player-9.0.289.0-solaris-sparc-npapi
       file: flashplayer9_0r289_solaris_sparc.tar.bz2
@@ -141,6 +157,7 @@
       sha1: cc963a488b56b3e2d9ce7b041c3c82cfc9c6d3f4
       md5: 08797c73b78c833892bd735dcc2e1da4
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_solaris_sparc.tar.bz2
+      zipped: 8-97181763-3281575
 
     - name: flash-player-9.0.289.0-solaris-x86-npapi
       file: flashplayer9_0r289_solaris_x86.tar.bz2
@@ -149,6 +166,7 @@
       sha1: c2b4fb0c3c432c812d058898a29da2406d09edfd
       md5: fa419f8245ea43160205ad99879cc03d
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 9.0.289.0/9_0r289/flashplayer9_0r289_solaris_x86.tar.bz2
+      zipped: 8-100463474-2462371
 
     - name: flash-player-10.1.102.64-windows-npapi
       file: flashplayer10_1r102_64_win.exe
@@ -157,6 +175,7 @@
       sha1: 09f2491c5bec7286155234f4e6e1af70c7cef78f
       md5: 68686530d211c461b5364a991dd41f21
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64/flashplayer10_1r102_64_win.exe
+      zipped: 8-35513359-2736136
 
     - name: flash-player-10.1.102.64-windows-npapi-debug
       file: flashplayer10_1r102_64_win_debug.exe
@@ -165,6 +184,7 @@
       sha1: 167d4c0c0da618f07b5289082124169728440099
       md5: 5dc85c26cf4e51d195f83c5e632c34f9
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64_debug/flashplayer10_1r102_64_win_debug.exe
+      zipped: 8-69767160-2988979
 
     - name: flash-player-10.1.102.64-windows-activex
       file: flashplayer10_1r102_64_winax.exe
@@ -173,6 +193,7 @@
       sha1: 58412bcc83e349be50cafe0e1c46e19088620866
       md5: b1acc692ce72994cf963c863cc547b80
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64/flashplayer10_1r102_64_winax.exe
+      zipped: 8-41135345-2772859
 
     - name: flash-player-10.1.102.64-windows-activex-debug
       file: flashplayer10_1r102_64_winax_debug.exe
@@ -181,6 +202,7 @@
       sha1: c6bee9ecfccfde0418fa1de48693e8a9db2a89cb
       md5: 083677eaac68cc39a5fc1e2fbf6c8608
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64_debug/flashplayer10_1r102_64_winax_debug.exe
+      zipped: 8-75952371-3026881
 
     - name: flash-player-10.1.102.64-windows-sa
       file: flashplayer10_1r102_64_win_sa.exe
@@ -189,6 +211,7 @@
       sha1: 198ead338393de576ffbf4ce5f49ec6d90c564aa
       md5: 1c0496d67abbacbc06e74a9885ed1729
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64/flashplayer10_1r102_64_win_sa.exe
+      zipped: 8-38249632-2885577
 
     - name: flash-player-10.1.102.64-windows-sa-debug
       file: flashplayer10_1r102_64_win_sa_debug.exe
@@ -197,6 +220,7 @@
       sha1: 7466b29c2cb5b323b7c0a4df9140bece2f1eaea2
       md5: 5f7f4c4246784745b0e1b5593e9bc60f
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64_debug/flashplayer10_1r102_64_win_sa_debug.exe
+      zipped: 8-72756288-3195935
 
     - name: flash-player-10.1.102.64-mac-npapi
       file: flashplayer10_1r102_64_ub_mac.dmg
@@ -205,6 +229,7 @@
       sha1: 0b7bf020721aca927fea4fddd64c8b4f71bf06ef
       md5: 6b07b0491b9f1d2e40e4d16b9c8f8431
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64/flashplayer10_1r102_64_ub_mac.dmg
+      zipped: 8-27550485-7962740
 
     - name: flash-player-10.1.102.64-mac-npapi-debug
       file: flashplayer10_1r102_64_ub_mac_debug.dmg
@@ -213,6 +238,7 @@
       sha1: 9d99f798fb82220aa7dac3971ea48c51cd897376
       md5: e945a4d3e353f485a67cf128305668c8
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64_debug/flashplayer10_1r102_64_ub_mac_debug.dmg
+      zipped: 8-62810439-6956575
 
     - name: flash-player-10.1.102.64-mac-sa
       file: flashplayer10_1r102_64_mac_sa.app.zip
@@ -221,6 +247,7 @@
       sha1: 85b41a4d23daee4d6a7b8a64fb8270d06dff35ba
       md5: 05cc0a17a3e5ab8af3d9e823e33b955b
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64/flashplayer10_1r102_64_mac_sa.app.zip
+      zipped: 8-9078499-8505665
 
     - name: flash-player-10.1.102.64-mac-sa-debug
       file: flashplayer10_1r102_64_mac_sa_debug.app.zip
@@ -229,6 +256,7 @@
       sha1: 92a2269f27d5a06f96b4c93e9dc97c09aeb3e82f
       md5: f753a8538f5f41db838fc81cdc994a64
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64_debug/flashplayer10_1r102_64_mac_sa_debug.app.zip
+      zipped: 8-53685508-9124782
 
     - name: flash-player-10.1.102.64-linux-npapi
       file: flashplayer10_1r102_64_linux.tar.gz
@@ -237,6 +265,7 @@
       sha1: 1c3bdae81bd374ec21782c8b2ce6ef771f01239d
       md5: 8dc07d606d25585720f98fe9ec665bfc
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64/flashplayer10_1r102_64_linux.tar.gz
+      zipped: 8-335-4866979
 
     - name: flash-player-10.1.102.64-linux-npapi-debug
       file: flashplayer10_1r102_64_linux_debug.tar.gz
@@ -245,6 +274,7 @@
       sha1: cbac7697fd5bcd6e9926681b8135eb81128cfaaf
       md5: 127c1990fb43d3dcf15670d66105c441
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64_debug/flashplayer10_1r102_64_linux_debug.tar.gz
+      zipped: 8-43908465-5222563
 
     - name: flash-player-10.1.102.64-linux-sa
       file: flashplayer10_1r102_64_linux_sa.tar.gz
@@ -253,6 +283,7 @@
       sha1: 50965adfa2634ff2cae2723bd24dc714384090e5
       md5: 925e431b3f22c168e46e4c15083bce87
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64/flashplayer10_1r102_64_linux_sa.tar.gz
+      zipped: 8-4867456-4210902
 
     - name: flash-player-10.1.102.64-linux-sa-debug
       file: flashplayer10_1r102_64_linux_sa_debug.tar.gz
@@ -261,6 +292,7 @@
       sha1: 92a7d5e18d004df65822b525f2c7bb283e98b6a9
       md5: 051a2d6460419c78f66ec6e9e4ff4cc8
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64_debug/flashplayer10_1r102_64_linux_sa_debug.tar.gz
+      zipped: 8-49131182-4554173
 
     - name: flash-player-10.1.102.64-solaris-sparc-npapi
       file: flashplayer10_1r102_64_solaris_sparc.tar.bz2
@@ -269,6 +301,7 @@
       sha1: a3e7cddb10937abd71854af00671883acf772f8e
       md5: ce5115fe4e55e6151a12a075d6b808b3
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64/flashplayer10_1r102_64_solaris_sparc.tar.bz2
+      zipped: 8-17584312-5109273
 
     - name: flash-player-10.1.102.64-solaris-x86-npapi
       file: flashplayer10_1r102_64_solaris_x86.tar.bz2
@@ -277,3 +310,4 @@
       sha1: d83a97e2e8c053a1f0d97b98548f53f9f6fcf500
       md5: 1e02b8e2bdef9ffef5f3eb24b0396692
       source: fp_10.1.102.64_and_9.0.289.0_archive/Flash Player 10.1.102.64/10_1r102_64/flashplayer10_1r102_64_solaris_x86.tar.bz2
+      zipped: 8-22693731-4856617

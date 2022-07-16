@@ -61,7 +61,10 @@ const validatorsRoot = {
 const allowedPropsRoot = new Set(Object.keys(validatorsRoot));
 
 const validatorsChild = {
-	...validatorsRoot
+	...validatorsRoot,
+	zipped: (root, value) => {
+		expect(value).toMatch(/^(0|8)-\d+-\d+$/);
+	}
 };
 const allowedPropsChild = new Set(Object.keys(validatorsChild));
 

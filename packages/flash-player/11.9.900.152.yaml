@@ -13,6 +13,7 @@
       sha1: 4b279999271a15fa1059f214e75238f4c1497272
       md5: a178da64fd1f1031d965175cbbc7f481
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_win.exe
+      zipped: 8-18405145-17690361
 
     - name: flash-player-11.9.900.152-windows-npapi-msi
       file: flashplayer11_9r900_152_win.msi
@@ -21,6 +22,7 @@
       sha1: ba897a9fdbe9748c83898a41781ba0f98741253e
       md5: a268dfc8376e3ab49a8358c9a70b345e
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_win.msi
+      zipped: 8-36095605-17985405
 
     - name: flash-player-11.9.900.152-windows-npapi-debug
       file: flashplayer11_9r900_152_win_debug.exe
@@ -29,6 +31,7 @@
       sha1: 6fc6bb7ca035fb2fda25853bbf95446c651301ff
       md5: 972a69bb8951937afbb88a4eebae21cc
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_win_debug.exe
+      zipped: 8-141934050-18129122
 
     - name: flash-player-11.9.900.152-windows-activex
       file: flashplayer11_9r900_152_winax.exe
@@ -37,6 +40,7 @@
       sha1: 53535218714a2ea49d8171db92f052e786a66ba2
       md5: 8a56647fab4555a90ce51a3b9891c8d8
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_winax.exe
+      zipped: 8-54081111-17090807
 
     - name: flash-player-11.9.900.152-windows-activex-msi
       file: flashplayer11_9r900_152_winax.msi
@@ -45,6 +49,7 @@
       sha1: 0727277a8267491af298a3dc141a6d7f4372fd30
       md5: e0c6b6620e7e5af98f86ad1c19911923
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_winax.msi
+      zipped: 8-71172019-17382789
 
     - name: flash-player-11.9.900.152-windows-activex-debug
       file: flashplayer11_9r900_152_winax_debug.exe
@@ -53,6 +58,7 @@
       sha1: 4c13d736916a45b24820f0cb58df6140b213f3ea
       md5: ea56d4781bc39b391c60beff3bc361d7
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_winax_debug.exe
+      zipped: 8-124396554-17537385
 
     - name: flash-player-11.9.900.152-windows-sa-debug
       file: flashplayer11_9r900_152_win_sa_debug.exe
@@ -61,6 +67,7 @@
       sha1: 403088733ac12ccabcde8d5d9601547250fb14c7
       md5: 60ad9262dc6a6e2fcb51ef573ee13967
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_win_sa_debug.exe
+      zipped: 8-160063286-4834595
 
     - name: flash-player-11.9.900.152-windows-uninstaller
       file: uninstall_flashplayer11_9r900_152_win.exe
@@ -69,6 +76,7 @@
       sha1: 1faff67e709ecd7f77705ccb04f1f84c2205541d
       md5: c51c99fef38b68ff99d7b3b62864ae99
       source: fp_11.9.900.152_archive/11_9_r900_152/uninstall_flashplayer11_9r900_152_win.exe
+      zipped: 8-88783538-691488
 
     - name: flash-player-11.9.900.152-mac-npapi
       file: flashplayer11_9r900_152_mac.dmg
@@ -77,6 +85,7 @@
       sha1: 4228041bf1ef36c60b0be8d4f8867afc9fad9542
       md5: ee0bec3704534f8745cec69d846dff88
       source: fp_11.9.900.152_archive/11_9_r900_152/flashplayer11_9r900_152_mac.dmg
+      zipped: 8-221-18404825
 
     - name: flash-player-11.9.900.152-mac-npapi-debug
       file: flashplayer11_9r900_152_mac_debug.dmg
@@ -85,6 +94,7 @@
       sha1: be7c449e5fac3955d2c501eaace3d1f028c21486
       md5: 1cb363ef93b590ada8cd827972fae3ea
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_mac_debug.dmg
+      zipped: 8-89475211-18888669
 
     - name: flash-player-11.9.900.152-mac-sa-debug
       file: flashplayer11_9r900_152_mac_sa_debug.dmg
@@ -93,6 +103,7 @@
       sha1: 8e035b1b3ba6ed732d04865c3312da0507564ba6
       md5: cfcd226102819b57e1052fb7c4d14f54
       source: fp_11.9.900.152_archive/11_9_r900_152_debug/flashplayer11_9r900_152_mac_sa_debug.dmg
+      zipped: 8-108363994-16032447
 
     - name: flash-player-11.9.900.152-mac-uninstaller
       file: uninstall_flashplayer11_9r900_152_mac.dmg
@@ -101,6 +112,7 @@
       sha1: 1bc65b3192d8173f4fa9adc30ddc6535e008e15a
       md5: 52776ac7a1d84697032b22267533ce1b
       source: fp_11.9.900.152_archive/11_9_r900_152/uninstall_flashplayer11_9r900_152_mac.dmg
+      zipped: 8-88554917-228512
 
 - name: flash-player-11.9.900.152-mac-sa-debug-zip
   file: flashplayer11_9r900_152_mac_sa_debug.zip
