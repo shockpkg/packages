@@ -4,4 +4,4 @@
   sha256: d656e17bae1efd309515fb383e044df138f86b5fa0ead85c47fd2f589375cd7e
   sha1: 0deb7170c32d48302fdcd9cd6f1ade319ca0290d
   md5: 2e29a1db983a405b8a9333d53c724255
-  source: 'https://download.macromedia.com/pub/flex/sdk/datavisualization_sdk3.6.zip'
+  source: https://download.macromedia.com/pub/flex/sdk/datavisualization_sdk3.6.zip

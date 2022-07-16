@@ -4,7 +4,7 @@
   sha256: 2e4d7936bd0de870c07fc631adae871165bcae15e747a58c4d82c8fe29430f0a
   sha1: 3f9763f42dfca1254be814d277c6b5d09346faf3
   md5: 0a5c6f37e9fc6e6963c13fa1b0b8530c
-  source: 'https://archive.org/download/shockpkg_packages_2/2e/4d/7936bd0de870c07fc631adae871165bcae15e747a58c4d82c8fe29430f0a/playerglobal17_0.swc'
+  source: https://archive.org/download/shockpkg_packages_2/2e/4d/7936bd0de870c07fc631adae871165bcae15e747a58c4d82c8fe29430f0a/playerglobal17_0.swc
 
 - name: flash-playerglobal-17.0
   file: playerglobal17_0.swc
@@ -12,4 +12,4 @@
   sha256: 58ecda7ac7de1a3add77cd880089c9edb0597bc8ac1c4bb0f9b4f5e13531b7a6
   sha1: 44f37afb72ff45dde2248b3ddabcd1887dabe644
   md5: e86a0fd5131fe3c2fd1e052314237ca9
-  source: 'https://archive.org/download/shockpkg_packages_5/58/ec/da7ac7de1a3add77cd880089c9edb0597bc8ac1c4bb0f9b4f5e13531b7a6/playerglobal17_0.swc'
+  source: https://archive.org/download/shockpkg_packages_5/58/ec/da7ac7de1a3add77cd880089c9edb0597bc8ac1c4bb0f9b4f5e13531b7a6/playerglobal17_0.swc

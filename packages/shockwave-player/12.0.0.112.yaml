@@ -4,7 +4,7 @@
   sha256: f8552968972b19301bd22736e9b0b2f42c2773ae0ee5cbfa8938914c6ac92787
   sha1: 4cbfb8caa11315b991e1d4e99aa021ca599617e3
   md5: 334f099e345a389675d65ace1bdd0fa7
-  source: 'https://archive.org/download/shockpkg_packages_f/f8/55/2968972b19301bd22736e9b0b2f42c2773ae0ee5cbfa8938914c6ac92787/sw.cab'
+  source: https://archive.org/download/shockpkg_packages_f/f8/55/2968972b19301bd22736e9b0b2f42c2773ae0ee5cbfa8938914c6ac92787/sw.cab
 
 - name: shockwave-player-12.0.0.112-windows-full
   file: Shockwave_Installer_Full.exe
@@ -12,7 +12,7 @@
   sha256: 3ea7103af02c76e4ed4bf494ee62edaa1a246ef70340f09e8ae3cc5b64e0cd1e
   sha1: 763d784b2ceabe80153fba00a8dc1fda509ee45e
   md5: 009b166f1d502ec2f8db4615d4d45cee
-  source: 'https://archive.org/download/shockpkg_packages_3/3e/a7/103af02c76e4ed4bf494ee62edaa1a246ef70340f09e8ae3cc5b64e0cd1e/Shockwave_Installer_Full.exe'
+  source: https://archive.org/download/shockpkg_packages_3/3e/a7/103af02c76e4ed4bf494ee62edaa1a246ef70340f09e8ae3cc5b64e0cd1e/Shockwave_Installer_Full.exe
 
 - name: shockwave-player-12.0.0.112-windows-slim
   file: Shockwave_Installer_Slim.exe
@@ -20,4 +20,4 @@
   sha256: 8cbb8914497d228e76168ab97d13c9a83ecc3192fec59ade30be041cda8d7ae8
   sha1: 8e4a3760f516715edc5ef783e480dd57d2178aa1
   md5: 517803d4abd2872c72aecba2854fb083
-  source: 'https://archive.org/download/shockpkg_packages_8/8c/bb/8914497d228e76168ab97d13c9a83ecc3192fec59ade30be041cda8d7ae8/Shockwave_Installer_Slim.exe'
+  source: https://archive.org/download/shockpkg_packages_8/8c/bb/8914497d228e76168ab97d13c9a83ecc3192fec59ade30be041cda8d7ae8/Shockwave_Installer_Slim.exe

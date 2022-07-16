@@ -4,7 +4,7 @@
   sha256: 3f277a214a96f68959b92e4a6201d76f91aa25f81a608f9c910dfa0aa4c69a8b
   sha1: 1ed74c1da1dc8b8c218711aeacd63eb2f5e552a6
   md5: 1b9916cca42fa370f129ed0fbc5c064e
-  source: 'https://archive.org/download/shockpkg_packages_3/3f/27/7a214a96f68959b92e4a6201d76f91aa25f81a608f9c910dfa0aa4c69a8b/Shockwave_Installer_Full_64bit.dmg'
+  source: https://archive.org/download/shockpkg_packages_3/3f/27/7a214a96f68959b92e4a6201d76f91aa25f81a608f9c910dfa0aa4c69a8b/Shockwave_Installer_Full_64bit.dmg
 
 - name: shockwave-player-12.1.0.150-windows-activex
   file: sw.cab
@@ -12,7 +12,7 @@
   sha256: 7bc445f6ea8311049bcf3af0c277ca51d8ad77d781d9879cc7e41145e4b6f416
   sha1: 3bcf04a9cdffa78f45b471bf4eae0ead905fcb09
   md5: 09d02ce3198590a87e6fdccd3ebb22e1
-  source: 'https://archive.org/download/shockpkg_packages_7/7b/c4/45f6ea8311049bcf3af0c277ca51d8ad77d781d9879cc7e41145e4b6f416/sw.cab'
+  source: https://archive.org/download/shockpkg_packages_7/7b/c4/45f6ea8311049bcf3af0c277ca51d8ad77d781d9879cc7e41145e4b6f416/sw.cab
 
 - name: shockwave-player-12.1.0.150-windows-full
   file: Shockwave_Installer_Full.exe
@@ -20,4 +20,4 @@
   sha256: 6d6bd2064e8406c5c7ebfaaa9acc62a939360c19e5d50000285314ec45da1a37
   sha1: 7393b27311a2a79b8581d18cd4092bdce6860c0a
   md5: 87a6ebddda9fa38061c21cb9c6886e21
-  source: 'https://archive.org/download/shockpkg_packages_6/6d/6b/d2064e8406c5c7ebfaaa9acc62a939360c19e5d50000285314ec45da1a37/Shockwave_Installer_Full.exe'
+  source: https://archive.org/download/shockpkg_packages_6/6d/6b/d2064e8406c5c7ebfaaa9acc62a939360c19e5d50000285314ec45da1a37/Shockwave_Installer_Full.exe

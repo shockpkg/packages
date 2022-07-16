@@ -4,7 +4,7 @@
   sha256: 291736a419cf02b90074f93e009571872990396adb1bdca34a337f38be95ff53
   sha1: bb3b5aa3e2d4ecd2960e8df9fffbbd8723d165d6
   md5: 7556b8ece4db360e4cb3a4723737a373
-  source: 'https://archive.apache.org/dist/flex/4.9.1/binaries/apache-flex-sdk-4.9.1-bin.tar.gz'
+  source: https://archive.apache.org/dist/flex/4.9.1/binaries/apache-flex-sdk-4.9.1-bin.tar.gz
 
 - name: flex-sdk-4.9.1-bin-zip
   file: apache-flex-sdk-4.9.1-bin.zip
@@ -12,7 +12,7 @@
   sha256: b7eb342d73089a5dd644498cf4cc24b2bc2c55a9e1d436e8b228d9a75d84b262
   sha1: 87d000e615770e4227653e20a73a1f4c42f9b0b9
   md5: 380e86c9cfc9e9c3da3e0a5de0fe4ea8
-  source: 'https://archive.apache.org/dist/flex/4.9.1/binaries/apache-flex-sdk-4.9.1-bin.zip'
+  source: https://archive.apache.org/dist/flex/4.9.1/binaries/apache-flex-sdk-4.9.1-bin.zip
 
 - name: flex-sdk-4.9.1-src-tar-gz
   file: apache-flex-sdk-4.9.1-src.tar.gz
@@ -20,7 +20,7 @@
   sha256: 252ddce75ee493655c5df29f9bdf45bc3baa6a4ff577df8e6b41d79dcbacfa31
   sha1: fe27a59bb1bc6ed1e86e12055707b20e74b683b0
   md5: 9d738d904992d3a03cb98415baa5f6d9
-  source: 'https://archive.apache.org/dist/flex/4.9.1/apache-flex-sdk-4.9.1-src.tar.gz'
+  source: https://archive.apache.org/dist/flex/4.9.1/apache-flex-sdk-4.9.1-src.tar.gz
 
 - name: flex-sdk-4.9.1-src-zip
   file: apache-flex-sdk-4.9.1-src.zip
@@ -28,7 +28,7 @@
   sha256: afa324fd1df0c05235bdac92aca6c6a70fb8fcaa84ec3b1fa1a61e26c7596e47
   sha1: 4cb5a506b73e9bc7e0531c3c19aa36795f1d5f63
   md5: 0cefc93b721cd87d2b8a0ea4c7763677
-  source: 'https://archive.apache.org/dist/flex/4.9.1/apache-flex-sdk-4.9.1-src.zip'
+  source: https://archive.apache.org/dist/flex/4.9.1/apache-flex-sdk-4.9.1-src.zip
 
 - name: flex-sdk-4.9.1-asdocs
   file: apache-flex-sdk-4.9.1-asdocs.zip
@@ -36,4 +36,4 @@
   sha256: b9ff19e8baef240664041428e5ae7e3e3851d48cc194a7c0f57efb0e02dc62cf
   sha1: 04e9bc108ecfad69e42a663862a866d34a9bb79f
   md5: 1745ab64bdc1d1c5e9a5abc25f4be43b
-  source: 'https://archive.apache.org/dist/flex/4.9.1/docs/apache-flex-sdk-4.9.1-asdocs.zip'
+  source: https://archive.apache.org/dist/flex/4.9.1/docs/apache-flex-sdk-4.9.1-asdocs.zip

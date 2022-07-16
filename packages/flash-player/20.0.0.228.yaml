@@ -4,7 +4,7 @@
   sha256: 3fd9108dc425ab2c766c6f46928de28211598bbe4e78ea71a540ab4b43a2d70e
   sha1: 7188c8f39a11b981a5ee0ebf536f8578841b4805
   md5: 213b53fe84d4178b1bbc7a686e42d4aa
-  source: 'https://archive.org/download/shockpkg_packages_3/3f/d9/108dc425ab2c766c6f46928de28211598bbe4e78ea71a540ab4b43a2d70e/fp_20.0.0.228_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_3/3f/d9/108dc425ab2c766c6f46928de28211598bbe4e78ea71a540ab4b43a2d70e/fp_20.0.0.228_archive.zip
   packages:
     - name: flash-player-20.0.0.228-windows-ppapi
       file: flashplayer20_0d0_228_winpep.exe
@@ -100,7 +100,7 @@
   sha256: 563f1b2061efef1042e11a06b5490173ed1b44ab16a25450aee70a0522a43efe
   sha1: 8391b9499128014806369fbf70835c187f97c2dc
   md5: f10918c834bec527e03a5fd088370df7
-  source: 'https://archive.org/download/shockpkg_packages_5/56/3f/1b2061efef1042e11a06b5490173ed1b44ab16a25450aee70a0522a43efe/flashplayer20_0d0_228_mac_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_5/56/3f/1b2061efef1042e11a06b5490173ed1b44ab16a25450aee70a0522a43efe/flashplayer20_0d0_228_mac_sa.zip
 
 - name: flash-player-20.0.0.228-mac-sa-debug-zip
   file: flashplayer20_0d0_228_mac_sa_debug.zip
@@ -108,4 +108,4 @@
   sha256: bacbed4a2bb5a9663105ca6e4454dfe90a6cf511ebccb0587679721302f4d275
   sha1: 6510d8241c41ff469074df8c35777786e510ca28
   md5: a91075c8aec58251caae0b25d3a0633a
-  source: 'https://archive.org/download/shockpkg_packages_b/ba/cb/ed4a2bb5a9663105ca6e4454dfe90a6cf511ebccb0587679721302f4d275/flashplayer20_0d0_228_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_b/ba/cb/ed4a2bb5a9663105ca6e4454dfe90a6cf511ebccb0587679721302f4d275/flashplayer20_0d0_228_mac_sa_debug.zip

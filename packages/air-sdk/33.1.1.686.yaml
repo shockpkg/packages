@@ -4,7 +4,7 @@
   sha256: a61be106b2a101328b6089e37e2243924d5cf176159f7f5c885dd09607ef6e25
   sha1: dd1fc1985414cd732d04be863c9809975ae2cc57
   md5: 5ce5f1aa6f149997adebbd043188efc2
-  source: 'https://archive.org/download/shockpkg_packages_a/a6/1b/e106b2a101328b6089e37e2243924d5cf176159f7f5c885dd09607ef6e25/AIRSDK_Flex_Windows.zip'
+  source: https://archive.org/download/shockpkg_packages_a/a6/1b/e106b2a101328b6089e37e2243924d5cf176159f7f5c885dd09607ef6e25/AIRSDK_Flex_Windows.zip
 
 - name: air-sdk-33.1.1.686-windows-compiler
   file: AIRSDK_Windows.zip
@@ -12,7 +12,7 @@
   sha256: 2dcc149b22f5e2d5cea661251e041526500eabd9f1cf60be6b5428591fa7ca5a
   sha1: 294bd58722579cbb2691bbfd47d3ee4a5edd4125
   md5: 9302e1f1ced55e2df562458280977284
-  source: 'https://archive.org/download/shockpkg_packages_2/2d/cc/149b22f5e2d5cea661251e041526500eabd9f1cf60be6b5428591fa7ca5a/AIRSDK_Windows.zip'
+  source: https://archive.org/download/shockpkg_packages_2/2d/cc/149b22f5e2d5cea661251e041526500eabd9f1cf60be6b5428591fa7ca5a/AIRSDK_Windows.zip
 
 - name: air-sdk-33.1.1.686-mac
   file: AIRSDK_Flex_MacOS.zip
@@ -20,7 +20,7 @@
   sha256: 796d0dac678868d12d33477ed90c645283da078afc34be3848b97d0051db4adb
   sha1: 5c6a18586b7b4eb423c101d733f868a50aa9df44
   md5: 3f86cd456b249319737af38e2c4bf385
-  source: 'https://archive.org/download/shockpkg_packages_7/79/6d/0dac678868d12d33477ed90c645283da078afc34be3848b97d0051db4adb/AIRSDK_Flex_MacOS.zip'
+  source: https://archive.org/download/shockpkg_packages_7/79/6d/0dac678868d12d33477ed90c645283da078afc34be3848b97d0051db4adb/AIRSDK_Flex_MacOS.zip
 
 - name: air-sdk-33.1.1.686-mac-compiler
   file: AIRSDK_MacOS.zip
@@ -28,7 +28,7 @@
   sha256: 2ecf814f937dd26cc2691f3324a8bd7921e97e3f8757d20a44454765d3a26732
   sha1: 969cf35e44a8eb5d3c0be8f45a4f75736dde9339
   md5: bdad435bdd6fc616af306c094adbd0cf
-  source: 'https://archive.org/download/shockpkg_packages_2/2e/cf/814f937dd26cc2691f3324a8bd7921e97e3f8757d20a44454765d3a26732/AIRSDK_MacOS.zip'
+  source: https://archive.org/download/shockpkg_packages_2/2e/cf/814f937dd26cc2691f3324a8bd7921e97e3f8757d20a44454765d3a26732/AIRSDK_MacOS.zip
 
 - name: air-sdk-33.1.1.686-linux
   file: AIRSDK_Flex_Linux.zip
@@ -36,7 +36,7 @@
   sha256: 521a4b585a19d016136eb6735003a38c704517a31df94feeae8f92e7065fecbb
   sha1: fb2fc1ca301664548494c5e552e03013e5cb9a68
   md5: 8ddb4b4a639802982bb47aa037a84379
-  source: 'https://archive.org/download/shockpkg_packages_5/52/1a/4b585a19d016136eb6735003a38c704517a31df94feeae8f92e7065fecbb/AIRSDK_Flex_Linux.zip'
+  source: https://archive.org/download/shockpkg_packages_5/52/1a/4b585a19d016136eb6735003a38c704517a31df94feeae8f92e7065fecbb/AIRSDK_Flex_Linux.zip
 
 - name: air-sdk-33.1.1.686-linux-compiler
   file: AIRSDK_Linux.zip
@@ -44,4 +44,4 @@
   sha256: 8f86a81764a33246fc431b1894614b63aae25af2afc9aef85599b1fc06526623
   sha1: d77aa712d59fc811f730b813fad0738a3f7abd00
   md5: b48ccb35df6ba5c901c0b20bf946a953
-  source: 'https://archive.org/download/shockpkg_packages_8/8f/86/a81764a33246fc431b1894614b63aae25af2afc9aef85599b1fc06526623/AIRSDK_Linux.zip'
+  source: https://archive.org/download/shockpkg_packages_8/8f/86/a81764a33246fc431b1894614b63aae25af2afc9aef85599b1fc06526623/AIRSDK_Linux.zip

@@ -4,7 +4,7 @@
   sha256: 7f1e70e833c953cd70d34b84de6e3189552df67119f93d16b0b182175afc0528
   sha1: dbf8964011a033a46e72fcb83f7e01d57562dfe0
   md5: 178cc7863cf932e1d0605968dfd5f0cc
-  source: 'https://archive.org/download/shockpkg_packages_7/7f/1e/70e833c953cd70d34b84de6e3189552df67119f93d16b0b182175afc0528/fp10_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_7/7f/1e/70e833c953cd70d34b84de6e3189552df67119f93d16b0b182175afc0528/fp10_archive.zip
   packages:
     - name: flash-player-10.0.12.36-windows-npapi
       file: flashplayer10r12_36_win.exe
@@ -388,7 +388,7 @@
   sha256: ed6a3794858721664a490de0458cca8bba84984f5a97d1fc02a7d450a6a173e3
   sha1: 186ff3d1822d789d9e94a67756792a5622082591
   md5: 9a8b9e63f102e887edd0acfe20c6ce3e
-  source: 'https://archive.org/download/shockpkg_packages_e/ed/6a/3794858721664a490de0458cca8bba84984f5a97d1fc02a7d450a6a173e3/fp10_debug_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_e/ed/6a/3794858721664a490de0458cca8bba84984f5a97d1fc02a7d450a6a173e3/fp10_debug_archive.zip
   packages:
     - name: flash-player-10.0.12.36-windows-npapi-debug
       file: flashplayer10r12_36_win_debug.exe

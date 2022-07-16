@@ -4,7 +4,7 @@
   sha256: 0b218766e0ac8a31bd77281123568a254f75e5999b300999050c6875be55b447
   sha1: 73591809eedd6b7a00b74be5cd1a198fcb773b90
   md5: 227a8edb8f9943f218d69db17376cf39
-  source: 'https://archive.org/download/shockpkg_packages_0/0b/21/8766e0ac8a31bd77281123568a254f75e5999b300999050c6875be55b447/Shockwave_Installer.sit'
+  source: https://archive.org/download/shockpkg_packages_0/0b/21/8766e0ac8a31bd77281123568a254f75e5999b300999050c6875be55b447/Shockwave_Installer.sit
 
 - name: shockwave-player-10.1.1.16-mac-classic-slim-2
   file: Shockwave_Installer_Slim.sit
@@ -12,7 +12,7 @@
   sha256: 24b610867db3f319493b130f301e68dbddd1035d7a63484b4ff2fb1e6190e19c
   sha1: fca98d9a9e628058bb1077d98116ef9178f42870
   md5: fbe85d6444d1e329924c538340a63ea0
-  source: 'https://archive.org/download/shockpkg_packages_2/24/b6/10867db3f319493b130f301e68dbddd1035d7a63484b4ff2fb1e6190e19c/Shockwave_Installer_Slim.sit'
+  source: https://archive.org/download/shockpkg_packages_2/24/b6/10867db3f319493b130f301e68dbddd1035d7a63484b4ff2fb1e6190e19c/Shockwave_Installer_Slim.sit
 
 - name: shockwave-player-10.1.1.16-mac-classic-slim
   file: Shockwave_10.0_Slim.sit
@@ -20,7 +20,7 @@
   sha256: ce0114d69af3b097d7d668ff5bd5eefb529448d35f23b33d0a2a8741ea0070d2
   sha1: 23722dfedd38e6849f18646a589603898d80d058
   md5: 84c5e7dfef733bcaf71c31512e67aefe
-  source: 'https://archive.org/download/shockpkg_packages_c/ce/01/14d69af3b097d7d668ff5bd5eefb529448d35f23b33d0a2a8741ea0070d2/Shockwave_10.0_Slim.sit'
+  source: https://archive.org/download/shockpkg_packages_c/ce/01/14d69af3b097d7d668ff5bd5eefb529448d35f23b33d0a2a8741ea0070d2/Shockwave_10.0_Slim.sit
 
 - name: shockwave-player-10.1.1.16-mac-osx-full-japanese
   file: Shockwave_Installer_FullJ.dmg
@@ -28,7 +28,7 @@
   sha256: 4cd91d1136c775b665070009e77fa64301c122daba760830583ff39dee37a7dd
   sha1: 69e01f3b8f9b0e7320ee7db1466423fbfc66dc77
   md5: 87b3a81add0a80048d6a0305dea721e5
-  source: 'https://archive.org/download/shockpkg_packages_4/4c/d9/1d1136c775b665070009e77fa64301c122daba760830583ff39dee37a7dd/Shockwave_Installer_FullJ.dmg'
+  source: https://archive.org/download/shockpkg_packages_4/4c/d9/1d1136c775b665070009e77fa64301c122daba760830583ff39dee37a7dd/Shockwave_Installer_FullJ.dmg
 
 - name: shockwave-player-10.1.1.16-mac-osx-full
   file: Shockwave_Installer_Full.dmg
@@ -36,7 +36,7 @@
   sha256: b76650d4e2b6ba8119ff6c666728af48e7dd0466a6c4edda572245073e7eb6ce
   sha1: 48cbabb5399a02c9018e4e8461ff19bfe863d379
   md5: 6a784ccb663146ea174410dd3f823b9a
-  source: 'https://archive.org/download/shockpkg_packages_b/b7/66/50d4e2b6ba8119ff6c666728af48e7dd0466a6c4edda572245073e7eb6ce/Shockwave_Installer_Full.dmg'
+  source: https://archive.org/download/shockpkg_packages_b/b7/66/50d4e2b6ba8119ff6c666728af48e7dd0466a6c4edda572245073e7eb6ce/Shockwave_Installer_Full.dmg
 
 - name: shockwave-player-10.1.1.16-mac-osx-slim
   file: Shockwave_Installer_Slim.dmg
@@ -44,7 +44,7 @@
   sha256: 7e53cd9af43887118adb67034f30bf17508f488af31c79e3448a7fc553ef6ea2
   sha1: 5a9c9283cc9038229626ae816df8651ebdf41d91
   md5: f563b57a3cf20eb591d4249a160fd4e8
-  source: 'https://archive.org/download/shockpkg_packages_7/7e/53/cd9af43887118adb67034f30bf17508f488af31c79e3448a7fc553ef6ea2/Shockwave_Installer_Slim.dmg'
+  source: https://archive.org/download/shockpkg_packages_7/7e/53/cd9af43887118adb67034f30bf17508f488af31c79e3448a7fc553ef6ea2/Shockwave_Installer_Slim.dmg
 
 - name: shockwave-player-10.1.1.16-windows-full-japanese
   file: Shockwave_Installer_FullJ.exe
@@ -52,7 +52,7 @@
   sha256: 09eac82d424d032f0809d1d0e8ca1549369e862038dcddadf6f6c5893f619282
   sha1: 957fda9589ea6a9af08d30ee7d22607c252aed02
   md5: c5c783fb3eafd2dfbf5319b1a17d98c0
-  source: 'https://archive.org/download/shockpkg_packages_0/09/ea/c82d424d032f0809d1d0e8ca1549369e862038dcddadf6f6c5893f619282/Shockwave_Installer_FullJ.exe'
+  source: https://archive.org/download/shockpkg_packages_0/09/ea/c82d424d032f0809d1d0e8ca1549369e862038dcddadf6f6c5893f619282/Shockwave_Installer_FullJ.exe
 
 - name: shockwave-player-10.1.1.16-windows-full
   file: Shockwave_Installer_Full.exe
@@ -60,7 +60,7 @@
   sha256: 3e7cb8a5e7dc6c955a9b90499c89def46dae172e5865b2e19af815fba3df6a7e
   sha1: 454f7ba8ddd7591ce85db83e002bea4d0a2afbb0
   md5: 1dc018452ba3b0f4e0ffb4ce49496a20
-  source: 'https://archive.org/download/shockpkg_packages_3/3e/7c/b8a5e7dc6c955a9b90499c89def46dae172e5865b2e19af815fba3df6a7e/Shockwave_Installer_Full.exe'
+  source: https://archive.org/download/shockpkg_packages_3/3e/7c/b8a5e7dc6c955a9b90499c89def46dae172e5865b2e19af815fba3df6a7e/Shockwave_Installer_Full.exe
 
 - name: shockwave-player-10.1.1.16-windows-slim
   file: shockwave1011016.exe
@@ -68,4 +68,4 @@
   sha256: f3f201eb8024d850c04e76507c90cbe301628a11747c8f813723b1a76123df79
   sha1: d44381e7a637d67d0a51c2ebbfef1a283a0598ff
   md5: 16f8db31b2d0afafaa616397525d6d7c
-  source: 'https://archive.org/download/shockpkg_packages_f/f3/f2/01eb8024d850c04e76507c90cbe301628a11747c8f813723b1a76123df79/shockwave1011016.exe'
+  source: https://archive.org/download/shockpkg_packages_f/f3/f2/01eb8024d850c04e76507c90cbe301628a11747c8f813723b1a76123df79/shockwave1011016.exe

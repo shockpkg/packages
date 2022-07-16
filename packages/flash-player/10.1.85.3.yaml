@@ -4,7 +4,7 @@
   sha256: 704744354611e69bb682199f2c578c1d0b0881b6ef01b0a7989044bdd03c33ad
   sha1: 366bc2d28a294e57afc3118dce4bf06f9d0a4220
   md5: 5458049d8b22ff9dc5905ea3720a0067
-  source: 'https://archive.org/download/shockpkg_packages_7/70/47/44354611e69bb682199f2c578c1d0b0881b6ef01b0a7989044bdd03c33ad/fp_10.1.85.3_and_9.0.283_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_7/70/47/44354611e69bb682199f2c578c1d0b0881b6ef01b0a7989044bdd03c33ad/fp_10.1.85.3_and_9.0.283_archive.zip
   packages:
     - name: flash-player-9.0.283.0-windows-npapi
       file: flashplayer9_0r283_win.exe

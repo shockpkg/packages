@@ -4,7 +4,7 @@
   sha256: 2d308cc184b38f741cbb7928f64169cec2cf36aad6f9cf4fae3202bb9bddebbc
   sha1: a971733e8cda01d77b6dd2c6393218691075dde2
   md5: 1274dbcde2c99c655c001bef2e9644a1
-  source: 'https://archive.org/download/shockpkg_packages_2/2d/30/8cc184b38f741cbb7928f64169cec2cf36aad6f9cf4fae3202bb9bddebbc/shockwave800_205.sit'
+  source: https://archive.org/download/shockpkg_packages_2/2d/30/8cc184b38f741cbb7928f64169cec2cf36aad6f9cf4fae3202bb9bddebbc/shockwave800_205.sit
 
 - name: shockwave-player-8.0.0.205-mac-full
   file: 800205_Shockwave_Installer_full.hqx
@@ -12,7 +12,7 @@
   sha256: 3bcc446c8d725e4da926990251af8083e0f181a68dd953e15fd250c0971b24e4
   sha1: 850a7cc911129ac1ce5188d914af7aa61c7ef98c
   md5: ca1def7c72ac5545742ab735b7fb44ef
-  source: 'https://archive.org/download/shockpkg_packages_3/3b/cc/446c8d725e4da926990251af8083e0f181a68dd953e15fd250c0971b24e4/800205_Shockwave_Installer_full.hqx'
+  source: https://archive.org/download/shockpkg_packages_3/3b/cc/446c8d725e4da926990251af8083e0f181a68dd953e15fd250c0971b24e4/800205_Shockwave_Installer_full.hqx
 
 - name: shockwave-player-8.0.0.205-mac-shim
   file: 800205_Shockwave_Installer_web.hqx
@@ -20,7 +20,7 @@
   sha256: 8c7a856e985158803b78140846e3aae47b0a7740a0eee923d15f1596e34d2806
   sha1: 05160d6e525fbe2bcc64ef4fd525678d27b5ffd8
   md5: 7c406c82a0086196f6c9e14bbb53953a
-  source: 'https://archive.org/download/shockpkg_packages_8/8c/7a/856e985158803b78140846e3aae47b0a7740a0eee923d15f1596e34d2806/800205_Shockwave_Installer_web.hqx'
+  source: https://archive.org/download/shockpkg_packages_8/8c/7a/856e985158803b78140846e3aae47b0a7740a0eee923d15f1596e34d2806/800205_Shockwave_Installer_web.hqx
 
 - name: shockwave-player-8.0.0.205-windows-activex
   file: swdir.cab
@@ -28,7 +28,7 @@
   sha256: 3b070faec6c1e52c7e78ce27c3300469cf2d54cee53e29819bb31b32843347dd
   sha1: f21efb8e229dc5c194f6e915e55c49529a7aa6fd
   md5: 491212174a3c34b06daf2182568b5281
-  source: 'https://archive.org/download/shockpkg_packages_3/3b/07/0faec6c1e52c7e78ce27c3300469cf2d54cee53e29819bb31b32843347dd/swdir.cab'
+  source: https://archive.org/download/shockpkg_packages_3/3b/07/0faec6c1e52c7e78ce27c3300469cf2d54cee53e29819bb31b32843347dd/swdir.cab
 
 - name: shockwave-player-8.0.0.205-windows-archive
   file: shockwave800_205.zip
@@ -36,7 +36,7 @@
   sha256: 7b3ad96a0d1bc88eb9e059ca2e489a13e2ac134111cdeb06dbbdcf907c78e53b
   sha1: b6e438584d27317995154337bea13efc32deb764
   md5: 287e81f1f1c213dd8cd85bcc848ecf3c
-  source: 'https://archive.org/download/shockpkg_packages_7/7b/3a/d96a0d1bc88eb9e059ca2e489a13e2ac134111cdeb06dbbdcf907c78e53b/shockwave800_205.zip'
+  source: https://archive.org/download/shockpkg_packages_7/7b/3a/d96a0d1bc88eb9e059ca2e489a13e2ac134111cdeb06dbbdcf907c78e53b/shockwave800_205.zip
 
 - name: shockwave-player-8.0.0.205-windows-full
   file: Shockwave_Installer_Full.exe
@@ -44,7 +44,7 @@
   sha256: c54e174095a6919b938919de0d55da60ce2b84ae94de272d4576b22ea2d3b44c
   sha1: fef926aec03fe78046ee6c2bb1c66c02d825cb40
   md5: 3d29f83bf5b0448f61d57393b843b56a
-  source: 'https://archive.org/download/shockpkg_packages_c/c5/4e/174095a6919b938919de0d55da60ce2b84ae94de272d4576b22ea2d3b44c/Shockwave_Installer_Full.exe'
+  source: https://archive.org/download/shockpkg_packages_c/c5/4e/174095a6919b938919de0d55da60ce2b84ae94de272d4576b22ea2d3b44c/Shockwave_Installer_Full.exe
 
 - name: shockwave-player-8.0.0.205-windows-shim
   file: Shockwave_Installer.exe
@@ -52,4 +52,4 @@
   sha256: bdd10b00f9441aea6f749b1c1a829adab7727dd2917461d9c410923afefa3030
   sha1: e223272df9be954df913846d8b4f97b7ee1c9279
   md5: 466f6acc6d7efa360a02d8c6b170b587
-  source: 'https://archive.org/download/shockpkg_packages_b/bd/d1/0b00f9441aea6f749b1c1a829adab7727dd2917461d9c410923afefa3030/Shockwave_Installer.exe'
+  source: https://archive.org/download/shockpkg_packages_b/bd/d1/0b00f9441aea6f749b1c1a829adab7727dd2917461d9c410923afefa3030/Shockwave_Installer.exe

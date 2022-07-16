@@ -4,7 +4,7 @@
   sha256: 4b9693091e0277b63c03f87cdfedef6f15c3efdad3b3d5bb6cfdfd51119d88b7
   sha1: 6835a6e4d145638c52fa5ae367fd2d93f80d84c6
   md5: 7907e7ec44ccba0591eeb3e8b53185ce
-  source: 'https://archive.org/download/shockpkg_packages_4/4b/96/93091e0277b63c03f87cdfedef6f15c3efdad3b3d5bb6cfdfd51119d88b7/AdobeAIRSDK.zip'
+  source: https://archive.org/download/shockpkg_packages_4/4b/96/93091e0277b63c03f87cdfedef6f15c3efdad3b3d5bb6cfdfd51119d88b7/AdobeAIRSDK.zip
 
 - name: air-sdk-3.9.0.1380-windows-compiler
   file: AIRSDK_Compiler.zip
@@ -12,7 +12,7 @@
   sha256: 12cba74efd8e35825926a2b3fd70142634b22d7105bf69467f81f10d6b910f3f
   sha1: 33d21f23a2397b0de3b49da0b785a42e8eb9c18e
   md5: bf98751cad2f4671f170c978f3d8999f
-  source: 'https://archive.org/download/shockpkg_packages_1/12/cb/a74efd8e35825926a2b3fd70142634b22d7105bf69467f81f10d6b910f3f/AIRSDK_Compiler.zip'
+  source: https://archive.org/download/shockpkg_packages_1/12/cb/a74efd8e35825926a2b3fd70142634b22d7105bf69467f81f10d6b910f3f/AIRSDK_Compiler.zip
 
 - name: air-sdk-3.9.0.1380-mac
   file: AdobeAIRSDK.tbz2
@@ -20,7 +20,7 @@
   sha256: 516d2cf4d07392105cd7588e249dd5c9aeb508ea6a26477a8f34b15b63d39d29
   sha1: 539a86a51a93c560826f0c3d8ba0bef5475955b1
   md5: e4afa5b78309b793aa7dc414878b4cf3
-  source: 'https://archive.org/download/shockpkg_packages_5/51/6d/2cf4d07392105cd7588e249dd5c9aeb508ea6a26477a8f34b15b63d39d29/AdobeAIRSDK.tbz2'
+  source: https://archive.org/download/shockpkg_packages_5/51/6d/2cf4d07392105cd7588e249dd5c9aeb508ea6a26477a8f34b15b63d39d29/AdobeAIRSDK.tbz2
 
 - name: air-sdk-3.9.0.1380-mac-zip
   file: AdobeAIRSDK.zip
@@ -28,7 +28,7 @@
   sha256: ba4a19c91d668e06813aa9940f7154430cc54e6bf19a1232572297faafa98ee9
   sha1: c2cd5932811837af5948221405d737527ef30982
   md5: 9e18b78df855299a62276a3f9015c366
-  source: 'https://archive.org/download/shockpkg_packages_b/ba/4a/19c91d668e06813aa9940f7154430cc54e6bf19a1232572297faafa98ee9/AdobeAIRSDK.zip'
+  source: https://archive.org/download/shockpkg_packages_b/ba/4a/19c91d668e06813aa9940f7154430cc54e6bf19a1232572297faafa98ee9/AdobeAIRSDK.zip
 
 - name: air-sdk-3.9.0.1380-mac-compiler
   file: AIRSDK_Compiler.tbz2
@@ -36,7 +36,7 @@
   sha256: b48f89a9f184bf59655f779c23a0e125178819acf49fe3b41ae96f3544f737b1
   sha1: 7bb166c983fa88795fcd57b2578394a077b6e5f9
   md5: bb3c8ae6f0d76a3d24dc6d53b679bc69
-  source: 'https://archive.org/download/shockpkg_packages_b/b4/8f/89a9f184bf59655f779c23a0e125178819acf49fe3b41ae96f3544f737b1/AIRSDK_Compiler.tbz2'
+  source: https://archive.org/download/shockpkg_packages_b/b4/8f/89a9f184bf59655f779c23a0e125178819acf49fe3b41ae96f3544f737b1/AIRSDK_Compiler.tbz2
 
 - name: air-sdk-3.9.0.1380-mac-compiler-zip
   file: AIRSDK_Compiler.zip
@@ -44,4 +44,4 @@
   sha256: 5ca4a93f8dfd0495e1d964d30bfd4c2d36772a02041e6ee4812157906729bf21
   sha1: 01ef60242bcc467320f3d8a6274bb3a945fafda3
   md5: c6cdf2eb614e5803100545df808ae288
-  source: 'https://archive.org/download/shockpkg_packages_5/5c/a4/a93f8dfd0495e1d964d30bfd4c2d36772a02041e6ee4812157906729bf21/AIRSDK_Compiler.zip'
+  source: https://archive.org/download/shockpkg_packages_5/5c/a4/a93f8dfd0495e1d964d30bfd4c2d36772a02041e6ee4812157906729bf21/AIRSDK_Compiler.zip

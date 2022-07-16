@@ -4,7 +4,7 @@
   sha256: 08c764c7d76ad3edc0cc47a62c44c3a7fa4840f369145536c6e261238c699950
   sha1: 84fe03da385bab8af5c5bb1981399223e50a7442
   md5: b3e0f35a5a411ea88f0c20b660346939
-  source: 'https://archive.org/download/shockpkg_packages_0/08/c7/64c7d76ad3edc0cc47a62c44c3a7fa4840f369145536c6e261238c699950/install_flash_player_ax.exe'
+  source: https://archive.org/download/shockpkg_packages_0/08/c7/64c7d76ad3edc0cc47a62c44c3a7fa4840f369145536c6e261238c699950/install_flash_player_ax.exe
 
 - name: flash-player-30.0.0.134-windows-npapi-2018-06-25
   file: install_flash_player.exe
@@ -12,7 +12,7 @@
   sha256: 586ae0cc347fe5dc9b60762445475aa35da7af2abe7a2a000569cf679798d748
   sha1: 21252917f9bdba1826f4b42da01a57f0dc68b4ac
   md5: 0517fb2242ea531a3347f08bf67e9465
-  source: 'https://archive.org/download/shockpkg_packages_5/58/6a/e0cc347fe5dc9b60762445475aa35da7af2abe7a2a000569cf679798d748/install_flash_player.exe'
+  source: https://archive.org/download/shockpkg_packages_5/58/6a/e0cc347fe5dc9b60762445475aa35da7af2abe7a2a000569cf679798d748/install_flash_player.exe
 
 - name: flash-player-30.0.0.134-windows-ppapi-2018-06-25
   file: install_flash_player_ppapi.exe
@@ -20,7 +20,7 @@
   sha256: a4cf2eb5ddd7accbc525b8f7bd25fbea3b92cc7de851fdf9884dba58488ea830
   sha1: cce1564914586454ea9d55c1040d91c0e6304e3a
   md5: ebda1738e924c2aaed37fa59c458d43b
-  source: 'https://archive.org/download/shockpkg_packages_a/a4/cf/2eb5ddd7accbc525b8f7bd25fbea3b92cc7de851fdf9884dba58488ea830/install_flash_player_ppapi.exe'
+  source: https://archive.org/download/shockpkg_packages_a/a4/cf/2eb5ddd7accbc525b8f7bd25fbea3b92cc7de851fdf9884dba58488ea830/install_flash_player_ppapi.exe
 
 - name: flash-player-30.0.0.134-mac-ppapi-2018-06-25
   file: install_flash_player_osx_ppapi.dmg
@@ -28,7 +28,7 @@
   sha256: 7b03b36a9a3403ca7f1e76be42750b8b630bde8aeb21b431afcf28eb40c43852
   sha1: c6933b8f09c502457f5d8db0b933f0a25be53553
   md5: 87d4007e3686e203f451767c1568b3c0
-  source: 'https://archive.org/download/shockpkg_packages_7/7b/03/b36a9a3403ca7f1e76be42750b8b630bde8aeb21b431afcf28eb40c43852/install_flash_player_osx_ppapi.dmg'
+  source: https://archive.org/download/shockpkg_packages_7/7b/03/b36a9a3403ca7f1e76be42750b8b630bde8aeb21b431afcf28eb40c43852/install_flash_player_osx_ppapi.dmg
 
 - name: flash-player-30.0.0.134-archive
   file: fp_30.0.0.134_archive.zip
@@ -36,7 +36,7 @@
   sha256: 8c91a44e5c9f0b2d98933fcc93a905df3a8c0f5264ce6b87b60b41f3e6ffceb1
   sha1: 4d2b1ee4b18c025829f1ef138ae7d2824b81a1c5
   md5: b7f6f84d6f9b073ef1fe0b523659d99c
-  source: 'https://archive.org/download/shockpkg_packages_8/8c/91/a44e5c9f0b2d98933fcc93a905df3a8c0f5264ce6b87b60b41f3e6ffceb1/fp_30.0.0.134_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_8/8c/91/a44e5c9f0b2d98933fcc93a905df3a8c0f5264ce6b87b60b41f3e6ffceb1/fp_30.0.0.134_archive.zip
   packages:
     - name: flash-player-30.0.0.134-windows-npapi
       file: flashplayer30_0r0_134_win.exe
@@ -284,7 +284,7 @@
   sha256: f7eae8ae04ac6cde4530da0c4be5dbef49dcbbf7c11a95ac89f581587db400ac
   sha1: d1ef9249d538122533b0731a96ab5b53c105d165
   md5: 71af4bfdc4f5207233f9e3f0cff68fec
-  source: 'https://archive.org/download/shockpkg_packages_f/f7/ea/e8ae04ac6cde4530da0c4be5dbef49dcbbf7c11a95ac89f581587db400ac/flashplayer30_0r0_134_mac_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_f/f7/ea/e8ae04ac6cde4530da0c4be5dbef49dcbbf7c11a95ac89f581587db400ac/flashplayer30_0r0_134_mac_sa.zip
 
 - name: flash-player-30.0.0.134-mac-sa-debug-zip
   file: flashplayer30_0r0_134_mac_sa_debug.zip
@@ -292,7 +292,7 @@
   sha256: 93d4a1502287d305c0cdacab48b44370295e9f5d848763ce421017cd4e0a52d8
   sha1: 8c310fcf726a044c4677747b33fb3d85e3b666a8
   md5: 0fcf0a849885346c625103d402d82e94
-  source: 'https://archive.org/download/shockpkg_packages_9/93/d4/a1502287d305c0cdacab48b44370295e9f5d848763ce421017cd4e0a52d8/flashplayer30_0r0_134_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_9/93/d4/a1502287d305c0cdacab48b44370295e9f5d848763ce421017cd4e0a52d8/flashplayer30_0r0_134_mac_sa_debug.zip
 
 - name: flash-player-30.0.0.134-windows-sa-2018-09-19
   file: FlashPlayer.exe
@@ -300,7 +300,7 @@
   sha256: fb2a185d82ca405cc773d735ade9ea926dcbfd7d5f3044d12542b0c9157ab0b8
   sha1: 115ffdec86b694ff043c0b1200ed85cf9ee86349
   md5: 311339a443408a105e4c936025697119
-  source: 'https://archive.org/download/shockpkg_packages_f/fb/2a/185d82ca405cc773d735ade9ea926dcbfd7d5f3044d12542b0c9157ab0b8/FlashPlayer.exe'
+  source: https://archive.org/download/shockpkg_packages_f/fb/2a/185d82ca405cc773d735ade9ea926dcbfd7d5f3044d12542b0c9157ab0b8/FlashPlayer.exe
 
 - name: flash-player-30.0.0.134-windows-x86_64-sa-2018-09-19
   file: FlashPlayer.exe
@@ -308,7 +308,7 @@
   sha256: 6a81cdea948073c55d0ba403da76b068f1286cde6ffa8f9e267e71f7e589f606
   sha1: 2a4f57d20a95484d4562ee1ad324a87ef0b2b9d8
   md5: 9c0620ad8a7b40ce68eefc33b433dd4b
-  source: 'https://archive.org/download/shockpkg_packages_6/6a/81/cdea948073c55d0ba403da76b068f1286cde6ffa8f9e267e71f7e589f606/FlashPlayer.exe'
+  source: https://archive.org/download/shockpkg_packages_6/6a/81/cdea948073c55d0ba403da76b068f1286cde6ffa8f9e267e71f7e589f606/FlashPlayer.exe
 
 - name: flash-player-30.0.0.134-windows-x86_64-sa-debug-2018-09-19
   file: FlashPlayerDebugger.exe
@@ -316,7 +316,7 @@
   sha256: a54123de50374fd6e94466a9bd6ed3d3336461c9854c20a7c4b9cac5bece8a60
   sha1: 0cda20fc687daf021290a97ecaa8b78dac7d867c
   md5: 97a178b12cab408b807416790d44ab12
-  source: 'https://archive.org/download/shockpkg_packages_a/a5/41/23de50374fd6e94466a9bd6ed3d3336461c9854c20a7c4b9cac5bece8a60/FlashPlayerDebugger.exe'
+  source: https://archive.org/download/shockpkg_packages_a/a5/41/23de50374fd6e94466a9bd6ed3d3336461c9854c20a7c4b9cac5bece8a60/FlashPlayerDebugger.exe
 
 - name: flash-player-30.0.0.134-windows-sa-2018-12-01
   file: FlashPlayer.exe
@@ -324,7 +324,7 @@
   sha256: d22cf02773a45fd486f2ff3baf2529f4792187522557164e825af1a68a888408
   sha1: 947aaf510f0b79eb1bab725e11b523f175285b77
   md5: f6a00fd7be9a5e298f66450360b00ee2
-  source: 'https://archive.org/download/shockpkg_packages_d/d2/2c/f02773a45fd486f2ff3baf2529f4792187522557164e825af1a68a888408/FlashPlayer.exe'
+  source: https://archive.org/download/shockpkg_packages_d/d2/2c/f02773a45fd486f2ff3baf2529f4792187522557164e825af1a68a888408/FlashPlayer.exe
 
 - name: flash-player-30.0.0.134-windows-x86_64-sa-2018-12-01
   file: FlashPlayer.exe
@@ -332,7 +332,7 @@
   sha256: f629200b1a47900820a0e89c4ddede009a8eb08d5f3ee4d745e32df26d535561
   sha1: cd98b1739d40456bfb7a05d7a63ca91de45115b8
   md5: c50b0b9c1f696afa5fd4eabc953e1256
-  source: 'https://archive.org/download/shockpkg_packages_f/f6/29/200b1a47900820a0e89c4ddede009a8eb08d5f3ee4d745e32df26d535561/FlashPlayer.exe'
+  source: https://archive.org/download/shockpkg_packages_f/f6/29/200b1a47900820a0e89c4ddede009a8eb08d5f3ee4d745e32df26d535561/FlashPlayer.exe
 
 - name: flash-player-30.0.0.134-windows-x86_64-sa-debug-2018-12-01
   file: FlashPlayerDebugger.exe
@@ -340,7 +340,7 @@
   sha256: 22e1150f09a91c28aa37a4e2d3d42ee6008cbeada00f98da5a80927bb0a8a748
   sha1: 40f3aacace6b86a950e93f1461323d9be2a01126
   md5: 128d414ab95334132158d76261218cdb
-  source: 'https://archive.org/download/shockpkg_packages_2/22/e1/150f09a91c28aa37a4e2d3d42ee6008cbeada00f98da5a80927bb0a8a748/FlashPlayerDebugger.exe'
+  source: https://archive.org/download/shockpkg_packages_2/22/e1/150f09a91c28aa37a4e2d3d42ee6008cbeada00f98da5a80927bb0a8a748/FlashPlayerDebugger.exe
 
 - name: flash-player-30.0.0.134-windows-sa-2019-03-23
   file: FlashPlayer.exe
@@ -348,7 +348,7 @@
   sha256: 5858d6da692baf4c5426f0f8d98bbba724b31d58a0434c67dbe2b509f16b3caf
   sha1: b9027fcf747629394e885891ffa15d6bb42d3d71
   md5: 90844660c065086706112705a628bb55
-  source: 'https://archive.org/download/shockpkg_packages_5/58/58/d6da692baf4c5426f0f8d98bbba724b31d58a0434c67dbe2b509f16b3caf/FlashPlayer.exe'
+  source: https://archive.org/download/shockpkg_packages_5/58/58/d6da692baf4c5426f0f8d98bbba724b31d58a0434c67dbe2b509f16b3caf/FlashPlayer.exe
 
 - name: flash-player-30.0.0.134-windows-x86_64-sa-2019-03-23
   file: FlashPlayer.exe
@@ -356,7 +356,7 @@
   sha256: dcdb08a95651bd87612661bfc947e2c4fb5d494bbf64de53be90e08505b12140
   sha1: 3825170fbb06a4f83779f62ca1e579e8c93cc807
   md5: 1eef8e4922d756884aac09977727ab1d
-  source: 'https://archive.org/download/shockpkg_packages_d/dc/db/08a95651bd87612661bfc947e2c4fb5d494bbf64de53be90e08505b12140/FlashPlayer.exe'
+  source: https://archive.org/download/shockpkg_packages_d/dc/db/08a95651bd87612661bfc947e2c4fb5d494bbf64de53be90e08505b12140/FlashPlayer.exe
 
 - name: flash-player-30.0.0.134-windows-x86_64-sa-debug-2019-03-23
   file: FlashPlayerDebugger.exe
@@ -364,7 +364,7 @@
   sha256: 2d71678e25c6b9ca11bab2bc249ccd80a959886d2c366cda936d5861a197c52c
   sha1: 12156c61b2cccf3624feccf694df2ee6e112f8ec
   md5: 0d05156ff42e3ac68d10f53ce16c59f6
-  source: 'https://archive.org/download/shockpkg_packages_2/2d/71/678e25c6b9ca11bab2bc249ccd80a959886d2c366cda936d5861a197c52c/FlashPlayerDebugger.exe'
+  source: https://archive.org/download/shockpkg_packages_2/2d/71/678e25c6b9ca11bab2bc249ccd80a959886d2c366cda936d5861a197c52c/FlashPlayerDebugger.exe
 
 - name: flash-player-30.0.0.134-windows-sa-2019-05-10
   file: FlashPlayer.exe
@@ -372,7 +372,7 @@
   sha256: 916d99b47b2bf05be96a64e3be5de7fde3846aa8dc491ae5d31a3e54dc25dae3
   sha1: a2be8add215db577e592454db1939d9c7e8ff390
   md5: bf53dca6b517004cfff3c00534a258a5
-  source: 'https://archive.org/download/shockpkg_packages_9/91/6d/99b47b2bf05be96a64e3be5de7fde3846aa8dc491ae5d31a3e54dc25dae3/FlashPlayer.exe'
+  source: https://archive.org/download/shockpkg_packages_9/91/6d/99b47b2bf05be96a64e3be5de7fde3846aa8dc491ae5d31a3e54dc25dae3/FlashPlayer.exe
 
 - name: flash-player-30.0.0.134-windows-x86_64-sa-2019-05-10
   file: FlashPlayer.exe
@@ -380,7 +380,7 @@
   sha256: 01f17d10c3cc9bca22e70188185d8aea8701654ae05f09153e520aaaa668cbde
   sha1: bc0ed800dc65b33b768bba633f923aef599fa9c6
   md5: 8e88b019043bae7fbe399e92ece27d76
-  source: 'https://archive.org/download/shockpkg_packages_0/01/f1/7d10c3cc9bca22e70188185d8aea8701654ae05f09153e520aaaa668cbde/FlashPlayer.exe'
+  source: https://archive.org/download/shockpkg_packages_0/01/f1/7d10c3cc9bca22e70188185d8aea8701654ae05f09153e520aaaa668cbde/FlashPlayer.exe
 
 - name: flash-player-30.0.0.134-windows-x86_64-sa-debug-2019-05-10
   file: FlashPlayerDebugger.exe
@@ -388,4 +388,4 @@
   sha256: 308d9c050ca5a53de06ccfc41255737d835d44d99718421f19dfce992ec9d785
   sha1: c60dda36ebc4b5fcab789e07bde2a4748913c0ef
   md5: 3c329b773850984e864f9c0255b07b1f
-  source: 'https://archive.org/download/shockpkg_packages_3/30/8d/9c050ca5a53de06ccfc41255737d835d44d99718421f19dfce992ec9d785/FlashPlayerDebugger.exe'
+  source: https://archive.org/download/shockpkg_packages_3/30/8d/9c050ca5a53de06ccfc41255737d835d44d99718421f19dfce992ec9d785/FlashPlayerDebugger.exe

@@ -4,7 +4,7 @@
   sha256: f2d7b4291b2c9234cb60ee99c4e86c06e0c8d75e60449c37b7912e7adcc7b4bc
   sha1: e47c0432bc9a8993ec96bd092b0263ea9f1e8d08
   md5: 6092b3d4e2784212d174ca10904412bd
-  source: 'https://archive.org/download/shockpkg_packages_f/f2/d7/b4291b2c9234cb60ee99c4e86c06e0c8d75e60449c37b7912e7adcc7b4bc/playerglobal10_3.swc'
+  source: https://archive.org/download/shockpkg_packages_f/f2/d7/b4291b2c9234cb60ee99c4e86c06e0c8d75e60449c37b7912e7adcc7b4bc/playerglobal10_3.swc
 
 - name: flash-playerglobal-10.3-2011-08-18
   file: playerglobal10_3.swc
@@ -12,7 +12,7 @@
   sha256: 2fe0ea99504c307137f823f015a80834ed6cdeb1e4ef3739e8b3bbffc6c51636
   sha1: 66fd7695fb383e2e8cb7e8b0424bc715c3a80ede
   md5: d6701069bf047fb704a0ebb2c0f97270
-  source: 'https://archive.org/download/shockpkg_packages_2/2f/e0/ea99504c307137f823f015a80834ed6cdeb1e4ef3739e8b3bbffc6c51636/playerglobal10_3.swc'
+  source: https://archive.org/download/shockpkg_packages_2/2f/e0/ea99504c307137f823f015a80834ed6cdeb1e4ef3739e8b3bbffc6c51636/playerglobal10_3.swc
 
 - name: flash-playerglobal-10.3
   file: playerglobal10_3.swc
@@ -20,4 +20,4 @@
   sha256: ba7573783a5b1754966721d163471e50675d52a7a3830de15d7707a08e606b7a
   sha1: 14472ba1afa308a4a07d93f8bbb9c7917a6de126
   md5: e745f1a97c3245b7db26a8e4cfee3602
-  source: 'https://archive.org/download/shockpkg_packages_b/ba/75/73783a5b1754966721d163471e50675d52a7a3830de15d7707a08e606b7a/playerglobal10_3.swc'
+  source: https://archive.org/download/shockpkg_packages_b/ba/75/73783a5b1754966721d163471e50675d52a7a3830de15d7707a08e606b7a/playerglobal10_3.swc

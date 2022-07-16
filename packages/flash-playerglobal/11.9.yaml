@@ -4,7 +4,7 @@
   sha256: 202f5f12bc623a985ddee237c82b826c2552005f5169926a09d274985bf8b7a0
   sha1: c839e3cc45f4d6cf7c27c16d28882f4d1f884d69
   md5: 4cac2727e7b7e741075581f47c35f3af
-  source: 'https://archive.org/download/shockpkg_packages_2/20/2f/5f12bc623a985ddee237c82b826c2552005f5169926a09d274985bf8b7a0/playerglobal11_9.swc'
+  source: https://archive.org/download/shockpkg_packages_2/20/2f/5f12bc623a985ddee237c82b826c2552005f5169926a09d274985bf8b7a0/playerglobal11_9.swc
 
 - name: flash-playerglobal-11.9
   file: playerglobal11_9.swc
@@ -12,4 +12,4 @@
   sha256: 19ed14f74ee03c9ebc56a73f912dc928062aed3293a14f9d759b7a70333fc1ca
   sha1: f954bd66e1b1568d0340b5b0abfa4d19d5d00c20
   md5: d18244c3c00c61a41f2d4d791d09fedb
-  source: 'https://archive.org/download/shockpkg_packages_1/19/ed/14f74ee03c9ebc56a73f912dc928062aed3293a14f9d759b7a70333fc1ca/playerglobal11_9.swc'
+  source: https://archive.org/download/shockpkg_packages_1/19/ed/14f74ee03c9ebc56a73f912dc928062aed3293a14f9d759b7a70333fc1ca/playerglobal11_9.swc

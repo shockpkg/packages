@@ -4,7 +4,7 @@
   sha256: 057661a755ca69c1fd4ce53c99f1a5fbfdf617086c0da6c171590626ebb3d8a7
   sha1: 0d94e4982202179638d459056f9e5ddea3ab8175
   md5: cf27561c47de91c1b841ffa887ac0733
-  source: 'https://archive.org/download/shockpkg_packages_0/05/76/61a755ca69c1fd4ce53c99f1a5fbfdf617086c0da6c171590626ebb3d8a7/AIRSDK_Flex_Windows.zip'
+  source: https://archive.org/download/shockpkg_packages_0/05/76/61a755ca69c1fd4ce53c99f1a5fbfdf617086c0da6c171590626ebb3d8a7/AIRSDK_Flex_Windows.zip
 
 - name: air-sdk-33.1.1.259-windows-compiler
   file: AIRSDK_Windows.zip
@@ -12,7 +12,7 @@
   sha256: 38c7d1f0800a0779ba1711ecda0733dc4e786b8cab186f8e02ab4a01da43f3d3
   sha1: ef6df7d02d44b13538c79325ec4d3ed95f4a6be9
   md5: 79ab7c1442a4e06021d840ae46e7f39d
-  source: 'https://archive.org/download/shockpkg_packages_3/38/c7/d1f0800a0779ba1711ecda0733dc4e786b8cab186f8e02ab4a01da43f3d3/AIRSDK_Windows.zip'
+  source: https://archive.org/download/shockpkg_packages_3/38/c7/d1f0800a0779ba1711ecda0733dc4e786b8cab186f8e02ab4a01da43f3d3/AIRSDK_Windows.zip
 
 - name: air-sdk-33.1.1.259-mac
   file: AIRSDK_Flex_MacOS.zip
@@ -20,7 +20,7 @@
   sha256: 72602bdc6c1efbecaa670a05874651e388ce818135c39a625510c0a95434a6f4
   sha1: 49f0e63b05e88ecaf119a964fc4abd0083f6df8e
   md5: c8fbf5b44c35b13dccb5ba0ff27e484a
-  source: 'https://archive.org/download/shockpkg_packages_7/72/60/2bdc6c1efbecaa670a05874651e388ce818135c39a625510c0a95434a6f4/AIRSDK_Flex_MacOS.zip'
+  source: https://archive.org/download/shockpkg_packages_7/72/60/2bdc6c1efbecaa670a05874651e388ce818135c39a625510c0a95434a6f4/AIRSDK_Flex_MacOS.zip
 
 - name: air-sdk-33.1.1.259-mac-compiler
   file: AIRSDK_MacOS.zip
@@ -28,4 +28,4 @@
   sha256: 10f39973ee015c31b2bf600e943b19a2656dbefaba5b04ad8b276392ba89aa8d
   sha1: 7fbccdb4bdf2c92b657baf5c17a40e0aa4aff456
   md5: 27bd2337bc1bc457d0428d3c4c246678
-  source: 'https://archive.org/download/shockpkg_packages_1/10/f3/9973ee015c31b2bf600e943b19a2656dbefaba5b04ad8b276392ba89aa8d/AIRSDK_MacOS.zip'
+  source: https://archive.org/download/shockpkg_packages_1/10/f3/9973ee015c31b2bf600e943b19a2656dbefaba5b04ad8b276392ba89aa8d/AIRSDK_MacOS.zip

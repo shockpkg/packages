@@ -4,7 +4,7 @@
   sha256: 3e835f775ab32ce0af9cfc906a264ccb5b0ac282c22d24a4a2c876ff0940ae60
   sha1: e437a570b6787413b965ccba05834634a0ddfcf3
   md5: ef66160eebfa73ef77318182f976b5fe
-  source: 'https://archive.org/download/shockpkg_packages_3/3e/83/5f775ab32ce0af9cfc906a264ccb5b0ac282c22d24a4a2c876ff0940ae60/projector.dmg'
+  source: https://archive.org/download/shockpkg_packages_3/3e/83/5f775ab32ce0af9cfc906a264ccb5b0ac282c22d24a4a2c876ff0940ae60/projector.dmg
 
 - name: shockwave-projector-director-12.0.2-win-mac-zip
   file: projector.zip
@@ -12,7 +12,7 @@
   sha256: eab853099bf82379b197815aef1621a667f19272fd296cc3e159026d39457e94
   sha1: d2cd1b3f47725df4881a1086e5ecf9fb54dd9507
   md5: 9a9fd8dfa7d45e49c56966aea64de412
-  source: 'https://archive.org/download/shockpkg_packages_e/ea/b8/53099bf82379b197815aef1621a667f19272fd296cc3e159026d39457e94/projector.zip'
+  source: https://archive.org/download/shockpkg_packages_e/ea/b8/53099bf82379b197815aef1621a667f19272fd296cc3e159026d39457e94/projector.zip
 
 - name: shockwave-projector-director-12.0.2-win-win
   file: projector.zip
@@ -20,4 +20,4 @@
   sha256: 0ace7801dfbcfb224fae667343e2879afca6fdbd968f88cbcb1f81c88b1c5ecb
   sha1: 6cdcbd3e1d2a463d222c2a27183e7c8bf4812840
   md5: aa35b2c1f01182d8f38e98d1718c8175
-  source: 'https://archive.org/download/shockpkg_packages_0/0a/ce/7801dfbcfb224fae667343e2879afca6fdbd968f88cbcb1f81c88b1c5ecb/projector.zip'
+  source: https://archive.org/download/shockpkg_packages_0/0a/ce/7801dfbcfb224fae667343e2879afca6fdbd968f88cbcb1f81c88b1c5ecb/projector.zip

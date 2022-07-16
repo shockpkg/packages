@@ -4,7 +4,7 @@
   sha256: 17fda7ac8d3e476cad3127f345455ef316acfb87c6f4322e5897bd8d9b09388e
   sha1: dbc9a6143090918e282f013d054de5eba163bdf1
   md5: 0fba6c912c3919ae1b978ca2d053fe07
-  source: 'https://archive.apache.org/dist/flex/4.16.1/binaries/apache-flex-sdk-4.16.1-bin.tar.gz'
+  source: https://archive.apache.org/dist/flex/4.16.1/binaries/apache-flex-sdk-4.16.1-bin.tar.gz
 
 - name: flex-sdk-4.16.1-bin-zip
   file: apache-flex-sdk-4.16.1-bin.zip
@@ -12,7 +12,7 @@
   sha256: 757aa19299c8a9c8af0901c1ae35f97fa94b7af0b0a9abc2bab04fe61d756e8b
   sha1: 930d54a369e6785a2b5868903e1a1fc18b8742fd
   md5: 8841c64bd5e32f8575eba86e2574873a
-  source: 'https://archive.apache.org/dist/flex/4.16.1/binaries/apache-flex-sdk-4.16.1-bin.zip'
+  source: https://archive.apache.org/dist/flex/4.16.1/binaries/apache-flex-sdk-4.16.1-bin.zip
 
 - name: flex-sdk-4.16.1-src-tar-gz
   file: apache-flex-sdk-4.16.1-src.tar.gz
@@ -20,7 +20,7 @@
   sha256: 21718bacbf91ae0b523b1d4903c04c0e7c1b2156fba1f630f10f7c0fa43ddcae
   sha1: 9f4ad69ed769cd40f882ba2d835225372eeb4c0a
   md5: d730288626e2524fde27a19e9eb59b6e
-  source: 'https://archive.apache.org/dist/flex/4.16.1/apache-flex-sdk-4.16.1-src.tar.gz'
+  source: https://archive.apache.org/dist/flex/4.16.1/apache-flex-sdk-4.16.1-src.tar.gz
 
 - name: flex-sdk-4.16.1-src-zip
   file: apache-flex-sdk-4.16.1-src.zip
@@ -28,7 +28,7 @@
   sha256: c7439d8aef88ea1ca6fe72d7bc369d72420808e28c6f3e0f5dec9d6ba3587e74
   sha1: 937a723f7ffd5807b14ed925c1b9fac03eba097d
   md5: 905eb5d6c2304f6d475db5bfdb862629
-  source: 'https://archive.apache.org/dist/flex/4.16.1/apache-flex-sdk-4.16.1-src.zip'
+  source: https://archive.apache.org/dist/flex/4.16.1/apache-flex-sdk-4.16.1-src.zip
 
 - name: flex-sdk-4.16.1-asdocs
   file: apache-flex-sdk-4.16.1-asdocs.zip
@@ -36,4 +36,4 @@
   sha256: b8445b8a502f9064264528a8fda00f7810e23a90e112958dd444554e59b0cf29
   sha1: 44439a90d4fc5c27d9eccc6ceb0bebbb67e0b3dc
   md5: a3510fa8be6b94db18933a3d2e5a8c38
-  source: 'https://archive.apache.org/dist/flex/4.16.1/docs/apache-flex-sdk-4.16.1-asdocs.zip'
+  source: https://archive.apache.org/dist/flex/4.16.1/docs/apache-flex-sdk-4.16.1-asdocs.zip

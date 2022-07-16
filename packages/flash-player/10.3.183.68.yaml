@@ -4,7 +4,7 @@
   sha256: b1a36811ecad3153c09123e9ff039eb91817e17cb13b79c38a9280492afcfae9
   sha1: 4199d005e517d6efa5ccb154b841a9167e8e5395
   md5: 5a4edf437df3a5807ccb8aca34cd62ae
-  source: 'https://archive.org/download/shockpkg_packages_b/b1/a3/6811ecad3153c09123e9ff039eb91817e17cb13b79c38a9280492afcfae9/fp_10.3.183.68_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_b/b1/a3/6811ecad3153c09123e9ff039eb91817e17cb13b79c38a9280492afcfae9/fp_10.3.183.68_archive.zip
   packages:
     - name: flash-player-10.3.183.68-windows-npapi
       file: flashplayer_10_3r183_68_win.exe

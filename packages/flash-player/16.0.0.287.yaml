@@ -4,7 +4,7 @@
   sha256: a96d440358beab28df94289e376f4581e5adfaf64d62e2d197b3d947d9d0dfe8
   sha1: 304167ac3ca66a647fc9a7c2eac8d2862d0d0cb1
   md5: 307d836fc88c4d1e7e21a2b5b76fd637
-  source: 'https://archive.org/download/shockpkg_packages_a/a9/6d/440358beab28df94289e376f4581e5adfaf64d62e2d197b3d947d9d0dfe8/fp_16.0.0.287_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_a/a9/6d/440358beab28df94289e376f4581e5adfaf64d62e2d197b3d947d9d0dfe8/fp_16.0.0.287_archive.zip
   packages:
     - name: flash-player-16.0.0.287-windows-npapi
       file: flashplayer16_0r0_287_win.exe
@@ -148,4 +148,4 @@
   sha256: f4e8f7800abd450158cb24c6d5b40c915413046c26d327b5bcc2a379d51a1a99
   sha1: 289ce9e0bf1cd2d1b76813d772f3dfc4657a324b
   md5: 075347c685f5bf4a3e47481ceeffed14
-  source: 'https://archive.org/download/shockpkg_packages_f/f4/e8/f7800abd450158cb24c6d5b40c915413046c26d327b5bcc2a379d51a1a99/flashplayer16_0r0_287_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_f/f4/e8/f7800abd450158cb24c6d5b40c915413046c26d327b5bcc2a379d51a1a99/flashplayer16_0r0_287_mac_sa_debug.zip

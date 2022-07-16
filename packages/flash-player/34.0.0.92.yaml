@@ -4,7 +4,7 @@
   sha256: 3319a87f23773cea36181069fa0832ac1264a7d49cea9bf7c78da6c650871d47
   sha1: d6dfb283ac4c95d368c27406d1aeed0891f76477
   md5: 622d30ec0ad1f468faca80cbda9c52d9
-  source: 'https://archive.org/download/shockpkg_packages_3/33/19/a87f23773cea36181069fa0832ac1264a7d49cea9bf7c78da6c650871d47/uninstall_flash_player.exe'
+  source: https://archive.org/download/shockpkg_packages_3/33/19/a87f23773cea36181069fa0832ac1264a7d49cea9bf7c78da6c650871d47/uninstall_flash_player.exe
 
 - name: flash-player-34.0.0.92-mac-uninstaller
   file: uninstall_flash_player_osx.dmg
@@ -12,4 +12,4 @@
   sha256: 9514a963580edec3e316c10a5f0cf3f3cbff38d8389b23f83eb2cf4da4617f6d
   sha1: 8a9c49af4e4b03968183816c294a1b08cfaeb33a
   md5: c46067aab37ecb72e7f3095939281a0d
-  source: 'https://archive.org/download/shockpkg_packages_9/95/14/a963580edec3e316c10a5f0cf3f3cbff38d8389b23f83eb2cf4da4617f6d/uninstall_flash_player_osx.dmg'
+  source: https://archive.org/download/shockpkg_packages_9/95/14/a963580edec3e316c10a5f0cf3f3cbff38d8389b23f83eb2cf4da4617f6d/uninstall_flash_player_osx.dmg

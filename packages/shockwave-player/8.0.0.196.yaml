@@ -4,7 +4,7 @@
   sha256: 2ff38c44f01df0cdcb5cc67159bddabec7e7ac62baed603b3e0f0f07caff808a
   sha1: 4a66d4339d4c06607a184c062df92955d054aa99
   md5: e1e5de9c8d47a013edefc3db52398542
-  source: 'https://archive.org/download/shockpkg_packages_2/2f/f3/8c44f01df0cdcb5cc67159bddabec7e7ac62baed603b3e0f0f07caff808a/shockwaveinstaller.hqx'
+  source: https://archive.org/download/shockpkg_packages_2/2f/f3/8c44f01df0cdcb5cc67159bddabec7e7ac62baed603b3e0f0f07caff808a/shockwaveinstaller.hqx
 
 - name: shockwave-player-8.0.0.196-windows-shim
   file: shockwaveinstaller.exe
@@ -12,4 +12,4 @@
   sha256: f4c2daaecbcd3b4cd9655ba972a044d8470239b9ade2872b36f19408c03cc12f
   sha1: 8d411ae1b6ac380e74066e9d3671d157a2845348
   md5: 8ac85c0018bff8a89c3f4b55465408b1
-  source: 'https://archive.org/download/shockpkg_packages_f/f4/c2/daaecbcd3b4cd9655ba972a044d8470239b9ade2872b36f19408c03cc12f/shockwaveinstaller.exe'
+  source: https://archive.org/download/shockpkg_packages_f/f4/c2/daaecbcd3b4cd9655ba972a044d8470239b9ade2872b36f19408c03cc12f/shockwaveinstaller.exe

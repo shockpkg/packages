@@ -4,7 +4,7 @@
   sha256: 0e66123e07d7ada2e44f2ff5a9a077ea267062dbbc8a82303adf92e33f229f2e
   sha1: 4c696abeadaf46c92bf36090c2365fc3f7188c82
   md5: 6653c99a15acd8fbfef8a164b716374d
-  source: 'https://archive.org/download/shockpkg_packages_0/0e/66/123e07d7ada2e44f2ff5a9a077ea267062dbbc8a82303adf92e33f229f2e/fp_18.0.0.232_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_0/0e/66/123e07d7ada2e44f2ff5a9a077ea267062dbbc8a82303adf92e33f229f2e/fp_18.0.0.232_archive.zip
   packages:
     - name: flash-player-18.0.0.232-windows-npapi
       file: flashplayer18_0r0_232_win.exe
@@ -116,4 +116,4 @@
   sha256: 2f5a85c95d17c0425a03983d67129ac0acc0b0943381e15211c84becefaad668
   sha1: af5ee7947558a595a45aac2dab0a2f1ff3c2fe64
   md5: cd2bc1eabafc5fe5d245abb36c799bde
-  source: 'https://archive.org/download/shockpkg_packages_2/2f/5a/85c95d17c0425a03983d67129ac0acc0b0943381e15211c84becefaad668/flashplayer18_0r0_232_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_2/2f/5a/85c95d17c0425a03983d67129ac0acc0b0943381e15211c84becefaad668/flashplayer18_0r0_232_mac_sa_debug.zip

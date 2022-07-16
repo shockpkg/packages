@@ -4,7 +4,7 @@
   sha256: d44c97d8f5229afa6c43f1b712149ec767bddbdadca084263304c8a8fb1a92ac
   sha1: a13ee357cdeb69c994402f5a6e9fb8a9aeec3669
   md5: 5988d69c4828219d5c281afab2b78c41
-  source: 'https://archive.org/download/shockpkg_packages_d/d4/4c/97d8f5229afa6c43f1b712149ec767bddbdadca084263304c8a8fb1a92ac/shockwaveinstaller.hqx'
+  source: https://archive.org/download/shockpkg_packages_d/d4/4c/97d8f5229afa6c43f1b712149ec767bddbdadca084263304c8a8fb1a92ac/shockwaveinstaller.hqx
 
 - name: shockwave-player-8.0.0.204-windows-activex
   file: swdir.cab
@@ -12,7 +12,7 @@
   sha256: ac4d8a0e55a3d75db315041513110deea943d657e819255f82dd8b7d7e1dfad4
   sha1: a2a6c9e15e37c850a1acb77d8ccb977eb2c7eb90
   md5: 07a16b9e7d942e9a658a98e5b4d51be0
-  source: 'https://archive.org/download/shockpkg_packages_a/ac/4d/8a0e55a3d75db315041513110deea943d657e819255f82dd8b7d7e1dfad4/swdir.cab'
+  source: https://archive.org/download/shockpkg_packages_a/ac/4d/8a0e55a3d75db315041513110deea943d657e819255f82dd8b7d7e1dfad4/swdir.cab
 
 - name: shockwave-player-8.0.0.204-windows-full
   file: Shockwave_Installer_Full.exe
@@ -20,7 +20,7 @@
   sha256: 426e6027ab7279de7c29cde808410534b51feaf1a5205a69b0654077411ad816
   sha1: 486225151a3bcd964e4406ec375c75195f3ea611
   md5: 8e17f74452493d47725c0b6194411449
-  source: 'https://archive.org/download/shockpkg_packages_4/42/6e/6027ab7279de7c29cde808410534b51feaf1a5205a69b0654077411ad816/Shockwave_Installer_Full.exe'
+  source: https://archive.org/download/shockpkg_packages_4/42/6e/6027ab7279de7c29cde808410534b51feaf1a5205a69b0654077411ad816/Shockwave_Installer_Full.exe
 
 - name: shockwave-player-8.0.0.204-windows-shim
   file: shockwaveinstaller.exe
@@ -28,4 +28,4 @@
   sha256: 3675fc78df8a15a55aa604cb85aaf4198bfc6a6582d94d47f7340ca6a831a3de
   sha1: b58282924283fe4b76632f8428f75d1a6a2b5e18
   md5: 1cbf6d8bc2bbb352e9df333333656b4a
-  source: 'https://archive.org/download/shockpkg_packages_3/36/75/fc78df8a15a55aa604cb85aaf4198bfc6a6582d94d47f7340ca6a831a3de/shockwaveinstaller.exe'
+  source: https://archive.org/download/shockpkg_packages_3/36/75/fc78df8a15a55aa604cb85aaf4198bfc6a6582d94d47f7340ca6a831a3de/shockwaveinstaller.exe

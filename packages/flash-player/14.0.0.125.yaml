@@ -4,7 +4,7 @@
   sha256: b5ae5c5f59c75b09b3c45d58ee69d7d86b1d79f6a1bd7a25efe9a9c9f5b7673b
   sha1: 535c915a2c705cf5b4ceb57fb370af98fe52e55b
   md5: de5b89f74c0ecbbe0fd55de89f031dd0
-  source: 'https://archive.org/download/shockpkg_packages_b/b5/ae/5c5f59c75b09b3c45d58ee69d7d86b1d79f6a1bd7a25efe9a9c9f5b7673b/fp_14.0.0.125_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_b/b5/ae/5c5f59c75b09b3c45d58ee69d7d86b1d79f6a1bd7a25efe9a9c9f5b7673b/fp_14.0.0.125_archive.zip
   packages:
     - name: flash-player-14.0.0.125-windows-npapi
       file: flashplayer14_0r0_125_win.exe
@@ -108,7 +108,7 @@
   sha256: fa5eef90162516da0ba4de071abdff202f6bb5281d5a39b62169cad60d214a90
   sha1: e965cb5630f20989dca96fd68a02b4c6e31f4c2c
   md5: 399684e477f20477f911fb35473342e5
-  source: 'https://archive.org/download/shockpkg_packages_f/fa/5e/ef90162516da0ba4de071abdff202f6bb5281d5a39b62169cad60d214a90/flashplayer_14_sa.dmg'
+  source: https://archive.org/download/shockpkg_packages_f/fa/5e/ef90162516da0ba4de071abdff202f6bb5281d5a39b62169cad60d214a90/flashplayer_14_sa.dmg
 
 - name: flash-player-14.0.0.125-mac-sa-zip
   file: flashplayer_14_sa.zip
@@ -116,7 +116,7 @@
   sha256: 562493079726b88257165be4b586d2f15c55d6f4c39f8c44d32d543cc928e59d
   sha1: 0e2d97e02be811d415d5a5b1a1f0c1aea9d7c16b
   md5: 5d71a55a48af9496992cbbd3508ed3a8
-  source: 'https://archive.org/download/shockpkg_packages_5/56/24/93079726b88257165be4b586d2f15c55d6f4c39f8c44d32d543cc928e59d/flashplayer_14_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_5/56/24/93079726b88257165be4b586d2f15c55d6f4c39f8c44d32d543cc928e59d/flashplayer_14_sa.zip
 
 - name: flash-player-14.0.0.125-mac-sa-debug-zip
   file: flashplayer14_0r0_125_mac_sa_debug.zip
@@ -124,4 +124,4 @@
   sha256: b9e1568c3cdbbee2c31ab1b911372fb94bc72c290479ca3b242a2beddb55d56e
   sha1: 9775c8c07909fb92de1cec23357bc9d3d2d4715d
   md5: 705ebe09d87f7d4a9a37687134651700
-  source: 'https://archive.org/download/shockpkg_packages_b/b9/e1/568c3cdbbee2c31ab1b911372fb94bc72c290479ca3b242a2beddb55d56e/flashplayer14_0r0_125_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_b/b9/e1/568c3cdbbee2c31ab1b911372fb94bc72c290479ca3b242a2beddb55d56e/flashplayer14_0r0_125_mac_sa_debug.zip

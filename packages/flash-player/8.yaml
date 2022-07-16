@@ -4,7 +4,7 @@
   sha256: 035433293173d7530e6f04c7a33d8e1636775062578ad126a9c3dad18532f9ea
   sha1: 088e55fd0df7d9964bc33313a83f80c2439877c4
   md5: 82888faa09b7d15b9bcadf3b32e01a0c
-  source: 'https://archive.org/download/shockpkg_packages_0/03/54/33293173d7530e6f04c7a33d8e1636775062578ad126a9c3dad18532f9ea/fp8_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_0/03/54/33293173d7530e6f04c7a33d8e1636775062578ad126a9c3dad18532f9ea/fp8_archive.zip
   packages:
     - name: flash-player-8.0.22.0-windows-npapi
       file: flashplayer8r22_win.exe
@@ -180,7 +180,7 @@
   sha256: 01406e4bd21e5f87306b318a8df4f085e3c4f4922d7be55b315b8a28f7c02d06
   sha1: 5ad545a2b1d6c7d207f2b7c6f9ad13ee54680bab
   md5: b30437c37bc02008c1800ba31e925aab
-  source: 'https://archive.org/download/shockpkg_packages_0/01/40/6e4bd21e5f87306b318a8df4f085e3c4f4922d7be55b315b8a28f7c02d06/flash_pro_8_players.zip'
+  source: https://archive.org/download/shockpkg_packages_0/01/40/6e4bd21e5f87306b318a8df4f085e3c4f4922d7be55b315b8a28f7c02d06/flash_pro_8_players.zip
   packages:
     - name: flash-player-8.0.22.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
@@ -260,7 +260,7 @@
   sha256: 1360bda419ddacef37a1359d48c0061ac3e3e21f3451a70830f80520358758c3
   sha1: 31f5a7a4fcc40c57343d7e64b1a6d26d13c27a1d
   md5: 2b8840775f1be029e06f5875dc9e6b1a
-  source: 'https://archive.org/download/shockpkg_packages_1/13/60/bda419ddacef37a1359d48c0061ac3e3e21f3451a70830f80520358758c3/flash_pro_8-u2_players.zip'
+  source: https://archive.org/download/shockpkg_packages_1/13/60/bda419ddacef37a1359d48c0061ac3e3e21f3451a70830f80520358758c3/flash_pro_8-u2_players.zip
   packages:
     - name: flash-player-8.0.33.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
@@ -340,7 +340,7 @@
   sha256: eb129e52bf37bf6f6e251a13734a2c27c959529399a7a089e4769e0bc42a520e
   sha1: e29d13d520dadb360db16a87b05604e365b02282
   md5: e760af10672cd7aa3018af433a757ce1
-  source: 'https://archive.org/download/shockpkg_packages_e/eb/12/9e52bf37bf6f6e251a13734a2c27c959529399a7a089e4769e0bc42a520e/flash_pro_8-u3_players.zip'
+  source: https://archive.org/download/shockpkg_packages_e/eb/12/9e52bf37bf6f6e251a13734a2c27c959529399a7a089e4769e0bc42a520e/flash_pro_8-u3_players.zip
   packages:
     - name: flash-player-8.0.34.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
@@ -420,7 +420,7 @@
   sha256: 0e8f5162fc9289e1878a3ca86064970f8890debebb7a4a561e0440378d7c96fe
   sha1: 1dd4f26e904395524159766bdf669ba6421f8868
   md5: f988f0425f825a6ae661c48927380f07
-  source: 'https://archive.org/download/shockpkg_packages_0/0e/8f/5162fc9289e1878a3ca86064970f8890debebb7a4a561e0440378d7c96fe/flash_pro_8-u5_players.zip'
+  source: https://archive.org/download/shockpkg_packages_0/0e/8f/5162fc9289e1878a3ca86064970f8890debebb7a4a561e0440378d7c96fe/flash_pro_8-u5_players.zip
   packages:
     - name: flash-player-8.0.39.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
@@ -500,7 +500,7 @@
   sha256: 8571fef81e9d3603a522af2e847b8ee5049817275634a9dd5ff14958b97a1fb8
   sha1: dc7791d3d996699fbf6a4cc7b6690d3994333f43
   md5: a2e291f1c0bead21da6f8da061ffa3d1
-  source: 'https://archive.org/download/shockpkg_packages_8/85/71/fef81e9d3603a522af2e847b8ee5049817275634a9dd5ff14958b97a1fb8/flash_pro_8-u6_players.zip'
+  source: https://archive.org/download/shockpkg_packages_8/85/71/fef81e9d3603a522af2e847b8ee5049817275634a9dd5ff14958b97a1fb8/flash_pro_8-u6_players.zip
   packages:
     - name: flash-player-8.0.42.0-windows-nsapi-msi
       file: Install Flash Player 8 Plugin.msi
@@ -580,4 +580,4 @@
   sha256: 721db339a09c90058aec3e7f6f366587a812cd5fc847c0a247057fb95123e6e0
   sha1: 0eaa6ee37a083183d25f2a4aa4095399bd80ef42
   md5: 116475405b513f1e6b86c170ab13f564
-  source: 'https://archive.org/download/shockpkg_packages_7/72/1d/b339a09c90058aec3e7f6f366587a812cd5fc847c0a247057fb95123e6e0/sa_flashplayer_8_all_release.dmg'
+  source: https://archive.org/download/shockpkg_packages_7/72/1d/b339a09c90058aec3e7f6f366587a812cd5fc847c0a247057fb95123e6e0/sa_flashplayer_8_all_release.dmg

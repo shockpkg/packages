@@ -4,7 +4,7 @@
   sha256: b591834e01af016111ba60e65207c506fe86f1652e8dfab881b9018e1a0aa4ee
   sha1: d4d611478d48bfe3ab593fa297192cd436a71505
   md5: bd3639cc24e5c97d7128e23ad103141f
-  source: 'https://archive.org/download/shockpkg_packages_b/b5/91/834e01af016111ba60e65207c506fe86f1652e8dfab881b9018e1a0aa4ee/fp_13.0.0.296_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_b/b5/91/834e01af016111ba60e65207c506fe86f1652e8dfab881b9018e1a0aa4ee/fp_13.0.0.296_archive.zip
   packages:
     - name: flash-player-13.0.0.296-windows-npapi
       file: flashplayer13_0r0_296_win.exe
@@ -116,7 +116,7 @@
   sha256: dff15b47735e0a87e3671f2f077ecb3501fbbacafb863e1823fea1a749904838
   sha1: 02858e35d10f5d4a0e7825f4c994a74f69211478
   md5: 53f1a80478e57a3db2a185834e42425a
-  source: 'https://archive.org/download/shockpkg_packages_d/df/f1/5b47735e0a87e3671f2f077ecb3501fbbacafb863e1823fea1a749904838/flashplayer_13_sa.exe'
+  source: https://archive.org/download/shockpkg_packages_d/df/f1/5b47735e0a87e3671f2f077ecb3501fbbacafb863e1823fea1a749904838/flashplayer_13_sa.exe
 
 - name: flash-player-13.0.0.296-mac-sa
   file: flashplayer_13_sa.dmg
@@ -124,7 +124,7 @@
   sha256: 98a6868a78f2da9994918629fa13af97d60e8b2b2eec77d475529222c049f918
   sha1: da1a5bc77ff7634b5fb26589753e756feb057207
   md5: 40581f7b6f4533a87a22dc87d92d3392
-  source: 'https://archive.org/download/shockpkg_packages_9/98/a6/868a78f2da9994918629fa13af97d60e8b2b2eec77d475529222c049f918/flashplayer_13_sa.dmg'
+  source: https://archive.org/download/shockpkg_packages_9/98/a6/868a78f2da9994918629fa13af97d60e8b2b2eec77d475529222c049f918/flashplayer_13_sa.dmg
 
 - name: flash-player-13.0.0.296-mac-sa-zip
   file: flashplayer_13_sa.zip
@@ -132,7 +132,7 @@
   sha256: e68f858d95da70b46bf71e279169afe13d100b81476a0047aa3514a08804d239
   sha1: 3ed871956f6e5eea7893dd4a834504c1c1de6b4b
   md5: 7827273eecfc4f9e3c75f8285f2d2881
-  source: 'https://archive.org/download/shockpkg_packages_e/e6/8f/858d95da70b46bf71e279169afe13d100b81476a0047aa3514a08804d239/flashplayer_13_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_e/e6/8f/858d95da70b46bf71e279169afe13d100b81476a0047aa3514a08804d239/flashplayer_13_sa.zip
 
 - name: flash-player-13.0.0.296-mac-sa-debug-zip
   file: flashplayer13_0r0_296_mac_sa_debug.zip
@@ -140,4 +140,4 @@
   sha256: 8da0703e496ff4bd8fae6fe30041e24fdf6e552b79aba47724b27efec6b365a8
   sha1: c4674df347b27be0b655ae9d392f81aebd41e66e
   md5: 74487deb5ad683ed5a3e2bbf900c8778
-  source: 'https://archive.org/download/shockpkg_packages_8/8d/a0/703e496ff4bd8fae6fe30041e24fdf6e552b79aba47724b27efec6b365a8/flashplayer13_0r0_296_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_8/8d/a0/703e496ff4bd8fae6fe30041e24fdf6e552b79aba47724b27efec6b365a8/flashplayer13_0r0_296_mac_sa_debug.zip

@@ -4,7 +4,7 @@
   sha256: a2ca4549687968abf2868eb823dddf0bc44ffc3a901fba435128e8a78910deb8
   sha1: 279006fe248dd9730b5c300b4c5565fd20b277a6
   md5: b56004226d9389f96009658b7f8f1b12
-  source: 'https://archive.org/download/shockpkg_packages_a/a2/ca/4549687968abf2868eb823dddf0bc44ffc3a901fba435128e8a78910deb8/fp_11.7.700.169_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_a/a2/ca/4549687968abf2868eb823dddf0bc44ffc3a901fba435128e8a78910deb8/fp_11.7.700.169_archive.zip
   packages:
     - name: flash-player-11.7.700.169-windows-npapi
       file: flashplayer11_7r700_169_win.exe
@@ -108,7 +108,7 @@
   sha256: 64ee62840b1a924eecf7a24051da6a02e9bd7926bbf52a06e6b14566daca966d
   sha1: bb5b6e7477e144343d916ea50d143b5abf62331c
   md5: df221360806aa449a7e894abd8876512
-  source: 'https://archive.org/download/shockpkg_packages_6/64/ee/62840b1a924eecf7a24051da6a02e9bd7926bbf52a06e6b14566daca966d/flashplayer_11_sa.exe'
+  source: https://archive.org/download/shockpkg_packages_6/64/ee/62840b1a924eecf7a24051da6a02e9bd7926bbf52a06e6b14566daca966d/flashplayer_11_sa.exe
 
 - name: flash-player-11.7.700.169-mac-sa
   file: flashplayer_11_sa.app.zip
@@ -116,4 +116,4 @@
   sha256: 76d7f8394075ec822b8e33eb5e3369ec2c21ceb729e7d910127bb4a7e364e1e3
   sha1: f59152fee228f7515c5e4bc82ecb6e0053fc9dcd
   md5: bf45aa1e3bdf45277eae2f3dd4a7f8b3
-  source: 'https://archive.org/download/shockpkg_packages_7/76/d7/f8394075ec822b8e33eb5e3369ec2c21ceb729e7d910127bb4a7e364e1e3/flashplayer_11_sa.app.zip'
+  source: https://archive.org/download/shockpkg_packages_7/76/d7/f8394075ec822b8e33eb5e3369ec2c21ceb729e7d910127bb4a7e364e1e3/flashplayer_11_sa.app.zip

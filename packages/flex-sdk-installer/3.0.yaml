@@ -4,7 +4,7 @@
   sha256: 7a912e4a91a7d971061f5fe311a7b20beab19a3fda22173feb7bd132c60ad49f
   sha1: b664a1406e0c18b7427125cc84902efc2aa69164
   md5: 216f061c8d3afb70e81836a49a929225
-  source: 'https://archive.apache.org/dist/flex/installer/3.0/binaries/apache-flex-sdk-installer-3.0.0-bin.exe'
+  source: https://archive.apache.org/dist/flex/installer/3.0/binaries/apache-flex-sdk-installer-3.0.0-bin.exe
 
 - name: flex-sdk-installer-3.0-bin-mac
   file: apache-flex-sdk-installer-3.0.0-bin.dmg
@@ -12,7 +12,7 @@
   sha256: 43eb1816b5e65218d8db4a7b22c1d62587084e924834818e30c919caa85d0e89
   sha1: 0a6726e1862362a57959cb2e1d50cc4a7fc647a7
   md5: 2de4e2814a922baf2c959ba90299bd9d
-  source: 'https://archive.apache.org/dist/flex/installer/3.0/binaries/apache-flex-sdk-installer-3.0.0-bin.dmg'
+  source: https://archive.apache.org/dist/flex/installer/3.0/binaries/apache-flex-sdk-installer-3.0.0-bin.dmg
 
 - name: flex-sdk-installer-3.0-src-tar-gz
   file: apache-flex-sdk-installer-3.0.0-src.tar.gz
@@ -20,7 +20,7 @@
   sha256: 1514e390c89e4f56bbdd34d94db36fc07910b207ae43044ec564edc9bd0eda9e
   sha1: 1fe86ed2ae6d159b350b330b534c608c18e7e49e
   md5: 081774b384efd5339430479f20cce654
-  source: 'https://archive.apache.org/dist/flex/installer/3.0/apache-flex-sdk-installer-3.0.0-src.tar.gz'
+  source: https://archive.apache.org/dist/flex/installer/3.0/apache-flex-sdk-installer-3.0.0-src.tar.gz
 
 - name: flex-sdk-installer-3.0-src-zip
   file: apache-flex-sdk-installer-3.0.0-src.zip
@@ -28,4 +28,4 @@
   sha256: c7546cc03f39c9fe6a23c335cead2ae7b54272029f4c2a9ae5d496cf67434f42
   sha1: c2194708d173bc73daf9a5555cb5922e59c4c4ce
   md5: 0e89b662cdcd0cc5a59009fbba81c34f
-  source: 'https://archive.apache.org/dist/flex/installer/3.0/apache-flex-sdk-installer-3.0.0-src.zip'
+  source: https://archive.apache.org/dist/flex/installer/3.0/apache-flex-sdk-installer-3.0.0-src.zip

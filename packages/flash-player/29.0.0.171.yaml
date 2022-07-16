@@ -4,7 +4,7 @@
   sha256: d4b6f9a5e42cc9f2c7cbd1fd72059d4c1bead91b076afa2ca042d28f0fd7bedb
   sha1: 27bd6007a6bda3ac77e10a0084b3e86be7c05ac9
   md5: d362f26941dd6bdf0fb38454657dbaad
-  source: 'https://archive.org/download/shockpkg_packages_d/d4/b6/f9a5e42cc9f2c7cbd1fd72059d4c1bead91b076afa2ca042d28f0fd7bedb/fp_29.0.0.171_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_d/d4/b6/f9a5e42cc9f2c7cbd1fd72059d4c1bead91b076afa2ca042d28f0fd7bedb/fp_29.0.0.171_archive.zip
   packages:
     - name: flash-player-29.0.0.171-windows-npapi
       file: flashplayer29_0r0_171_win.exe
@@ -252,7 +252,7 @@
   sha256: ca5aad41a53102b4226485c19b7dede8334b5751c7d0cf67ab536fe571a765c5
   sha1: 9c6d5e987ab57fbff1ea22b60cfa376c21200765
   md5: 99c25118be3c5b6d0f7bc30663a44fcf
-  source: 'https://archive.org/download/shockpkg_packages_c/ca/5a/ad41a53102b4226485c19b7dede8334b5751c7d0cf67ab536fe571a765c5/flashplayer29_0r0_171_mac_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_c/ca/5a/ad41a53102b4226485c19b7dede8334b5751c7d0cf67ab536fe571a765c5/flashplayer29_0r0_171_mac_sa.zip
 
 - name: flash-player-29.0.0.171-mac-sa-debug-zip
   file: flashplayer29_0r0_171_mac_sa_debug.zip
@@ -260,4 +260,4 @@
   sha256: 924c8d0186267980a90f1df3d8a552350b5d837250a3ec293da1863c961ba61a
   sha1: 674fd8747c87791978e3f7559b54c3525ad66f05
   md5: c9e5047450f87a090e5e4c26677e6eab
-  source: 'https://archive.org/download/shockpkg_packages_9/92/4c/8d0186267980a90f1df3d8a552350b5d837250a3ec293da1863c961ba61a/flashplayer29_0r0_171_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_9/92/4c/8d0186267980a90f1df3d8a552350b5d837250a3ec293da1863c961ba61a/flashplayer29_0r0_171_mac_sa_debug.zip

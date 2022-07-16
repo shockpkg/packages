@@ -4,7 +4,7 @@
   sha256: 7a18867ea0d5fbf6d1dcde6ad65d3d7ef572e3f5a7bcb24a059eb5d49db1b01e
   sha1: 211fc89c6695e10d848b8f8f94636f09a8ec6c56
   md5: fb9a96d20661f1daf184c45b8848e5b7
-  source: 'https://archive.org/download/shockpkg_packages_7/7a/18/867ea0d5fbf6d1dcde6ad65d3d7ef572e3f5a7bcb24a059eb5d49db1b01e/AdobeAIRSDK.zip'
+  source: https://archive.org/download/shockpkg_packages_7/7a/18/867ea0d5fbf6d1dcde6ad65d3d7ef572e3f5a7bcb24a059eb5d49db1b01e/AdobeAIRSDK.zip
 
 - name: air-sdk-27.0.0.132-windows-compiler
   file: AIRSDK_Compiler.zip
@@ -12,4 +12,4 @@
   sha256: c7c2db93e98c2cb1df28b3bf6c6fe2bd187232f8d7ee370b7201a6efefd20fe0
   sha1: d5b156a292fe8a98d4af1fc5a4c5cbe768019998
   md5: af64dee7320f8403d4b5d82f38dbfa10
-  source: 'https://archive.org/download/shockpkg_packages_c/c7/c2/db93e98c2cb1df28b3bf6c6fe2bd187232f8d7ee370b7201a6efefd20fe0/AIRSDK_Compiler.zip'
+  source: https://archive.org/download/shockpkg_packages_c/c7/c2/db93e98c2cb1df28b3bf6c6fe2bd187232f8d7ee370b7201a6efefd20fe0/AIRSDK_Compiler.zip

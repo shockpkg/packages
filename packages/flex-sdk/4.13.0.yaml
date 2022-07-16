@@ -4,7 +4,7 @@
   sha256: e24701c1cac6b6c1cf442ee5f8597a77c2bd362fb0060f55aded72f8476511b2
   sha1: d1dbe36fc48b7a800ca2fa9733bc547ab08cee93
   md5: b3e96b24967662da9e47aeb5518f81c1
-  source: 'https://archive.apache.org/dist/flex/4.13.0/binaries/apache-flex-sdk-4.13.0-bin.tar.gz'
+  source: https://archive.apache.org/dist/flex/4.13.0/binaries/apache-flex-sdk-4.13.0-bin.tar.gz
 
 - name: flex-sdk-4.13.0-bin-zip
   file: apache-flex-sdk-4.13.0-bin.zip
@@ -12,7 +12,7 @@
   sha256: 7388a178b39f20e7a289e70955be0fc2769b62bd3d43487e8c0ee3b9fc2a83bd
   sha1: a946ba83772b63fa1f55f50ec2174b94e7852e89
   md5: dbb7eb7747224e96a17d4ce7556004f9
-  source: 'https://archive.apache.org/dist/flex/4.13.0/binaries/apache-flex-sdk-4.13.0-bin.zip'
+  source: https://archive.apache.org/dist/flex/4.13.0/binaries/apache-flex-sdk-4.13.0-bin.zip
 
 - name: flex-sdk-4.13.0-src-tar-gz
   file: apache-flex-sdk-4.13.0-src.tar.gz
@@ -20,7 +20,7 @@
   sha256: 68fb105f080d5d0edf864d30ca3d0537cabd99fa9f42447cee3ea9859ede2b4b
   sha1: 9d20de825fb5071f2fcbdd0ff8860018842aba1e
   md5: eb569725b72e185acdd644bd9ebb04b0
-  source: 'https://archive.apache.org/dist/flex/4.13.0/apache-flex-sdk-4.13.0-src.tar.gz'
+  source: https://archive.apache.org/dist/flex/4.13.0/apache-flex-sdk-4.13.0-src.tar.gz
 
 - name: flex-sdk-4.13.0-src-zip
   file: apache-flex-sdk-4.13.0-src.zip
@@ -28,7 +28,7 @@
   sha256: 632de2827498670f56ef5f865b561f83af03390c05e8ca3f9a515b7d92c30a5b
   sha1: c1002ab039d7081a4197c17036e942c4edf58e89
   md5: bd7e06f86220ca3f97528f7182a39d97
-  source: 'https://archive.apache.org/dist/flex/4.13.0/apache-flex-sdk-4.13.0-src.zip'
+  source: https://archive.apache.org/dist/flex/4.13.0/apache-flex-sdk-4.13.0-src.zip
 
 - name: flex-sdk-4.13.0-asdocs
   file: apache-flex-sdk-4.13.0-asdocs.zip
@@ -36,4 +36,4 @@
   sha256: 60a0b4a7ea764e01cf717da5444d826d11092be62233b89692085aac56b53dc2
   sha1: d5fcd9ca62665d5161e776f6090cb2678b30d08e
   md5: fb77ec33bd3a6dcd76a97f4fdb6899cf
-  source: 'https://archive.apache.org/dist/flex/4.13.0/doc/apache-flex-sdk-4.13.0-asdocs.zip'
+  source: https://archive.apache.org/dist/flex/4.13.0/doc/apache-flex-sdk-4.13.0-asdocs.zip

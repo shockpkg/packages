@@ -4,7 +4,7 @@
   sha256: 0eed1dae98e1349a9c9bd2ecd49a8d160f9a98c849104ce9c5709cda5291be9f
   sha1: 3d21cb0854a87a6411c22f327da82339c0a08ebb
   md5: 9f0b02651e210ea842b72c46b2c32355
-  source: 'https://archive.org/download/shockpkg_packages_0/0e/ed/1dae98e1349a9c9bd2ecd49a8d160f9a98c849104ce9c5709cda5291be9f/AdobeAIRInstaller.exe'
+  source: https://archive.org/download/shockpkg_packages_0/0e/ed/1dae98e1349a9c9bd2ecd49a8d160f9a98c849104ce9c5709cda5291be9f/AdobeAIRInstaller.exe
 
 - name: air-runtime-3.3.0.3650-mac
   file: AdobeAIRInstaller.dmg
@@ -12,4 +12,4 @@
   sha256: e72df81d6a3a0b9a51192510e45deedddcb1ce5898956e8fb225c992a7d31d24
   sha1: 935c37fa2554490fe5c12799d931ed89ede2f1de
   md5: c4e5981ba4058b5fbbae7d4e51a9996b
-  source: 'https://archive.org/download/shockpkg_packages_e/e7/2d/f81d6a3a0b9a51192510e45deedddcb1ce5898956e8fb225c992a7d31d24/AdobeAIRInstaller.dmg'
+  source: https://archive.org/download/shockpkg_packages_e/e7/2d/f81d6a3a0b9a51192510e45deedddcb1ce5898956e8fb225c992a7d31d24/AdobeAIRInstaller.dmg

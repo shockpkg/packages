@@ -4,7 +4,7 @@
   sha256: 438a0d7f0880b5553d2401a22a3a3cf66a72067b6429b6bf3ccf4e0a9c41159b
   sha1: 8ed7674f4adc920d3e178d4184da9eb5c92e816c
   md5: 043dde812ca5c3afc109972108ad084b
-  source: 'https://archive.org/download/shockpkg_packages_4/43/8a/0d7f0880b5553d2401a22a3a3cf66a72067b6429b6bf3ccf4e0a9c41159b/playerglobal20_0.swc'
+  source: https://archive.org/download/shockpkg_packages_4/43/8a/0d7f0880b5553d2401a22a3a3cf66a72067b6429b6bf3ccf4e0a9c41159b/playerglobal20_0.swc
 
 - name: flash-playerglobal-20.0
   file: playerglobal20_0.swc
@@ -12,4 +12,4 @@
   sha256: f6a0af0b66edd3d2719931d55c09cf007e1004a3d4173c7783b0dacec33f16d8
   sha1: d14bb6191cfe4331f036abeccf476c565d9d1106
   md5: 444ea8e8f2cddec22ed8b77e0d61bfe2
-  source: 'https://archive.org/download/shockpkg_packages_f/f6/a0/af0b66edd3d2719931d55c09cf007e1004a3d4173c7783b0dacec33f16d8/playerglobal20_0.swc'
+  source: https://archive.org/download/shockpkg_packages_f/f6/a0/af0b66edd3d2719931d55c09cf007e1004a3d4173c7783b0dacec33f16d8/playerglobal20_0.swc

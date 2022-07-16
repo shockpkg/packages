@@ -4,7 +4,7 @@
   sha256: 61d2d2b7f9f0d9bb6d5ae3d5d48a2836b6f14267395c4a782fa3bf9999115612
   sha1: f6bee0e6a7b0e1883fb630740cc7193ac6e94476
   md5: 5da08560661c485ee264284d8158bf88
-  source: 'https://archive.org/download/shockpkg_packages_6/61/d2/d2b7f9f0d9bb6d5ae3d5d48a2836b6f14267395c4a782fa3bf9999115612/playerglobal26_0.swc'
+  source: https://archive.org/download/shockpkg_packages_6/61/d2/d2b7f9f0d9bb6d5ae3d5d48a2836b6f14267395c4a782fa3bf9999115612/playerglobal26_0.swc
 
 - name: flash-playerglobal-26.0
   file: playerglobal26_0.swc
@@ -12,4 +12,4 @@
   sha256: 0e450154692d044b1758064825e072476421560c43f6a026b12df4cfda82e295
   sha1: 1e0633cc1ba513e8063c77382eef521522b32090
   md5: 0279becfdd47bd99b25d48d9303b8fc8
-  source: 'https://archive.org/download/shockpkg_packages_0/0e/45/0154692d044b1758064825e072476421560c43f6a026b12df4cfda82e295/playerglobal26_0.swc'
+  source: https://archive.org/download/shockpkg_packages_0/0e/45/0154692d044b1758064825e072476421560c43f6a026b12df4cfda82e295/playerglobal26_0.swc

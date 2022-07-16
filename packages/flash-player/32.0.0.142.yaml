@@ -4,7 +4,7 @@
   sha256: ea4bce94c49a0b95d6449a021a7482d50d4d37930d5fc0aa1e4e661fb07aec73
   sha1: f8990791ced60db120bf0764c30f1a17d9b1c246
   md5: 4f74416335ef9fb4fb6512d7fcfeea0e
-  source: 'https://archive.org/download/shockpkg_packages_e/ea/4b/ce94c49a0b95d6449a021a7482d50d4d37930d5fc0aa1e4e661fb07aec73/install_flash_player_ax.exe'
+  source: https://archive.org/download/shockpkg_packages_e/ea/4b/ce94c49a0b95d6449a021a7482d50d4d37930d5fc0aa1e4e661fb07aec73/install_flash_player_ax.exe
 
 - name: flash-player-32.0.0.142-windows-npapi-2019-01-28
   file: install_flash_player.exe
@@ -12,7 +12,7 @@
   sha256: 7123c3fb2ed43764dc64ec471ca72ee6225a5006667319f8142ab5e447da7b50
   sha1: 6b6382b28decc60b2f0c07d4c9142633829d877d
   md5: a66832d6b2c5417bf6c98c7758f072e0
-  source: 'https://archive.org/download/shockpkg_packages_7/71/23/c3fb2ed43764dc64ec471ca72ee6225a5006667319f8142ab5e447da7b50/install_flash_player.exe'
+  source: https://archive.org/download/shockpkg_packages_7/71/23/c3fb2ed43764dc64ec471ca72ee6225a5006667319f8142ab5e447da7b50/install_flash_player.exe
 
 - name: flash-player-32.0.0.142-windows-ppapi-2019-01-28
   file: install_flash_player_ppapi.exe
@@ -20,7 +20,7 @@
   sha256: 22953fa90763b35d6b67d9797ffce12400295ee35be829c3ae9a82c879244607
   sha1: 0b606c0c7e449d69d8366f4189fa70fac78eec48
   md5: 92cdab30a08abab3c8616eb1482c2212
-  source: 'https://archive.org/download/shockpkg_packages_2/22/95/3fa90763b35d6b67d9797ffce12400295ee35be829c3ae9a82c879244607/install_flash_player_ppapi.exe'
+  source: https://archive.org/download/shockpkg_packages_2/22/95/3fa90763b35d6b67d9797ffce12400295ee35be829c3ae9a82c879244607/install_flash_player_ppapi.exe
 
 - name: flash-player-32.0.0.142-mac-ppapi-2019-01-28
   file: install_flash_player_osx_ppapi.dmg
@@ -28,7 +28,7 @@
   sha256: ac3ece0c29cd9253d73c2fe42652ced64f6bb38d5c272ddd4b3a3c9cd0bcd7f0
   sha1: 6235d9eb7007432ad342d7220d869952d3b7643e
   md5: 43f5f07ca283a6dde0b37a9d954f164f
-  source: 'https://archive.org/download/shockpkg_packages_a/ac/3e/ce0c29cd9253d73c2fe42652ced64f6bb38d5c272ddd4b3a3c9cd0bcd7f0/install_flash_player_osx_ppapi.dmg'
+  source: https://archive.org/download/shockpkg_packages_a/ac/3e/ce0c29cd9253d73c2fe42652ced64f6bb38d5c272ddd4b3a3c9cd0bcd7f0/install_flash_player_osx_ppapi.dmg
 
 - name: flash-player-32.0.0.142-archive
   file: fp_32.0.0.142_archive.zip
@@ -36,7 +36,7 @@
   sha256: 4af4511ad0e5b0285dc25d34aaa65bcf238fd412e7e61cf31d9de4e836d5af4f
   sha1: 27f6aa417b8e03ad4f5c2cda5844e05f4779de93
   md5: 7762ea31f64166b7f9c122803a0a843e
-  source: 'https://archive.org/download/shockpkg_packages_4/4a/f4/511ad0e5b0285dc25d34aaa65bcf238fd412e7e61cf31d9de4e836d5af4f/fp_32.0.0.142_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_4/4a/f4/511ad0e5b0285dc25d34aaa65bcf238fd412e7e61cf31d9de4e836d5af4f/fp_32.0.0.142_archive.zip
   packages:
     - name: flash-player-32.0.0.142-windows-npapi
       file: flashplayer32_0r0_142_win.exe
@@ -284,7 +284,7 @@
   sha256: 62831532add8a2b2a2d320aac208e967e17362b05e8a3be2dffd9535414eabdc
   sha1: 30bf543ceed83ffb7f713ea0a8a1d7ba107925f3
   md5: 2422d3e8550db6589352ace4032363bd
-  source: 'https://archive.org/download/shockpkg_packages_6/62/83/1532add8a2b2a2d320aac208e967e17362b05e8a3be2dffd9535414eabdc/flashplayer32_0r0_142_mac_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_6/62/83/1532add8a2b2a2d320aac208e967e17362b05e8a3be2dffd9535414eabdc/flashplayer32_0r0_142_mac_sa.zip
 
 - name: flash-player-32.0.0.142-mac-sa-debug-zip
   file: flashplayer32_0r0_142_mac_sa_debug.zip
@@ -292,4 +292,4 @@
   sha256: 8bff419299f8a70d4fe79c2260cd01ead66dba4a6997559d31bde005d485bd29
   sha1: b3459925e20ca6dd3be19f21737bc3fb29d161ed
   md5: 6b37a4580d02675658290bd67afbdfec
-  source: 'https://archive.org/download/shockpkg_packages_8/8b/ff/419299f8a70d4fe79c2260cd01ead66dba4a6997559d31bde005d485bd29/flashplayer32_0r0_142_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_8/8b/ff/419299f8a70d4fe79c2260cd01ead66dba4a6997559d31bde005d485bd29/flashplayer32_0r0_142_mac_sa_debug.zip

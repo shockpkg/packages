@@ -4,7 +4,7 @@
   sha256: afbdcd949172068a4c61b77ba688f27cdb6d42f1385c5031cd39b37bfb96243f
   sha1: 0070747fc5bcd9e2fb9f14164fc2d9fd4a8bd3cf
   md5: 5d4e81810e414d849bffdfc7ef362f92
-  source: 'https://archive.org/download/shockpkg_packages_a/af/bd/cd949172068a4c61b77ba688f27cdb6d42f1385c5031cd39b37bfb96243f/fp_15.0.0.239_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_a/af/bd/cd949172068a4c61b77ba688f27cdb6d42f1385c5031cd39b37bfb96243f/fp_15.0.0.239_archive.zip
   packages:
     - name: flash-player-15.0.0.239-windows-npapi
       file: flashplayer15_0r0_239_win.exe
@@ -116,7 +116,7 @@
   sha256: 6de2df7ec6d63fc2c6fc42169f3731f330148ae6d532681c6ae02bda075e93ef
   sha1: 6fe985173d91c5ff4e8aaa6a681ce0d5cd983f4c
   md5: 158079652f7d0f7ac757a1902732205a
-  source: 'https://archive.org/download/shockpkg_packages_6/6d/e2/df7ec6d63fc2c6fc42169f3731f330148ae6d532681c6ae02bda075e93ef/flashplayer_15_sa.exe'
+  source: https://archive.org/download/shockpkg_packages_6/6d/e2/df7ec6d63fc2c6fc42169f3731f330148ae6d532681c6ae02bda075e93ef/flashplayer_15_sa.exe
 
 - name: flash-player-15.0.0.239-mac-sa
   file: flashplayer_15_sa.dmg
@@ -124,7 +124,7 @@
   sha256: 496a608e363a4945c59b7790c5badc1b89d600b9321bb5bfbdc620accbf5811b
   sha1: 933e3b6620f6a4e4dc3c52e0bf9522dd1e5aebd0
   md5: 20383d33c1d8db94e982bc0e9c7f1ec7
-  source: 'https://archive.org/download/shockpkg_packages_4/49/6a/608e363a4945c59b7790c5badc1b89d600b9321bb5bfbdc620accbf5811b/flashplayer_15_sa.dmg'
+  source: https://archive.org/download/shockpkg_packages_4/49/6a/608e363a4945c59b7790c5badc1b89d600b9321bb5bfbdc620accbf5811b/flashplayer_15_sa.dmg
 
 - name: flash-player-15.0.0.239-mac-sa-zip
   file: flashplayer_15_sa.zip
@@ -132,7 +132,7 @@
   sha256: 0f9992d6d694675123cf40a586a4f9ae53515780e85a6a4864e5a62ab58e4b0a
   sha1: 9b0243cd9f93888e022a1766c063d39ee42b7801
   md5: 39655a4d51209098db10a6a610a67553
-  source: 'https://archive.org/download/shockpkg_packages_0/0f/99/92d6d694675123cf40a586a4f9ae53515780e85a6a4864e5a62ab58e4b0a/flashplayer_15_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_0/0f/99/92d6d694675123cf40a586a4f9ae53515780e85a6a4864e5a62ab58e4b0a/flashplayer_15_sa.zip
 
 - name: flash-player-15.0.0.239-mac-sa-debug-zip
   file: flashplayer15_0r0_239_mac_sa_debug.zip
@@ -140,4 +140,4 @@
   sha256: f53ccd3b87b933507089f9279cbabbef4797ba628654795c6e0e645ba2ce1066
   sha1: b83eae42dbb73e14398403d15a20a6555b682e51
   md5: cd79a49cbf4ff6cbb3ff14227129a208
-  source: 'https://archive.org/download/shockpkg_packages_f/f5/3c/cd3b87b933507089f9279cbabbef4797ba628654795c6e0e645ba2ce1066/flashplayer15_0r0_239_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_f/f5/3c/cd3b87b933507089f9279cbabbef4797ba628654795c6e0e645ba2ce1066/flashplayer15_0r0_239_mac_sa_debug.zip

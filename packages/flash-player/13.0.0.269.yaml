@@ -4,7 +4,7 @@
   sha256: 8cc8716f80db909cc8fd23428387e789b27322e47b62c1b05bf6996815188527
   sha1: 1337dcf83cc0469631ac6f804617c8904b6a044a
   md5: f53cce91d8c11c706d961af4416e9559
-  source: 'https://archive.org/download/shockpkg_packages_8/8c/c8/716f80db909cc8fd23428387e789b27322e47b62c1b05bf6996815188527/fp_13.0.0.269_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_8/8c/c8/716f80db909cc8fd23428387e789b27322e47b62c1b05bf6996815188527/fp_13.0.0.269_archive.zip
   packages:
     - name: flash-player-13.0.0.269-windows-npapi
       file: flashplayer13_0r0_269_win.exe
@@ -116,4 +116,4 @@
   sha256: c8fb397a383c225f9d75568fbc701efa8b40b5ba6bc3fe6678445137f28bd56e
   sha1: 4a833154dc67f93b49ce8312bf32ee9b2f8c96f6
   md5: dd91a1114dcfec7c69184090be191d02
-  source: 'https://archive.org/download/shockpkg_packages_c/c8/fb/397a383c225f9d75568fbc701efa8b40b5ba6bc3fe6678445137f28bd56e/flashplayer13_0r0_269_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_c/c8/fb/397a383c225f9d75568fbc701efa8b40b5ba6bc3fe6678445137f28bd56e/flashplayer13_0r0_269_mac_sa_debug.zip

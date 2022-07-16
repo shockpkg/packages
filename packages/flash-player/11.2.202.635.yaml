@@ -4,7 +4,7 @@
   sha256: 75ccbfb225637d1eaf12825a426b9fd23acfb456da999d5fb4534f5182718a76
   sha1: 0e36678ceb27f3ee33eeb387ed528d06d9c87f25
   md5: 1bb5aeccff6dc50ce4d2bf96ffde568d
-  source: 'https://archive.org/download/shockpkg_packages_7/75/cc/bfb225637d1eaf12825a426b9fd23acfb456da999d5fb4534f5182718a76/fp_11.2.202.635_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_7/75/cc/bfb225637d1eaf12825a426b9fd23acfb456da999d5fb4534f5182718a76/fp_11.2.202.635_archive.zip
   packages:
     - name: flash-player-11.2.202.635-linux-i386-npapi
       file: flashplayer11_2r202_635_linux.i386.tar.gz

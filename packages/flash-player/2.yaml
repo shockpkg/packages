@@ -4,7 +4,7 @@
   sha256: a045b93f02f07f2bc59ad1a0b3ed3a7c76bf2deb506abcef16d499ef62bfb958
   sha1: fb53c41fde0e5a75940cac6208f7909aec365729
   md5: 85133911ccbb8ff971bd864f9bc2f580
-  source: 'https://archive.org/download/shockpkg_packages_a/a0/45/b93f02f07f2bc59ad1a0b3ed3a7c76bf2deb506abcef16d499ef62bfb958/fp2_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_a/a0/45/b93f02f07f2bc59ad1a0b3ed3a7c76bf2deb506abcef16d499ef62bfb958/fp2_archive.zip
   packages:
     - name: flash-player-2.0.0.11-windows-16bit-npapi
       file: SWFlash.exe
@@ -44,4 +44,4 @@
   sha256: f7fb587e811e75a4a5f38bb6dd3e66db0b0d5d9a5409efaa350e61e18a99c4e2
   sha1: ee8a2a16d6a80a3893488886ac064d2dc0af3387
   md5: ac6034574ed772364c3a7e3c1cea44db
-  source: 'https://archive.org/download/shockpkg_packages_f/f7/fb/587e811e75a4a5f38bb6dd3e66db0b0d5d9a5409efaa350e61e18a99c4e2/SwFlsh32.exe'
+  source: https://archive.org/download/shockpkg_packages_f/f7/fb/587e811e75a4a5f38bb6dd3e66db0b0d5d9a5409efaa350e61e18a99c4e2/SwFlsh32.exe

@@ -4,7 +4,7 @@
   sha256: 57c771d73030ef7705b3bd86bd554a5b8a69ccda7c198b1db3b9b8bec8e0f084
   sha1: 3cc2fcf8dde16dbff9ef3ea7a78f086e0d024b23
   md5: 293b221f7dcb3bedcadcd9f5765b66a3
-  source: 'https://archive.org/download/shockpkg_packages_5/57/c7/71d73030ef7705b3bd86bd554a5b8a69ccda7c198b1db3b9b8bec8e0f084/fp_30.0.0.113_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_5/57/c7/71d73030ef7705b3bd86bd554a5b8a69ccda7c198b1db3b9b8bec8e0f084/fp_30.0.0.113_archive.zip
   packages:
     - name: flash-player-30.0.0.113-windows-npapi
       file: flashplayer30_0r0_113_win.exe
@@ -252,7 +252,7 @@
   sha256: e89e690e85827717dc250b37598769211c9e4854603b02a850d8b3da3394b04d
   sha1: a1eba74300b356958bb5e8767a09462efa90297a
   md5: 4eea784e5e9bc0bbc04cdb20847f5125
-  source: 'https://archive.org/download/shockpkg_packages_e/e8/9e/690e85827717dc250b37598769211c9e4854603b02a850d8b3da3394b04d/flashplayer30_0r0_113_mac_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_e/e8/9e/690e85827717dc250b37598769211c9e4854603b02a850d8b3da3394b04d/flashplayer30_0r0_113_mac_sa.zip
 
 - name: flash-player-30.0.0.113-mac-sa-debug-zip
   file: flashplayer30_0r0_113_mac_sa_debug.zip
@@ -260,4 +260,4 @@
   sha256: 85c6b8598bb46f6684d46d1fa0e88776ca852187732e03c7acc0ac0bfa90dc55
   sha1: e24b59619c4e6cded213210881b92f40d93460be
   md5: 1abcfee51984f24c0bbf978e011e25c9
-  source: 'https://archive.org/download/shockpkg_packages_8/85/c6/b8598bb46f6684d46d1fa0e88776ca852187732e03c7acc0ac0bfa90dc55/flashplayer30_0r0_113_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_8/85/c6/b8598bb46f6684d46d1fa0e88776ca852187732e03c7acc0ac0bfa90dc55/flashplayer30_0r0_113_mac_sa_debug.zip

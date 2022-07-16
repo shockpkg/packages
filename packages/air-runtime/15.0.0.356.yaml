@@ -4,7 +4,7 @@
   sha256: df12bc9ee8d445b5a30e682b4e97a5d788051a178b3a8b9148aacfcfffcc5c09
   sha1: fec46356f2bb7646b15e135bd9e218aeee28494a
   md5: 6cd3b88b23ec2b1f6d7e9d052337219c
-  source: 'https://archive.org/download/shockpkg_packages_d/df/12/bc9ee8d445b5a30e682b4e97a5d788051a178b3a8b9148aacfcfffcc5c09/AdobeAIRAndroid.apk'
+  source: https://archive.org/download/shockpkg_packages_d/df/12/bc9ee8d445b5a30e682b4e97a5d788051a178b3a8b9148aacfcfffcc5c09/AdobeAIRAndroid.apk
 
 - name: air-runtime-15.0.0.356-windows-archive
   file: AdobeAIRInstaller.zip
@@ -12,7 +12,7 @@
   sha256: 98fac3f40f95e3984dd434f34ee90b5ec0391759e3682a9005d88209113e700a
   sha1: 753884c043e44e6a216334b05997f2272125c39c
   md5: f2be953d56e159ff32b38446d301b65b
-  source: 'https://archive.org/download/shockpkg_packages_9/98/fa/c3f40f95e3984dd434f34ee90b5ec0391759e3682a9005d88209113e700a/AdobeAIRInstaller.zip'
+  source: https://archive.org/download/shockpkg_packages_9/98/fa/c3f40f95e3984dd434f34ee90b5ec0391759e3682a9005d88209113e700a/AdobeAIRInstaller.zip
   packages:
     - name: air-runtime-15.0.0.356-windows
       file: AdobeAIRInstaller.exe
@@ -28,7 +28,7 @@
   sha256: 0fd04ae2ecb839a70b148a8194db1143fb3c2a8a2000d42e579c08aca65c0691
   sha1: fad9f80791ae9840e35a415c7f7d0977d10857e4
   md5: 0eb17677196452dd858316fbfb2760e9
-  source: 'https://archive.org/download/shockpkg_packages_0/0f/d0/4ae2ecb839a70b148a8194db1143fb3c2a8a2000d42e579c08aca65c0691/AdobeAIR.dmg'
+  source: https://archive.org/download/shockpkg_packages_0/0f/d0/4ae2ecb839a70b148a8194db1143fb3c2a8a2000d42e579c08aca65c0691/AdobeAIR.dmg
 
 - name: air-runtime-15.0.0.356-mac-zip
   file: AdobeAIR.zip
@@ -36,4 +36,4 @@
   sha256: 5688e89dd24e5a9e20d7f7c10897af39ecd2c5148e021e80b3a0338ec6c721ae
   sha1: 563117b9adfdbe7962a12c27e7aa3413e51db0e7
   md5: fa5f799208b896753b985292aded7947
-  source: 'https://archive.org/download/shockpkg_packages_5/56/88/e89dd24e5a9e20d7f7c10897af39ecd2c5148e021e80b3a0338ec6c721ae/AdobeAIR.zip'
+  source: https://archive.org/download/shockpkg_packages_5/56/88/e89dd24e5a9e20d7f7c10897af39ecd2c5148e021e80b3a0338ec6c721ae/AdobeAIR.zip

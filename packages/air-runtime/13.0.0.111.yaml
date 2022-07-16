@@ -4,7 +4,7 @@
   sha256: a2c9bd695fa67ba0592b2121017df24d0b386c9cd87683f0e88266d9e38f19ad
   sha1: 0182d18c45a17e932a15c68d0e69ddb7cd35f3a5
   md5: 4caeb1d0e1a163e7812955dea6d173b1
-  source: 'https://archive.org/download/shockpkg_packages_a/a2/c9/bd695fa67ba0592b2121017df24d0b386c9cd87683f0e88266d9e38f19ad/AdobeAIRAndroid.apk'
+  source: https://archive.org/download/shockpkg_packages_a/a2/c9/bd695fa67ba0592b2121017df24d0b386c9cd87683f0e88266d9e38f19ad/AdobeAIRAndroid.apk
 
 - name: air-runtime-13.0.0.111-windows-archive
   file: AdobeAIRInstaller.zip
@@ -12,7 +12,7 @@
   sha256: 720182c60b1b469876314a95381e36b2082e5d9bb6d44cdda27bac50c6cef0e4
   sha1: 970c9a212ca715d0eb521bcb95b611adfb6b15b0
   md5: 17bfe687f1b244e8c836c374406a7256
-  source: 'https://archive.org/download/shockpkg_packages_7/72/01/82c60b1b469876314a95381e36b2082e5d9bb6d44cdda27bac50c6cef0e4/AdobeAIRInstaller.zip'
+  source: https://archive.org/download/shockpkg_packages_7/72/01/82c60b1b469876314a95381e36b2082e5d9bb6d44cdda27bac50c6cef0e4/AdobeAIRInstaller.zip
   packages:
     - name: air-runtime-13.0.0.111-windows
       file: AdobeAIRInstaller.exe
@@ -28,7 +28,7 @@
   sha256: dfd4d6d3e623be958aa58986a7ec4505466f04a311fce55eacdd932273a9cc52
   sha1: cbc581b5613acad248726dea8f4d67beaf849633
   md5: 773cd26fcbbd9d7bb1313ea8a68c1a89
-  source: 'https://archive.org/download/shockpkg_packages_d/df/d4/d6d3e623be958aa58986a7ec4505466f04a311fce55eacdd932273a9cc52/AdobeAIR.zip'
+  source: https://archive.org/download/shockpkg_packages_d/df/d4/d6d3e623be958aa58986a7ec4505466f04a311fce55eacdd932273a9cc52/AdobeAIR.zip
   packages:
     - name: air-runtime-13.0.0.111-mac
       file: AdobeAIR.dmg

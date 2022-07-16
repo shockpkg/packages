@@ -4,7 +4,7 @@
   sha256: 740f5399c81afbe0395cfd7983ff5f45d5d880deda721b054233da8c68733028
   sha1: 40ba3095475d2f5a4002c42c3b2c4744f4cd679a
   md5: bd0a2e8627e7706d87bbc8f769c120fc
-  source: 'https://archive.org/download/shockpkg_packages_7/74/0f/5399c81afbe0395cfd7983ff5f45d5d880deda721b054233da8c68733028/fp_15.0.0.189_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_7/74/0f/5399c81afbe0395cfd7983ff5f45d5d880deda721b054233da8c68733028/fp_15.0.0.189_archive.zip
   packages:
     - name: flash-player-15.0.0.189-windows-npapi
       file: flashplayer15_0r0_189_win.exe
@@ -116,4 +116,4 @@
   sha256: 5882c12d7ecf0deff9645640d509de12180e108f5c83aa47533c5627fce5042b
   sha1: b0642ab3a03c2ab216666b2ad5f39970769f4ecd
   md5: 43670a6212ff8ce1085e80da18d2a1d2
-  source: 'https://archive.org/download/shockpkg_packages_5/58/82/c12d7ecf0deff9645640d509de12180e108f5c83aa47533c5627fce5042b/flashplayer15_0r0_189_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_5/58/82/c12d7ecf0deff9645640d509de12180e108f5c83aa47533c5627fce5042b/flashplayer15_0r0_189_mac_sa_debug.zip

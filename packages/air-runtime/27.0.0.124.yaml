@@ -4,7 +4,7 @@
   sha256: 7cc5fa802f712c6e9d14c3dc7f87ba3fc04352de7ea58eeca257cacb4a4b5834
   sha1: 222c8c618442a00cf5c00161e886d698ed11cf15
   md5: a198e9ab20edb26328aa39f4259a6e8d
-  source: 'https://archive.org/download/shockpkg_packages_7/7c/c5/fa802f712c6e9d14c3dc7f87ba3fc04352de7ea58eeca257cacb4a4b5834/AdobeAIRInstaller.zip'
+  source: https://archive.org/download/shockpkg_packages_7/7c/c5/fa802f712c6e9d14c3dc7f87ba3fc04352de7ea58eeca257cacb4a4b5834/AdobeAIRInstaller.zip
   packages:
     - name: air-runtime-27.0.0.124-windows
       file: AdobeAIRInstaller.exe

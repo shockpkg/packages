@@ -4,7 +4,7 @@
   sha256: deff1aad5fa3564f0b022d8ad0e88b7dbe5185e93c78f51a6e15a552660ee4a0
   sha1: 866ad556cf582f5e7559beb0b756f16712973e6e
   md5: 309074ed8bc41ce246697b604c56cb41
-  source: 'https://archive.org/download/shockpkg_packages_d/de/ff/1aad5fa3564f0b022d8ad0e88b7dbe5185e93c78f51a6e15a552660ee4a0/fp_26.0.0.131_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_d/de/ff/1aad5fa3564f0b022d8ad0e88b7dbe5185e93c78f51a6e15a552660ee4a0/fp_26.0.0.131_archive.zip
   packages:
     - name: flash-player-26.0.0.131-windows-npapi
       file: flashplayer26_0r0_131_win.exe
@@ -252,7 +252,7 @@
   sha256: da722171bcfb0b8c617616adf850fea764fe08a9acc8fd048ba5ea493b5145a2
   sha1: e318c1de50c4e559b42b868bc93cc2797eefd13f
   md5: 19e02168e94edb1c26d431a13ab2aab3
-  source: 'https://archive.org/download/shockpkg_packages_d/da/72/2171bcfb0b8c617616adf850fea764fe08a9acc8fd048ba5ea493b5145a2/flashplayer26_0r0_131_mac_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_d/da/72/2171bcfb0b8c617616adf850fea764fe08a9acc8fd048ba5ea493b5145a2/flashplayer26_0r0_131_mac_sa.zip
 
 - name: flash-player-26.0.0.131-mac-sa-debug-zip
   file: flashplayer26_0r0_131_mac_sa_debug.zip
@@ -260,4 +260,4 @@
   sha256: aa8773d058405de4e64b99a1bfb0ff684b062a2e595ae63da15b730cdaf5c59a
   sha1: 4b227b7b1a86156d880258b09267bc8343058069
   md5: 33cc18046b1b0ac18611cba6f7d02377
-  source: 'https://archive.org/download/shockpkg_packages_a/aa/87/73d058405de4e64b99a1bfb0ff684b062a2e595ae63da15b730cdaf5c59a/flashplayer26_0r0_131_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_a/aa/87/73d058405de4e64b99a1bfb0ff684b062a2e595ae63da15b730cdaf5c59a/flashplayer26_0r0_131_mac_sa_debug.zip

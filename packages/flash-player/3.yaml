@@ -4,7 +4,7 @@
   sha256: 5d00944a4fc189f6d30b06452bee962c0242c5df3b69ee8eb36a5fb075330ca2
   sha1: 13d48cab4ce3643cf6eb3c425069ecb35357e9cc
   md5: 145f61563625ff3916bc295a691bd26c
-  source: 'https://archive.org/download/shockpkg_packages_5/5d/00/944a4fc189f6d30b06452bee962c0242c5df3b69ee8eb36a5fb075330ca2/fp3_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_5/5d/00/944a4fc189f6d30b06452bee962c0242c5df3b69ee8eb36a5fb075330ca2/fp3_archive.zip
   packages:
     - name: flash-player-3.0.18.0-windows-16bit-npapi
       file: swflash.exe
@@ -52,7 +52,7 @@
   sha256: 5c839f897ab0108209ae435881aff9fbf2b06fa3cbd65e819b7a9366936c50e6
   sha1: 7a38859783796ceb4fa8ec7df59f7a3bf82e0a90
   md5: d0317b46011e99717cbd01c0df9a3d6f
-  source: 'https://archive.org/download/shockpkg_packages_5/5c/83/9f897ab0108209ae435881aff9fbf2b06fa3cbd65e819b7a9366936c50e6/flash_pro_3_players.zip'
+  source: https://archive.org/download/shockpkg_packages_5/5c/83/9f897ab0108209ae435881aff9fbf2b06fa3cbd65e819b7a9366936c50e6/flash_pro_3_players.zip
   packages:
     - name: flash-player-2-java
       file: Flash Player Java(tm) Edition.zip
@@ -116,7 +116,7 @@
   sha256: ba1ee27a4a7d6d953cf87928b72cb1d0587afdabc7badfb8e1a44d9f88c478cf
   sha1: 57aeda288543546c2d00aa13b3b097aec3af7f88
   md5: 27ec22b92cdf9e6de9d25fb0545cadb0
-  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/3.0r13b1/flash_linux.tar.gz'
+  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/3.0r13b1/flash_linux.tar.gz
 
 - name: flash-player-3.0.13.0-b1-solaris
   file: flash_solaris.tar.gz
@@ -124,4 +124,4 @@
   sha256: d1f58a7227e25722da4d78f944ed372b0ac622bd5f1170370ecd2d73f0d59025
   sha1: 16ba3cba110f4692628b02b979e7887b895164ee
   md5: 0d05ad5f8291dd0b53ffdec372f53c78
-  source: 'https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/3.0r13b1/flash_solaris.tar.gz'
+  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/3.0r13b1/flash_solaris.tar.gz

@@ -4,7 +4,7 @@
   sha256: 71dd48fb1068bc3beacf376e22598da66d66479d775ca3819823b26782d3c394
   sha1: 59d23d0c80f137fe4e8c15fdf2febc5e0e09ff58
   md5: 6514d5dc6cf9ad63b968ea9a5ec7e025
-  source: 'https://archive.org/download/shockpkg_packages_7/71/dd/48fb1068bc3beacf376e22598da66d66479d775ca3819823b26782d3c394/fp_21.0.0.213_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_7/71/dd/48fb1068bc3beacf376e22598da66d66479d775ca3819823b26782d3c394/fp_21.0.0.213_archive.zip
   packages:
     - name: flash-player-21.0.0.213-windows-npapi
       file: flashplayer21_0r0_213_win.exe
@@ -180,7 +180,7 @@
   sha256: 0918fab7e2eabe8b40a26a08926e3aab02def02f81b0a27176dab906144ed850
   sha1: b97194989f07d0659270183ab933a12e1ed66f4e
   md5: 8c271813674e8c5b951347919b7471b2
-  source: 'https://archive.org/download/shockpkg_packages_0/09/18/fab7e2eabe8b40a26a08926e3aab02def02f81b0a27176dab906144ed850/flashplayer21_0r0_213_mac_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_0/09/18/fab7e2eabe8b40a26a08926e3aab02def02f81b0a27176dab906144ed850/flashplayer21_0r0_213_mac_sa.zip
 
 - name: flash-player-21.0.0.213-mac-sa-debug-zip
   file: flashplayer21_0r0_213_mac_sa_debug.zip
@@ -188,4 +188,4 @@
   sha256: 7600c2852decadf5cd67ca6ab9d8d110e21cf40352af39f03b44be9b1b05c6ef
   sha1: cbbaf615e9076e2cf3bdf07260b577c30a193405
   md5: 41262b83367d7edfd73f8886eaefb198
-  source: 'https://archive.org/download/shockpkg_packages_7/76/00/c2852decadf5cd67ca6ab9d8d110e21cf40352af39f03b44be9b1b05c6ef/flashplayer21_0r0_213_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_7/76/00/c2852decadf5cd67ca6ab9d8d110e21cf40352af39f03b44be9b1b05c6ef/flashplayer21_0r0_213_mac_sa_debug.zip

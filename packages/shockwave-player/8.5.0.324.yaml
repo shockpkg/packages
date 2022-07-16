@@ -4,7 +4,7 @@
   sha256: d0418a4d95c16d7fe21b4850f204114f1894ab79f44c250f797b6f1396f75767
   sha1: afb54166a8bb3a387554f2381a86aa4fd27ca4e6
   md5: 5d4eef7e0491ff5978cb5e6ea98e9cb0
-  source: 'https://archive.org/download/shockpkg_packages_d/d0/41/8a4d95c16d7fe21b4850f204114f1894ab79f44c250f797b6f1396f75767/sw_alt.cab'
+  source: https://archive.org/download/shockpkg_packages_d/d0/41/8a4d95c16d7fe21b4850f204114f1894ab79f44c250f797b6f1396f75767/sw_alt.cab
 
 - name: shockwave-player-8.5.0.324-windows-activex
   file: sw.cab
@@ -12,7 +12,7 @@
   sha256: a017bf531f2ef15a63d510d4e78e5dec5620f013cc0726e4e8b51e9ddae6b81e
   sha1: d4e016d906548e719c05d5e688ae93c07129de84
   md5: 5252956cf0a06ee277805bd235078a93
-  source: 'https://archive.org/download/shockpkg_packages_a/a0/17/bf531f2ef15a63d510d4e78e5dec5620f013cc0726e4e8b51e9ddae6b81e/sw.cab'
+  source: https://archive.org/download/shockpkg_packages_a/a0/17/bf531f2ef15a63d510d4e78e5dec5620f013cc0726e4e8b51e9ddae6b81e/sw.cab
 
 - name: shockwave-player-8.5.0.324-windows-shim
   file: shockwaveinstaller.exe
@@ -20,4 +20,4 @@
   sha256: 7b220eb1b3547535421bc349ddd96512baaf532c35034600e32b6297228fbe52
   sha1: 3eedaca4828365f8118c82c060ba6e0c0617dece
   md5: 69f1085d5eef3621d8828614eb95a9f4
-  source: 'https://archive.org/download/shockpkg_packages_7/7b/22/0eb1b3547535421bc349ddd96512baaf532c35034600e32b6297228fbe52/shockwaveinstaller.exe'
+  source: https://archive.org/download/shockpkg_packages_7/7b/22/0eb1b3547535421bc349ddd96512baaf532c35034600e32b6297228fbe52/shockwaveinstaller.exe

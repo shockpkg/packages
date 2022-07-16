@@ -4,7 +4,7 @@
   sha256: 243a61a54c0ba2081c370169a6258ecf2a3e779361ba4e4460e6d8bdf5c477c7
   sha1: d4f48ab85590c0e836d4b303abe6f20aaf2b9c5f
   md5: 7a3c97140bb8eb2b6b2806b8753ff1fb
-  source: 'https://archive.org/download/shockpkg_packages_2/24/3a/61a54c0ba2081c370169a6258ecf2a3e779361ba4e4460e6d8bdf5c477c7/fp_11.4.402.278_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_2/24/3a/61a54c0ba2081c370169a6258ecf2a3e779361ba4e4460e6d8bdf5c477c7/fp_11.4.402.278_archive.zip
   packages:
     - name: flash-player-11.4.402.278-windows-npapi
       file: flashplayer11_4r402_278_win.exe

@@ -4,7 +4,7 @@
   sha256: 6edf5091018e8bddd7ca1b589c19db33d18ab5ca50a84544bbd9043c2c0400c5
   sha1: 8e6892149bd51f0c954e210f13cf9ec3c4f8b064
   md5: 8b6df940764fa12df98d127a4c896c39
-  source: 'https://archive.org/download/shockpkg_packages_6/6e/df/5091018e8bddd7ca1b589c19db33d18ab5ca50a84544bbd9043c2c0400c5/AdobeAIRInstaller.zip'
+  source: https://archive.org/download/shockpkg_packages_6/6e/df/5091018e8bddd7ca1b589c19db33d18ab5ca50a84544bbd9043c2c0400c5/AdobeAIRInstaller.zip
   packages:
     - name: air-runtime-2.5.0.16600-windows
       file: AdobeAIRInstaller.exe
@@ -20,7 +20,7 @@
   sha256: a0b320fbfa7fdb82906faf876b389976723f03ae62c35147235abc2fc3cad9c4
   sha1: bdfa3bb88123cb98d01f5b999c6acf98c2cb2f48
   md5: ade762c832dd72ec3b816638a4bd1cfd
-  source: 'https://archive.org/download/shockpkg_packages_a/a0/b3/20fbfa7fdb82906faf876b389976723f03ae62c35147235abc2fc3cad9c4/AdobeAIR.zip'
+  source: https://archive.org/download/shockpkg_packages_a/a0/b3/20fbfa7fdb82906faf876b389976723f03ae62c35147235abc2fc3cad9c4/AdobeAIR.zip
   packages:
     - name: air-runtime-2.5.0.16600-mac
       file: AdobeAIR.dmg
@@ -36,4 +36,4 @@
   sha256: 5c4420afce665c24cdc41e8a9286bfe88ebe76f7de6a6c4b3d18a40a99c6ed94
   sha1: f0dd5df960961e8be600573bacd776cc363aa722
   md5: dbe487e63fb687db450b25748e2e6a4a
-  source: 'https://archive.org/download/shockpkg_packages_5/5c/44/20afce665c24cdc41e8a9286bfe88ebe76f7de6a6c4b3d18a40a99c6ed94/AdobeAIRInstaller.bin'
+  source: https://archive.org/download/shockpkg_packages_5/5c/44/20afce665c24cdc41e8a9286bfe88ebe76f7de6a6c4b3d18a40a99c6ed94/AdobeAIRInstaller.bin

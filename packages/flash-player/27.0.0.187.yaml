@@ -4,7 +4,7 @@
   sha256: 92786f7acd614e0afbbeb4ee006e6a4519f437fe3db560d9bb5b4a1278eca508
   sha1: 16cf1dd888ae699cef84ce33469090f0197ccfcc
   md5: 3f55495bb1396f25847613eeedfd2592
-  source: 'https://archive.org/download/shockpkg_packages_9/92/78/6f7acd614e0afbbeb4ee006e6a4519f437fe3db560d9bb5b4a1278eca508/fp_27.0.0.187_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_9/92/78/6f7acd614e0afbbeb4ee006e6a4519f437fe3db560d9bb5b4a1278eca508/fp_27.0.0.187_archive.zip
   packages:
     - name: flash-player-27.0.0.187-windows-npapi
       file: flashplayer27_0r0_187_win.exe
@@ -252,7 +252,7 @@
   sha256: 833416524c5bf70c8a77f8f9158276df50dd534779ae74c9130771683b4cda98
   sha1: 87076ec115e9d1f1dab9e0ff61eedaba000ac6cd
   md5: 1003a65df2fd5299ab08e887f3eb6a4e
-  source: 'https://archive.org/download/shockpkg_packages_8/83/34/16524c5bf70c8a77f8f9158276df50dd534779ae74c9130771683b4cda98/flashplayer27_0r0_187_mac_sa.zip'
+  source: https://archive.org/download/shockpkg_packages_8/83/34/16524c5bf70c8a77f8f9158276df50dd534779ae74c9130771683b4cda98/flashplayer27_0r0_187_mac_sa.zip
 
 - name: flash-player-27.0.0.187-mac-sa-debug-zip
   file: flashplayer27_0r0_187_mac_sa_debug.zip
@@ -260,4 +260,4 @@
   sha256: 57374f23d23c903ff47a94285bd4b849240140a09a97fa3c743eef63aadc60cc
   sha1: baa0da6eef03777e547b1566e09e7682661904e4
   md5: 8106a2fe36ffeb95ca76c18d820b24b0
-  source: 'https://archive.org/download/shockpkg_packages_5/57/37/4f23d23c903ff47a94285bd4b849240140a09a97fa3c743eef63aadc60cc/flashplayer27_0r0_187_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_5/57/37/4f23d23c903ff47a94285bd4b849240140a09a97fa3c743eef63aadc60cc/flashplayer27_0r0_187_mac_sa_debug.zip

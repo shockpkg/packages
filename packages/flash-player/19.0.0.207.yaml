@@ -4,7 +4,7 @@
   sha256: 4cfa50a1f1abf225d9e29310b0910fd0c1567fdf5a41824e9c9f99ebbea9fde9
   sha1: f18cb8506d36aed46575c6d88e5594078e18b724
   md5: a45472120963887639bc33da365d79d1
-  source: 'https://archive.org/download/shockpkg_packages_4/4c/fa/50a1f1abf225d9e29310b0910fd0c1567fdf5a41824e9c9f99ebbea9fde9/fp_19.0.0.207_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_4/4c/fa/50a1f1abf225d9e29310b0910fd0c1567fdf5a41824e9c9f99ebbea9fde9/fp_19.0.0.207_archive.zip
   packages:
     - name: flash-player-19.0.0.207-windows-npapi
       file: flashplayer19_0r0_207_win.exe
@@ -148,4 +148,4 @@
   sha256: 2374d4fbe9e120bbe19adab72caf3d0ad621c8720667f2e31b22626725b4297d
   sha1: 93fccb6b59c6fa799ace444f9517c4a1c00e5317
   md5: 357ed90d506c6c0f75b2b312a6378204
-  source: 'https://archive.org/download/shockpkg_packages_2/23/74/d4fbe9e120bbe19adab72caf3d0ad621c8720667f2e31b22626725b4297d/flashplayer19_0r0_207_mac_sa_debug.zip'
+  source: https://archive.org/download/shockpkg_packages_2/23/74/d4fbe9e120bbe19adab72caf3d0ad621c8720667f2e31b22626725b4297d/flashplayer19_0r0_207_mac_sa_debug.zip

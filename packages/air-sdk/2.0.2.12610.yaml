@@ -4,7 +4,7 @@
   sha256: f429bad95baa14d0244fc3bdac97653f72d640b19951c6ff4d77722df8fc03de
   sha1: 01f665c253462a182ff85041b66ffc3f4ca3a2af
   md5: 7d0e044bf39e92fdbb7cd8ab8e44ca2d
-  source: 'https://archive.org/download/shockpkg_packages_f/f4/29/bad95baa14d0244fc3bdac97653f72d640b19951c6ff4d77722df8fc03de/AdobeAIRSDK.zip'
+  source: https://archive.org/download/shockpkg_packages_f/f4/29/bad95baa14d0244fc3bdac97653f72d640b19951c6ff4d77722df8fc03de/AdobeAIRSDK.zip
 
 - name: air-sdk-2.0.2.12610-mac
   file: AdobeAIRSDK.tbz2
@@ -12,7 +12,7 @@
   sha256: 4d6c4bbbb6eff5202abbabc4bcb630b689557bd4df3e14abe3d26c046c763be2
   sha1: 496a34372f43bbbf7b08b08cb9d531a27acdd65c
   md5: 55a4f0185d59a759db5b42e6abe946d0
-  source: 'https://archive.org/download/shockpkg_packages_4/4d/6c/4bbbb6eff5202abbabc4bcb630b689557bd4df3e14abe3d26c046c763be2/AdobeAIRSDK.tbz2'
+  source: https://archive.org/download/shockpkg_packages_4/4d/6c/4bbbb6eff5202abbabc4bcb630b689557bd4df3e14abe3d26c046c763be2/AdobeAIRSDK.tbz2
 
 - name: air-sdk-2.0.2.12610-mac-zip
   file: AdobeAIRSDK.zip
@@ -20,7 +20,7 @@
   sha256: 5af21a5a8b149672e21c884df6b3e9a893b93c2077d2ba8703b8271402c01536
   sha1: 1039be21bf4bd28be0115b3b7a73408076707bae
   md5: a1572cb5773b5e75488a2e13e694d3af
-  source: 'https://archive.org/download/shockpkg_packages_5/5a/f2/1a5a8b149672e21c884df6b3e9a893b93c2077d2ba8703b8271402c01536/AdobeAIRSDK.zip'
+  source: https://archive.org/download/shockpkg_packages_5/5a/f2/1a5a8b149672e21c884df6b3e9a893b93c2077d2ba8703b8271402c01536/AdobeAIRSDK.zip
 
 - name: air-sdk-2.0.2.12610-linux
   file: AdobeAIRSDK.tbz2
@@ -28,7 +28,7 @@
   sha256: 443c3b69e351fcbefb6ffd47da4312fa6f20e70589cc5856a05f4f94f396bada
   sha1: 6fe09e05423693b3967f148689583bd40a96bc12
   md5: 0954505df64e9f92779aa39c1835c279
-  source: 'https://archive.org/download/shockpkg_packages_4/44/3c/3b69e351fcbefb6ffd47da4312fa6f20e70589cc5856a05f4f94f396bada/AdobeAIRSDK.tbz2'
+  source: https://archive.org/download/shockpkg_packages_4/44/3c/3b69e351fcbefb6ffd47da4312fa6f20e70589cc5856a05f4f94f396bada/AdobeAIRSDK.tbz2
 
 - name: air-sdk-2.0.2.12610-linux-zip
   file: AdobeAIRSDK.zip
@@ -36,4 +36,4 @@
   sha256: b6d4c79dca14043e81283dca145ab87633a56a6ae15745a7c3de08eadf4b78b4
   sha1: 8ed95cd20f60af5ad442615bed20cb9b376d27b7
   md5: 7f5dcdefe9f2f2e4f8b49ed93dac496c
-  source: 'https://archive.org/download/shockpkg_packages_b/b6/d4/c79dca14043e81283dca145ab87633a56a6ae15745a7c3de08eadf4b78b4/AdobeAIRSDK.zip'
+  source: https://archive.org/download/shockpkg_packages_b/b6/d4/c79dca14043e81283dca145ab87633a56a6ae15745a7c3de08eadf4b78b4/AdobeAIRSDK.zip

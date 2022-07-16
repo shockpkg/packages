@@ -4,7 +4,7 @@
   sha256: 17496fd3c863c180aead953d7d4499dd36f997a9570abc2b92f55e4ea1d55d73
   sha1: b94860ca0eff3e1420c24f9647a5f9f5e610ce34
   md5: 47dfcbeddd4d02fd72b483263ec00960
-  source: 'https://archive.org/download/shockpkg_packages_1/17/49/6fd3c863c180aead953d7d4499dd36f997a9570abc2b92f55e4ea1d55d73/fp_14.0.0.179_archive.zip'
+  source: https://archive.org/download/shockpkg_packages_1/17/49/6fd3c863c180aead953d7d4499dd36f997a9570abc2b92f55e4ea1d55d73/fp_14.0.0.179_archive.zip
   packages:
     - name: flash-player-14.0.0.179-windows-npapi
       file: flashplayer14_0r0_179_win.exe
