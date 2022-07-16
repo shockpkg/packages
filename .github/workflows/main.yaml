@@ -1,0 +1,58 @@
+name: main
+
+on:
+  push:
+    branches-ignore:
+      - gh-pages
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm run test
+
+      - name: Verify
+        run: npm run verify
+
+      - name: Newest
+        run: npm run newest
+
+      - name: Newest Harman AIR Runtime
+        run: npm run newest-harman-air-runtime
+
+      - name: Newest Harman AIR SDK
+        run: npm run newest-harman-air-sdk
+
+      - name: Build
+        run: npm run build
+
+      - name: Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist/
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force_orphan: true
+          publish_dir: ./dist
