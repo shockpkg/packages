@@ -4,7 +4,7 @@ const url = require('url');
 
 const {entriesRoot, entriesChild} = require('./shared');
 
-const validators = {
+const validatorsRoot = {
 	name: (root, value) => {
 		expect(typeof value).toBe('string');
 		expect(value.length).toBeGreaterThan(1);
@@ -58,18 +58,23 @@ const validators = {
 		}
 	}
 };
-const allowedProps = new Set(Object.keys(validators));
+const allowedPropsRoot = new Set(Object.keys(validatorsRoot));
+
+const validatorsChild = {
+	...validatorsRoot
+};
+const allowedPropsChild = new Set(Object.keys(validatorsChild));
 
 describe('properties', () => {
 	describe('packages', () => {
 		describe('roots', () => {
 			for (const entry of entriesRoot) {
 				it(entry.name, () => {
-					for (const p of Object.keys(validators)) {
-						validators[p](true, entry[p]);
+					for (const p of Object.keys(validatorsRoot)) {
+						validatorsRoot[p](true, entry[p]);
 					}
 					for (const p of Object.keys(entry)) {
-						expect(allowedProps.has(p)).toBe(true);
+						expect(allowedPropsRoot.has(p)).toBe(true);
 					}
 				});
 			}
@@ -78,11 +83,11 @@ describe('properties', () => {
 		describe('childs', () => {
 			for (const entry of entriesChild) {
 				it(entry.name, () => {
-					for (const p of Object.keys(validators)) {
-						validators[p](false, entry[p]);
+					for (const p of Object.keys(validatorsChild)) {
+						validatorsChild[p](false, entry[p]);
 					}
 					for (const p of Object.keys(entry)) {
-						expect(allowedProps.has(p)).toBe(true);
+						expect(allowedPropsChild.has(p)).toBe(true);
 					}
 				});
 			}
