@@ -40,6 +40,7 @@
       sha1: 2330b7b4a9cb978abb08d9849b17daa8f5200647
       md5: ec900c6f314115e8bfc84abaf5aa0846
       source: fp9_archive/9r20/flashplayer9r20_ub_mac.dmg.zip
+      zipped: 8-128288998-4197202
       packages:
         - name: flash-player-9.0.20.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
@@ -49,7 +50,6 @@
           md5: c409c82c0596ecceedc36d6c3bfe1e6f
           source: Install Flash Player 9 UB.dmg
           zipped: 8-75-4195553
-      zipped: 8-128288998-4197202
 
     - name: flash-player-9.0.28.0-windows-npapi
       file: flashplayer9r28_win.exe
@@ -85,6 +85,7 @@
       sha1: 325c89ad0fe75550dc20bb76f31e28e8621e06e2
       md5: d2ce661ecc121bbafe21df6b0d50e1f1
       source: fp9_archive/9r28/install_flash_player_osx_ub.dmg.zip
+      zipped: 8-250929396-4319450
       packages:
         - name: flash-player-9.0.28.0-mac-ub-npapi
           file: install_flash_player_osx_ub.dmg
@@ -94,7 +95,6 @@
           md5: 6d0a4cce7233de1b7b60c6ae98debfd8
           source: install_flash_player_osx_ub.dmg
           zipped: 8-61-4317996
-      zipped: 8-250929396-4319450
 
     - name: flash-player-9.0.31.0-linux-npapi
       file: flashplayer_9r31_linux.tar.gz
@@ -139,6 +139,7 @@
       sha1: 203adddeb4809c558031aa9d5f01dd96b85ff3d2
       md5: 8a81fa67617aca610016d8b484fb43a1
       source: fp9_archive/9r45/install_flash_player_osx_ub.dmg.zip
+      zipped: 8-262086650-4325853
       packages:
         - name: flash-player-9.0.45.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
@@ -148,7 +149,6 @@
           md5: 6f64a3c7f51d69a813d78728196066ec
           source: Install Flash Player 9 UB.dmg
           zipped: 8-75-4324191
-      zipped: 8-262086650-4325853
 
     - name: flash-player-9.0.47.0-windows-npapi
       file: flashplayer9r47_win.exe
@@ -184,6 +184,7 @@
       sha1: 448a6ca9dad156f0b4ae4bc5f4df77dd2dac0e9f
       md5: 8d01349bd1a1e586005e5a3647c38294
       source: fp9_archive/9r47/flashplayer9r47_ub_mac.dmg.zip
+      zipped: 8-278876770-4326837
       packages:
         - name: flash-player-9.0.47.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
@@ -193,7 +194,6 @@
           md5: 2b4f7515230259621428b5fd8081e905
           source: Install Flash Player 9 UB.dmg
           zipped: 8-75-4325357
-      zipped: 8-278876770-4326837
 
     - name: flash-player-9.0.47.0-solaris-sparc-npapi
       file: flashplayer9r47_solaris_sparc.tar.bz2
@@ -274,6 +274,7 @@
       sha1: c327b8b3eb81b6b4b684d621cb6d77e1613ce3f0
       md5: e6d78bc0a6c4a3004b191ab67dcebf44
       source: fp9_archive/9r115/flashplayer9r115_ub_mac.dmg.zip
+      zipped: 8-19205679-5025878
       packages:
         - name: flash-player-9.0.115.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
@@ -283,7 +284,6 @@
           md5: 7ae1e68cd6960880767141bf592b3493
           source: Install Flash Player 9 UB.dmg
           zipped: 8-75-5024157
-      zipped: 8-19205679-5025878
 
     - name: flash-player-9.0.115.0-linux-npapi
       file: flashplayer9r115_linux.tar.gz
@@ -373,6 +373,7 @@
       sha1: 5a510547ee5d3c951a08d9b0bf2eb1d461941e5f
       md5: 330c83e74ac8542d871f3d0f19c9f50a
       source: fp9_archive/9r124/flashplayer9r124_ub_mac.dmg.zip
+      zipped: 8-47394630-5038649
       packages:
         - name: flash-player-9.0.124.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
@@ -382,7 +383,6 @@
           md5: a4c987360d73cd10cf5dbb5fb541cbd8
           source: Install Flash Player 9 UB.dmg
           zipped: 8-75-5036767
-      zipped: 8-47394630-5038649
 
     - name: flash-player-9.0.124.0-linux-npapi
       file: flashplayer_9r124_linux.tar.gz
@@ -490,6 +490,7 @@
       sha1: 0d78cc43d52437ae1029f9a57376fb53de8fe95c
       md5: c24688006937a6a3237f3ccfa4d0fb80
       source: fp9_archive/9r151/flashplayer9r151_ub_mac.dmg.zip
+      zipped: 8-81072396-4641644
       packages:
         - name: flash-player-9.0.151.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
@@ -499,7 +500,6 @@
           md5: 9901495fe4e9b8ed243109a8029b42a5
           source: Install Flash Player 9 UB.dmg
           zipped: 8-75-4640047
-      zipped: 8-81072396-4641644
 
     - name: flash-player-9.0.151.0-linux-npapi
       file: flashplayer9r151_linux.tar.gz
@@ -607,6 +607,7 @@
       sha1: 0a49160002219291f0b65de4b663ce195c0d4662
       md5: e2d1eb1a6411ae79dfb46855609d5b59
       source: fp9_archive/9r159/flashplayer9r159_ub_mac.dmg.zip
+      zipped: 8-114571654-4645404
       packages:
         - name: flash-player-9.0.159.0-mac-ub-npapi
           file: Install Flash Player 9 UB.dmg
@@ -616,7 +617,6 @@
           md5: ee686d8e0d81e51c9c7961c97482e8ab
           source: Install Flash Player 9 UB.dmg
           zipped: 8-75-4643653
-      zipped: 8-114571654-4645404
 
     - name: flash-player-9.0.159.0-linux-npapi
       file: flashplayer9r159_linux.tar.gz
@@ -1371,6 +1371,7 @@
       sha1: 8573c5fbbceaf42093c55d5c677dfa8340f8e01e
       md5: a2fe6508f98a5e7abb652411427b7eaa
       source: fp9_debug_archive/9r124/flashplayer9r124_ub_mac_debug.dmg.zip
+      zipped: 8-38241289-5478510
       packages:
         - name: flash-player-9.0.124.0-mac-ub-npapi-debug
           file: Install Flash Player 9 UB.dmg
@@ -1380,7 +1381,6 @@
           md5: 273e764b540b385f1a52b73150b480d3
           source: Install Flash Player 9 UB.dmg
           zipped: 8-75-5476518
-      zipped: 8-38241289-5478510
 
     - name: flash-player-9.0.124.0-linux-npapi-debug
       file: flashplayer9r124_linux_debug.tar.gz
@@ -1497,6 +1497,7 @@
       sha1: 9c57388f3e2ab539e3e875ce75c7b207b85096cf
       md5: 1844a6fbe6fade33208b2f24d73a1bf6
       source: fp9_debug_archive/9r159/flashplayer9r159_ub_mac_debug.dmg.zip
+      zipped: 8-99340785-5086557
       packages:
         - name: flash-player-9.0.159.0-mac-ub-npapi-debug
           file: Install Flash Player 9 UB.dmg
@@ -1506,7 +1507,6 @@
           md5: df2841282444727130917e21777524eb
           source: Install Flash Player 9 UB.dmg
           zipped: 8-75-5084663
-      zipped: 8-99340785-5086557
 
     - name: flash-player-9.0.159.0-linux-npapi-debug
       file: flashplayer9r159_linux_debug.tar.gz

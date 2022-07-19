@@ -40,6 +40,7 @@
       sha1: 7c9e312661d1ba201519267f70b47532383ee9f2
       md5: 2843864c625d5e0451eadd9d73362a26
       source: fp10_archive/10r12_36/flashplayer10r12_36_ub_mac.dmg.zip
+      zipped: 8-45752548-5710066
       packages:
         - name: flash-player-10.0.12.36-mac-npapi
           file: Install Flash Player 10 UB.dmg
@@ -49,7 +50,6 @@
           md5: 37d7979703ba3778cb1d89481a31d028
           source: Install Flash Player 10 UB.dmg
           zipped: 8-81-5708129
-      zipped: 8-45752548-5710066
 
     - name: flash-player-10.0.12.36-mac-sa
       file: flashplayer10r12_36_mac_sa.app.zip
@@ -130,6 +130,7 @@
       sha1: 0b8a0f3831535349a88714bba7f20e17b8d269ab
       md5: 7b2d30b0abd152b2e6961645e0387b1c
       source: fp10_archive/10r22_87/flashplayer10r22_87_ub_mac.dmg.zip
+      zipped: 8-86538936-5789159
       packages:
         - name: flash-player-10.0.22.87-mac-npapi
           file: Install Flash Player 10 UB.dmg
@@ -139,7 +140,6 @@
           md5: 2b9f142bbc58d4ea258a4d1b1f58e021
           source: Install Flash Player 10 UB.dmg
           zipped: 8-81-5787208
-      zipped: 8-86538936-5789159
 
     - name: flash-player-10.0.22.87-mac-sa
       file: flashplayer10r22_87_mac_sa.app.zip
@@ -220,6 +220,7 @@
       sha1: fd09af0684ed3301d578305e14c8398e7348c437
       md5: 7899bc29dda9ca6145b372eface547b0
       source: fp10_archive/10r32_18/flashplayer10r3218_ub_mac.dmg.zip
+      zipped: 8-120062475-5920172
       packages:
         - name: flash-player-10.0.32.18-mac-npapi
           file: Install Flash Player 10 UB.dmg
@@ -229,7 +230,6 @@
           md5: 3e90a925a556eff6414cf3fbc96cdaa6
           source: Install Flash Player 10 UB.dmg
           zipped: 8-81-5918197
-      zipped: 8-120062475-5920172
 
     - name: flash-player-10.0.32.18-mac-sa
       file: flashplayer10r3218_mac_sa.app.zip
@@ -471,6 +471,7 @@
       sha1: 4aed846c09c31e11d0e2d2046d493d9dc8cd6599
       md5: fb81dfb2b844edc2950d9f4164c2fc3b
       source: fp10_debug_archive/10r12_36/flashplayer10r12_36_ub_mac_debug.dmg.zip
+      zipped: 8-48078352-6244953
       packages:
         - name: flash-player-10.0.12.36-mac-npapi-debug
           file: Install Flash Player 10 UB.dmg
@@ -480,7 +481,6 @@
           md5: 69c7036cc8ab5c600c2feeb517b4d224
           source: Install Flash Player 10 UB.dmg
           zipped: 8-81-6242864
-      zipped: 8-48078352-6244953
 
     - name: flash-player-10.0.12.36-mac-sa-debug
       file: flashplayer10r12_36_mac_sa_debug.app.zip
@@ -561,6 +561,7 @@
       sha1: 6860b48f7aa38fa777dd8b9c08a7e15295224bbf
       md5: bf52f71380aa8ab7e756fdcae6453825
       source: fp10_debug_archive/10r22_87/flashplayer10r22_87_ub_mac_debug.dmg.zip
+      zipped: 8-83878030-6324983
       packages:
         - name: flash-player-10.0.22.87-mac-npapi-debug
           file: Install Flash Player 10 UB.dmg
@@ -570,7 +571,6 @@
           md5: e17f673c7840688dabdcf5ad093ca83d
           source: Install Flash Player 10 UB.dmg
           zipped: 8-81-6322975
-      zipped: 8-83878030-6324983
 
     - name: flash-player-10.0.22.87-mac-sa-debug
       file: flashplayer10r22_87_mac_sa_debug.app.zip
@@ -633,6 +633,7 @@
       sha1: c69648d114f201b7ba403b47195a6aa200c9eec2
       md5: e30fa3f4743e1b74dd6f74fae8d3e9aa
       source: fp10_debug_archive/10r32_18/flashplayer10r32_18_ub_mac_debug.dmg.zip
+      zipped: 8-111733833-6459136
       packages:
         - name: flash-player-10.0.32.18-mac-npapi-debug
           file: Install Flash Player 10 UB.dmg
@@ -642,7 +643,6 @@
           md5: e42afd8a01dadab1e73a5ef6eb0ac98b
           source: Install Flash Player 10 UB.dmg
           zipped: 8-81-6456974
-      zipped: 8-111733833-6459136
 
     - name: flash-player-10.0.32.18-mac-sa-debug
       file: flashplayer10r32_18_mac_sa_debug.app.zip
