@@ -49,6 +49,12 @@ describe('rename', () => {
 			'flash-player-11.2.202.223-solaris-x86-npapi':
 				'flash_player_11_2r202_223_solaris_x86.tar.bz2',
 
+			'flash-player-11.3.300.262-windows-npapi-debug':
+				'flashplayer11_3r300_262_win_debug.exe',
+
+			'flash-player-11.3.300.262-windows-32bit-sa-debug':
+				'flashplayer11_3r300_262_win_sa_debug_32bit.exe',
+
 			'flash-player-11.5.502.110-windows-npapi-debug':
 				'flashplayer11_5r502_110_win_debug.exe',
 

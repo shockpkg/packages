@@ -26,12 +26,12 @@
 
     - name: flash-player-11.3.300.262-windows-npapi-debug
       file: flashplayer11_3r300_262_win_debug.exe
-      size: 9926344
-      sha256: 3fd141cb032d24eddb281351556b59587f18503b4cb68e590bc8e5eb648eaf9c
-      sha1: effa3f69c7c4fdf6bd131e8ae740a53c9aabfe23
-      md5: 099f40a458949e3edfb8569bacf3143e
-      source: fp_11.3.300.262_archive/11_3r300_262_debug/flashplayer11_3r300_262_win_debug.exe
-      zipped: 8-20289488-4459416
+      size: 10429128
+      sha256: 6be555b972dbe4bc724edca5c19367bfc4b930d8f62bba41ed3d658fd37b2ca9
+      sha1: 69fdf25bbd718537923792887387329bbd04f6cc
+      md5: c6633bfa7474c50331ecb634b584e4a9
+      source: fp_11.3.300.262_archive/11_3r300_262_debug/flashplayer11_3r300_262_win_sa_debug_32bit.exe
+      zipped: 8-24749055-10333419
 
     - name: flash-player-11.3.300.262-windows-uninstaller
       file: uninstall_flashplayer11_3r300_262_win.exe
@@ -44,9 +44,9 @@
 
     - name: flash-player-11.3.300.262-windows-32bit-sa-debug
       file: flashplayer11_3r300_262_win_sa_debug_32bit.exe
-      size: 10429128
-      sha256: 6be555b972dbe4bc724edca5c19367bfc4b930d8f62bba41ed3d658fd37b2ca9
-      sha1: 69fdf25bbd718537923792887387329bbd04f6cc
-      md5: c6633bfa7474c50331ecb634b584e4a9
-      source: fp_11.3.300.262_archive/11_3r300_262_debug/flashplayer11_3r300_262_win_sa_debug_32bit.exe
-      zipped: 8-24749055-10333419
+      size: 9926344
+      sha256: 3fd141cb032d24eddb281351556b59587f18503b4cb68e590bc8e5eb648eaf9c
+      sha1: effa3f69c7c4fdf6bd131e8ae740a53c9aabfe23
+      md5: 099f40a458949e3edfb8569bacf3143e
+      source: fp_11.3.300.262_archive/11_3r300_262_debug/flashplayer11_3r300_262_win_debug.exe
+      zipped: 8-20289488-4459416
