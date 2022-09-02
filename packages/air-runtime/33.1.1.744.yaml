@@ -1,15 +1,15 @@
 - name: air-runtime-33.1.1.744-windows
   file: AdobeAIR.exe
-  size: 7760656
-  sha256: d43321d814e744fd571f3f6360da070142c6a57afb4fe5eca0bd494c3384a38a
-  sha1: 4b444592de1dbdecd666323fb400adb12b6bf272
-  md5: 27325032f9f9a30204502ac9c4db7b80
-  source: https://archive.org/download/shockpkg_packages_d/d4/33/21d814e744fd571f3f6360da070142c6a57afb4fe5eca0bd494c3384a38a/AdobeAIR.exe
+  size: 7851512
+  sha256: 25c1fcbf57427e963ffd0f860cd580bcedb7fecc3584d3210c1067130f7b531a
+  sha1: 9877a51d597cc516226525dc5deaaeb050a4e8de
+  md5: 2e5b29547e8717aec093a1ce3573a1ac
+  source: https://archive.org/download/shockpkg_packages_2/25/c1/fcbf57427e963ffd0f860cd580bcedb7fecc3584d3210c1067130f7b531a/AdobeAIR.exe
 
 - name: air-runtime-33.1.1.744-mac
   file: AdobeAIR.dmg
-  size: 19070845
-  sha256: b6b9bd83b3bff541481aff18f7b2238c536b53d4a29d0cdfb749ae93c3a8095b
-  sha1: 3a2768b3b2f1f7a670a35cb596989a288fdeced6
-  md5: eb34131a89b45dcbc3a6ac3f208acaf2
-  source: https://archive.org/download/shockpkg_packages_b/b6/b9/bd83b3bff541481aff18f7b2238c536b53d4a29d0cdfb749ae93c3a8095b/AdobeAIR.dmg
+  size: 19319762
+  sha256: 8da552e22320544d5dd94903a900d446be43815d5ded96444f3cb40bb2681e0f
+  sha1: 4bf085ee3bd003c992d61552ab59a0e2cf40faa4
+  md5: e74f5650e288378ccdacc1adb14b7168
+  source: https://archive.org/download/shockpkg_packages_8/8d/a5/52e22320544d5dd94903a900d446be43815d5ded96444f3cb40bb2681e0f/AdobeAIR.dmg

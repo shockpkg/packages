@@ -13,30 +13,31 @@ const yaml = require('../util/yaml');
 
 const packagesDir = path.join(path.dirname(__dirname), 'packages');
 
-function genList(version) {
+function genList(version, versioned) {
+	const p = versioned ? `${version}/` : '';
 	return [
 		[
 			`air-runtime-${version}-windows`,
-			'https://airsdk.harman.com/assets/downloads/AdobeAIR.exe'
+			`https://airsdk.harman.com/assets/downloads/${p}AdobeAIR.exe`
 		],
 		[
 			`air-runtime-${version}-mac`,
-			'https://airsdk.harman.com/assets/downloads/AdobeAIR.dmg'
+			`https://airsdk.harman.com/assets/downloads/${p}AdobeAIR.dmg`
 		]
 	];
 }
 
 async function main() {
 	const args = process.argv.slice(2);
-	if (args.length < 1) {
-		throw new Error('Missing version argument');
+	if (args.length < 2) {
+		throw new Error('Args: versioned version');
 	}
-	const [version] = args;
+	const [versioned, version] = args;
 
 	const file = path.join(packagesDir, 'air-runtime', `${version}.yaml`);
 
 	const doc = [];
-	const list = genList(version);
+	const list = genList(version, !!+versioned);
 	for (const [name, url] of list) {
 		console.log(`Name: ${name}`);
 		console.log(`URL: ${url}`);
