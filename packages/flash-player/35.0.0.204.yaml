@@ -45,3 +45,27 @@
   sha1: 68aa84447797564bb5dc5c0a65c9ed5b8d278626
   md5: 4dba857bc0db1859fd1e2d1e14cff049
   source: 'https://archive.org/download/shockpkg_packages_d/db/ab/d56fc9cb5fbba548e5a82591c19636b94cab2ca781d977db26f4f52bb381/FlashPlayerDebugger.exe'
+
+- name: flash-player-35.0.0.204-windows-i386-sa-2022-09-30
+  file: FlashPlayer.exe
+  size: 10714120
+  sha256: 8eedc7e2bc6685f307c2fa5ce319b4a69a56b551e8e6f83462b6b63e83141fa6
+  sha1: 4c0f45aaa5d0c4f2b7e6ca0d8654e84478c10eb8
+  md5: 26c1ab6d7e77055e050e316322cd616e
+  source: 'https://archive.org/download/shockpkg_packages_8/8e/ed/c7e2bc6685f307c2fa5ce319b4a69a56b551e8e6f83462b6b63e83141fa6/FlashPlayer.exe'
+
+- name: flash-player-35.0.0.204-windows-x86_64-sa-2022-09-30
+  file: FlashPlayer.exe
+  size: 13170696
+  sha256: 532d65a8b3317cba67e005000a019b4437b37ff1b353a53c11cd9122c2523456
+  sha1: 760b599163da6a8594d2d6556dea5b4a226a2742
+  md5: 6ee0f1014742493a2d959a0be09dec26
+  source: 'https://archive.org/download/shockpkg_packages_5/53/2d/65a8b3317cba67e005000a019b4437b37ff1b353a53c11cd9122c2523456/FlashPlayer.exe'
+
+- name: flash-player-35.0.0.204-windows-x86_64-sa-debug-2022-09-30
+  file: FlashPlayerDebugger.exe
+  size: 14154760
+  sha256: 3d424a6edf560596b446ea8b11d9c27d6f4ea1e83c69f075dc3b07ab41f9f152
+  sha1: ff09b52571180409ea0792ec0434cf56a5b7f36e
+  md5: 79c8dc32b379c2e56330a9ebcd85c589
+  source: 'https://archive.org/download/shockpkg_packages_3/3d/42/4a6edf560596b446ea8b11d9c27d6f4ea1e83c69f075dc3b07ab41f9f152/FlashPlayerDebugger.exe'
