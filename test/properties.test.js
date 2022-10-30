@@ -1,6 +1,6 @@
 'use strict';
 
-const url = require('url');
+const {URL} = require('url');
 
 const {entriesRoot, entriesChild} = require('./shared');
 
@@ -42,7 +42,7 @@ const validatorsRoot = {
 		expect(value.length).toBeGreaterThan(0);
 		if (root) {
 			expect(value).toMatch(/^https:\/\//);
-			const parsed = url.format(url.parse(value));
+			const parsed = (new URL(value)).href;
 			expect(value).toBe(parsed);
 		}
 		else {

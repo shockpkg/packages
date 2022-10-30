@@ -3,7 +3,7 @@
 /* eslint-disable no-console */
 'use strict';
 
-const fse = require('fs-extra');
+const {readFile} = require('fs/promises');
 
 const gencache = require('../util/gencache');
 const hash = require('../util/hash');
@@ -169,7 +169,7 @@ async function main() {
 		}
 
 		// eslint-disable-next-line no-await-in-loop
-		const data = await fse.readFile(cached.filepath);
+		const data = await readFile(cached.filepath);
 		const size = data.length;
 		console.log(`Size: ${size}`);
 

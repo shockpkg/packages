@@ -3,7 +3,7 @@
 /* eslint-disable no-console */
 'use strict';
 
-const fse = require('fs-extra');
+const {stat} = require('fs/promises');
 
 const gencache = require('../util/gencache');
 const hash = require('../util/hash');
@@ -49,8 +49,7 @@ async function main() {
 		}
 
 		// eslint-disable-next-line no-await-in-loop
-		const stat = await fse.stat(cached.filepath);
-		const {size} = stat;
+		const {size} = await stat(cached.filepath);
 		console.log(`Size: ${size}`);
 
 		const [sha256, sha1, md5] =

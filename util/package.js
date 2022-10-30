@@ -1,14 +1,14 @@
 'use strict';
 
-const path = require('path');
+const {readFile} = require('fs/promises');
+const {join: pathJoin} = require('path');
 
-const fse = require('fs-extra');
 const yaml = require('js-yaml');
 
 async function read(type, version) {
-	const dir = path.join(__dirname, '..', 'packages');
+	const dir = pathJoin(__dirname, '..', 'packages');
 	return yaml.load(
-		await fse.readFile(path.join(dir, type, `${version}.yaml`))
+		await readFile(pathJoin(dir, type, `${version}.yaml`))
 	);
 }
 

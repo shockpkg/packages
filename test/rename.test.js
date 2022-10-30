@@ -1,7 +1,7 @@
 'use strict';
 
-const url = require('url');
-const path = require('path');
+const {URL} = require('url');
+const {basename} = require('path');
 
 const {entriesRoot, entriesChild} = require('./shared');
 
@@ -19,7 +19,7 @@ describe('rename', () => {
 				}
 				else {
 					const urlFile = decodeURI(
-						url.parse(entry.source).pathname
+						(new URL(entry.source)).pathname
 							.split('/').pop()
 					);
 					expect(entry.file).toBe(urlFile);
@@ -68,7 +68,7 @@ describe('rename', () => {
 					expect(entry.file).toBe(renamed[entry.name]);
 				}
 				else {
-					const pathFile = path.basename(entry.source);
+					const pathFile = basename(entry.source);
 					expect(entry.file).toBe(pathFile);
 				}
 			});

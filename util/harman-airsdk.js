@@ -1,6 +1,6 @@
 'use strict';
 
-const url = require('url');
+const {URL} = require('url');
 
 const {requestPromise} = require('./request');
 
@@ -56,7 +56,7 @@ async function list() {
 	const downloads = [];
 	for (const [name, prop] of mappins) {
 		const link = links[prop];
-		const source = addQueryParams(url.resolve(apiUrl, link), {id});
+		const source = addQueryParams((new URL(link, apiUrl)).href, {id});
 		const file = decodeURI(
 			source.split(/[?#]/)[0]
 				.split('/')

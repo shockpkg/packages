@@ -1,7 +1,7 @@
 'use strict';
 
-const fs = require('fs');
-const stream = require('stream');
+const {createWriteStream} = require('fs');
+const {pipeline} = require('stream');
 
 const request = require('request');
 
@@ -32,8 +32,8 @@ async function requestDownloadPromise(
 		if (ondata) {
 			req.on('data', ondata);
 		}
-		const fout = fs.createWriteStream(outfile);
-		stream.pipeline(req, fout, err => {
+		const fout = createWriteStream(outfile);
+		pipeline(req, fout, err => {
 			if (onresponse) {
 				req.removeListener('response', onresponse);
 			}

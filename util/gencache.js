@@ -1,24 +1,25 @@
 'use strict';
 
-const path = require('path');
-
-const fse = require('fs-extra');
+const {mkdir, rename, stat} = require('fs/promises');
+const {dirname, join: pathJoin} = require('path');
 
 const {requestDownloadPromise} = require('./request');
 
-const gencacheDir = path.join(__dirname, '..', '_gencache');
+const gencacheDir = pathJoin(__dirname, '..', '_gencache');
 const tmpPre = '.tmp.';
+
+const pathExists = path => stat(path).catch(() => null);
 
 function urlFileName(url) {
 	return url.split(/[?#]/)[0].split('/').pop();
 }
 
 function cacheTmp(name, url) {
-	return path.join(gencacheDir, name, `${tmpPre}${urlFileName(url)}`);
+	return pathJoin(gencacheDir, name, `${tmpPre}${urlFileName(url)}`);
 }
 
 function cacheBin(name, url) {
-	return path.join(gencacheDir, name, urlFileName(url));
+	return pathJoin(gencacheDir, name, urlFileName(url));
 }
 
 async function download(name, url, onprogress = null, headers = {}) {
@@ -26,10 +27,10 @@ async function download(name, url, onprogress = null, headers = {}) {
 	const fileCacheBin = cacheBin(name, url);
 
 	await Promise.all([...new Set([fileCacheTmp, fileCacheBin].map(
-		p => fse.ensureDir(path.dirname(p))
+		p => mkdir(dirname(p), {recursive: true})
 	))]);
 
-	const fileCacheBinExists = await fse.pathExists(fileCacheBin);
+	const fileCacheBinExists = await pathExists(fileCacheBin);
 	if (!fileCacheBinExists) {
 		let requestResponse = null;
 		let contentLength = null;
@@ -63,7 +64,7 @@ async function download(name, url, onprogress = null, headers = {}) {
 			);
 		}
 
-		await fse.move(fileCacheTmp, fileCacheBin);
+		await rename(fileCacheTmp, fileCacheBin);
 	}
 
 	return {
@@ -76,7 +77,7 @@ async function ensure(name, url, onprogress = null, headers = {}) {
 	const fileCacheBin = cacheBin(name, url);
 
 	let r = null;
-	const fileCacheBinExists = await fse.pathExists(fileCacheBin);
+	const fileCacheBinExists = await pathExists(fileCacheBin);
 	if (fileCacheBinExists) {
 		r = {
 			downloaded: false,

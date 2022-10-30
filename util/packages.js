@@ -1,8 +1,8 @@
 'use strict';
 
-const path = require('path');
+const {join: pathJoin} = require('path');
+const {readFileSync} = require('fs');
 
-const fs = require('fs');
 const glob = require('glob');
 const yaml = require('js-yaml');
 
@@ -86,18 +86,18 @@ function comparePaths(a, b) {
 }
 
 function read() {
-	const packagesDir = path.join(__dirname, '..', 'packages');
+	const packagesDir = pathJoin(__dirname, '..', 'packages');
 	const files = glob.sync('*/*.yaml', {cwd: packagesDir});
 	files.sort(comparePaths);
 
 	const prefixes = new Set();
 	const packages = [];
 	for (const file of files) {
-		const filePath = path.join(packagesDir, file);
+		const filePath = pathJoin(packagesDir, file);
 		prefixes.add(file.split(/[\\/]/)[0]);
 
 		// eslint-disable-next-line no-sync
-		const code = fs.readFileSync(filePath, 'utf8');
+		const code = readFileSync(filePath, 'utf8');
 
 		const doc = yaml.load(code);
 		packages.push(...doc);

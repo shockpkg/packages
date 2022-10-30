@@ -1,11 +1,11 @@
 'use strict';
 
-const fs = require('fs');
-const crypto = require('crypto');
+const {createReadStream} = require('fs');
+const {createHash} = require('crypto');
 
 async function file(fp, algos) {
-	const hashers = algos.map(algo => crypto.createHash(algo));
-	const f = fs.createReadStream(fp);
+	const hashers = algos.map(algo => createHash(algo));
+	const f = createReadStream(fp);
 	f.on('data', data => {
 		for (const hasher of hashers) {
 			hasher.update(data);
@@ -25,8 +25,7 @@ async function file(fp, algos) {
 }
 
 function buffer(data, algos) {
-	return algos.map(algo => crypto
-		.createHash(algo)
+	return algos.map(algo => createHash(algo)
 		.update(data)
 		.digest('hex')
 		.toLowerCase()

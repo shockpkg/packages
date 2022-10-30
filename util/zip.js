@@ -1,11 +1,11 @@
 'use strict';
 
-const util = require('util');
+const {promisify} = require('util');
 
 const yauzl = require('yauzl');
 const crc32 = require('buffer-crc32');
 
-const yauzlOpen = util.promisify(yauzl.open.bind(yauzl));
+const yauzlOpen = promisify(yauzl.open.bind(yauzl));
 
 async function readEntry(zipfile, entry, verify) {
 	const data = await new Promise((resolve, reject) => {

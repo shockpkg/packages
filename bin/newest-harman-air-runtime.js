@@ -3,7 +3,7 @@
 /* eslint-disable no-console */
 'use strict';
 
-const {readdir} = require('fs-extra');
+const {readdir} = require('fs/promises');
 
 const {requestPromise} = require('../util/request');
 const {read: packageRead} = require('../util/package');

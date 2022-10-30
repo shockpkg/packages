@@ -3,24 +3,25 @@
 /* eslint-disable no-console */
 'use strict';
 
-const fse = require('fs-extra');
-const path = require('path');
+const {mkdir, writeFile} = require('fs/promises');
+
+const {dirname, join: pathJoin} = require('path');
 
 const packages = require('../util/packages');
 
-const dist = path.join(__dirname, '..', 'dist');
-const distApi = path.join(dist, 'api');
+const dist = pathJoin(__dirname, '..', 'dist');
+const distApi = pathJoin(dist, 'api');
 const file = 'packages.json';
 
-async function writeFile(file, data) {
-	await fse.mkdirp(path.dirname(file));
-	await fse.writeFile(file, data);
+async function outputFile(file, data) {
+	await mkdir(dirname(file), {recursive: true});
+	await writeFile(file, data);
 }
 
 async function main() {
 	const pkgs = packages.packages;
 
-	await writeFile(path.join(distApi, '1', file), JSON.stringify({
+	await outputFile(pathJoin(distApi, '1', file), JSON.stringify({
 		format: '1.2',
 		packages: pkgs
 	}));
