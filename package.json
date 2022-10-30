@@ -21,7 +21,6 @@
 		"jasmine-core": "^4.2.0",
 		"jasmine-spec-reporter": "^7.0.0",
 		"js-yaml": "^4.1.0",
-		"request": "^2.88.2",
 		"rimraf": "^3.0.2",
 		"yauzl": "^2.10.0"
 	},
