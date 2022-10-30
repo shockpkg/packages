@@ -5,7 +5,8 @@
 
 const {readdir} = require('fs/promises');
 
-const {requestPromise} = require('../util/request');
+const fetch = require('node-fetch');
+
 const {read: packageRead} = require('../util/package');
 const {buffer: hashBuffer} = require('../util/hash');
 
@@ -49,20 +50,15 @@ async function main() {
 		console.log(`URL: ${source}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const {response, body} = await requestPromise({
-			method: 'GET',
-			url: source,
-			encoding: null
-		});
-
-		if (response.statusCode !== 200) {
+		const response = await fetch(source);
+		if (response.status !== 200) {
 			failed.add(name);
-			console.log(`Error: Status code: ${response.statusCode}`);
+			console.log(`Error: Status code: ${response.status}`);
 			console.log('');
 			continue;
 		}
 
-		const size = +response.headers['content-length'];
+		const size = +response.headers.get('content-length');
 		if (size !== sized) {
 			failed.add(name);
 			console.log(`Error: Unexpected size: ${size} != ${sized}`);
@@ -70,6 +66,8 @@ async function main() {
 			continue;
 		}
 
+		// eslint-disable-next-line no-await-in-loop
+		const body = Buffer.from(await response.arrayBuffer());
 		const [rSha256] = hashBuffer(body, ['sha256']);
 		if (rSha256 !== sha256) {
 			failed.add(name);
