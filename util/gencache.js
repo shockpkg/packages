@@ -1,9 +1,14 @@
 'use strict';
 
+const {createWriteStream} = require('fs');
 const {mkdir, rename, stat} = require('fs/promises');
 const {dirname, join: pathJoin} = require('path');
+const {pipeline} = require('stream');
+const {promisify} = require('util');
 
-const {requestDownloadPromise} = require('./request');
+const fetch = require('node-fetch');
+
+const pipe = promisify(pipeline);
 
 const gencacheDir = pathJoin(__dirname, '..', '_gencache');
 const tmpPre = '.tmp.';
@@ -32,31 +37,21 @@ async function download(name, url, onprogress = null, headers = {}) {
 
 	const fileCacheBinExists = await pathExists(fileCacheBin);
 	if (!fileCacheBinExists) {
-		let requestResponse = null;
-		let contentLength = null;
 		let recievedLength = 0;
 
-		await requestDownloadPromise(
-			{
-				url,
-				headers
-			},
-			fileCacheTmp,
-			response => {
-				requestResponse = response;
-				contentLength = +response.headers['content-length'];
-				onprogress(0);
-			},
-			data => {
-				recievedLength += data.length;
-				onprogress(recievedLength / contentLength);
-			}
-		);
-
-		const {statusCode} = requestResponse;
-		if (statusCode !== 200) {
-			throw new Error(`Bad status code: ${statusCode}`);
+		const response = await fetch(url, {headers});
+		if (response.status !== 200) {
+			throw new Error(`Bad status code: ${response.status}`);
 		}
+
+		onprogress(0);
+		const contentLength = +response.headers.get('content-length');
+		const p = pipe(response.body, createWriteStream(fileCacheTmp));
+		response.body.on('data', data => {
+			recievedLength += data.length;
+			onprogress(recievedLength / contentLength);
+		});
+		await p;
 
 		if (recievedLength !== contentLength) {
 			throw new Error(
