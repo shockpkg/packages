@@ -2,7 +2,7 @@
 
 const {URL} = require('url');
 
-const {requestPromise} = require('./request');
+const fetch = require('node-fetch');
 
 // The API this page loads download list from.
 // https://airsdk.harman.com/download
@@ -16,13 +16,13 @@ function addQueryParams(url, params) {
 }
 
 async function list() {
-	const {response} = await requestPromise(apiUrl);
-	const {statusCode} = response;
-	if (statusCode !== 200) {
-		throw new Error(`Unexpected status code: ${statusCode}`);
+	const response = await fetch(apiUrl);
+	if (response.status !== 200) {
+		throw new Error(`Unexpected status code: ${response.status}`);
 	}
-	const data = JSON.parse(response.body);
-	const cookies = response.headers['set-cookie']
+	const data = JSON.parse(await response.text());
+	const cookies = [...response.headers]
+		.map(a => (a[0] === 'set-cookie' ? a[1] : ''))
 		.filter(c => c.startsWith('JSESSIONID='));
 
 	const {latestVersion, id} = data;
