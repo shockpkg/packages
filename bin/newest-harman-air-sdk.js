@@ -3,7 +3,8 @@
 /* eslint-disable no-console */
 'use strict';
 
-const {requestPromise} = require('../util/request');
+const fetch = require('node-fetch');
+
 const harmanAirsdk = require('../util/harman-airsdk');
 const {read: packageRead} = require('../util/package');
 
@@ -23,22 +24,20 @@ async function main() {
 		console.log(`URL: ${source}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const {response} = await requestPromise({
+		const response = await fetch(source, {
 			method: 'HEAD',
-			url: source,
 			headers: {
 				Cookie: cookie
 			}
 		});
-
-		if (response.statusCode !== 200) {
+		if (response.status !== 200) {
 			failed.add(name);
-			console.log(`Error: Status code: ${response.statusCode}`);
+			console.log(`Error: Status code: ${response.status}`);
 			console.log('');
 			continue;
 		}
 
-		const size = +response.headers['content-length'];
+		const size = +response.headers.get('content-length');
 		console.log(`Size: ${size}`);
 		if (!expected.has(name)) {
 			failed.add(name);
