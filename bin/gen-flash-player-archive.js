@@ -3,8 +3,6 @@
 /* eslint-disable no-console */
 'use strict';
 
-const path = require('path');
-
 const fse = require('fs-extra');
 
 const gencache = require('../util/gencache');
@@ -12,8 +10,6 @@ const hash = require('../util/hash');
 const zip = require('../util/zip');
 const paths = require('../util/paths');
 const yaml = require('../util/yaml');
-
-const packagesDir = path.join(path.dirname(__dirname), 'packages');
 
 function pathToName(filepath) {
 	return filepath.split('/').pop();
@@ -309,8 +305,6 @@ async function main() {
 
 	console.log(version);
 
-	const file = path.join(packagesDir, 'flash-player', `${version}.yaml`);
-
 	const name = `flash-player-${version}-archive`;
 	const url = `https://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_${version}_archive.zip`;
 
@@ -409,11 +403,9 @@ async function main() {
 		entry.packages = packages;
 	}
 
-	const doc = [entry];
-	const data = yaml.packages(doc);
-	await fse.writeFile(file, data, 'utf8');
-
 	console.log('Done');
+	console.log('-'.repeat(80));
+	console.log(yaml.packages([entry]));
 }
 main().catch(err => {
 	console.error(err);

@@ -3,15 +3,11 @@
 /* eslint-disable no-console */
 'use strict';
 
-const path = require('path');
-
 const fse = require('fs-extra');
 
 const gencache = require('../util/gencache');
 const hash = require('../util/hash');
 const yaml = require('../util/yaml');
-
-const packagesDir = path.join(path.dirname(__dirname), 'packages');
 
 function genList(version) {
 	const [versionMajor] = version.split('.');
@@ -144,8 +140,6 @@ async function main() {
 	}
 	const [version] = args;
 
-	const file = path.join(packagesDir, 'flash-player', `${version}.yaml`);
-
 	const doc = [];
 	const list = genList(version);
 	for (const [name, url] of list) {
@@ -199,12 +193,9 @@ async function main() {
 		console.log('');
 	}
 
-	console.log(`Writing: ${file}`);
-
-	const data = yaml.packages(doc);
-	await fse.writeFile(file, data, 'utf8');
-
 	console.log('Done');
+	console.log('-'.repeat(80));
+	console.log(yaml.packages(doc));
 }
 main().catch(err => {
 	console.error(err);

@@ -3,15 +3,11 @@
 /* eslint-disable no-console */
 'use strict';
 
-const path = require('path');
-
 const fse = require('fs-extra');
 
 const gencache = require('../util/gencache');
 const hash = require('../util/hash');
 const yaml = require('../util/yaml');
-
-const packagesDir = path.join(path.dirname(__dirname), 'packages');
 
 async function main() {
 	const args = process.argv.slice(2);
@@ -19,12 +15,6 @@ async function main() {
 		throw new Error('Missing version argument');
 	}
 	const [version] = args;
-
-	const file = path.join(
-		packagesDir,
-		'flash-playerglobal',
-		`${version}.yaml`
-	);
 
 	const versionURL = version.replace(/\./, '_');
 	const [versionMajor] = version.split('.');
@@ -68,12 +58,9 @@ async function main() {
 		source: url
 	}];
 
-	console.log(`Writing: ${file}`);
-
-	const data = yaml.packages(doc);
-	await fse.writeFile(file, data, 'utf8');
-
 	console.log('Done');
+	console.log('-'.repeat(80));
+	console.log(yaml.packages(doc));
 }
 main().catch(err => {
 	console.error(err);

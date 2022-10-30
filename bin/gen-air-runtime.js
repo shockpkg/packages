@@ -3,8 +3,6 @@
 /* eslint-disable no-console */
 'use strict';
 
-const path = require('path');
-
 const fse = require('fs-extra');
 
 const gencache = require('../util/gencache');
@@ -12,8 +10,6 @@ const hash = require('../util/hash');
 const zip = require('../util/zip');
 const paths = require('../util/paths');
 const yaml = require('../util/yaml');
-
-const packagesDir = path.join(path.dirname(__dirname), 'packages');
 
 function pathToName(filepath) {
 	return filepath.split('/').pop();
@@ -43,8 +39,6 @@ async function main() {
 		throw new Error('Missing version argument');
 	}
 	const [version] = args;
-
-	const file = path.join(packagesDir, 'air-runtime', `${version}.yaml`);
 
 	const doc = [];
 	const list = genList(version);
@@ -118,7 +112,6 @@ async function main() {
 				console.log(`  SHA256: ${sha256}`);
 				console.log(`  SHA1: ${sha1}`);
 				console.log(`  MD5: ${md5}`);
-
 				console.log(`  Name: ${nameSub}`);
 
 				pkg = {
@@ -140,12 +133,9 @@ async function main() {
 		console.log('');
 	}
 
-	console.log(`Writing: ${file}`);
-
-	const data = yaml.packages(doc);
-	await fse.writeFile(file, data, 'utf8');
-
 	console.log('Done');
+	console.log('-'.repeat(80));
+	console.log(yaml.packages(doc));
 }
 main().catch(err => {
 	console.error(err);

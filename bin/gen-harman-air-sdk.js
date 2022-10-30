@@ -3,8 +3,6 @@
 /* eslint-disable no-console */
 'use strict';
 
-const path = require('path');
-
 const fse = require('fs-extra');
 
 const gencache = require('../util/gencache');
@@ -12,14 +10,11 @@ const hash = require('../util/hash');
 const yaml = require('../util/yaml');
 const harmanAirsdk = require('../util/harman-airsdk');
 
-const packagesDir = path.join(path.dirname(__dirname), 'packages');
-
 async function main() {
 	const list = await harmanAirsdk.list();
 	const headers = {
 		Cookie: harmanAirsdk.cookies(list.cookies)
 	};
-	const file = path.join(packagesDir, 'air-sdk', `${list.version}.yaml`);
 
 	const doc = [];
 	for (const {name, file, source: url} of list.downloads) {
@@ -71,12 +66,9 @@ async function main() {
 		console.log('');
 	}
 
-	console.log(`Writing: ${file}`);
-
-	const data = yaml.packages(doc);
-	await fse.writeFile(file, data, 'utf8');
-
 	console.log('Done');
+	console.log('-'.repeat(80));
+	console.log(yaml.packages(doc));
 }
 main().catch(err => {
 	console.error(err);
