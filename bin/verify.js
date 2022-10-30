@@ -6,9 +6,9 @@
 const {URL} = require('url');
 
 const asyncQueue = require('async/queue');
+const fetch = require('node-fetch');
 
 const packages = require('../util/packages');
-const {requestPromise} = require('../util/request');
 
 function archiveOrgParse(url) {
 	const u = new URL(url);
@@ -29,15 +29,16 @@ function archiveOrgParse(url) {
 const archiveOrgMetadataCache = {};
 function archiveOrgMetadata(item) {
 	if (!archiveOrgMetadataCache[item]) {
-		archiveOrgMetadataCache[item] = requestPromise({
-			url: `https://archive.org/metadata/${encodeURI(item)}/`
-		}).then(({response}) => {
-			const {statusCode} = response;
-			if (statusCode !== 200) {
-				throw new Error(`Unexpected status code: ${statusCode}`);
+		archiveOrgMetadataCache[item] = fetch(
+			`https://archive.org/metadata/${encodeURI(item)}/`
+		).then(async response => {
+			const {status} = response;
+			if (status !== 200) {
+				throw new Error(`Unexpected status code: ${status}`);
 			}
+			const body = await response.text();
 			const files = new Map();
-			for (const file of JSON.parse(response.body).files) {
+			for (const file of JSON.parse(body).files) {
 				const info = {
 					size: +file.size,
 					md5: file.md5,
@@ -74,19 +75,13 @@ async function getMetadataForUrl(url) {
 		return info;
 	}
 
-	const {response} = await requestPromise({
-		method: 'HEAD',
-		url,
-		followRedirect: url.startsWith('https://archive.org/')
-	});
-
-	const {statusCode} = response;
-	if (statusCode !== 200) {
-		throw new Error(`Unexpected status code: ${statusCode}`);
+	const response = await fetch(url);
+	const {status} = response;
+	if (status !== 200) {
+		throw new Error(`Unexpected status code: ${status}`);
 	}
-
 	return {
-		size: +response.headers['content-length']
+		size: +response.headers.get('content-length')
 	};
 }
 

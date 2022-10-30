@@ -24,5 +24,8 @@
 		"request": "^2.88.2",
 		"rimraf": "^3.0.2",
 		"yauzl": "^2.10.0"
+	},
+	"dependencies": {
+		"node-fetch": "^2.6.7"
 	}
 }
