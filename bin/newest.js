@@ -4,8 +4,7 @@
 'use strict';
 
 const asyncQueue = require('async/queue');
-
-const {requestPromise} = require('../util/request');
+const fetch = require('node-fetch');
 
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [
@@ -162,18 +161,15 @@ async function main() {
 
 			console.log(`${task.resource.source}: Checking`);
 
-			const {response} = await requestPromise({
+			const response = await fetch(task.resource.source, {
 				method: 'HEAD',
-				url: task.resource.source,
-				followRedirect: false
+				redirect: 'manual'
 			});
 
 			const {status} = task.resource;
-
-			const {statusCode} = response;
-			if (statusCode !== status) {
+			if (response.status !== status) {
 				throw new Error(
-					`Unexpected status code: ${statusCode} != ${status}`
+					`Unexpected status code: ${response.status} != ${status}`
 				);
 			}
 
@@ -182,7 +178,7 @@ async function main() {
 				if (typeof expected === 'undefined') {
 					continue;
 				}
-				const actual = response.headers[header];
+				const actual = response.headers.get(header);
 				const actualValue = typeof expected === 'number' ?
 					+actual : actual;
 
