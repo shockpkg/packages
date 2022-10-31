@@ -1,0 +1,79 @@
+- name: flash-player-34.0.0.267-windows-npapi-cn
+  file: install_flash_player_cn.exe
+  size: 11890392
+  sha256: 9189a59e65cd44f9bece8ed9c70f50c4b5a464e2c87d6adf9fc6a70e073c19fd
+  sha1: 06e9628593a08d9dd2f7724763693b5106a67329
+  md5: 387af1a2f9eed7eee835a5c99b2deeec
+  source: 'https://archive.org/download/shockpkg_packages_9/91/89/a59e65cd44f9bece8ed9c70f50c4b5a464e2c87d6adf9fc6a70e073c19fd/install_flash_player_cn.exe'
+
+- name: flash-player-34.0.0.267-windows-npapi-debug-cn
+  file: install_flash_player_debug_cn.exe
+  size: 11616472
+  sha256: 22f16cabb33bc9e3e6ccc81b0ef59bbb974b7471138c53a58282ccac05f8061f
+  sha1: 1732deb44f521b1a295885ce7aae0b574d6b9b13
+  md5: 7711bbd9793e622612c7c1fa066594a0
+  source: 'https://archive.org/download/shockpkg_packages_2/22/f1/6cabb33bc9e3e6ccc81b0ef59bbb974b7471138c53a58282ccac05f8061f/install_flash_player_debug_cn.exe'
+
+- name: flash-player-34.0.0.267-windows-ppapi-cn
+  file: install_flash_player_ppapi_cn.exe
+  size: 11998936
+  sha256: 8c254952b58cf824730f22c1816cf186ebac508dc0de0cf97fe98e46c5753b7c
+  sha1: e44758dbc0d06b77bf83454ca8290ed75c5ea005
+  md5: 0fb5802e25f68d868e22b4a7ad022bfa
+  source: 'https://archive.org/download/shockpkg_packages_8/8c/25/4952b58cf824730f22c1816cf186ebac508dc0de0cf97fe98e46c5753b7c/install_flash_player_ppapi_cn.exe'
+
+- name: flash-player-34.0.0.267-windows-ppapi-debug-cn
+  file: install_flash_player_debug_ppapi_cn.exe
+  size: 12420312
+  sha256: 232e7e6fd6fbaae002d7c451403328d9863f884e01f834358d2c0ba76b109b37
+  sha1: 6f31bf21faf54f0388990c093b49c7d31f0008d0
+  md5: 4d790f1bfd2ca4ec7af8b53d0ca1cffe
+  source: 'https://archive.org/download/shockpkg_packages_2/23/2e/7e6fd6fbaae002d7c451403328d9863f884e01f834358d2c0ba76b109b37/install_flash_player_debug_ppapi_cn.exe'
+
+- name: flash-player-34.0.0.267-windows-activex-cn
+  file: install_flash_player_ax_cn.exe
+  size: 22748376
+  sha256: 61e40b9869a24a7163709974a4a8ccf139e0a02b7c2ecaf9b4e24040f84dcf99
+  sha1: f09e8a0e767854695082ddf378dde2b584383bca
+  md5: 931aeb9db56de4c99be02326e2351515
+  source: 'https://archive.org/download/shockpkg_packages_6/61/e4/0b9869a24a7163709974a4a8ccf139e0a02b7c2ecaf9b4e24040f84dcf99/install_flash_player_ax_cn.exe'
+
+- name: flash-player-34.0.0.267-windows-activex-debug-cn
+  file: install_flash_player_debug_ax_cn.exe
+  size: 23455448
+  sha256: cf6d97cb0fa1b53b0b79d300d7aa64467a5e1853dc7355f3d18f77b6e1f18ac3
+  sha1: 49cc23888a2216e0a312bbb2e05bf9b613ed52f3
+  md5: e6269798d28c86571efd2f707fa2962b
+  source: 'https://archive.org/download/shockpkg_packages_c/cf/6d/97cb0fa1b53b0b79d300d7aa64467a5e1853dc7355f3d18f77b6e1f18ac3/install_flash_player_debug_ax_cn.exe'
+
+- name: flash-player-34.0.0.267-windows-sa-cn
+  file: flashplayer_sa.exe
+  size: 10734296
+  sha256: 42857d77015778c74ab8f34fb9182fcea1750c9750f7b4db4f04f48ad8cf3b9b
+  sha1: acfc0173a26cb86dacb135dc4cb4756e6ad45328
+  md5: f8ef10885c21e6c5d7495bd9695cf3e8
+  source: 'https://archive.org/download/shockpkg_packages_4/42/85/7d77015778c74ab8f34fb9182fcea1750c9750f7b4db4f04f48ad8cf3b9b/flashplayer_sa.exe'
+
+- name: flash-player-34.0.0.267-windows-sa-debug-cn
+  file: flashplayer_sa_debug.exe
+  size: 11553496
+  sha256: 090441d2b069e02781ca45af21d67cb7ee527cf50a0b57eeab59c9c0249bd4d7
+  sha1: bbffec0b865a2b079246a326329d755819b9d1ab
+  md5: 2c7ae2de8de8994cf2e46ddeed5ea68e
+  source: 'https://archive.org/download/shockpkg_packages_0/09/04/41d2b069e02781ca45af21d67cb7ee527cf50a0b57eeab59c9c0249bd4d7/flashplayer_sa_debug.exe'
+
+- name: flash-player-34.0.0.267-mac-npapi-cn
+  file: install_flash_player_osx.dmg
+  size: 10844422
+  sha256: 75a51ba94d5564e83bfbe18a6ae6d4b7537bb35e4c40f79850c8b5f2b18295b8
+  sha1: 7bf764450ea526abc665d3af99aa59a75381a0a7
+  md5: bcf071358cb8b88e3cfe0cfb8fa7a829
+  source: 'https://archive.org/download/shockpkg_packages_7/75/a5/1ba94d5564e83bfbe18a6ae6d4b7537bb35e4c40f79850c8b5f2b18295b8/install_flash_player_osx.dmg'
+
+- name: flash-player-34.0.0.267-mac-ppapi-cn
+  file: install_flash_player_osx_ppapi.dmg
+  size: 10149865
+  sha256: 518724858d482efb08fbe20ec686d730cbc57c1e0509acaf6c8bf93eb88263f1
+  sha1: de50c4080f227ce69c2a6e16992e8634a85bceb2
+  md5: 2ba644c453c69086d580b78165b3c45f
+  source: 'https://archive.org/download/shockpkg_packages_5/51/87/24858d482efb08fbe20ec686d730cbc57c1e0509acaf6c8bf93eb88263f1/install_flash_player_osx_ppapi.dmg'
