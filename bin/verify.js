@@ -128,7 +128,7 @@ async function main() {
 		console.log(`${task.pkg.name}: ${state} ${retry} (${ms}ms)${info}`);
 	};
 
-	const report = await new Promise((resolve, reject) => {
+	const report = await new Promise(resolve => {
 		const report = [];
 		const reporter = (task, err) => {
 			report.push({task, err});

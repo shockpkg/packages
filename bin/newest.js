@@ -147,7 +147,7 @@ async function main() {
 		console.log(`${task.resource.source}: ${state} (${ms}ms)${info}`);
 	};
 
-	const report = await new Promise((resolve, reject) => {
+	const report = await new Promise(resolve => {
 		const report = [];
 
 		const taskEnd = (task, err) => {
