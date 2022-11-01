@@ -102,12 +102,25 @@ function read() {
 		const doc = yaml.load(code);
 		packages.push(...doc);
 	}
+
+	const flat = [];
+	const queue = packages.slice();
+	while (queue.length) {
+		const pkg = queue.shift();
+		flat.push(pkg);
+		if (pkg.packages) {
+			queue.push(pkg.packages);
+			flat.push(...pkg.packages);
+		}
+	}
 	return {
 		packages,
-		prefixes
+		prefixes,
+		flat
 	};
 }
 
 const data = read();
 exports.packages = data.packages;
 exports.prefixes = data.prefixes;
+exports.flat = data.flat;

@@ -40,6 +40,9 @@ jobs:
       - name: Newest Harman AIR SDK
         run: npm run newest-harman-air-sdk
 
+      - name: Newest CN
+        run: npm run newest-cn
+
       - name: Build
         run: npm run build
 
