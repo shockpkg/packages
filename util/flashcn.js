@@ -116,12 +116,13 @@ async function listRelease() {
 			continue;
 		}
 
-		if (
-			info.downloadURLForWin8 &&
-			info.downloadURLForWin8 !== info.downloadURL
-		) {
-			throw new Error(`Unexpected Win8 URL: ${info.downloadURLForWin8}`);
-		}
+		// Not used.
+		// if (
+		// 	info.downloadURLForWin8 &&
+		// 	info.downloadURLForWin8 !== info.downloadURL
+		// ) {
+		// 	throw new Error(`Unexpected Win8 URL: ${info.downloadURLForWin8}`);
+		// }
 
 		const source = getSource(info.downloadURL, info.version);
 		const type = idTypes.get(id);
