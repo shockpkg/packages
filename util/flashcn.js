@@ -67,11 +67,11 @@ function getSource(downloadUrl, version) {
 	const url = downloadUrl;
 	let r = url;
 	const m = url.match(
-		/^(.*)\/cdm\/latest\/flashplayer(.*)_install_cn_(web|debug)\.exe/
+		/^(.*)\/cdm\/(latest|webplayer)\/flashplayer(.*)_install_cn_(web|debug)\.exe/
 	);
 	if (m) {
-		const [, base,, kind] = m;
-		let [,, type] = m;
+		const [, base,,, kind] = m;
+		let [,,, type] = m;
 		if (type) {
 			if (type !== 'ax') {
 				type += 'api';
