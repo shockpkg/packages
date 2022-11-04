@@ -1,7 +1,5 @@
 'use strict';
 
-const {URL} = require('url');
-
 const fetch = require('node-fetch');
 
 // The API this page loads download list from.

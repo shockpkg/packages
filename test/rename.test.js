@@ -1,6 +1,5 @@
 'use strict';
 
-const {URL} = require('url');
 const {basename} = require('path');
 
 const {entriesRoot, entriesChild} = require('./shared');

@@ -1,7 +1,5 @@
 'use strict';
 
-const {URL} = require('url');
-
 const {entriesRoot, entriesChild} = require('./shared');
 
 const validatorsRoot = {

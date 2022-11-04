@@ -3,8 +3,6 @@
 /* eslint-disable no-console */
 'use strict';
 
-const {URL} = require('url');
-
 const asyncQueue = require('async/queue');
 const fetch = require('node-fetch');
 

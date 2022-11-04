@@ -1,6 +1,5 @@
 'use strict';
 
-const {URL} = require('url');
 const vm = require('vm');
 
 const fetch = require('node-fetch');
