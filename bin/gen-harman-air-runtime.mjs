@@ -7,6 +7,7 @@ import {stat} from 'fs/promises';
 import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
 import {packages as encodePackages} from '../util/yaml.mjs';
+import {userAgent} from '../util/harman-airsdk.mjs';
 
 function genList(version, versioned) {
 	const p = versioned ? `${version}/` : '';
@@ -36,10 +37,17 @@ async function main() {
 		console.log(`URL: ${url}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const cached = await ensure(name, url, progress => {
-			const percent = progress * 100;
-			process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%\r`);
-		});
+		const cached = await ensure(
+			name,
+			url,
+			progress => {
+				const p = progress * 100;
+				process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
+			},
+			{
+				'User-Agent': userAgent
+			}
+		);
 		if (cached.downloaded) {
 			console.log('');
 		}

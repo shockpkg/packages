@@ -4,6 +4,9 @@ import fetch from 'node-fetch';
 // https://airsdk.harman.com/download
 const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';
 
+// eslint-disable-next-line max-len
+export const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
+
 function addQueryParams(url, params) {
 	return url + (url.includes('?') ? '&' : '?') +
 		Object.entries(params)
@@ -12,7 +15,9 @@ function addQueryParams(url, params) {
 }
 
 export async function list() {
-	const response = await fetch(apiUrl);
+	const response = await fetch(apiUrl, {
+		'User-Agent': userAgent
+	});
 	if (response.status !== 200) {
 		throw new Error(`Unexpected status code: ${response.status}`);
 	}

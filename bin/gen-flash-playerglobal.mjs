@@ -24,10 +24,14 @@ async function main() {
 	console.log(`URL: ${url}`);
 
 	// eslint-disable-next-line no-await-in-loop
-	const cached = await ensure(name, url, progress => {
-		const percent = progress * 100;
-		process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%\r`);
-	});
+	const cached = await ensure(
+		name,
+		url,
+		progress => {
+			const p = progress * 100;
+			process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
+		}
+	);
 
 	if (cached.downloaded) {
 		console.log('');

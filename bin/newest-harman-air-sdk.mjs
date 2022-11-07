@@ -4,7 +4,7 @@
 
 import fetch from 'node-fetch';
 
-import {list, cookies} from '../util/harman-airsdk.mjs';
+import {list, cookies, userAgent} from '../util/harman-airsdk.mjs';
 import {read as packageRead} from '../util/package.mjs';
 
 async function main() {
@@ -26,6 +26,7 @@ async function main() {
 		const response = await fetch(source, {
 			method: 'HEAD',
 			headers: {
+				'User-Agent': userAgent,
 				Cookie: cookie
 			}
 		});

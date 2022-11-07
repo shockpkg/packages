@@ -10,6 +10,7 @@ import fetch from 'node-fetch';
 
 import {read as packageRead} from '../util/package.mjs';
 import {buffer as hashBuffer} from '../util/hash.mjs';
+import {userAgent} from '../util/harman-airsdk.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -53,7 +54,9 @@ async function main() {
 		console.log(`URL: ${source}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const response = await fetch(source);
+		const response = await fetch(source, {
+			'User-Agent': userAgent
+		});
 		if (response.status !== 200) {
 			failed.add(name);
 			console.log(`Error: Status code: ${response.status}`);

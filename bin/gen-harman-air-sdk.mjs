@@ -7,13 +7,10 @@ import {stat} from 'fs/promises';
 import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
 import {packages as encodePackages} from '../util/yaml.mjs';
-import {list, cookies} from '../util/harman-airsdk.mjs';
+import {list, cookies, userAgent} from '../util/harman-airsdk.mjs';
 
 async function main() {
 	const listed = await list();
-	const headers = {
-		Cookie: cookies(listed.cookies)
-	};
 
 	const doc = [];
 	for (const {name, file, source: url} of listed.downloads) {
@@ -21,10 +18,18 @@ async function main() {
 		console.log(`URL: ${url}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const cached = await ensure(name, url, progress => {
-			const percent = progress * 100;
-			process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%\r`);
-		}, headers);
+		const cached = await ensure(
+			name,
+			url,
+			progress => {
+				const p = progress * 100;
+				process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
+			},
+			{
+				'User-Agent': userAgent,
+				Cookie: cookies(listed.cookies)
+			}
+		);
 		if (cached.downloaded) {
 			console.log('');
 		}
