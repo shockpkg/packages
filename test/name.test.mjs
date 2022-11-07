@@ -1,6 +1,4 @@
-'use strict';
-
-const {entries, packagePrefixes} = require('./shared');
+import {entries, packagePrefixes} from './shared.mjs';
 
 describe('name', () => {
 	for (const entry of entries) {

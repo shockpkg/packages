@@ -1,12 +1,10 @@
-'use strict';
+import {createContext, runInContext} from 'vm';
 
-const vm = require('vm');
-
-const fetch = require('node-fetch');
-const cheerio = require('cheerio');
+import fetch from 'node-fetch';
+import cheerio from 'cheerio';
 
 // eslint-disable-next-line max-len
-const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
+export const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
 
 const ids = [
 	['npapi', 'windows-npapi'],
@@ -41,14 +39,14 @@ function parseJsonP(jsonp) {
 }
 
 function parseJsVar(js, varName) {
-	const ctx = vm.createContext(Object.create(null));
+	const ctx = createContext(Object.create(null));
 	try {
-		vm.runInContext(js, ctx);
+		runInContext(js, ctx);
 	}
 	catch (_) {
 		throw new Error('Failed to run the JS code');
 	}
-	const result = vm.runInContext(`(function() {
+	const result = runInContext(`(function() {
 		try {
 			return '1:' + JSON.stringify(this[${JSON.stringify(varName)}]);
 		}
@@ -207,10 +205,7 @@ async function listDebug() {
 	return r;
 }
 
-async function list() {
+export async function list() {
 	return (await Promise.all([listRelease(), listDebug()])).flat()
 		.sort((a, b) => (idIndex.get(a.id) || 0) - (idIndex.get(b.id) || 0));
 }
-
-exports.userAgent = userAgent;
-exports.list = list;

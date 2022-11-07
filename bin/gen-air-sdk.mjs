@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
 /* eslint-disable no-console */
-'use strict';
 
-const {stat} = require('fs/promises');
+import {stat} from 'fs/promises';
 
-const gencache = require('../util/gencache');
-const hash = require('../util/hash');
-const yaml = require('../util/yaml');
+import {ensure} from '../util/gencache.mjs';
+import {file as hashFile} from '../util/hash.mjs';
+import {packages as encodePackages} from '../util/yaml.mjs';
 
 function genList(version) {
 	const verstr = version
@@ -49,7 +48,7 @@ async function main() {
 		console.log(`URL: ${url}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const cached = await gencache.ensure(name, url, progress => {
+		const cached = await ensure(name, url, progress => {
 			const percent = progress * 100;
 			process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%\r`);
 		});
@@ -66,7 +65,7 @@ async function main() {
 
 		const [sha256, sha1, md5] =
 			// eslint-disable-next-line no-await-in-loop
-			await hash.file(cached.filepath, ['sha256', 'sha1', 'md5']);
+			await hashFile(cached.filepath, ['sha256', 'sha1', 'md5']);
 		console.log(`SHA256: ${sha256}`);
 		console.log(`SHA1: ${sha1}`);
 		console.log(`MD5: ${md5}`);
@@ -88,7 +87,7 @@ async function main() {
 
 	console.log('Done');
 	console.log('-'.repeat(80));
-	console.log(yaml.packages(doc));
+	console.log(encodePackages(doc));
 }
 main().catch(err => {
 	console.error(err);

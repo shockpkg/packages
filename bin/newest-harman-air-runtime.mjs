@@ -1,14 +1,17 @@
 #!/usr/bin/env node
 
 /* eslint-disable no-console */
-'use strict';
 
-const {readdir} = require('fs/promises');
+import {readdir} from 'fs/promises';
+import {dirname} from 'path';
+import {fileURLToPath} from 'url';
 
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-const {read: packageRead} = require('../util/package');
-const {buffer: hashBuffer} = require('../util/hash');
+import {read as packageRead} from '../util/package.mjs';
+import {buffer as hashBuffer} from '../util/hash.mjs';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pkgsdir = `${__dirname}/../packages/air-runtime`;
 

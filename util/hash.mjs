@@ -1,9 +1,7 @@
-'use strict';
+import {createReadStream} from 'fs';
+import {createHash} from 'crypto';
 
-const {createReadStream} = require('fs');
-const {createHash} = require('crypto');
-
-async function file(fp, algos) {
+export async function file(fp, algos) {
 	const hashers = algos.map(algo => createHash(algo));
 	const f = createReadStream(fp);
 	f.on('data', data => {
@@ -24,13 +22,10 @@ async function file(fp, algos) {
 	return hashers.map(hasher => hasher.digest('hex').toLowerCase());
 }
 
-function buffer(data, algos) {
+export function buffer(data, algos) {
 	return algos.map(algo => createHash(algo)
 		.update(data)
 		.digest('hex')
 		.toLowerCase()
 	);
 }
-
-exports.file = file;
-exports.buffer = buffer;

@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
 /* eslint-disable no-console */
-'use strict';
 
-const {mkdir, writeFile} = require('fs/promises');
+import {mkdir, writeFile} from 'fs/promises';
+import {dirname, join as pathJoin} from 'path';
+import {fileURLToPath} from 'url';
 
-const {dirname, join: pathJoin} = require('path');
+import {packages} from '../util/packages.mjs';
 
-const packages = require('../util/packages');
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const dist = pathJoin(__dirname, '..', 'dist');
 const distApi = pathJoin(dist, 'api');
@@ -19,11 +20,9 @@ async function outputFile(file, data) {
 }
 
 async function main() {
-	const pkgs = packages.packages;
-
 	await outputFile(pathJoin(distApi, '1', file), JSON.stringify({
 		format: '1.2',
-		packages: pkgs
+		packages
 	}));
 }
 main().catch(err => {

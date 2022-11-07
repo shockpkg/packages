@@ -1,8 +1,6 @@
-'use strict';
+import yaml from 'js-yaml';
 
-const yaml = require('js-yaml');
-
-function packages(doc) {
+export function packages(doc) {
 	const y = yaml.dump(doc, {
 		lineWidth: 1000000,
 		noRefs: true,
@@ -14,5 +12,3 @@ function packages(doc) {
 		.trim();
 	return `${r}\n`;
 }
-
-exports.packages = packages;

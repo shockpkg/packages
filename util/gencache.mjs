@@ -1,12 +1,13 @@
-'use strict';
+import {createWriteStream} from 'fs';
+import {mkdir, rename, stat} from 'fs/promises';
+import {dirname, join as pathJoin} from 'path';
+import {pipeline} from 'stream';
+import {promisify} from 'util';
+import {fileURLToPath} from 'url';
 
-const {createWriteStream} = require('fs');
-const {mkdir, rename, stat} = require('fs/promises');
-const {dirname, join: pathJoin} = require('path');
-const {pipeline} = require('stream');
-const {promisify} = require('util');
+import fetch from 'node-fetch';
 
-const fetch = require('node-fetch');
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pipe = promisify(pipeline);
 
@@ -16,18 +17,18 @@ const tmpPre = '.tmp.';
 const pathExists = path => stat(path).catch(() => null);
 
 function urlFileName(url) {
-	return url.split(/[?#]/)[0].split('/').pop();
+	return decodeURIComponent(url.split(/[?#]/)[0].split('/').pop());
 }
 
-function cacheTmp(name, url) {
+export function cacheTmp(name, url) {
 	return pathJoin(gencacheDir, name, `${tmpPre}${urlFileName(url)}`);
 }
 
-function cacheBin(name, url) {
+export function cacheBin(name, url) {
 	return pathJoin(gencacheDir, name, urlFileName(url));
 }
 
-async function download(name, url, onprogress = null, headers = {}) {
+export async function download(name, url, onprogress = null, headers = {}) {
 	const fileCacheTmp = cacheTmp(name, url);
 	const fileCacheBin = cacheBin(name, url);
 
@@ -68,7 +69,7 @@ async function download(name, url, onprogress = null, headers = {}) {
 	};
 }
 
-async function ensure(name, url, onprogress = null, headers = {}) {
+export async function ensure(name, url, onprogress = null, headers = {}) {
 	const fileCacheBin = cacheBin(name, url);
 
 	let r = null;
@@ -84,8 +85,3 @@ async function ensure(name, url, onprogress = null, headers = {}) {
 	}
 	return r;
 }
-
-exports.cacheTmp = cacheTmp;
-exports.cacheBin = cacheBin;
-exports.download = download;
-exports.ensure = ensure;

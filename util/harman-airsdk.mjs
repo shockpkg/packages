@@ -1,6 +1,4 @@
-'use strict';
-
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 // The API this page loads download list from.
 // https://airsdk.harman.com/download
@@ -13,7 +11,7 @@ function addQueryParams(url, params) {
 			.join('&');
 }
 
-async function list() {
+export async function list() {
 	const response = await fetch(apiUrl);
 	if (response.status !== 200) {
 		throw new Error(`Unexpected status code: ${response.status}`);
@@ -73,9 +71,7 @@ async function list() {
 		cookies
 	};
 }
-exports.list = list;
 
-function cookies(list) {
+export function cookies(list) {
 	return list.map(c => c.split(';')[0]).join('; ');
 }
-exports.cookies = cookies;

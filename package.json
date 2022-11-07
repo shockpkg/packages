@@ -4,13 +4,13 @@
 		"lint": "eslint .",
 		"test": "jasmine",
 		"test-verbose": "SPEC_REPORTER=1 jasmine",
-		"verify": "node ./bin/verify",
-		"newest": "node ./bin/newest",
-		"newest-harman-air-sdk": "node ./bin/newest-harman-air-sdk",
-		"newest-harman-air-runtime": "node ./bin/newest-harman-air-runtime",
-		"newest-cn": "node ./bin/newest-cn",
+		"verify": "node ./bin/verify.mjs",
+		"newest": "node ./bin/newest.mjs",
+		"newest-harman-air-sdk": "node ./bin/newest-harman-air-sdk.mjs",
+		"newest-harman-air-runtime": "node ./bin/newest-harman-air-runtime.mjs",
+		"newest-cn": "node ./bin/newest-cn.mjs",
 		"clean": "rimraf ./dist",
-		"build": "node ./bin/build"
+		"build": "node ./bin/build.mjs"
 	},
 	"devDependencies": {
 		"async": "^3.2.4",

@@ -1,25 +1,24 @@
 #!/usr/bin/env node
 
 /* eslint-disable no-console */
-'use strict';
 
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-const harmanAirsdk = require('../util/harman-airsdk');
-const {read: packageRead} = require('../util/package');
+import {list, cookies} from '../util/harman-airsdk.mjs';
+import {read as packageRead} from '../util/package.mjs';
 
 async function main() {
 	const start = Date.now();
 	const passed = new Set();
 	const failed = new Set();
 
-	const list = await harmanAirsdk.list();
+	const listed = await list();
 	const expected = new Map(
-		(await packageRead('air-sdk', list.version))
+		(await packageRead('air-sdk', listed.version))
 			.map(p => [p.name, p.size])
 	);
-	const cookie = harmanAirsdk.cookies(list.cookies);
-	for (const {name, source} of list.downloads) {
+	const cookie = cookies(listed.cookies);
+	for (const {name, source} of listed.downloads) {
 		console.log(`Checking: ${name}`);
 		console.log(`URL: ${source}`);
 

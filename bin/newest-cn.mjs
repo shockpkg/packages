@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
 /* eslint-disable no-console */
-'use strict';
 
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-const {list, userAgent} = require('../util/flashcn');
-const {flat} = require('../util/packages');
+import {list, userAgent} from '../util/flashcn.mjs';
+import {flat} from '../util/packages.mjs';
 
 const expected = {
 	'flash-player-34.0.0.267-windows-npapi-cn': '2022-08-09',

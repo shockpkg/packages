@@ -1,9 +1,7 @@
-'use strict';
+import {promisify} from 'util';
 
-const {promisify} = require('util');
-
-const yauzl = require('yauzl');
-const crc32 = require('buffer-crc32');
+import yauzl from 'yauzl';
+import crc32 from 'buffer-crc32';
 
 const yauzlOpen = promisify(yauzl.open.bind(yauzl));
 
@@ -95,9 +93,7 @@ async function itterZipfile(zipfile, itter) {
 	});
 }
 
-async function itterFile(filepath, itter) {
+export async function itterFile(filepath, itter) {
 	const zipfile = await yauzlOpen(filepath, {lazyEntries: true});
 	await itterZipfile(zipfile, itter);
 }
-
-exports.itterFile = itterFile;

@@ -1,10 +1,11 @@
-'use strict';
+import {readFileSync} from 'fs';
+import {dirname, join as pathJoin} from 'path';
+import {fileURLToPath} from 'url';
 
-const {join: pathJoin} = require('path');
-const {readFileSync} = require('fs');
+import glob from 'glob';
+import yaml from 'js-yaml';
 
-const glob = require('glob');
-const yaml = require('js-yaml');
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 function comparePrimitive(a, b) {
 	if (a === null && b !== null) {
@@ -121,6 +122,4 @@ function read() {
 }
 
 const data = read();
-exports.packages = data.packages;
-exports.prefixes = data.prefixes;
-exports.flat = data.flat;
+export const {packages, prefixes, flat} = data;

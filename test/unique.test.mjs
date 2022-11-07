@@ -1,6 +1,4 @@
-'use strict';
-
-const {entries, entriesRoot} = require('./shared');
+import {entries, entriesRoot} from './shared.mjs';
 
 describe('unique', () => {
 	describe('name + sha256 + sha1 + md5', () => {

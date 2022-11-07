@@ -1,6 +1,4 @@
-'use strict';
-
-const {entriesRoot, entriesChild} = require('./shared');
+import {entriesRoot, entriesChild} from './shared.mjs';
 
 const validatorsRoot = {
 	name: (root, value) => {

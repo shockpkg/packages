@@ -1,8 +1,6 @@
-'use strict';
+import {basename} from 'path';
 
-const {basename} = require('path');
-
-const {entriesRoot, entriesChild} = require('./shared');
+import {entriesRoot, entriesChild} from './shared.mjs';
 
 describe('rename', () => {
 	describe('roots', () => {

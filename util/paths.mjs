@@ -1,6 +1,4 @@
-'use strict';
-
-function isSystem(path) {
+export function isSystem(path) {
 	const parts = path.split('/');
 	for (const part of parts) {
 		if (part.startsWith('.')) {
@@ -19,7 +17,7 @@ function isSystem(path) {
 	return false;
 }
 
-function isMetadata(path) {
+export function isMetadata(path) {
 	if (/\.txt$/i.test(path)) {
 		return true;
 	}
@@ -28,6 +26,3 @@ function isMetadata(path) {
 	}
 	return false;
 }
-
-exports.isSystem = isSystem;
-exports.isMetadata = isMetadata;

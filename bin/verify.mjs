@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
 /* eslint-disable no-console */
-'use strict';
 
-const asyncQueue = require('async/queue');
-const fetch = require('node-fetch');
+import {queue as asyncQueue} from 'async';
+import fetch from 'node-fetch';
 
-const packages = require('../util/packages');
+import {packages} from '../util/packages.mjs';
 
 function archiveOrgParse(url) {
 	const u = new URL(url);
@@ -86,7 +85,7 @@ async function getMetadataForUrl(url) {
 async function main() {
 	const start = Date.now();
 
-	const pkgs = packages.packages;
+	const pkgs = packages;
 	let included = null;
 
 	// eslint-disable-next-line no-process-env

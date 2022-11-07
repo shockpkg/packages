@@ -1,28 +1,27 @@
 #!/usr/bin/env node
 
 /* eslint-disable no-console */
-'use strict';
 
-const {stat} = require('fs/promises');
+import {stat} from 'fs/promises';
 
-const gencache = require('../util/gencache');
-const hash = require('../util/hash');
-const yaml = require('../util/yaml');
-const harmanAirsdk = require('../util/harman-airsdk');
+import {ensure} from '../util/gencache.mjs';
+import {file as hashFile} from '../util/hash.mjs';
+import {packages as encodePackages} from '../util/yaml.mjs';
+import {list, cookies} from '../util/harman-airsdk.mjs';
 
 async function main() {
-	const list = await harmanAirsdk.list();
+	const listed = await list();
 	const headers = {
-		Cookie: harmanAirsdk.cookies(list.cookies)
+		Cookie: cookies(listed.cookies)
 	};
 
 	const doc = [];
-	for (const {name, file, source: url} of list.downloads) {
+	for (const {name, file, source: url} of listed.downloads) {
 		console.log(`Name: ${name}`);
 		console.log(`URL: ${url}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const cached = await gencache.ensure(name, url, progress => {
+		const cached = await ensure(name, url, progress => {
 			const percent = progress * 100;
 			process.stdout.write(`\rDownloading: ${percent.toFixed(2)}%\r`);
 		}, headers);
@@ -39,7 +38,7 @@ async function main() {
 
 		const [sha256, sha1, md5] =
 			// eslint-disable-next-line no-await-in-loop
-			await hash.file(cached.filepath, ['sha256', 'sha1', 'md5']);
+			await hashFile(cached.filepath, ['sha256', 'sha1', 'md5']);
 		console.log(`SHA256: ${sha256}`);
 		console.log(`SHA1: ${sha1}`);
 		console.log(`MD5: ${md5}`);
@@ -67,7 +66,7 @@ async function main() {
 
 	console.log('Done');
 	console.log('-'.repeat(80));
-	console.log(yaml.packages(doc));
+	console.log(encodePackages(doc));
 }
 main().catch(err => {
 	console.error(err);

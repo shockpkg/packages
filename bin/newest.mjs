@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 
 /* eslint-disable no-console */
-'use strict';
 
-const asyncQueue = require('async/queue');
-const fetch = require('node-fetch');
+import {queue as asyncQueue} from 'async';
+import fetch from 'node-fetch';
 
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [
