@@ -1,6 +1,6 @@
 'use strict';
 
-const packages = require('../util/packages');
+const {packages, prefixes} = require('../util/packages');
 
 const asyncTimeout = 60000;
 
@@ -9,7 +9,7 @@ const entriesRoot = [];
 const entriesChild = [];
 const entriesParents = new Map();
 
-const itter = [...packages.packages];
+const itter = [...packages];
 while (itter.length) {
 	const entry = itter.shift();
 	if (entry.packages) {
@@ -27,4 +27,4 @@ exports.entries = entries;
 exports.entriesRoot = entriesRoot;
 exports.entriesChild = entriesChild;
 exports.entriesParents = entriesParents;
-exports.packagePrefixes = packages.prefixes;
+exports.packagePrefixes = prefixes;
