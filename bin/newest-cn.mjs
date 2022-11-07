@@ -37,7 +37,7 @@ async function main() {
 	const failed = new Set();
 
 	const all = await list();
-	for (const {name, source, date} of all) {
+	for (const {name, source, referer, date} of all) {
 		console.log(`Checking: ${name}`);
 		console.log(`URL: ${source}`);
 
@@ -61,7 +61,8 @@ async function main() {
 		const response = await fetch(source, {
 			method: 'HEAD',
 			headers: {
-				'User-Agent': userAgent
+				'User-Agent': userAgent,
+				Referer: referer
 			}
 		});
 

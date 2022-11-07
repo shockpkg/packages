@@ -99,9 +99,11 @@ function urlFile(url) {
 }
 
 async function listRelease() {
+	const htmlUrl = 'https://www.flash.cn/download';
 	const jsRes = await fetch('https://api.flash.cn/config/flashVersion', {
 		headers: {
-			'User-Agent': userAgent
+			'User-Agent': userAgent,
+			Referer: htmlUrl
 		}
 	});
 	if (jsRes.status !== 200) {
@@ -131,6 +133,7 @@ async function listRelease() {
 			name: `flash-player-${info.version}-${type}-cn`,
 			file: urlFile(source),
 			source,
+			referer: htmlUrl,
 			list: 'release',
 			id,
 			date: info.date,
@@ -154,7 +157,8 @@ async function listDebug() {
 	const html = await htmlRes.text();
 	const jsRes = await fetch('https://api.flash.cn/config/debugFlashVersion', {
 		headers: {
-			'User-Agent': userAgent
+			'User-Agent': userAgent,
+			Referer: htmlUrl
 		}
 	});
 	if (jsRes.status !== 200) {
@@ -174,6 +178,7 @@ async function listDebug() {
 				name: `flash-playerglobal-${version}-cn`,
 				file,
 				source,
+				referer: htmlUrl,
 				list: 'debug',
 				id: 'playerglobal',
 				date,
@@ -191,6 +196,7 @@ async function listDebug() {
 				name: `flash-player-${version}-${type}-cn`,
 				file,
 				source,
+				referer: htmlUrl,
 				list: 'debug',
 				id,
 				date,

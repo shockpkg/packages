@@ -14,7 +14,7 @@ async function main() {
 	const doc = [];
 
 	for (const info of all) {
-		const {name, source, file} = info;
+		const {name, source, referer, file} = info;
 		console.log(`Name: ${name}`);
 		console.log(`URL: ${source}`);
 
@@ -27,7 +27,8 @@ async function main() {
 				process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
 			},
 			{
-				'User-Agent': userAgent
+				'User-Agent': userAgent,
+				Referer: referer
 			}
 		);
 		if (cached.downloaded) {
