@@ -5,3 +5,11 @@
   sha1: 267ae07ac044e8a128738edbe9360ce05498794c
   md5: 25fbcccf283fd56053bd70351a1ee530
   source: 'https://archive.org/download/shockpkg_packages_8/80/a6/2da94097c24334a01cf50478426d13e3cea5b71f26bfdf43729373c5db4b/playerglobal.swc'
+
+- name: flash-playerglobal-34.0.0.277-cn
+  file: playerglobal.swc
+  size: 472426
+  sha256: 41393ce4d073e4a493cf6e30bc60c6284ab5a6a587ecd2795927fa0ae060f5c0
+  sha1: 712e85702a8526d536540737301dd1ef91f9871a
+  md5: 5fbb700c83f51af9436dfa2b0c6dd36a
+  source: https://archive.org/download/shockpkg_packages_4/41/39/3ce4d073e4a493cf6e30bc60c6284ab5a6a587ecd2795927fa0ae060f5c0/playerglobal.swc
