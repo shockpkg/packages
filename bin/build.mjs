@@ -19,11 +19,37 @@ async function outputFile(file, data) {
 	await writeFile(file, data);
 }
 
+function transform(packages, version) {
+	const keys = new Map([
+		['name', null],
+		['file', null],
+		['size', null],
+		['sha256', null],
+		['sha1', null],
+		['md5', null],
+		['zipped', null],
+		['source', null],
+		['packages', v => transform(v, version)]
+	]);
+	return packages.map(o => {
+		const a = [];
+		for (const [k, v] of Object.entries(o)) {
+			if (keys.has(k)) {
+				a.push([k, (keys.get(k) || (v => v))(v)]);
+			}
+		}
+		return Object.fromEntries(a);
+	});
+}
+
 async function main() {
-	await outputFile(pathJoin(distApi, '1', file), JSON.stringify({
-		format: '1.2',
-		packages
-	}));
+	for (const v of [1]) {
+		// eslint-disable-next-line no-await-in-loop
+		await outputFile(pathJoin(distApi, `${v}`, file), JSON.stringify({
+			format: '1.2',
+			packages: transform(packages, v)
+		}));
+	}
 }
 main().catch(err => {
 	console.error(err);
