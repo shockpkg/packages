@@ -14,7 +14,7 @@ async function main() {
 	const doc = [];
 
 	for (const info of all) {
-		const {name, source, referer, file} = info;
+		const {name, source, referer, file, date} = info;
 		console.log(`Name: ${name}`);
 		console.log(`URL: ${source}`);
 
@@ -49,7 +49,7 @@ async function main() {
 		console.log(`SHA1: ${sha1}`);
 		console.log(`MD5: ${md5}`);
 
-		const entry = {
+		doc.push({
 			name,
 			file,
 			size,
@@ -62,9 +62,11 @@ async function main() {
 				sha256.substr(2, 2),
 				sha256.substr(4),
 				file
-			].join('/')
-		};
-		doc.push(entry);
+			].join('/'),
+			metadata: {
+				date
+			}
+		});
 
 		console.log('');
 	}
