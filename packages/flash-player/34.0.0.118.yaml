@@ -4,7 +4,7 @@
   sha256: aba069a2fd414c8784846ac63aa8800d90d1f532a8dfab81a44c14857c51b5c8
   sha1: 734236c0aacf518cf4ff4e73a6ab6df15fa6826e
   md5: f2efd49b8c4f47fbd80044c77e46192d
-  source: 'https://archive.org/download/shockpkg_packages_a/ab/a0/69a2fd414c8784846ac63aa8800d90d1f532a8dfab81a44c14857c51b5c8/flashplayer_sa.exe'
+  source: https://archive.org/download/shockpkg_packages_a/ab/a0/69a2fd414c8784846ac63aa8800d90d1f532a8dfab81a44c14857c51b5c8/flashplayer_sa.exe
 
 - name: flash-player-34.0.0.118-windows-sa-debug-cn
   file: flashplayer_sa_debug.exe
@@ -12,7 +12,7 @@
   sha256: 1e6e21efc90671b328a90eb6aeb1cbc630c8a18dd32dbb57f309029094d5e167
   sha1: bd7eee6dcad488acd589881a09926400df0c52fa
   md5: 7b52fff72d57dfab40312270e4af5b29
-  source: 'https://archive.org/download/shockpkg_packages_1/1e/6e/21efc90671b328a90eb6aeb1cbc630c8a18dd32dbb57f309029094d5e167/flashplayer_sa_debug.exe'
+  source: https://archive.org/download/shockpkg_packages_1/1e/6e/21efc90671b328a90eb6aeb1cbc630c8a18dd32dbb57f309029094d5e167/flashplayer_sa_debug.exe
 
 - name: flash-player-34.0.0.118-linux-i386-npapi-cn
   file: flash_player_npapi_linux.i386.tar.gz
@@ -20,7 +20,7 @@
   sha256: b3b6c37c3b3ebb749b3e1b1b6096bf3f8c09cd412e7592f051b5ebcbe7b7992e
   sha1: ea4c9589e99bc2acc4ea4758b2812d27a8788890
   md5: 7b7f2e343b9feb152eca4f55e3e71546
-  source: 'https://archive.org/download/shockpkg_packages_b/b3/b6/c37c3b3ebb749b3e1b1b6096bf3f8c09cd412e7592f051b5ebcbe7b7992e/flash_player_npapi_linux.i386.tar.gz'
+  source: https://archive.org/download/shockpkg_packages_b/b3/b6/c37c3b3ebb749b3e1b1b6096bf3f8c09cd412e7592f051b5ebcbe7b7992e/flash_player_npapi_linux.i386.tar.gz
 
 - name: flash-player-34.0.0.118-linux-i386-ppapi-cn
   file: flash_player_ppapi_linux.i386.tar.gz
@@ -28,7 +28,7 @@
   sha256: fecf5f387a9585c4ddc390145f807b38fdd62a629836c07a130bbdafb6ed23f5
   sha1: 9dc71414ef487056b46381369c54de02ffa3053f
   md5: f7c4912f2e59809544fb592bdad67485
-  source: 'https://archive.org/download/shockpkg_packages_f/fe/cf/5f387a9585c4ddc390145f807b38fdd62a629836c07a130bbdafb6ed23f5/flash_player_ppapi_linux.i386.tar.gz'
+  source: https://archive.org/download/shockpkg_packages_f/fe/cf/5f387a9585c4ddc390145f807b38fdd62a629836c07a130bbdafb6ed23f5/flash_player_ppapi_linux.i386.tar.gz
 
 - name: flash-player-34.0.0.118-linux-x86_64-npapi-cn
   file: flash_player_npapi_linux.x86_64.tar.gz
@@ -36,7 +36,7 @@
   sha256: 62fb1ae7134eee1d4d25b0197ff980182e2ce7cefe0dad58486616f03445bb6d
   sha1: 85a00d2471c13f8583bf2a41ac94c8c50e115950
   md5: 169c0fcc3019f04552491e7998cc5e5b
-  source: 'https://archive.org/download/shockpkg_packages_6/62/fb/1ae7134eee1d4d25b0197ff980182e2ce7cefe0dad58486616f03445bb6d/flash_player_npapi_linux.x86_64.tar.gz'
+  source: https://archive.org/download/shockpkg_packages_6/62/fb/1ae7134eee1d4d25b0197ff980182e2ce7cefe0dad58486616f03445bb6d/flash_player_npapi_linux.x86_64.tar.gz
 
 - name: flash-player-34.0.0.118-linux-x86_64-ppapi-cn
   file: flash_player_ppapi_linux.x86_64.tar.gz
@@ -44,4 +44,4 @@
   sha256: e9ed7aa71ee1d9178c73ec8a61bf925dd9687133d7656a38e85daf5aa26f6c07
   sha1: 73fcecf51f1a96e5959bb3fb6a87e8aa482744e4
   md5: dc1aadf6e40302da73a9d6d8b400d45f
-  source: 'https://archive.org/download/shockpkg_packages_e/e9/ed/7aa71ee1d9178c73ec8a61bf925dd9687133d7656a38e85daf5aa26f6c07/flash_player_ppapi_linux.x86_64.tar.gz'
+  source: https://archive.org/download/shockpkg_packages_e/e9/ed/7aa71ee1d9178c73ec8a61bf925dd9687133d7656a38e85daf5aa26f6c07/flash_player_ppapi_linux.x86_64.tar.gz
