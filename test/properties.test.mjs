@@ -52,6 +52,11 @@ const validatorsRoot = {
 		else {
 			expect(typeof value).toBe('undefined');
 		}
+	},
+	metadata: (root, value) => {
+		if (value) {
+			expect(typeof value).toBe('object');
+		}
 	}
 };
 const allowedPropsRoot = new Set(Object.keys(validatorsRoot));
