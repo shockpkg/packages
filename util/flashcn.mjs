@@ -98,6 +98,14 @@ function urlFile(url) {
 	);
 }
 
+function dateNorm(date) {
+	const pieces = date.split('/');
+	if (pieces.length === 3) {
+		return pieces.reverse().join('-');
+	}
+	return date;
+}
+
 async function listRelease() {
 	const htmlUrl = 'https://www.flash.cn/download';
 	const jsRes = await fetch('https://api.flash.cn/config/flashVersion', {
@@ -136,7 +144,7 @@ async function listRelease() {
 			referer: htmlUrl,
 			list: 'release',
 			id,
-			date: info.date,
+			date: dateNorm(info.date),
 			version: info.version,
 			size: info.size
 		});
@@ -166,6 +174,7 @@ async function listDebug() {
 	}
 	const js = await jsRes.text();
 	const {version, date} = parseJsVar(js, '__package_info');
+	const dated = dateNorm(date);
 	const $ = cheerio.load(html);
 	const r = [];
 	$('.dc-download a').each((_, a) => {
@@ -181,7 +190,7 @@ async function listDebug() {
 				referer: htmlUrl,
 				list: 'debug',
 				id: 'playerglobal',
-				date,
+				date: dated,
 				version,
 				size: null
 			});
@@ -199,7 +208,7 @@ async function listDebug() {
 				referer: htmlUrl,
 				list: 'debug',
 				id,
-				date,
+				date: dated,
 				version,
 				size: null
 			});

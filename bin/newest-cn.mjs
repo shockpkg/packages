@@ -7,28 +7,6 @@ import fetch from 'node-fetch';
 import {list, userAgent} from '../util/flashcn.mjs';
 import {flat} from '../util/packages.mjs';
 
-const expected = {
-	'flash-player-34.0.0.267-windows-npapi-cn': '2022-08-09',
-	'flash-player-34.0.0.267-windows-npapi-debug-cn': '09/08/2022',
-	'flash-player-34.0.0.267-windows-ppapi-cn': '2022-08-09',
-	'flash-player-34.0.0.267-windows-ppapi-debug-cn': '09/08/2022',
-	'flash-player-34.0.0.267-windows-activex-cn': '2022-08-09',
-	'flash-player-34.0.0.267-windows-activex-debug-cn': '09/08/2022',
-	'flash-player-34.0.0.267-mac-npapi-cn': '2022-08-09',
-	'flash-player-34.0.0.267-mac-ppapi-cn': '2022-08-09',
-	'flash-player-34.0.0.267-windows-sa-cn': '09/08/2022',
-	'flash-player-34.0.0.267-windows-sa-debug-cn': '09/08/2022',
-	'flash-player-34.0.0.137-linux-i386-npapi-cn': '2021-04-13',
-	'flash-player-34.0.0.137-linux-i386-npapi-rpm-cn': '2021-04-13',
-	'flash-player-34.0.0.137-linux-i386-ppapi-cn': '2021-04-13',
-	'flash-player-34.0.0.137-linux-i386-ppapi-rpm-cn': '2021-04-13',
-	'flash-player-34.0.0.137-linux-x86_64-npapi-cn': '2021-04-13',
-	'flash-player-34.0.0.137-linux-x86_64-npapi-rpm-cn': '2021-04-13',
-	'flash-player-34.0.0.137-linux-x86_64-ppapi-cn': '2021-04-13',
-	'flash-player-34.0.0.137-linux-x86_64-ppapi-rpm-cn': '2021-04-13',
-	'flash-playerglobal-34.0.0.267-cn': '09/08/2022'
-};
-
 const byName = new Map(flat.map(o => [o.name, o]));
 
 async function main() {
@@ -41,8 +19,8 @@ async function main() {
 		console.log(`Checking: ${name}`);
 		console.log(`URL: ${source}`);
 
-		const dated = expected[name];
 		const pkg = byName.get(name);
+		const dated = pkg.metadata?.date;
 		if (!date || !pkg) {
 			failed.add(name);
 			console.log(`Error: Unknown package: ${name}`);
