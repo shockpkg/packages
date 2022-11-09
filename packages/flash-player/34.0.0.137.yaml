@@ -53,6 +53,8 @@
   sha1: 7f780d449f31423131b14f6a96bc7e40f1725d8a
   md5: 2b4ddd39ee4cf7d470e7b60a78fd70f6
   source: 'https://archive.org/download/shockpkg_packages_d/d0/bf/39b2e19b9d911733f2e17e83257675a332b8bd12ef8c4a53611c7636d7af/flash_player_npapi_linux.i386.tar.gz'
+  metadata:
+    date: '2021-04-13'
 
 - name: flash-player-34.0.0.137-linux-i386-npapi-rpm-cn
   file: flash-player-npapi-release.i386.rpm
@@ -61,6 +63,8 @@
   sha1: 9e29974e711158b766fd8489309ee3759b003ed2
   md5: faf98489aa5d8cdd7b1508bc4c1d9c8b
   source: 'https://archive.org/download/shockpkg_packages_7/7a/31/127678cdad79371f13eb41e06a230612cea8223a21998a76772260dde8c1/flash-player-npapi-release.i386.rpm'
+  metadata:
+    date: '2021-04-13'
 
 - name: flash-player-34.0.0.137-linux-i386-ppapi-cn
   file: flash_player_ppapi_linux.i386.tar.gz
@@ -69,6 +73,8 @@
   sha1: 75c54757f11f9a57891ba9c2980d6647df8ffe4b
   md5: 1636293c685ed448a6b392ac277b6dfb
   source: 'https://archive.org/download/shockpkg_packages_0/08/93/b613c3e7a84c333a6119a4311f68d553dca240f933ad9a8a4dacf35d94fe/flash_player_ppapi_linux.i386.tar.gz'
+  metadata:
+    date: '2021-04-13'
 
 - name: flash-player-34.0.0.137-linux-i386-ppapi-rpm-cn
   file: flash-player-ppapi-release.i386.rpm
@@ -77,6 +83,8 @@
   sha1: b5591911ef2479455ed40539b61651eda34742df
   md5: c0033d1f31924600931df4adbefad827
   source: 'https://archive.org/download/shockpkg_packages_6/60/9b/60d5988ebf34d4b05405ae05688f8668c69815f47cd3f88611b349762546/flash-player-ppapi-release.i386.rpm'
+  metadata:
+    date: '2021-04-13'
 
 - name: flash-player-34.0.0.137-linux-x86_64-npapi-cn
   file: flash_player_npapi_linux.x86_64.tar.gz
@@ -85,6 +93,8 @@
   sha1: 199d532300679b7664d5ebc77cd088db963dac24
   md5: 48ab277ac3ad110872f523754d210579
   source: 'https://archive.org/download/shockpkg_packages_1/19/69/522d9cec3984e765cf1cfe1abfffaa1ae4f322fe017d8d131e3bdbe14687/flash_player_npapi_linux.x86_64.tar.gz'
+  metadata:
+    date: '2021-04-13'
 
 - name: flash-player-34.0.0.137-linux-x86_64-npapi-rpm-cn
   file: flash-player-npapi-release.x86_64.rpm
@@ -93,6 +103,8 @@
   sha1: 4417cf32c96074dee2305032eb1d29aaf2f7e0c0
   md5: 104ee1392a75c6ea90c87db0c06479ca
   source: 'https://archive.org/download/shockpkg_packages_5/52/60/0d16846663c661e8f030dc6952433a13e68294c3492de76f5b6cf198f8a2/flash-player-npapi-release.x86_64.rpm'
+  metadata:
+    date: '2021-04-13'
 
 - name: flash-player-34.0.0.137-linux-x86_64-ppapi-cn
   file: flash_player_ppapi_linux.x86_64.tar.gz
@@ -101,6 +113,8 @@
   sha1: fdda4bdb47ca399a3aea1eadfa4e896bab87f262
   md5: bea133c30e342ebf7ae4c3791b65e8f8
   source: 'https://archive.org/download/shockpkg_packages_7/79/98/81c1c0f9193e890e7d001db6bc67473cdc4a62c6f5ccf9cb8ce1087b9914/flash_player_ppapi_linux.x86_64.tar.gz'
+  metadata:
+    date: '2021-04-13'
 
 - name: flash-player-34.0.0.137-linux-x86_64-ppapi-rpm-cn
   file: flash-player-ppapi-release.x86_64.rpm
@@ -109,3 +123,5 @@
   sha1: 671a28436bbe0c1f3609999daadbf9ef83acc34a
   md5: be434a48419ee741bda4226650486b4e
   source: 'https://archive.org/download/shockpkg_packages_2/20/32/be200a803fdf48a6006205c525b6ceab1598b9a000216ac43b03dd0d2af4/flash-player-ppapi-release.x86_64.rpm'
+  metadata:
+    date: '2021-04-13'
