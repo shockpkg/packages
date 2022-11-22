@@ -36,7 +36,7 @@ async function main() {
 		}
 
 		// eslint-disable-next-line no-await-in-loop
-		const response = await fetch(source, {
+		const response = await fetch(`${source}?_=${Date.now()}`, {
 			method: 'HEAD',
 			headers: {
 				'User-Agent': userAgent,

@@ -21,7 +21,7 @@ async function main() {
 		// eslint-disable-next-line no-await-in-loop
 		const cached = await ensure(
 			name,
-			source,
+			`${source}?_=${Date.now()}`,
 			progress => {
 				const p = progress * 100;
 				process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
