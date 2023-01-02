@@ -190,3 +190,11 @@
   sha1: 9c7c5f6061e0050c902d3cb6e4784e1c9ae1ec4e
   md5: e2aff0bc5994a68505407009b122bdfe
   source: https://archive.org/download/shockpkg_packages_5/5f/45/80921b520983ffcfe586baa3c331c75075ce1f3f0dadd65b3601fe5d7cb0/flashplayer19_0r0_185_mac_sa_debug.zip
+
+- name: flash-player-19.0.0.185-linux-armv7-ppapi-so
+  file: libpepflashplayer.so
+  size: 17825860
+  sha256: 884b65456550fb6294d6d882879e764bc04adf6d5cf8aaf67b88c0d89dd61faa
+  sha1: 45490d0d1186a967bf94a6c65de93c3709191d9c
+  md5: 8b140f46df25d062d1a0be6bd039db80
+  source: https://archive.org/download/shockpkg_packages_8/88/4b/65456550fb6294d6d882879e764bc04adf6d5cf8aaf67b88c0d89dd61faa/libpepflashplayer.so

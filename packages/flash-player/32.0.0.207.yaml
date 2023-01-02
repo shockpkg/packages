@@ -323,3 +323,11 @@
   sha1: dd420a31e894d2bc3c22d89394b7d6589f2fbc5f
   md5: 7a819a072a238c0d5e120e72de450fcb
   source: https://archive.org/download/shockpkg_packages_a/a5/bd/e390752a8213ca200a5d53556c0abed40cc2dfd2dd92b276d795a8e0cc3a/flashplayer32_0r0_207_mac_sa_debug.zip
+
+- name: flash-player-32.0.0.207-linux-armv7-ppapi-so
+  file: libpepflashplayer.so
+  size: 20128696
+  sha256: b6c2377eae6ab97d8c0f79cc29f0afc0f8e2cdebbb6b1f484faa8b3c0167a169
+  sha1: 74a0e477fdedd3bc1f7331673f1e6bd5f7d5599f
+  md5: 429fbf8a386f7bcdf7d9725f8f41665c
+  source: https://archive.org/download/shockpkg_packages_b/b6/c2/377eae6ab97d8c0f79cc29f0afc0f8e2cdebbb6b1f484faa8b3c0167a169/libpepflashplayer.so

@@ -192,3 +192,11 @@
   sha1: e813bea55d8cde01e339a5ff6df1421a5e9446cd
   md5: 807a83f92bc1a72bd963ee568562cec2
   source: https://archive.org/download/shockpkg_packages_3/39/32/ed4b9f55afa3b7fb3055ae6372d06d0339de44901e5f7669e9eeffe8a602/flashplayer20_0r0_306_mac_sa_debug.zip
+
+- name: flash-player-20.0.0.306-linux-armv7-ppapi-so
+  file: libpepflashplayer.so
+  size: 18363032
+  sha256: a417f178a293384baa6999f3876126d20c27ab4770c4b62c261374b26acbe4b7
+  sha1: d0aa353cea6ac50ce49ce1653f880a10d9083448
+  md5: 0577a9b0975b61db64bf473a0f683a8d
+  source: https://archive.org/download/shockpkg_packages_a/a4/17/f178a293384baa6999f3876126d20c27ab4770c4b62c261374b26acbe4b7/libpepflashplayer.so

@@ -210,3 +210,11 @@
   sha1: 6b790cbaa60aba0f578537e16574d5786d56dde1
   md5: 33e09b02b49d25be94d733d95f78b10b
   source: https://archive.org/download/shockpkg_packages_6/64/f8/5c03746065c9566acee4a313db60093ed17ac727bb9b5b677e7cc8326a3d/flashplayer23_0r0_207_mac_sa_debug.zip
+
+- name: flash-player-23.0.0.207-linux-armv7-ppapi-so
+  file: libpepflashplayer.so
+  size: 19986120
+  sha256: 1ef6d75b01caac839918390c486e6951ff40d3b8caf4c0fb1e235540b69a96c9
+  sha1: e9260e54ce41d52d4a1b525117a122d5ea2dd6b0
+  md5: 7796fe46425df0ebfc9160fd14ddfbb5
+  source: https://archive.org/download/shockpkg_packages_1/1e/f6/d75b01caac839918390c486e6951ff40d3b8caf4c0fb1e235540b69a96c9/libpepflashplayer.so

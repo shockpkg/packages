@@ -237,3 +237,11 @@
   sha1: 5db81bef3b07f6c7b29ee3760cf72499c81651fb
   md5: 3d5e049ca8c01e2e64c31705f18959df
   source: https://fpdownload.macromedia.com/get/flashplayer/updaters/32/flash_player_sa_linux_debug.x86_64.tar.gz
+
+- name: flash-player-32.0.0.465-linux-armv7-ppapi-so
+  file: libpepflashplayer.so
+  size: 20538472
+  sha256: eabc0c05689952426b50f4a531df92151468e026888427d863bc613e8ef11b7f
+  sha1: dd7a8534b4c0915239698bb5501734228093669f
+  md5: 6d3f923a00423ef857034eb1d9012d95
+  source: https://archive.org/download/shockpkg_packages_e/ea/bc/0c05689952426b50f4a531df92151468e026888427d863bc613e8ef11b7f/libpepflashplayer.so
