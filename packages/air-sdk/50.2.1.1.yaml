@@ -1,0 +1,47 @@
+- name: air-sdk-50.2.1.1-windows
+  file: AIRSDK_Flex_Windows.zip
+  size: 539407316
+  sha256: 5dd0eeb2c1fce00492a3fc5ebbc9ed497d87d632b59a6a0f2d8e07ec7deeda58
+  sha1: eef038ec79f10c1208fd8dd6f67770241e3abff5
+  md5: a3a010748c476a91c11985ae2832390c
+  source: https://archive.org/download/shockpkg_packages_5/5d/d0/eeb2c1fce00492a3fc5ebbc9ed497d87d632b59a6a0f2d8e07ec7deeda58/AIRSDK_Flex_Windows.zip
+
+- name: air-sdk-50.2.1.1-windows-compiler
+  file: AIRSDK_Windows.zip
+  size: 576773622
+  sha256: 5a56df5f6ff21685d8ca628cd694efd1aca665181a3b64058672daaf505aacde
+  sha1: 54ddd70d2cb7daa0ceb3692bd6da0ff0b1a0fd7b
+  md5: bb1f607f8afdce90319a53cd62bf1dc3
+  source: https://archive.org/download/shockpkg_packages_5/5a/56/df5f6ff21685d8ca628cd694efd1aca665181a3b64058672daaf505aacde/AIRSDK_Windows.zip
+
+- name: air-sdk-50.2.1.1-mac
+  file: AIRSDK_Flex_MacOS.zip
+  size: 509315890
+  sha256: 940ce837b630b1f22e4c4462a874deb94cbbf3f978ce32d6928ab2901b70c4d7
+  sha1: d46eae17b17ca4918ff19dbdacad1550d5b60d67
+  md5: 9e0b86df25dbbe829678b94679bdf1e6
+  source: https://archive.org/download/shockpkg_packages_9/94/0c/e837b630b1f22e4c4462a874deb94cbbf3f978ce32d6928ab2901b70c4d7/AIRSDK_Flex_MacOS.zip
+
+- name: air-sdk-50.2.1.1-mac-compiler
+  file: AIRSDK_MacOS.zip
+  size: 546674451
+  sha256: aa6ce3beb08a70ba938634721a46fb95980c3f0ce357132f2f23d7834d270711
+  sha1: e565c53617e5ce226f6696de45a3e60298ac4076
+  md5: 88dc05d25de1b0203571b49cb7bdbb1b
+  source: https://archive.org/download/shockpkg_packages_a/aa/6c/e3beb08a70ba938634721a46fb95980c3f0ce357132f2f23d7834d270711/AIRSDK_MacOS.zip
+
+- name: air-sdk-50.2.1.1-linux
+  file: AIRSDK_Flex_Linux.zip
+  size: 165526780
+  sha256: cff28fead7646fe69c1b16956fd73232a53724fc1ce482cd1ea790e39b67f112
+  sha1: 720dad8237cf8bbe39740c77059d1695418c4145
+  md5: 61a202b85569275978c2e06b6dfa3259
+  source: https://archive.org/download/shockpkg_packages_c/cf/f2/8fead7646fe69c1b16956fd73232a53724fc1ce482cd1ea790e39b67f112/AIRSDK_Flex_Linux.zip
+
+- name: air-sdk-50.2.1.1-linux-compiler
+  file: AIRSDK_Linux.zip
+  size: 202885341
+  sha256: 1c2e2688a67f27d43fca493718a981c0455bb6c8d2dedd17478226ad9b5f375b
+  sha1: cff63e0668e147bbc4ca885876e55549a9c01efd
+  md5: 83148e7e27fa137d633b676053c028ab
+  source: https://archive.org/download/shockpkg_packages_1/1c/2e/2688a67f27d43fca493718a981c0455bb6c8d2dedd17478226ad9b5f375b/AIRSDK_Linux.zip
