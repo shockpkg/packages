@@ -4,7 +4,7 @@
   sha256: 3eebc1b36c569e6c208aa19b2b750c5ab38029b64e2792bd2292ca18766d63dc
   sha1: 4cb9c9427b1351c4d049803c820b538ab0f72aa6
   md5: 2509291d41cc325ba21ed6b9cf4306f2
-  source: https://archive.apache.org/dist/flex/tourdeflex/1.0/apache-flex-tour-de-flex-component-explorer-1.0-src.tar.gz
+  source: https://archive.org/download/shockpkg_packages_3/3e/eb/c1b36c569e6c208aa19b2b750c5ab38029b64e2792bd2292ca18766d63dc/apache-flex-tour-de-flex-component-explorer-1.0-src.tar.gz
 
 - name: flex-tourdeflex-1.0-src-zip
   file: apache-flex-tour-de-flex-component-explorer-1.0-src.zip
@@ -12,4 +12,4 @@
   sha256: b17c24328a9796734adf7341a4ceca679358e977e7758cf56f811c2e1aa29fec
   sha1: 7c169f2fc987c7d9cdf4ac01ba6bfad7b56f82b8
   md5: d26fc1eb041640871a87df60754297f1
-  source: https://archive.apache.org/dist/flex/tourdeflex/1.0/apache-flex-tour-de-flex-component-explorer-1.0-src.zip
+  source: https://archive.org/download/shockpkg_packages_b/b1/7c/24328a9796734adf7341a4ceca679358e977e7758cf56f811c2e1aa29fec/apache-flex-tour-de-flex-component-explorer-1.0-src.zip

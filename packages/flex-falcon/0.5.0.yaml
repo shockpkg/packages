@@ -4,7 +4,7 @@
   sha256: 598df7d11607a673510cbc606f107fbffb3208715d7dd97c12233b9c4073aee6
   sha1: 8e45301da7d95c7c409f8ab64b5b9b64da649e48
   md5: 2f69bfdfc0017acc92c500003468317c
-  source: https://archive.apache.org/dist/flex/falcon/0.5.0/binaries/apache-flex-falconjx-0.5.0-bin.tar.gz
+  source: https://archive.org/download/shockpkg_packages_5/59/8d/f7d11607a673510cbc606f107fbffb3208715d7dd97c12233b9c4073aee6/apache-flex-falconjx-0.5.0-bin.tar.gz
 
 - name: flex-falcon-0.5.0-bin-zip
   file: apache-flex-falconjx-0.5.0-bin.zip
@@ -12,7 +12,7 @@
   sha256: 5a07c852b6ae1c31321cd4521b22adf2b03581a9f4fa4422a543fbe169dc784a
   sha1: 529eb5eb2c6d2cb05d9fe819e9e1e6074012607b
   md5: ff0af04ebfcbad5160d79a3782dc3fd0
-  source: https://archive.apache.org/dist/flex/falcon/0.5.0/binaries/apache-flex-falconjx-0.5.0-bin.zip
+  source: https://archive.org/download/shockpkg_packages_5/5a/07/c852b6ae1c31321cd4521b22adf2b03581a9f4fa4422a543fbe169dc784a/apache-flex-falconjx-0.5.0-bin.zip
 
 - name: flex-falcon-0.5.0-src-tar-gz
   file: apache-flex-falconjx-0.5.0-src.tar.gz
@@ -20,7 +20,7 @@
   sha256: 4b36b49f0859b74159f577665d7801e94657c234c604faae57a2dfd9e39fb7ba
   sha1: 71cb70c7ccd791b11cbc7c952be2b98c23ed3cc9
   md5: fb68ee8d33d2a7b8367145bf7a69a5da
-  source: https://archive.apache.org/dist/flex/falcon/0.5.0/apache-flex-falconjx-0.5.0-src.tar.gz
+  source: https://archive.org/download/shockpkg_packages_4/4b/36/b49f0859b74159f577665d7801e94657c234c604faae57a2dfd9e39fb7ba/apache-flex-falconjx-0.5.0-src.tar.gz
 
 - name: flex-falcon-0.5.0-src-zip
   file: apache-flex-falconjx-0.5.0-src.zip
@@ -28,4 +28,4 @@
   sha256: 9929f149293cb89c64ef8f401fb8cafca38aa38bfbc06cb7808a5ab3fca717ec
   sha1: c6d540a437e062e0c5e24100a770b493b90e0abf
   md5: 8e70d8182055ace9db809ed4924ea785
-  source: https://archive.apache.org/dist/flex/falcon/0.5.0/apache-flex-falconjx-0.5.0-src.zip
+  source: https://archive.org/download/shockpkg_packages_9/99/29/f149293cb89c64ef8f401fb8cafca38aa38bfbc06cb7808a5ab3fca717ec/apache-flex-falconjx-0.5.0-src.zip

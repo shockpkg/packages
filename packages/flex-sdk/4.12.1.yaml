@@ -4,7 +4,7 @@
   sha256: 7dae49bbd20edde9d52aa53c144ccb33b44fa0884bab6033872f9b4c623deaab
   sha1: 9d14529a607cd8260f4b37557f8989307fa5e7b9
   md5: b2e8b13398de4f15d16ac65d876545bd
-  source: https://archive.apache.org/dist/flex/4.12.1/binaries/apache-flex-sdk-4.12.1-bin.tar.gz
+  source: https://archive.org/download/shockpkg_packages_7/7d/ae/49bbd20edde9d52aa53c144ccb33b44fa0884bab6033872f9b4c623deaab/apache-flex-sdk-4.12.1-bin.tar.gz
 
 - name: flex-sdk-4.12.1-bin-zip
   file: apache-flex-sdk-4.12.1-bin.zip
@@ -12,7 +12,7 @@
   sha256: 2394f581c38a2f5489dbf011e6609dfe33ddf01ccfaefb5161cbb69a86b81eb9
   sha1: f4c4175fb6c530a9b296f9c6daeba4f09abff3cf
   md5: 31cc6fad8255932c5b23cf55be0160db
-  source: https://archive.apache.org/dist/flex/4.12.1/binaries/apache-flex-sdk-4.12.1-bin.zip
+  source: https://archive.org/download/shockpkg_packages_2/23/94/f581c38a2f5489dbf011e6609dfe33ddf01ccfaefb5161cbb69a86b81eb9/apache-flex-sdk-4.12.1-bin.zip
 
 - name: flex-sdk-4.12.1-src-tar-gz
   file: apache-flex-sdk-4.12.1-src.tar.gz
@@ -20,7 +20,7 @@
   sha256: f7853eadd482683ef5450f8e5c60a1c401efb4d7de0a61c3d870835a8252e9fc
   sha1: 0ae5ec2c50a277e7c12fb5a2babf4579cc66398b
   md5: 6e8608ca8dfe82fc662692798b5e8140
-  source: https://archive.apache.org/dist/flex/4.12.1/apache-flex-sdk-4.12.1-src.tar.gz
+  source: https://archive.org/download/shockpkg_packages_f/f7/85/3eadd482683ef5450f8e5c60a1c401efb4d7de0a61c3d870835a8252e9fc/apache-flex-sdk-4.12.1-src.tar.gz
 
 - name: flex-sdk-4.12.1-src-zip
   file: apache-flex-sdk-4.12.1-src.zip
@@ -28,7 +28,7 @@
   sha256: dd974532989ce12d43106cdedd161f89425160b293b791b9663d1cd7a152a3b0
   sha1: bec091240840dfa9d41db0f838549409bec087ba
   md5: 9c6ade553af6de5fa640b5019997288f
-  source: https://archive.apache.org/dist/flex/4.12.1/apache-flex-sdk-4.12.1-src.zip
+  source: https://archive.org/download/shockpkg_packages_d/dd/97/4532989ce12d43106cdedd161f89425160b293b791b9663d1cd7a152a3b0/apache-flex-sdk-4.12.1-src.zip
 
 - name: flex-sdk-4.12.1-asdocs
   file: apache-flex-sdk-4.12.1-asdocs.zip
@@ -36,4 +36,4 @@
   sha256: 6acc0b4ab31c00f82d2589beed36bab1d203fd124c1d2b03542fd8b014df9402
   sha1: 56dae2c102ee2fed3b43f7d97fc5f7fc57f2e22f
   md5: 677e7c209d329859aba10ee38317c58d
-  source: https://archive.apache.org/dist/flex/4.12.1/docs/apache-flex-sdk-4.12.1-asdocs.zip
+  source: https://archive.org/download/shockpkg_packages_6/6a/cc/0b4ab31c00f82d2589beed36bab1d203fd124c1d2b03542fd8b014df9402/apache-flex-sdk-4.12.1-asdocs.zip

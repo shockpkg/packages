@@ -4,7 +4,7 @@
   sha256: d4fc5a91de46280d6d6b23f83905c85a9521927f601a016f46997adcaaa709d4
   sha1: 504f65a47270541d91ec0ad2b7cb5be80836b654
   md5: 2b1a4b7a595b09f7b6b2f32c3ae8f45e
-  source: https://archive.apache.org/dist/flex/squiggly/1.1/apache-flex-squiggly-1.1-bin.tar.gz
+  source: https://archive.org/download/shockpkg_packages_d/d4/fc/5a91de46280d6d6b23f83905c85a9521927f601a016f46997adcaaa709d4/apache-flex-squiggly-1.1-bin.tar.gz
 
 - name: flex-squiggly-1.1-bin-zip
   file: apache-flex-squiggly-1.1-bin.zip
@@ -12,7 +12,7 @@
   sha256: e1147a6eb0d4dee7841b3b465465b1b6b5e47b0be26f799e3c4b75df4b3536cd
   sha1: 789a8504c2c6a7026c454b70f26910a0d64c854c
   md5: 37492c23b9c4ec03911854f49e632a52
-  source: https://archive.apache.org/dist/flex/squiggly/1.1/apache-flex-squiggly-1.1-bin.zip
+  source: https://archive.org/download/shockpkg_packages_e/e1/14/7a6eb0d4dee7841b3b465465b1b6b5e47b0be26f799e3c4b75df4b3536cd/apache-flex-squiggly-1.1-bin.zip
 
 - name: flex-squiggly-1.1-src-tar-gz
   file: apache-flex-squiggly-1.1-src.tar.gz
@@ -20,7 +20,7 @@
   sha256: 77956c215c0fea0e8449be86b1769b34ce92e6a14e9908a4a79161ed87ea66df
   sha1: a058e53aa6e6d58b98a698bb079caac4ed62884a
   md5: fe67d864204e496b2444258e375ee45a
-  source: https://archive.apache.org/dist/flex/squiggly/1.1/apache-flex-squiggly-1.1-src.tar.gz
+  source: https://archive.org/download/shockpkg_packages_7/77/95/6c215c0fea0e8449be86b1769b34ce92e6a14e9908a4a79161ed87ea66df/apache-flex-squiggly-1.1-src.tar.gz
 
 - name: flex-squiggly-1.1-src-zip
   file: apache-flex-squiggly-1.1-src.zip
@@ -28,4 +28,4 @@
   sha256: 23f3b489d918a9fd4b1763c444f90273e58a9e5babd9d1c2a73f1e500918c01b
   sha1: 9bf88d1234afaae37d7f64d404ab55bdd643eb1c
   md5: b5230e5265516d774fd7d5daf7a7fa81
-  source: https://archive.apache.org/dist/flex/squiggly/1.1/apache-flex-squiggly-1.1-src.zip
+  source: https://archive.org/download/shockpkg_packages_2/23/f3/b489d918a9fd4b1763c444f90273e58a9e5babd9d1c2a73f1e500918c01b/apache-flex-squiggly-1.1-src.zip

@@ -333,7 +333,7 @@
   sha256: a4480d9aeebe2c525c5c681ef61aa3a64139c5c6bd8fc295acfa2cc7e9be41aa
   sha1: ecddda28954ce26882cea0f6578af326d7c6e76c
   md5: 3c94ccbc2d4535ab78ad2c3eb1cd1777
-  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/6.0r69/install_flash_player_6_linux.tar.gz
+  source: https://archive.org/download/shockpkg_packages_a/a4/48/0d9aeebe2c525c5c681ef61aa3a64139c5c6bd8fc295acfa2cc7e9be41aa/install_flash_player_6_linux.tar.gz
 
 - name: flash-player-6.0.79.0-linux
   file: install_flash_player_6_linux.tar.gz
@@ -341,7 +341,7 @@
   sha256: e055f8207b93934845365bde0a7356cfc4deee207081f23b9bdf17da0d5d9738
   sha1: 2088edbae9816b04cf13ad6b82b0847e917ba234
   md5: a6f73da96f89d3dba4fadd4020dd7f38
-  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/6.0r79/install_flash_player_6_linux.tar.gz
+  source: https://archive.org/download/shockpkg_packages_e/e0/55/f8207b93934845365bde0a7356cfc4deee207081f23b9bdf17da0d5d9738/install_flash_player_6_linux.tar.gz
 
 - name: flash-player-6.0.79.0-linux-sa
   file: install_flash_player_6_r79_linux_sa.tar.gz
@@ -349,7 +349,7 @@
   sha256: 5a374ff347522957bef9d5c772beedc9cc29212500e50f1cc1ca2fda18ecd89f
   sha1: d59136136c01a55ef4744ea1379549dee3e7f2e5
   md5: 231280b564ce266c8e6e4e9d29c7b15c
-  source: https://download.macromedia.com/get/flash/updates/mx/player6/install_flash_player_6_r79_linux_sa.tar.gz
+  source: https://archive.org/download/shockpkg_packages_5/5a/37/4ff347522957bef9d5c772beedc9cc29212500e50f1cc1ca2fda18ecd89f/install_flash_player_6_r79_linux_sa.tar.gz
 
 - name: flash-player-6.0.81.0-solaris
   file: flash_player_6_solaris_intel.tar.gz
@@ -357,4 +357,4 @@
   sha256: 18d34995b0a0c89db96b043f6f2466375a438c452d0bd1169beaf82c503af2cf
   sha1: 1eedac491a23ff5516ebdc4afc576f806c38ace7
   md5: 0ac08fd722522c32a57399d132b245dc
-  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/intel/6.0r81/flash_player_6_solaris_intel.tar.gz
+  source: https://archive.org/download/shockpkg_packages_1/18/d3/4995b0a0c89db96b043f6f2466375a438c452d0bd1169beaf82c503af2cf/flash_player_6_solaris_intel.tar.gz

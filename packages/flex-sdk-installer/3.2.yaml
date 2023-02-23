@@ -4,7 +4,7 @@
   sha256: ca4f944ae80fa91272ba71b8b7c35eb2c6a19f2ae102a235aef007c514e6d02f
   sha1: 21e3a83edc1e010c538f4504c9da97584c7e2080
   md5: 1f3dab7f4e77236ffbab7d2029634862
-  source: https://archive.apache.org/dist/flex/installer/3.2/binaries/apache-flex-sdk-installer-3.2.0-bin.exe
+  source: https://archive.org/download/shockpkg_packages_c/ca/4f/944ae80fa91272ba71b8b7c35eb2c6a19f2ae102a235aef007c514e6d02f/apache-flex-sdk-installer-3.2.0-bin.exe
 
 - name: flex-sdk-installer-3.2-bin-mac
   file: apache-flex-sdk-installer-3.2.0-bin.dmg
@@ -12,7 +12,7 @@
   sha256: ad69b1e56dd3ea4436b95eda3a16e610e314b63607aee8490aeb6a113fbcd9f7
   sha1: a5b1c3c88ba25fdf42122c92c9dc44f0d82fc03b
   md5: 104dcc7f84e0e0ec634654b858219fcd
-  source: https://archive.apache.org/dist/flex/installer/3.2/binaries/apache-flex-sdk-installer-3.2.0-bin.dmg
+  source: https://archive.org/download/shockpkg_packages_a/ad/69/b1e56dd3ea4436b95eda3a16e610e314b63607aee8490aeb6a113fbcd9f7/apache-flex-sdk-installer-3.2.0-bin.dmg
 
 - name: flex-sdk-installer-3.2-src-tar-gz
   file: apache-flex-sdk-installer-3.2.0-src.tar.gz
@@ -20,7 +20,7 @@
   sha256: f8fb00d300c74609771b23e2bc5d9a97e22f793518245be5596d9a4177236f9e
   sha1: fe0e1cbb9dc9419cc21e554b7cae8133d68d6cee
   md5: d098e8f8034e5f8a29512e4332940c5c
-  source: https://archive.apache.org/dist/flex/installer/3.2/apache-flex-sdk-installer-3.2.0-src.tar.gz
+  source: https://archive.org/download/shockpkg_packages_f/f8/fb/00d300c74609771b23e2bc5d9a97e22f793518245be5596d9a4177236f9e/apache-flex-sdk-installer-3.2.0-src.tar.gz
 
 - name: flex-sdk-installer-3.2-src-zip
   file: apache-flex-sdk-installer-3.2.0-src.zip
@@ -28,4 +28,4 @@
   sha256: f638661b2437eb666563e498efc9c11eac37f690b0e99f428e528eb933980baa
   sha1: 98177973e387773307917325f16ff2b96a00d57d
   md5: c99480f2c18b36777d96ed40b1c80630
-  source: https://archive.apache.org/dist/flex/installer/3.2/apache-flex-sdk-installer-3.2.0-src.zip
+  source: https://archive.org/download/shockpkg_packages_f/f6/38/661b2437eb666563e498efc9c11eac37f690b0e99f428e528eb933980baa/apache-flex-sdk-installer-3.2.0-src.zip

@@ -196,7 +196,7 @@
   sha256: 15baa1e4ca1f14ead6685a1c2df73fc888db37cb0116928c07a70235563ff989
   sha1: 843eb01e38a88dd9924beb7f68db0e59a1934f1a
   md5: 32e7cd660f44e23db1d5fbc294622f46
-  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/5.0r48/flash_linux.tar.gz
+  source: https://archive.org/download/shockpkg_packages_1/15/ba/a1e4ca1f14ead6685a1c2df73fc888db37cb0116928c07a70235563ff989/flash_linux.tar.gz
 
 - name: flash-player-5.0.51.0-linux
   file: flash_linux.tar.gz
@@ -204,7 +204,7 @@
   sha256: 3a10f49c6ec2ceb8954cae36368a8cbb56a5da1ad486ab3889435ee4f7d2273c
   sha1: 757b616634b3d9398d76437c5c41927fb91f0b9d
   md5: 0585bd78ef9fbe6ae7d63f42a450f127
-  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/linux/5.0r51/flash_linux.tar.gz
+  source: https://archive.org/download/shockpkg_packages_3/3a/10/f49c6ec2ceb8954cae36368a8cbb56a5da1ad486ab3889435ee4f7d2273c/flash_linux.tar.gz
 
 - name: flash-player-5.0.52.0-solaris
   file: flash_solaris.tar.gz
@@ -212,7 +212,7 @@
   sha256: ea2f51fe4ae2cff35809a563180e721e4954eba920e255ab4fad19e2a0536c37
   sha1: c6e71f85ad9dfb00814f3aa574c88d73ac987586
   md5: c9d782711553efabc0bcf8b0c3850cc4
-  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/5.0r52/flash_solaris.tar.gz
+  source: https://archive.org/download/shockpkg_packages_e/ea/2f/51fe4ae2cff35809a563180e721e4954eba920e255ab4fad19e2a0536c37/flash_solaris.tar.gz
 
 - name: flash-player-5.0.53.0-solaris
   file: flash_solaris.tar.gz
@@ -220,7 +220,7 @@
   sha256: 6449eb8d99b30ccd66611001a15e49748e8a8ccead1fe6b2018c4269f1b6e328
   sha1: 8b5c858b0c7dcc10363013eff8f04b93600645f8
   md5: 62dc28bc8232842ad8715ac159910df8
-  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/5.0r53/flash_solaris.tar.gz
+  source: https://archive.org/download/shockpkg_packages_6/64/49/eb8d99b30ccd66611001a15e49748e8a8ccead1fe6b2018c4269f1b6e328/flash_solaris.tar.gz
 
 - name: flash-player-5.0.55.0-solaris
   file: flash_solaris.tar.gz
@@ -228,4 +228,4 @@
   sha256: 8149bf0d8e7b6a768c22b39194b9ca8d95d15cae146b41f9f4f54f32b7bd5686
   sha1: 6fa0e4f61291f9ab28230cd0f3f26abe53f1fc61
   md5: 09bada3709bd2fb7d653db8105d52fce
-  source: https://fpdownload.macromedia.com/get/shockwave/flash/english/solaris/5.0r55/flash_solaris.tar.gz
+  source: https://archive.org/download/shockpkg_packages_8/81/49/bf0d8e7b6a768c22b39194b9ca8d95d15cae146b41f9f4f54f32b7bd5686/flash_solaris.tar.gz

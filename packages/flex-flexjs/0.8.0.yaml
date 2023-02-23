@@ -4,7 +4,7 @@
   sha256: adb61e770f17fb091d7553cec9b07cf478d9d0085b04d26624e35438add64800
   sha1: 9544336e1347c5b1bcb4d50e6707b9ede2555c1d
   md5: c306cf3b3b8a3b668e62fc2e0090b9a0
-  source: https://archive.apache.org/dist/flex/flexjs/0.8.0/binaries/apache-flex-flexjs-0.8.0-bin.tar.gz
+  source: https://archive.org/download/shockpkg_packages_a/ad/b6/1e770f17fb091d7553cec9b07cf478d9d0085b04d26624e35438add64800/apache-flex-flexjs-0.8.0-bin.tar.gz
 
 - name: flex-flexjs-0.8.0-bin-zip
   file: apache-flex-flexjs-0.8.0-bin.zip
@@ -12,7 +12,7 @@
   sha256: 811fde2d3e483774dd03e97f22d7e823dcd03436d02178210e5eb9e23b72854b
   sha1: 6d40b2cfc265ca2148e08685328612693895fcad
   md5: b800a058a9abe74db79893ce1fae9185
-  source: https://archive.apache.org/dist/flex/flexjs/0.8.0/binaries/apache-flex-flexjs-0.8.0-bin.zip
+  source: https://archive.org/download/shockpkg_packages_8/81/1f/de2d3e483774dd03e97f22d7e823dcd03436d02178210e5eb9e23b72854b/apache-flex-flexjs-0.8.0-bin.zip
 
 - name: flex-flexjs-0.8.0-src-tar-gz
   file: apache-flex-flexjs-0.8.0-src.tar.gz
@@ -20,7 +20,7 @@
   sha256: 32f77435623bfdcbe8f70045ec456227e5e6f046827527d04b1ff1a172fa4754
   sha1: d3c51111ee66bd8710ff0c191df85c2ef826d30a
   md5: 392620ca622326d154381166b21e94a2
-  source: https://archive.apache.org/dist/flex/flexjs/0.8.0/apache-flex-flexjs-0.8.0-src.tar.gz
+  source: https://archive.org/download/shockpkg_packages_3/32/f7/7435623bfdcbe8f70045ec456227e5e6f046827527d04b1ff1a172fa4754/apache-flex-flexjs-0.8.0-src.tar.gz
 
 - name: flex-flexjs-0.8.0-src-zip
   file: apache-flex-flexjs-0.8.0-src.zip
@@ -28,4 +28,4 @@
   sha256: 986afcb1213185c8adcdde22fc23fb495ba602803db41bfce7304bbf82d47b89
   sha1: 71141964303c36d7600ec6489238a920d9cfd0f8
   md5: 12fd6aa948267aa665d13ee8b42d5e56
-  source: https://archive.apache.org/dist/flex/flexjs/0.8.0/apache-flex-flexjs-0.8.0-src.zip
+  source: https://archive.org/download/shockpkg_packages_9/98/6a/fcb1213185c8adcdde22fc23fb495ba602803db41bfce7304bbf82d47b89/apache-flex-flexjs-0.8.0-src.zip

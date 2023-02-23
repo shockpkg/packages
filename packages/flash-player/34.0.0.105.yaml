@@ -20,7 +20,7 @@
   sha256: a967fe37132dfc787f3df0c6836ad7b44abc209826cbf34564ecafc0ff229a2b
   sha1: 6b35cf0d61d9fe21e7e6ee0c6fc97866c48ece0d
   md5: 4cad90c231cd209ec1880e0ac1a8be4a
-  source: https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player.exe
+  source: https://archive.org/download/shockpkg_packages_a/a9/67/fe37132dfc787f3df0c6836ad7b44abc209826cbf34564ecafc0ff229a2b/uninstall_flash_player.exe
 
 - name: flash-player-34.0.0.105-mac-uninstaller
   file: uninstall_flash_player_osx.dmg
@@ -28,7 +28,7 @@
   sha256: 1c5f28c6c7774a496bb0f58528db1c74bcb840cf7a7369792be016543fbd9ff1
   sha1: c2c7e93c82bd135dc2a813eae7db35a2ebe017d9
   md5: 0192a60869e5ddca1da4050aaef134e1
-  source: https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player_osx.dmg
+  source: https://archive.org/download/shockpkg_packages_1/1c/5f/28c6c7774a496bb0f58528db1c74bcb840cf7a7369792be016543fbd9ff1/uninstall_flash_player_osx.dmg
 
 - name: flash-player-34.0.0.105-linux-x86_64-npapi-cn
   file: flash_player_npapi_linux.x86_64.tar.gz
