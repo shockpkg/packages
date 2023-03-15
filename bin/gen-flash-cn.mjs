@@ -8,6 +8,9 @@ import {list, userAgent} from '../util/flashcn.mjs';
 import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
 import {packages as encodePackages} from '../util/yaml.mjs';
+import {flat} from '../util/packages.mjs';
+
+const bySha256 = new Map(flat.map(o => [o.sha256, o]));
 
 async function main() {
 	const all = await list();
@@ -48,6 +51,12 @@ async function main() {
 		console.log(`SHA256: ${sha256}`);
 		console.log(`SHA1: ${sha1}`);
 		console.log(`MD5: ${md5}`);
+
+		if (bySha256.has(sha256)) {
+			console.log('UNCHANGED');
+			console.log('');
+			continue;
+		}
 
 		doc.push({
 			name,
