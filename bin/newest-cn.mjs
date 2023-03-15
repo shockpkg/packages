@@ -20,7 +20,7 @@ async function main() {
 		console.log(`URL: ${source}`);
 
 		const pkg = byName.get(name);
-		const dated = pkg.metadata?.date;
+		const dated = pkg?.metadata?.date;
 		if (!date || !pkg) {
 			failed.add(name);
 			console.log(`Error: Unknown package: ${name}`);
