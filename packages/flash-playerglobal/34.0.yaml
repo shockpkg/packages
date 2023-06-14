@@ -27,3 +27,13 @@
   source: https://archive.org/download/shockpkg_packages_c/c7/64/22cccab27ba160187b362a5b501a254bdd887873b9f472b96bedeca34a70/playerglobal.swc
   metadata:
     date: '2022-03-14'
+
+- name: flash-playerglobal-34.0.0.289-cn
+  file: playerglobal.swc
+  size: 472505
+  sha256: ad0d086280d94007240a6fec89bcc8caef5b03ba55c4f95f8096a1c82b3788c0
+  sha1: 5d14639a43ad3a7276b1da12952ca5fb36b2db76
+  md5: 6fc06c12d98e182c146a3c9cb65f7a73
+  source: https://archive.org/download/shockpkg_packages_a/ad/0d/086280d94007240a6fec89bcc8caef5b03ba55c4f95f8096a1c82b3788c0/playerglobal.swc
+  metadata:
+    date: '2023-06-13'
