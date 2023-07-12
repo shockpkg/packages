@@ -13,14 +13,16 @@ async function main() {
 	const failed = new Set();
 
 	const listed = await list();
-	const expected = new Map(
-		(await packageRead('air-sdk', listed.version))
-			.map(p => [p.name, p.size])
-	);
 	const cookie = cookies(listed.cookies);
-	for (const {name, source} of listed.downloads) {
+	for (const {name, version, source} of listed.downloads) {
 		console.log(`Checking: ${name}`);
 		console.log(`URL: ${source}`);
+
+		const expected = new Map(
+			// eslint-disable-next-line no-await-in-loop
+			(await packageRead('air-sdk', version).catch(_ => []))
+				.map(p => [p.name, p.size])
+		);
 
 		// eslint-disable-next-line no-await-in-loop
 		const response = await fetch(source, {

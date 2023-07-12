@@ -27,18 +27,15 @@ export async function list() {
 		.filter(c => c.startsWith('JSESSIONID='));
 
 	const {latestVersion, id} = data;
-	const {versionName: version, links} = latestVersion;
-	if (!/^\d+\.\d+\.\d+\.\d+$/.test(version)) {
-		throw new Error(`Version format: ${version}`);
-	}
+	const {links} = latestVersion;
 
 	const mappins = [
-		[`air-sdk-${version}-windows`, 'SDK_FLEX_WIN'],
-		[`air-sdk-${version}-windows-compiler`, 'SDK_AS_WIN'],
-		[`air-sdk-${version}-mac`, 'SDK_FLEX_MAC'],
-		[`air-sdk-${version}-mac-compiler`, 'SDK_AS_MAC'],
-		[`air-sdk-${version}-linux`, 'SDK_FLEX_LIN'],
-		[`air-sdk-${version}-linux-compiler`, 'SDK_AS_LIN']
+		['air-sdk-%version%-windows', 'SDK_FLEX_WIN'],
+		['air-sdk-%version%-windows-compiler', 'SDK_AS_WIN'],
+		['air-sdk-%version%-mac', 'SDK_FLEX_MAC'],
+		['air-sdk-%version%-mac-compiler', 'SDK_AS_MAC'],
+		['air-sdk-%version%-linux', 'SDK_FLEX_LIN'],
+		['air-sdk-%version%-linux-compiler', 'SDK_AS_LIN']
 	];
 
 	const allLinks = new Set(Object.keys(links));
@@ -55,8 +52,14 @@ export async function list() {
 	}
 
 	const downloads = [];
-	for (const [name, prop] of mappins) {
+	for (const [format, prop] of mappins) {
 		const link = links[prop];
+		const m = link.match(/\/(\d+\.\d+\.\d+\.\d+)\//);
+		if (!m) {
+			throw new Error(`Unknown version: ${link}`);
+		}
+		const [, version] = m;
+		const name = format.replace('%version%', version);
 		const source = addQueryParams((new URL(link, apiUrl)).href, {id});
 		const file = decodeURI(
 			source.split(/[?#]/)[0]
@@ -65,13 +68,13 @@ export async function list() {
 		);
 		downloads.push({
 			name,
+			version,
 			file,
 			source
 		});
 	}
 
 	return {
-		version,
 		downloads,
 		cookies
 	};
