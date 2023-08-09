@@ -16,14 +16,14 @@
 		"async": "^3.2.4",
 		"buffer-crc32": "^0.2.13",
 		"cheerio": "^1.0.0-rc.12",
-		"eslint": "^8.27.0",
-		"glob": "^8.0.3",
-		"jasmine": "^4.5.0",
-		"jasmine-core": "^4.5.0",
+		"eslint": "^8.46.0",
+		"glob": "^10.3.3",
+		"jasmine": "^5.1.0",
+		"jasmine-core": "^5.1.0",
 		"jasmine-spec-reporter": "^7.0.0",
 		"js-yaml": "^4.1.0",
-		"node-fetch": "^3.2.10",
-		"rimraf": "^3.0.2",
+		"node-fetch": "^3.3.2",
+		"rimraf": "^5.0.1",
 		"yauzl": "^2.10.0"
 	}
 }
