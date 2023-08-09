@@ -3,7 +3,6 @@
 /* eslint-disable no-console */
 
 import {queue as asyncQueue} from 'async';
-import fetch from 'node-fetch';
 
 import {packages} from '../util/packages.mjs';
 

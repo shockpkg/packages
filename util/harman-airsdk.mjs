@@ -1,5 +1,3 @@
-import fetch from 'node-fetch';
-
 // The API this page loads download list from.
 // https://airsdk.harman.com/download
 const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';

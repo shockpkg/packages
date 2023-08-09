@@ -2,8 +2,6 @@
 
 /* eslint-disable no-console */
 
-import fetch from 'node-fetch';
-
 import {list, userAgent} from '../util/flashcn.mjs';
 import {flat} from '../util/packages.mjs';
 

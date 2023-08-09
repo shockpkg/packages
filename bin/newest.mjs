@@ -3,7 +3,6 @@
 /* eslint-disable no-console */
 
 import {queue as asyncQueue} from 'async';
-import fetch from 'node-fetch';
 
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [

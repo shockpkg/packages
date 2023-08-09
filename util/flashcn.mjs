@@ -1,6 +1,5 @@
 import {createContext, runInContext} from 'vm';
 
-import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 
 // eslint-disable-next-line max-len

@@ -1,11 +1,9 @@
 import {createWriteStream} from 'fs';
 import {mkdir, rename, stat} from 'fs/promises';
 import {dirname, join as pathJoin} from 'path';
-import {pipeline} from 'stream';
+import {pipeline, Readable} from 'stream';
 import {promisify} from 'util';
 import {fileURLToPath} from 'url';
-
-import fetch from 'node-fetch';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -47,8 +45,9 @@ export async function download(name, url, onprogress = null, headers = {}) {
 
 		onprogress(0);
 		const contentLength = +response.headers.get('content-length');
-		const p = pipe(response.body, createWriteStream(fileCacheTmp));
-		response.body.on('data', data => {
+		const body = Readable.fromWeb(response.body);
+		const p = pipe(body, createWriteStream(fileCacheTmp));
+		body.on('data', data => {
 			recievedLength += data.length;
 			onprogress(recievedLength / contentLength);
 		});

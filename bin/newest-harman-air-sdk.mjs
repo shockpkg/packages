@@ -2,8 +2,6 @@
 
 /* eslint-disable no-console */
 
-import fetch from 'node-fetch';
-
 import {list, cookies, userAgent} from '../util/harman-airsdk.mjs';
 import {read as packageRead} from '../util/package.mjs';
 

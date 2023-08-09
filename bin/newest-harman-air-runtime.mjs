@@ -6,8 +6,6 @@ import {readdir} from 'fs/promises';
 import {dirname} from 'path';
 import {fileURLToPath} from 'url';
 
-import fetch from 'node-fetch';
-
 import {read as packageRead} from '../util/package.mjs';
 import {buffer as hashBuffer} from '../util/hash.mjs';
 import {userAgent} from '../util/harman-airsdk.mjs';
