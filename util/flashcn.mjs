@@ -1,6 +1,6 @@
 import {createContext, runInContext} from 'vm';
 
-import cheerio from 'cheerio';
+import {load as cheerioLoad} from 'cheerio';
 
 // eslint-disable-next-line max-len
 export const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
@@ -174,7 +174,7 @@ async function listDebug() {
 	const js = await jsRes.text();
 	const {version, date} = parseJsVar(js, '__package_info');
 	const dated = dateNorm(date);
-	const $ = cheerio.load(html);
+	const $ = cheerioLoad(html);
 	const r = [];
 	$('.dc-download a').each((_, a) => {
 		const $a = $(a);
