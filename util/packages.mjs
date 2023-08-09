@@ -2,7 +2,7 @@ import {readFileSync} from 'fs';
 import {dirname, join as pathJoin} from 'path';
 import {fileURLToPath} from 'url';
 
-import glob from 'glob';
+import {globSync} from 'glob';
 import yaml from 'js-yaml';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -88,7 +88,7 @@ function comparePaths(a, b) {
 
 function read() {
 	const packagesDir = pathJoin(__dirname, '..', 'packages');
-	const files = glob.sync('*/*.yaml', {cwd: packagesDir});
+	const files = globSync('*/*.yaml', {cwd: packagesDir});
 	files.sort(comparePaths);
 
 	const prefixes = new Set();
