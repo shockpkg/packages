@@ -1,6 +1,6 @@
 import {createContext, runInContext} from 'vm';
 
-import {load as cheerioLoad} from 'cheerio';
+import {DOMParser} from '@xmldom/xmldom';
 
 // eslint-disable-next-line max-len
 export const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
@@ -151,6 +151,14 @@ async function listRelease() {
 	return r;
 }
 
+function c2a(a) {
+	const r = [];
+	for (let i = 0; i < a.length; i++) {
+		r.push(a[i]);
+	}
+	return r;
+}
+
 async function listDebug() {
 	const htmlUrl = 'https://www.flash.cn/support/debug-downloads';
 	const htmlRes = await fetch(htmlUrl, {
@@ -174,11 +182,14 @@ async function listDebug() {
 	const js = await jsRes.text();
 	const {version, date} = parseJsVar(js, '__package_info');
 	const dated = dateNorm(date);
-	const $ = cheerioLoad(html);
+
 	const r = [];
-	$('.dc-download a').each((_, a) => {
-		const $a = $(a);
-		const u = (new URL($a.attr('href'), htmlUrl));
+	const dom = (new DOMParser()).parseFromString(html, 'text/html');
+	const aTags = c2a(dom.getElementsByClassName('dc-download'))
+		.map(e => c2a(e.getElementsByTagName('a')))
+		.flat(1);
+	for (const a of aTags) {
+		const u = (new URL(a.getAttribute('href'), htmlUrl));
 		const source = getSource(u.href, version);
 		const file = urlFile(source);
 		if (/playerglobal/i.test(file)) {
@@ -215,7 +226,7 @@ async function listDebug() {
 		else {
 			throw new Error(`Unknown file type: ${file}`);
 		}
-	});
+	}
 	return r;
 }
 

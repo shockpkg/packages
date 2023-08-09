@@ -13,9 +13,9 @@
 		"build": "node ./bin/build.mjs"
 	},
 	"devDependencies": {
+		"@xmldom/xmldom": "^0.8.10",
 		"async": "^3.2.4",
 		"buffer-crc32": "^0.2.13",
-		"cheerio": "^1.0.0-rc.12",
 		"eslint": "^8.46.0",
 		"glob": "^10.3.3",
 		"jasmine": "^5.1.0",
