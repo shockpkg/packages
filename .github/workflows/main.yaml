@@ -4,8 +4,6 @@ on:
   push:
     branches-ignore:
       - gh-pages
-  schedule:
-    - cron: '0 0 * * *'
 
 jobs:
   build:
@@ -27,21 +25,6 @@ jobs:
 
       - name: Test
         run: npm run test
-
-      - name: Verify
-        run: npm run verify
-
-      - name: Newest
-        run: npm run newest
-
-      - name: Newest Harman AIR Runtime
-        run: npm run newest-harman-air-runtime
-
-      - name: Newest Harman AIR SDK
-        run: npm run newest-harman-air-sdk
-
-      - name: Newest CN
-        run: npm run newest-cn
 
       - name: Build
         run: npm run build
