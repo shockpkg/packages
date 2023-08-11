@@ -1,4 +1,4 @@
-name: main
+name: newest
 
 on:
   push:
