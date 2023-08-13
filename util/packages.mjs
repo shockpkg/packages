@@ -99,23 +99,31 @@ export async function read() {
 
 		// eslint-disable-next-line no-await-in-loop
 		const code = await readFile(filePath, 'utf8');
-
 		const doc = yaml.load(code);
 		packages.push(...doc);
 	}
 
+	const parents = new Map();
+	const roots = [];
+	const children = [];
 	const flat = [];
-	for (const queue = packages.slice(); queue.length;) {
-		const pkg = queue.shift();
-		flat.push(pkg);
+	for (const q = packages.slice(); q.length;) {
+		const pkg = q.shift();
 		if (pkg.packages) {
-			queue.unshift(...pkg.packages);
+			for (const p of pkg.packages) {
+				parents.set(p, pkg);
+			}
+			q.unshift(...pkg.packages);
 		}
+		flat.push(pkg);
+		(parents.has(pkg) ? children : roots).push(pkg);
 	}
 
 	return {
 		packages,
 		prefixes,
-		flat
+		flat,
+		roots,
+		children
 	};
 }
