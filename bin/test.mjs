@@ -7,7 +7,9 @@ import {basename} from 'path';
 
 import {read as readPackages} from '../util/packages.mjs';
 
-function properties(entries, entriesRoot, entriesChild, prefixes) {
+async function properties() {
+	const {roots, children, prefixes} = await readPackages();
+
 	const validatorsRoot = {
 		name: (root, value) => {
 			equal(typeof value, 'string');
@@ -72,7 +74,7 @@ function properties(entries, entriesRoot, entriesChild, prefixes) {
 	};
 	const allowedPropsChild = new Set(Object.keys(validatorsChild));
 
-	for (const entry of entriesRoot) {
+	for (const entry of roots) {
 		for (const p of Object.keys(validatorsRoot)) {
 			validatorsRoot[p](true, entry[p]);
 		}
@@ -81,7 +83,7 @@ function properties(entries, entriesRoot, entriesChild, prefixes) {
 		}
 	}
 
-	for (const entry of entriesChild) {
+	for (const entry of children) {
 		for (const p of Object.keys(validatorsChild)) {
 			validatorsChild[p](false, entry[p]);
 		}
@@ -91,12 +93,14 @@ function properties(entries, entriesRoot, entriesChild, prefixes) {
 	}
 }
 
-function rename(entries, entriesRoot, entriesChild, prefixes) {
+async function rename() {
+	const {roots, children} = await readPackages();
+
 	const renamedRoot = {
 		// None currently.
 	};
 
-	for (const entry of entriesRoot) {
+	for (const entry of roots) {
 		if (entry.name in renamedRoot) {
 			equal(entry.file, renamedRoot[entry.name]);
 		}
@@ -141,7 +145,7 @@ function rename(entries, entriesRoot, entriesChild, prefixes) {
 			'uninstall_flashplayer12_0r0_70_win.exe'
 	};
 
-	for (const entry of entriesChild) {
+	for (const entry of children) {
 		if (entry.name in renamedChild) {
 			equal(entry.file, renamedChild[entry.name]);
 		}
@@ -151,9 +155,11 @@ function rename(entries, entriesRoot, entriesChild, prefixes) {
 	}
 }
 
-function unique(entries, entriesRoot, entriesChild, prefixes) {
+async function unique() {
+	const {flat, roots} = await readPackages();
+
 	const keys = new Set();
-	for (const {name, sha256, sha1, md5} of entries) {
+	for (const {name, sha256, sha1, md5} of flat) {
 		ok(!keys.has(name));
 		keys.add(name);
 
@@ -168,12 +174,12 @@ function unique(entries, entriesRoot, entriesChild, prefixes) {
 	}
 
 	const urls = new Set();
-	for (const {source} of entriesRoot) {
+	for (const {source} of roots) {
 		ok(!urls.has(source));
 		urls.add(source);
 	}
 
-	for (const {packages} of entries) {
+	for (const {packages} of flat) {
 		if (!packages) {
 			continue;
 		}
@@ -186,12 +192,10 @@ function unique(entries, entriesRoot, entriesChild, prefixes) {
 	}
 }
 
-// eslint-disable-next-line require-await
 async function main() {
-	const {prefixes, flat, roots, children} = await readPackages();
-	properties(flat, roots, children, prefixes);
-	rename(flat, roots, children, prefixes);
-	unique(flat, roots, children, prefixes);
+	await properties();
+	await rename();
+	await unique();
 }
 main().catch(err => {
 	console.error(err);
