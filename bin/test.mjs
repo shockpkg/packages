@@ -13,10 +13,7 @@ async function properties() {
 	const validatorsRoot = {
 		name: (root, value) => {
 			equal(typeof value, 'string');
-			equal(value, value.toLowerCase());
-			match(value, /^[a-z]/);
-			match(value, /[a-z0-9]$/);
-			match(value, /^[-a-z0-9_.]+$/);
+			match(value, /^[a-z][-a-z0-9_.]*[a-z0-9]$/);
 			let prefixed = false;
 			for (const prefix of prefixes) {
 				if (!value.indexOf(`${prefix}-`)) {
@@ -35,12 +32,15 @@ async function properties() {
 			ok(value > 0);
 		},
 		sha256: (root, value) => {
+			equal(typeof value, 'string');
 			match(value, /^[a-z0-9]{64}$/);
 		},
 		sha1: (root, value) => {
+			equal(typeof value, 'string');
 			match(value, /^[a-z0-9]{40}$/);
 		},
 		md5: (root, value) => {
+			equal(typeof value, 'string');
 			match(value, /^[a-z0-9]{32}$/);
 		},
 		source: (root, value) => {
