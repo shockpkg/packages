@@ -6,7 +6,7 @@ import {mkdir, writeFile} from 'fs/promises';
 import {dirname, join as pathJoin} from 'path';
 import {fileURLToPath} from 'url';
 
-import {packages} from '../util/packages.mjs';
+import {read as readPackages} from '../util/packages.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -43,6 +43,7 @@ function transform(packages, version) {
 }
 
 async function main() {
+	const {packages} = await readPackages();
 	for (const v of [1]) {
 		// eslint-disable-next-line no-await-in-loop
 		await outputFile(pathJoin(distApi, `${v}`, file), JSON.stringify({

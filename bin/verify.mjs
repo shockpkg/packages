@@ -4,7 +4,7 @@
 
 import {queue as asyncQueue} from 'async';
 
-import {packages} from '../util/packages.mjs';
+import {read as readPackages} from '../util/packages.mjs';
 
 function archiveOrgParse(url) {
 	const u = new URL(url);
@@ -84,7 +84,7 @@ async function getMetadataForUrl(url) {
 async function main() {
 	const start = Date.now();
 
-	const pkgs = packages;
+	const {packages} = await readPackages();
 	let included = null;
 
 	// eslint-disable-next-line no-process-env
@@ -104,13 +104,13 @@ async function main() {
 	if (includes) {
 		const str = JSON.stringify(includes);
 		console.log(`Only checking those names including ${str}`);
-		included = pkgs.filter(pkg => pkg.name.includes(includes));
+		included = packages.filter(pkg => pkg.name.includes(includes));
 	}
 	else {
-		included = pkgs;
+		included = packages;
 	}
 
-	console.log(`Checking ${included.length} of ${pkgs.length}`);
+	console.log(`Checking ${included.length} of ${packages.length}`);
 	console.log('');
 
 	const retryStat = task => `${task.attempt}/${task.retries}`;

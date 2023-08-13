@@ -5,20 +5,9 @@
 import {equal, match, ok} from 'assert/strict';
 import {basename} from 'path';
 
-import {packages, prefixes} from '../util/packages.mjs';
+import {read as readPackages} from '../util/packages.mjs';
 
-const entries = [];
-const entriesRoot = [];
-const entriesChild = [];
-for (const itter = [...packages]; itter.length;) {
-	const entry = itter.shift();
-	if (entry.packages) {
-		itter.unshift(...entry.packages);
-	}
-	entries.push(entry);
-}
-
-function properties() {
+function properties(entries, entriesRoot, entriesChild, prefixes) {
 	const validatorsRoot = {
 		name: (root, value) => {
 			equal(typeof value, 'string');
@@ -102,7 +91,7 @@ function properties() {
 	}
 }
 
-function rename() {
+function rename(entries, entriesRoot, entriesChild, prefixes) {
 	const renamedRoot = {
 		// None currently.
 	};
@@ -162,7 +151,7 @@ function rename() {
 	}
 }
 
-function unique() {
+function unique(entries, entriesRoot, entriesChild, prefixes) {
 	const keys = new Set();
 	for (const {name, sha256, sha1, md5} of entries) {
 		ok(!keys.has(name));
@@ -199,9 +188,21 @@ function unique() {
 
 // eslint-disable-next-line require-await
 async function main() {
-	properties();
-	rename();
-	unique();
+	const {packages, prefixes} = await readPackages();
+	const entries = [];
+	const entriesRoot = [];
+	const entriesChild = [];
+	for (const itter = [...packages]; itter.length;) {
+		const entry = itter.shift();
+		if (entry.packages) {
+			itter.unshift(...entry.packages);
+		}
+		entries.push(entry);
+	}
+
+	properties(entries, entriesRoot, entriesChild, prefixes);
+	rename(entries, entriesRoot, entriesChild, prefixes);
+	unique(entries, entriesRoot, entriesChild, prefixes);
 }
 main().catch(err => {
 	console.error(err);

@@ -1,4 +1,4 @@
-import {readFileSync, readdirSync} from 'fs';
+import {readFile, readdir} from 'fs/promises';
 import {dirname, join as pathJoin} from 'path';
 import {fileURLToPath} from 'url';
 
@@ -85,9 +85,9 @@ function comparePaths(a, b) {
 	return 0;
 }
 
-function read() {
+export async function read() {
 	const packagesDir = pathJoin(__dirname, '..', 'packages');
-	const files = readdirSync(packagesDir, {recursive: true})
+	const files = (await readdir(packagesDir, {recursive: true}))
 		.filter(s => /^([^.][^/]*\/)*[^.][^/]*\.yaml$/.test(s))
 		.sort(comparePaths);
 
@@ -97,8 +97,8 @@ function read() {
 		const filePath = pathJoin(packagesDir, file);
 		prefixes.add(file.split(/[\\/]/)[0]);
 
-		// eslint-disable-next-line no-sync
-		const code = readFileSync(filePath, 'utf8');
+		// eslint-disable-next-line no-await-in-loop
+		const code = await readFile(filePath, 'utf8');
 
 		const doc = yaml.load(code);
 		packages.push(...doc);
@@ -120,6 +120,3 @@ function read() {
 		flat
 	};
 }
-
-const data = read();
-export const {packages, prefixes, flat} = data;

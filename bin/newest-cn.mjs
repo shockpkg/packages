@@ -3,11 +3,12 @@
 /* eslint-disable no-console */
 
 import {list, userAgent} from '../util/flashcn.mjs';
-import {flat} from '../util/packages.mjs';
-
-const byName = new Map(flat.map(o => [o.name, o]));
+import {read as readPackages} from '../util/packages.mjs';
 
 async function main() {
+	const {flat} = await readPackages();
+	const byName = new Map(flat.map(o => [o.name, o]));
+
 	const start = Date.now();
 	const passed = new Set();
 	const failed = new Set();
