@@ -109,8 +109,7 @@ export async function read() {
 		const pkg = queue.shift();
 		flat.push(pkg);
 		if (pkg.packages) {
-			queue.push(pkg.packages);
-			flat.push(...pkg.packages);
+			queue.unshift(...pkg.packages);
 		}
 	}
 
