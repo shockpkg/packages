@@ -2,8 +2,7 @@
 	"private": true,
 	"scripts": {
 		"lint": "eslint .",
-		"test": "jasmine",
-		"test-verbose": "SPEC_REPORTER=1 jasmine",
+		"test": "node ./bin/test.mjs",
 		"verify": "node ./bin/verify.mjs",
 		"newest": "node ./bin/newest.mjs",
 		"newest-harman-air-sdk": "node ./bin/newest-harman-air-sdk.mjs",
