@@ -52,7 +52,7 @@ function properties(entries, entriesRoot, entriesChild, prefixes) {
 			}
 		},
 		packages: (root, value) => {
-			if (value !== 'undefined') {
+			if (typeof value !== 'undefined') {
 				ok(Array.isArray(value));
 			}
 		},
@@ -190,14 +190,19 @@ function unique(entries, entriesRoot, entriesChild, prefixes) {
 async function main() {
 	const {packages, prefixes} = await readPackages();
 	const entries = [];
+	const entriesParents = new Map();
 	const entriesRoot = [];
 	const entriesChild = [];
 	for (const itter = [...packages]; itter.length;) {
 		const entry = itter.shift();
 		if (entry.packages) {
+			for (const pkg of entry.packages) {
+				entriesParents.set(pkg, entry);
+			}
 			itter.unshift(...entry.packages);
 		}
 		entries.push(entry);
+		(entriesParents.has(entry) ? entriesChild : entriesRoot).push(entry);
 	}
 
 	properties(entries, entriesRoot, entriesChild, prefixes);

@@ -105,8 +105,7 @@ export async function read() {
 	}
 
 	const flat = [];
-	const queue = packages.slice();
-	while (queue.length) {
+	for (const queue = packages.slice(); queue.length;) {
 		const pkg = queue.shift();
 		flat.push(pkg);
 		if (pkg.packages) {
@@ -114,6 +113,7 @@ export async function read() {
 			flat.push(...pkg.packages);
 		}
 	}
+
 	return {
 		packages,
 		prefixes,
