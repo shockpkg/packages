@@ -10,18 +10,11 @@ import {packages, prefixes} from '../util/packages.mjs';
 const entries = [];
 const entriesRoot = [];
 const entriesChild = [];
-const entriesParents = new Map();
-const packagePrefixes = prefixes;
-
 for (const itter = [...packages]; itter.length;) {
 	const entry = itter.shift();
 	if (entry.packages) {
-		for (const pkg of entry.packages) {
-			entriesParents.set(pkg, entry);
-			itter.unshift(pkg);
-		}
+		itter.unshift(...entry.packages);
 	}
-	(entriesParents.has(entry) ? entriesChild : entriesRoot).push(entry);
 	entries.push(entry);
 }
 
@@ -34,7 +27,7 @@ function properties() {
 			match(value, /[a-z0-9]$/);
 			match(value, /^[-a-z0-9_.]+$/);
 			let prefixed = false;
-			for (const prefix of packagePrefixes) {
+			for (const prefix of prefixes) {
 				if (!value.indexOf(`${prefix}-`)) {
 					prefixed = true;
 					break;
@@ -70,11 +63,8 @@ function properties() {
 			}
 		},
 		packages: (root, value) => {
-			if (value) {
+			if (value !== 'undefined') {
 				ok(Array.isArray(value));
-			}
-			else {
-				equal(typeof value, 'undefined');
 			}
 		},
 		metadata: (root, value) => {
