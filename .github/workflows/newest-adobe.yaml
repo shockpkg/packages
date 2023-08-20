@@ -22,5 +22,5 @@ jobs:
       - name: Dependencies
         run: npm ci
 
-      - name: Newest
-        run: npm run newest
+      - name: Newest Adobe
+        run: npm run newest-adobe
