@@ -4,10 +4,10 @@
 		"lint": "eslint .",
 		"test": "node ./bin/test.mjs",
 		"verify": "node ./bin/verify.mjs",
-		"newest": "node ./bin/newest.mjs",
+		"newest-adobe": "node ./bin/newest-adobe.mjs",
+		"newest-cn": "node ./bin/newest-cn.mjs",
 		"newest-harman-air-sdk": "node ./bin/newest-harman-air-sdk.mjs",
 		"newest-harman-air-runtime": "node ./bin/newest-harman-air-runtime.mjs",
-		"newest-cn": "node ./bin/newest-cn.mjs",
 		"clean": "node ./bin/clean.mjs",
 		"build": "node ./bin/build.mjs"
 	},

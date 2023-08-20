@@ -6,7 +6,7 @@ The primary list of shockpkg packages.
 
 [![verify](https://github.com/shockpkg/packages/workflows/verify/badge.svg?branch=master)](https://github.com/shockpkg/packages/actions?query=workflow%3Averify+branch%3Amaster)
 
-[![newest](https://github.com/shockpkg/packages/workflows/newest/badge.svg?branch=master)](https://github.com/shockpkg/packages/actions?query=workflow%3Anewest+branch%3Amaster)
+[![newest-adobe](https://github.com/shockpkg/packages/workflows/newest-adobe/badge.svg?branch=master)](https://github.com/shockpkg/packages/actions?query=workflow%3Anewest-adobe+branch%3Amaster)
 
 [![newest-cn](https://github.com/shockpkg/packages/workflows/newest-cn/badge.svg?branch=master)](https://github.com/shockpkg/packages/actions?query=workflow%3Anewest-cn+branch%3Amaster)
 
