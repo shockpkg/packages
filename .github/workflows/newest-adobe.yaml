@@ -1,0 +1,26 @@
+name: newest-adobe
+
+on:
+  push:
+    branches-ignore:
+      - gh-pages
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Dependencies
+        run: npm ci
+
+      - name: Newest
+        run: npm run newest
