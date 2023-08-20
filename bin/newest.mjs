@@ -84,18 +84,6 @@ const resources = [
 	// 	lastModified: 'Thu, 04 Oct 2012 18:22:26 GMT',
 	// 	eTag: '"3b556e-4cb3fd6533c80"'
 	// }
-	// {
-	// 	source: 'https://airsdk.harman.com/assets/downloads/AdobeAIR.exe',
-	// 	status: 200,
-	// 	size: 7753032,
-	// 	lastModified: 'Fri, 08 Apr 2022 11:37:47 GMT'
-	// },
-	// {
-	// 	source: 'https://airsdk.harman.com/assets/downloads/AdobeAIR.dmg',
-	// 	status: 200,
-	// 	size: 18319550,
-	// 	lastModified: 'Fri, 08 Apr 2022 11:37:47 GMT'
-	// }
 ];
 
 // Check for any possible release of post-EOL versions.
