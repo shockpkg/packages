@@ -1,0 +1,15 @@
+- name: flash-player-35.0.0.60-mac-x86_64-arm64-sa-2023-09-23
+  file: Flash Player.zip
+  size: 11902087
+  sha256: 20285d18b9822e0618cf18748ec7ab96a403d20996c45510a26c403894674cf0
+  sha1: a1332cc277d706878737ebd033f4801da1e1974f
+  md5: ea428bfd1b162151e6ec53b285dbf47f
+  source: https://archive.org/download/shockpkg_packages_2/20/28/5d18b9822e0618cf18748ec7ab96a403d20996c45510a26c403894674cf0/Flash%20Player.zip
+
+- name: flash-player-35.0.0.60-mac-x86_64-arm64-sa-debug-2023-09-23
+  file: Flash Player Debugger.zip
+  size: 17313771
+  sha256: c4612d9cc7d2ed921ef8323d2c86e4ae7d83651292206a2f15d91f7ad0b9d98e
+  sha1: b3e3ac2bb7d3529bb88f925a4bf907945e66e250
+  md5: 8d2abcca9db4f1237cb56bee6cbb60bc
+  source: https://archive.org/download/shockpkg_packages_c/c4/61/2d9cc7d2ed921ef8323d2c86e4ae7d83651292206a2f15d91f7ad0b9d98e/Flash%20Player%20Debugger.zip
