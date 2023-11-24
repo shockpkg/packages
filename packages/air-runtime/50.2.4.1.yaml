@@ -1,0 +1,15 @@
+- name: air-runtime-50.2.4.1-windows
+  file: AdobeAIR.exe
+  size: 6140904
+  sha256: c378f7fe3070b5c1314303f60115b7a89b920e25dd77d0bd830f0e5955f2b0ed
+  sha1: 92f1400fd397c064159b75dbad28702e2f182c81
+  md5: 8d33b7b8c69e0de5c8d2441e43aea94c
+  source: https://archive.org/download/shockpkg_packages_c/c3/78/f7fe3070b5c1314303f60115b7a89b920e25dd77d0bd830f0e5955f2b0ed/AdobeAIR.exe
+
+- name: air-runtime-50.2.4.1-mac
+  file: AdobeAIR.dmg
+  size: 15859175
+  sha256: a8c82705a659aebfa5944a261cc581f2c17a47e8ba4ae8d97e3e92c41be11943
+  sha1: f0a27361642a1bbfc7089f155574515872117758
+  md5: 5149e60952099971b5cf13e6554fb433
+  source: https://archive.org/download/shockpkg_packages_a/a8/c8/2705a659aebfa5944a261cc581f2c17a47e8ba4ae8d97e3e92c41be11943/AdobeAIR.dmg
