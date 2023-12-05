@@ -14,9 +14,7 @@
 	"devDependencies": {
 		"@xmldom/xmldom": "^0.8.10",
 		"async": "^3.2.4",
-		"buffer-crc32": "^0.2.13",
 		"eslint": "^8.46.0",
-		"js-yaml": "^4.1.0",
-		"yauzl": "^2.10.0"
+		"js-yaml": "^4.1.0"
 	}
 }
