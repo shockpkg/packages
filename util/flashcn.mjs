@@ -1,5 +1,3 @@
-import {createContext, runInContext} from 'vm';
-
 import {DOMParser} from '@xmldom/xmldom';
 
 // eslint-disable-next-line max-len
@@ -37,26 +35,12 @@ function parseJsonP(jsonp) {
 	return JSON.parse(m[1]);
 }
 
-function parseJsVar(js, varName) {
-	const ctx = createContext(Object.create(null));
-	try {
-		runInContext(js, ctx);
-	}
-	catch (_) {
-		throw new Error('Failed to run the JS code');
-	}
-	const result = runInContext(`(function() {
-		try {
-			return '1:' + JSON.stringify(this[${JSON.stringify(varName)}]);
-		}
-		catch (err) {
-			return '0:' + err;
-		}
-	})()`, ctx);
-	if (result[0] === '1') {
-		return JSON.parse(result.substring(2));
-	}
-	throw new Error(`JS Error: ${result.substring(2)}`);
+function parseJsonV(jsonv) {
+	const json = jsonv.substring(
+		jsonv.indexOf('{'),
+		jsonv.lastIndexOf('}') + 1
+	);
+	return JSON.parse(json);
 }
 
 function getSource(downloadUrl, version) {
@@ -180,7 +164,7 @@ async function listDebug() {
 		throw new Error(`Unexpected status: ${jsRes.status}`);
 	}
 	const js = await jsRes.text();
-	const {version, date} = parseJsVar(js, '__package_info');
+	const {version, date} = parseJsonV(js);
 	const dated = dateNorm(date);
 
 	const r = [];
