@@ -12,7 +12,10 @@ function archiveOrgParse(url) {
 		return null;
 	}
 	const path = u.pathname.split('/');
-	if (path.shift() !== '' || path.shift() !== 'download') {
+	if (path.shift() !== '') {
+		return null;
+	}
+	if (path.shift() !== 'download') {
 		return null;
 	}
 	const item = path.shift();
