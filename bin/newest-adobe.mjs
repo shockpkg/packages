@@ -147,15 +147,16 @@ async function main() {
 
 			console.log(`${task.resource.source}: Checking`);
 
-			const response = await fetch(task.resource.source, {
+			const {status: statusE, source: url} = task.resource;
+			const response = await fetch(url, {
 				method: 'HEAD',
 				redirect: 'manual'
 			});
+			const {status, headers} = response;
 
-			const {status} = task.resource;
-			if (response.status !== status) {
+			if (status !== statusE) {
 				throw new Error(
-					`Unexpected status code: ${response.status} != ${status}`
+					`Status code: ${status} != ${statusE}: ${url}`
 				);
 			}
 
@@ -164,7 +165,7 @@ async function main() {
 				if (typeof expected === 'undefined') {
 					continue;
 				}
-				const actual = response.headers.get(header);
+				const actual = headers.get(header);
 				const actualValue = typeof expected === 'number' ?
 					+actual : actual;
 

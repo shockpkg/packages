@@ -39,12 +39,13 @@ export async function download(name, url, onprogress = null, headers = {}) {
 		let recievedLength = 0;
 
 		const response = await fetch(url, {headers});
-		if (response.status !== 200) {
-			throw new Error(`Bad status code: ${response.status}`);
+		const {status, headers: rheads} = response;
+		if (status !== 200) {
+			throw new Error(`Status code: ${status}: ${url}`);
 		}
 
 		onprogress(0);
-		const contentLength = +response.headers.get('content-length');
+		const contentLength = +rheads.get('content-length');
 		const body = Readable.fromWeb(response.body);
 		const p = pipe(body, createWriteStream(fileCacheTmp));
 		body.on('data', data => {

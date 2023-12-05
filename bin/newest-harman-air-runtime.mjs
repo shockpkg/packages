@@ -55,14 +55,15 @@ async function main() {
 		const response = await fetch(source, {
 			'User-Agent': userAgent
 		});
-		if (response.status !== 200) {
+		const {status, headers} = response;
+		if (status !== 200) {
 			failed.add(name);
-			console.log(`Error: Status code: ${response.status}`);
+			console.log(`Error: Status code: ${status}: ${source}`);
 			console.log('');
 			continue;
 		}
 
-		const size = +response.headers.get('content-length');
+		const size = +headers.get('content-length');
 		if (size !== sized) {
 			failed.add(name);
 			console.log(`Error: Unexpected size: ${size} != ${sized}`);

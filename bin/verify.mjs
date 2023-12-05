@@ -28,12 +28,11 @@ function archiveOrgParse(url) {
 const archiveOrgMetadataCache = {};
 function archiveOrgMetadata(item) {
 	if (!archiveOrgMetadataCache[item]) {
-		archiveOrgMetadataCache[item] = fetch(
-			`https://archive.org/metadata/${encodeURI(item)}/`
-		).then(async response => {
+		const url = `https://archive.org/metadata/${encodeURI(item)}/`;
+		archiveOrgMetadataCache[item] = fetch(url).then(async response => {
 			const {status} = response;
 			if (status !== 200) {
-				throw new Error(`Unexpected status code: ${status}`);
+				throw new Error(`Status code: ${status}: ${url}`);
 			}
 			const body = await response.text();
 			const files = new Map();
@@ -75,12 +74,12 @@ async function getMetadataForUrl(url) {
 	}
 
 	const response = await fetch(url);
-	const {status} = response;
+	const {status, headers} = response;
 	if (status !== 200) {
-		throw new Error(`Unexpected status code: ${status}`);
+		throw new Error(`Status code: ${status}: ${url}`);
 	}
 	return {
-		size: +response.headers.get('content-length')
+		size: +headers.get('content-length')
 	};
 }
 

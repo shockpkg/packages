@@ -30,14 +30,15 @@ async function main() {
 				Cookie: cookie
 			}
 		});
-		if (response.status !== 200) {
+		const {status, headers} = response;
+		if (status !== 200) {
 			failed.add(name);
-			console.log(`Error: Status code: ${response.status}`);
+			console.log(`Error: Status code: ${status}: ${source}`);
 			console.log('');
 			continue;
 		}
 
-		const size = +response.headers.get('content-length');
+		const size = +headers.get('content-length');
 		console.log(`Size: ${size}`);
 		if (!expected.has(name)) {
 			failed.add(name);

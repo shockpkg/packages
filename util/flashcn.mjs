@@ -98,7 +98,7 @@ async function listRelease() {
 		}
 	});
 	if (jsRes.status !== 200) {
-		throw new Error(`Unexpected status: ${jsRes.status}`);
+		throw new Error(`Status code: ${jsRes.status}: ${htmlUrl}`);
 	}
 	const versions = parseJsonP(await jsRes.text());
 	const r = [];
@@ -151,17 +151,18 @@ async function listDebug() {
 		}
 	});
 	if (htmlRes.status !== 200) {
-		throw new Error(`Unexpected status: ${htmlRes.status}`);
+		throw new Error(`Status code: ${htmlRes.status}: ${htmlUrl}`);
 	}
 	const html = await htmlRes.text();
-	const jsRes = await fetch('https://api.flash.cn/config/debugFlashVersion', {
+	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';
+	const jsRes = await fetch(jsUrl, {
 		headers: {
 			'User-Agent': userAgent,
 			Referer: htmlUrl
 		}
 	});
 	if (jsRes.status !== 200) {
-		throw new Error(`Unexpected status: ${jsRes.status}`);
+		throw new Error(`Status code: ${jsRes.status}: ${jsUrl}`);
 	}
 	const js = await jsRes.text();
 	const {version, date} = parseJsonV(js);

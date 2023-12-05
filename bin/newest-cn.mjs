@@ -34,8 +34,9 @@ async function main() {
 			continue;
 		}
 
+		const url = `${source}?_=${Date.now()}`;
 		// eslint-disable-next-line no-await-in-loop
-		const response = await fetch(`${source}?_=${Date.now()}`, {
+		const response = await fetch(url, {
 			method: 'HEAD',
 			headers: {
 				'User-Agent': userAgent,
@@ -43,14 +44,15 @@ async function main() {
 			}
 		});
 
-		if (response.status !== 200) {
+		const {status, headers} = response;
+		if (status !== 200) {
 			failed.add(name);
-			console.log(`Error: Status code: ${response.status}`);
+			console.log(`Error: Status code: ${status}: ${url}`);
 			console.log('');
 			continue;
 		}
 
-		const size = +response.headers.get('content-length');
+		const size = +headers.get('content-length');
 		const sized = pkg.size;
 		if (size !== sized) {
 			failed.add(name);

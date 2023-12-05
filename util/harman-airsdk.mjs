@@ -17,7 +17,7 @@ export async function list() {
 		'User-Agent': userAgent
 	});
 	if (response.status !== 200) {
-		throw new Error(`Unexpected status code: ${response.status}`);
+		throw new Error(`Status code: ${response.status}: ${apiUrl}`);
 	}
 	const data = JSON.parse(await response.text());
 	const cookies = [...response.headers]
