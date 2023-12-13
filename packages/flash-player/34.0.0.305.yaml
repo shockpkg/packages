@@ -1,0 +1,99 @@
+- name: flash-player-34.0.0.305-windows-npapi-cn
+  file: install_flash_player_cn.exe
+  size: 11909600
+  sha256: 8fc1f85ce16e7285fd0dc572c476a5dd023185d26504792c6b80fe96261599fa
+  sha1: 3b010433ef1028fbbbdc2b652c1a021bc6756f48
+  md5: 1c52c18d561ad65c737c0d454bc01d94
+  source: https://archive.org/download/shockpkg_packages_8/8f/c1/f85ce16e7285fd0dc572c476a5dd023185d26504792c6b80fe96261599fa/install_flash_player_cn.exe
+  metadata:
+    date: '2023-12-12'
+
+- name: flash-player-34.0.0.305-windows-npapi-debug-cn
+  file: install_flash_player_debug_cn.exe
+  size: 11629536
+  sha256: 49ab109ef92b658785be8430bbbcf08c8500ff2f8b78008fcf4e7666f256cbf3
+  sha1: 6b7cc2bc6dd15ec7c4753c449bed3d71b6d0f1b0
+  md5: 8d0496e80eeec197c53c1fac6051b326
+  source: https://archive.org/download/shockpkg_packages_4/49/ab/109ef92b658785be8430bbbcf08c8500ff2f8b78008fcf4e7666f256cbf3/install_flash_player_debug_cn.exe
+  metadata:
+    date: '2023-12-12'
+
+- name: flash-player-34.0.0.305-windows-ppapi-cn
+  file: install_flash_player_ppapi_cn.exe
+  size: 12014048
+  sha256: f366c9571ab856d8cdb08db1795929456e06d89d0c5ffa5a3492f2b7e2cc79db
+  sha1: 8840e9f814b63bbe19490d894994e76b32fbdde0
+  md5: b6019bc2f0b0d809b00c4ad363cb9b4c
+  source: https://archive.org/download/shockpkg_packages_f/f3/66/c9571ab856d8cdb08db1795929456e06d89d0c5ffa5a3492f2b7e2cc79db/install_flash_player_ppapi_cn.exe
+  metadata:
+    date: '2023-12-12'
+
+- name: flash-player-34.0.0.305-windows-ppapi-debug-cn
+  file: install_flash_player_debug_ppapi_cn.exe
+  size: 12440032
+  sha256: b33ae8cd6afa07f368eee1d2d942e5b97b5c8b72efbb2b6f1c81ae60186055cd
+  sha1: b6f67f2410d18bba699aca692599e879c7557e3b
+  md5: 96ca16be050cfdb9d651a712723042ed
+  source: https://archive.org/download/shockpkg_packages_b/b3/3a/e8cd6afa07f368eee1d2d942e5b97b5c8b72efbb2b6f1c81ae60186055cd/install_flash_player_debug_ppapi_cn.exe
+  metadata:
+    date: '2023-12-12'
+
+- name: flash-player-34.0.0.305-windows-activex-cn
+  file: install_flash_player_ax_cn.exe
+  size: 22778336
+  sha256: 335cef63029ffb0118e6e1e38682e7252efe9699e8b2458e680b05a34f7ef294
+  sha1: cd33fdf315109bb6bd3fd6b0e6ad80fd8a5e5bdb
+  md5: abaf8d5de5fbf74ab8a4edb5ba4e73d3
+  source: https://archive.org/download/shockpkg_packages_3/33/5c/ef63029ffb0118e6e1e38682e7252efe9699e8b2458e680b05a34f7ef294/install_flash_player_ax_cn.exe
+  metadata:
+    date: '2023-12-12'
+
+- name: flash-player-34.0.0.305-windows-activex-debug-cn
+  file: install_flash_player_debug_ax_cn.exe
+  size: 23486432
+  sha256: 9e8d9ab09c99cb01007023e2fa638bdeddc4352752a9754a803748cbec085c23
+  sha1: 767fb53a5d176189b151f367887f6c029d8f20bf
+  md5: 203271d2dc84c0c7c1c4af60d9b69f43
+  source: https://archive.org/download/shockpkg_packages_9/9e/8d/9ab09c99cb01007023e2fa638bdeddc4352752a9754a803748cbec085c23/install_flash_player_debug_ax_cn.exe
+  metadata:
+    date: '2023-12-12'
+
+- name: flash-player-34.0.0.305-mac-npapi-cn
+  file: install_flash_player_osx.dmg
+  size: 10843916
+  sha256: 88917cbd06b8d8c8184b6eb1d27023c1f37652de53f098b1aeb2f9494f4e9d33
+  sha1: 6886fa95ec04c5c1d8c1d53d800bfe8677029d66
+  md5: 0e5c08f7303839b6efdca26b27e050af
+  source: https://archive.org/download/shockpkg_packages_8/88/91/7cbd06b8d8c8184b6eb1d27023c1f37652de53f098b1aeb2f9494f4e9d33/install_flash_player_osx.dmg
+  metadata:
+    date: '2023-12-12'
+
+- name: flash-player-34.0.0.305-mac-ppapi-cn
+  file: install_flash_player_osx_ppapi.dmg
+  size: 10152456
+  sha256: 2185c58a7c4d8c5079c202476d4a10aaa0a7f26c42df410618432a55d2f38bfb
+  sha1: a8cc59f95b325bbbb91420a761f7342757d1912c
+  md5: 7876022a9cc88997702e295515b66608
+  source: https://archive.org/download/shockpkg_packages_2/21/85/c58a7c4d8c5079c202476d4a10aaa0a7f26c42df410618432a55d2f38bfb/install_flash_player_osx_ppapi.dmg
+  metadata:
+    date: '2023-12-12'
+
+- name: flash-player-34.0.0.305-windows-sa-cn
+  file: flashplayer_sa.exe
+  size: 10735072
+  sha256: acd746fa01939080a1b49054fb724c6c2acc1278f0697a3d3bd6ebabae8d7b53
+  sha1: 67ad3b5de026e549163d4bbcbe14a61868723217
+  md5: 85559cad133bf0f55c9243b669ac1456
+  source: https://archive.org/download/shockpkg_packages_a/ac/d7/46fa01939080a1b49054fb724c6c2acc1278f0697a3d3bd6ebabae8d7b53/flashplayer_sa.exe
+  metadata:
+    date: '2023-12-12'
+
+- name: flash-player-34.0.0.305-windows-sa-debug-cn
+  file: flashplayer_sa_debug.exe
+  size: 11554272
+  sha256: 15e6492a88b1892de43b93e162def5be084a9bdff8aeedf812db20fa709a6518
+  sha1: 5c12c3ccab239a5cc363703fcd12ba5196feb07c
+  md5: ed883fa839b2f326bf5e798eccfff9ac
+  source: https://archive.org/download/shockpkg_packages_1/15/e6/492a88b1892de43b93e162def5be084a9bdff8aeedf812db20fa709a6518/flashplayer_sa_debug.exe
+  metadata:
+    date: '2023-12-12'
