@@ -9,6 +9,7 @@ import {fileURLToPath} from 'url';
 import {read as packageRead} from '../util/package.mjs';
 import {buffer as hashBuffer} from '../util/hash.mjs';
 import {userAgent} from '../util/harman-airsdk.mjs';
+import {retry} from '../util/retry.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -52,9 +53,9 @@ async function main() {
 		console.log(`URL: ${source}`);
 
 		// eslint-disable-next-line no-await-in-loop
-		const response = await fetch(source, {
+		const response = await retry(() => fetch(source, {
 			'User-Agent': userAgent
-		});
+		}));
 		const {status, headers} = response;
 		if (status !== 200) {
 			failed.add(name);

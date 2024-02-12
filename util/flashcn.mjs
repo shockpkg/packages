@@ -1,5 +1,7 @@
 import {DOMParser} from '@xmldom/xmldom';
 
+import {retry} from './retry.mjs';
+
 // eslint-disable-next-line max-len
 export const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
 
@@ -91,12 +93,13 @@ function dateNorm(date) {
 
 async function listRelease() {
 	const htmlUrl = 'https://www.flash.cn/download';
-	const jsRes = await fetch('https://api.flash.cn/config/flashVersion', {
+	const fverUrl = 'https://api.flash.cn/config/flashVersion';
+	const jsRes = await retry(() => fetch(fverUrl, {
 		headers: {
 			'User-Agent': userAgent,
 			Referer: htmlUrl
 		}
-	});
+	}));
 	if (jsRes.status !== 200) {
 		throw new Error(`Status code: ${jsRes.status}: ${htmlUrl}`);
 	}
@@ -145,22 +148,22 @@ function c2a(a) {
 
 async function listDebug() {
 	const htmlUrl = 'https://www.flash.cn/support/debug-downloads';
-	const htmlRes = await fetch(htmlUrl, {
+	const htmlRes = await retry(() => fetch(htmlUrl, {
 		headers: {
 			'User-Agent': userAgent
 		}
-	});
+	}));
 	if (htmlRes.status !== 200) {
 		throw new Error(`Status code: ${htmlRes.status}: ${htmlUrl}`);
 	}
 	const html = await htmlRes.text();
 	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';
-	const jsRes = await fetch(jsUrl, {
+	const jsRes = await retry(() => fetch(jsUrl, {
 		headers: {
 			'User-Agent': userAgent,
 			Referer: htmlUrl
 		}
-	});
+	}));
 	if (jsRes.status !== 200) {
 		throw new Error(`Status code: ${jsRes.status}: ${jsUrl}`);
 	}

@@ -5,6 +5,7 @@
 import {queue as asyncQueue} from 'async';
 
 import {read as readPackages} from '../util/packages.mjs';
+import {retry} from '../util/retry.mjs';
 
 function archiveOrgParse(url) {
 	const u = new URL(url);
@@ -25,11 +26,12 @@ function archiveOrgParse(url) {
 	};
 }
 
-const archiveOrgMetadataCache = {};
-function archiveOrgMetadata(item) {
-	if (!archiveOrgMetadataCache[item]) {
+const iaCache = {};
+// eslint-disable-next-line require-await
+async function archiveOrgMetadata(item) {
+	if (!iaCache[item]) {
 		const url = `https://archive.org/metadata/${encodeURI(item)}/`;
-		archiveOrgMetadataCache[item] = fetch(url).then(async response => {
+		iaCache[item] = retry(() => fetch(url)).then(async response => {
 			const {status} = response;
 			if (status !== 200) {
 				throw new Error(`Status code: ${status}: ${url}`);
@@ -59,7 +61,7 @@ function archiveOrgMetadata(item) {
 			return files;
 		});
 	}
-	return archiveOrgMetadataCache[item];
+	return iaCache[item];
 }
 
 async function getMetadataForUrl(url) {
@@ -73,7 +75,7 @@ async function getMetadataForUrl(url) {
 		return info;
 	}
 
-	const response = await fetch(url);
+	const response = await retry(() => fetch(url));
 	const {status, headers} = response;
 	if (status !== 200) {
 		throw new Error(`Status code: ${status}: ${url}`);

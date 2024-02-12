@@ -1,3 +1,5 @@
+import {retry} from './retry.mjs';
+
 // The API this page loads download list from.
 // https://airsdk.harman.com/download
 const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';
@@ -13,9 +15,9 @@ function addQueryParams(url, params) {
 }
 
 export async function list() {
-	const response = await fetch(apiUrl, {
+	const response = await retry(() => fetch(apiUrl, {
 		'User-Agent': userAgent
-	});
+	}));
 	if (response.status !== 200) {
 		throw new Error(`Status code: ${response.status}: ${apiUrl}`);
 	}

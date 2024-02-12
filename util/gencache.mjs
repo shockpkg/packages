@@ -5,6 +5,8 @@ import {pipeline, Readable} from 'stream';
 import {promisify} from 'util';
 import {fileURLToPath} from 'url';
 
+import {retry} from './retry.mjs';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pipe = promisify(pipeline);
@@ -38,7 +40,7 @@ export async function download(name, url, onprogress = null, headers = {}) {
 	if (!fileCacheBinExists) {
 		let recievedLength = 0;
 
-		const response = await fetch(url, {headers});
+		const response = await retry(() => fetch(url, {headers}));
 		const {status, headers: rheads} = response;
 		if (status !== 200) {
 			throw new Error(`Status code: ${status}: ${url}`);

@@ -4,6 +4,7 @@
 
 import {list, cookies, userAgent} from '../util/harman-airsdk.mjs';
 import {read as packageRead} from '../util/package.mjs';
+import {retry} from '../util/retry.mjs';
 
 async function main() {
 	const start = Date.now();
@@ -23,13 +24,13 @@ async function main() {
 		);
 
 		// eslint-disable-next-line no-await-in-loop
-		const response = await fetch(source, {
+		const response = await retry(() => fetch(source, {
 			method: 'HEAD',
 			headers: {
 				'User-Agent': userAgent,
 				Cookie: cookie
 			}
-		});
+		}));
 		const {status, headers} = response;
 		if (status !== 200) {
 			failed.add(name);

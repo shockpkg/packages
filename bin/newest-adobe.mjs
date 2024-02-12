@@ -4,6 +4,8 @@
 
 import {queue as asyncQueue} from 'async';
 
+import {retry} from '../util/retry.mjs';
+
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [
 	// {
@@ -148,10 +150,10 @@ async function main() {
 			console.log(`${task.resource.source}: Checking`);
 
 			const {status: statusE, source: url} = task.resource;
-			const response = await fetch(url, {
+			const response = await retry(() => fetch(url, {
 				method: 'HEAD',
 				redirect: 'manual'
-			});
+			}));
 			const {status, headers} = response;
 
 			if (status !== statusE) {

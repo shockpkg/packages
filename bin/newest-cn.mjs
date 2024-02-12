@@ -4,6 +4,7 @@
 
 import {list, userAgent} from '../util/flashcn.mjs';
 import {read as readPackages} from '../util/packages.mjs';
+import {retry} from '../util/retry.mjs';
 
 async function main() {
 	const {flat} = await readPackages();
@@ -36,13 +37,13 @@ async function main() {
 
 		const url = `${source}?_=${Date.now()}`;
 		// eslint-disable-next-line no-await-in-loop
-		const response = await fetch(url, {
+		const response = await retry(() => fetch(url, {
 			method: 'HEAD',
 			headers: {
 				'User-Agent': userAgent,
 				Referer: referer
 			}
-		});
+		}));
 
 		const {status, headers} = response;
 		if (status !== 200) {
