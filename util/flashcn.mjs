@@ -106,7 +106,8 @@ async function listRelease() {
 	const versions = parseJsonP(await jsRes.text());
 	const r = [];
 	for (const [id, info] of Object.entries(versions)) {
-		if (id.startsWith('fc-')) {
+		// What is pp_ax, fake?
+		if (id.startsWith('fc-') || id === 'pp_ax') {
 			continue;
 		}
 
