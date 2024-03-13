@@ -179,6 +179,7 @@ async function listDebug() {
 	if (htmlRes.status !== 200) {
 		throw new Error(`Status code: ${htmlRes.status}: ${htmlUrl}`);
 	}
+
 	const html = await htmlRes.text();
 	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';
 	const jsRes = await retry(() => fetch(jsUrl, {
@@ -190,6 +191,7 @@ async function listDebug() {
 	if (jsRes.status !== 200) {
 		throw new Error(`Status code: ${jsRes.status}: ${jsUrl}`);
 	}
+
 	const js = await jsRes.text();
 	const {version, date} = parseJsonV(js);
 	const dated = dateNorm(date);
