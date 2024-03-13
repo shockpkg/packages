@@ -29,6 +29,11 @@ const ids = [
 const idTypes = new Map(ids);
 const idIndex = new Map(ids.map((v, i) => [v[0], i]));
 
+const dupes = new Map([
+	// The pp_ax installer gets same installers from pp and ax.
+	['pp_ax', ['activex', 'ppapi']]
+]);
+
 function parseJsonP(jsonp) {
 	const m = jsonp.match(/^\s*[a-z0-9_$]+\s*\((.+)\)\s*;?\s*$/im);
 	if (!m) {
@@ -103,11 +108,18 @@ async function listRelease() {
 	if (jsRes.status !== 200) {
 		throw new Error(`Status code: ${jsRes.status}: ${htmlUrl}`);
 	}
+
 	const versions = parseJsonP(await jsRes.text());
 	const r = [];
+	const ids = new Set();
 	for (const [id, info] of Object.entries(versions)) {
-		// What is pp_ax, fake?
-		if (id.startsWith('fc-') || id === 'pp_ax') {
+		if (id.startsWith('fc-')) {
+			continue;
+		}
+
+		ids.add(id);
+
+		if (dupes.has(id)) {
 			continue;
 		}
 
@@ -136,6 +148,16 @@ async function listRelease() {
 			size: info.size
 		});
 	}
+
+	for (const [id, duped] of dupes) {
+		if (ids.has(id)) {
+			const missing = duped.filter(id => !ids.has(id));
+			if (missing.length) {
+				throw new Error(`Missing ${id} dupes: ${missing.join(',')}`);
+			}
+		}
+	}
+
 	return r;
 }
 
