@@ -181,6 +181,7 @@ async function listDebug() {
 	}
 
 	const html = await htmlRes.text();
+
 	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';
 	const jsRes = await retry(() => fetch(jsUrl, {
 		headers: {
@@ -193,6 +194,7 @@ async function listDebug() {
 	}
 
 	const js = await jsRes.text();
+
 	const {version, date} = parseJsonV(js);
 	const dated = dateNorm(date);
 
