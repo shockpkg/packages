@@ -3,7 +3,7 @@
 /* eslint-disable no-console */
 
 import {list, cookies, userAgent} from '../util/harman-airsdk.mjs';
-import {read as packageRead} from '../util/package.mjs';
+import {read as readPackages} from '../util/packages.mjs';
 import {retry} from '../util/retry.mjs';
 
 async function main() {
@@ -11,17 +11,22 @@ async function main() {
 	const passed = new Set();
 	const failed = new Set();
 
+	const {packages} = await readPackages();
+	const named = new Map(packages.map(p => [p.name, p]));
+
 	const listed = await list();
 	const cookie = cookies(listed.cookies);
-	for (const {name, version, source} of listed.downloads) {
+	for (const {name, source} of listed.downloads) {
 		console.log(`Checking: ${name}`);
 		console.log(`URL: ${source}`);
 
-		const expected = new Map(
-			// eslint-disable-next-line no-await-in-loop
-			(await packageRead('air-sdk', version).catch(_ => []))
-				.map(p => [p.name, p.size])
-		);
+		const expected = named.get(name);
+		if (!expected) {
+			failed.add(name);
+			console.log(`Error: Unknown name: ${name}`);
+			console.log('');
+			continue;
+		}
 
 		// eslint-disable-next-line no-await-in-loop
 		const response = await retry(() => fetch(source, {
@@ -41,14 +46,7 @@ async function main() {
 
 		const size = +headers.get('content-length');
 		console.log(`Size: ${size}`);
-		if (!expected.has(name)) {
-			failed.add(name);
-			console.log(`Error: Unknown name: ${name}`);
-			console.log('');
-			continue;
-		}
-
-		const sized = expected.get(name);
+		const sized = expected.size;
 		if (size !== sized) {
 			failed.add(name);
 			console.log(`Error: Unexpected size: ${size} != ${sized}`);
