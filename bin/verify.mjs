@@ -45,9 +45,8 @@ async function archiveOrgMetadata(item) {
 					sha1: file.sha1
 				};
 
-				const parts = file.name.split('/');
-				parts.pop();
-				const maybeSha256 = parts.join('');
+				const maybeSha256 = file.name.split('/').slice(0, -1)
+					.join('');
 				if (maybeSha256.length === 64) {
 					info.sha256 = maybeSha256;
 				}
