@@ -2,9 +2,9 @@
 
 /* eslint-disable no-console */
 
-import {mkdir, writeFile} from 'fs/promises';
-import {dirname, join as pathJoin} from 'path';
-import {fileURLToPath} from 'url';
+import {mkdir, writeFile} from 'node:fs/promises';
+import {dirname, join as pathJoin} from 'node:path';
+import {fileURLToPath} from 'node:url';
 
 import {read as readPackages} from '../util/packages.mjs';
 

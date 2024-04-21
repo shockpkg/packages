@@ -1,15 +1,13 @@
-import {createWriteStream} from 'fs';
-import {mkdir, rename, stat} from 'fs/promises';
-import {dirname, join as pathJoin} from 'path';
-import {pipeline, Readable} from 'stream';
-import {promisify} from 'util';
-import {fileURLToPath} from 'url';
+import {createWriteStream} from 'node:fs';
+import {mkdir, rename, stat} from 'node:fs/promises';
+import {dirname, join as pathJoin} from 'node:path';
+import {Readable} from 'node:stream';
+import {pipeline} from 'node:stream/promises';
+import {fileURLToPath} from 'node:url';
 
 import {retry} from './retry.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-
-const pipe = promisify(pipeline);
 
 const gencacheDir = pathJoin(__dirname, '..', '_gencache');
 const tmpPre = '.tmp.';
@@ -49,7 +47,7 @@ export async function download(name, url, onprogress = null, headers = {}) {
 		onprogress(0);
 		const contentLength = +rheads.get('content-length');
 		const body = Readable.fromWeb(response.body);
-		const p = pipe(body, createWriteStream(fileCacheTmp));
+		const p = pipeline(body, createWriteStream(fileCacheTmp));
 		body.on('data', data => {
 			recievedLength += data.length;
 			onprogress(recievedLength / contentLength);

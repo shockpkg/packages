@@ -2,7 +2,7 @@
 
 /* eslint-disable no-console */
 
-import {stat} from 'fs/promises';
+import {stat} from 'node:fs/promises';
 
 import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';

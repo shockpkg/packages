@@ -2,8 +2,8 @@
 
 /* eslint-disable no-console */
 
-import {equal, match, ok} from 'assert/strict';
-import {basename} from 'path';
+import {equal, match, ok} from 'node:assert/strict';
+import {basename} from 'node:path';
 
 import {read as readPackages} from '../util/packages.mjs';
 

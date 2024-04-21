@@ -1,6 +1,6 @@
-import {readFile, readdir} from 'fs/promises';
-import {dirname, join as pathJoin} from 'path';
-import {fileURLToPath} from 'url';
+import {readFile, readdir} from 'node:fs/promises';
+import {dirname, join as pathJoin} from 'node:path';
+import {fileURLToPath} from 'node:url';
 
 import yaml from 'js-yaml';
 

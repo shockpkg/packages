@@ -2,9 +2,9 @@
 
 /* eslint-disable no-console */
 
-import {rm} from 'fs/promises';
-import {dirname, join as pathJoin} from 'path';
-import {fileURLToPath} from 'url';
+import {rm} from 'node:fs/promises';
+import {dirname, join as pathJoin} from 'node:path';
+import {fileURLToPath} from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

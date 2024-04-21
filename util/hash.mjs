@@ -1,5 +1,5 @@
-import {createReadStream} from 'fs';
-import {createHash} from 'crypto';
+import {createReadStream} from 'node:fs';
+import {createHash} from 'node:crypto';
 
 export async function file(fp, algos) {
 	const hashers = algos.map(algo => createHash(algo));
