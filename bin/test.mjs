@@ -3,12 +3,20 @@
 /* eslint-disable no-console */
 
 import {equal, match, ok} from 'node:assert/strict';
-import {basename} from 'node:path';
+import {readdir} from 'node:fs/promises';
+import {basename, dirname, join as pathJoin} from 'node:path';
+import {fileURLToPath} from 'node:url';
 
 import {read as readPackages} from '../util/packages.mjs';
 
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
 async function properties() {
-	const {roots, children, prefixes} = await readPackages();
+	const directory = pathJoin(__dirname, '..', 'packages');
+	const {roots, children} = await readPackages();
+	const prefixes = (await readdir(directory, {withFileTypes: true}))
+		.filter(e => e.isDirectory() && /^[a-z0-9-]+$/.test(e.name))
+		.map(e => e.name);
 
 	const validatorsRoot = {
 		name: (root, value) => {

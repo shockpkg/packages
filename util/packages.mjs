@@ -91,11 +91,9 @@ export async function read() {
 		.filter(s => /^([^.][^/]*\/)*[^.][^/]*\.yaml$/.test(s))
 		.sort(comparePaths);
 
-	const prefixes = new Set();
 	const packages = [];
 	for (const file of files) {
 		const filePath = pathJoin(packagesDir, file);
-		prefixes.add(file.split(/[\\/]/)[0]);
 
 		// eslint-disable-next-line no-await-in-loop
 		const code = await readFile(filePath, 'utf8');
@@ -121,7 +119,6 @@ export async function read() {
 
 	return {
 		packages,
-		prefixes,
 		flat,
 		roots,
 		children
