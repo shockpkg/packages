@@ -101,26 +101,5 @@ export async function read() {
 		packages.push(...doc);
 	}
 
-	const parents = new Map();
-	const children = [];
-	const flat = [];
-	for (const q = packages.slice(); q.length;) {
-		const pkg = q.shift();
-		if (pkg.packages) {
-			for (const p of pkg.packages) {
-				parents.set(p, pkg);
-			}
-			q.unshift(...pkg.packages);
-		}
-		flat.push(pkg);
-		if (parents.has(pkg)) {
-			children.push(pkg);
-		}
-	}
-
-	return {
-		packages,
-		flat,
-		children
-	};
+	return packages;
 }

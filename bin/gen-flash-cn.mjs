@@ -9,10 +9,13 @@ import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
 import {packages as encodePackages} from '../util/yaml.mjs';
 import {read as readPackages} from '../util/packages.mjs';
+import {walk} from '../util/util.mjs';
 
 async function main() {
-	const {flat} = await readPackages();
-	const bySha256 = new Map(flat.map(o => [o.sha256, o]));
+	const packages = await readPackages();
+	const bySha256 = new Map(
+		[...walk(packages, p => p.packages)].map(([p]) => [p.sha256, p])
+	);
 
 	const all = await list();
 	const doc = [];

@@ -43,7 +43,7 @@ function transform(packages, version) {
 }
 
 async function main() {
-	const {packages} = await readPackages();
+	const packages = await readPackages();
 	for (const v of [1]) {
 		// eslint-disable-next-line no-await-in-loop
 		await outputFile(pathJoin(distApi, `${v}`, file), JSON.stringify({

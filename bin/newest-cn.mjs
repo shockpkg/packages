@@ -5,10 +5,13 @@
 import {list, userAgent} from '../util/flashcn.mjs';
 import {read as readPackages} from '../util/packages.mjs';
 import {retry} from '../util/retry.mjs';
+import {walk} from '../util/util.mjs';
 
 async function main() {
-	const {flat} = await readPackages();
-	const byName = new Map(flat.map(o => [o.name, o]));
+	const packages = await readPackages();
+	const byName = new Map(
+		[...walk(packages, p => p.packages)].map(([p]) => [p.name, p])
+	);
 
 	const start = Date.now();
 	const passed = new Set();

@@ -8,12 +8,13 @@ import {basename, dirname, join as pathJoin} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 import {read as readPackages} from '../util/packages.mjs';
+import {walk} from '../util/util.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 async function properties() {
 	const directory = pathJoin(__dirname, '..', 'packages');
-	const {packages, children} = await readPackages();
+	const packages = await readPackages();
 	const prefixes = (await readdir(directory, {withFileTypes: true}))
 		.filter(e => e.isDirectory() && /^[a-z0-9-]+$/.test(e.name))
 		.map(e => e.name);
@@ -82,79 +83,64 @@ async function properties() {
 	};
 	const allowedPropsChild = new Set(Object.keys(validatorsChild));
 
-	for (const pkg of packages) {
-		for (const p of Object.keys(validatorsRoot)) {
-			validatorsRoot[p](true, pkg[p]);
+	for (const [pkg, parents] of walk(packages, p => p.packages)) {
+		if (parents.length) {
+			for (const p of Object.keys(validatorsChild)) {
+				validatorsChild[p](false, pkg[p]);
+			}
+			for (const p of Object.keys(pkg)) {
+				ok(allowedPropsChild.has(p));
+			}
 		}
-		for (const p of Object.keys(pkg)) {
-			ok(allowedPropsRoot.has(p));
-		}
-	}
-
-	for (const pkg of children) {
-		for (const p of Object.keys(validatorsChild)) {
-			validatorsChild[p](false, pkg[p]);
-		}
-		for (const p of Object.keys(pkg)) {
-			ok(allowedPropsChild.has(p));
+		else {
+			for (const p of Object.keys(validatorsRoot)) {
+				validatorsRoot[p](true, pkg[p]);
+			}
+			for (const p of Object.keys(pkg)) {
+				ok(allowedPropsRoot.has(p));
+			}
 		}
 	}
 }
 
 async function unique() {
-	const {flat, packages} = await readPackages();
+	const packages = await readPackages();
 
 	const keys = new Set();
-	for (const {name, sha256, sha1, md5} of flat) {
-		ok(!keys.has(name));
-		keys.add(name);
-
-		ok(!keys.has(sha256));
-		keys.add(sha256);
-
-		ok(!keys.has(sha1));
-		keys.add(sha1);
-
-		ok(!keys.has(md5));
-		keys.add(md5);
-	}
-
 	const urls = new Set();
-	for (const {source} of packages) {
-		ok(!urls.has(source));
-		urls.add(source);
-	}
 
-	for (const {packages} of flat) {
-		if (!packages) {
-			continue;
+	for (const [pkg, parents] of walk(packages, p => p.packages)) {
+		ok(!keys.has(pkg.name));
+		keys.add(pkg.name);
+
+		ok(!keys.has(pkg.sha256));
+		keys.add(pkg.sha256);
+
+		ok(!keys.has(pkg.sha1));
+		keys.add(pkg.sha1);
+
+		ok(!keys.has(pkg.md5));
+		keys.add(pkg.md5);
+
+		if (!parents.length) {
+			ok(!urls.has(pkg.source));
+			urls.add(pkg.source);
 		}
 
-		const seen = new Set();
-		for (const pkg of packages) {
-			ok(!seen.has(pkg.source));
-			seen.add(pkg.source);
+		const sources = new Set();
+		for (const p of pkg.packages || []) {
+			ok(!sources.has(p.source));
+			sources.add(p.source);
 		}
 	}
 }
 
 async function rename() {
-	const {packages, children} = await readPackages();
+	const packages = await readPackages();
 
 	const renamedRoot = {
 		// None currently.
 	};
-
-	for (const {name, file, source} of packages) {
-		if (name in renamedRoot) {
-			equal(file, renamedRoot[name]);
-		}
-		else {
-			equal(file, decodeURIComponent(
-				(new URL(source)).pathname.split('/').pop()
-			));
-		}
-	}
 
 	const renamedChild = {
 		'flash-player-9.0.246.0-mac-ub-npapi-debug':
@@ -188,12 +174,24 @@ async function rename() {
 			'uninstall_flashplayer12_0r0_70_win.exe'
 	};
 
-	for (const {name, file, source} of children) {
-		if (name in renamedChild) {
-			equal(file, renamedChild[name]);
+	for (const [pkg, parents] of walk(packages, p => p.packages)) {
+		if (parents.length) {
+			if (pkg.name in renamedChild) {
+				equal(pkg.file, renamedChild[pkg.name]);
+			}
+			else {
+				equal(pkg.file, basename(pkg.source));
+			}
+			continue;
+		}
+
+		if (pkg.name in renamedRoot) {
+			equal(pkg.file, renamedRoot[pkg.name]);
 		}
 		else {
-			equal(file, basename(source));
+			equal(pkg.file, decodeURIComponent(
+				(new URL(pkg.source)).pathname.split('/').pop()
+			));
 		}
 	}
 }

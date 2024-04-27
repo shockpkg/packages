@@ -17,7 +17,7 @@ async function main() {
 	const passed = new Set();
 	const failed = new Set();
 
-	const {packages} = await readPackages();
+	const packages = await readPackages();
 	const hashed = new Map(packages.map(p => [p.sha256, p]));
 
 	for (const file of files) {

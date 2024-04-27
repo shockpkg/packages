@@ -11,7 +11,7 @@ async function main() {
 	const passed = new Set();
 	const failed = new Set();
 
-	const {packages} = await readPackages();
+	const packages = await readPackages();
 	const named = new Map(packages.map(p => [p.name, p]));
 
 	const listed = await list();

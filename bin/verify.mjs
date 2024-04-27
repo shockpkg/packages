@@ -87,7 +87,7 @@ async function getMetadataForUrl(url) {
 async function main() {
 	const start = Date.now();
 
-	const {packages} = await readPackages();
+	const packages = await readPackages();
 	let included = null;
 
 	// eslint-disable-next-line no-process-env
