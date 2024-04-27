@@ -1,13 +1,12 @@
-/**
- * Retry once on error.
- *
- * @param f The function to try.
- * @returns The result.
- */
-// eslint-disable-next-line require-await
 export async function retry(f) {
-	// eslint-disable-next-line require-await
-	return f().catch(async () => f());
+	let r;
+	try {
+		r = await f();
+	}
+	catch (_) {
+		r = await f();
+	}
+	return r;
 }
 
 export function * walk(list, children) {
