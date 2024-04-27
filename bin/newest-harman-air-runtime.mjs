@@ -2,7 +2,7 @@
 
 /* eslint-disable no-console */
 
-import {read as readPackages} from '../util/packages.mjs';
+import packaged from '../util/packages.mjs';
 import {buffer as hashBuffer} from '../util/hash.mjs';
 import {userAgent} from '../util/harman-airsdk.mjs';
 import {retry} from '../util/util.mjs';
@@ -17,7 +17,7 @@ async function main() {
 	const passed = new Set();
 	const failed = new Set();
 
-	const packages = await readPackages();
+	const packages = await packaged();
 	const hashed = new Map(packages.map(p => [p.sha256, p]));
 
 	for (const file of files) {

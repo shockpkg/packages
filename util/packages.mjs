@@ -85,7 +85,7 @@ function comparePaths(a, b) {
 	return 0;
 }
 
-export async function read() {
+export default async function read() {
 	const packagesDir = pathJoin(__dirname, '..', 'packages');
 	const files = (await readdir(packagesDir, {recursive: true}))
 		.filter(s => /^([^.][^/]*\/)*[^.][^/]*\.yaml$/.test(s))

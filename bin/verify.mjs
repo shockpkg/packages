@@ -4,7 +4,7 @@
 
 import {queue as asyncQueue} from 'async';
 
-import {read as readPackages} from '../util/packages.mjs';
+import packaged from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
 
 function archiveOrgParse(url) {
@@ -87,7 +87,7 @@ async function getMetadataForUrl(url) {
 async function main() {
 	const start = Date.now();
 
-	const packages = await readPackages();
+	const packages = await packaged();
 	let included = null;
 
 	// eslint-disable-next-line no-process-env

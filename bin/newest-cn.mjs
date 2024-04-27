@@ -3,11 +3,11 @@
 /* eslint-disable no-console */
 
 import {list, userAgent} from '../util/flashcn.mjs';
-import {read as readPackages} from '../util/packages.mjs';
+import packaged from '../util/packages.mjs';
 import {retry, walk} from '../util/util.mjs';
 
 async function main() {
-	const packages = await readPackages();
+	const packages = await packaged();
 	const byName = new Map(
 		[...walk(packages, p => p.packages)].map(([p]) => [p.name, p])
 	);

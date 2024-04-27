@@ -3,7 +3,7 @@
 /* eslint-disable no-console */
 
 import {list, cookies, userAgent} from '../util/harman-airsdk.mjs';
-import {read as readPackages} from '../util/packages.mjs';
+import packaged from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
 
 async function main() {
@@ -11,7 +11,7 @@ async function main() {
 	const passed = new Set();
 	const failed = new Set();
 
-	const packages = await readPackages();
+	const packages = await packaged();
 	const named = new Map(packages.map(p => [p.name, p]));
 
 	const listed = await list();

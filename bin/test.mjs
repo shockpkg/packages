@@ -7,14 +7,14 @@ import {readdir} from 'node:fs/promises';
 import {basename, dirname, join as pathJoin} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
-import {read as readPackages} from '../util/packages.mjs';
+import packaged from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 async function properties() {
 	const directory = pathJoin(__dirname, '..', 'packages');
-	const packages = await readPackages();
+	const packages = await packaged();
 	const prefixes = (await readdir(directory, {withFileTypes: true}))
 		.filter(e => e.isDirectory() && /^[a-z0-9-]+$/.test(e.name))
 		.map(e => e.name);
@@ -104,7 +104,7 @@ async function properties() {
 }
 
 async function unique() {
-	const packages = await readPackages();
+	const packages = await packaged();
 
 	const keys = new Set();
 	const urls = new Set();
@@ -136,7 +136,7 @@ async function unique() {
 }
 
 async function rename() {
-	const packages = await readPackages();
+	const packages = await packaged();
 
 	const renamedRoot = {
 		// None currently.
