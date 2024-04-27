@@ -16,7 +16,7 @@ async function properties() {
 			match(value, /^[a-z][-a-z0-9_.]*[a-z0-9]$/);
 			let prefixed = false;
 			for (const prefix of prefixes) {
-				if (!value.indexOf(`${prefix}-`)) {
+				if (value.startsWith(`${prefix}-`)) {
 					prefixed = true;
 					break;
 				}
