@@ -102,7 +102,6 @@ export async function read() {
 	}
 
 	const parents = new Map();
-	const roots = [];
 	const children = [];
 	const flat = [];
 	for (const q = packages.slice(); q.length;) {
@@ -114,13 +113,14 @@ export async function read() {
 			q.unshift(...pkg.packages);
 		}
 		flat.push(pkg);
-		(parents.has(pkg) ? children : roots).push(pkg);
+		if (parents.has(pkg)) {
+			children.push(pkg);
+		}
 	}
 
 	return {
 		packages,
 		flat,
-		roots,
 		children
 	};
 }

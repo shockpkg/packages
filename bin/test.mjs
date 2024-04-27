@@ -13,7 +13,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 async function properties() {
 	const directory = pathJoin(__dirname, '..', 'packages');
-	const {roots, children} = await readPackages();
+	const {packages, children} = await readPackages();
 	const prefixes = (await readdir(directory, {withFileTypes: true}))
 		.filter(e => e.isDirectory() && /^[a-z0-9-]+$/.test(e.name))
 		.map(e => e.name);
@@ -82,7 +82,7 @@ async function properties() {
 	};
 	const allowedPropsChild = new Set(Object.keys(validatorsChild));
 
-	for (const pkg of roots) {
+	for (const pkg of packages) {
 		for (const p of Object.keys(validatorsRoot)) {
 			validatorsRoot[p](true, pkg[p]);
 		}
@@ -102,7 +102,7 @@ async function properties() {
 }
 
 async function unique() {
-	const {flat, roots} = await readPackages();
+	const {flat, packages} = await readPackages();
 
 	const keys = new Set();
 	for (const {name, sha256, sha1, md5} of flat) {
@@ -120,7 +120,7 @@ async function unique() {
 	}
 
 	const urls = new Set();
-	for (const {source} of roots) {
+	for (const {source} of packages) {
 		ok(!urls.has(source));
 		urls.add(source);
 	}
@@ -139,13 +139,13 @@ async function unique() {
 }
 
 async function rename() {
-	const {roots, children} = await readPackages();
+	const {packages, children} = await readPackages();
 
 	const renamedRoot = {
 		// None currently.
 	};
 
-	for (const {name, file, source} of roots) {
+	for (const {name, file, source} of packages) {
 		if (name in renamedRoot) {
 			equal(file, renamedRoot[name]);
 		}
