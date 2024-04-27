@@ -4,8 +4,7 @@
 
 import {list, userAgent} from '../util/flashcn.mjs';
 import {read as readPackages} from '../util/packages.mjs';
-import {retry} from '../util/retry.mjs';
-import {walk} from '../util/util.mjs';
+import {retry, walk} from '../util/util.mjs';
 
 async function main() {
 	const packages = await readPackages();

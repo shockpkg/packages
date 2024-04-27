@@ -5,7 +5,7 @@
 import {queue as asyncQueue} from 'async';
 
 import {read as readPackages} from '../util/packages.mjs';
-import {retry} from '../util/retry.mjs';
+import {retry} from '../util/util.mjs';
 
 function archiveOrgParse(url) {
 	const u = new URL(url);

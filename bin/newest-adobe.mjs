@@ -4,7 +4,7 @@
 
 import {queue as asyncQueue} from 'async';
 
-import {retry} from '../util/retry.mjs';
+import {retry} from '../util/util.mjs';
 
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [

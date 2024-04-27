@@ -5,7 +5,7 @@ import {Readable} from 'node:stream';
 import {pipeline} from 'node:stream/promises';
 import {fileURLToPath} from 'node:url';
 
-import {retry} from './retry.mjs';
+import {retry} from './util.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

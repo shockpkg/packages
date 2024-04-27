@@ -5,7 +5,7 @@
 import {read as readPackages} from '../util/packages.mjs';
 import {buffer as hashBuffer} from '../util/hash.mjs';
 import {userAgent} from '../util/harman-airsdk.mjs';
-import {retry} from '../util/retry.mjs';
+import {retry} from '../util/util.mjs';
 
 const files = [
 	'AdobeAIR.exe',

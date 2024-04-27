@@ -4,7 +4,7 @@
 
 import {list, cookies, userAgent} from '../util/harman-airsdk.mjs';
 import {read as readPackages} from '../util/packages.mjs';
-import {retry} from '../util/retry.mjs';
+import {retry} from '../util/util.mjs';
 
 async function main() {
 	const start = Date.now();
