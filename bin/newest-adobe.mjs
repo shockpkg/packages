@@ -166,8 +166,8 @@ async function main() {
 						console.log(`${resource.source}: Pass`);
 						passed.push(resource);
 					})
-					.catch(() => {
-						console.log(`${resource.source}: Fail`);
+					.catch(err => {
+						console.log(`${resource.source}: Fail: ${err.message}`);
 						failed.push(resource);
 					});
 			}
