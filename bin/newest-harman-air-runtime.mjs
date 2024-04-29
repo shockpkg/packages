@@ -52,7 +52,7 @@ async function main() {
 			while (resources.length) {
 				const resource = resources.shift();
 
-				console.log(`${resource.name}: ${resource.source}: Checking`);
+				console.log(`${resource.file}: ${resource.source}: Checking`);
 
 				// eslint-disable-next-line no-await-in-loop
 				await retry(() => each(resource))
