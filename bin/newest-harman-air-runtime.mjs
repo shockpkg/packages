@@ -7,59 +7,71 @@ import {buffer as hashBuffer} from '../util/hash.mjs';
 import {userAgent} from '../util/harman-airsdk.mjs';
 import {retry} from '../util/util.mjs';
 
-const files = [
-	'AdobeAIR.exe',
-	'AdobeAIR.dmg'
-];
+function list() {
+	return ['AdobeAIR.exe', 'AdobeAIR.dmg'].map(file => ({
+		file,
+		source: `https://airsdk.harman.com/assets/downloads/${file}`
+	}));
+}
 
 async function main() {
-	const start = Date.now();
-	const passed = new Set();
-	const failed = new Set();
+	// eslint-disable-next-line no-process-env
+	const threads = (+process.env.SHOCKPKG_NEWEST_THREADS) || 4;
+
+	console.log(`Threads: ${threads}`);
 
 	const packages = await packaged();
 	const hashed = new Map(packages.map(p => [p.sha256, p]));
+	const resources = list();
 
-	for (const file of files) {
-		console.log(`Checking: ${file}`);
-
-		const source = `https://airsdk.harman.com/assets/downloads/${file}`;
-		console.log(`URL: ${source}`);
+	const each = async resource => {
+		const {source} = resource;
 
 		// eslint-disable-next-line no-await-in-loop
 		const response = await retry(() => fetch(source, {
 			'User-Agent': userAgent
 		}));
+
 		const {status} = response;
 		if (status !== 200) {
-			failed.add(file);
-			console.log(`Error: Status code: ${status}: ${source}`);
-			console.log('');
-			continue;
+			throw new Error(`Error: Status code: ${status}: ${source}`);
 		}
 
 		// eslint-disable-next-line no-await-in-loop
 		const body = Buffer.from(await response.arrayBuffer());
 		const [sha256] = hashBuffer(body, ['sha256']);
 		if (!hashed.get(sha256)) {
-			failed.add(file);
-			console.log(`Error: Unknown sha256: ${sha256}`);
-			console.log('');
-			continue;
+			throw new Error(`Error: Unknown sha256: ${sha256}`);
 		}
+	};
 
-		passed.add(file);
-		console.log('');
-	}
+	const passed = [];
+	const failed = [];
+	await Promise.all((new Array(threads)).fill(0)
+		.map(async () => {
+			while (resources.length) {
+				const resource = resources.shift();
 
-	const end = Date.now();
+				console.log(`${resource.name}: ${resource.source}: Checking`);
 
-	console.log(`Passed: ${passed.size}`);
-	console.log(`Failed: ${failed.size}`);
-	console.log(`Done after ${end - start}ms`);
-	console.log('');
+				// eslint-disable-next-line no-await-in-loop
+				await retry(() => each(resource))
+					.then(() => {
+						console.log(`${resource.file}: Pass`);
+						passed.push(resource);
+					})
+					.catch(err => {
+						console.log(`${resource.file}: Fail: ${err.message}`);
+						failed.push(resource);
+					});
+			}
+		})
+	);
 
-	if (failed.size) {
+	console.log(`Passed: ${passed.length}`);
+	console.log(`Failed: ${failed.length}`);
+
+	if (failed.length) {
 		process.exitCode = 1;
 	}
 }
