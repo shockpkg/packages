@@ -2,8 +2,6 @@
 
 /* eslint-disable no-console */
 
-import {queue as asyncQueue} from 'async';
-
 import {retry} from '../util/util.mjs';
 
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
@@ -118,104 +116,68 @@ const headerMappings = [
 ];
 
 async function main() {
-	const start = Date.now();
-
 	// eslint-disable-next-line no-process-env
 	const threads = (+process.env.SHOCKPKG_NEWEST_THREADS) || 4;
-	console.log(`Number of threads: ${threads}`);
 
-	console.log(`Checking ${resources.length}`);
-	console.log('');
+	console.log(`Threads: ${threads}`);
+	console.log(`Checking: ${resources.length}`);
 
-	const taskReport = (task, err) => {
-		const ms = task.end - task.start;
-		const state = err ? 'Error' : 'Done';
-		const info = err ? `: ${err.message}` : '';
+	const each = async resource => {
+		const {source: url, status: statusE} = resource;
+		const response = await retry(() => fetch(url, {
+			method: 'HEAD',
+			redirect: 'manual'
+		}));
+		const {status, headers} = response;
 
-		console.log(`${task.resource.source}: ${state} (${ms}ms)${info}`);
-	};
+		if (status !== statusE) {
+			throw new Error(`Status code: ${status} != ${statusE}: ${url}`);
+		}
 
-	const report = await new Promise(resolve => {
-		const report = [];
+		for (const [property, header] of headerMappings) {
+			const expected = resource[property];
+			if (typeof expected === 'undefined') {
+				continue;
+			}
+			const actual = headers.get(header);
+			const value = typeof expected === 'number' ? +actual : actual;
 
-		const taskEnd = (task, err) => {
-			task.end = Date.now();
-			report.push({task, err});
-			taskReport(task);
-		};
-
-		const q = asyncQueue(async task => {
-			task.start = Date.now();
-
-			console.log(`${task.resource.source}: Checking`);
-
-			const {status: statusE, source: url} = task.resource;
-			const response = await retry(() => fetch(url, {
-				method: 'HEAD',
-				redirect: 'manual'
-			}));
-			const {status, headers} = response;
-
-			if (status !== statusE) {
+			if (value !== expected) {
 				throw new Error(
-					`Status code: ${status} != ${statusE}: ${url}`
+					`Unexpected ${header}: ${value}` +
+					` (expected ${expected})`
 				);
 			}
-
-			for (const [property, header] of headerMappings) {
-				const expected = task.resource[property];
-				if (typeof expected === 'undefined') {
-					continue;
-				}
-				const actual = headers.get(header);
-				const actualValue = typeof expected === 'number' ?
-					+actual : actual;
-
-				if (actualValue !== expected) {
-					throw new Error(
-						`Unexpected ${header}: ${actualValue}` +
-						` (expected ${expected})`
-					);
-				}
-			}
-
-			taskEnd(task, null);
-		}, threads);
-
-		q.error((err, task) => {
-			taskEnd(task, err);
-		});
-
-		q.drain(() => {
-			resolve(report);
-		});
-
-		for (const resource of resources) {
-			q.push({resource, start: null, end: null});
 		}
-	});
-	console.log('');
+	};
 
-	const reportPassed = report.filter(entry => !entry.err);
-	const reportFailed = report.filter(entry => entry.err);
+	const passed = [];
+	const failed = [];
+	await Promise.all((new Array(threads)).fill(0)
+		.map(async () => {
+			while (resources.length) {
+				const resource = resources.shift();
 
-	if (reportFailed.length) {
-		console.log(`Failed: ${reportFailed.length}`);
-		for (const {task, err} of reportFailed) {
-			if (err) {
-				taskReport(task, err);
+				console.log(`${resource.source}: Checking`);
+
+				// eslint-disable-next-line no-await-in-loop
+				await retry(() => each(resource))
+					.then(() => {
+						console.log(`${resource.source}: Pass`);
+						passed.push(resource);
+					})
+					.catch(() => {
+						console.log(`${resource.source}: Fail`);
+						failed.push(resource);
+					});
 			}
-		}
-		console.log('');
-	}
+		})
+	);
 
-	const end = Date.now();
-	console.log(`Passed: ${reportPassed.length}`);
-	console.log(`Failed: ${reportFailed.length}`);
-	console.log(`Done after ${end - start}ms`);
-	console.log('');
+	console.log(`Passed: ${passed.length}`);
+	console.log(`Failed: ${failed.length}`);
 
-	if (reportFailed.length) {
+	if (failed.length) {
 		process.exitCode = 1;
 	}
 }
