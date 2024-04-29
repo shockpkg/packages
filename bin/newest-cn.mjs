@@ -26,11 +26,11 @@ async function main() {
 		const pkg = byName.get(name);
 		const dated = pkg?.metadata?.date;
 		if (!date || !pkg) {
-			throw new Error(`Error: Unknown package: ${name}`);
+			throw new Error(`Unknown package: ${name}`);
 		}
 
 		if (date !== dated) {
-			throw new Error(`Error: Unexpected date: ${date} != ${dated}`);
+			throw new Error(`Unexpected date: ${date} != ${dated}`);
 		}
 
 		const url = `${source}?_=${Date.now()}`;
@@ -45,13 +45,13 @@ async function main() {
 
 		const {status, headers} = response;
 		if (status !== 200) {
-			throw new Error(`Error: Status code: ${status}: ${url}`);
+			throw new Error(`Status code: ${status}: ${url}`);
 		}
 
 		const size = +headers.get('content-length');
 		const sized = pkg.size;
 		if (size !== sized) {
-			throw new Error(`Error: Unexpected size: ${size} != ${sized}`);
+			throw new Error(`Unexpected size: ${size} != ${sized}`);
 		}
 	};
 

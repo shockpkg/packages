@@ -23,7 +23,7 @@ async function main() {
 
 		const expected = named.get(name);
 		if (!expected) {
-			throw new Error(`Error: Unknown name: ${name}`);
+			throw new Error(`Unknown name: ${name}`);
 		}
 
 		// eslint-disable-next-line no-await-in-loop
@@ -37,13 +37,13 @@ async function main() {
 
 		const {status, headers} = response;
 		if (status !== 200) {
-			throw new Error(`Error: Status code: ${status}: ${source}`);
+			throw new Error(`Status code: ${status}: ${source}`);
 		}
 
 		const size = +headers.get('content-length');
 		const sized = expected.size;
 		if (size !== sized) {
-			throw new Error(`Error: Unexpected size: ${size} != ${sized}`);
+			throw new Error(`Unexpected size: ${size} != ${sized}`);
 		}
 	};
 

@@ -34,14 +34,14 @@ async function main() {
 
 		const {status} = response;
 		if (status !== 200) {
-			throw new Error(`Error: Status code: ${status}: ${source}`);
+			throw new Error(`Status code: ${status}: ${source}`);
 		}
 
 		// eslint-disable-next-line no-await-in-loop
 		const body = Buffer.from(await response.arrayBuffer());
 		const [sha256] = hashBuffer(body, ['sha256']);
 		if (!hashed.get(sha256)) {
-			throw new Error(`Error: Unknown sha256: ${sha256}`);
+			throw new Error(`Unknown sha256: ${sha256}`);
 		}
 	};
 
