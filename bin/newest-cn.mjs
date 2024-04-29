@@ -7,34 +7,30 @@ import packaged from '../util/packages.mjs';
 import {retry, walk} from '../util/util.mjs';
 
 async function main() {
+	// eslint-disable-next-line no-process-env
+	const threads = (+process.env.SHOCKPKG_NEWEST_THREADS) || 4;
+
+	console.log(`Threads: ${threads}`);
+
 	const packages = await packaged();
 	const byName = new Map(
 		[...walk(packages, p => p.packages)].map(([p]) => [p.name, p])
 	);
+	const resources = await list();
 
-	const start = Date.now();
-	const passed = new Set();
-	const failed = new Set();
+	console.log(`Checking: ${resources.length}`);
 
-	const all = await list();
-	for (const {name, source, referer, date} of all) {
-		console.log(`Checking: ${name}`);
-		console.log(`URL: ${source}`);
+	const each = async resource => {
+		const {name, source, referer, date} = resource;
 
 		const pkg = byName.get(name);
 		const dated = pkg?.metadata?.date;
 		if (!date || !pkg) {
-			failed.add(name);
-			console.log(`Error: Unknown package: ${name}`);
-			console.log('');
-			continue;
+			throw new Error(`Error: Unknown package: ${name}`);
 		}
 
 		if (date !== dated) {
-			failed.add(name);
-			console.log(`Error: Unexpected date: ${date} != ${dated}`);
-			console.log('');
-			continue;
+			throw new Error(`Error: Unexpected date: ${date} != ${dated}`);
 		}
 
 		const url = `${source}?_=${Date.now()}`;
@@ -49,33 +45,43 @@ async function main() {
 
 		const {status, headers} = response;
 		if (status !== 200) {
-			failed.add(name);
-			console.log(`Error: Status code: ${status}: ${url}`);
-			console.log('');
-			continue;
+			throw new Error(`Error: Status code: ${status}: ${url}`);
 		}
 
 		const size = +headers.get('content-length');
 		const sized = pkg.size;
 		if (size !== sized) {
-			failed.add(name);
-			console.log(`Error: Unexpected size: ${size} != ${sized}`);
-			console.log('');
-			continue;
+			throw new Error(`Error: Unexpected size: ${size} != ${sized}`);
 		}
+	};
 
-		passed.add(name);
-		console.log('');
-	}
+	const passed = [];
+	const failed = [];
+	await Promise.all((new Array(threads)).fill(0)
+		.map(async () => {
+			while (resources.length) {
+				const resource = resources.shift();
 
-	const end = Date.now();
+				console.log(`${resource.name}: ${resource.source}: Checking`);
 
-	console.log(`Passed: ${passed.size}`);
-	console.log(`Failed: ${failed.size}`);
-	console.log(`Done after ${end - start}ms`);
-	console.log('');
+				// eslint-disable-next-line no-await-in-loop
+				await retry(() => each(resource))
+					.then(() => {
+						console.log(`${resource.name}: Pass`);
+						passed.push(resource);
+					})
+					.catch(err => {
+						console.log(`${resource.name}: Fail: ${err.message}`);
+						failed.push(resource);
+					});
+			}
+		})
+	);
 
-	if (failed.size) {
+	console.log(`Passed: ${passed.length}`);
+	console.log(`Failed: ${failed.length}`);
+
+	if (failed.length) {
 		process.exitCode = 1;
 	}
 }
