@@ -4,7 +4,7 @@
 
 import packaged from '../util/packages.mjs';
 import {buffer as hashBuffer} from '../util/hash.mjs';
-import {userAgent} from '../util/harman-airsdk.mjs';
+import {userAgent} from '../util/harman.mjs';
 import {retry} from '../util/util.mjs';
 
 function list() {

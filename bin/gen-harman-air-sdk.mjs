@@ -7,10 +7,10 @@ import {stat} from 'node:fs/promises';
 import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
 import {packages as encodePackages} from '../util/yaml.mjs';
-import {list, cookies, userAgent} from '../util/harman-airsdk.mjs';
+import {sdks, cookies, userAgent} from '../util/harman.mjs';
 
 async function main() {
-	const listed = await list();
+	const listed = await sdks();
 
 	const doc = [];
 	for (const {name, file, source: url} of listed.downloads) {

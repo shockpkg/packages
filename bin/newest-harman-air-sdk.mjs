@@ -2,7 +2,7 @@
 
 /* eslint-disable no-console */
 
-import {list, cookies, userAgent} from '../util/harman-airsdk.mjs';
+import {sdks, cookies, userAgent} from '../util/harman.mjs';
 import packaged from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
 
@@ -14,7 +14,7 @@ async function main() {
 
 	const packages = await packaged();
 	const named = new Map(packages.map(p => [p.name, p]));
-	const listed = await list();
+	const listed = await sdks();
 	const resources = listed.downloads;
 	const cookie = cookies(listed.cookies);
 

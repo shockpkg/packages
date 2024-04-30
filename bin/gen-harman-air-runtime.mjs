@@ -7,7 +7,7 @@ import {stat} from 'node:fs/promises';
 import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
 import {packages as encodePackages} from '../util/yaml.mjs';
-import {userAgent} from '../util/harman-airsdk.mjs';
+import {userAgent} from '../util/harman.mjs';
 
 function genList(version, versioned) {
 	const p = versioned ? `${version}/` : '';

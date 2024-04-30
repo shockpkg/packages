@@ -14,7 +14,7 @@ function addQueryParams(url, params) {
 			.join('&');
 }
 
-export async function list() {
+export async function sdks() {
 	const response = await retry(() => fetch(apiUrl, {
 		'User-Agent': userAgent
 	}));
