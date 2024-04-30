@@ -33,6 +33,15 @@ const dupes = new Map([
 	['pp_ax', ['activex', 'ppapi']]
 ]);
 
+function attrs(tag) {
+	const reg = /\s([a-z0-9-]+)(=("([^"]*)"|'([^']*)'|(\S*)))?/gi;
+	const attrs = {};
+	for (let m; (m = reg.exec(tag));) {
+		attrs[m[1]] = m[4] ?? m[5] ?? m[6] ?? null;
+	}
+	return attrs;
+}
+
 function parseJsonP(jsonp) {
 	const m = jsonp.match(/^\s*[a-z0-9_$]+\s*\((.+)\)\s*;?\s*$/im);
 	if (!m) {
@@ -158,15 +167,6 @@ async function listRelease() {
 	}
 
 	return r;
-}
-
-function attrs(tag) {
-	const reg = /\s([a-z0-9-]+)(=("([^"]*)"|'([^']*)'|(\S*)))?/gi;
-	const attrs = {};
-	for (let m; (m = reg.exec(tag));) {
-		attrs[m[1]] = m[4] ?? m[5] ?? m[6] ?? null;
-	}
-	return attrs;
 }
 
 async function listDebug() {
