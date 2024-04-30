@@ -17,9 +17,9 @@ The primary list of shockpkg packages.
 
 # Bugs
 
-If you find that the list is outdated or has any errors please create an issue on this repository.
+If you find that the list has any errors please create an issue on this repository.
 
-Outdated URL's are typically found by daily testing via a cron script.
+Updated packages are typically found by daily testing in a cron script.
 
 
 # License
