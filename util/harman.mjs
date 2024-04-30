@@ -20,7 +20,9 @@ export function cookies(list) {
 
 export async function sdks() {
 	const response = await retry(() => fetch(apiUrl, {
-		'User-Agent': userAgent
+		headers: {
+			'User-Agent': userAgent
+		}
 	}));
 	if (response.status !== 200) {
 		throw new Error(`Status code: ${response.status}: ${apiUrl}`);
