@@ -11,8 +11,10 @@
 		"clean": "node ./bin/clean.mjs",
 		"build": "node ./bin/build.mjs"
 	},
-	"devDependencies": {
-		"eslint": "^8.57.0",
+	"dependencies": {
 		"js-yaml": "^4.1.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.0"
 	}
 }
