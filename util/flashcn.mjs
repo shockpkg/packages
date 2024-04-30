@@ -1,5 +1,3 @@
-import {DOMParser} from '@xmldom/xmldom';
-
 import {retry} from './util.mjs';
 
 // eslint-disable-next-line max-len
@@ -161,12 +159,13 @@ async function listRelease() {
 	return r;
 }
 
-function c2a(a) {
-	const r = [];
-	for (let i = 0; i < a.length; i++) {
-		r.push(a[i]);
+function attrs(tag) {
+	const reg = /\s([a-z0-9-]+)(=("([^"]*)"|'([^']*)'|(\S*)))?/gi;
+	const attrs = {};
+	for (let m; (m = reg.exec(tag));) {
+		attrs[m[1]] = m[4] ?? m[5] ?? m[6] ?? null;
 	}
-	return r;
+	return attrs;
 }
 
 async function listDebug() {
@@ -181,6 +180,14 @@ async function listDebug() {
 	}
 
 	const html = await htmlRes.text();
+
+	const anchors = html.match(/<a[^>]*>/gi);
+	if (!anchors) {
+		throw new Error(`No a tags: ${htmlUrl}`);
+	}
+
+	const hrefs = [...anchors].map(attrs).map(a => a.href || '')
+		.filter(s => s.includes('/cdm/'));
 
 	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';
 	const jsRes = await retry(() => fetch(jsUrl, {
@@ -199,12 +206,8 @@ async function listDebug() {
 	const dated = dateNorm(date);
 
 	const r = [];
-	const dom = (new DOMParser()).parseFromString(html, 'text/html');
-	const aTags = c2a(dom.getElementsByClassName('dc-download'))
-		.map(e => c2a(e.getElementsByTagName('a')))
-		.flat(1);
-	for (const a of aTags) {
-		const u = (new URL(a.getAttribute('href'), htmlUrl));
+	for (const href of hrefs) {
+		const u = (new URL(href, htmlUrl));
 		const source = getSource(u.href, version);
 		const file = urlFile(source);
 		if (/playerglobal/i.test(file)) {
