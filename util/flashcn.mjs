@@ -209,12 +209,17 @@ async function listDebug() {
 	const dated = dateNorm(date);
 
 	const r = [];
+	const ids = new Set();
 	for (const href of hrefs) {
 		const u = (new URL(href, htmlUrl));
 		const source = getSource(u.href, version);
+		const file = urlFile(source);
 		const id = u.pathname;
 		const type = idDebug.get(id);
-		const file = urlFile(source);
+		if (!type) {
+			throw new Error(`Unknown file: ${u.href}`);
+		}
+
 		const name = type === 'playerglobal' ?
 			`flash-playerglobal-${version}-cn` :
 			`flash-player-${version}-${type}-cn`;
@@ -229,6 +234,7 @@ async function listDebug() {
 			version,
 			size: null
 		});
+		ids.add(id);
 	}
 	return r;
 }
