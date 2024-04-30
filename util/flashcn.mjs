@@ -22,10 +22,11 @@ const ids = [
 	['linux-64-rpm-npapi', 'linux-x86_64-npapi-rpm'],
 	['linux-64-tar-ppapi', 'linux-x86_64-ppapi'],
 	['linux-64-rpm-ppapi', 'linux-x86_64-ppapi-rpm'],
-	['playerglobal', 'playerglobal']
+	['/cdm/latest/playerglobal.swc', 'playerglobal']
 ];
-const idTypes = new Map(ids);
 const idIndex = new Map(ids.map((v, i) => [v[0], i]));
+const idDebug = new Map(ids.filter(a => a[0].includes('/')));
+const idRelease = new Map(ids.filter(a => !idDebug.has(a[0])));
 
 const dupes = new Map([
 	// The pp_ax installer gets same installers from pp and ax.
@@ -130,7 +131,7 @@ async function listRelease() {
 		// }
 
 		const source = getSource(info.downloadURL, info.version);
-		const type = idTypes.get(id);
+		const type = idRelease.get(id);
 		if (!type) {
 			throw new Error(`Unknown id: ${id}`);
 		}
@@ -209,41 +210,23 @@ async function listDebug() {
 	for (const href of hrefs) {
 		const u = (new URL(href, htmlUrl));
 		const source = getSource(u.href, version);
+		const id = u.pathname;
+		const type = idDebug.get(id);
 		const file = urlFile(source);
-		if (/playerglobal/i.test(file)) {
-			r.push({
-				name: `flash-playerglobal-${version}-cn`,
-				file,
-				source,
-				referer: htmlUrl,
-				list: 'debug',
-				id: 'playerglobal',
-				date: dated,
-				version,
-				size: null
-			});
-		}
-		else if (/flash_?player/i.test(file)) {
-			const id = u.pathname;
-			const type = idTypes.get(id);
-			if (!type) {
-				throw new Error(`Unknown id: ${id}`);
-			}
-			r.push({
-				name: `flash-player-${version}-${type}-cn`,
-				file,
-				source,
-				referer: htmlUrl,
-				list: 'debug',
-				id,
-				date: dated,
-				version,
-				size: null
-			});
-		}
-		else {
-			throw new Error(`Unknown file type: ${file}`);
-		}
+		const name = type === 'playerglobal' ?
+			`flash-playerglobal-${version}-cn` :
+			`flash-player-${version}-${type}-cn`;
+		r.push({
+			name,
+			file,
+			source,
+			referer: htmlUrl,
+			list: 'debug',
+			id,
+			date: dated,
+			version,
+			size: null
+		});
 	}
 	return r;
 }
