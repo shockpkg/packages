@@ -4,15 +4,8 @@
 
 import packaged from '../util/packages.mjs';
 import {buffer as hashBuffer} from '../util/hash.mjs';
-import {userAgent} from '../util/harman.mjs';
+import {runtimes, userAgent} from '../util/harman.mjs';
 import {retry} from '../util/util.mjs';
-
-function list() {
-	return ['AdobeAIR.exe', 'AdobeAIR.dmg'].map(file => ({
-		file,
-		source: `https://airsdk.harman.com/assets/downloads/${file}`
-	}));
-}
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -21,11 +14,20 @@ async function main() {
 	console.log(`Threads: ${threads}`);
 
 	const packages = await packaged();
-	const hashed = new Map(packages.map(p => [p.sha256, p]));
-	const resources = list();
+	const byName = new Map(packages.map(p => [p.name, p]));
+	const resources = await runtimes();
 
 	const each = async resource => {
-		const {source} = resource;
+		const {name, source, sha256} = resource;
+
+		const pkg = byName.get(name);
+		if (!pkg) {
+			throw new Error(`Unknown name: ${name}`);
+		}
+
+		if (sha256 !== pkg.sha256) {
+			throw new Error(`Different sha256: ${sha256} != ${pkg.sha256}`);
+		}
 
 		// eslint-disable-next-line no-await-in-loop
 		const response = await retry(() => fetch(source, {
@@ -41,9 +43,9 @@ async function main() {
 
 		// eslint-disable-next-line no-await-in-loop
 		const body = Buffer.from(await response.arrayBuffer());
-		const [sha256] = hashBuffer(body, ['sha256']);
-		if (!hashed.get(sha256)) {
-			throw new Error(`Unknown sha256: ${sha256}`);
+		const [bodyHash] = hashBuffer(body, ['sha256']);
+		if (bodyHash !== sha256) {
+			throw new Error(`Body sha256: ${bodyHash} !== ${sha256}`);
 		}
 	};
 
