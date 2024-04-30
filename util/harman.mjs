@@ -14,6 +14,10 @@ function addQueryParams(url, params) {
 			.join('&');
 }
 
+export function cookies(list) {
+	return list.map(c => c.split(';')[0]).join('; ');
+}
+
 export async function sdks() {
 	const response = await retry(() => fetch(apiUrl, {
 		'User-Agent': userAgent
@@ -78,8 +82,4 @@ export async function sdks() {
 		downloads,
 		cookies
 	};
-}
-
-export function cookies(list) {
-	return list.map(c => c.split(';')[0]).join('; ');
 }
