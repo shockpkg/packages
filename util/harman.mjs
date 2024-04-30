@@ -23,7 +23,7 @@ const legacy = new Set([
 function addQueryParams(url, params) {
 	return url + (url.includes('?') ? '&' : '?') +
 		Object.entries(params)
-			.map(a => a.map(encodeURIComponent).join('='))
+			.map(a => `${a[0]}=${encodeURIComponent(a[1])}`)
 			.join('&');
 }
 
