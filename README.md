@@ -8,7 +8,7 @@ The primary list of shockpkg packages.
 
 [![newest-adobe](https://github.com/shockpkg/packages/workflows/newest-adobe/badge.svg)](https://github.com/shockpkg/packages/actions?query=workflow%3Anewest-adobe+branch%3Amaster)
 
-[![newest-cn](https://github.com/shockpkg/packages/workflows/newest-cn/badge.svg)](https://github.com/shockpkg/packages/actions?query=workflow%3Anewest-cn+branch%3Amaster)
+[![newest-flash-cn](https://github.com/shockpkg/packages/workflows/newest-flash-cn/badge.svg)](https://github.com/shockpkg/packages/actions?query=workflow%3Anewest-flash-cn+branch%3Amaster)
 
 [![newest-harman-air-sdk](https://github.com/shockpkg/packages/workflows/newest-harman-air-sdk/badge.svg)](https://github.com/shockpkg/packages/actions?query=workflow%3Anewest-harman-air-sdk+branch%3Amaster)
 

@@ -1,4 +1,4 @@
-name: newest-cn
+name: newest-flash-cn
 
 on:
   push:
@@ -23,4 +23,4 @@ jobs:
         run: npm ci
 
       - name: Newest CN
-        run: npm run newest-cn
+        run: npm run newest-flash-cn
