@@ -121,13 +121,7 @@ async function listRelease() {
 	const r = [];
 	const ids = new Set();
 	for (const [id, info] of Object.entries(versions)) {
-		if (id.startsWith('fc-')) {
-			continue;
-		}
-
-		ids.add(id);
-
-		if (dupes.has(id)) {
+		if (id.startsWith('fc-') || dupes.has(id)) {
 			continue;
 		}
 
@@ -144,6 +138,7 @@ async function listRelease() {
 		if (!type) {
 			throw new Error(`Unknown id: ${id}`);
 		}
+
 		r.push({
 			name: `flash-player-${info.version}-${type}-cn`,
 			file: urlFile(source),
@@ -155,15 +150,12 @@ async function listRelease() {
 			version: info.version,
 			size: info.size
 		});
+		ids.add(id);
 	}
 
-	for (const [id, duped] of dupes) {
-		if (ids.has(id)) {
-			const missing = duped.filter(id => !ids.has(id));
-			if (missing.length) {
-				throw new Error(`Missing ${id} dupes: ${missing.join(',')}`);
-			}
-		}
+	const missing = [...idRelease.keys()].filter(s => !ids.has(s));
+	if (missing.length) {
+		throw new Error(`Missing: ${missing.join(',')}`);
 	}
 
 	return r;
@@ -236,6 +228,12 @@ async function listDebug() {
 		});
 		ids.add(id);
 	}
+
+	const missing = [...idDebug.keys()].filter(s => !ids.has(s));
+	if (missing.length) {
+		throw new Error(`Missing: ${missing.join(',')}`);
+	}
+
 	return r;
 }
 
