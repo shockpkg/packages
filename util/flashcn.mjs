@@ -187,8 +187,10 @@ async function listDebug() {
 		throw new Error(`No a tags: ${htmlUrl}`);
 	}
 
-	const hrefs = [...anchors].map(attrs).map(a => a.href || '')
-		.filter(s => s.includes('/cdm/'));
+	const hrefs = new Set(
+		[...anchors].map(attrs).map(a => a.href || '')
+			.filter(s => s.includes('/cdm/'))
+	);
 
 	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';
 	const jsRes = await retry(() => fetch(jsUrl, {
