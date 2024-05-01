@@ -6,13 +6,14 @@ import {retry} from '../util/util.mjs';
 
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [
-	// {
-	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/cabs/director/sw.cab',
-	// 	status: 200,
-	// 	size: 1292210,
-	// 	lastModified: 'Tue, 26 Mar 2019 04:34:58 GMT',
-	// 	eTag: '"13b7b2-584f7d7ef82db"'
-	// },
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/cabs/director/sw.cab',
+		status: 404
+		// status: 200,
+		// size: 1292210,
+		// lastModified: 'Tue, 26 Mar 2019 04:34:58 GMT',
+		// eTag: '"13b7b2-584f7d7ef82db"'
+	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Full.exe',
 		status: 200,
@@ -68,22 +69,23 @@ const resources = [
 		size: 18771823,
 		lastModified: 'Mon, 15 Apr 2019 05:30:08 GMT',
 		eTag: '"11e6f6f-5868af21a4ce4"'
+	},
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full.dmg',
+		status: 404
+		// status: 200,
+		// size: 22513907,
+		// lastModified: 'Thu, 04 Oct 2012 18:22:08 GMT',
+		// eTag: '"15788f3-4cb3fd5409400"'
+	},
+	{
+		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Slim.dmg',
+		status: 404
+		// status: 200,
+		// size: 3888494,
+		// lastModified: 'Thu, 04 Oct 2012 18:22:26 GMT',
+		// eTag: '"3b556e-4cb3fd6533c80"'
 	}
-	// ,
-	// {
-	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full.dmg',
-	// 	status: 200,
-	// 	size: 22513907,
-	// 	lastModified: 'Thu, 04 Oct 2012 18:22:08 GMT',
-	// 	eTag: '"15788f3-4cb3fd5409400"'
-	// },
-	// {
-	// 	source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Slim.dmg',
-	// 	status: 200,
-	// 	size: 3888494,
-	// 	lastModified: 'Thu, 04 Oct 2012 18:22:26 GMT',
-	// 	eTag: '"3b556e-4cb3fd6533c80"'
-	// }
 ];
 
 // Check for any possible release of post-EOL versions.
