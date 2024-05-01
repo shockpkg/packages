@@ -8,7 +8,7 @@ import {retry, walk} from '../util/util.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
-	const threads = (+process.env.SHOCKPKG_NEWEST_THREADS) || 4;
+	const threads = +process.env.SHOCKPKG_NEWEST_THREADS || 4;
 
 	console.log(`Threads: ${threads}`);
 
@@ -35,13 +35,15 @@ async function main() {
 
 		const url = `${source}?_=${Date.now()}`;
 		// eslint-disable-next-line no-await-in-loop
-		const response = await retry(() => fetch(url, {
-			method: 'HEAD',
-			headers: {
-				'User-Agent': userAgent,
-				Referer: referer
-			}
-		}));
+		const response = await retry(() =>
+			fetch(url, {
+				method: 'HEAD',
+				headers: {
+					'User-Agent': userAgent,
+					Referer: referer
+				}
+			})
+		);
 
 		const {status, headers} = response;
 		if (status !== 200) {
@@ -57,8 +59,8 @@ async function main() {
 
 	const passed = [];
 	const failed = [];
-	await Promise.all((new Array(threads)).fill(0)
-		.map(async () => {
+	await Promise.all(
+		new Array(threads).fill(0).map(async () => {
 			while (resources.length) {
 				const resource = resources.shift();
 

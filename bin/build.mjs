@@ -46,10 +46,13 @@ async function main() {
 	const packages = await packaged();
 	for (const v of [1]) {
 		// eslint-disable-next-line no-await-in-loop
-		await outputFile(pathJoin(distApi, `${v}`, file), JSON.stringify({
-			format: '1.2',
-			packages: transform(packages, v)
-		}));
+		await outputFile(
+			pathJoin(distApi, `${v}`, file),
+			JSON.stringify({
+				format: '1.2',
+				packages: transform(packages, v)
+			})
+		);
 	}
 }
 main().catch(err => {

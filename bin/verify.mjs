@@ -43,8 +43,7 @@ async function archiveOrgMetadata(item) {
 					sha1: file.sha1
 				};
 
-				const maybeSha256 = file.name.split('/').slice(0, -1)
-					.join('');
+				const maybeSha256 = file.name.split('/').slice(0, -1).join('');
 				if (maybeSha256.length === 64) {
 					info.sha256 = maybeSha256;
 				}
@@ -84,7 +83,7 @@ async function getMetadataForUrl(url) {
 
 async function main() {
 	// eslint-disable-next-line no-process-env
-	const threads = (+process.env.SHOCKPKG_NEWEST_THREADS) || 4;
+	const threads = +process.env.SHOCKPKG_NEWEST_THREADS || 4;
 	// eslint-disable-next-line no-process-env
 	const includes = process.env.SHOCKPKG_VERIFY_INCLUDES || '';
 
@@ -129,8 +128,8 @@ async function main() {
 
 	const passed = [];
 	const failed = [];
-	await Promise.all((new Array(threads)).fill(0)
-		.map(async () => {
+	await Promise.all(
+		new Array(threads).fill(0).map(async () => {
 			while (resources.length) {
 				const resource = resources.shift();
 

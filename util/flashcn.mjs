@@ -1,7 +1,8 @@
 import {retry} from './util.mjs';
 
-// eslint-disable-next-line max-len
-export const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
+export const userAgent =
+	// eslint-disable-next-line max-len
+	'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
 
 const ids = [
 	['npapi', 'windows-npapi'],
@@ -36,7 +37,7 @@ const dupes = new Map([
 function attrs(tag) {
 	const reg = /\s([a-z0-9-]+)(=("([^"]*)"|'([^']*)'|(\S*)))?/gi;
 	const attrs = {};
-	for (let m; (m = reg.exec(tag));) {
+	for (let m; (m = reg.exec(tag)); ) {
 		attrs[m[1]] = m[4] ?? m[5] ?? m[6] ?? null;
 	}
 	return attrs;
@@ -66,8 +67,8 @@ function getSource(downloadUrl, version) {
 		/^(.*)\/cdm\/(latest|webplayer)\/flashplayer(.*)_install_cn_(web|debug)\.exe/
 	);
 	if (m) {
-		const [, base,,, kind] = m;
-		let [,,, type] = m;
+		const [, base, , , kind] = m;
+		let [, , , type] = m;
 		if (type) {
 			if (type !== 'ax') {
 				type += 'api';
@@ -80,10 +81,7 @@ function getSource(downloadUrl, version) {
 	}
 	if (
 		/web/i.test(r) ||
-		(
-			/latest.*debug\.exe$/i.test(r) &&
-			!/flashplayer_sa/i.test(r)
-		)
+		(/latest.*debug\.exe$/i.test(r) && !/flashplayer_sa/i.test(r))
 	) {
 		throw new Error(`Unresolved web installer: ${url}`);
 	}
@@ -91,9 +89,7 @@ function getSource(downloadUrl, version) {
 }
 
 function urlFile(url) {
-	return decodeURIComponent(
-		url.split(/[?#]/)[0].split('/').pop()
-	);
+	return decodeURIComponent(url.split(/[?#]/)[0].split('/').pop());
 }
 
 function dateNorm(date) {
@@ -107,12 +103,14 @@ function dateNorm(date) {
 async function listRelease() {
 	const htmlUrl = 'https://www.flash.cn/download';
 	const fverUrl = 'https://api.flash.cn/config/flashVersion';
-	const jsRes = await retry(() => fetch(fverUrl, {
-		headers: {
-			'User-Agent': userAgent,
-			Referer: htmlUrl
-		}
-	}));
+	const jsRes = await retry(() =>
+		fetch(fverUrl, {
+			headers: {
+				'User-Agent': userAgent,
+				Referer: htmlUrl
+			}
+		})
+	);
 	if (jsRes.status !== 200) {
 		throw new Error(`Status code: ${jsRes.status}: ${htmlUrl}`);
 	}
@@ -163,11 +161,13 @@ async function listRelease() {
 
 async function listDebug() {
 	const htmlUrl = 'https://www.flash.cn/support/debug-downloads';
-	const htmlRes = await retry(() => fetch(htmlUrl, {
-		headers: {
-			'User-Agent': userAgent
-		}
-	}));
+	const htmlRes = await retry(() =>
+		fetch(htmlUrl, {
+			headers: {
+				'User-Agent': userAgent
+			}
+		})
+	);
 	if (htmlRes.status !== 200) {
 		throw new Error(`Status code: ${htmlRes.status}: ${htmlUrl}`);
 	}
@@ -180,17 +180,21 @@ async function listDebug() {
 	}
 
 	const hrefs = new Set(
-		[...anchors].map(attrs).map(a => a.href || '')
+		[...anchors]
+			.map(attrs)
+			.map(a => a.href || '')
 			.filter(s => s.includes('/cdm/'))
 	);
 
 	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';
-	const jsRes = await retry(() => fetch(jsUrl, {
-		headers: {
-			'User-Agent': userAgent,
-			Referer: htmlUrl
-		}
-	}));
+	const jsRes = await retry(() =>
+		fetch(jsUrl, {
+			headers: {
+				'User-Agent': userAgent,
+				Referer: htmlUrl
+			}
+		})
+	);
 	if (jsRes.status !== 200) {
 		throw new Error(`Status code: ${jsRes.status}: ${jsUrl}`);
 	}
@@ -203,7 +207,7 @@ async function listDebug() {
 	const r = [];
 	const ids = new Set();
 	for (const href of hrefs) {
-		const u = (new URL(href, htmlUrl));
+		const u = new URL(href, htmlUrl);
 		const source = getSource(u.href, version);
 		const file = urlFile(source);
 		const id = u.pathname;
@@ -212,9 +216,10 @@ async function listDebug() {
 			throw new Error(`Unknown file: ${u.href}`);
 		}
 
-		const name = type === 'playerglobal' ?
-			`flash-playerglobal-${version}-cn` :
-			`flash-player-${version}-${type}-cn`;
+		const name =
+			type === 'playerglobal'
+				? `flash-playerglobal-${version}-cn`
+				: `flash-player-${version}-${type}-cn`;
 		r.push({
 			name,
 			file,
@@ -238,6 +243,7 @@ async function listDebug() {
 }
 
 export async function list() {
-	return (await Promise.all([listRelease(), listDebug()])).flat()
+	return (await Promise.all([listRelease(), listDebug()]))
+		.flat()
 		.sort((a, b) => (idIndex.get(a.id) || 0) - (idIndex.get(b.id) || 0));
 }

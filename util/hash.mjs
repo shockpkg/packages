@@ -61,8 +61,7 @@ export async function file(fp, algos, enc = null) {
 	let r;
 	try {
 		r = await stream(f, algos, enc);
-	}
-	finally {
+	} finally {
 		f.close();
 	}
 	return r;

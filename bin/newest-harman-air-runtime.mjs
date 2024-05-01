@@ -11,7 +11,7 @@ import {retry} from '../util/util.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
-	const threads = (+process.env.SHOCKPKG_NEWEST_THREADS) || 4;
+	const threads = +process.env.SHOCKPKG_NEWEST_THREADS || 4;
 
 	console.log(`Threads: ${threads}`);
 
@@ -32,11 +32,13 @@ async function main() {
 		}
 
 		// eslint-disable-next-line no-await-in-loop
-		const response = await retry(() => fetch(source, {
-			headers: {
-				'User-Agent': userAgent
-			}
-		}));
+		const response = await retry(() =>
+			fetch(source, {
+				headers: {
+					'User-Agent': userAgent
+				}
+			})
+		);
 
 		const {status} = response;
 		if (status !== 200) {
@@ -56,8 +58,8 @@ async function main() {
 
 	const passed = [];
 	const failed = [];
-	await Promise.all((new Array(threads)).fill(0)
-		.map(async () => {
+	await Promise.all(
+		new Array(threads).fill(0).map(async () => {
 			while (resources.length) {
 				const resource = resources.shift();
 

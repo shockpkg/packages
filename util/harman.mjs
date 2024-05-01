@@ -7,8 +7,9 @@ const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';
 const runtimeUrl = 'https://airsdk.harman.com/runtime';
 const runtimeFileBase = 'https://airsdk.harman.com/assets/downloads/';
 
-// eslint-disable-next-line max-len
-export const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
+export const userAgent =
+	// eslint-disable-next-line max-len
+	'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
 
 const runtimeFiles = [
 	['AdobeAIR.exe', 'windows'],
@@ -21,10 +22,13 @@ const legacy = new Set([
 ]);
 
 function addQueryParams(url, params) {
-	return url + (url.includes('?') ? '&' : '?') +
+	return (
+		url +
+		(url.includes('?') ? '&' : '?') +
 		Object.entries(params)
 			.map(a => `${a[0]}=${encodeURIComponent(a[1])}`)
-			.join('&');
+			.join('&')
+	);
 }
 
 export function cookies(list) {
@@ -34,18 +38,20 @@ export function cookies(list) {
 function attrs(tag) {
 	const reg = /\s([a-z0-9-]+)(=("([^"]*)"|'([^']*)'|(\S*)))?/gi;
 	const attrs = {};
-	for (let m; (m = reg.exec(tag));) {
+	for (let m; (m = reg.exec(tag)); ) {
 		attrs[m[1]] = m[4] ?? m[5] ?? m[6] ?? null;
 	}
 	return attrs;
 }
 
 export async function sdks() {
-	const response = await retry(() => fetch(apiUrl, {
-		headers: {
-			'User-Agent': userAgent
-		}
-	}));
+	const response = await retry(() =>
+		fetch(apiUrl, {
+			headers: {
+				'User-Agent': userAgent
+			}
+		})
+	);
 	if (response.status !== 200) {
 		throw new Error(`Status code: ${response.status}: ${apiUrl}`);
 	}
@@ -89,12 +95,8 @@ export async function sdks() {
 		}
 		const [, version] = m;
 		const name = format.replace('%version%', version);
-		const source = addQueryParams((new URL(link, apiUrl)).href, {id});
-		const file = decodeURI(
-			source.split(/[?#]/)[0]
-				.split('/')
-				.pop()
-		);
+		const source = addQueryParams(new URL(link, apiUrl).href, {id});
+		const file = decodeURI(source.split(/[?#]/)[0].split('/').pop());
 		downloads.push({
 			name,
 			version,
@@ -110,11 +112,13 @@ export async function sdks() {
 }
 
 export async function runtimes() {
-	const response = await retry(() => fetch(runtimeUrl, {
-		headers: {
-			'User-Agent': userAgent
-		}
-	}));
+	const response = await retry(() =>
+		fetch(runtimeUrl, {
+			headers: {
+				'User-Agent': userAgent
+			}
+		})
+	);
 
 	// The page has a 404 response code normally?
 	if (response.status !== 200 && response.status !== 404) {
@@ -137,12 +141,14 @@ export async function runtimes() {
 		const {href} = new URL(src, runtimeUrl);
 
 		// eslint-disable-next-line no-await-in-loop
-		const res = await retry(() => fetch(href, {
-			headers: {
-				'User-Agent': userAgent,
-				Referer: response.url
-			}
-		}));
+		const res = await retry(() =>
+			fetch(href, {
+				headers: {
+					'User-Agent': userAgent,
+					Referer: response.url
+				}
+			})
+		);
 		if (res.status !== 200) {
 			continue;
 		}

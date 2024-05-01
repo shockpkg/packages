@@ -56,9 +56,8 @@ async function properties() {
 			equal(typeof value, 'string');
 			if (root) {
 				match(value, /^https:\/\//);
-				equal(value, (new URL(value)).href);
-			}
-			else {
+				equal(value, new URL(value).href);
+			} else {
 				match(value, /[^/\\]$/);
 			}
 		},
@@ -91,8 +90,7 @@ async function properties() {
 			for (const p of Object.keys(pkg)) {
 				ok(allowedPropsChild.has(p));
 			}
-		}
-		else {
+		} else {
 			for (const p of Object.keys(validatorsRoot)) {
 				validatorsRoot[p](true, pkg[p]);
 			}
@@ -178,8 +176,7 @@ async function rename() {
 		if (parents.length) {
 			if (pkg.name in renamedChild) {
 				equal(pkg.file, renamedChild[pkg.name]);
-			}
-			else {
+			} else {
 				equal(pkg.file, basename(pkg.source));
 			}
 			continue;
@@ -187,11 +184,13 @@ async function rename() {
 
 		if (pkg.name in renamedRoot) {
 			equal(pkg.file, renamedRoot[pkg.name]);
-		}
-		else {
-			equal(pkg.file, decodeURIComponent(
-				(new URL(pkg.source)).pathname.split('/').pop()
-			));
+		} else {
+			equal(
+				pkg.file,
+				decodeURIComponent(
+					new URL(pkg.source).pathname.split('/').pop()
+				)
+			);
 		}
 	}
 }

@@ -13,10 +13,12 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+report.*.json
 *.tgz
-
-# Using NPM
 yarn.lock
+
+# IDE config
+.vscode
 
 /_download
 /dist

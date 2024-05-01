@@ -87,11 +87,7 @@ const resources = [
 ];
 
 // Check for any possible release of post-EOL versions.
-for (const i of [
-	33,
-	34,
-	35
-]) {
+for (const i of [33, 34, 35]) {
 	for (const f of [
 		`flashplayer_${i}_sa.exe`,
 		`flashplayer_${i}_sa_debug.exe`,
@@ -103,7 +99,8 @@ for (const i of [
 		resources.push({
 			source: `https://fpdownload.macromedia.com/get/flashplayer/updaters/${i}/${f}`,
 			status: 302,
-			location: 'https://www.adobe.com/products/flashplayer/end-of-life.html'
+			location:
+				'https://www.adobe.com/products/flashplayer/end-of-life.html'
 		});
 	}
 }
@@ -117,17 +114,19 @@ const headerMappings = [
 
 async function main() {
 	// eslint-disable-next-line no-process-env
-	const threads = (+process.env.SHOCKPKG_NEWEST_THREADS) || 4;
+	const threads = +process.env.SHOCKPKG_NEWEST_THREADS || 4;
 
 	console.log(`Threads: ${threads}`);
 	console.log(`Checking: ${resources.length}`);
 
 	const each = async resource => {
 		const {source: url, status: statusE} = resource;
-		const response = await retry(() => fetch(url, {
-			method: 'HEAD',
-			redirect: 'manual'
-		}));
+		const response = await retry(() =>
+			fetch(url, {
+				method: 'HEAD',
+				redirect: 'manual'
+			})
+		);
 		const {status, headers} = response;
 
 		if (status !== statusE) {
@@ -144,8 +143,7 @@ async function main() {
 
 			if (value !== expected) {
 				throw new Error(
-					`Unexpected ${header}: ${value}` +
-					` (expected ${expected})`
+					`Unexpected ${header}: ${value} (expected ${expected})`
 				);
 			}
 		}
@@ -153,8 +151,8 @@ async function main() {
 
 	const passed = [];
 	const failed = [];
-	await Promise.all((new Array(threads)).fill(0)
-		.map(async () => {
+	await Promise.all(
+		new Array(threads).fill(0).map(async () => {
 			while (resources.length) {
 				const resource = resources.shift();
 

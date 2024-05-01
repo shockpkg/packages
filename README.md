@@ -14,13 +14,11 @@ The primary list of shockpkg packages.
 
 [![newest-harman-air-runtime](https://github.com/shockpkg/packages/workflows/newest-harman-air-runtime/badge.svg)](https://github.com/shockpkg/packages/actions?query=workflow%3Anewest-harman-air-runtime+branch%3Amaster)
 
-
 # Bugs
 
 If you find that the list has any errors please create an issue on this repository.
 
 Updated packages are typically found by daily testing in a cron script.
-
 
 # License
 
