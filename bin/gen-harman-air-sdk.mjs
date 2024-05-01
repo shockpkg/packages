@@ -2,47 +2,54 @@
 
 /* eslint-disable no-console */
 
-import {stat} from 'node:fs/promises';
+import {mkdir, stat} from 'node:fs/promises';
 
-import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
 import {sdks, cookies, userAgent} from '../util/harman.mjs';
+import {download} from '../util/download.mjs';
 
 async function main() {
 	const listed = await sdks();
+	const cookieHeader = cookies(listed.cookies);
 
 	const doc = [];
 	for (const {name, file, source: url} of listed.downloads) {
 		console.log(`Name: ${name}`);
 		console.log(`URL: ${url}`);
 
-		// eslint-disable-next-line no-await-in-loop
-		const cached = await ensure(
-			name,
-			url,
-			progress => {
-				const p = progress * 100;
-				process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
-			},
-			{
-				'User-Agent': userAgent,
-				Cookie: cookies(listed.cookies)
-			}
-		);
-		if (cached.downloaded) {
-			console.log('');
-		}
-		else {
-			console.log('Cached');
-		}
+		const filepath = `${name}/${file}`;
 
 		// eslint-disable-next-line no-await-in-loop
-		const {size} = await stat(cached.filepath);
+		let st = await stat(filepath).catch(() => null);
+		if (!st) {
+			// eslint-disable-next-line no-await-in-loop
+			await mkdir(name, {recursive: true});
+
+			// eslint-disable-next-line no-await-in-loop
+			await download(
+				filepath,
+				url,
+				{
+					'User-Agent': userAgent,
+					Cookie: cookieHeader
+				},
+				({size, total}) => {
+					const p = (size / total) * 100;
+					process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
+				}
+			);
+			console.log('');
+
+			// eslint-disable-next-line no-await-in-loop
+			st = await stat(filepath);
+		}
+
+		const {size} = st;
 		console.log(`Size: ${size}`);
 
 		// eslint-disable-next-line no-await-in-loop
 		const [sha256, sha1, md5] = await hashFile(
-			cached.filepath,
+			filepath,
 			['sha256', 'sha1', 'md5']
 		);
 		console.log(`SHA256: ${sha256}`);

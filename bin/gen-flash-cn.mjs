@@ -2,13 +2,13 @@
 
 /* eslint-disable no-console */
 
-import {stat} from 'node:fs/promises';
+import {mkdir, stat} from 'node:fs/promises';
 
 import {list, userAgent} from '../util/flashcn.mjs';
-import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
 import packaged from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
+import {download} from '../util/download.mjs';
 
 async function main() {
 	const packages = await packaged();
@@ -24,33 +24,39 @@ async function main() {
 		console.log(`Name: ${name}`);
 		console.log(`URL: ${source}`);
 
-		// eslint-disable-next-line no-await-in-loop
-		const cached = await ensure(
-			name,
-			`${source}?_=${Date.now()}`,
-			progress => {
-				const p = progress * 100;
-				process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
-			},
-			{
-				'User-Agent': userAgent,
-				Referer: referer
-			}
-		);
-		if (cached.downloaded) {
-			console.log('');
-		}
-		else {
-			console.log('Cached');
-		}
+		const filepath = `${name}/${file}`;
 
 		// eslint-disable-next-line no-await-in-loop
-		const {size} = await stat(cached.filepath);
+		let st = await stat(filepath).catch(() => null);
+		if (!st) {
+			// eslint-disable-next-line no-await-in-loop
+			await mkdir(name, {recursive: true});
+
+			// eslint-disable-next-line no-await-in-loop
+			await download(
+				filepath,
+				`${source}?_=${Date.now()}`,
+				{
+					'User-Agent': userAgent,
+					Referer: referer
+				},
+				({size, total}) => {
+					const p = (size / total) * 100;
+					process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
+				}
+			);
+			console.log('');
+
+			// eslint-disable-next-line no-await-in-loop
+			st = await stat(filepath);
+		}
+
+		const {size} = st;
 		console.log(`Size: ${size}`);
 
 		// eslint-disable-next-line no-await-in-loop
 		const [sha256, sha1, md5] = await hashFile(
-			cached.filepath,
+			filepath,
 			['sha256', 'sha1', 'md5']
 		);
 		console.log(`SHA256: ${sha256}`);

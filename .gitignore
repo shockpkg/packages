@@ -18,5 +18,5 @@ yarn-error.log*
 # Using NPM
 yarn.lock
 
-/_gencache
+/_download
 /dist
