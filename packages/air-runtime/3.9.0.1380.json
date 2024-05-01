@@ -1,0 +1,53 @@
+[
+	{
+		"name": "air-runtime-3.9.0.1380-android",
+		"file": "AdobeAIRAndroid.apk",
+		"size": 10364612,
+		"sha256": "5d787699c27478fc2fe44adb628c0971995875769a5952ce07c6e5313d361406",
+		"sha1": "aba04fb8b9c9a29f522cd9c668635ebe9fdbfa61",
+		"md5": "2b149e040b62b778281b286d9ee5dd01",
+		"source": "https://archive.org/download/shockpkg_packages_5/5d/78/7699c27478fc2fe44adb628c0971995875769a5952ce07c6e5313d361406/AdobeAIRAndroid.apk"
+	},
+	{
+		"name": "air-runtime-3.9.0.1380-windows-archive",
+		"file": "AdobeAIRInstaller.zip",
+		"size": 18045798,
+		"sha256": "402d625bad82794d2a6804cb299308fd8429b4063832f6d56e878fc92257ac07",
+		"sha1": "79f204f32daf5239b5e78d42b29822c990942430",
+		"md5": "5d09ea66ed6d5755e7de2b5d27bfb86b",
+		"source": "https://archive.org/download/shockpkg_packages_4/40/2d/625bad82794d2a6804cb299308fd8429b4063832f6d56e878fc92257ac07/AdobeAIRInstaller.zip",
+		"packages": [
+			{
+				"name": "air-runtime-3.9.0.1380-windows",
+				"file": "AdobeAIRInstaller.exe",
+				"size": 18101704,
+				"sha256": "11e5a4dd0f7cedd1204c3e946efe91a03f98361e6818f64c559268d71855def0",
+				"sha1": "ca29838c0870913100d7342fca8e2415b997399d",
+				"md5": "d4b51299a4918203558f03d7b711ef8b",
+				"source": "AdobeAIRInstaller.exe",
+				"zipped": "8-51-18045622"
+			}
+		]
+	},
+	{
+		"name": "air-runtime-3.9.0.1380-mac-archive",
+		"file": "AdobeAIR.zip",
+		"size": 27560805,
+		"sha256": "1f843594a1f4e8e392a9e892499eb0a5736adaf1ddacab9af8176289e91e650b",
+		"sha1": "0327bdbefac1e29c1cd218cc2a6e69747068d8ee",
+		"md5": "d4c085defbc15a0f32381ee0c2314e15",
+		"source": "https://archive.org/download/shockpkg_packages_1/1f/84/3594a1f4e8e392a9e892499eb0a5736adaf1ddacab9af8176289e91e650b/AdobeAIR.zip",
+		"packages": [
+			{
+				"name": "air-runtime-3.9.0.1380-mac",
+				"file": "AdobeAIR.dmg",
+				"size": 27590943,
+				"sha256": "9b5601062674db2de5fccc5e2914e9647a73b02596e7befb83ba6b90a87ee08c",
+				"sha1": "69863ef58dca864c9b9016b512ea79e5d1429498",
+				"md5": "b49086f0adff2483bbfd6a5331d6bdd3",
+				"source": "AdobeAIR.dmg",
+				"zipped": "8-42-27560647"
+			}
+		]
+	}
+]

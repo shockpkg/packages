@@ -1,0 +1,38 @@
+[
+	{
+		"name": "flex-falcon-0.0.2-bin-tar-gz",
+		"file": "apache-flex-falconjx-0.0.2-bin.tar.gz",
+		"size": 14153221,
+		"sha256": "cc22b48085fa8f2b0c8b41f4c0d60f2265e69b5f9b29cace7c0aa5fc708dc13f",
+		"sha1": "441cedbc5e39090bc74e67c84347b251c182567f",
+		"md5": "26bcda1653b913ba1cc2b38d600717bf",
+		"source": "https://archive.org/download/shockpkg_packages_c/cc/22/b48085fa8f2b0c8b41f4c0d60f2265e69b5f9b29cace7c0aa5fc708dc13f/apache-flex-falconjx-0.0.2-bin.tar.gz"
+	},
+	{
+		"name": "flex-falcon-0.0.2-bin-zip",
+		"file": "apache-flex-falconjx-0.0.2-bin.zip",
+		"size": 16210834,
+		"sha256": "7d5ffcc13f31501372922edcc807d53040c9fab3dcd5ea4afe9d0eacbcec4b1b",
+		"sha1": "15dd8e36dbca0cd56a8307c2a4d7b6b50e295e1f",
+		"md5": "67303aeac4108dd43aa4fcd020e48b29",
+		"source": "https://archive.org/download/shockpkg_packages_7/7d/5f/fcc13f31501372922edcc807d53040c9fab3dcd5ea4afe9d0eacbcec4b1b/apache-flex-falconjx-0.0.2-bin.zip"
+	},
+	{
+		"name": "flex-falcon-0.0.2-src-tar-gz",
+		"file": "apache-flex-falconjx-0.0.2-src.tar.gz",
+		"size": 2375906,
+		"sha256": "820bb186ba7b98e176572beea5106ae408add8db4306c186a835619cbf642e76",
+		"sha1": "a60795d3f410de2dc0cd6963c7e61edfb45a5bfc",
+		"md5": "234dbac42fcae8d52a8dc071bead1460",
+		"source": "https://archive.org/download/shockpkg_packages_8/82/0b/b186ba7b98e176572beea5106ae408add8db4306c186a835619cbf642e76/apache-flex-falconjx-0.0.2-src.tar.gz"
+	},
+	{
+		"name": "flex-falcon-0.0.2-src-zip",
+		"file": "apache-flex-falconjx-0.0.2-src.zip",
+		"size": 4396424,
+		"sha256": "ca25b56a63c79cdeb2493cd86d570c9521a52ed918f8ad74e1c5750871b775c8",
+		"sha1": "8a0b1a3e65938f68857ac24216bfb1c7cecf4dba",
+		"md5": "4b7826244e2ce0bb8652d569000515f8",
+		"source": "https://archive.org/download/shockpkg_packages_c/ca/25/b56a63c79cdeb2493cd86d570c9521a52ed918f8ad74e1c5750871b775c8/apache-flex-falconjx-0.0.2-src.zip"
+	}
+]

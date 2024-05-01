@@ -1,0 +1,44 @@
+[
+	{
+		"name": "air-runtime-3.5.0.1060-windows-archive",
+		"file": "AdobeAIRInstaller.zip",
+		"size": 17245879,
+		"sha256": "889357a827401ccc9035769d92ea95e14376d31588cd4c8e5cb157ad1af4a87d",
+		"sha1": "f9cc2e368a37e857132b0dc1eae30d4fb50979e4",
+		"md5": "1de0c888031ce215112207ae8cfa5a69",
+		"source": "https://archive.org/download/shockpkg_packages_8/88/93/57a827401ccc9035769d92ea95e14376d31588cd4c8e5cb157ad1af4a87d/AdobeAIRInstaller.zip",
+		"packages": [
+			{
+				"name": "air-runtime-3.5.0.1060-windows",
+				"file": "AdobeAIRInstaller.exe",
+				"size": 17301984,
+				"sha256": "fe897d0931b7306093df1de68e2af38cbe7afb4f29a7704758bcfb2d0fd9ed6b",
+				"sha1": "48ef2618f0ecb9b87fb65f9b93066e0de7e4d1d3",
+				"md5": "5854f0a5f0ce4b8cfb4c9dde98e99d37",
+				"source": "AdobeAIRInstaller.exe",
+				"zipped": "8-51-17245703"
+			}
+		]
+	},
+	{
+		"name": "air-runtime-3.5.0.1060-mac-archive",
+		"file": "AdobeAIR.zip",
+		"size": 26549953,
+		"sha256": "f630d09e4f9fef54f2afd606085bcda057134137bd1b419003e3a4e99a395c44",
+		"sha1": "4f9c38a48dd0236e56a80f41beaa17e2c5b657a5",
+		"md5": "8cd11559fbb5e68dd89178e13cd27f1d",
+		"source": "https://archive.org/download/shockpkg_packages_f/f6/30/d09e4f9fef54f2afd606085bcda057134137bd1b419003e3a4e99a395c44/AdobeAIR.zip",
+		"packages": [
+			{
+				"name": "air-runtime-3.5.0.1060-mac",
+				"file": "AdobeAIR.dmg",
+				"size": 26579247,
+				"sha256": "94259392b12759589b75c5cfd4882681c7bfc14c937fa204d56d26a1b6aa64fd",
+				"sha1": "8fbd2dffc20442903d8b51e7362a3191f39752b4",
+				"md5": "fbfcc5a33640e176c0784e3bccbf4d09",
+				"source": "AdobeAIR.dmg",
+				"zipped": "8-42-26549795"
+			}
+		]
+	}
+]

@@ -1,0 +1,29 @@
+[
+	{
+		"name": "flash-playerglobal-25.0-2017-02-28-14-02-30",
+		"file": "playerglobal25_0.swc",
+		"size": 470770,
+		"sha256": "2f51a54dec3922227a08953b688b1558e3c7341dce2f8dc54965a26b8eee94e5",
+		"sha1": "2749067b0fe714f2b9aa8f5e5564b97bed3416d7",
+		"md5": "4ca9e7558d12da5cc9e003abae9f7d38",
+		"source": "https://archive.org/download/shockpkg_packages_2/2f/51/a54dec3922227a08953b688b1558e3c7341dce2f8dc54965a26b8eee94e5/playerglobal25_0.swc"
+	},
+	{
+		"name": "flash-playerglobal-25.0-2017-02-28",
+		"file": "playerglobal25_0.swc",
+		"size": 470653,
+		"sha256": "6e488e4687beb862be2e565ed6cf2dd2222d3bebdaea1c3a9fea51918682ff0f",
+		"sha1": "6a3c91f4e23dfa8acd8802a6a2b269e6ef2b4f87",
+		"md5": "0823ab6a2f6b821ff29b363e8ee5a092",
+		"source": "https://archive.org/download/shockpkg_packages_6/6e/48/8e4687beb862be2e565ed6cf2dd2222d3bebdaea1c3a9fea51918682ff0f/playerglobal25_0.swc"
+	},
+	{
+		"name": "flash-playerglobal-25.0",
+		"file": "playerglobal25_0.swc",
+		"size": 471045,
+		"sha256": "3b8ecab7d608000e183fcfea95e6e1001d113b2c367cf79064d39aee04116321",
+		"sha1": "7bae41bf2a7fae51045a08bb90a381a0e61fcf3e",
+		"md5": "b3d74e999f24f8e41d38a59cc82e3c52",
+		"source": "https://archive.org/download/shockpkg_packages_3/3b/8e/cab7d608000e183fcfea95e6e1001d113b2c367cf79064d39aee04116321/playerglobal25_0.swc"
+	}
+]

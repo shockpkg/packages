@@ -1,0 +1,29 @@
+[
+	{
+		"name": "shockwave-player-12.2.2.172-windows-activex",
+		"file": "sw.cab",
+		"size": 1016771,
+		"sha256": "593039f48fc2498fb72e13daa553f56ee6d872e47cdd6d7f19c7d1f4ce1b50a4",
+		"sha1": "82f978528d655a3714bfd5347409facb0ae29cf3",
+		"md5": "3052e3fc2d90bff1d3a6322c55749a67",
+		"source": "https://archive.org/download/shockpkg_packages_5/59/30/39f48fc2498fb72e13daa553f56ee6d872e47cdd6d7f19c7d1f4ce1b50a4/sw.cab"
+	},
+	{
+		"name": "shockwave-player-12.2.2.172-windows-full-licensed-msi",
+		"file": "sw_lic_full_installer.msi",
+		"size": 24801792,
+		"sha256": "d70bad05942be0b080ba6669723efacaedb483893cae3f9edb343b9b6f525a50",
+		"sha1": "3ac6d85e54dffb2940c89fc10e63363a47ec96d0",
+		"md5": "dce825ade203aa9c057e1c4411eac011",
+		"source": "https://archive.org/download/shockpkg_packages_d/d7/0b/ad05942be0b080ba6669723efacaedb483893cae3f9edb343b9b6f525a50/sw_lic_full_installer.msi"
+	},
+	{
+		"name": "shockwave-player-12.2.2.172-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 13896832,
+		"sha256": "fe148ebee9a454c5ee8b006bea8da790b2a3814140f2204e1c03a6de7b5fd1ed",
+		"sha1": "e1915de2ff18022d5b15fa05c570c8852389dee4",
+		"md5": "af5fa773c34ed11b502334680467e156",
+		"source": "https://archive.org/download/shockpkg_packages_f/fe/14/8ebee9a454c5ee8b006bea8da790b2a3814140f2204e1c03a6de7b5fd1ed/Shockwave_Installer_Full.exe"
+	}
+]

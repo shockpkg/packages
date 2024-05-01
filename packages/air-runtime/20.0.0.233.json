@@ -1,0 +1,29 @@
+[
+	{
+		"name": "air-runtime-20.0.0.233-android",
+		"file": "AdobeAIRAndroid.apk",
+		"size": 19823240,
+		"sha256": "a50cf544d842c489e48f5963fca8b15f5fc5ad1d518a1f3f1167e8ec00a55061",
+		"sha1": "91ab0157b4919e5e0ef9db57f59aeadba7b308ec",
+		"md5": "7921a7c2fae7889fe118b182da1d6e78",
+		"source": "https://archive.org/download/shockpkg_packages_a/a5/0c/f544d842c489e48f5963fca8b15f5fc5ad1d518a1f3f1167e8ec00a55061/AdobeAIRAndroid.apk"
+	},
+	{
+		"name": "air-runtime-20.0.0.233-windows",
+		"file": "AdobeAIRInstaller.exe",
+		"size": 18348472,
+		"sha256": "ed67713fdcfd6c2bf4600ac8e45cb13c2134dd1a8faad7efb2a2939134873ddb",
+		"sha1": "7161fb8b47721485882f52720f8b41dbfe3b69d0",
+		"md5": "a19cb331505f7953fc969bfc9cbe474d",
+		"source": "https://archive.org/download/shockpkg_packages_e/ed/67/713fdcfd6c2bf4600ac8e45cb13c2134dd1a8faad7efb2a2939134873ddb/AdobeAIRInstaller.exe"
+	},
+	{
+		"name": "air-runtime-20.0.0.233-mac",
+		"file": "AdobeAIR.dmg",
+		"size": 32753981,
+		"sha256": "9d61846396088e8864321e1b4a89802ac5f7b07cbca0b9ab3e07163932e44898",
+		"sha1": "66b319ba92004a74335613f2e51a936f27b34989",
+		"md5": "db88c8599548f8bf9e5ad0e5f2247966",
+		"source": "https://archive.org/download/shockpkg_packages_9/9d/61/846396088e8864321e1b4a89802ac5f7b07cbca0b9ab3e07163932e44898/AdobeAIR.dmg"
+	}
+]

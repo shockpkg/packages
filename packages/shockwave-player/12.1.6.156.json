@@ -1,0 +1,29 @@
+[
+	{
+		"name": "shockwave-player-12.1.6.156-windows-activex",
+		"file": "sw.cab",
+		"size": 252175,
+		"sha256": "f234526824949885dc1813351c38d1a40d99cec10566c83a8d689416f219ce75",
+		"sha1": "6d30e42ff4df6a2af3d47d8c4bf8d20d5fbf7bce",
+		"md5": "409858681d4e4b584f7d6262ee75a6a4",
+		"source": "https://archive.org/download/shockpkg_packages_f/f2/34/526824949885dc1813351c38d1a40d99cec10566c83a8d689416f219ce75/sw.cab"
+	},
+	{
+		"name": "shockwave-player-12.1.6.156-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 13827960,
+		"sha256": "d290d62b3f93e8b9e64a3524fae5b58f01a0f7f54f49d9f43e4659b31f9fa3f1",
+		"sha1": "c0b66e96963fcec3b3fac370a39bf73a7cc1a5fd",
+		"md5": "64304b0240b2845fcb678db80ed98d2a",
+		"source": "https://archive.org/download/shockpkg_packages_d/d2/90/d62b3f93e8b9e64a3524fae5b58f01a0f7f54f49d9f43e4659b31f9fa3f1/Shockwave_Installer_Full.exe"
+	},
+	{
+		"name": "shockwave-player-12.1.6.156-windows-slim",
+		"file": "Shockwave_Installer_Slim.exe",
+		"size": 5006144,
+		"sha256": "f0b16ebfd271ad50ca2a1ca6b77be001e1672732f6ab397a7ff33fb10eb813a2",
+		"sha1": "9eb1f648ceac8f65987981a2b689c3931fcd3c25",
+		"md5": "78d0c1825e50cb3d58aa3ce9770fdb96",
+		"source": "https://archive.org/download/shockpkg_packages_f/f0/b1/6ebfd271ad50ca2a1ca6b77be001e1672732f6ab397a7ff33fb10eb813a2/Shockwave_Installer_Slim.exe"
+	}
+]

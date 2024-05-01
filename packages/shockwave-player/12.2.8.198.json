@@ -1,0 +1,47 @@
+[
+	{
+		"name": "shockwave-player-12.2.8.198-windows-activex",
+		"file": "sw.cab",
+		"size": 1088513,
+		"sha256": "22baa17b35b1b4c203986a2b41b0777b54036293ccf4953226a025c524d5a8ea",
+		"sha1": "b47ad15524e4dcbcf0805e9e5389c08e2d116d00",
+		"md5": "0f7e2b1162adc4aa2a76ae3d3f139492",
+		"source": "https://archive.org/download/shockpkg_packages_2/22/ba/a17b35b1b4c203986a2b41b0777b54036293ccf4953226a025c524d5a8ea/sw.cab"
+	},
+	{
+		"name": "shockwave-player-12.2.8.198-windows-full-licensed-msi",
+		"file": "sw_lic_full_installer.msi",
+		"size": 24248320,
+		"sha256": "58f2152bf726d52f08fb41f904c62ff00fdf748c8ce413e8c8547da3a21922ba",
+		"sha1": "72d87398aff4ffb59c4b443bc3f3137ca3d3c1e3",
+		"md5": "8d61d3f6a2fdfddb9aa7c9c7610ff9e2",
+		"source": "https://archive.org/download/shockpkg_packages_5/58/f2/152bf726d52f08fb41f904c62ff00fdf748c8ce413e8c8547da3a21922ba/sw_lic_full_installer.msi"
+	},
+	{
+		"name": "shockwave-player-12.2.8.198-windows-full-licensed",
+		"file": "sw_lic_full_installer.exe",
+		"size": 13125344,
+		"sha256": "302f8df722ce3cc1be5c52720c61e462c9038d005934ae1c31c88f18c7021ad0",
+		"sha1": "62be4508cb8c203d6c81337144dcdf864815aa1b",
+		"md5": "d93f53891804cddc897fec465caf3981",
+		"source": "https://archive.org/download/shockpkg_packages_3/30/2f/8df722ce3cc1be5c52720c61e462c9038d005934ae1c31c88f18c7021ad0/sw_lic_full_installer.exe"
+	},
+	{
+		"name": "shockwave-player-12.2.8.198-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 14705832,
+		"sha256": "17f32eb23181ab20ae1e652160349a63b8b7905c7f8289770255a62ecfa8a6d9",
+		"sha1": "e9a4e9faaae238f5dcfe6f4e3fd5070957f47f34",
+		"md5": "ee57e3d17367ffdbc70856a9451bbd68",
+		"source": "https://archive.org/download/shockpkg_packages_1/17/f3/2eb23181ab20ae1e652160349a63b8b7905c7f8289770255a62ecfa8a6d9/Shockwave_Installer_Full.exe"
+	},
+	{
+		"name": "shockwave-player-12.2.8.198-windows-slim",
+		"file": "Shockwave_Installer_Slim.exe",
+		"size": 5837984,
+		"sha256": "c633d0969da8b8c07ecddda1a50dd4516e4eb49602a7e5a8476fd6429753a3b2",
+		"sha1": "67e8a87bde45e6a203ca05fb4dc7c345ac927d55",
+		"md5": "f5212dc3d0e74285eb418a9819893d8f",
+		"source": "https://archive.org/download/shockpkg_packages_c/c6/33/d0969da8b8c07ecddda1a50dd4516e4eb49602a7e5a8476fd6429753a3b2/Shockwave_Installer_Slim.exe"
+	}
+]

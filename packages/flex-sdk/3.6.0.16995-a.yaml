@@ -1,7 +1,0 @@
-- name: flex-sdk-3.6.0.16995-a-bin
-  file: flex_sdk_3.6.0.16995A.zip
-  size: 125829385
-  sha256: fe2cc488d6a5d7bea3847a2776556a31b9eced5fec0e325705939fc998f0ec58
-  sha1: 8f0978b0ab64df8dfbdcc9197c2b9cd4b610fd16
-  md5: e0badf4756ce1a9fa3b4ccf32a8d2963
-  source: https://archive.org/download/shockpkg_packages_f/fe/2c/c488d6a5d7bea3847a2776556a31b9eced5fec0e325705939fc998f0ec58/flex_sdk_3.6.0.16995A.zip

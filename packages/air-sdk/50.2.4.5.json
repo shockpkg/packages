@@ -1,0 +1,56 @@
+[
+	{
+		"name": "air-sdk-50.2.4.5-windows",
+		"file": "AIRSDK_Flex_Windows.zip",
+		"size": 556625468,
+		"sha256": "4f58e3768f25234f831e5f751262dd18ee89d6c9da8fcbe5a8007968accb0b1b",
+		"sha1": "fec46773c82bbb59ee453f840939bd2de556297d",
+		"md5": "4dc2ee00d4546e7b3517d89fb49e5420",
+		"source": "https://archive.org/download/shockpkg_packages_4/4f/58/e3768f25234f831e5f751262dd18ee89d6c9da8fcbe5a8007968accb0b1b/AIRSDK_Flex_Windows.zip"
+	},
+	{
+		"name": "air-sdk-50.2.4.5-windows-compiler",
+		"file": "AIRSDK_Windows.zip",
+		"size": 593991794,
+		"sha256": "289a671e36ecba7b61b07a780303ad6b91a129c259fcc5df87e84877138e8c20",
+		"sha1": "02701515c0053c94c0ad5d8591d255dd5fa4baa7",
+		"md5": "c5336087f8263efe1fef2c2dc159e00c",
+		"source": "https://archive.org/download/shockpkg_packages_2/28/9a/671e36ecba7b61b07a780303ad6b91a129c259fcc5df87e84877138e8c20/AIRSDK_Windows.zip"
+	},
+	{
+		"name": "air-sdk-50.2.4.5-mac",
+		"file": "AIRSDK_Flex_MacOS.zip",
+		"size": 519675225,
+		"sha256": "f7b217ef21b9edf7bd4356595b4e1b411e668f22061ce4ac59a4fc98d699166e",
+		"sha1": "faa40535547168d94fe7f13610ab68818f381b7d",
+		"md5": "73b8073ffa5521048e56a399fc8f3877",
+		"source": "https://archive.org/download/shockpkg_packages_f/f7/b2/17ef21b9edf7bd4356595b4e1b411e668f22061ce4ac59a4fc98d699166e/AIRSDK_Flex_MacOS.zip"
+	},
+	{
+		"name": "air-sdk-50.2.4.5-mac-compiler",
+		"file": "AIRSDK_MacOS.zip",
+		"size": 557033826,
+		"sha256": "7676de9e4362ee2a7ea65734426be4ad5f26a5bb14b3ff4ab530059d47eae363",
+		"sha1": "a6bd9dc51e7fc45438fb174dabc09c5a85e86b69",
+		"md5": "94b0ce5f7d890c35479f1601f760e888",
+		"source": "https://archive.org/download/shockpkg_packages_7/76/76/de9e4362ee2a7ea65734426be4ad5f26a5bb14b3ff4ab530059d47eae363/AIRSDK_MacOS.zip"
+	},
+	{
+		"name": "air-sdk-50.2.4.5-linux",
+		"file": "AIRSDK_Flex_Linux.zip",
+		"size": 185430924,
+		"sha256": "22b5be4d30c8b74a6b8e34105e56b442e9d6499c7c0adef12053cd28f545f882",
+		"sha1": "f00175d084d20efc054d5463dd9d1b5105b0bb6b",
+		"md5": "e122674f17f7ffbe502d48794c18b09c",
+		"source": "https://archive.org/download/shockpkg_packages_2/22/b5/be4d30c8b74a6b8e34105e56b442e9d6499c7c0adef12053cd28f545f882/AIRSDK_Flex_Linux.zip"
+	},
+	{
+		"name": "air-sdk-50.2.4.5-linux-compiler",
+		"file": "AIRSDK_Linux.zip",
+		"size": 222789525,
+		"sha256": "f14b95f907e3d199e93a0952fe62cb8389090e164aea6a57ba16f4fe0f3723b9",
+		"sha1": "e90a05f90e36ce00731d1a74e07682cca4c83e07",
+		"md5": "8662ff2168f9a708fcbf962dd93f9666",
+		"source": "https://archive.org/download/shockpkg_packages_f/f1/4b/95f907e3d199e93a0952fe62cb8389090e164aea6a57ba16f4fe0f3723b9/AIRSDK_Linux.zip"
+	}
+]

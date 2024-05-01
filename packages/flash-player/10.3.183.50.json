@@ -1,0 +1,173 @@
+[
+	{
+		"name": "flash-player-10.3.183.50-archive",
+		"file": "fp_10.3.183.50_archive.zip",
+		"size": 63778358,
+		"sha256": "1b0d51b7126c47633e3ed3db913e0827588331c7596fc6e456370c1f6e59d25b",
+		"sha1": "4ef7ce53418d101ad8ff3d08351816b0d3287359",
+		"md5": "6262623a969025422cade08665c4f179",
+		"source": "https://archive.org/download/shockpkg_packages_1/1b/0d/51b7126c47633e3ed3db913e0827588331c7596fc6e456370c1f6e59d25b/fp_10.3.183.50_archive.zip",
+		"packages": [
+			{
+				"name": "flash-player-10.3.183.50-windows-npapi",
+				"file": "flashplayer_10_3r183_50_win.exe",
+				"size": 3093944,
+				"sha256": "68a5e8ce3dff152fc2904f03da67d36999287ca80f481ac55c3e71f2944d1cf6",
+				"sha1": "009bcea6d37e8582277697c42be3c0f63b548a7d",
+				"md5": "9e0308c3aefa15f7bae367165feb514d",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50/flashplayer_10_3r183_50_win.exe",
+				"zipped": "8-21452743-3036405"
+			},
+			{
+				"name": "flash-player-10.3.183.50-windows-npapi-debug",
+				"file": "flashplayer10_3r183_50_win_debug.exe",
+				"size": 3360696,
+				"sha256": "321ae6670ef46864b27e108d1e24246ce7035cd7463427bc2325148338d135e3",
+				"sha1": "83f627863aeca9db8e37fc70a829e2d221dadff9",
+				"md5": "bab5ac7c6140a23fc2554a341007086f",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50_debug/flashplayer10_3r183_50_win_debug.exe",
+				"zipped": "8-57129352-3303375"
+			},
+			{
+				"name": "flash-player-10.3.183.50-windows-activex",
+				"file": "flashplayer_10_3r183_50_winax.exe",
+				"size": 3132344,
+				"sha256": "31b9e13b17da7cb153564f25ad9fa6434de50079b03fd796cb8d3c63e4cbcd90",
+				"sha1": "674319bfe1154f5e953334f771a3cf8c92325129",
+				"md5": "430389bc9f19543fde8fad394162c238",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50/flashplayer_10_3r183_50_winax.exe",
+				"zipped": "8-24489247-3074935"
+			},
+			{
+				"name": "flash-player-10.3.183.50-windows-activex-debug",
+				"file": "flashplayer10_3r183_50_winax_debug.exe",
+				"size": 3400120,
+				"sha256": "19d34e4cd18da100224e0c2e87759bfa88148b369ee07a90e694043f784ade1c",
+				"sha1": "356aa96344c4d6de51de2ab05e3ba544515ba30e",
+				"md5": "52f478a562eeaeb8fc28064d1a75e553",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50_debug/flashplayer10_3r183_50_winax_debug.exe",
+				"zipped": "8-53786580-3342664"
+			},
+			{
+				"name": "flash-player-10.3.183.50-windows-sa",
+				"file": "flashplayer_10_3r183_50_win_sa.exe",
+				"size": 5795768,
+				"sha256": "10bd33de3b86e73a1e7f2195ed38beeaf7a89585ec6057588751b9cca5d9cbc8",
+				"sha1": "cdd074623151ee3543e81b3d4de3bf6b76564812",
+				"md5": "b8ef60e21b5eee016de11583403c2b26",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50/flashplayer_10_3r183_50_win_sa.exe",
+				"zipped": "8-27564282-3021592"
+			},
+			{
+				"name": "flash-player-10.3.183.50-windows-sa-debug",
+				"file": "flashplayer10_3r183_50_win_sa_debug.exe",
+				"size": 6824888,
+				"sha256": "ba864652ad792e5c18783a0e201fc7ba0a16fd155a51d181d526c2052353a95e",
+				"sha1": "105b77a900bad400cbeafc76f38d813c9e63638f",
+				"md5": "9c59956126a359e25a432acf747253e1",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50_debug/flashplayer10_3r183_50_win_sa_debug.exe",
+				"zipped": "8-60432838-3341139"
+			},
+			{
+				"name": "flash-player-10.3.183.50-windows-uninstaller",
+				"file": "uninstall_flashplayer10_3r183_50_win.exe",
+				"size": 246712,
+				"sha256": "c7898b0678730a9e197a206628e6528394c6a1f0ba6e590effe2f192db9413e8",
+				"sha1": "db84cdd456502578c615d2a4a548ef78b5771cae",
+				"md5": "54e3a9cf28edcdd8fad54cb0b7a006b8",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50/uninstall_flashplayer10_3r183_50_win.exe",
+				"zipped": "8-31028290-188998"
+			},
+			{
+				"name": "flash-player-10.3.183.50-mac-npapi",
+				"file": "flashplayer_10_3r183_50_mac_intel.dmg",
+				"size": 6428710,
+				"sha256": "003747ac7c213426643944a5018ac4940c85383b90d94e3577234bab396c6d0b",
+				"sha1": "4eaec29f79304e97f46aae4bc201804da61d4cd5",
+				"md5": "be5b0dac62a480c6d43d6085a4671052",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50/flashplayer_10_3r183_50_mac_intel.dmg",
+				"zipped": "8-9857727-6423266"
+			},
+			{
+				"name": "flash-player-10.3.183.50-mac-npapi-debug",
+				"file": "flashplayer10_3r183_50_mac_intel_debug.dmg",
+				"size": 6820302,
+				"sha256": "1570d8137683d99e63ac731f9ab16bb000e793862ff736922570637f99ddfd71",
+				"sha1": "0200a4cffcc3d4d052c1611b3233c3646ed3a57f",
+				"md5": "78c5f1cb4fe9129b2828283093ea9378",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50_debug/flashplayer10_3r183_50_mac_intel_debug.dmg",
+				"zipped": "8-41467039-6814864"
+			},
+			{
+				"name": "flash-player-10.3.183.50-mac-sa",
+				"file": "flashplayer_10_3r183_50_mac_sa.app.zip",
+				"size": 5200779,
+				"sha256": "94d0c55957208ec4ad9ca640c72a6531bf6cfc5f84d1ff704586eaa6faafda9c",
+				"sha1": "210d03229c6271bcfa96181a2d44df7d81c5ebb0",
+				"md5": "085b058fa3b03742024cb448f8ba4b05",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50/flashplayer_10_3r183_50_mac_sa.app.zip",
+				"zipped": "8-16281097-5171549"
+			},
+			{
+				"name": "flash-player-10.3.183.50-mac-sa-debug",
+				"file": "flashplayer10_3r183_50_mac_sa_debug.app.zip",
+				"size": 5535611,
+				"sha256": "2a531c69194b0fe071d633429b97c7a21dc8cb98e8905656f8ced8be28d9510f",
+				"sha1": "30cbf711138d52d0a28191e9a9c436e72caa7b46",
+				"md5": "f4055880d5a74c5215bd88b3f8c4bc7b",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50_debug/flashplayer10_3r183_50_mac_sa_debug.app.zip",
+				"zipped": "8-48282018-5504452"
+			},
+			{
+				"name": "flash-player-10.3.183.50-mac-uninstaller",
+				"file": "uninstall_flashplayer10_3r183_50_mac_intel.dmg",
+				"size": 446943,
+				"sha256": "a681bc6806b83918ebe65d797b3ab852bdf2a03bed0cd9262b2ba2a50f19e601",
+				"sha1": "9f650b511e2e26861ae4fddb3a7d0e930a1697db",
+				"md5": "6c7f7acdc7690d55e6255eed6091175d",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50/uninstall_flashplayer10_3r183_50_mac_intel.dmg",
+				"zipped": "8-30585986-442198"
+			},
+			{
+				"name": "flash-player-10.3.183.50-linux-npapi",
+				"file": "flashplayer_10_3r183_50_linux.tar.gz",
+				"size": 5460887,
+				"sha256": "a890a01806e032b8335f4b73cc04886971302c316d3b8a0df6b73a78892e07b6",
+				"sha1": "a7be272f62eb3918a26333ec9f24f08df1c60344",
+				"md5": "a3bdff29a270ae4c12c789fc35389210",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50/flashplayer_10_3r183_50_linux.tar.gz",
+				"zipped": "8-221-5412782"
+			},
+			{
+				"name": "flash-player-10.3.183.50-linux-npapi-debug",
+				"file": "flashplayer10_3r183_50_linux_debug.tar.gz",
+				"size": 5868590,
+				"sha256": "f73954e28cc0bf73103d2ddebd8785723edd7afd7a024f974e1dc8f2e01f403c",
+				"sha1": "b563b96a9380e1d6c706cb780bd52013eb3f9acf",
+				"md5": "1fd3adad707d6130fe57b38f11fe27dd",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50_debug/flashplayer10_3r183_50_linux_debug.tar.gz",
+				"zipped": "8-31217473-5804738"
+			},
+			{
+				"name": "flash-player-10.3.183.50-linux-sa",
+				"file": "flashplayer_10_3r183_50_linux_sa.tar.gz",
+				"size": 4453462,
+				"sha256": "e8f65fe6645a58622014234b80738f817ec88a433423e362c3279360e70386cc",
+				"sha1": "f654cefca0343b54b8bc482a863e52a9cbba5d50",
+				"md5": "191c6b17c293d21f8e74fd740b33329f",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50/flashplayer_10_3r183_50_linux_sa.tar.gz",
+				"zipped": "8-5413108-4444516"
+			},
+			{
+				"name": "flash-player-10.3.183.50-linux-sa-debug",
+				"file": "flashplayer10_3r183_50_linux_sa_debug.tar.gz",
+				"size": 4453467,
+				"sha256": "2269d9a8b73f501e98a487aad7f8e550f69755225aa3d678f601591466fb448a",
+				"sha1": "9824c6c1eb9cd530077dac621696beac01974ce1",
+				"md5": "e8489c899379591e331ceaf7196c44a5",
+				"source": "fp_10.3.183.50_archive/10_3_r183_50_debug/flashplayer10_3r183_50_linux_sa_debug.tar.gz",
+				"zipped": "8-37022327-4444598"
+			}
+		]
+	}
+]

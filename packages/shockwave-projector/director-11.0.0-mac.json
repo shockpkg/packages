@@ -1,0 +1,29 @@
+[
+	{
+		"name": "shockwave-projector-director-11.0.0-mac-mac",
+		"file": "projector.dmg",
+		"size": 20603549,
+		"sha256": "84543341d2e1067cadf22f97ddacfa435c720f5922e4982bea8cc241596e0778",
+		"sha1": "3a647dcfea54a4bb645e943008093f5be96d4fd2",
+		"md5": "d397ba278effbc3dff69528ef51d23ac",
+		"source": "https://archive.org/download/shockpkg_packages_8/84/54/3341d2e1067cadf22f97ddacfa435c720f5922e4982bea8cc241596e0778/projector.dmg"
+	},
+	{
+		"name": "shockwave-projector-director-11.0.0-mac-mac-zip",
+		"file": "projector.zip",
+		"size": 17801687,
+		"sha256": "8482f611ebbc03c33e3f83e799654b4332979263572f9ff12bd702e154a42830",
+		"sha1": "26182d0cb36f74446de199c22e09ca4e55137345",
+		"md5": "aa081849fe9684e078396781d8e94531",
+		"source": "https://archive.org/download/shockpkg_packages_8/84/82/f611ebbc03c33e3f83e799654b4332979263572f9ff12bd702e154a42830/projector.zip"
+	},
+	{
+		"name": "shockwave-projector-director-11.0.0-mac-win",
+		"file": "projector.zip",
+		"size": 6476009,
+		"sha256": "ad2791dbdc1eb6d7d4c3675fc48a4aec5e87f13c2aa439e1cc7c336744165e5c",
+		"sha1": "66438004506cf720896a17d7fb25a1b68c837984",
+		"md5": "1257bf2b0f3da0b8ff278a2edd8770a8",
+		"source": "https://archive.org/download/shockpkg_packages_a/ad/27/91dbdc1eb6d7d4c3675fc48a4aec5e87f13c2aa439e1cc7c336744165e5c/projector.zip"
+	}
+]

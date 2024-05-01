@@ -1,0 +1,367 @@
+[
+	{
+		"name": "flash-player-31.0.0.148-windows-activex-2018-10-30",
+		"file": "install_flash_player_ax.exe",
+		"size": 20774872,
+		"sha256": "4ac4a299c3d01f7dbc20dacbc54c9a8c113a65c9259965f8d30ab9240db921e4",
+		"sha1": "a30124bef9f6d3706b88d8a544f81b45bad12b60",
+		"md5": "1e61e7cb533e8b84c35e4aa3741df155",
+		"source": "https://archive.org/download/shockpkg_packages_4/4a/c4/a299c3d01f7dbc20dacbc54c9a8c113a65c9259965f8d30ab9240db921e4/install_flash_player_ax.exe"
+	},
+	{
+		"name": "flash-player-31.0.0.148-windows-npapi-2018-10-30",
+		"file": "install_flash_player.exe",
+		"size": 21297632,
+		"sha256": "3689bad7f5b7d89deb9fc84b1becb3847c8a465ee6019ab0c503ee90ce1c35cd",
+		"sha1": "845b4a97dbf7699e3d0dec0876a34c8f855ff594",
+		"md5": "778f17db9fd8a6e9f3e95db7a5ece583",
+		"source": "https://archive.org/download/shockpkg_packages_3/36/89/bad7f5b7d89deb9fc84b1becb3847c8a465ee6019ab0c503ee90ce1c35cd/install_flash_player.exe"
+	},
+	{
+		"name": "flash-player-31.0.0.148-windows-ppapi-2018-10-30",
+		"file": "install_flash_player_ppapi.exe",
+		"size": 21101016,
+		"sha256": "9f7e1d10258f492e023a66ce00d24203a3dbd12d79a95446cb59efa53b3f54d3",
+		"sha1": "06a1c57b91b4de457692271e652569d7968982f1",
+		"md5": "0e012b42941767d8fc8a6a48abe7fd13",
+		"source": "https://archive.org/download/shockpkg_packages_9/9f/7e/1d10258f492e023a66ce00d24203a3dbd12d79a95446cb59efa53b3f54d3/install_flash_player_ppapi.exe"
+	},
+	{
+		"name": "flash-player-31.0.0.148-mac-ppapi-2018-10-30",
+		"file": "install_flash_player_osx_ppapi.dmg",
+		"size": 21774585,
+		"sha256": "22e865887198233c4ba0821cf9e9aefb43835355cf84e08bcf2b46c8b4ad6cc2",
+		"sha1": "efd467890fc1bab552ac0e93092a6826c4225a5b",
+		"md5": "b92fb3bd5f67219734497662f20f9abf",
+		"source": "https://archive.org/download/shockpkg_packages_2/22/e8/65887198233c4ba0821cf9e9aefb43835355cf84e08bcf2b46c8b4ad6cc2/install_flash_player_osx_ppapi.dmg"
+	},
+	{
+		"name": "flash-player-31.0.0.148-archive",
+		"file": "fp_31.0.0.148_archive.zip",
+		"size": 445514865,
+		"sha256": "0973d9f4ce83234a04d8feb37b43377e0c0129e24b210741769c028944212a1a",
+		"sha1": "a6aeb7788d4d5382648cc405168ebfff5653b9cc",
+		"md5": "9b7c80785a4423b4fc05b7fcb64c4311",
+		"source": "https://archive.org/download/shockpkg_packages_0/09/73/d9f4ce83234a04d8feb37b43377e0c0129e24b210741769c028944212a1a/fp_31.0.0.148_archive.zip",
+		"packages": [
+			{
+				"name": "flash-player-31.0.0.148-windows-npapi",
+				"file": "flashplayer31_0r0_148_win.exe",
+				"size": 21297664,
+				"sha256": "76c93c06666a0062d438786fb0a94adb6d63560cb8b7a8211a64c017fac4f35d",
+				"sha1": "d77a79d3b1635709cac159750cc037e8833a60fe",
+				"md5": "cb3d132a2e10c30e12ff155e97e23c29",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_win.exe",
+				"zipped": "8-145838871-20796019"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-npapi-msi",
+				"file": "flashplayer31_0r0_148_win.msi",
+				"size": 22407680,
+				"sha256": "20a1d5a4d16917df62a6b30c3bf2566c8b1b12c700ca2af39ed503dbd8338094",
+				"sha1": "78cf61f8bbeef8ec3843ee1031bf9fa6934fc81a",
+				"md5": "db338652a2332a113a3289833f979948",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_win.msi",
+				"zipped": "8-166634993-21153928"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-npapi-debug",
+				"file": "flashplayer31_0r0_148_win_debug.exe",
+				"size": 21036544,
+				"sha256": "5207485ea43a56a4b2225110c1732b782c06dd367cf6136c65f623c3c5975edd",
+				"sha1": "6b0c58553499ee354e4d15c1f53e7e8343682b57",
+				"md5": "77220280a93e422092d5e90d21697131",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_win_debug.exe",
+				"zipped": "8-376402052-20535108"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-ppapi",
+				"file": "flashplayer31_0r0_148_winpep.exe",
+				"size": 21101056,
+				"sha256": "1294e233547aef3df1391da2e3fe71f6a095ab80887cdb645ce4e43ee3738aec",
+				"sha1": "dda081959e345da52c3280b62da4083ab909a1c9",
+				"md5": "8bbf4cf157cb22d02376d36985b8351a",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_winpep.exe",
+				"zipped": "8-235345700-20599466"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-ppapi-msi",
+				"file": "flashplayer31_0r0_148_winpep.msi",
+				"size": 22209536,
+				"sha256": "1bad4d468065bfa11f695ad60556f54dda4c16c77780e2e35f59ff5bcfd48676",
+				"sha1": "f48d3601833b2737126110086616fec058779c7c",
+				"md5": "232a78f5a42f51f941bed412439b8074",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_winpep.msi",
+				"zipped": "8-255945272-20955742"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-ppapi-debug",
+				"file": "flashplayer31_0r0_148_winpep_debug.exe",
+				"size": 21536392,
+				"sha256": "244820ef1688d7084009db746432019d840195c7884b4d5e2ea10243316925b0",
+				"sha1": "dcbab951e8c9794a361a01b69c84138b19c535a8",
+				"md5": "cca9e9bb69eb17d766c54aff44925468",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_winpep_debug.exe",
+				"zipped": "8-424476934-21034464"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-activex",
+				"file": "flashplayer31_0r0_148_winax.exe",
+				"size": 20775048,
+				"sha256": "be5360897dc7e61ace712abcd0c834be5465b12a2ab0e3f2d22e459b41c0953a",
+				"sha1": "cc5d82e5ab2883dfd4fcaf2c1e68c1082e165852",
+				"md5": "39176f494484611f9a5fd675df9cb682",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_winax.exe",
+				"zipped": "8-194443856-20273177"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-activex-msi",
+				"file": "flashplayer31_0r0_148_winax.msi",
+				"size": 21880832,
+				"sha256": "6b6554f979ba6c304a41c3a61cce8eb94119a43cbed4750749ded4e090f4868e",
+				"sha1": "a8cc46cc58195b03322dc0588ce692f2e4c97948",
+				"md5": "b4a50f666e73233c0fc8335b310384be",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_winax.msi",
+				"zipped": "8-214717138-20628456"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-activex-debug",
+				"file": "flashplayer31_0r0_148_winax_debug.exe",
+				"size": 21103752,
+				"sha256": "5b33b3c3f56e7dcda0f37d285467856ae2e03a31e96ac865d68bb8944a4b841b",
+				"sha1": "8a0225cfab5e8f7489e302c8107c219de869c85c",
+				"md5": "ab3637dd2cd12bd8af07439d228b77ea",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_winax_debug.exe",
+				"zipped": "8-403874922-20601894"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-sa",
+				"file": "flashplayer31_0r0_148_win_sa.exe",
+				"size": 15426048,
+				"sha256": "f056e2b8c895b8b4aeeb036f0dc2372d47837164e00c41b511c066ae582637cc",
+				"sha1": "f77bf8c18e4037bf32cff129d33f56deae5718cf",
+				"md5": "ab893be588f545961fa06c300521dd85",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_win_sa.exe",
+				"zipped": "8-187789027-6654724"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-sa-debug",
+				"file": "flashplayer31_0r0_148_win_sa_debug.exe",
+				"size": 16253952,
+				"sha256": "ae962342c79d5798386b38547ef504b9d2c62c5ef344d74ee857121d9f927281",
+				"sha1": "a3c961b0bc6fc930654cf8f2e0bc772b804ba891",
+				"md5": "10a7dfa7532fce5208d6ef1e6daff9fe",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_win_sa_debug.exe",
+				"zipped": "8-396937278-6937527"
+			},
+			{
+				"name": "flash-player-31.0.0.148-windows-uninstaller",
+				"file": "uninstall_flashplayer31_0r0_148_win.exe",
+				"size": 1456264,
+				"sha256": "145f7d9bc2fa7017c90751999bad4edae2b66e327cb3ae2e68b3c41d1e226f5a",
+				"sha1": "4cb3e7c8bed9a153cddd79bc66f4af3437163ba3",
+				"md5": "1b5ee851698180efd4e8562706465897",
+				"source": "31_0_r0_148/uninstall_flashplayer31_0r0_148_win.exe",
+				"zipped": "8-278249324-948207"
+			},
+			{
+				"name": "flash-player-31.0.0.148-mac-npapi",
+				"file": "flashplayer31_0r0_148_mac.dmg",
+				"size": 22347797,
+				"sha256": "a498cd2ab6ce57b97f0f9e2d4945eeca98af14ad14fbf5fb3ff304e63e8727a4",
+				"sha1": "14b312c3f1def0e5dddc63c62dd8b987742cc78e",
+				"md5": "d6dd10efa09c577cb3b70c0b269b6967",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_mac.dmg",
+				"zipped": "8-43540656-22341237"
+			},
+			{
+				"name": "flash-player-31.0.0.148-mac-npapi-pkg",
+				"file": "flashplayer31_0r0_148_mac_pkg.dmg",
+				"size": 20881211,
+				"sha256": "de4d64c3609731db6327d4e0cf2a1901abb60f5605680990cbfd204ff6ecf4d8",
+				"sha1": "3b42c2b69ca3df97f8b5b5095dbc258f4beaf7f7",
+				"md5": "75d5c2fd8a1d21ffc08fb220e8e1ed26",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_mac_pkg.dmg",
+				"zipped": "8-65882000-20746525"
+			},
+			{
+				"name": "flash-player-31.0.0.148-mac-npapi-debug",
+				"file": "flashplayer31_0r0_148_mac_debug.dmg",
+				"size": 21704309,
+				"sha256": "dab280b84dbc31b0362141ed33cce9befb577a57c021051453af481105b11199",
+				"sha1": "689d950c9280b3cb63d52c900fb7f75851117d0c",
+				"md5": "a2546250220681ee7515b279d0b6d30b",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_mac_debug.dmg",
+				"zipped": "8-315682137-21697361"
+			},
+			{
+				"name": "flash-player-31.0.0.148-mac-ppapi",
+				"file": "flashplayer31_0r0_148_macpep.dmg",
+				"size": 21774591,
+				"sha256": "b413028995b6af143a50ebddb35ff575f584f5a81b9f84acebf7e1b8cbbf9c30",
+				"sha1": "082bb547910607d6e6fbb6c3400752b29d9ca15a",
+				"md5": "1d34e01bd858549715eee1030f07582e",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_macpep.dmg",
+				"zipped": "8-103894810-21767577"
+			},
+			{
+				"name": "flash-player-31.0.0.148-mac-ppapi-pkg",
+				"file": "flashplayer31_0r0_148_macpep_pkg.dmg",
+				"size": 20311893,
+				"sha256": "f98814ae44f5bc41c44d58977960eae9cf7d5601528c4963ccbbf026cacd2463",
+				"sha1": "53f6863fc501579e06d10bbf445d6a5c5678cfdc",
+				"md5": "c0c7432395a00f39338f7e40066255d3",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_macpep_pkg.dmg",
+				"zipped": "8-125662497-20176271"
+			},
+			{
+				"name": "flash-player-31.0.0.148-mac-ppapi-debug",
+				"file": "flashplayer31_0r0_148_macpep_debug.dmg",
+				"size": 21208564,
+				"sha256": "0c2d68288bace4a0c95ab8fe289b9855d3e499b4dd6a869c6362c46ce84f5a59",
+				"sha1": "298c5c6891c36f031dce908c3c964b189564e1b3",
+				"md5": "4c92495c49aa68fc1ae8a686c597f7a0",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_macpep_debug.dmg",
+				"zipped": "8-355200630-21201307"
+			},
+			{
+				"name": "flash-player-31.0.0.148-mac-sa",
+				"file": "flashplayer31_0r0_148_mac_sa.dmg",
+				"size": 17280406,
+				"sha256": "bb3d70cee69ff58ec42c18eb0f11de59d138616f23ad0dc6b3c532e43f03f4f7",
+				"sha1": "d515570d86e0e48a7bb7d7bcc2c71c506a7f6d38",
+				"md5": "85aefeaa4d898de26c2e0c36c254fcd0",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_mac_sa.dmg",
+				"zipped": "8-86628631-17266073"
+			},
+			{
+				"name": "flash-player-31.0.0.148-mac-sa-debug",
+				"file": "flashplayer31_0r0_148_mac_sa_debug.dmg",
+				"size": 17835412,
+				"sha256": "58f926c0535ee26b68c4eee428cde5c16cd20d99b726ace5493124e6274ec9f4",
+				"sha1": "53b5f8dbf9a5561c1d757f3a9a9570845730af06",
+				"md5": "65dc6e0bb1cf0164ee8a1f82b4f76340",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_mac_sa_debug.dmg",
+				"zipped": "8-337379616-17820896"
+			},
+			{
+				"name": "flash-player-31.0.0.148-mac-uninstaller",
+				"file": "uninstall_flashplayer31_0r0_148_mac.dmg",
+				"size": 1356396,
+				"sha256": "7b026e75cfb1f47047f9a81927b0113b634ddf556d52124be2e6b8a9ad442ded",
+				"sha1": "53db6463526a2c362ff591ddf1c94febf82aab74",
+				"md5": "a175eee0d5f73d9fd78ac03cf3ca080f",
+				"source": "31_0_r0_148/uninstall_flashplayer31_0r0_148_mac.dmg",
+				"zipped": "8-276901127-1348084"
+			},
+			{
+				"name": "flash-player-31.0.0.148-linux-i386-npapi",
+				"file": "flashplayer31_0r0_148_linux.i386.tar.gz",
+				"size": 8529825,
+				"sha256": "c27a78954c1bc83a668b00ecf6fbf61ca79f2e0656b9dd88ec52ebf67606d00f",
+				"sha1": "cb59056ffd2cca0c33d1ceb465d10d4cfdbd33d6",
+				"md5": "12946ea101b8f2ad6cfd57fb12d3c6d9",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_linux.i386.tar.gz",
+				"zipped": "8-155-8402490"
+			},
+			{
+				"name": "flash-player-31.0.0.148-linux-i386-npapi-debug",
+				"file": "flashplayer31_0r0_148_linux_debug.i386.tar.gz",
+				"size": 8853890,
+				"sha256": "7b1fc902fa2914e8bd446471cdb3b38712f327e0d57cb29b8fe3fedbc62c727b",
+				"sha1": "4412fcb2324eff4f6795510e77bc6732588d7ce7",
+				"md5": "c72105ed64f7e4b0817f43c11683db62",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_linux_debug.i386.tar.gz",
+				"zipped": "8-279197720-8710929"
+			},
+			{
+				"name": "flash-player-31.0.0.148-linux-i386-ppapi",
+				"file": "flashplayer31_0r0_148_linuxpep.i386.tar.gz",
+				"size": 8565088,
+				"sha256": "9c983835fa5d5c2f980fe16c81601e1e1afac91d81d7a2c76c03442293075831",
+				"sha1": "523f7eb18ffe46164120ed9af8009784c8b0b259",
+				"md5": "c9efba2d9ce92c0864a62c9dc249f335",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_linuxpep.i386.tar.gz",
+				"zipped": "8-25758682-8454547"
+			},
+			{
+				"name": "flash-player-31.0.0.148-linux-x86_64-npapi",
+				"file": "flashplayer31_0r0_148_linux.x86_64.tar.gz",
+				"size": 9046263,
+				"sha256": "73a5409d5ff1e487558d28a5f8789132713ea9768ed534a7abafea8cd68cefaa",
+				"sha1": "c901620cf80710a39e6d31c4d34cefaa4fbb0194",
+				"md5": "60670fe9b32446fdbd93756e3525628e",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_linux.x86_64.tar.gz",
+				"zipped": "8-8402760-8886616"
+			},
+			{
+				"name": "flash-player-31.0.0.148-linux-x86_64-npapi-debug",
+				"file": "flashplayer31_0r0_148_linux_debug.x86_64.tar.gz",
+				"size": 9414269,
+				"sha256": "87d583b894ab2371b270dfdc9fb4f64fba0b50705762c98a54ecd4621f919a33",
+				"sha1": "44acaeebe3c3d42c9d3bd8ca16f228ed81b5b5ef",
+				"md5": "1ee793ea7bb65b37832a6a3e03eddb54",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_linux_debug.x86_64.tar.gz",
+				"zipped": "8-287908776-9242189"
+			},
+			{
+				"name": "flash-player-31.0.0.148-linux-x86_64-ppapi",
+				"file": "flashplayer31_0r0_148_linuxpep.x86_64.tar.gz",
+				"size": 9482344,
+				"sha256": "0b6db92a33c44ea0c8bdbe4a5cdb0060387d3d62f1ac41eb28861dcb5481f394",
+				"sha1": "c82672758a94e3f1116f7f0e4f9abe0ebaed99bf",
+				"md5": "51c932eaacb005a3f34974784b1aff2b",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_linuxpep.x86_64.tar.gz",
+				"zipped": "8-34213347-9327206"
+			},
+			{
+				"name": "flash-player-31.0.0.148-linux-x86_64-ppapi-debug",
+				"file": "flashplayer31_0r0_148_linuxpep_debug.x86_64.tar.gz",
+				"size": 9915532,
+				"sha256": "5b91bd4fe6750f6b0ad2240e7fe85366a280360e2d12d60b1652cd000508d78c",
+				"sha1": "c28ce68ab71c24851d09768365f2c713e5a49dfa",
+				"md5": "3a7bc3aea8bbbc2465743742c449a4d0",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_linuxpep_debug.x86_64.tar.gz",
+				"zipped": "8-305936998-9745024"
+			},
+			{
+				"name": "flash-player-31.0.0.148-linux-x86_64-sa",
+				"file": "flashplayer31_0r0_148_linux_sa.x86_64.tar.gz",
+				"size": 8503135,
+				"sha256": "6d8c7a3304da875b7c58205c96443eac0ae70197a9fe6f5c2bec718de3e0f848",
+				"sha1": "34a96a97de2494f11da77d45af5356c6f3b45d77",
+				"md5": "b68457e3ef08ce6718b7987ee4206f68",
+				"source": "31_0_r0_148/flashplayer31_0r0_148_linux_sa.x86_64.tar.gz",
+				"zipped": "8-17289494-8469072"
+			},
+			{
+				"name": "flash-player-31.0.0.148-linux-x86_64-sa-debug",
+				"file": "flashplayer31_0r0_148_linux_sa_debug.x86_64.tar.gz",
+				"size": 8821299,
+				"sha256": "f659ecc70784fddfd35d33d8286077486e2885a1ae82b8120fe468a7edb2da23",
+				"sha1": "82b685338f996e35627661431fec66d96aa5bbad",
+				"md5": "f7ab409a58ebf6004e5c3afbd2eb78bf",
+				"source": "31_0_r0_148_debug/flashplayer31_0r0_148_linux_sa_debug.x86_64.tar.gz",
+				"zipped": "8-297151095-8785773"
+			}
+		]
+	},
+	{
+		"name": "flash-player-31.0.0.148-mac-sa-zip",
+		"file": "flashplayer31_0r0_148_mac_sa.zip",
+		"size": 17875495,
+		"sha256": "0745a7788d99ffb25b7e9d4d8cd8ba1542ebe98ac21990fd62731351a30ea799",
+		"sha1": "846d3a7010e06a33468e282a239bf07647cb4bb2",
+		"md5": "9b27b946df7d0b53aaa51f859ea65140",
+		"source": "https://archive.org/download/shockpkg_packages_0/07/45/a7788d99ffb25b7e9d4d8cd8ba1542ebe98ac21990fd62731351a30ea799/flashplayer31_0r0_148_mac_sa.zip"
+	},
+	{
+		"name": "flash-player-31.0.0.148-mac-sa-debug-zip",
+		"file": "flashplayer31_0r0_148_mac_sa_debug.zip",
+		"size": 18428864,
+		"sha256": "3270c7d7f454cc5ba8676fe9b1c44dc3cffd08fa66800278e6123114013385b3",
+		"sha1": "8c435f8781f89ea57fda1d95566a3d28b5bbcaa2",
+		"md5": "ea515413e2291fe03c23eec2bdd81609",
+		"source": "https://archive.org/download/shockpkg_packages_3/32/70/c7d7f454cc5ba8676fe9b1c44dc3cffd08fa66800278e6123114013385b3/flashplayer31_0r0_148_mac_sa_debug.zip"
+	}
+]

@@ -1,0 +1,20 @@
+[
+	{
+		"name": "air-runtime-3.4.0.2540-windows",
+		"file": "AdobeAIRInstaller.exe",
+		"size": 15428440,
+		"sha256": "b670d93876af5ffe7005b46f2efff33b9d7a628856334627681001d68319381b",
+		"sha1": "9e319e72af7894e5e0fc593e7228bc26fb2b73e8",
+		"md5": "80119b163dce487c691bf7b8315a0ff9",
+		"source": "https://archive.org/download/shockpkg_packages_b/b6/70/d93876af5ffe7005b46f2efff33b9d7a628856334627681001d68319381b/AdobeAIRInstaller.exe"
+	},
+	{
+		"name": "air-runtime-3.4.0.2540-mac",
+		"file": "AdobeAIRInstaller.dmg",
+		"size": 24283021,
+		"sha256": "f49e87d3adfd1aaea23e1768c938499fab37f68127adf5b5295381050871793f",
+		"sha1": "8a1c42aac547f3057cf830d34051095b0e4f4d06",
+		"md5": "2af3607503f165e135d4b5a8ce4d095f",
+		"source": "https://archive.org/download/shockpkg_packages_f/f4/9e/87d3adfd1aaea23e1768c938499fab37f68127adf5b5295381050871793f/AdobeAIRInstaller.dmg"
+	}
+]

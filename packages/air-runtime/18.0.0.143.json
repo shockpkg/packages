@@ -1,0 +1,20 @@
+[
+	{
+		"name": "air-runtime-18.0.0.143-android",
+		"file": "AdobeAIRAndroid.apk",
+		"size": 17061919,
+		"sha256": "9e07aeebfa3131373aec1a189d0608f31262c351e3047032131c5d1058819eac",
+		"sha1": "7b36694fc42e79f4d3bcea9357822de44b6ff7a8",
+		"md5": "7a46d56dd196b3fa37ae5470d92b8b44",
+		"source": "https://archive.org/download/shockpkg_packages_9/9e/07/aeebfa3131373aec1a189d0608f31262c351e3047032131c5d1058819eac/AdobeAIRAndroid.apk"
+	},
+	{
+		"name": "air-runtime-18.0.0.143-mac",
+		"file": "AdobeAIR.dmg",
+		"size": 32119925,
+		"sha256": "1ffb37c3ccfeb82b7cc576407fbdc1422175be0bed91831879aa23e08003073e",
+		"sha1": "4f7d4841cd55d880a397ada78f67a124ccde8e18",
+		"md5": "9de2ba903d5547638dbd4ed8980224e9",
+		"source": "https://archive.org/download/shockpkg_packages_1/1f/fb/37c3ccfeb82b7cc576407fbdc1422175be0bed91831879aa23e08003073e/AdobeAIR.dmg"
+	}
+]

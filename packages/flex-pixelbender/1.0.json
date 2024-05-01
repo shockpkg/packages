@@ -1,0 +1,38 @@
+[
+	{
+		"name": "flex-pixelbender-1.0-bin-tar-gz",
+		"file": "apache-flex-sdk-pixel-bender-1.0.0-bin.tar.gz",
+		"size": 23497,
+		"sha256": "f51a43df39c1fa4e051f4ad35d479226c069445b4b8602043ed73c8339e6b11a",
+		"sha1": "4c388111680cce62adebc014db7714dc78e52b0c",
+		"md5": "4d7e1c9a4712d99138c7e1c2e93d2d11",
+		"source": "https://archive.org/download/shockpkg_packages_f/f5/1a/43df39c1fa4e051f4ad35d479226c069445b4b8602043ed73c8339e6b11a/apache-flex-sdk-pixel-bender-1.0.0-bin.tar.gz"
+	},
+	{
+		"name": "flex-pixelbender-1.0-bin-zip",
+		"file": "apache-flex-sdk-pixel-bender-1.0.0-bin.zip",
+		"size": 50347,
+		"sha256": "824e26bd460416120452c08f9150cf57e33772e9649bc505e23c2e8db928287d",
+		"sha1": "043976a043a4b9a479c2a78fe3d01253f22bc1e3",
+		"md5": "c7ba8aa1d6abb57c8421d752bb0edf8d",
+		"source": "https://archive.org/download/shockpkg_packages_8/82/4e/26bd460416120452c08f9150cf57e33772e9649bc505e23c2e8db928287d/apache-flex-sdk-pixel-bender-1.0.0-bin.zip"
+	},
+	{
+		"name": "flex-pixelbender-1.0-src-tar-gz",
+		"file": "apache-flex-sdk-pixel-bender-1.0.0-src.tar.gz",
+		"size": 19177,
+		"sha256": "c6a63bf9c68d61a45661b1105e4773463edd49ae7b2b53da2171848cfd267198",
+		"sha1": "1dac8094b259245a1b8ea81d8b62f0bbb7bcc7a0",
+		"md5": "5dd4f6f111a85cd7118f043584704b67",
+		"source": "https://archive.org/download/shockpkg_packages_c/c6/a6/3bf9c68d61a45661b1105e4773463edd49ae7b2b53da2171848cfd267198/apache-flex-sdk-pixel-bender-1.0.0-src.tar.gz"
+	},
+	{
+		"name": "flex-pixelbender-1.0-src-zip",
+		"file": "apache-flex-sdk-pixel-bender-1.0.0-src.zip",
+		"size": 40337,
+		"sha256": "00ec2109f366cc73ce77057803992ae361517dd85b28dfc9dedc3210c3ab5ba1",
+		"sha1": "db206febd0f43685da8372389d4e1b86714f6d58",
+		"md5": "1dfbf5ee03ee9b18d6beb1c7c46c6765",
+		"source": "https://archive.org/download/shockpkg_packages_0/00/ec/2109f366cc73ce77057803992ae361517dd85b28dfc9dedc3210c3ab5ba1/apache-flex-sdk-pixel-bender-1.0.0-src.zip"
+	}
+]

@@ -1,0 +1,11 @@
+[
+	{
+		"name": "shockwave-player-12.1.3.153-windows-full-licensed-msi",
+		"file": "sw_lic_full_installer.msi",
+		"size": 23175168,
+		"sha256": "5cf62f3745c965050181c15fb22df0dd733f09830f9282cfa390f92e31cc4f38",
+		"sha1": "b0765736c9b0fae2ed4318a36f373a06cc928d8a",
+		"md5": "82dbb563ed3d22e742eb721e52ec71b9",
+		"source": "https://archive.org/download/shockpkg_packages_5/5c/f6/2f3745c965050181c15fb22df0dd733f09830f9282cfa390f92e31cc4f38/sw_lic_full_installer.msi"
+	}
+]

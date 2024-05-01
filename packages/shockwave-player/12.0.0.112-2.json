@@ -1,0 +1,20 @@
+[
+	{
+		"name": "shockwave-player-12.0.0.112-2-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 15299512,
+		"sha256": "4dd3df88ab27fe4b7bb488c13fcbe0e4a17845ce3d5676d853d26acaa4451d69",
+		"sha1": "bba1838bc4d352b577bf8aff4661f04e2a50e2b2",
+		"md5": "d51096bef5a4f19796747c28353875cf",
+		"source": "https://archive.org/download/shockpkg_packages_4/4d/d3/df88ab27fe4b7bb488c13fcbe0e4a17845ce3d5676d853d26acaa4451d69/Shockwave_Installer_Full.exe"
+	},
+	{
+		"name": "shockwave-player-12.0.0.112-2-windows-slim",
+		"file": "Shockwave_Installer_Slim.exe",
+		"size": 7781072,
+		"sha256": "c36ac184f58c2467cc1cf63b5ff87ebdfaf3e434e56b9949fd340ab105cf6f70",
+		"sha1": "cb20dfd703b61b9470bbb3b1be157d47a8c0849a",
+		"md5": "bdf0937e05bbf16c68405ae4d8726a24",
+		"source": "https://archive.org/download/shockpkg_packages_c/c3/6a/c184f58c2467cc1cf63b5ff87ebdfaf3e434e56b9949fd340ab105cf6f70/Shockwave_Installer_Slim.exe"
+	}
+]

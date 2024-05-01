@@ -1,0 +1,20 @@
+[
+	{
+		"name": "flash-playerglobal-29.0-2018-03-26",
+		"file": "playerglobal29_0.swc",
+		"size": 473118,
+		"sha256": "fa7a6e93710979c86a0af38ef78da94f47a89793ca9e7df8ae75ae6e66c1f255",
+		"sha1": "d684ed792195b8243d7cf210d3a285f34212bd31",
+		"md5": "9df6e33841318aa3048e510d99149843",
+		"source": "https://archive.org/download/shockpkg_packages_f/fa/7a/6e93710979c86a0af38ef78da94f47a89793ca9e7df8ae75ae6e66c1f255/playerglobal29_0.swc"
+	},
+	{
+		"name": "flash-playerglobal-29.0",
+		"file": "playerglobal29_0.swc",
+		"size": 473203,
+		"sha256": "80011a8f6c0a58cafeebc7c4560d7cf86cb885e02747297c698749c58c7d2d11",
+		"sha1": "a26e7f69142c3c8b617e1855b1d426c29463c82a",
+		"md5": "1d63a7c0fff0e2c5c8ccb6448ec70277",
+		"source": "https://archive.org/download/shockpkg_packages_8/80/01/1a8f6c0a58cafeebc7c4560d7cf86cb885e02747297c698749c58c7d2d11/playerglobal29_0.swc"
+	}
+]

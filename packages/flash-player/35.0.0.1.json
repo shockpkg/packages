@@ -1,0 +1,110 @@
+[
+	{
+		"name": "flash-player-35.0.0.1-windows-i386-sa-2022-03-08",
+		"file": "FlashPlayer.exe",
+		"size": 10712344,
+		"sha256": "75916e57d3ecbd2858d651153a1ae1da5fe5da7fd3f28b54006e29ea069c122f",
+		"sha1": "97b8bd46c8bde8dc11cf1c99c71dd49bc1a0e166",
+		"md5": "30785c3a1d1cf8b1f51b6341c6ee234c",
+		"source": "https://archive.org/download/shockpkg_packages_7/75/91/6e57d3ecbd2858d651153a1ae1da5fe5da7fd3f28b54006e29ea069c122f/FlashPlayer.exe"
+	},
+	{
+		"name": "flash-player-35.0.0.1-mac-x86_64-sa-2022-03-08",
+		"file": "Flash Player.zip",
+		"size": 6812261,
+		"sha256": "b18b4418c51b60634399f55bc2a7216968b035a616aeff90b0ce8af606a1ad85",
+		"sha1": "caf9f6f94537e1c936bd48da6e66b4f66bfa4654",
+		"md5": "50f943d7a12049aef4e9a375e43450ef",
+		"source": "https://archive.org/download/shockpkg_packages_b/b1/8b/4418c51b60634399f55bc2a7216968b035a616aeff90b0ce8af606a1ad85/Flash%20Player.zip"
+	},
+	{
+		"name": "flash-player-35.0.0.1-mac-x86_64-sa-debug-2022-03-08",
+		"file": "Flash Player Debugger.zip",
+		"size": 7085794,
+		"sha256": "939c863c55e052f084848a74d5015d9edc0d6749c1fc74768090763dfc9cdb11",
+		"sha1": "7ee0c69673543e065d4550eb7270cc0009fd620d",
+		"md5": "e5ba96bf2d721d567aa393effc6b9312",
+		"source": "https://archive.org/download/shockpkg_packages_9/93/9c/863c55e052f084848a74d5015d9edc0d6749c1fc74768090763dfc9cdb11/Flash%20Player%20Debugger.zip"
+	},
+	{
+		"name": "flash-player-35.0.0.1-windows-i386-sa-2022-03-16",
+		"file": "FlashPlayer.exe",
+		"size": 10712344,
+		"sha256": "3ef533628ffaf4ee3b628ca263f59b261385810e10ac309122813104cf46bdf0",
+		"sha1": "da539697894e6e8983673693d331985b202c9d31",
+		"md5": "47885a0ee74c4645abbac4f2d1d866fa",
+		"source": "https://archive.org/download/shockpkg_packages_3/3e/f5/33628ffaf4ee3b628ca263f59b261385810e10ac309122813104cf46bdf0/FlashPlayer.exe"
+	},
+	{
+		"name": "flash-player-35.0.0.1-windows-x86_64-sa-2022-03-16",
+		"file": "FlashPlayer.exe",
+		"size": 13168408,
+		"sha256": "cef66c30d20179f70f58bfd1152402bfb006a75f8bb0815eebd59a0996af43eb",
+		"sha1": "67e3fda874e32706400bf3267b190284f3875d20",
+		"md5": "3cf347007d704ba10bb91f0d5c77ca6a",
+		"source": "https://archive.org/download/shockpkg_packages_c/ce/f6/6c30d20179f70f58bfd1152402bfb006a75f8bb0815eebd59a0996af43eb/FlashPlayer.exe"
+	},
+	{
+		"name": "flash-player-35.0.0.1-windows-x86_64-sa-debug-2022-03-16",
+		"file": "FlashPlayerDebugger.exe",
+		"size": 14152984,
+		"sha256": "66e1578e550a6f977b89dbe461a35be553f595c4c27bc55f30d1c46f94dcc300",
+		"sha1": "537338ab0f265438b81d09b2bffc954a252470d8",
+		"md5": "c2d0da86d30dda37e50ce654ede1a875",
+		"source": "https://archive.org/download/shockpkg_packages_6/66/e1/578e550a6f977b89dbe461a35be553f595c4c27bc55f30d1c46f94dcc300/FlashPlayerDebugger.exe"
+	},
+	{
+		"name": "flash-player-35.0.0.1-windows-i386-sa-2022-05-18",
+		"file": "FlashPlayer.exe",
+		"size": 10713424,
+		"sha256": "00518b69f0f61fd26f961b9fd888ad49ca96bbc5002e636774011323f396962f",
+		"sha1": "95ad32d47ab91554631cb955d60e3a6031ba7478",
+		"md5": "2a2e5a23e4c685f3e8226f3723634943",
+		"source": "https://archive.org/download/shockpkg_packages_0/00/51/8b69f0f61fd26f961b9fd888ad49ca96bbc5002e636774011323f396962f/FlashPlayer.exe"
+	},
+	{
+		"name": "flash-player-35.0.0.1-windows-x86_64-sa-2022-05-18",
+		"file": "FlashPlayer.exe",
+		"size": 13169488,
+		"sha256": "e804776a488a7f5a5ff6f1d2cf4f83e414549badf1f6ccea36ae13cb25d6c6a6",
+		"sha1": "8a029bf5d2bd24cfde8f7a3a3b39cc5050eeeb2b",
+		"md5": "2bcec337c937e6bcc85b44d1615d8383",
+		"source": "https://archive.org/download/shockpkg_packages_e/e8/04/776a488a7f5a5ff6f1d2cf4f83e414549badf1f6ccea36ae13cb25d6c6a6/FlashPlayer.exe"
+	},
+	{
+		"name": "flash-player-35.0.0.1-windows-x86_64-sa-debug-2022-05-18",
+		"file": "FlashPlayerDebugger.exe",
+		"size": 14154064,
+		"sha256": "11e6d46e5f8fd4dfe95589462cc8e09c28befffcdeaf17c8cbc402ce6f303ca1",
+		"sha1": "040749f34ab054b1a29240ddba10cf70f4a9fc97",
+		"md5": "b09b336e9936ea5c52d42b6eabd2fb67",
+		"source": "https://archive.org/download/shockpkg_packages_1/11/e6/d46e5f8fd4dfe95589462cc8e09c28befffcdeaf17c8cbc402ce6f303ca1/FlashPlayerDebugger.exe"
+	},
+	{
+		"name": "flash-player-35.0.0.1-windows-i386-sa-2022-06-28",
+		"file": "FlashPlayer.exe",
+		"size": 10715696,
+		"sha256": "278d5931d0794fee8987a205691ac9c91c1a4f1b7d5b7a1190f13f1b1ab9645b",
+		"sha1": "d1028354205dc026cbdee04377d1839b3a78c8aa",
+		"md5": "61a6b58991e231b578ac6f290c780408",
+		"source": "https://archive.org/download/shockpkg_packages_2/27/8d/5931d0794fee8987a205691ac9c91c1a4f1b7d5b7a1190f13f1b1ab9645b/FlashPlayer.exe"
+	},
+	{
+		"name": "flash-player-35.0.0.1-windows-x86_64-sa-2022-06-28",
+		"file": "FlashPlayer.exe",
+		"size": 13171760,
+		"sha256": "f5658a2d619a3de10773827a69a58a5ea27302d684d170a49c093c45f1f52a5d",
+		"sha1": "be2042e39cbac6e5503299c59b1d18e9fd89c06b",
+		"md5": "cdf4e220a4b6e86a6c163218d3ee47ce",
+		"source": "https://archive.org/download/shockpkg_packages_f/f5/65/8a2d619a3de10773827a69a58a5ea27302d684d170a49c093c45f1f52a5d/FlashPlayer.exe"
+	},
+	{
+		"name": "flash-player-35.0.0.1-windows-x86_64-sa-debug-2022-06-28",
+		"file": "FlashPlayerDebugger.exe",
+		"size": 14156336,
+		"sha256": "13632aeef80fec206ae282082611c920ead8e4a583999f363c81ac269ca8a3f1",
+		"sha1": "c309dcdc03eb2ea8877ef29a35cf3cebe10a1057",
+		"md5": "f928b877d0a9fba2d91bb155e1757bf7",
+		"source": "https://archive.org/download/shockpkg_packages_1/13/63/2aeef80fec206ae282082611c920ead8e4a583999f363c81ac269ca8a3f1/FlashPlayerDebugger.exe"
+	}
+]

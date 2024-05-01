@@ -1,0 +1,29 @@
+[
+	{
+		"name": "shockwave-player-8.5.0.321-windows-activex",
+		"file": "swdir85r321.cab",
+		"size": 213639,
+		"sha256": "4bb2c26757bb1115f8b367713acd81034a233689f43e107eae95c21e614adc95",
+		"sha1": "69417aac30ef99102a2a63dce0ed3adc05bd5c59",
+		"md5": "fb0017326c481cceba5943560aad47d6",
+		"source": "https://archive.org/download/shockpkg_packages_4/4b/b2/c26757bb1115f8b367713acd81034a233689f43e107eae95c21e614adc95/swdir85r321.cab"
+	},
+	{
+		"name": "shockwave-player-8.5.0.321-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 4315744,
+		"sha256": "adc847af8efa39952aa1755c566614014a2fc98a54ef6b523c716f7c8cbef9a0",
+		"sha1": "31e235b8f12a4389a925a051078fa1047d99d548",
+		"md5": "d5dd09e7d5579f94af08b45effc40827",
+		"source": "https://archive.org/download/shockpkg_packages_a/ad/c8/47af8efa39952aa1755c566614014a2fc98a54ef6b523c716f7c8cbef9a0/Shockwave_Installer_Full.exe"
+	},
+	{
+		"name": "shockwave-player-8.5.0.321-windows-shim",
+		"file": "shockwaveinstaller.exe",
+		"size": 689256,
+		"sha256": "5251877c9052d3076fd752051e795ebdf335b260f1e53cff65ee4db70888d389",
+		"sha1": "8fcebbb48f8e59eb490a80d80bec768133c99b43",
+		"md5": "5c9bbc7511295778292a80d43a3fdbb4",
+		"source": "https://archive.org/download/shockpkg_packages_5/52/51/877c9052d3076fd752051e795ebdf335b260f1e53cff65ee4db70888d389/shockwaveinstaller.exe"
+	}
+]

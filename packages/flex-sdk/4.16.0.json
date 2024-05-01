@@ -1,0 +1,47 @@
+[
+	{
+		"name": "flex-sdk-4.16.0-bin-tar-gz",
+		"file": "apache-flex-sdk-4.16.0-bin.tar.gz",
+		"size": 66138322,
+		"sha256": "8a339bd19babca331962b76badc9f10b7455cd67eb7b8b32785a7390afc68c7c",
+		"sha1": "93b2009761998e15a7af49dba5b4b91cff1528ba",
+		"md5": "2c60610d1d3588c7ca3b3ba91e1dd2a1",
+		"source": "https://archive.org/download/shockpkg_packages_8/8a/33/9bd19babca331962b76badc9f10b7455cd67eb7b8b32785a7390afc68c7c/apache-flex-sdk-4.16.0-bin.tar.gz"
+	},
+	{
+		"name": "flex-sdk-4.16.0-bin-zip",
+		"file": "apache-flex-sdk-4.16.0-bin.zip",
+		"size": 72350612,
+		"sha256": "2ff42d91a60ab5737855d002fa5fcbb1434d9d39ea4c21266ee69aac2c8ecc8a",
+		"sha1": "64fb10fd250e2f2980c4483733314c137557a4c6",
+		"md5": "6a2f67f3cd7761eb93eb7e85a0b8652f",
+		"source": "https://archive.org/download/shockpkg_packages_2/2f/f4/2d91a60ab5737855d002fa5fcbb1434d9d39ea4c21266ee69aac2c8ecc8a/apache-flex-sdk-4.16.0-bin.zip"
+	},
+	{
+		"name": "flex-sdk-4.16.0-src-tar-gz",
+		"file": "apache-flex-sdk-4.16.0-src.tar.gz",
+		"size": 39528226,
+		"sha256": "b20e6139da1239378b47aa9e4138abdb8e1157175db13a2e2a645c87edce5e72",
+		"sha1": "c1262f5eb1700ebacddec43bd60a529cfd35da4e",
+		"md5": "d23be392e33cfa82d8a6bd22170af4b9",
+		"source": "https://archive.org/download/shockpkg_packages_b/b2/0e/6139da1239378b47aa9e4138abdb8e1157175db13a2e2a645c87edce5e72/apache-flex-sdk-4.16.0-src.tar.gz"
+	},
+	{
+		"name": "flex-sdk-4.16.0-src-zip",
+		"file": "apache-flex-sdk-4.16.0-src.zip",
+		"size": 50589785,
+		"sha256": "222746d55bb942dc6771a38df21397a4c04c4a695f37272e9e6834eeebbbae85",
+		"sha1": "2cbc824f0c49768ae73de686049a481267ec97aa",
+		"md5": "c922ca5202ceb5767f1ce4e9b635f163",
+		"source": "https://archive.org/download/shockpkg_packages_2/22/27/46d55bb942dc6771a38df21397a4c04c4a695f37272e9e6834eeebbbae85/apache-flex-sdk-4.16.0-src.zip"
+	},
+	{
+		"name": "flex-sdk-4.16.0-asdocs",
+		"file": "apache-flex-sdk-4.16.0-asdocs.zip",
+		"size": 24214719,
+		"sha256": "b143ce401853e3d087fc2c9356b7083f06fd3533d74ba84923ed7d845307dbe0",
+		"sha1": "9edaac59e44e6881890c25bb829d5e99a22ecf24",
+		"md5": "1f3472c399043bdfe892a353687ce983",
+		"source": "https://archive.org/download/shockpkg_packages_b/b1/43/ce401853e3d087fc2c9356b7083f06fd3533d74ba84923ed7d845307dbe0/apache-flex-sdk-4.16.0-asdocs.zip"
+	}
+]

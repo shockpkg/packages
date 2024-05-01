@@ -1,0 +1,29 @@
+[
+	{
+		"name": "shockwave-player-12.1.9.159-windows-activex",
+		"file": "sw.cab",
+		"size": 1009773,
+		"sha256": "1a2c769e7ec027cbb3fe1501d2e51cbf8faea48e6ecb323b7151206cc6a7684e",
+		"sha1": "40024230651e0c9de1b6df7841341dee93cc5bc1",
+		"md5": "59f405e7d5d6e6dd839f0709447bd210",
+		"source": "https://archive.org/download/shockpkg_packages_1/1a/2c/769e7ec027cbb3fe1501d2e51cbf8faea48e6ecb323b7151206cc6a7684e/sw.cab"
+	},
+	{
+		"name": "shockwave-player-12.1.9.159-windows-full-licensed",
+		"file": "sw_lic_full_installer.exe",
+		"size": 13091760,
+		"sha256": "53f15311f0632a2847ba502ab1c8df62897381a3318f3797ccc6f84cfa47ecbf",
+		"sha1": "0d979880f0e336f56d98a2a693aadfba7e081401",
+		"md5": "41068ebb8a9c4ec5ac99a3111aef12f2",
+		"source": "https://archive.org/download/shockpkg_packages_5/53/f1/5311f0632a2847ba502ab1c8df62897381a3318f3797ccc6f84cfa47ecbf/sw_lic_full_installer.exe"
+	},
+	{
+		"name": "shockwave-player-12.1.9.159-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 13840304,
+		"sha256": "a63dbe7aaa3a484c277c2f0142d23b69faac5c698153307d5d92963a1e09fd9d",
+		"sha1": "243c209905aff32363c0d411ece83fcd5670885d",
+		"md5": "e1adcdf3dfa02d1d720966d4a6876d24",
+		"source": "https://archive.org/download/shockpkg_packages_a/a6/3d/be7aaa3a484c277c2f0142d23b69faac5c698153307d5d92963a1e09fd9d/Shockwave_Installer_Full.exe"
+	}
+]

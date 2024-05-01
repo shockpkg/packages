@@ -1,0 +1,56 @@
+[
+	{
+		"name": "shockwave-player-12.1.3.153-2-mac-full-64bit",
+		"file": "Shockwave_Installer_Full_64bit.dmg",
+		"size": 13695887,
+		"sha256": "def1f41de1b73ecba997e944a6cd4317774cf599714f4c54c28edfbb128d08e2",
+		"sha1": "63208f6612c9922d00bb4b41db56c72bea845ec1",
+		"md5": "905d05b7bb660807b453eef66de4fdd0",
+		"source": "https://archive.org/download/shockpkg_packages_d/de/f1/f41de1b73ecba997e944a6cd4317774cf599714f4c54c28edfbb128d08e2/Shockwave_Installer_Full_64bit.dmg"
+	},
+	{
+		"name": "shockwave-player-12.1.3.153-2-windows-activex",
+		"file": "sw.cab",
+		"size": 252030,
+		"sha256": "a13d9f8a13ae89fc056f47e9ae3c73819bd5b29c0b4e6162d803d0a28038d4be",
+		"sha1": "3ea34eafb69bf4448cb4b8e9a6f620221869e478",
+		"md5": "7d3b64035fd257678c07c97851271d05",
+		"source": "https://archive.org/download/shockpkg_packages_a/a1/3d/9f8a13ae89fc056f47e9ae3c73819bd5b29c0b4e6162d803d0a28038d4be/sw.cab"
+	},
+	{
+		"name": "shockwave-player-12.1.3.153-2-windows-full-licensed",
+		"file": "sw_lic_full_installer.exe",
+		"size": 12117640,
+		"sha256": "e7ebe5771c741754bc933a3ad2a3fbd8c08619f3237342318d5751506d1a75ac",
+		"sha1": "8f8b710321edf83629ee328fbf6a357909dffde1",
+		"md5": "00d507b1a0cbede0700f868b168ee964",
+		"source": "https://archive.org/download/shockpkg_packages_e/e7/eb/e5771c741754bc933a3ad2a3fbd8c08619f3237342318d5751506d1a75ac/sw_lic_full_installer.exe"
+	},
+	{
+		"name": "shockwave-player-12.1.3.153-2-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 12846640,
+		"sha256": "98572390932ca63393d5635f9b2b075f58696185efb6669c8281756ae6838a0c",
+		"sha1": "8d983e41879240682548c6d0b1e468b009660ade",
+		"md5": "e8f5b99439e1ddb6ccfddb1f1e884a8e",
+		"source": "https://archive.org/download/shockpkg_packages_9/98/57/2390932ca63393d5635f9b2b075f58696185efb6669c8281756ae6838a0c/Shockwave_Installer_Full.exe"
+	},
+	{
+		"name": "shockwave-player-12.1.3.153-2-windows-slim-licensed",
+		"file": "sw_lic_slim_installer.exe",
+		"size": 4262800,
+		"sha256": "e2bd8695082ea42c6afbbd67ddd405c1cdc2875d26281aa18ce35b6de2b3e42d",
+		"sha1": "6609fc470f6b0f4072d795ae132a6326651668a0",
+		"md5": "4d7ecc957e55a70ab7d37aef797999d6",
+		"source": "https://archive.org/download/shockpkg_packages_e/e2/bd/8695082ea42c6afbbd67ddd405c1cdc2875d26281aa18ce35b6de2b3e42d/sw_lic_slim_installer.exe"
+	},
+	{
+		"name": "shockwave-player-12.1.3.153-2-windows-slim",
+		"file": "Shockwave_Installer_Slim.exe",
+		"size": 4991400,
+		"sha256": "967ccdf42e0c55d68c5e11b78ac7c55cc68b61cb25ad688594634ad569555e36",
+		"sha1": "fbfcb8f72da72aa99e062e94c31a550389986841",
+		"md5": "5943c25e20dffc0801ee1e38dc9e3ddd",
+		"source": "https://archive.org/download/shockpkg_packages_9/96/7c/cdf42e0c55d68c5e11b78ac7c55cc68b61cb25ad688594634ad569555e36/Shockwave_Installer_Slim.exe"
+	}
+]

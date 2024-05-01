@@ -1,0 +1,29 @@
+[
+	{
+		"name": "shockwave-player-11.5.2.602-mac-full",
+		"file": "Shockwave_Installer_Full.dmg",
+		"size": 18839693,
+		"sha256": "e91b950792ca24639471b035220fe3fffdcc6d30e824deb14edfded8d6151367",
+		"sha1": "820a5a8d57e3a5f3ae059333f5dedda6a6915c40",
+		"md5": "d63bf39a4aed509073cef94c5dec3d3c",
+		"source": "https://archive.org/download/shockpkg_packages_e/e9/1b/950792ca24639471b035220fe3fffdcc6d30e824deb14edfded8d6151367/Shockwave_Installer_Full.dmg"
+	},
+	{
+		"name": "shockwave-player-11.5.2.602-windows-activex",
+		"file": "sw.cab",
+		"size": 154380,
+		"sha256": "258ae47eb54497e5c9d59657f54b8bdf8febe88354fa521faab5781ac7eca4fe",
+		"sha1": "1d0a7460a20d78a694917f117381d4b88c9bca02",
+		"md5": "0e9e9eb57a7095a3e29c46c02e7a06e6",
+		"source": "https://archive.org/download/shockpkg_packages_2/25/8a/e47eb54497e5c9d59657f54b8bdf8febe88354fa521faab5781ac7eca4fe/sw.cab"
+	},
+	{
+		"name": "shockwave-player-11.5.2.602-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 8332176,
+		"sha256": "819c5945b9dc9a83f7f5a592b62628c102ce50c25ad424f5a974df9025b93cbf",
+		"sha1": "a7cd045cf0947b299fcc7a370eddc207a53bf857",
+		"md5": "369ee8ed49a9f29af0dfcb4c7358d7f5",
+		"source": "https://archive.org/download/shockpkg_packages_8/81/9c/5945b9dc9a83f7f5a592b62628c102ce50c25ad424f5a974df9025b93cbf/Shockwave_Installer_Full.exe"
+	}
+]

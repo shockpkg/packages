@@ -1,0 +1,74 @@
+[
+	{
+		"name": "flash-player-34.0.0.175-windows-npapi-cn",
+		"file": "install_flash_player_cn.exe",
+		"size": 11839728,
+		"sha256": "22c25ae1bb4af7187c4ef168342ded0a9d99328b9daf19b844894f7839224a50",
+		"sha1": "fcb3eb9c04d93cf5f68748e86f1e267edccc0805",
+		"md5": "4ea6b48d89129b2322d5a1fdc5da5883",
+		"source": "https://archive.org/download/shockpkg_packages_2/22/c2/5ae1bb4af7187c4ef168342ded0a9d99328b9daf19b844894f7839224a50/install_flash_player_cn.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.175-windows-npapi-debug-cn",
+		"file": "install_flash_player_debug_cn.exe",
+		"size": 11570928,
+		"sha256": "0513d1489a2b9e2bbab9944cbc55f61e87ba4ba569a12d0a6bc2c30bee0a019c",
+		"sha1": "7578a8e21ac1307d6cacfa3e1730bec9fb414959",
+		"md5": "6f3ca03e3d96a4d23aef79fa699ae650",
+		"source": "https://archive.org/download/shockpkg_packages_0/05/13/d1489a2b9e2bbab9944cbc55f61e87ba4ba569a12d0a6bc2c30bee0a019c/install_flash_player_debug_cn.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.175-windows-ppapi-cn",
+		"file": "install_flash_player_ppapi_cn.exe",
+		"size": 11951856,
+		"sha256": "f74987d130d27e5ae20219dbf3878d042db93d42a30d3a2481cdcd792ab35683",
+		"sha1": "3cac074513c1e7455e39b18d88271be9a0f86ccc",
+		"md5": "24091953526aa0af885b5a4090d43b88",
+		"source": "https://archive.org/download/shockpkg_packages_f/f7/49/87d130d27e5ae20219dbf3878d042db93d42a30d3a2481cdcd792ab35683/install_flash_player_ppapi_cn.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.175-windows-ppapi-debug-cn",
+		"file": "install_flash_player_debug_ppapi_cn.exe",
+		"size": 12374768,
+		"sha256": "4968c650c00fdb1a8e7bb430e0c3cad849397aa90930ec8c6467133b72d95ec9",
+		"sha1": "3865bd6247b68608d79a027564cfd4f8678ea358",
+		"md5": "788bebbf0a78bd84e4be5806ebbdcc5f",
+		"source": "https://archive.org/download/shockpkg_packages_4/49/68/c650c00fdb1a8e7bb430e0c3cad849397aa90930ec8c6467133b72d95ec9/install_flash_player_debug_ppapi_cn.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.175-windows-activex-cn",
+		"file": "install_flash_player_ax_cn.exe",
+		"size": 22644464,
+		"sha256": "231b051a17ab64069a9a4752f65d4d51157fd7b7281f42ce79c0e8800610efb2",
+		"sha1": "f14930ce4504e7b464a74d91333d07eb16ba6a3e",
+		"md5": "47c682df27d8cc408f00175cf12b8d62",
+		"source": "https://archive.org/download/shockpkg_packages_2/23/1b/051a17ab64069a9a4752f65d4d51157fd7b7281f42ce79c0e8800610efb2/install_flash_player_ax_cn.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.175-windows-activex-debug-cn",
+		"file": "install_flash_player_debug_ax_cn.exe",
+		"size": 23377136,
+		"sha256": "3813e71e45fd141ab26286794b5c8d2d077aee70225dd2f998ccbd57a8d6bff2",
+		"sha1": "4fb5920255b95a4f7a5d1fbf8a43e284466efb08",
+		"md5": "c4507e0ccd6acd1da64b5903eee37572",
+		"source": "https://archive.org/download/shockpkg_packages_3/38/13/e71e45fd141ab26286794b5c8d2d077aee70225dd2f998ccbd57a8d6bff2/install_flash_player_debug_ax_cn.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.175-windows-sa-cn",
+		"file": "flashplayer_sa.exe",
+		"size": 10730736,
+		"sha256": "e9ce1553416770b62eb3da75eb1e6417f6ffdd8182748d2c323b3e74e01e145c",
+		"sha1": "8a32eed6152fbe6b0bee8f5c8696a2f93b08ec50",
+		"md5": "ca7edd8bf2d6ac37e81a6575fe4c3c4b",
+		"source": "https://archive.org/download/shockpkg_packages_e/e9/ce/1553416770b62eb3da75eb1e6417f6ffdd8182748d2c323b3e74e01e145c/flashplayer_sa.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.175-windows-sa-debug-cn",
+		"file": "flashplayer_sa_debug.exe",
+		"size": 11549936,
+		"sha256": "c8b2e9754ef34344a3cc43defd94a5802638a757faeff0d48b20768da46a64ab",
+		"sha1": "90c6182571ea1b940d1b826d5d7f95efe7fe1f98",
+		"md5": "cd83f93c8d1df0e52d302a2150456005",
+		"source": "https://archive.org/download/shockpkg_packages_c/c8/b2/e9754ef34344a3cc43defd94a5802638a757faeff0d48b20768da46a64ab/flashplayer_sa_debug.exe"
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "air-runtime-15.0.0.356-android",
+		"file": "AdobeAIRAndroid.apk",
+		"size": 15744476,
+		"sha256": "df12bc9ee8d445b5a30e682b4e97a5d788051a178b3a8b9148aacfcfffcc5c09",
+		"sha1": "fec46356f2bb7646b15e135bd9e218aeee28494a",
+		"md5": "6cd3b88b23ec2b1f6d7e9d052337219c",
+		"source": "https://archive.org/download/shockpkg_packages_d/df/12/bc9ee8d445b5a30e682b4e97a5d788051a178b3a8b9148aacfcfffcc5c09/AdobeAIRAndroid.apk"
+	},
+	{
+		"name": "air-runtime-15.0.0.356-windows-archive",
+		"file": "AdobeAIRInstaller.zip",
+		"size": 17659701,
+		"sha256": "98fac3f40f95e3984dd434f34ee90b5ec0391759e3682a9005d88209113e700a",
+		"sha1": "753884c043e44e6a216334b05997f2272125c39c",
+		"md5": "f2be953d56e159ff32b38446d301b65b",
+		"source": "https://archive.org/download/shockpkg_packages_9/98/fa/c3f40f95e3984dd434f34ee90b5ec0391759e3682a9005d88209113e700a/AdobeAIRInstaller.zip",
+		"packages": [
+			{
+				"name": "air-runtime-15.0.0.356-windows",
+				"file": "AdobeAIRInstaller.exe",
+				"size": 17711760,
+				"sha256": "1c70aadff00d20a8821b604d3b25c5e2c185211b2725afdd8d433cd86ac14e5c",
+				"sha1": "c0e6b8b1ed5ffa282945d21b21f8a5e03febc904",
+				"md5": "2f3b1dd634f95d265c4b30faf8ec2082",
+				"source": "AdobeAIRInstaller.exe",
+				"zipped": "8-51-17659525"
+			}
+		]
+	},
+	{
+		"name": "air-runtime-15.0.0.356-mac",
+		"file": "AdobeAIR.dmg",
+		"size": 31268000,
+		"sha256": "0fd04ae2ecb839a70b148a8194db1143fb3c2a8a2000d42e579c08aca65c0691",
+		"sha1": "fad9f80791ae9840e35a415c7f7d0977d10857e4",
+		"md5": "0eb17677196452dd858316fbfb2760e9",
+		"source": "https://archive.org/download/shockpkg_packages_0/0f/d0/4ae2ecb839a70b148a8194db1143fb3c2a8a2000d42e579c08aca65c0691/AdobeAIR.dmg"
+	},
+	{
+		"name": "air-runtime-15.0.0.356-mac-zip",
+		"file": "AdobeAIR.zip",
+		"size": 27246714,
+		"sha256": "5688e89dd24e5a9e20d7f7c10897af39ecd2c5148e021e80b3a0338ec6c721ae",
+		"sha1": "563117b9adfdbe7962a12c27e7aa3413e51db0e7",
+		"md5": "fa5f799208b896753b985292aded7947",
+		"source": "https://archive.org/download/shockpkg_packages_5/56/88/e89dd24e5a9e20d7f7c10897af39ecd2c5148e021e80b3a0338ec6c721ae/AdobeAIR.zip"
+	}
+]

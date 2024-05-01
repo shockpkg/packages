@@ -1,7 +1,0 @@
-- name: flex-sdk-4.6.0.23201-bin
-  file: flex_sdk_4.6.0.23201.zip
-  size: 343973963
-  sha256: 622b63f29de44600ff8d4231174a70fcb3085812c0e146a42e91877ca8b46798
-  sha1: 7e66e84bef09e8c2c3183acf548c41d8114516ca
-  md5: 202bca98ee7b8db9cda3af01e99c688e
-  source: https://archive.org/download/shockpkg_packages_6/62/2b/63f29de44600ff8d4231174a70fcb3085812c0e146a42e91877ca8b46798/flex_sdk_4.6.0.23201.zip

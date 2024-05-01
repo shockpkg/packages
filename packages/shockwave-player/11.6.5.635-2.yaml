@@ -1,7 +1,0 @@
-- name: shockwave-player-11.6.5.635-2-windows-activex
-  file: sw.cab
-  size: 206465
-  sha256: 2cdb453578575ddac17761dd99f98874d0ae7065ffbb938ad1be142b670d8fa2
-  sha1: e4e009987d9c57de0f5a71e76ca072e700bf1d01
-  md5: f8cec3999a862a54ded6f0df7f0d8065
-  source: https://archive.org/download/shockpkg_packages_2/2c/db/453578575ddac17761dd99f98874d0ae7065ffbb938ad1be142b670d8fa2/sw.cab

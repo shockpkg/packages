@@ -1,7 +1,0 @@
-- name: shockwave-player-8.5.0.307-windows-shim
-  file: Shockwave3D_Installer.exe
-  size: 689256
-  sha256: ebf78c4fd4525147a81d19bc78c0b5a4fa1a47f7c88d13219a56a94353e03fe1
-  sha1: 1d9468a8be3d109f0bf963c2642d6575d2341183
-  md5: 23f6b42282a4cd9b18a6515b94891fbe
-  source: https://archive.org/download/shockpkg_packages_e/eb/f7/8c4fd4525147a81d19bc78c0b5a4fa1a47f7c88d13219a56a94353e03fe1/Shockwave3D_Installer.exe

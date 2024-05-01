@@ -1,0 +1,38 @@
+[
+	{
+		"name": "flex-squiggly-1.0-bin-tar-gz",
+		"file": "apache-flex-squiggly-1.0-bin.tar.gz",
+		"size": 337189,
+		"sha256": "11235b482791806177b9576091b2ccb05cae217c71375ea8b4e16f9f999a80bc",
+		"sha1": "f1b89464cbc62977bbc553bf8469d426cbddd1c0",
+		"md5": "586b570adec6a8db271a50f911873db9",
+		"source": "https://archive.org/download/shockpkg_packages_1/11/23/5b482791806177b9576091b2ccb05cae217c71375ea8b4e16f9f999a80bc/apache-flex-squiggly-1.0-bin.tar.gz"
+	},
+	{
+		"name": "flex-squiggly-1.0-bin-zip",
+		"file": "apache-flex-squiggly-1.0-bin.zip",
+		"size": 530366,
+		"sha256": "a59e4a41a1f75c8adb91070f890a4f53b4ab65d28f36122be44ba28dcf3ac42c",
+		"sha1": "fcae7fe42ba7ccecf8e4841778e876d55d68cf93",
+		"md5": "7e242a89480d3346adf6aa1e6af456e3",
+		"source": "https://archive.org/download/shockpkg_packages_a/a5/9e/4a41a1f75c8adb91070f890a4f53b4ab65d28f36122be44ba28dcf3ac42c/apache-flex-squiggly-1.0-bin.zip"
+	},
+	{
+		"name": "flex-squiggly-1.0-src-tar-gz",
+		"file": "apache-flex-squiggly-1.0-src.tar.gz",
+		"size": 172139,
+		"sha256": "34aea3f74adabf14c203e9036163999e4cf47424833d328f5140968e7ace8f4c",
+		"sha1": "d7a0708d2191d8f8c49bdc7c5c41ff45d7ba26a8",
+		"md5": "fb36ea63ef731c3973133478da9dadba",
+		"source": "https://archive.org/download/shockpkg_packages_3/34/ae/a3f74adabf14c203e9036163999e4cf47424833d328f5140968e7ace8f4c/apache-flex-squiggly-1.0-src.tar.gz"
+	},
+	{
+		"name": "flex-squiggly-1.0-src-zip",
+		"file": "apache-flex-squiggly-1.0-src.zip",
+		"size": 364725,
+		"sha256": "b655327a8326b90efaef37405c70e04a8b4eed0ef0c7d57aca86482b4e51e310",
+		"sha1": "c49c6daf31768b409c888bd8ab82f3c5bf2edadc",
+		"md5": "f5348f544a66b3eee495857b9be3e641",
+		"source": "https://archive.org/download/shockpkg_packages_b/b6/55/327a8326b90efaef37405c70e04a8b4eed0ef0c7d57aca86482b4e51e310/apache-flex-squiggly-1.0-src.zip"
+	}
+]

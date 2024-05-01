@@ -1,0 +1,38 @@
+[
+	{
+		"name": "shockwave-player-12.0.5.146-mac-full-64bit",
+		"file": "Shockwave_Installer_Full_64bit.dmg",
+		"size": 13694884,
+		"sha256": "6ce9b6fc2c087cccb27eca1940a075eeed6aa7d923380079ca864236450cd574",
+		"sha1": "2f3cc05b775a4c935b3c1ba21719549c4b1ee5ea",
+		"md5": "39628d53a9a19c5f6122d348d294dad8",
+		"source": "https://archive.org/download/shockpkg_packages_6/6c/e9/b6fc2c087cccb27eca1940a075eeed6aa7d923380079ca864236450cd574/Shockwave_Installer_Full_64bit.dmg"
+	},
+	{
+		"name": "shockwave-player-12.0.5.146-windows-activex",
+		"file": "sw.cab",
+		"size": 249993,
+		"sha256": "c207086ee7766d09ec7c448b4e7a7afc27d06e772797160e7ae48e0c930f4e82",
+		"sha1": "ab200039c068b59ccd08ec31d4358221070c70f5",
+		"md5": "8286c80969469c052da96acb8015109e",
+		"source": "https://archive.org/download/shockpkg_packages_c/c2/07/086ee7766d09ec7c448b4e7a7afc27d06e772797160e7ae48e0c930f4e82/sw.cab"
+	},
+	{
+		"name": "shockwave-player-12.0.5.146-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 12753808,
+		"sha256": "1a7f46150b6611b106fa358ed3167cbed1a6f74247b2da67103df2e7fc069e3b",
+		"sha1": "94ee9e23bed9dea8478415f361c9ff882f0eea85",
+		"md5": "9a25ab294dcc8653435454e9d872c118",
+		"source": "https://archive.org/download/shockpkg_packages_1/1a/7f/46150b6611b106fa358ed3167cbed1a6f74247b2da67103df2e7fc069e3b/Shockwave_Installer_Full.exe"
+	},
+	{
+		"name": "shockwave-player-12.0.5.146-windows-slim",
+		"file": "Shockwave_Installer_Slim.exe",
+		"size": 4897880,
+		"sha256": "6266e574ff12143db64433ba424d4a6d0cc131cf71e921016a38ede193f52f10",
+		"sha1": "c909de13230083db07f7f73b8ee9cfc2f096d8c9",
+		"md5": "a81e3d5e7c21569a3c28b683f679eb07",
+		"source": "https://archive.org/download/shockpkg_packages_6/62/66/e574ff12143db64433ba424d4a6d0cc131cf71e921016a38ede193f52f10/Shockwave_Installer_Slim.exe"
+	}
+]

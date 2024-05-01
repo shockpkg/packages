@@ -1,0 +1,56 @@
+[
+	{
+		"name": "flash-player-34.0.0.105-windows-sa-cn",
+		"file": "flashplayer_sa.exe",
+		"size": 10709176,
+		"sha256": "3b6615db06df87520c569d3843f45fe9df541c9df712af628c1d38e985da98ce",
+		"sha1": "f3e885377fa7827ec68ded8b58ad592624a7e579",
+		"md5": "a05f571ed7c073ccb513f8e889fae468",
+		"source": "https://archive.org/download/shockpkg_packages_3/3b/66/15db06df87520c569d3843f45fe9df541c9df712af628c1d38e985da98ce/flashplayer_sa.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.105-windows-sa-debug-cn",
+		"file": "flashplayer_sa_debug.exe",
+		"size": 11529912,
+		"sha256": "8804daa5fc9abfd1973ccb396e2cfe6dcfba4e0b03651bccbe08386e3ee50a18",
+		"sha1": "b85c0629ff84b9be955a0cccff0a7d24136b5adc",
+		"md5": "25a3f3167ff2b2f524aa1cff0907bd09",
+		"source": "https://archive.org/download/shockpkg_packages_8/88/04/daa5fc9abfd1973ccb396e2cfe6dcfba4e0b03651bccbe08386e3ee50a18/flashplayer_sa_debug.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.105-windows-uninstaller",
+		"file": "uninstall_flash_player.exe",
+		"size": 1503928,
+		"sha256": "a967fe37132dfc787f3df0c6836ad7b44abc209826cbf34564ecafc0ff229a2b",
+		"sha1": "6b35cf0d61d9fe21e7e6ee0c6fc97866c48ece0d",
+		"md5": "4cad90c231cd209ec1880e0ac1a8be4a",
+		"source": "https://archive.org/download/shockpkg_packages_a/a9/67/fe37132dfc787f3df0c6836ad7b44abc209826cbf34564ecafc0ff229a2b/uninstall_flash_player.exe"
+	},
+	{
+		"name": "flash-player-34.0.0.105-mac-uninstaller",
+		"file": "uninstall_flash_player_osx.dmg",
+		"size": 1685485,
+		"sha256": "1c5f28c6c7774a496bb0f58528db1c74bcb840cf7a7369792be016543fbd9ff1",
+		"sha1": "c2c7e93c82bd135dc2a813eae7db35a2ebe017d9",
+		"md5": "0192a60869e5ddca1da4050aaef134e1",
+		"source": "https://archive.org/download/shockpkg_packages_1/1c/5f/28c6c7774a496bb0f58528db1c74bcb840cf7a7369792be016543fbd9ff1/uninstall_flash_player_osx.dmg"
+	},
+	{
+		"name": "flash-player-34.0.0.105-linux-x86_64-npapi-cn",
+		"file": "flash_player_npapi_linux.x86_64.tar.gz",
+		"size": 9327699,
+		"sha256": "f55a72c4698f9c8ba97535f5d0a56a376751f1845a4d1c8a05be0d5c62b9e450",
+		"sha1": "2c1f7351080110adfc993989e50a2787ddff4ad5",
+		"md5": "a2943a171bca970d6ea84006abed5fe1",
+		"source": "https://archive.org/download/shockpkg_packages_f/f5/5a/72c4698f9c8ba97535f5d0a56a376751f1845a4d1c8a05be0d5c62b9e450/flash_player_npapi_linux.x86_64.tar.gz"
+	},
+	{
+		"name": "flash-player-34.0.0.105-linux-x86_64-ppapi-cn",
+		"file": "flash_player_ppapi_linux.x86_64.tar.gz",
+		"size": 8720109,
+		"sha256": "26815a7251ce5b207ec7eba66cf61d1ef27cf71ca63e41a7e3404ad79462b693",
+		"sha1": "0d558d94c2e6ffbf32b6ccd9777f9efb42c062d5",
+		"md5": "ee378439806e1793819d25f5dac921d0",
+		"source": "https://archive.org/download/shockpkg_packages_2/26/81/5a7251ce5b207ec7eba66cf61d1ef27cf71ca63e41a7e3404ad79462b693/flash_player_ppapi_linux.x86_64.tar.gz"
+	}
+]

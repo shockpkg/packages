@@ -1,7 +1,0 @@
-- name: flash-player-10.2.157.51-android
-  file: install_flash_player.apk
-  size: 4418519
-  sha256: 362cb4c14f5c479da102fa9db0c7936d370d109575a8891eabd4ff8b5255808e
-  sha1: f223b28be1d032f537185b477542e0cc7e39210a
-  md5: 70096f2527f3866df16135848984ab5a
-  source: https://archive.org/download/shockpkg_packages_3/36/2c/b4c14f5c479da102fa9db0c7936d370d109575a8891eabd4ff8b5255808e/install_flash_player.apk

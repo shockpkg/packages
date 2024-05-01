@@ -1,0 +1,56 @@
+[
+	{
+		"name": "air-sdk-30.0.0.107-windows",
+		"file": "AdobeAIRSDK.zip",
+		"size": 420117948,
+		"sha256": "2752c41c2b8c7106d6cb81449ea98561411a7ec90c4177998a6599d32f4bfe03",
+		"sha1": "47e03ede0ad8e63c77ad88c9471c1dfe540d224b",
+		"md5": "aa40462184a13aaf133b05f258c7b777",
+		"source": "https://archive.org/download/shockpkg_packages_2/27/52/c41c2b8c7106d6cb81449ea98561411a7ec90c4177998a6599d32f4bfe03/AdobeAIRSDK.zip"
+	},
+	{
+		"name": "air-sdk-30.0.0.107-windows-compiler",
+		"file": "AIRSDK_Compiler.zip",
+		"size": 457303354,
+		"sha256": "65c65f8075df0b538c9eae6179b0dc9e4a236f72414b7a27eb9f5fb57e6390a7",
+		"sha1": "4db36ac0ddfca683177de5c9815d064af2cc1e80",
+		"md5": "046a54dfb474f231540a362feced5988",
+		"source": "https://archive.org/download/shockpkg_packages_6/65/c6/5f8075df0b538c9eae6179b0dc9e4a236f72414b7a27eb9f5fb57e6390a7/AIRSDK_Compiler.zip"
+	},
+	{
+		"name": "air-sdk-30.0.0.107-mac",
+		"file": "AdobeAIRSDK.dmg",
+		"size": 330002376,
+		"sha256": "3a71e334583dc868dbb82ea23ade376c6d6c158d4db67b3bd84683445c9a0c2f",
+		"sha1": "c94b89c8a7e15dc7cfe236ceb47b6dc70801ce59",
+		"md5": "5ceb88f447a96a6802c3389c948be891",
+		"source": "https://archive.org/download/shockpkg_packages_3/3a/71/e334583dc868dbb82ea23ade376c6d6c158d4db67b3bd84683445c9a0c2f/AdobeAIRSDK.dmg"
+	},
+	{
+		"name": "air-sdk-30.0.0.107-mac-zip",
+		"file": "AdobeAIRSDK.zip",
+		"size": 360376133,
+		"sha256": "9b7525f3459aecad3021c366f7b4e390e7d87d1e5fa17e4e3ba345f60a94ab37",
+		"sha1": "e9f91e85e8d1afc8987540111f5413d485f8dae7",
+		"md5": "4f7bd58b9d2ae61250ca7f3432bf27c8",
+		"source": "https://archive.org/download/shockpkg_packages_9/9b/75/25f3459aecad3021c366f7b4e390e7d87d1e5fa17e4e3ba345f60a94ab37/AdobeAIRSDK.zip"
+	},
+	{
+		"name": "air-sdk-30.0.0.107-mac-compiler",
+		"file": "AIRSDK_Compiler.dmg",
+		"size": 367330980,
+		"sha256": "f1f95129fbc48b0625cda9d94c4e02fa704f287698dd1ff7d5051a617fca3077",
+		"sha1": "c1b3ce026d0cc47617276c4d8739c02dee89a245",
+		"md5": "2ac74fa428bf7fab20047e88f5e70741",
+		"source": "https://archive.org/download/shockpkg_packages_f/f1/f9/5129fbc48b0625cda9d94c4e02fa704f287698dd1ff7d5051a617fca3077/AIRSDK_Compiler.dmg"
+	},
+	{
+		"name": "air-sdk-30.0.0.107-mac-compiler-zip",
+		"file": "AIRSDK_Compiler.zip",
+		"size": 397446797,
+		"sha256": "4771b6ada6e73c4fb89ab1e5070a989ab124e0730ff23a28f82e77a8928374c5",
+		"sha1": "ea100146546e417217f83086a7b5fd27d99df524",
+		"md5": "1447e4ddf70296bf20c80d0fd2cd5253",
+		"source": "https://archive.org/download/shockpkg_packages_4/47/71/b6ada6e73c4fb89ab1e5070a989ab124e0730ff23a28f82e77a8928374c5/AIRSDK_Compiler.zip"
+	}
+]

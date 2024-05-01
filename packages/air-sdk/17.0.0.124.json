@@ -1,0 +1,29 @@
+[
+	{
+		"name": "air-sdk-17.0.0.124-windows",
+		"file": "AdobeAIRSDK.zip",
+		"size": 189519126,
+		"sha256": "459bf5ab98e2eaebf2c4ad6ac53cddf358980dc6bb56d054526dcc803bbf8fc8",
+		"sha1": "ebe70f18fbaeba5c0b2381af8776089e922334a4",
+		"md5": "594980e097e04c38fba7e63baf082d3a",
+		"source": "https://archive.org/download/shockpkg_packages_4/45/9b/f5ab98e2eaebf2c4ad6ac53cddf358980dc6bb56d054526dcc803bbf8fc8/AdobeAIRSDK.zip"
+	},
+	{
+		"name": "air-sdk-17.0.0.124-mac",
+		"file": "AdobeAIRSDK.tbz2",
+		"size": 177493047,
+		"sha256": "b1846e3ef4a286e800cbd93100850ef64ae05d5b0fe826b3e7fee3973515ee93",
+		"sha1": "f27b1d9dd70aab2e7b25bb7187286ad1f893bd90",
+		"md5": "1ecdecae62466ea7010ede0043bb28d8",
+		"source": "https://archive.org/download/shockpkg_packages_b/b1/84/6e3ef4a286e800cbd93100850ef64ae05d5b0fe826b3e7fee3973515ee93/AdobeAIRSDK.tbz2"
+	},
+	{
+		"name": "air-sdk-17.0.0.124-mac-zip",
+		"file": "AdobeAIRSDK.zip",
+		"size": 188205298,
+		"sha256": "dcfa074132b4e590ee661e5d230474616e73a92ab052de0e301929f77c58dc50",
+		"sha1": "231a921d43401034e399f522ac7da8a7588c6ad5",
+		"md5": "187b15c7aaee4c5f8a1e27beb9d03b81",
+		"source": "https://archive.org/download/shockpkg_packages_d/dc/fa/074132b4e590ee661e5d230474616e73a92ab052de0e301929f77c58dc50/AdobeAIRSDK.zip"
+	}
+]

@@ -1,0 +1,38 @@
+[
+	{
+		"name": "flex-sdk-installer-2.6-bin-windows",
+		"file": "apache-flex-sdk-installer-2.6.0-bin.exe",
+		"size": 2364804,
+		"sha256": "61c551c34a5e2e45ee81f4369163c7f1e3f2b2a2a0461dc28cbf53c06883001f",
+		"sha1": "9de42bf143152a22c7b8905a60c872870fa08417",
+		"md5": "53a89a828a97cebede4828fb3ca49ef7",
+		"source": "https://archive.org/download/shockpkg_packages_6/61/c5/51c34a5e2e45ee81f4369163c7f1e3f2b2a2a0461dc28cbf53c06883001f/apache-flex-sdk-installer-2.6.0-bin.exe"
+	},
+	{
+		"name": "flex-sdk-installer-2.6-bin-mac",
+		"file": "apache-flex-sdk-installer-2.6.0-bin.dmg",
+		"size": 2294659,
+		"sha256": "132e56bae96a9b89da6333c177d9dbf1ea79e290c3841126463eb27084e6fd16",
+		"sha1": "ac6286c706dd6bd9418e7058ce7710d99abf2f19",
+		"md5": "0e2ea9b702a8f7ceb1cf6ecb8fba7259",
+		"source": "https://archive.org/download/shockpkg_packages_1/13/2e/56bae96a9b89da6333c177d9dbf1ea79e290c3841126463eb27084e6fd16/apache-flex-sdk-installer-2.6.0-bin.dmg"
+	},
+	{
+		"name": "flex-sdk-installer-2.6-src-tar-gz",
+		"file": "apache-flex-sdk-installer-2.6.0-src.tar.gz",
+		"size": 1871342,
+		"sha256": "c300e720e09fa99b1d73ee11bccd13ef918d1971b181d4c3f0c5cb0a80d8a3e7",
+		"sha1": "035eabafcf7b06d6263dcb1a813f8630cc603c10",
+		"md5": "6c789aad254313dcc256d7902a74b382",
+		"source": "https://archive.org/download/shockpkg_packages_c/c3/00/e720e09fa99b1d73ee11bccd13ef918d1971b181d4c3f0c5cb0a80d8a3e7/apache-flex-sdk-installer-2.6.0-src.tar.gz"
+	},
+	{
+		"name": "flex-sdk-installer-2.6-src-zip",
+		"file": "apache-flex-sdk-installer-2.6.0-src.zip",
+		"size": 1923949,
+		"sha256": "ee20278ac41428ed3bf1e839e0e031bece37bf656a5e974ad587481d7d034860",
+		"sha1": "dc8ebfe816fdd2beb80ab657ef8ac54b0dbe6665",
+		"md5": "9a34ed7f65affe610e3f896ad62ffbb0",
+		"source": "https://archive.org/download/shockpkg_packages_e/ee/20/278ac41428ed3bf1e839e0e031bece37bf656a5e974ad587481d7d034860/apache-flex-sdk-installer-2.6.0-src.zip"
+	}
+]

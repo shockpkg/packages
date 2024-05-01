@@ -1,0 +1,47 @@
+[
+	{
+		"name": "shockwave-projector-director-10.0.0-mac-mac-classic",
+		"file": "projector.dmg",
+		"size": 6076823,
+		"sha256": "cfd3138bf6dca906e1545bd668e226dc376546d0f44c39b00ca3de50e845d887",
+		"sha1": "3be7d98a7a5d5c045ef7a1a7a2809df9d6e59b0c",
+		"md5": "7736672abff184351c3f1bdc6f1ca4d9",
+		"source": "https://archive.org/download/shockpkg_packages_c/cf/d3/138bf6dca906e1545bd668e226dc376546d0f44c39b00ca3de50e845d887/projector.dmg"
+	},
+	{
+		"name": "shockwave-projector-director-10.0.0-mac-mac-classic-zip",
+		"file": "projector.zip",
+		"size": 5385847,
+		"sha256": "13385a4ddc87e917722cd6cbf0d90af3cb1872b784be61ec6463e20fac8a7947",
+		"sha1": "03766519bbb095c811f4584180d20f9e1e430b11",
+		"md5": "506ea4e5405e8f3f589da5f2a9da93ee",
+		"source": "https://archive.org/download/shockpkg_packages_1/13/38/5a4ddc87e917722cd6cbf0d90af3cb1872b784be61ec6463e20fac8a7947/projector.zip"
+	},
+	{
+		"name": "shockwave-projector-director-10.0.0-mac-mac",
+		"file": "projector.dmg",
+		"size": 6837572,
+		"sha256": "eb66216be41c8a52c790e37043d56942f4c92dcf0d0ecaa4ff66a34f56407133",
+		"sha1": "b280264b0eb68634b8a83b66e87e46cfa0d57fd7",
+		"md5": "95e5b3b61fb262348e5f8a1ce9a3396c",
+		"source": "https://archive.org/download/shockpkg_packages_e/eb/66/216be41c8a52c790e37043d56942f4c92dcf0d0ecaa4ff66a34f56407133/projector.dmg"
+	},
+	{
+		"name": "shockwave-projector-director-10.0.0-mac-mac-zip",
+		"file": "projector.zip",
+		"size": 5181573,
+		"sha256": "5634ff325d6731fc27b5a8715cd4234cbab999e68d216b5da59eb6a530d7c48b",
+		"sha1": "8af85a6f3f4c182da2eb1f1423be4ce9ca01ad26",
+		"md5": "4885f0ace1ba46d0871b5ef66fba3680",
+		"source": "https://archive.org/download/shockpkg_packages_5/56/34/ff325d6731fc27b5a8715cd4234cbab999e68d216b5da59eb6a530d7c48b/projector.zip"
+	},
+	{
+		"name": "shockwave-projector-director-10.0.0-mac-win",
+		"file": "projector.zip",
+		"size": 3725476,
+		"sha256": "89f9ad8c4955bf084b7cb800c2a0f114e46df31eb56d76ac838f4c2cbb3e9bdb",
+		"sha1": "a287ab456a43863948154c872c1d4899733ab981",
+		"md5": "ceec0697381df1c57272e56f106174cd",
+		"source": "https://archive.org/download/shockpkg_packages_8/89/f9/ad8c4955bf084b7cb800c2a0f114e46df31eb56d76ac838f4c2cbb3e9bdb/projector.zip"
+	}
+]

@@ -1,0 +1,141 @@
+[
+	{
+		"name": "flash-player-20.0.0.228-archive",
+		"file": "fp_20.0.0.228_archive.zip",
+		"size": 165870861,
+		"sha256": "3fd9108dc425ab2c766c6f46928de28211598bbe4e78ea71a540ab4b43a2d70e",
+		"sha1": "7188c8f39a11b981a5ee0ebf536f8578841b4805",
+		"md5": "213b53fe84d4178b1bbc7a686e42d4aa",
+		"source": "https://archive.org/download/shockpkg_packages_3/3f/d9/108dc425ab2c766c6f46928de28211598bbe4e78ea71a540ab4b43a2d70e/fp_20.0.0.228_archive.zip",
+		"packages": [
+			{
+				"name": "flash-player-20.0.0.228-windows-ppapi",
+				"file": "flashplayer20_0d0_228_winpep.exe",
+				"size": 19452096,
+				"sha256": "b701807bdbd0727ec742878ff099e7496825712f91e3e819a8fa8824da6b485a",
+				"sha1": "d3f3f684bfe779899ede5ed2a1293858a7a0fc07",
+				"md5": "badb37e37a665925c4f6c136ca7a0a06",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_winpep.exe",
+				"zipped": "8-72009588-19030182"
+			},
+			{
+				"name": "flash-player-20.0.0.228-windows-ppapi-debug",
+				"file": "flashplayer20_0d0_228_winpep_debug.exe",
+				"size": 19927744,
+				"sha256": "46eca2589e48a8cefaf3206cc64e94dc62d9b80831c7a0071663edd2af64924c",
+				"sha1": "5e80ee8b38707f0b09fbed95b5162861222cfb34",
+				"md5": "c499e75b16d7e2d35914175db56c4957",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228_debug/flashplayer20_0d0_228_winpep_debug.exe",
+				"zipped": "8-146363802-19505582"
+			},
+			{
+				"name": "flash-player-20.0.0.228-windows-activex",
+				"file": "flashplayer20_0d0_228_winax.exe",
+				"size": 18362048,
+				"sha256": "e40c369dd67fff0a2cbdd93bca731887ae3d965d53bde37e227d4f28d14fff8e",
+				"sha1": "a3e7a8883022afe2b124937ff906f54e837fc342",
+				"md5": "48399895b2ff1a1d03c3d67f5772e04a",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_winax.exe",
+				"zipped": "8-35751720-17939750"
+			},
+			{
+				"name": "flash-player-20.0.0.228-windows-activex-msi",
+				"file": "flashplayer20_0d0_228_winax.msi",
+				"size": 19602432,
+				"sha256": "63cef518bff5b7a8cadd6b2a8c6b738ce3f2fdce231e95db920cbdd75e0f0bc6",
+				"sha1": "fa86f107111fc7def35742097bf0aa29c82d7638",
+				"md5": "5bbdc07c6e6389b5d2ce86765911c879",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_winax.msi",
+				"zipped": "8-53691565-18317927"
+			},
+			{
+				"name": "flash-player-20.0.0.228-windows-activex-debug",
+				"file": "flashplayer20_0d0_228_winax_debug.exe",
+				"size": 18741952,
+				"sha256": "09c8681df3a8ac481e54446f77449299205e2a5f06bb7da040490fea51bed7dd",
+				"sha1": "dd24e56c19d4c54f0fc03c0e17b739dfbd74d96b",
+				"md5": "15e8d9568ee0871a77b2c5b676c5f141",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228_debug/flashplayer20_0d0_228_winax_debug.exe",
+				"zipped": "8-128044147-18319547"
+			},
+			{
+				"name": "flash-player-20.0.0.228-windows-sa",
+				"file": "flashplayer20_0d0_228_win_sa.exe",
+				"size": 13009088,
+				"sha256": "cf4281aa1295b7118f42a9911b4329448a5df50f4fb9f73589fe3739738b56bc",
+				"sha1": "3fc177cc08d59827ccb3231247f4ddd3e241ef2f",
+				"md5": "330c79c7541fafa431508c507470fb99",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_win_sa.exe",
+				"zipped": "8-30253383-5498242"
+			},
+			{
+				"name": "flash-player-20.0.0.228-windows-sa-debug",
+				"file": "flashplayer20_0d0_228_win_sa_debug.exe",
+				"size": 13861568,
+				"sha256": "10bdbe86e994145046e4ac3e23f258ce34a8fcca34752cd8ab04c88de14f7cbb",
+				"sha1": "3386c63efc907cdca796de70bf3ada05fd30b195",
+				"md5": "0739a9f18e6667e9e950190687e7babb",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228_debug/flashplayer20_0d0_228_win_sa_debug.exe",
+				"zipped": "8-122247760-5796280"
+			},
+			{
+				"name": "flash-player-20.0.0.228-mac-ppapi",
+				"file": "flashplayer20_0d0_228_macpep.dmg",
+				"size": 16546126,
+				"sha256": "3281a2b980a8509c2684092522f4a56c26e78150a7eb23d2648137a92f5ebe1c",
+				"sha1": "f7b004d8c4b703938222ebf13458a4cd4f0e210b",
+				"md5": "5a973df5b10189dc3dfc501abb1f75cc",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_macpep.dmg",
+				"zipped": "8-13712113-16541174"
+			},
+			{
+				"name": "flash-player-20.0.0.228-mac-ppapi-debug",
+				"file": "flashplayer20_0d0_228_macpep_debug.dmg",
+				"size": 16971994,
+				"sha256": "67796beb7beb0fc645cec2c97395cfa21dcae66069c585a40897e21334437c40",
+				"sha1": "08de762e12fa7b150aeac738bf7fce550aae4c2e",
+				"md5": "e006d7e6cdeed23c5606cb90ecd248e1",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228_debug/flashplayer20_0d0_228_macpep_debug.dmg",
+				"zipped": "8-105280533-16967119"
+			},
+			{
+				"name": "flash-player-20.0.0.228-mac-sa",
+				"file": "flashplayer20_0d0_228_mac_sa.dmg",
+				"size": 13727215,
+				"sha256": "e1db7e350bebc00776f612aedeca651bee4dbc2925e972e63b4e35b3887550a0",
+				"sha1": "84aec528025a04acd47a3fbd5c9697316a66941e",
+				"md5": "c6f60f23252c46fff4260f5d3da38abc",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228/flashplayer20_0d0_228_mac_sa.dmg",
+				"zipped": "8-160-13711857"
+			},
+			{
+				"name": "flash-player-20.0.0.228-mac-sa-debug",
+				"file": "flashplayer20_0d0_228_mac_sa_debug.dmg",
+				"size": 14255866,
+				"sha256": "2ae355fefb3b5db5557e52d01d305216cc3c5ddf479f72045390016738d59ee7",
+				"sha1": "33beff1876f326aa78d022781185a74a200c2bd9",
+				"md5": "dd4ac4da74099e2964b78a5c382d88f4",
+				"source": "fp_20.0.0.228_archive/20_0_d0_228_debug/flashplayer20_0d0_228_mac_sa_debug.dmg",
+				"zipped": "8-91039948-14240477"
+			}
+		]
+	},
+	{
+		"name": "flash-player-20.0.0.228-mac-sa-zip",
+		"file": "flashplayer20_0d0_228_mac_sa.zip",
+		"size": 14121395,
+		"sha256": "563f1b2061efef1042e11a06b5490173ed1b44ab16a25450aee70a0522a43efe",
+		"sha1": "8391b9499128014806369fbf70835c187f97c2dc",
+		"md5": "f10918c834bec527e03a5fd088370df7",
+		"source": "https://archive.org/download/shockpkg_packages_5/56/3f/1b2061efef1042e11a06b5490173ed1b44ab16a25450aee70a0522a43efe/flashplayer20_0d0_228_mac_sa.zip"
+	},
+	{
+		"name": "flash-player-20.0.0.228-mac-sa-debug-zip",
+		"file": "flashplayer20_0d0_228_mac_sa_debug.zip",
+		"size": 14673006,
+		"sha256": "bacbed4a2bb5a9663105ca6e4454dfe90a6cf511ebccb0587679721302f4d275",
+		"sha1": "6510d8241c41ff469074df8c35777786e510ca28",
+		"md5": "a91075c8aec58251caae0b25d3a0633a",
+		"source": "https://archive.org/download/shockpkg_packages_b/ba/cb/ed4a2bb5a9663105ca6e4454dfe90a6cf511ebccb0587679721302f4d275/flashplayer20_0d0_228_mac_sa_debug.zip"
+	}
+]

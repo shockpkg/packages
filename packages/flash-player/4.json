@@ -1,0 +1,149 @@
+[
+	{
+		"name": "flash-player-4-archive",
+		"file": "fp4_archive.zip",
+		"size": 730641,
+		"sha256": "cb31650f85b2417d866f6712b3c860e6120008c52331201fb64ab715b81d7242",
+		"sha1": "2ae18f0ccd2b170a79518455e8c8bca7c96664fe",
+		"md5": "6a7ae29d52063d77c07cfb678b70a57a",
+		"source": "https://archive.org/download/shockpkg_packages_c/cb/31/650f85b2417d866f6712b3c860e6120008c52331201fb64ab715b81d7242/fp4_archive.zip",
+		"packages": [
+			{
+				"name": "flash-player-4.0.28.0-windows-npapi",
+				"file": "flash32.exe",
+				"size": 275717,
+				"sha256": "2ae80109f743479db79adf6728542d9ba2d7f9f8a0702c7f6bff046bcf97e2ac",
+				"sha1": "4c69e1ba9e61f706dc1f824843a387d94f34483e",
+				"md5": "17caaa26c21cde71567863c8221fe0a5",
+				"source": "FP4_archive/flash32.exe",
+				"zipped": "8-53-269308"
+			},
+			{
+				"name": "flash-player-4.0.28.0-windows-activex-ocx",
+				"file": "SwFlash.ocx",
+				"size": 294912,
+				"sha256": "d13ee69584aa14c3edc80f35f323eacbd917eaae3a4b6af23ff8a92f001e446a",
+				"sha1": "e9fd1f029deb5e6c90a997af65abe33fb9271b28",
+				"md5": "8e00325f4ffa30d4998322b66fc54c26",
+				"source": "FP4_archive/SwFlash.ocx",
+				"zipped": "8-567475-162755"
+			},
+			{
+				"name": "flash-player-4.0.27.0-mac-npapi",
+				"file": "flash4playerinstaller.hqx",
+				"size": 411304,
+				"sha256": "b5e79fb1daefb2662a22b1c59dbaa021a95439dd83061280a0d7b20870cdb1ca",
+				"sha1": "3660522d86a237e09bfb6e6fd3964b2ccd1fb43f",
+				"md5": "17a9f68cbd19536b7445c8839a09c1a1",
+				"source": "FP4_archive/flash4playerinstaller.hqx",
+				"zipped": "8-269428-296984"
+			}
+		]
+	},
+	{
+		"name": "flash-player-4-pro-archive",
+		"file": "flash_pro_4_players.zip",
+		"size": 1177451,
+		"sha256": "11e766dbce1be0fb15dc3b2dfa624973d77ec14feeb82153110648205131c5c0",
+		"sha1": "df26459bfe244b789bad3c903a2fae7eeda0faae",
+		"md5": "44b378699089ddb849766e743df08297",
+		"source": "https://archive.org/download/shockpkg_packages_1/11/e7/66dbce1be0fb15dc3b2dfa624973d77ec14feeb82153110648205131c5c0/flash_pro_4_players.zip",
+		"packages": [
+			{
+				"name": "flash-player-4.0.7.0-windows-npapi",
+				"file": "NPSWF32.dll",
+				"size": 245760,
+				"sha256": "37c340b4b424eeb3891d243885a0fd9ef777fc35d52a13072909dbd24e08dbf6",
+				"sha1": "10c60aa975b7012ce0e779aa123272ca92468165",
+				"md5": "d0cd046189c2524d2490630cbbe3dbc3",
+				"source": "Players/NPSWF32.dll",
+				"zipped": "8-864175-129750"
+			},
+			{
+				"name": "flash-player-4.0.7.0-windows-activex",
+				"file": "InstallAXFlash.exe",
+				"size": 295552,
+				"sha256": "eaedd3caf45a19c6520a9f20d434ac043811e84370eff5e56142a9cc0846fb0b",
+				"sha1": "c54213d080fda6c199a08da3fbc2e4bcb2439b4b",
+				"md5": "7c8a04f6e81280e06f7c3b8b6b88d119",
+				"source": "Players/InstallAXFlash.exe",
+				"zipped": "8-633894-230232"
+			},
+			{
+				"name": "flash-player-4.0.7.0-mac-npapi",
+				"file": "Shockwave Flash NP-PPC.Hqx",
+				"size": 418291,
+				"sha256": "dae2aeca68d98319e41773b6b26b95302e535d46f8d0191be07652cd4c5b95ae",
+				"sha1": "ee77bd21a8119d016bc8d6bd7ba32aaba95e8832",
+				"md5": "56ffc8171c311d363ff5498c4fbcf48e",
+				"source": "Players/Shockwave Flash NP-PPC.Hqx",
+				"zipped": "8-993989-182698"
+			},
+			{
+				"name": "flash-player-4.0.7.0-windows-sa",
+				"file": "FlashPla.exe",
+				"size": 286720,
+				"sha256": "0818d0941a3610b679be9fcaa7403cedf450c4b1244660d8e96e9fad99498f1e",
+				"sha1": "ef3826ad2b05979b8c012a2a41686347c08ffbc4",
+				"md5": "1868fa6f4dd93ccd19b4003716b699d3",
+				"source": "Players/FlashPla.exe",
+				"zipped": "8-292854-142072"
+			},
+			{
+				"name": "flash-player-4.0.7.0-mac-sa",
+				"file": "FlashPla.hqx",
+				"size": 441581,
+				"sha256": "d313fcdb79d48f5df491a1404231c710cf4bef1a07dec49154cac7f6f0e97453",
+				"sha1": "e538e2f8aa99d6007ba4efe2f15d6edfe47af2a6",
+				"md5": "76c71eb44c5cfaac0eea9340f361161c",
+				"source": "Players/FlashPla.hqx",
+				"zipped": "8-434976-198862"
+			}
+		]
+	},
+	{
+		"name": "flash-player-4.0.4.0-windows-sa",
+		"file": "FlashPla.exe",
+		"size": 286720,
+		"sha256": "35d3ea2ad893b62fad478a5dff9fbb963b1d0c4686fa4b0448d15f068daa6091",
+		"sha1": "bfbb05ccf53147b7f2bf87718285392b9135efa2",
+		"md5": "a03f2953fc48b98f31a836d8104adc36",
+		"source": "https://archive.org/download/shockpkg_packages_3/35/d3/ea2ad893b62fad478a5dff9fbb963b1d0c4686fa4b0448d15f068daa6091/FlashPla.exe"
+	},
+	{
+		"name": "flash-player-4.0.12.0-linux",
+		"file": "flash_linux.tar.gz",
+		"size": 489295,
+		"sha256": "25d550ae02c68b49ea5424e429b36b189799dd648daf2daff6a50e008f5e2c72",
+		"sha1": "ed28628df74dbb00c3470162e267decadcc96ec9",
+		"md5": "2962638158fb1f83fec4aa617405dd6a",
+		"source": "https://archive.org/download/shockpkg_packages_2/25/d5/50ae02c68b49ea5424e429b36b189799dd648daf2daff6a50e008f5e2c72/flash_linux.tar.gz"
+	},
+	{
+		"name": "flash-player-4.0.12.0-solaris",
+		"file": "flash_solaris.tar.gz",
+		"size": 537072,
+		"sha256": "c888f2874f40c230dc2741a470cefb6330808922fc6a7735f33576756e817ca8",
+		"sha1": "fa738a6edd670eb5f1a9fdb8896e1971d3dc036a",
+		"md5": "18fa8bc9445f7b5d18d49382e01812c8",
+		"source": "https://archive.org/download/shockpkg_packages_c/c8/88/f2874f40c230dc2741a470cefb6330808922fc6a7735f33576756e817ca8/flash_solaris.tar.gz"
+	},
+	{
+		"name": "flash-player-4.0.12.0-irix",
+		"file": "flash_irix.tar.gz",
+		"size": 675036,
+		"sha256": "237a31f60378d11baefdfa232f4fcbaaac2293e20f276b54c2947c5fe3a6e2d1",
+		"sha1": "ce0a43731fcb42d2f6d526c660209a1fba241ba1",
+		"md5": "13df4dc28171de2e64aa412bd6d57a04",
+		"source": "https://archive.org/download/shockpkg_packages_2/23/7a/31f60378d11baefdfa232f4fcbaaac2293e20f276b54c2947c5fe3a6e2d1/flash_irix.tar.gz"
+	},
+	{
+		"name": "flash-player-4.0.28.0-dreamcast",
+		"file": "Sega_Dreamcast_Flash_Player.zip",
+		"size": 215430,
+		"sha256": "13662e45bb6d692cc25b89f0d58040fe1c815f3e794d62989d7f3b7068dc4be6",
+		"sha1": "01206a1337fd65da0f04abed01dcfb3e1bce596c",
+		"md5": "c42e264f737e1aa0ba4e87ef33173978",
+		"source": "https://archive.org/download/shockpkg_packages_1/13/66/2e45bb6d692cc25b89f0d58040fe1c815f3e794d62989d7f3b7068dc4be6/Sega_Dreamcast_Flash_Player.zip"
+	}
+]

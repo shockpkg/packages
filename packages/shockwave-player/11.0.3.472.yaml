@@ -1,7 +1,0 @@
-- name: shockwave-player-11.0.3.472-windows-full
-  file: Shockwave_Installer_Full.exe
-  size: 9516472
-  sha256: d8c937bdaf65223befb49458b1e11ab95e16936d12ca8dd89f0d5997a649c38f
-  sha1: ebcf90fcf2960b9c0239d0723d57da0e775c2dbd
-  md5: 9e3ed6d5d3a76277592cc75c77680e2e
-  source: https://archive.org/download/shockpkg_packages_d/d8/c9/37bdaf65223befb49458b1e11ab95e16936d12ca8dd89f0d5997a649c38f/Shockwave_Installer_Full.exe

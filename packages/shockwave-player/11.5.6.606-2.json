@@ -1,0 +1,20 @@
+[
+	{
+		"name": "shockwave-player-11.5.6.606-2-windows-activex",
+		"file": "sw.cab",
+		"size": 153315,
+		"sha256": "2c77682a929f783919cadedf831ab126ee24a7f223f660d469728e745faf3f66",
+		"sha1": "29c9cb54eb0f68297531727af4729ba38b63d54b",
+		"md5": "01a891dd151fdefa59d37f488d6f0fcb",
+		"source": "https://archive.org/download/shockpkg_packages_2/2c/77/682a929f783919cadedf831ab126ee24a7f223f660d469728e745faf3f66/sw.cab"
+	},
+	{
+		"name": "shockwave-player-11.5.6.606-2-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 8444016,
+		"sha256": "f654f2bc0c94e322e037d21def7b0ae94be77af692ca1ec4054026bb5111e76b",
+		"sha1": "1e321db7cd253a6a6a5447b60bff4411bd63fcc8",
+		"md5": "ce746e1947ff435f032ea87b20820344",
+		"source": "https://archive.org/download/shockpkg_packages_f/f6/54/f2bc0c94e322e037d21def7b0ae94be77af692ca1ec4054026bb5111e76b/Shockwave_Installer_Full.exe"
+	}
+]

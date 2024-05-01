@@ -1,0 +1,38 @@
+[
+	{
+		"name": "air-sdk-33.1.1.176-windows",
+		"file": "AIRSDK_Flex_Windows.zip",
+		"size": 603690890,
+		"sha256": "3858500fef2f3f773888622903c9a8cdb68e8b8bd26ffb411a3a548b898b3959",
+		"sha1": "b0936277ecc8e80e5ec2ac9e414e67ad122769db",
+		"md5": "05636adb47e52cab88cac46d1c7f2300",
+		"source": "https://archive.org/download/shockpkg_packages_3/38/58/500fef2f3f773888622903c9a8cdb68e8b8bd26ffb411a3a548b898b3959/AIRSDK_Flex_Windows.zip"
+	},
+	{
+		"name": "air-sdk-33.1.1.176-windows-compiler",
+		"file": "AIRSDK_Windows.zip",
+		"size": 640733657,
+		"sha256": "3a5a0857b7918186bfee08b17a9f689705ef2b95ecce7e3b90ffb25986bc6953",
+		"sha1": "2d36aa787fa13c24a0e1069b5c789ec1d5dcc3ab",
+		"md5": "802d5f3e053d33e9dd27372a975aff8d",
+		"source": "https://archive.org/download/shockpkg_packages_3/3a/5a/0857b7918186bfee08b17a9f689705ef2b95ecce7e3b90ffb25986bc6953/AIRSDK_Windows.zip"
+	},
+	{
+		"name": "air-sdk-33.1.1.176-mac",
+		"file": "AIRSDK_Flex_MacOS.zip",
+		"size": 587134419,
+		"sha256": "b88937b35afc39381eb6961361fb681198c499f71eeb96eaf50f11a28a2c887f",
+		"sha1": "eefc839e4502d15213699e006ac63c4f4d75699f",
+		"md5": "36ea5d6c9c18922ddf7b6ad641dc57c0",
+		"source": "https://archive.org/download/shockpkg_packages_b/b8/89/37b35afc39381eb6961361fb681198c499f71eeb96eaf50f11a28a2c887f/AIRSDK_Flex_MacOS.zip"
+	},
+	{
+		"name": "air-sdk-33.1.1.176-mac-compiler",
+		"file": "AIRSDK_MacOS.zip",
+		"size": 624207086,
+		"sha256": "2b96b9b3a75bacbc2d1a4257e89f14486b846af29cc995a52820e98d537f4c6c",
+		"sha1": "bd90b866b4781bbbb75ee2ee571e1bb51c3a203c",
+		"md5": "cee2b5b5ab20e35d9d2ae9721a9dfbd2",
+		"source": "https://archive.org/download/shockpkg_packages_2/2b/96/b9b3a75bacbc2d1a4257e89f14486b846af29cc995a52820e98d537f4c6c/AIRSDK_MacOS.zip"
+	}
+]

@@ -1,0 +1,20 @@
+[
+	{
+		"name": "shockwave-player-10.1.4.20-2-windows-full-licensed",
+		"file": "sw_lic_full_installer.exe",
+		"size": 5146288,
+		"sha256": "0b506450e4673cea48d3da3c2dc940613ef0db954a6553894257dd0122fd9725",
+		"sha1": "2efa60588869294182110d66230cbb90e8f0ca50",
+		"md5": "8f2cd6b9e58a0eafcce21bbc55ae555f",
+		"source": "https://archive.org/download/shockpkg_packages_0/0b/50/6450e4673cea48d3da3c2dc940613ef0db954a6553894257dd0122fd9725/sw_lic_full_installer.exe"
+	},
+	{
+		"name": "shockwave-player-10.1.4.20-2-windows-full",
+		"file": "Shockwave_Installer_Full.exe",
+		"size": 5460144,
+		"sha256": "514ec47b4f5a6160c781ab952435fd6fd48fd37ed727d2eeaf7216e69a93c9c6",
+		"sha1": "5d518ad9fbbfbdf55c23933eb67230545f335408",
+		"md5": "4a453678c9187d77f2c39d36453689f8",
+		"source": "https://archive.org/download/shockpkg_packages_5/51/4e/c47b4f5a6160c781ab952435fd6fd48fd37ed727d2eeaf7216e69a93c9c6/Shockwave_Installer_Full.exe"
+	}
+]

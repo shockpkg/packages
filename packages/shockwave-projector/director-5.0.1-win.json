@@ -1,0 +1,20 @@
+[
+	{
+		"name": "shockwave-projector-director-5.0.1-win-win-16bit",
+		"file": "projector.zip",
+		"size": 2459410,
+		"sha256": "f390cb74755acd688f7b435c26ded8070fe6d5f252722cb1ca6165391983b0a9",
+		"sha1": "27009b4ccdddf2e4edef7bd3a8055c2b86f848c7",
+		"md5": "a1cddbe2af38bcd3c610d765b857018c",
+		"source": "https://archive.org/download/shockpkg_packages_f/f3/90/cb74755acd688f7b435c26ded8070fe6d5f252722cb1ca6165391983b0a9/projector.zip"
+	},
+	{
+		"name": "shockwave-projector-director-5.0.1-win-win-32bit",
+		"file": "projector.zip",
+		"size": 2508552,
+		"sha256": "531ce00313076072310bad04593a8448604435152b93d4c9128a4994843b1487",
+		"sha1": "32531d714f4f431b548a78616fef3f1336e49dce",
+		"md5": "4b600a7d240498745047aeffb574e98f",
+		"source": "https://archive.org/download/shockpkg_packages_5/53/1c/e00313076072310bad04593a8448604435152b93d4c9128a4994843b1487/projector.zip"
+	}
+]

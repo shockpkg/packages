@@ -1,7 +1,0 @@
-- name: flash-player-11.1.115.20-android-4.0
-  file: install_flash_player_ics.apk
-  size: 4705440
-  sha256: ff32b4d048bfa02775cb94036044fa178a8c57d77fdf18cc6e05c58993bb1a3f
-  sha1: 50766417466c980fab0d9c3b8aa813aa526b5d84
-  md5: 70ea7a251bcef54bcb684637d634b939
-  source: https://archive.org/download/shockpkg_packages_f/ff/32/b4d048bfa02775cb94036044fa178a8c57d77fdf18cc6e05c58993bb1a3f/install_flash_player_ics.apk

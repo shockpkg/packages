@@ -1,7 +1,0 @@
-- name: shockwave-player-8.5.1.106-2-windows-activex
-  file: swdir_nr.cab
-  size: 34061
-  sha256: 6857040c6340fa3a75cfccbb6d5fac9565343b25174d7cd4299a2cbeefde9897
-  sha1: 03e6267e431dc2760e370c4fd24dbb517ff54df7
-  md5: 9fccd52c917fcc2e16cab6236d299101
-  source: https://archive.org/download/shockpkg_packages_6/68/57/040c6340fa3a75cfccbb6d5fac9565343b25174d7cd4299a2cbeefde9897/swdir_nr.cab
