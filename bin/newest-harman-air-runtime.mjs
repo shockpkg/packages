@@ -2,8 +2,10 @@
 
 /* eslint-disable no-console */
 
+import {Readable} from 'node:stream';
+
 import packaged from '../util/packages.mjs';
-import {buffer as hashBuffer} from '../util/hash.mjs';
+import {stream as hashStream} from '../util/hash.mjs';
 import {runtimes, userAgent} from '../util/harman.mjs';
 import {retry} from '../util/util.mjs';
 
@@ -41,9 +43,10 @@ async function main() {
 			throw new Error(`Status code: ${status}: ${source}`);
 		}
 
+		const stream = Readable.fromWeb(response.body);
+
 		// eslint-disable-next-line no-await-in-loop
-		const body = Buffer.from(await response.arrayBuffer());
-		const [bodyHash] = hashBuffer(body, ['sha256']);
+		const [bodyHash] = await hashStream(stream, ['sha256']);
 		if (bodyHash !== sha256) {
 			throw new Error(`Body sha256: ${bodyHash} !== ${sha256}`);
 		}

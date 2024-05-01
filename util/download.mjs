@@ -20,14 +20,13 @@ export async function download(output, url, headers = {}, progress = null) {
 	}
 
 	const body = Readable.fromWeb(response.body);
-	const p = pipeline(body, createWriteStream(part));
 	body.on('data', data => {
 		size += data.length;
 		if (progress) {
 			progress({size, total});
 		}
 	});
-	await p;
+	await pipeline(body, createWriteStream(part));
 
 	if (size !== total) {
 		throw new Error(`Unexpected size: ${size} != ${total}: ${url}`);
