@@ -11,9 +11,9 @@ import {download} from '../util/download.mjs';
 async function main() {
 	const doc = [];
 	const resources = await runtimes();
-	for (const {name, file, sha256, source: url} of resources) {
+	for (const {name, file, sha256, source} of resources) {
 		console.log(`Name: ${name}`);
-		console.log(`URL: ${url}`);
+		console.log(`URL: ${source}`);
 
 		const filepath = `${name}/${file}`;
 
@@ -26,7 +26,7 @@ async function main() {
 			// eslint-disable-next-line no-await-in-loop
 			await download(
 				filepath,
-				url,
+				source,
 				{
 					'User-Agent': userAgent
 				},

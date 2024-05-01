@@ -13,9 +13,9 @@ async function main() {
 	const cookieHeader = cookies(listed.cookies);
 
 	const doc = [];
-	for (const {name, file, source: url} of listed.downloads) {
+	for (const {name, file, source} of listed.downloads) {
 		console.log(`Name: ${name}`);
-		console.log(`URL: ${url}`);
+		console.log(`URL: ${source}`);
 
 		const filepath = `${name}/${file}`;
 
@@ -28,7 +28,7 @@ async function main() {
 			// eslint-disable-next-line no-await-in-loop
 			await download(
 				filepath,
-				url,
+				source,
 				{
 					'User-Agent': userAgent,
 					Cookie: cookieHeader
