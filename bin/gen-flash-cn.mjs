@@ -48,9 +48,11 @@ async function main() {
 		const {size} = await stat(cached.filepath);
 		console.log(`Size: ${size}`);
 
-		const [sha256, sha1, md5] =
-			// eslint-disable-next-line no-await-in-loop
-			await hashFile(cached.filepath, ['sha256', 'sha1', 'md5']);
+		// eslint-disable-next-line no-await-in-loop
+		const [sha256, sha1, md5] = await hashFile(
+			cached.filepath,
+			['sha256', 'sha1', 'md5']
+		);
 		console.log(`SHA256: ${sha256}`);
 		console.log(`SHA1: ${sha1}`);
 		console.log(`MD5: ${md5}`);
