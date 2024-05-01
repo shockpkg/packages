@@ -28,7 +28,7 @@ const iaCache = {};
 // eslint-disable-next-line require-await
 async function archiveOrgMetadata(item) {
 	if (!iaCache[item]) {
-		const url = `https://archive.org/metadata/${encodeURI(item)}/`;
+		const url = `https://archive.org/metadata/${encodeURIComponent(item)}/`;
 		iaCache[item] = retry(() => fetch(url)).then(async response => {
 			const {status} = response;
 			if (status !== 200) {
