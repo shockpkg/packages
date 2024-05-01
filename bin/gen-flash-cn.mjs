@@ -57,7 +57,8 @@ async function main() {
 		// eslint-disable-next-line no-await-in-loop
 		const [sha256, sha1, md5] = await hashFile(
 			filepath,
-			['sha256', 'sha1', 'md5']
+			['sha256', 'sha1', 'md5'],
+			'hex'
 		);
 		console.log(`SHA256: ${sha256}`);
 		console.log(`SHA1: ${sha1}`);

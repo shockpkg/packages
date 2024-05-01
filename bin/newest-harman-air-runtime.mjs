@@ -43,10 +43,12 @@ async function main() {
 			throw new Error(`Status code: ${status}: ${source}`);
 		}
 
-		const stream = Readable.fromWeb(response.body);
-
 		// eslint-disable-next-line no-await-in-loop
-		const [bodyHash] = await hashStream(stream, ['sha256']);
+		const [bodyHash] = await hashStream(
+			Readable.fromWeb(response.body),
+			['sha256'],
+			'hex'
+		);
 		if (bodyHash !== sha256) {
 			throw new Error(`Body sha256: ${bodyHash} !== ${sha256}`);
 		}

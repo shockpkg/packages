@@ -1,6 +1,6 @@
 import {createWriteStream} from 'node:fs';
 import {rename} from 'node:fs/promises';
-import {Readable} from 'node:stream';
+import {Readable, Transform} from 'node:stream';
 import {pipeline} from 'node:stream/promises';
 
 import {retry} from './util.mjs';
@@ -15,18 +15,25 @@ export async function download(output, url, headers = {}, progress = null) {
 
 	let size = 0;
 	const total = +response.headers.get('content-length');
+
 	if (progress) {
 		progress({size, total});
 	}
 
-	const body = Readable.fromWeb(response.body);
-	body.on('data', data => {
-		size += data.length;
-		if (progress) {
-			progress({size, total});
-		}
-	});
-	await pipeline(body, createWriteStream(part));
+	await pipeline(
+		Readable.fromWeb(response.body),
+		new (class extends Transform {
+			_transform(chunk, encoding, callback) {
+				size += Buffer.from(chunk, encoding).length;
+				this.push(chunk, encoding);
+				if (progress) {
+					progress({size, total});
+				}
+				callback();
+			}
+		})(),
+		createWriteStream(part)
+	);
 
 	if (size !== total) {
 		throw new Error(`Unexpected size: ${size} != ${total}: ${url}`);
