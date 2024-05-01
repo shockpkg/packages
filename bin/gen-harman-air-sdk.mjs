@@ -6,7 +6,6 @@ import {stat} from 'node:fs/promises';
 
 import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
-import {packages as encodePackages} from '../util/yaml.mjs';
 import {sdks, cookies, userAgent} from '../util/harman.mjs';
 
 async function main() {
@@ -71,7 +70,7 @@ async function main() {
 
 	console.log('Done');
 	console.log('-'.repeat(80));
-	console.log(encodePackages(doc));
+	console.log(JSON.stringify(doc, null, '\t'));
 }
 main().catch(err => {
 	console.error(err);

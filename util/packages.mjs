@@ -2,8 +2,6 @@ import {readFile, readdir} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
-import yaml from 'js-yaml';
-
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 function comparePrimitive(a, b) {
@@ -52,7 +50,7 @@ function comparePart(a, b) {
 }
 
 function pathToParts(p) {
-	return p.replace(/\.(yaml|json)$/, '').split('/');
+	return p.replace(/\.json$/, '').split('/');
 }
 
 function parseVersionPiece(s) {
@@ -88,7 +86,7 @@ function comparePaths(a, b) {
 export default async function read() {
 	const packagesDir = pathJoin(__dirname, '..', 'packages');
 	const files = (await readdir(packagesDir, {recursive: true}))
-		.filter(s => /^([^.][^/]*\/)*[^.][^/]*\.(yaml|json)$/.test(s))
+		.filter(s => /^([^.][^/]*\/)*[^.][^/]*\.json$/.test(s))
 		.sort(comparePaths);
 
 	const packages = [];
@@ -97,7 +95,7 @@ export default async function read() {
 
 		// eslint-disable-next-line no-await-in-loop
 		const code = await readFile(filePath, 'utf8');
-		const doc = file.endsWith('.json') ? JSON.parse(code) : yaml.load(code);
+		const doc = JSON.parse(code);
 		packages.push(...doc);
 	}
 

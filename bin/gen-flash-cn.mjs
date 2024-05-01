@@ -7,7 +7,6 @@ import {stat} from 'node:fs/promises';
 import {list, userAgent} from '../util/flashcn.mjs';
 import {ensure} from '../util/gencache.mjs';
 import {file as hashFile} from '../util/hash.mjs';
-import {packages as encodePackages} from '../util/yaml.mjs';
 import packaged from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 
@@ -86,7 +85,7 @@ async function main() {
 
 	console.log('Done');
 	console.log('-'.repeat(80));
-	console.log(encodePackages(doc));
+	console.log(JSON.stringify(doc, null, '\t'));
 }
 main().catch(err => {
 	console.error(err);
