@@ -9,19 +9,27 @@ import {runtimes, userAgent} from '../util/harman.mjs';
 import {download} from '../util/download.mjs';
 
 async function main() {
+	const args = process.argv.slice(2);
+	if (args.length < 1) {
+		throw new Error('Args: outdir');
+	}
+
+	const [outdir] = args;
+
 	const doc = [];
 	const resources = await runtimes();
 	for (const {name, file, sha256, source} of resources) {
 		console.log(`Name: ${name}`);
 		console.log(`URL: ${source}`);
 
-		const filepath = `${name}/${file}`;
+		const filedir = `${outdir}/${name}`;
+		const filepath = `${filedir}/${file}`;
 
 		// eslint-disable-next-line no-await-in-loop
 		let st = await stat(filepath).catch(() => null);
 		if (!st) {
 			// eslint-disable-next-line no-await-in-loop
-			await mkdir(name, {recursive: true});
+			await mkdir(filedir, {recursive: true});
 
 			// eslint-disable-next-line no-await-in-loop
 			await download(
