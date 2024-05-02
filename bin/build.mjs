@@ -4,14 +4,10 @@
 
 import {mkdir, writeFile} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';
-import {fileURLToPath} from 'node:url';
 
 import {read as packaged} from '../util/packages.mjs';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-
-const dist = pathJoin(__dirname, '..', 'dist');
-const distApi = pathJoin(dist, 'api');
+const dist = 'dist';
 const file = 'packages.json';
 
 async function outputFile(file, data) {
@@ -47,7 +43,7 @@ async function main() {
 	for (const v of [1]) {
 		// eslint-disable-next-line no-await-in-loop
 		await outputFile(
-			pathJoin(distApi, `${v}`, file),
+			pathJoin(dist, 'api', `${v}`, file),
 			JSON.stringify({
 				format: '1.2',
 				packages: transform(packages, v)
