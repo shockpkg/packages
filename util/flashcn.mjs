@@ -100,6 +100,25 @@ function dateNorm(date) {
 	return date;
 }
 
+function mimetype(file) {
+	if (/\.exe/i.test(file)) {
+		return 'application/x-msdownload';
+	}
+	if (/\.dmg/i.test(file)) {
+		return 'application/x-apple-diskimage';
+	}
+	if (/\.rpm/i.test(file)) {
+		return 'application/octet-stream';
+	}
+	if (/\.tar\.gz/i.test(file)) {
+		return 'application/octet-stream';
+	}
+	if (/\.swc/i.test(file)) {
+		return 'application/octet-stream';
+	}
+	return null;
+}
+
 async function listRelease() {
 	const htmlUrl = 'https://www.flash.cn/download';
 	const fverUrl = 'https://api.flash.cn/config/flashVersion';
@@ -132,6 +151,7 @@ async function listRelease() {
 		// }
 
 		const source = getSource(info.downloadURL, info.version);
+		const file = urlFile(source);
 		const type = idRelease.get(id);
 		if (!type) {
 			throw new Error(`Unknown id: ${id}`);
@@ -139,14 +159,15 @@ async function listRelease() {
 
 		r.push({
 			name: `flash-player-${info.version}-${type}-cn`,
-			file: urlFile(source),
+			file,
 			source,
 			referer: htmlUrl,
 			list: 'release',
 			id,
 			date: dateNorm(info.date),
 			version: info.version,
-			size: info.size
+			size: info.size,
+			mimetype: mimetype(file)
 		});
 		ids.add(id);
 	}
@@ -229,7 +250,8 @@ async function listDebug() {
 			id,
 			date: dated,
 			version,
-			size: null
+			size: null,
+			mimetype: mimetype(file)
 		});
 		ids.add(id);
 	}

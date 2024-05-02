@@ -32,7 +32,7 @@ async function main() {
 	}));
 
 	const each = async resource => {
-		const {name, source, file} = resource.info;
+		const {name, source, file, mimetype} = resource.info;
 		const filedir = pathJoin(outdir, name);
 		const filepath = pathJoin(filedir, file);
 
@@ -47,6 +47,14 @@ async function main() {
 				headers: {
 					'User-Agent': userAgent,
 					Cookie: cookieHeader
+				},
+				response(response) {
+					const ct = response.headers.get('content-type');
+					if (ct !== mimetype) {
+						throw new Error(
+							`Mimetype: ${ct} != ${mimetype}: ${source}`
+						);
+					}
 				},
 				progress({size, total}) {
 					resource.download = size / total;

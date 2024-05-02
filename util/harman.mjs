@@ -12,8 +12,8 @@ export const userAgent =
 	'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
 
 const runtimeFiles = [
-	['AdobeAIR.exe', 'windows'],
-	['AdobeAIR.dmg', 'mac']
+	['AdobeAIR.exe', 'windows', 'application/x-msdownload'],
+	['AdobeAIR.dmg', 'mac', 'application/x-apple-diskimage']
 ];
 
 const legacy = new Set([
@@ -101,7 +101,8 @@ export async function sdks() {
 			name,
 			version,
 			file,
-			source
+			source,
+			mimetype: 'application/octet-stream'
 		});
 	}
 
@@ -188,7 +189,7 @@ export async function runtimes() {
 	}
 
 	const downloads = [];
-	for (const [file, os] of runtimeFiles) {
+	for (const [file, os, mimetype] of runtimeFiles) {
 		const sha256 = sha256s.get(file);
 		if (!sha256) {
 			throw new Error(`No sha256 for: ${file}`);
@@ -199,7 +200,8 @@ export async function runtimes() {
 			version,
 			file,
 			sha256,
-			source: `${runtimeFileBase}${file}`
+			source: `${runtimeFileBase}${file}`,
+			mimetype
 		});
 	}
 	return downloads;

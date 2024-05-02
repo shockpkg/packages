@@ -11,6 +11,9 @@ export async function download(output, url, opts = {}) {
 	const response = await retry(() =>
 		fetch(url, {headers: opts.headers || {}})
 	);
+	if (opts.response) {
+		opts.response(response);
+	}
 	if (response.status !== 200) {
 		throw new Error(`Status code: ${response.status}: ${url}`);
 	}
