@@ -5,10 +5,12 @@ import {pipeline} from 'node:stream/promises';
 
 import {retry} from './util.mjs';
 
-export async function download(output, url, headers = {}, progress = null) {
+export async function download(output, url, opts = {}) {
 	const part = `${output}.part`;
 
-	const response = await retry(() => fetch(url, {headers}));
+	const response = await retry(() =>
+		fetch(url, {headers: opts.headers || {}})
+	);
 	if (response.status !== 200) {
 		throw new Error(`Status code: ${response.status}: ${url}`);
 	}
@@ -16,8 +18,8 @@ export async function download(output, url, headers = {}, progress = null) {
 	let size = 0;
 	const total = +response.headers.get('content-length');
 
-	if (progress) {
-		progress({size, total});
+	if (opts.progress) {
+		opts.progress({size, total});
 	}
 
 	await pipeline(
@@ -26,8 +28,8 @@ export async function download(output, url, headers = {}, progress = null) {
 			_transform(chunk, encoding, callback) {
 				size += Buffer.from(chunk, encoding).length;
 				this.push(chunk, encoding);
-				if (progress) {
-					progress({size, total});
+				if (opts.progress) {
+					opts.progress({size, total});
 				}
 				callback();
 			}

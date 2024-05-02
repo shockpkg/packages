@@ -47,17 +47,15 @@ async function main() {
 			await mkdir(filedir, {recursive: true});
 
 			// eslint-disable-next-line no-await-in-loop
-			await download(
-				filepath,
-				`${source}?_=${Date.now()}`,
-				{
+			await download(filepath, `${source}?_=${Date.now()}`, {
+				headers: {
 					'User-Agent': userAgent,
 					Referer: referer
 				},
-				({size, total}) => {
+				progress({size, total}) {
 					resource.download = size / total;
 				}
-			);
+			});
 
 			// eslint-disable-next-line no-await-in-loop
 			st = await stat(filepath);
