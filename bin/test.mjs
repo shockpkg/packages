@@ -8,16 +8,15 @@ import {basename} from 'node:path';
 import {read as packaged, prefixes} from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 
-async function properties() {
-	const packages = await packaged();
-	const expectedPrefixes = await prefixes();
+async function properties(packages) {
+	const starts = await prefixes();
 
 	const validatorsRoot = {
 		name: (root, value) => {
 			equal(typeof value, 'string');
 			match(value, /^[a-z][-a-z0-9_.]*[a-z0-9]$/);
 			let prefixed = false;
-			for (const prefix of expectedPrefixes) {
+			for (const prefix of starts) {
 				if (value.startsWith(`${prefix}-`)) {
 					prefixed = true;
 					break;
@@ -94,9 +93,7 @@ async function properties() {
 	}
 }
 
-async function unique() {
-	const packages = await packaged();
-
+async function unique(packages) {
 	const keys = new Set();
 	const urls = new Set();
 
@@ -126,9 +123,7 @@ async function unique() {
 	}
 }
 
-async function rename() {
-	const packages = await packaged();
-
+async function rename(packages) {
 	const renamedRoot = {
 		// None currently.
 	};
@@ -189,9 +184,10 @@ async function rename() {
 }
 
 async function main() {
-	await properties();
-	await unique();
-	await rename();
+	const packages = await packaged();
+	await properties(packages);
+	await unique(packages);
+	await rename(packages);
 }
 main().catch(err => {
 	console.error(err);
