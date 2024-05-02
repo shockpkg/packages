@@ -4,6 +4,8 @@ import {fileURLToPath} from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+const directory = pathJoin(__dirname, '..', 'packages');
+
 function comparePrimitive(a, b) {
 	if (a === null && b !== null) {
 		return -1;
@@ -84,21 +86,19 @@ function comparePaths(a, b) {
 }
 
 export async function prefixes() {
-	const directory = pathJoin(__dirname, '..', 'packages');
 	return (await readdir(directory, {withFileTypes: true}))
 		.filter(e => e.isDirectory() && /^[a-z0-9-]+$/.test(e.name))
 		.map(e => e.name);
 }
 
 export async function read() {
-	const packagesDir = pathJoin(__dirname, '..', 'packages');
-	const files = (await readdir(packagesDir, {recursive: true}))
+	const files = (await readdir(directory, {recursive: true}))
 		.filter(s => /^([^.][^/]*\/)*[^.][^/]*\.json$/.test(s))
 		.sort(comparePaths);
 
 	const packages = [];
 	for (const file of files) {
-		const filePath = pathJoin(packagesDir, file);
+		const filePath = pathJoin(directory, file);
 
 		// eslint-disable-next-line no-await-in-loop
 		const code = await readFile(filePath, 'utf8');
