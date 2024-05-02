@@ -11,6 +11,9 @@ import {walk} from '../util/util.mjs';
 import {download} from '../util/download.mjs';
 
 async function main() {
+	// eslint-disable-next-line no-process-env
+	const threads = +process.env.SHOCKPKG_DOWNLOAD_THREADS || 4;
+
 	const args = process.argv.slice(2);
 	if (args.length < 1) {
 		throw new Error('Args: outdir');
@@ -23,14 +26,15 @@ async function main() {
 		[...walk(packages, p => p.packages)].map(([p]) => [p.sha256, p])
 	);
 
-	const all = await list();
-	const doc = [];
+	const resources = (await list()).map(info => ({
+		info,
+		download: 0,
+		size: null,
+		hashes: null
+	}));
 
-	for (const info of all) {
-		const {name, source, referer, file, date} = info;
-		console.log(`Name: ${name}`);
-		console.log(`URL: ${source}`);
-
+	const each = async resource => {
+		const {name, source, referer, file} = resource.info;
 		const filedir = `${outdir}/${name}`;
 		const filepath = `${filedir}/${file}`;
 
@@ -49,35 +53,83 @@ async function main() {
 					Referer: referer
 				},
 				({size, total}) => {
-					const p = (size / total) * 100;
-					process.stdout.write(`\rDownloading: ${p.toFixed(2)}%\r`);
+					resource.download = size / total;
 				}
 			);
-			console.log('');
 
 			// eslint-disable-next-line no-await-in-loop
 			st = await stat(filepath);
 		}
 
-		const {size} = st;
-		console.log(`Size: ${size}`);
+		resource.size = st.size;
+		resource.download = 1;
 
-		// eslint-disable-next-line no-await-in-loop
 		const [sha256, sha1, md5] = await hashFile(
 			filepath,
 			['sha256', 'sha1', 'md5'],
 			'hex'
 		);
-		console.log(`SHA256: ${sha256}`);
-		console.log(`SHA1: ${sha1}`);
-		console.log(`MD5: ${md5}`);
+		resource.hashes = {sha256, sha1, md5};
+	};
 
-		if (bySha256.has(sha256)) {
-			console.log('UNCHANGED');
-			console.log('');
-			continue;
+	const update = first => {
+		if (!first) {
+			process.stdout.write('\x1B[F'.repeat(resources.length));
 		}
+		for (const resource of resources) {
+			const {
+				info: {name},
+				download,
+				hashes
+			} = resource;
+			const status = hashes
+				? 'COMPLETE'
+				: `%${(download * 100).toFixed(2)}`;
+			process.stdout.write(`${name}: ${status}\n`);
+		}
+	};
+	update(true);
+	const interval = setInterval(update, 1000);
+	try {
+		const q = [...resources];
+		await Promise.all(
+			new Array(threads).fill(0).map(async () => {
+				while (q.length) {
+					// eslint-disable-next-line no-await-in-loop
+					await each(q.shift());
+				}
+			})
+		);
+	} finally {
+		update();
+		clearInterval(interval);
+	}
 
+	console.log('-'.repeat(80));
+
+	const unchanged = resources.filter(r => bySha256.has(r.hashes.sha256));
+	console.log(`UNCHANGED: ${unchanged.length}`);
+	for (const r of unchanged) {
+		console.log(r.info.name);
+	}
+
+	console.log('-'.repeat(80));
+
+	const changed = resources.filter(r => !bySha256.has(r.hashes.sha256));
+	console.log(`CHANGED: ${changed.length}`);
+	for (const r of changed) {
+		console.log(r.info.name);
+	}
+
+	console.log('-'.repeat(80));
+
+	const doc = [];
+	for (const {
+		info: {name, file, date},
+		size,
+		hashes: {sha256, sha1, md5}
+	} of changed) {
+		console.log(name);
 		doc.push({
 			name,
 			file,
@@ -96,12 +148,7 @@ async function main() {
 				date
 			}
 		});
-
-		console.log('');
 	}
-
-	console.log('Done');
-	console.log('-'.repeat(80));
 	console.log(JSON.stringify(doc, null, '\t'));
 }
 main().catch(err => {
