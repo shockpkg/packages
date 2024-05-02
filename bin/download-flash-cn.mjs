@@ -6,7 +6,7 @@ import {mkdir, stat} from 'node:fs/promises';
 
 import {list, userAgent} from '../util/flashcn.mjs';
 import {file as hashFile} from '../util/hash.mjs';
-import packaged from '../util/packages.mjs';
+import {read as packaged} from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 import {download} from '../util/download.mjs';
 

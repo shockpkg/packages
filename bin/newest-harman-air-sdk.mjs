@@ -3,7 +3,7 @@
 /* eslint-disable no-console */
 
 import {sdks, cookies, userAgent} from '../util/harman.mjs';
-import packaged from '../util/packages.mjs';
+import {read as packaged} from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
 
 async function main() {

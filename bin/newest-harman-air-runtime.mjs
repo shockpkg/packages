@@ -4,7 +4,7 @@
 
 import {Readable} from 'node:stream';
 
-import packaged from '../util/packages.mjs';
+import {read as packaged} from '../util/packages.mjs';
 import {stream as hashStream} from '../util/hash.mjs';
 import {runtimes, userAgent} from '../util/harman.mjs';
 import {retry} from '../util/util.mjs';

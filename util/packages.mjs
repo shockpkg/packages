@@ -83,7 +83,7 @@ function comparePaths(a, b) {
 	return 0;
 }
 
-export default async function read() {
+export async function read() {
 	const packagesDir = pathJoin(__dirname, '..', 'packages');
 	const files = (await readdir(packagesDir, {recursive: true}))
 		.filter(s => /^([^.][^/]*\/)*[^.][^/]*\.json$/.test(s))

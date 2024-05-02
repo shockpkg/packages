@@ -6,7 +6,7 @@ import {mkdir, writeFile} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
-import packaged from '../util/packages.mjs';
+import {read as packaged} from '../util/packages.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

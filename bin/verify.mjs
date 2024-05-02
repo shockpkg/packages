@@ -2,7 +2,7 @@
 
 /* eslint-disable no-console */
 
-import packaged from '../util/packages.mjs';
+import {read as packaged} from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
 
 function archiveOrgParse(url) {

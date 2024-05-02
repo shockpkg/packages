@@ -3,7 +3,7 @@
 /* eslint-disable no-console */
 
 import {list, userAgent} from '../util/flashcn.mjs';
-import packaged from '../util/packages.mjs';
+import {read as packaged} from '../util/packages.mjs';
 import {retry, walk} from '../util/util.mjs';
 
 async function main() {
