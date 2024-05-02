@@ -83,6 +83,13 @@ function comparePaths(a, b) {
 	return 0;
 }
 
+export async function prefixes() {
+	const directory = pathJoin(__dirname, '..', 'packages');
+	return (await readdir(directory, {withFileTypes: true}))
+		.filter(e => e.isDirectory() && /^[a-z0-9-]+$/.test(e.name))
+		.map(e => e.name);
+}
+
 export async function read() {
 	const packagesDir = pathJoin(__dirname, '..', 'packages');
 	const files = (await readdir(packagesDir, {recursive: true}))

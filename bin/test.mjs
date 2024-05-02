@@ -3,28 +3,21 @@
 /* eslint-disable no-console */
 
 import {equal, match, ok} from 'node:assert/strict';
-import {readdir} from 'node:fs/promises';
-import {basename, dirname, join as pathJoin} from 'node:path';
-import {fileURLToPath} from 'node:url';
+import {basename} from 'node:path';
 
-import {read as packaged} from '../util/packages.mjs';
+import {read as packaged, prefixes} from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-
 async function properties() {
-	const directory = pathJoin(__dirname, '..', 'packages');
 	const packages = await packaged();
-	const prefixes = (await readdir(directory, {withFileTypes: true}))
-		.filter(e => e.isDirectory() && /^[a-z0-9-]+$/.test(e.name))
-		.map(e => e.name);
+	const expectedPrefixes = await prefixes();
 
 	const validatorsRoot = {
 		name: (root, value) => {
 			equal(typeof value, 'string');
 			match(value, /^[a-z][-a-z0-9_.]*[a-z0-9]$/);
 			let prefixed = false;
-			for (const prefix of prefixes) {
+			for (const prefix of expectedPrefixes) {
 				if (value.startsWith(`${prefix}-`)) {
 					prefixed = true;
 					break;
