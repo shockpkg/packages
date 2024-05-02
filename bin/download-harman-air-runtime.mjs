@@ -29,7 +29,7 @@ async function main() {
 	}));
 
 	const each = async resource => {
-		const {name, source, file, mimetype} = resource.info;
+		const {name, source, file, mimetype, sha256: sha256e} = resource.info;
 		const filedir = pathJoin(outdir, name);
 		const filepath = pathJoin(filedir, file);
 
@@ -69,6 +69,10 @@ async function main() {
 			['sha256', 'sha1', 'md5'],
 			'hex'
 		);
+		if (sha256 !== sha256e) {
+			throw new Error(`Hash: ${sha256} != ${sha256e}: ${source}`);
+		}
+
 		resource.hashes = {sha256, sha1, md5};
 	};
 
