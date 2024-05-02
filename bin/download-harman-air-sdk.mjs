@@ -68,37 +68,41 @@ async function main() {
 		resource.hashes = {sha256, sha1, md5};
 	};
 
-	const update = first => {
-		if (!first) {
-			process.stdout.write('\x1B[F'.repeat(resources.length));
+	{
+		const clear = '\x1B[F'.repeat(resources.length);
+		const update = first => {
+			if (!first) {
+				process.stdout.write(clear);
+			}
+			for (const resource of resources) {
+				const {
+					info: {name},
+					download,
+					hashes
+				} = resource;
+				const status = hashes
+					? 'COMPLETE'
+					: `%${(download * 100).toFixed(2)}`;
+				process.stdout.write(`${name}: ${status}\n`);
+			}
+		};
+
+		update(true);
+		const interval = setInterval(update, 1000);
+		try {
+			const q = [...resources];
+			await Promise.all(
+				new Array(threads).fill(0).map(async () => {
+					while (q.length) {
+						// eslint-disable-next-line no-await-in-loop
+						await each(q.shift());
+					}
+				})
+			);
+		} finally {
+			clearInterval(interval);
+			update();
 		}
-		for (const resource of resources) {
-			const {
-				info: {name},
-				download,
-				hashes
-			} = resource;
-			const status = hashes
-				? 'COMPLETE'
-				: `%${(download * 100).toFixed(2)}`;
-			process.stdout.write(`${name}: ${status}\n`);
-		}
-	};
-	update(true);
-	const interval = setInterval(update, 1000);
-	try {
-		const q = [...resources];
-		await Promise.all(
-			new Array(threads).fill(0).map(async () => {
-				while (q.length) {
-					// eslint-disable-next-line no-await-in-loop
-					await each(q.shift());
-				}
-			})
-		);
-	} finally {
-		clearInterval(interval);
-		update();
 	}
 
 	console.log('-'.repeat(80));
