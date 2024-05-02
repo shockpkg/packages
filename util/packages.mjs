@@ -95,16 +95,11 @@ export async function read() {
 	const files = (await readdir(directory, {recursive: true}))
 		.filter(s => /^([^.][^/]*\/)*[^.][^/]*\.json$/.test(s))
 		.sort(comparePaths);
-
-	const packages = [];
-	for (const file of files) {
-		const filePath = pathJoin(directory, file);
-
-		// eslint-disable-next-line no-await-in-loop
-		const code = await readFile(filePath, 'utf8');
-		const doc = JSON.parse(code);
-		packages.push(...doc);
-	}
-
-	return packages;
+	return (
+		await Promise.all(
+			files.map(async f =>
+				JSON.parse(await readFile(pathJoin(directory, f), 'utf8'))
+			)
+		)
+	).flat(1);
 }
