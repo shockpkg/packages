@@ -101,5 +101,5 @@ export async function read() {
 				JSON.parse(await readFile(pathJoin(directory, f), 'utf8'))
 			)
 		)
-	).flat(1);
+	).flat();
 }
