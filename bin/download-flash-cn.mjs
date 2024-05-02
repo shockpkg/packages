@@ -9,6 +9,7 @@ import {file as hashFile} from '../util/hash.mjs';
 import {read as packaged} from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 import {download} from '../util/download.mjs';
+import {packageUrl} from '../util/ia.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -133,7 +134,6 @@ async function main() {
 		size,
 		hashes: {sha256, sha1, md5}
 	} of changed) {
-		console.log(name);
 		doc.push({
 			name,
 			file,
@@ -141,13 +141,7 @@ async function main() {
 			sha256,
 			sha1,
 			md5,
-			source: [
-				`https://archive.org/download/shockpkg_packages_${sha256[0]}`,
-				sha256.substr(0, 2),
-				sha256.substr(2, 2),
-				sha256.substr(4),
-				file
-			].join('/'),
+			source: packageUrl(sha256, file),
 			metadata: {
 				date
 			}

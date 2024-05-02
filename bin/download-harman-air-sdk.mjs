@@ -7,6 +7,7 @@ import {mkdir, stat} from 'node:fs/promises';
 import {file as hashFile} from '../util/hash.mjs';
 import {sdks, cookies, userAgent} from '../util/harman.mjs';
 import {download} from '../util/download.mjs';
+import {packageUrl} from '../util/ia.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -120,13 +121,7 @@ async function main() {
 			sha256,
 			sha1,
 			md5,
-			source: [
-				`https://archive.org/download/shockpkg_packages_${sha256[0]}`,
-				sha256.substr(0, 2),
-				sha256.substr(2, 2),
-				sha256.substr(4),
-				file
-			].join('/')
+			source: packageUrl(sha256, file)
 		});
 	}
 	console.log(JSON.stringify(doc, null, '\t'));
