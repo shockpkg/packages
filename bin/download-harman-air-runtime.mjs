@@ -93,8 +93,8 @@ async function main() {
 			})
 		);
 	} finally {
-		update();
 		clearInterval(interval);
+		update();
 	}
 
 	console.log('-'.repeat(80));
