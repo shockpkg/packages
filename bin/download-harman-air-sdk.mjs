@@ -3,6 +3,7 @@
 /* eslint-disable no-console */
 
 import {mkdir, stat} from 'node:fs/promises';
+import {join as pathJoin} from 'node:path';
 
 import {file as hashFile} from '../util/hash.mjs';
 import {sdks, cookies, userAgent} from '../util/harman.mjs';
@@ -32,8 +33,8 @@ async function main() {
 
 	const each = async resource => {
 		const {name, source, file} = resource.info;
-		const filedir = `${outdir}/${name}`;
-		const filepath = `${filedir}/${file}`;
+		const filedir = pathJoin(outdir, name);
+		const filepath = pathJoin(filedir, file);
 
 		// eslint-disable-next-line no-await-in-loop
 		let st = await stat(filepath).catch(() => null);

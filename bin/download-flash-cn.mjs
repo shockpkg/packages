@@ -3,6 +3,7 @@
 /* eslint-disable no-console */
 
 import {mkdir, stat} from 'node:fs/promises';
+import {join as pathJoin} from 'node:path';
 
 import {list, userAgent} from '../util/flashcn.mjs';
 import {file as hashFile} from '../util/hash.mjs';
@@ -36,8 +37,8 @@ async function main() {
 
 	const each = async resource => {
 		const {name, source, referer, file} = resource.info;
-		const filedir = `${outdir}/${name}`;
-		const filepath = `${filedir}/${file}`;
+		const filedir = pathJoin(outdir, name);
+		const filepath = pathJoin(filedir, file);
 
 		// eslint-disable-next-line no-await-in-loop
 		let st = await stat(filepath).catch(() => null);
@@ -113,6 +114,8 @@ async function main() {
 	console.log('-'.repeat(80));
 
 	const unchanged = resources.filter(r => bySha256.has(r.hashes.sha256));
+	const changed = resources.filter(r => !bySha256.has(r.hashes.sha256));
+
 	console.log(`UNCHANGED: ${unchanged.length}`);
 	for (const r of unchanged) {
 		console.log(r.info.name);
@@ -120,7 +123,6 @@ async function main() {
 
 	console.log('-'.repeat(80));
 
-	const changed = resources.filter(r => !bySha256.has(r.hashes.sha256));
 	console.log(`CHANGED: ${changed.length}`);
 	for (const r of changed) {
 		console.log(r.info.name);
