@@ -13,6 +13,7 @@ import {read as packaged} from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Progress, Void} from '../util/stream.mjs';
+import {Crc64} from '../util/crc64.mjs';
 import {packageUrl} from '../util/ia.mjs';
 
 async function main() {
@@ -61,14 +62,17 @@ async function main() {
 				new Void()
 			);
 		} else {
+			const hashCrc64 = new Crc64();
+			let crc64ecma = null;
 			await mkdir(fileDir, {recursive: true});
 			await download(filePart, `${source}?_=${Date.now()}`, {
 				headers: {
 					'User-Agent': userAgent,
 					Referer: referer
 				},
-				transforms: [hasher],
+				transforms: [new Hasher([hashCrc64]), hasher],
 				response(response) {
+					crc64ecma = response.headers.get('x-cos-hash-crc64ecma');
 					const ct = response.headers.get('content-type');
 					if (ct !== mimetype) {
 						throw new Error(
@@ -80,6 +84,13 @@ async function main() {
 					resource.progress = size / total;
 				}
 			});
+
+			// Validate crc64ecma hash header.
+			const crc64 = hashCrc64.digest().readBigUint64BE().toString();
+			if (crc64 !== crc64ecma) {
+				throw new Error(`CRC64 header: ${crc64} !== ${crc64ecma}`);
+			}
+
 			st = await stat(filePart);
 			await rename(filePart, filePath);
 		}
