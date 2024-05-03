@@ -2,7 +2,7 @@ plugins:
   - eslint-plugin-import
 
 parserOptions:
-  ecmaVersion: 13
+  ecmaVersion: latest
   sourceType: module
 
 extends:
@@ -14,6 +14,7 @@ env:
   es6: true
   commonjs: true
   node: true
+  es2020: true
 
 rules:
   # Possible Errors:
