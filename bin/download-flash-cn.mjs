@@ -81,11 +81,11 @@ async function main() {
 	};
 
 	{
-		const clear = '\x1B[F'.repeat(resources.length);
+		const clear = process.stdout.isTTY
+			? '\x1B[F'.repeat(resources.length)
+			: '';
 		const update = first => {
-			if (!first) {
-				process.stdout.write(clear);
-			}
+			let output = first ? '' : clear;
 			for (const resource of resources) {
 				const {
 					info: {name},
@@ -95,8 +95,9 @@ async function main() {
 				const status = hashes
 					? 'COMPLETE'
 					: `%${(download * 100).toFixed(2)}`;
-				process.stdout.write(`${name}: ${status}\n`);
+				output += `${name}: ${status}\n`;
 			}
+			process.stdout.write(output);
 		};
 
 		update(true);
@@ -113,8 +114,9 @@ async function main() {
 			);
 		} finally {
 			clearInterval(interval);
-			update();
 		}
+
+		update();
 	}
 
 	console.log('-'.repeat(80));
