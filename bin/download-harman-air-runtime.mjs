@@ -10,7 +10,7 @@ import {createHash} from 'node:crypto';
 
 import {runtimes, userAgent} from '../util/harman.mjs';
 import {download} from '../util/download.mjs';
-import {Hasher, Void} from '../util/stream.mjs';
+import {Hasher, Progress, Void} from '../util/stream.mjs';
 import {packageUrl} from '../util/ia.mjs';
 
 async function main() {
@@ -26,7 +26,7 @@ async function main() {
 
 	const resources = (await runtimes()).map(info => ({
 		info,
-		download: 0,
+		progress: 0,
 		size: null,
 		hashes: null
 	}));
@@ -44,8 +44,15 @@ async function main() {
 
 		let st = await stat(filePath).catch(() => null);
 		if (st) {
-			resource.download = 1;
-			await pipeline(createReadStream(filePath), hasher, new Void());
+			const total = st.size;
+			await pipeline(
+				createReadStream(filePath),
+				hasher,
+				new Progress(size => {
+					resource.progress = size / total;
+				}),
+				new Void()
+			);
 		} else {
 			await mkdir(fileDir, {recursive: true});
 			await download(filePart, source, {
@@ -62,14 +69,14 @@ async function main() {
 					}
 				},
 				progress({size, total}) {
-					resource.download = size / total;
+					resource.progress = size / total;
 				}
 			});
 			st = await stat(filePart);
 			await rename(filePart, filePath);
-			resource.download = 1;
-			resource.size = st.size;
 		}
+
+		resource.size = st.size;
 
 		const sha256 = hashSha256.digest('hex');
 		if (sha256 !== sha256e) {
@@ -92,12 +99,12 @@ async function main() {
 			for (const resource of resources) {
 				const {
 					info: {name},
-					download,
+					progress,
 					hashes
 				} = resource;
 				const status = hashes
 					? 'COMPLETE'
-					: `%${(download * 100).toFixed(2)}`;
+					: `%${(progress * 100).toFixed(2)}`;
 				output += `${name}: ${status}\n`;
 			}
 			process.stdout.write(output);
