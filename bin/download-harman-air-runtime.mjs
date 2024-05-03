@@ -2,12 +2,15 @@
 
 /* eslint-disable no-console */
 
+import {createReadStream} from 'node:fs';
 import {mkdir, stat} from 'node:fs/promises';
 import {join as pathJoin} from 'node:path';
+import {pipeline} from 'node:stream/promises';
+import {createHash} from 'node:crypto';
 
-import {file as hashFile} from '../util/hash.mjs';
 import {runtimes, userAgent} from '../util/harman.mjs';
 import {download} from '../util/download.mjs';
+import {Hasher, Void} from '../util/stream.mjs';
 import {packageUrl} from '../util/ia.mjs';
 
 async function main() {
@@ -64,16 +67,25 @@ async function main() {
 		resource.size = st.size;
 		resource.download = 1;
 
-		const [sha256, sha1, md5] = await hashFile(
-			filepath,
-			['sha256', 'sha1', 'md5'],
-			'hex'
+		const hashSha256 = createHash('sha256');
+		const hashSha1 = createHash('sha1');
+		const hashMd5 = createHash('md5');
+		await pipeline(
+			createReadStream(filepath),
+			new Hasher([hashSha256, hashSha1, hashMd5]),
+			new Void()
 		);
+
+		const sha256 = hashSha256.digest('hex');
 		if (sha256 !== sha256e) {
 			throw new Error(`Hash: ${sha256} != ${sha256e}: ${source}`);
 		}
 
-		resource.hashes = {sha256, sha1, md5};
+		resource.hashes = {
+			sha256,
+			sha1: hashSha1.digest('hex'),
+			md5: hashMd5.digest('hex')
+		};
 	};
 
 	{

@@ -2,12 +2,14 @@
 
 /* eslint-disable no-console */
 
+import {createHash} from 'node:crypto';
 import {Readable} from 'node:stream';
+import {pipeline} from 'node:stream/promises';
 
 import {read as packaged} from '../util/packages.mjs';
-import {stream as hashStream} from '../util/hash.mjs';
-import {runtimes, userAgent} from '../util/harman.mjs';
+import {Hasher, Void} from '../util/stream.mjs';
 import {retry} from '../util/util.mjs';
+import {runtimes, userAgent} from '../util/harman.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -40,19 +42,22 @@ async function main() {
 			})
 		);
 
-		const {status} = response;
+		const {status, body} = response;
 		if (status !== 200) {
 			throw new Error(`Status code: ${status}: ${source}`);
 		}
 
+		const hashSha256 = createHash('sha256');
+
 		// eslint-disable-next-line no-await-in-loop
-		const [bodyHash] = await hashStream(
-			Readable.fromWeb(response.body),
-			['sha256'],
-			'hex'
+		await pipeline(
+			Readable.fromWeb(body),
+			new Hasher([hashSha256]),
+			new Void()
 		);
-		if (bodyHash !== sha256) {
-			throw new Error(`Body sha256: ${bodyHash} !== ${sha256}`);
+		const bodySha256 = hashSha256.digest('hex');
+		if (bodySha256 !== sha256) {
+			throw new Error(`Body sha256: ${bodySha256} !== ${sha256}`);
 		}
 	};
 
