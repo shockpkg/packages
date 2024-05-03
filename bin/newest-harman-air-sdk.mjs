@@ -26,7 +26,6 @@ async function main() {
 			throw new Error(`Unknown name: ${name}`);
 		}
 
-		// eslint-disable-next-line no-await-in-loop
 		const response = await retry(() =>
 			fetch(source, {
 				method: 'HEAD',

@@ -33,7 +33,6 @@ async function main() {
 			throw new Error(`Different sha256: ${sha256} != ${pkg.sha256}`);
 		}
 
-		// eslint-disable-next-line no-await-in-loop
 		const response = await retry(() =>
 			fetch(source, {
 				headers: {
@@ -48,13 +47,12 @@ async function main() {
 		}
 
 		const hashSha256 = createHash('sha256');
-
-		// eslint-disable-next-line no-await-in-loop
 		await pipeline(
 			Readable.fromWeb(body),
 			new Hasher([hashSha256]),
 			new Void()
 		);
+
 		const bodySha256 = hashSha256.digest('hex');
 		if (bodySha256 !== sha256) {
 			throw new Error(`Body sha256: ${bodySha256} !== ${sha256}`);

@@ -1,5 +1,4 @@
 import {createWriteStream} from 'node:fs';
-import {rename} from 'node:fs/promises';
 import {Readable} from 'node:stream';
 import {pipeline} from 'node:stream/promises';
 
@@ -7,8 +6,6 @@ import {retry} from './util.mjs';
 import {Progress} from './stream.mjs';
 
 export async function download(output, url, opts = {}) {
-	const part = `${output}.part`;
-
 	const response = await retry(() =>
 		fetch(url, {headers: opts.headers || {}})
 	);
@@ -34,12 +31,10 @@ export async function download(output, url, opts = {}) {
 				opts.progress({size, total});
 			}
 		}),
-		createWriteStream(part)
+		createWriteStream(output)
 	);
 
 	if (sized !== total) {
 		throw new Error(`Unexpected size: ${sized} != ${total}: ${url}`);
 	}
-
-	await rename(part, output);
 }

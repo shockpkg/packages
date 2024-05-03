@@ -34,7 +34,6 @@ async function main() {
 		}
 
 		const url = `${source}?_=${Date.now()}`;
-		// eslint-disable-next-line no-await-in-loop
 		const response = await retry(() =>
 			fetch(url, {
 				method: 'HEAD',

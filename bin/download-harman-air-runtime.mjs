@@ -3,7 +3,7 @@
 /* eslint-disable no-console */
 
 import {createReadStream} from 'node:fs';
-import {mkdir, stat} from 'node:fs/promises';
+import {mkdir, rename, stat} from 'node:fs/promises';
 import {join as pathJoin} from 'node:path';
 import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
@@ -33,17 +33,14 @@ async function main() {
 
 	const each = async resource => {
 		const {name, source, file, mimetype, sha256: sha256e} = resource.info;
-		const filedir = pathJoin(outdir, name);
-		const filepath = pathJoin(filedir, file);
+		const fileDir = pathJoin(outdir, name);
+		const filePath = pathJoin(fileDir, file);
+		const filePart = `${filePath}.part`;
 
-		// eslint-disable-next-line no-await-in-loop
-		let st = await stat(filepath).catch(() => null);
+		let st = await stat(filePath).catch(() => null);
 		if (!st) {
-			// eslint-disable-next-line no-await-in-loop
-			await mkdir(filedir, {recursive: true});
-
-			// eslint-disable-next-line no-await-in-loop
-			await download(filepath, source, {
+			await mkdir(fileDir, {recursive: true});
+			await download(filePart, source, {
 				headers: {
 					'User-Agent': userAgent
 				},
@@ -59,9 +56,8 @@ async function main() {
 					resource.download = size / total;
 				}
 			});
-
-			// eslint-disable-next-line no-await-in-loop
-			st = await stat(filepath);
+			st = await stat(filePart);
+			await rename(filePart, filePath);
 		}
 
 		resource.size = st.size;
@@ -71,7 +67,7 @@ async function main() {
 		const hashSha1 = createHash('sha1');
 		const hashMd5 = createHash('md5');
 		await pipeline(
-			createReadStream(filepath),
+			createReadStream(filePath),
 			new Hasher([hashSha256, hashSha1, hashMd5]),
 			new Void()
 		);
