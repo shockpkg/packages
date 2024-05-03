@@ -40,6 +40,11 @@ async function main() {
 		const filePath = pathJoin(fileDir, file);
 		const filePart = `${filePath}.part`;
 
+		const hashSha256 = createHash('sha256');
+		const hashSha1 = createHash('sha1');
+		const hashMd5 = createHash('md5');
+		const hasher = new Hasher([hashSha256, hashSha1, hashMd5]);
+
 		let st = await stat(filePath).catch(() => null);
 		if (!st) {
 			await mkdir(fileDir, {recursive: true});
@@ -67,14 +72,7 @@ async function main() {
 		resource.size = st.size;
 		resource.download = 1;
 
-		const hashSha256 = createHash('sha256');
-		const hashSha1 = createHash('sha1');
-		const hashMd5 = createHash('md5');
-		await pipeline(
-			createReadStream(filePath),
-			new Hasher([hashSha256, hashSha1, hashMd5]),
-			new Void()
-		);
+		await pipeline(createReadStream(filePath), hasher, new Void());
 
 		resource.hashes = {
 			sha256: hashSha256.digest('hex'),
