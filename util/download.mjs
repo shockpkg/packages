@@ -1,9 +1,10 @@
 import {createWriteStream} from 'node:fs';
 import {rename} from 'node:fs/promises';
-import {Readable, Transform} from 'node:stream';
+import {Readable} from 'node:stream';
 import {pipeline} from 'node:stream/promises';
 
 import {retry} from './util.mjs';
+import {Progress} from './stream.mjs';
 
 export async function download(output, url, opts = {}) {
 	const part = `${output}.part`;
@@ -18,30 +19,26 @@ export async function download(output, url, opts = {}) {
 		throw new Error(`Status code: ${response.status}: ${url}`);
 	}
 
-	let size = 0;
 	const total = +response.headers.get('content-length');
 
 	if (opts.progress) {
-		opts.progress({size, total});
+		opts.progress({size: 0, total});
 	}
 
+	let sized = 0;
 	await pipeline(
 		Readable.fromWeb(response.body),
-		new (class extends Transform {
-			_transform(chunk, encoding, callback) {
-				size += Buffer.from(chunk, encoding).length;
-				this.push(chunk, encoding);
-				if (opts.progress) {
-					opts.progress({size, total});
-				}
-				callback();
+		new Progress(size => {
+			sized = size;
+			if (opts.progress) {
+				opts.progress({size, total});
 			}
-		})(),
+		}),
 		createWriteStream(part)
 	);
 
-	if (size !== total) {
-		throw new Error(`Unexpected size: ${size} != ${total}: ${url}`);
+	if (sized !== total) {
+		throw new Error(`Unexpected size: ${sized} != ${total}: ${url}`);
 	}
 
 	await rename(part, output);

@@ -8,6 +8,22 @@ export class Void extends Writable {
 	}
 }
 
+export class Progress extends Transform {
+	constructor(progress) {
+		super();
+
+		this._progress = progress;
+		this._total = 0;
+	}
+
+	_transform(chunk, encoding, callback) {
+		this._total += Buffer.from(chunk, encoding).length;
+		this._progress(this._total);
+		this.push(chunk, encoding);
+		callback();
+	}
+}
+
 export class Hasher extends Transform {
 	constructor(hashes) {
 		super();
