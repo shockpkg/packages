@@ -50,13 +50,17 @@ async function main() {
 		const hasher = new Hasher([hashSha256, hashSha1, hashMd5]);
 
 		let st = await stat(filePath).catch(() => null);
-		if (!st) {
+		if (st) {
+			resource.download = 1;
+			await pipeline(createReadStream(filePath), hasher, new Void());
+		} else {
 			await mkdir(fileDir, {recursive: true});
 			await download(filePart, `${source}?_=${Date.now()}`, {
 				headers: {
 					'User-Agent': userAgent,
 					Referer: referer
 				},
+				transforms: [hasher],
 				response(response) {
 					const ct = response.headers.get('content-type');
 					if (ct !== mimetype) {
@@ -71,12 +75,9 @@ async function main() {
 			});
 			st = await stat(filePart);
 			await rename(filePart, filePath);
+			resource.download = 1;
+			resource.size = st.size;
 		}
-
-		resource.size = st.size;
-		resource.download = 1;
-
-		await pipeline(createReadStream(filePath), hasher, new Void());
 
 		resource.hashes = {
 			sha256: hashSha256.digest('hex'),

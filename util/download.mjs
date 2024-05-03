@@ -31,6 +31,7 @@ export async function download(output, url, opts = {}) {
 				opts.progress({size, total});
 			}
 		}),
+		...(opts.transforms || []),
 		createWriteStream(output)
 	);
 
