@@ -81,6 +81,7 @@ async function main() {
 		}
 
 		resource.size = st.size;
+
 		resource.hashes = {
 			sha256: hashSha256.digest('hex'),
 			sha1: hashSha1.digest('hex'),
