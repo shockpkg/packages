@@ -3,6 +3,7 @@
 /* eslint-disable no-console */
 
 import {retry} from '../util/util.mjs';
+import {queue} from '../util/queue.mjs';
 
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [
@@ -140,6 +141,7 @@ async function main() {
 			if (typeof expected === 'undefined') {
 				continue;
 			}
+
 			const actual = headers.get(header);
 			const value = typeof expected === 'number' ? +actual : actual;
 
@@ -153,25 +155,23 @@ async function main() {
 
 	const passed = [];
 	const failed = [];
-	await Promise.all(
-		new Array(threads).fill(0).map(async () => {
-			while (resources.length) {
-				const resource = resources.shift();
+	await queue(
+		resources,
+		async resource => {
+			console.log(`${resource.source}: Check`);
 
-				console.log(`${resource.source}: Checking`);
-
-				// eslint-disable-next-line no-await-in-loop
-				await retry(() => each(resource))
-					.then(() => {
-						console.log(`${resource.source}: Pass`);
-						passed.push(resource);
-					})
-					.catch(err => {
-						console.log(`${resource.source}: Fail: ${err.message}`);
-						failed.push(resource);
-					});
-			}
-		})
+			// eslint-disable-next-line no-await-in-loop
+			await retry(() => each(resource))
+				.then(() => {
+					console.log(`${resource.source}: Pass`);
+					passed.push(resource);
+				})
+				.catch(err => {
+					console.log(`${resource.source}: Fail: ${err.message}`);
+					failed.push(resource);
+				});
+		},
+		threads
 	);
 
 	console.log(`Passed: ${passed.length}`);
