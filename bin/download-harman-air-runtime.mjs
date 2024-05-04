@@ -11,6 +11,7 @@ import {createHash} from 'node:crypto';
 import {runtimes, userAgent} from '../util/harman.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Progress, Void} from '../util/stream.mjs';
+import {queue} from '../util/queue.mjs';
 import {createPackageUrl} from '../util/ia.mjs';
 
 async function main() {
@@ -113,15 +114,7 @@ async function main() {
 		update(true);
 		const interval = setInterval(update, 1000);
 		try {
-			const q = [...resources];
-			await Promise.all(
-				new Array(threads).fill(0).map(async () => {
-					while (q.length) {
-						// eslint-disable-next-line no-await-in-loop
-						await each(q.shift());
-					}
-				})
-			);
+			await queue(resources, each, threads);
 		} finally {
 			clearInterval(interval);
 		}
