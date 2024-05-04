@@ -187,7 +187,8 @@ async function listDebug() {
 	}
 
 	const html = await htmlRes.text();
-	const dom = new DOMParser().parseFromString(html, 'text/html');
+	const domParser = new DOMParser({errorHandler: {}});
+	const dom = domParser.parseFromString(html, 'text/html');
 	const hrefs = list(dom.getElementsByTagName('a'))
 		.map(a => new URL(a.getAttribute('href') || '', htmlUrl))
 		.filter(u => u.pathname.startsWith('/cdm/'));

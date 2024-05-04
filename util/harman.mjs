@@ -1,4 +1,6 @@
-import {retry} from './util.mjs';
+import {DOMParser} from '@xmldom/xmldom';
+
+import {list, retry} from './util.mjs';
 
 // The API this page loads download list from.
 // https://airsdk.harman.com/download
@@ -33,15 +35,6 @@ function addQueryParams(url, params) {
 
 export function cookies(list) {
 	return list.map(c => c.split(';')[0]).join('; ');
-}
-
-function attrs(tag) {
-	const reg = /\s([a-z0-9-]+)(=("([^"]*)"|'([^']*)'|(\S*)))?/gi;
-	const attrs = {};
-	for (let m; (m = reg.exec(tag)); ) {
-		attrs[m[1]] = m[4] ?? m[5] ?? m[6] ?? null;
-	}
-	return attrs;
 }
 
 export async function sdks() {
@@ -127,14 +120,17 @@ export async function runtimes() {
 	}
 
 	const html = await response.text();
-	const scripts = html.match(/<script[^>]*>/gi);
-	if (!scripts) {
+	const domParser = new DOMParser({errorHandler: {}});
+	const dom = domParser.parseFromString(html, 'text/html');
+	const scripts = list(dom.getElementsByTagName('script'));
+	if (!scripts.length) {
 		throw new Error(`No script tags: ${runtimeUrl}`);
 	}
 
 	let version = '';
 	let hashes = null;
-	for (const {src} of [...scripts].map(attrs).reverse()) {
+	for (const script of [...scripts].reverse()) {
+		const src = script.getAttribute('src');
 		if (!src) {
 			continue;
 		}
