@@ -3,7 +3,7 @@ import {Readable} from 'node:stream';
 import {pipeline} from 'node:stream/promises';
 
 import {retry} from './util.mjs';
-import {Progress} from './stream.mjs';
+import {Counter} from './stream.mjs';
 
 export async function download(output, url, opts = {}) {
 	const response = await retry(() =>
@@ -25,7 +25,7 @@ export async function download(output, url, opts = {}) {
 	let sized = 0;
 	await pipeline(
 		Readable.fromWeb(response.body),
-		new Progress(size => {
+		new Counter(size => {
 			sized = size;
 			if (opts.progress) {
 				opts.progress({size, total});

@@ -13,7 +13,7 @@ import {read as packaged} from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 import {download} from '../util/download.mjs';
-import {Hasher, Progress, Void} from '../util/stream.mjs';
+import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {Crc64} from '../util/crc64.mjs';
 import {createPackageUrl} from '../util/ia.mjs';
 
@@ -57,7 +57,7 @@ async function main() {
 			await pipeline(
 				createReadStream(filePath),
 				hasher,
-				new Progress(size => {
+				new Counter(size => {
 					resource.progress = size / total;
 				}),
 				new Void()

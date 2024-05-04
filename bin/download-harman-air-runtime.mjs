@@ -10,7 +10,7 @@ import {createHash} from 'node:crypto';
 
 import {runtimes, userAgent} from '../util/harman.mjs';
 import {download} from '../util/download.mjs';
-import {Hasher, Progress, Void} from '../util/stream.mjs';
+import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {queue} from '../util/queue.mjs';
 import {createPackageUrl} from '../util/ia.mjs';
 
@@ -49,7 +49,7 @@ async function main() {
 			await pipeline(
 				createReadStream(filePath),
 				hasher,
-				new Progress(size => {
+				new Counter(size => {
 					resource.progress = size / total;
 				}),
 				new Void()

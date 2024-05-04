@@ -8,7 +8,7 @@ export class Void extends Writable {
 	}
 }
 
-export class Progress extends Transform {
+export class Counter extends Transform {
 	constructor(progress) {
 		super();
 
