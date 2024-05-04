@@ -89,13 +89,15 @@ export async function sdks() {
 		}
 		const [, version] = m;
 		const name = format.replace('%version%', version);
-		const source = addQueryParams(new URL(link, sdkUrl).href, {id});
+		const source = new URL(link, sdkUrl).href;
+		const url = addQueryParams(source, {id});
 		const file = decodeURI(source.split(/[?#]/)[0].split('/').pop());
 		downloads.push({
 			name,
 			version,
 			file,
 			source,
+			url,
 			mimetype: 'application/octet-stream'
 		});
 	}

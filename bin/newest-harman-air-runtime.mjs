@@ -9,6 +9,7 @@ import {pipeline} from 'node:stream/promises';
 import {read as packaged} from '../util/packages.mjs';
 import {Hasher, Void} from '../util/stream.mjs';
 import {retry} from '../util/util.mjs';
+import {queue} from '../util/queue.mjs';
 import {runtimes, userAgent} from '../util/harman.mjs';
 
 async function main() {
@@ -61,25 +62,23 @@ async function main() {
 
 	const passed = [];
 	const failed = [];
-	await Promise.all(
-		new Array(threads).fill(0).map(async () => {
-			while (resources.length) {
-				const resource = resources.shift();
+	await queue(
+		resources,
+		async resource => {
+			console.log(`${resource.name}: Check: ${resource.source}`);
 
-				console.log(`${resource.file}: ${resource.source}: Checking`);
-
-				// eslint-disable-next-line no-await-in-loop
-				await retry(() => each(resource))
-					.then(() => {
-						console.log(`${resource.file}: Pass`);
-						passed.push(resource);
-					})
-					.catch(err => {
-						console.log(`${resource.file}: Fail: ${err.message}`);
-						failed.push(resource);
-					});
-			}
-		})
+			// eslint-disable-next-line no-await-in-loop
+			await retry(() => each(resource))
+				.then(() => {
+					console.log(`${resource.name}: Pass`);
+					passed.push(resource);
+				})
+				.catch(err => {
+					console.log(`${resource.name}: Fail: ${err.message}`);
+					failed.push(resource);
+				});
+		},
+		threads
 	);
 
 	console.log(`Passed: ${passed.length}`);

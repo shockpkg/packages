@@ -35,7 +35,7 @@ async function main() {
 	}));
 
 	const each = async resource => {
-		const {name, source, file, mimetype} = resource.info;
+		const {name, source, url, file, mimetype} = resource.info;
 		const fileDir = pathJoin(outdir, name);
 		const filePath = pathJoin(fileDir, file);
 		const filePart = `${filePath}.part`;
@@ -58,7 +58,7 @@ async function main() {
 			);
 		} else {
 			await mkdir(fileDir, {recursive: true});
-			await download(filePart, source, {
+			await download(filePart, url, {
 				headers: {
 					'User-Agent': userAgent,
 					Cookie: cookieHeader

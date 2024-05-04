@@ -5,6 +5,7 @@
 import {sdks, cookies, userAgent} from '../util/harman.mjs';
 import {read as packaged} from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
+import {queue} from '../util/queue.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -19,7 +20,7 @@ async function main() {
 	const cookie = cookies(listed.cookies);
 
 	const each = async resource => {
-		const {name, source} = resource;
+		const {name, source, url} = resource;
 
 		const expected = named.get(name);
 		if (!expected) {
@@ -27,7 +28,7 @@ async function main() {
 		}
 
 		const response = await retry(() =>
-			fetch(source, {
+			fetch(url, {
 				method: 'HEAD',
 				headers: {
 					'User-Agent': userAgent,
@@ -50,25 +51,23 @@ async function main() {
 
 	const passed = [];
 	const failed = [];
-	await Promise.all(
-		new Array(threads).fill(0).map(async () => {
-			while (resources.length) {
-				const resource = resources.shift();
+	await queue(
+		resources,
+		async resource => {
+			console.log(`${resource.name}: Check: ${resource.source}`);
 
-				console.log(`${resource.name}: ${resource.source}: Checking`);
-
-				// eslint-disable-next-line no-await-in-loop
-				await retry(() => each(resource))
-					.then(() => {
-						console.log(`${resource.name}: Pass`);
-						passed.push(resource);
-					})
-					.catch(err => {
-						console.log(`${resource.name}: Fail: ${err.message}`);
-						failed.push(resource);
-					});
-			}
-		})
+			// eslint-disable-next-line no-await-in-loop
+			await retry(() => each(resource))
+				.then(() => {
+					console.log(`${resource.name}: Pass`);
+					passed.push(resource);
+				})
+				.catch(err => {
+					console.log(`${resource.name}: Fail: ${err.message}`);
+					failed.push(resource);
+				});
+		},
+		threads
 	);
 
 	console.log(`Passed: ${passed.length}`);
