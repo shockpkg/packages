@@ -121,6 +121,7 @@ export async function runtimes() {
 	}
 
 	const html = await response.text();
+
 	const domParser = new DOMParser({errorHandler: {}});
 	const dom = domParser.parseFromString(html, 'text/html');
 	const scripts = list(dom.getElementsByTagName('script'));
@@ -201,5 +202,6 @@ export async function runtimes() {
 			mimetype
 		});
 	}
+
 	return downloads;
 }
