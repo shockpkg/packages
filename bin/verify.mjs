@@ -3,83 +3,13 @@
 /* eslint-disable no-console */
 
 import {read as packaged} from '../util/packages.mjs';
+import {
+	groupFilesCaching,
+	groupForSha256,
+	parsePackageUrl,
+	pathForFile
+} from '../util/ia.mjs';
 import {retry} from '../util/util.mjs';
-
-function archiveOrgParse(url) {
-	const u = new URL(url);
-	if (u.host !== 'archive.org') {
-		return null;
-	}
-	const path = u.pathname.split('/');
-	if (path.shift() !== '') {
-		return null;
-	}
-	if (path.shift() !== 'download') {
-		return null;
-	}
-	const item = path.shift();
-	return {
-		item,
-		path: decodeURI(path.join('/'))
-	};
-}
-
-const iaCache = {};
-// eslint-disable-next-line require-await
-async function archiveOrgMetadata(item) {
-	if (!iaCache[item]) {
-		const url = `https://archive.org/metadata/${encodeURIComponent(item)}/`;
-		iaCache[item] = retry(() => fetch(url)).then(async response => {
-			const {status} = response;
-			if (status !== 200) {
-				throw new Error(`Status code: ${status}: ${url}`);
-			}
-			const body = await response.text();
-			const files = new Map();
-			for (const file of JSON.parse(body).files) {
-				const info = {
-					size: +file.size,
-					md5: file.md5,
-					sha1: file.sha1
-				};
-
-				const maybeSha256 = file.name.split('/').slice(0, -1).join('');
-				if (maybeSha256.length === 64) {
-					info.sha256 = maybeSha256;
-				}
-
-				if (file.private) {
-					info.private = true;
-				}
-
-				files.set(file.name, info);
-			}
-			return files;
-		});
-	}
-	return iaCache[item];
-}
-
-async function getMetadataForUrl(url) {
-	const archiveOrg = archiveOrgParse(url);
-	if (archiveOrg) {
-		const metadata = await archiveOrgMetadata(archiveOrg.item);
-		const info = metadata.get(archiveOrg.path);
-		if (!info) {
-			throw new Error(`Unknown item entry: ${url}`);
-		}
-		return info;
-	}
-
-	const response = await retry(() => fetch(url));
-	const {status, headers} = response;
-	if (status !== 200) {
-		throw new Error(`Status code: ${status}: ${url}`);
-	}
-	return {
-		size: +headers.get('content-length')
-	};
-}
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -99,6 +29,29 @@ async function main() {
 	}
 
 	console.log(`Checking ${resources.length} of ${packages.length}`);
+
+	const archiveOrgMetadata = groupFilesCaching();
+
+	const getMetadataForUrl = async url => {
+		const ia = parsePackageUrl(url);
+		if (ia) {
+			const files = await archiveOrgMetadata(groupForSha256(ia.sha256));
+			const info = files.get(pathForFile(ia.sha256, ia.file));
+			if (!info) {
+				throw new Error(`Unknown item entry: ${url}`);
+			}
+			return info;
+		}
+
+		const response = await retry(() => fetch(url));
+		const {status, headers} = response;
+		if (status !== 200) {
+			throw new Error(`Status code: ${status}: ${url}`);
+		}
+		return {
+			size: +headers.get('content-length')
+		};
+	};
 
 	const each = async pkg => {
 		const metadata = await getMetadataForUrl(pkg.source);

@@ -14,7 +14,7 @@ import {walk} from '../util/util.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Progress, Void} from '../util/stream.mjs';
 import {Crc64} from '../util/crc64.mjs';
-import {packageUrl} from '../util/ia.mjs';
+import {createPackageUrl} from '../util/ia.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -175,7 +175,7 @@ async function main() {
 			sha256,
 			sha1,
 			md5,
-			source: packageUrl(sha256, file),
+			source: createPackageUrl(sha256, file),
 			metadata: {
 				date
 			}

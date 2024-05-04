@@ -11,7 +11,7 @@ import {createHash} from 'node:crypto';
 import {sdks, cookies, userAgent} from '../util/harman.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Progress, Void} from '../util/stream.mjs';
-import {packageUrl} from '../util/ia.mjs';
+import {createPackageUrl} from '../util/ia.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -143,7 +143,7 @@ async function main() {
 			sha256,
 			sha1,
 			md5,
-			source: packageUrl(sha256, file)
+			source: createPackageUrl(sha256, file)
 		});
 	}
 	console.log(JSON.stringify(doc, null, '\t'));
