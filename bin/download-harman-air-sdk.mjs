@@ -13,6 +13,7 @@ import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {queue} from '../util/queue.mjs';
 import {createPackageUrl} from '../util/ia.mjs';
+import {Progress} from '../util/tui.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -90,35 +91,19 @@ async function main() {
 		};
 	};
 
-	{
-		const clear = process.stdout.isTTY
-			? '\x1B[F\x1B[2K'.repeat(resources.length)
-			: '';
-		const update = first => {
-			let output = first ? '' : clear;
-			for (const resource of resources) {
-				const {
-					info: {name},
-					progress,
-					hashes
-				} = resource;
-				const status = hashes
-					? 'DONE'
-					: `%${(progress * 100).toFixed(2)}`;
-				output += `${name}: ${status}\n`;
-			}
-			process.stdout.write(output);
-		};
-
-		update(true);
-		const interval = setInterval(update, 1000);
-		try {
-			await queue(resources, each, threads);
-		} finally {
-			clearInterval(interval);
+	const progress = new (class extends Progress {
+		line(resource) {
+			const status = resource.hashes
+				? 'DONE'
+				: `%${(resource.progress * 100).toFixed(2)}`;
+			return `${resource.info.name}: ${status}`;
 		}
-
-		update();
+	})(resources);
+	progress.start(1000);
+	try {
+		await queue(resources, each, threads);
+	} finally {
+		progress.end();
 	}
 
 	console.log('-'.repeat(80));
