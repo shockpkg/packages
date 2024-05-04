@@ -92,7 +92,7 @@ async function main() {
 
 	{
 		const clear = process.stdout.isTTY
-			? '\x1B[F'.repeat(resources.length)
+			? '\x1B[F\x1B[2K'.repeat(resources.length)
 			: '';
 		const update = first => {
 			let output = first ? '' : clear;
@@ -103,7 +103,7 @@ async function main() {
 					hashes
 				} = resource;
 				const status = hashes
-					? 'COMPLETE'
+					? 'DONE'
 					: `%${(progress * 100).toFixed(2)}`;
 				output += `${name}: ${status}\n`;
 			}
