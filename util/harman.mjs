@@ -4,6 +4,7 @@ import {list, retry} from './util.mjs';
 
 // The API this page loads download list from.
 // https://airsdk.harman.com/download
+const sdkUrl = 'https://airsdk.harman.com/download';
 const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';
 
 const runtimeUrl = 'https://airsdk.harman.com/runtime';
@@ -88,7 +89,7 @@ export async function sdks() {
 		}
 		const [, version] = m;
 		const name = format.replace('%version%', version);
-		const source = addQueryParams(new URL(link, apiUrl).href, {id});
+		const source = addQueryParams(new URL(link, sdkUrl).href, {id});
 		const file = decodeURI(source.split(/[?#]/)[0].split('/').pop());
 		downloads.push({
 			name,
@@ -135,7 +136,7 @@ export async function runtimes() {
 			continue;
 		}
 
-		const {href} = new URL(src, runtimeUrl);
+		const {href} = new URL(src, response.url);
 
 		// eslint-disable-next-line no-await-in-loop
 		const res = await retry(() =>

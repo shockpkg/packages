@@ -190,7 +190,7 @@ async function listDebug() {
 	const domParser = new DOMParser({errorHandler: {}});
 	const dom = domParser.parseFromString(html, 'text/html');
 	const hrefs = list(dom.getElementsByTagName('a'))
-		.map(a => new URL(a.getAttribute('href') || '', htmlUrl))
+		.map(a => new URL(a.getAttribute('href') || '', htmlRes.url))
 		.filter(u => u.pathname.startsWith('/cdm/'));
 
 	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';
