@@ -8,6 +8,14 @@ export async function retry(f) {
 	return r;
 }
 
+export function list(arrayLike) {
+	const r = [];
+	for (let i = 0; i < arrayLike.length; i++) {
+		r.push(arrayLike[i]);
+	}
+	return r;
+}
+
 export function* walk(list, children) {
 	for (const q = list.map(o => [o, []]); q.length; ) {
 		const [o, p] = q.shift();

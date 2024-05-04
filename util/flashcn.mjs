@@ -1,4 +1,6 @@
-import {retry} from './util.mjs';
+import {DOMParser} from '@xmldom/xmldom';
+
+import {retry, list} from './util.mjs';
 
 export const userAgent =
 	// eslint-disable-next-line max-len
@@ -33,15 +35,6 @@ const dupes = new Map([
 	// The pp_ax installer gets same installers from pp and ax.
 	['pp_ax', ['activex', 'ppapi']]
 ]);
-
-function attrs(tag) {
-	const reg = /\s([a-z0-9-]+)(=("([^"]*)"|'([^']*)'|(\S*)))?/gi;
-	const attrs = {};
-	for (let m; (m = reg.exec(tag)); ) {
-		attrs[m[1]] = m[4] ?? m[5] ?? m[6] ?? null;
-	}
-	return attrs;
-}
 
 function parseJsonP(jsonp) {
 	const m = jsonp.match(/^\s*[a-z0-9_$]+\s*\((.+)\)\s*;?\s*$/im);
@@ -194,18 +187,10 @@ async function listDebug() {
 	}
 
 	const html = await htmlRes.text();
-
-	const anchors = html.match(/<a[^>]*>/gi);
-	if (!anchors) {
-		throw new Error(`No a tags: ${htmlUrl}`);
-	}
-
-	const hrefs = new Set(
-		[...anchors]
-			.map(attrs)
-			.map(a => a.href || '')
-			.filter(s => s.includes('/cdm/'))
-	);
+	const dom = new DOMParser().parseFromString(html, 'text/html');
+	const hrefs = list(dom.getElementsByTagName('a'))
+		.map(a => new URL(a.getAttribute('href') || '', htmlUrl))
+		.filter(u => u.pathname.startsWith('/cdm/'));
 
 	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';
 	const jsRes = await retry(() =>
@@ -227,8 +212,7 @@ async function listDebug() {
 
 	const r = [];
 	const ids = new Set();
-	for (const href of hrefs) {
-		const u = new URL(href, htmlUrl);
+	for (const u of hrefs) {
 		const source = getSource(u.href, version);
 		const file = urlFile(source);
 		const id = u.pathname;
@@ -264,7 +248,7 @@ async function listDebug() {
 	return r;
 }
 
-export async function list() {
+export async function downloads() {
 	return (await Promise.all([listRelease(), listDebug()]))
 		.flat()
 		.sort((a, b) => (idIndex.get(a.id) || 0) - (idIndex.get(b.id) || 0));

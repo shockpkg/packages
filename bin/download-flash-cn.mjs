@@ -8,7 +8,7 @@ import {join as pathJoin} from 'node:path';
 import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
 
-import {list, userAgent} from '../util/flashcn.mjs';
+import {downloads, userAgent} from '../util/flashcn.mjs';
 import {read as packaged} from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 import {download} from '../util/download.mjs';
@@ -32,7 +32,7 @@ async function main() {
 		[...walk(packages, p => p.packages)].map(([p]) => [p.sha256, p])
 	);
 
-	const resources = (await list()).map(info => ({
+	const resources = (await downloads()).map(info => ({
 		info,
 		progress: 0,
 		size: null,

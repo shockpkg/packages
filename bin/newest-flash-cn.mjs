@@ -2,7 +2,7 @@
 
 /* eslint-disable no-console */
 
-import {list, userAgent} from '../util/flashcn.mjs';
+import {downloads, userAgent} from '../util/flashcn.mjs';
 import {read as packaged} from '../util/packages.mjs';
 import {retry, walk} from '../util/util.mjs';
 
@@ -16,7 +16,7 @@ async function main() {
 	const byName = new Map(
 		[...walk(packages, p => p.packages)].map(([p]) => [p.name, p])
 	);
-	const resources = await list();
+	const resources = await downloads();
 
 	console.log(`Checking: ${resources.length}`);
 
