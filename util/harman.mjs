@@ -154,7 +154,7 @@ export async function runtimes() {
 
 		// eslint-disable-next-line no-await-in-loop
 		const js = await res.text();
-		const m = js.match(/AIR runtime - version ([\d+.]+)/);
+		const m = js.match(/AIR\s+runtime\s+-\s+version\s+([\d+.]+)/i);
 		if (m) {
 			// eslint-disable-next-line prefer-destructuring
 			version = m[1];
