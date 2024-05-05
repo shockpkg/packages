@@ -5,24 +5,14 @@
 import {equal, match, ok} from 'node:assert/strict';
 import {basename} from 'node:path';
 
-import {read as packaged, prefixes} from '../util/packages.mjs';
+import {read as packaged} from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 
 async function properties(packages) {
-	const starts = await prefixes();
-
 	const validatorsRoot = {
 		name: (root, value) => {
 			equal(typeof value, 'string');
 			match(value, /^[a-z][-a-z0-9_.]*[a-z0-9]$/);
-			let prefixed = false;
-			for (const prefix of starts) {
-				if (value.startsWith(`${prefix}-`)) {
-					prefixed = true;
-					break;
-				}
-			}
-			ok(prefixed);
 		},
 		file: (root, value) => {
 			equal(typeof value, 'string');

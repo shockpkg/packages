@@ -2,9 +2,18 @@ import {readFile, readdir} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
+import {walk} from './util.mjs';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const directory = pathJoin(__dirname, '..', 'packages');
+
+const andReg = /^(.*)-([\d.]+)-and-([\d.]+|higher)$/;
+
+const misplacedChilds = new Set([
+	'flash-player-2-java',
+	'flash-player-9.0.262.0-linux-sa'
+]);
 
 function comparePrimitive(a, b) {
 	if (a === null && b !== null) {
@@ -85,21 +94,40 @@ function comparePaths(a, b) {
 	return 0;
 }
 
-export async function prefixes() {
-	return (await readdir(directory, {withFileTypes: true}))
-		.filter(e => e.isDirectory() && /^[a-z0-9-]+$/.test(e.name))
-		.map(e => e.name);
+export async function readPackageFile(f) {
+	const pre = f.replace(/\.json$/, '').replace(/[\\/]/i, '-');
+	const pres = [pre];
+	const m = pre.match(andReg);
+	if (m) {
+		pres.push(`${m[1]}-${m[2]}`);
+		if (m[3] !== 'higher') {
+			pres.push(`${m[1]}-${m[3]}`);
+		}
+	}
+
+	const pkgs = JSON.parse(await readFile(pathJoin(directory, f), 'utf8'));
+	for (const [{name}] of walk(pkgs, p => p.packages)) {
+		let prefixed = false;
+		for (const pre of pres) {
+			if (name.startsWith(pre)) {
+				const after = name.substring(pre.length);
+				if (after === '' || after[0] === '-' || after[0] === '.') {
+					prefixed = true;
+					break;
+				}
+			}
+		}
+
+		if (!prefixed && !misplacedChilds.has(name)) {
+			throw new Error(`Package in wrong file: ${name}: ${f}`);
+		}
+	}
+	return pkgs;
 }
 
 export async function read() {
 	const files = (await readdir(directory, {recursive: true}))
 		.filter(s => /^([^.][^/]*\/)*[^.][^/]*\.json$/.test(s))
 		.sort(comparePaths);
-	return (
-		await Promise.all(
-			files.map(async f =>
-				JSON.parse(await readFile(pathJoin(directory, f), 'utf8'))
-			)
-		)
-	).flat();
+	return (await Promise.all(files.map(readPackageFile))).flat();
 }
