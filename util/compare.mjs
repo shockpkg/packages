@@ -3,6 +3,8 @@ function parseDigits(s) {
 }
 
 export function primitive(a, b) {
+	a ??= null;
+	b ??= null;
 	if (a === null && b !== null) {
 		return -1;
 	}
