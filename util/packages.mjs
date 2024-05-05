@@ -10,7 +10,7 @@ const directory = pathJoin(__dirname, '..', 'packages');
 
 const andReg = /^(.*)-([\d.]+)-and-([\d.]+|higher)$/;
 
-const misplacedChilds = new Set([
+const misplacedChildren = new Set([
 	'flash-player-2-java',
 	'flash-player-9.0.262.0-linux-sa'
 ]);
@@ -118,7 +118,7 @@ export async function readPackageFile(f) {
 			}
 		}
 
-		if (!prefixed && !misplacedChilds.has(name)) {
+		if (!prefixed && !misplacedChildren.has(name)) {
 			throw new Error(`Package in wrong file: ${name}: ${f}`);
 		}
 	}
