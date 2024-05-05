@@ -23,6 +23,11 @@ function compareNames(a, b) {
 }
 
 export async function readPackageFile(f) {
+	const parts = f.split(/[\\/]/);
+	if (parts.length === 3) {
+		return [JSON.parse(await readFile(pathJoin(directory, f), 'utf8'))];
+	}
+
 	const pre = f.replace(/\.json$/, '').replace(/[\\/]/i, '-');
 	const pres = [pre];
 	const m = pre.match(andReg);
