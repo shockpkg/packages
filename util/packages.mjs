@@ -10,9 +10,9 @@ const directory = pathJoin(__dirname, '..', 'packages');
 
 const andReg = /^(.*)-([\d.]+)-and-([\d.]+|higher)$/;
 
-const misplacedChildren = new Set([
-	'flash-player-2-java',
-	'flash-player-9.0.262.0-linux-sa'
+const misplacedChildren = new Map([
+	['flash-player-2-java', 'flash-player-3'],
+	['flash-player-9.0.262.0-linux-sa', 'flash-player-10']
 ]);
 
 function comparePrimitive(a, b) {
@@ -118,7 +118,7 @@ export async function readPackageFile(f) {
 			}
 		}
 
-		if (!prefixed && !misplacedChildren.has(name)) {
+		if (!prefixed && misplacedChildren.get(name) !== pre) {
 			throw new Error(`Package in wrong file: ${name}: ${f}`);
 		}
 	}
