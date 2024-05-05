@@ -9,6 +9,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const directory = pathJoin(__dirname, '..', 'packages');
 
+const jsonPathReg = /^([^.][^/]*\/)*[^.][^/]*\.json$/;
+
 const andReg = /^(.*)-([\d.]+)-and-([\d.]+|higher)$/;
 
 const misplacedChildren = new Map([
@@ -53,7 +55,7 @@ export async function readPackageFile(f) {
 
 export async function read() {
 	const files = (await readdir(directory, {recursive: true})).filter(s =>
-		/^([^.][^/]*\/)*[^.][^/]*\.json$/.test(s)
+		jsonPathReg.test(s)
 	);
 	const pkgs = (await Promise.all(files.map(readPackageFile))).flat();
 	for (const [pkg] of walk(pkgs, p => p.packages)) {
