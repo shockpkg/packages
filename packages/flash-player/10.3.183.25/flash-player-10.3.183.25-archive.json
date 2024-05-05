@@ -1,0 +1,71 @@
+{
+	"name": "flash-player-10.3.183.25-archive",
+	"file": "fp_10.3.183.25_archive.zip",
+	"size": 19118498,
+	"sha256": "137896808072df6d0de374fc62c14bb622c31a7ed727bf14b8659f240b463c8e",
+	"sha1": "244823059d3d9b6470aaf4a58631ead10d6351da",
+	"md5": "88f5e783c56bebe2d94c4131b167dcac",
+	"source": "https://archive.org/download/shockpkg_packages_1/13/78/96808072df6d0de374fc62c14bb622c31a7ed727bf14b8659f240b463c8e/fp_10.3.183.25_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-10.3.183.25-windows-npapi",
+			"file": "flashplayer10_3r183_25_win.exe",
+			"size": 3092400,
+			"sha256": "de5dccc581caf5f650b318e2e5bc337bc48eebd001de90addb0f3e5d6a7124af",
+			"sha1": "091a23b9734b2c652aa3eba354b983fc6efacdc2",
+			"md5": "90c08896e4a5d8a544f91941faff8d63",
+			"source": "fp_10.3.183.25_archive/10.3.183.25/flashplayer10_3r183_25_win.exe",
+			"zipped": "8-9985144-3035092"
+		},
+		{
+			"name": "flash-player-10.3.183.25-windows-npapi-debug",
+			"file": "flashplayer10_3r183_25_win_debug.exe",
+			"size": 3357104,
+			"sha256": "e7f7b2b690ed23150d5872539cf2e412c6a6033fcbac54ff06809ef2c5dfde36",
+			"sha1": "e0c971a37867c77ca4d00217b2c234ea832e6eb3",
+			"md5": "683c9ac7fa61bf1ae5b9ce45a0da1852",
+			"source": "fp_10.3.183.25_archive/10.3.183.25.debug/flashplayer10_3r183_25_win_debug.exe",
+			"zipped": "8-231-3299852"
+		},
+		{
+			"name": "flash-player-10.3.183.25-windows-activex",
+			"file": "flashplayer10_3r183_25_winax.exe",
+			"size": 3131312,
+			"sha256": "f51a99bda47003240a219a70a24c56260992906eb48346abac4aa304cdec97a5",
+			"sha1": "41cd83e229507a98eebff124e590bbdc44e63046",
+			"md5": "8b9d7d49ce3fbc5ac84b5bd7526013ba",
+			"source": "fp_10.3.183.25_archive/10.3.183.25/flashplayer10_3r183_25_winax.exe",
+			"zipped": "8-16041707-3074139"
+		},
+		{
+			"name": "flash-player-10.3.183.25-windows-activex-debug",
+			"file": "flashplayer10_3r183_25_winax_debug.exe",
+			"size": 3396016,
+			"sha256": "04fac4aa4c1058242cd49f1026300a5e1e668a8530df665ff0a8bb6dcc6d502c",
+			"sha1": "52fd764cb771dffc7ead9f2d9dcc43038e0a2949",
+			"md5": "7d08317e44cc961252fc2026b353b8af",
+			"source": "fp_10.3.183.25_archive/10.3.183.25.debug/flashplayer10_3r183_25_winax_debug.exe",
+			"zipped": "8-6646158-3338826"
+		},
+		{
+			"name": "flash-player-10.3.183.25-windows-sa",
+			"file": "flashplayer10_3r183_25_win_sa.exe",
+			"size": 5793200,
+			"sha256": "d7b947e9fd946498eda6aedfe4b08b4b1bf9b9f27cbd9ea723f6e5a5a051b91e",
+			"sha1": "dc69cea5bea1500f25e852b91491098c313388ea",
+			"md5": "f49d10e661e82e6966da6c5109ef3896",
+			"source": "fp_10.3.183.25_archive/10.3.183.25/flashplayer10_3r183_25_win_sa.exe",
+			"zipped": "8-13020334-3021276"
+		},
+		{
+			"name": "flash-player-10.3.183.25-windows-sa-debug",
+			"file": "flashplayer10_3r183_25_win_sa_debug.exe",
+			"size": 6822320,
+			"sha256": "0968067c62d10bb899c1c5b706d80cd617e3385b3b150bb0a41beb13381e49a7",
+			"sha1": "a3a72725b7af7be08028b7a4e86658626b189f1f",
+			"md5": "d2f2531c9ab52c81de684021a9edf79a",
+			"source": "fp_10.3.183.25_archive/10.3.183.25.debug/flashplayer10_3r183_25_win_sa_debug.exe",
+			"zipped": "8-3300193-3345856"
+		}
+	]
+}

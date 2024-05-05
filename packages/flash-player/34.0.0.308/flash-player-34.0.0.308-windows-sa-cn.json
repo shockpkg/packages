@@ -1,0 +1,12 @@
+{
+	"name": "flash-player-34.0.0.308-windows-sa-cn",
+	"file": "flashplayer_sa.exe",
+	"size": 10735024,
+	"sha256": "3d353fd667cf27efad1331894cda02c28444c99fdef68386d149021f6d7a648a",
+	"sha1": "0ba97bb2a3d0f2985167b8d6d519e328b3546e4b",
+	"md5": "614cd95a19ebc3592be5dbb8dc532c97",
+	"source": "https://archive.org/download/shockpkg_packages_3/3d/35/3fd667cf27efad1331894cda02c28444c99fdef68386d149021f6d7a648a/flashplayer_sa.exe",
+	"metadata": {
+		"date": "2024-03-12"
+	}
+}

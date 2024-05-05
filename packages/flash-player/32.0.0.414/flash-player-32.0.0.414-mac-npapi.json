@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.414-mac-npapi",
+	"file": "install_flash_player_osx.dmg",
+	"size": 15608187,
+	"sha256": "76f760cc1e84625445e6b88a80d30323d89457b97b80d4a6f4c75fe40d0c5e77",
+	"sha1": "b6fca50ae2791a5f76390dd172ea744f5bb8215d",
+	"md5": "acceb3657ff44694a2fdb08bf77597e2",
+	"source": "https://archive.org/download/shockpkg_packages_7/76/f7/60cc1e84625445e6b88a80d30323d89457b97b80d4a6f4c75fe40d0c5e77/install_flash_player_osx.dmg"
+}

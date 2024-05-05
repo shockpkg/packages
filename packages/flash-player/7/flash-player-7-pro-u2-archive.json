@@ -1,0 +1,81 @@
+{
+	"name": "flash-player-7-pro-u2-archive",
+	"file": "flash_pro_7-u2_players.zip",
+	"size": 6810462,
+	"sha256": "49f17fc171eb45b0d1845bab66b7ce7d353889176724006e811a7c37f1c0fef5",
+	"sha1": "c97f03f0ccd8d6e6756c2f5169764cf8eed3c0aa",
+	"md5": "eea29fa18d2617a1d109831ca656ee33",
+	"source": "https://archive.org/download/shockpkg_packages_4/49/f1/7fc171eb45b0d1845bab66b7ce7d353889176724006e811a7c37f1c0fef5/flash_pro_7-u2_players.zip",
+	"packages": [
+		{
+			"name": "flash-player-7.0.68.0-windows-npapi-debug",
+			"file": "Install Flash Player 7.exe",
+			"size": 725624,
+			"sha256": "ca2b9e3a1b506f0fed84c584276b3976b5b012ed2478e6f3242b683a3640e158",
+			"sha1": "f0bdd96bc17215d16cf820f2c2f4ea03917b76bd",
+			"md5": "0d0101b5560444d7e8a825c24bcc52b3",
+			"source": "Players/Debug/Install Flash Player 7.exe",
+			"zipped": "8-609519-667452"
+		},
+		{
+			"name": "flash-player-7.0.68.0-windows-activex-debug",
+			"file": "Install Flash Player 7 AX.exe",
+			"size": 606840,
+			"sha256": "83c9801dc0583bd716385e8043aa7248924dc39576181c655218f7e0f120eabd",
+			"sha1": "3b5da3ef72bd4982d6f579a7585ac321f6f7f6d7",
+			"md5": "f31a0702fd9c0760f6d2be575100f2cf",
+			"source": "Players/Debug/Install Flash Player 7 AX.exe",
+			"zipped": "8-155-572332"
+		},
+		{
+			"name": "flash-player-7.0.68.0-windows-sa",
+			"file": "SAFlashPlayer.exe",
+			"size": 1029752,
+			"sha256": "acf9d996bed918389c568400a56a10f928f2b0aa18b46193c624365fe42a4072",
+			"sha1": "ae0e18c7bac54ea50fa203a5b7ac580d58635353",
+			"md5": "5ef2b050a78bca41dc08f54ea74eff75",
+			"source": "Players/Release/SAFlashPlayer.exe",
+			"zipped": "8-5433781-549845"
+		},
+		{
+			"name": "flash-player-7.0.68.0-windows-sa-debug",
+			"file": "SAFlashPlayer.exe",
+			"size": 1111672,
+			"sha256": "046c971ea0e8295db07c57b137722d906de9455a08b673bf64bcb39191e10ca0",
+			"sha1": "d67dc8a529654f12271cdd76ca09b55abe57d986",
+			"md5": "90e161a578c99a466110aef9971b0c29",
+			"source": "Players/Debug/SAFlashPlayer.exe",
+			"zipped": "8-1277032-580120"
+		},
+		{
+			"name": "flash-player-7.0.68.0-mac-osx-npapi-debug",
+			"file": "Install Flash Player 7 OSX.hqx",
+			"size": 2460335,
+			"sha256": "958fc34dfa6e3c469c9b78cfd5c3d2a6ec3edf365723ad28c986b963e2d4c317",
+			"sha1": "f9dab299e11e8049e9f975dbcf8538f1f83bee5e",
+			"md5": "7c1f0b99fb4f6f5df0e969a827f8865a",
+			"source": "Players/Debug/Install Flash Player 7 OSX.hqx",
+			"zipped": "8-572561-36888"
+		},
+		{
+			"name": "flash-player-7.0.68.0-mac-sa",
+			"file": "SAFlashPlayer.hqx",
+			"size": 1847182,
+			"sha256": "c80c4c8189568e11dcf8703814500f21b1c28b08ca129762755d72f2fe2d0a20",
+			"sha1": "c8c7de9eae19cb3bc2124d74288a242862b8e720",
+			"md5": "c4292a85b40c693c244450c931384a52",
+			"source": "Players/Release/SAFlashPlayer.hqx",
+			"zipped": "8-5983689-825259"
+		},
+		{
+			"name": "flash-player-7.0.68.0-mac-sa-debug",
+			"file": "SAFlashPlayer.hqx",
+			"size": 1926216,
+			"sha256": "f16db7850f8b07d5d8f1c3fac7b07304568688e58e4f0756f444acb1c97b57a5",
+			"sha1": "d6375add781dd123a19cec752fe65302b02c9b7b",
+			"md5": "7908453f361025569cebb80f0c4fafd7",
+			"source": "Players/Debug/SAFlashPlayer.hqx",
+			"zipped": "8-1857213-859927"
+		}
+	]
+}

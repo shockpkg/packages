@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.465-windows-npapi",
+	"file": "install_flash_player.exe",
+	"size": 21646392,
+	"sha256": "358e18ee59384ff0f9fb208e478b56a7a3b021e50103e9df535307821edc669f",
+	"sha1": "fe2da642d943822b9e0b6ccec302367230a90835",
+	"md5": "51a0107eef0903d22534f72c41b70239",
+	"source": "https://archive.org/download/shockpkg_packages_3/35/8e/18ee59384ff0f9fb208e478b56a7a3b021e50103e9df535307821edc669f/install_flash_player.exe"
+}

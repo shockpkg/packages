@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.433-windows-ppapi-msi",
+	"file": "install_flash_player_32_ppapi.msi",
+	"size": 22825984,
+	"sha256": "56dd3304b6429e89218f72cdf040ec3159613ab5d528ba5ce69ca253659af89e",
+	"sha1": "324d46561447b245217a12bed9443d4fd7a04661",
+	"md5": "bfa8eb75503b55512a6fb8b02f38f6bb",
+	"source": "https://archive.org/download/shockpkg_packages_5/56/dd/3304b6429e89218f72cdf040ec3159613ab5d528ba5ce69ca253659af89e/install_flash_player_32_ppapi.msi"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-34.0.0.92-linux-x86_64-npapi-rpm-cn",
+	"file": "flash-player-npapi-release.x86_64.rpm",
+	"size": 9294933,
+	"sha256": "968241c00f5c9e04adba6d1676e6948534778fe7b680eb0be774266b14718b60",
+	"sha1": "f32bdec15bf3260ff3a6c155b2cc4776ea5737bd",
+	"md5": "8725616dc7f624dc3a05c0a50387bd74",
+	"source": "https://archive.org/download/shockpkg_packages_9/96/82/41c00f5c9e04adba6d1676e6948534778fe7b680eb0be774266b14718b60/flash-player-npapi-release.x86_64.rpm"
+}

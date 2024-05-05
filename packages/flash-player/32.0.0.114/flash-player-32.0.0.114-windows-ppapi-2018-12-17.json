@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.114-windows-ppapi-2018-12-17",
+	"file": "install_flash_player_ppapi.exe",
+	"size": 21110240,
+	"sha256": "78d9aea7b4949397ef37e646cd53dc7ba9c1e66c9be4500c841d68208390ccdf",
+	"sha1": "e89c4cd79ec30fc50e8fb3abc4a4b3c384645cb4",
+	"md5": "cb181a8da66b5c9150966ba45c6de200",
+	"source": "https://archive.org/download/shockpkg_packages_7/78/d9/aea7b4949397ef37e646cd53dc7ba9c1e66c9be4500c841d68208390ccdf/install_flash_player_ppapi.exe"
+}

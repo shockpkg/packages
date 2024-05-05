@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-5.0.53.0-solaris",
+	"file": "flash_solaris.tar.gz",
+	"size": 628531,
+	"sha256": "6449eb8d99b30ccd66611001a15e49748e8a8ccead1fe6b2018c4269f1b6e328",
+	"sha1": "8b5c858b0c7dcc10363013eff8f04b93600645f8",
+	"md5": "62dc28bc8232842ad8715ac159910df8",
+	"source": "https://archive.org/download/shockpkg_packages_6/64/49/eb8d99b30ccd66611001a15e49748e8a8ccead1fe6b2018c4269f1b6e328/flash_solaris.tar.gz"
+}

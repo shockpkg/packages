@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.330-windows-npapi-2020-01-27",
+	"file": "install_flash_player.exe",
+	"size": 21332504,
+	"sha256": "334678eedd7ed2110e4653427f83b4e1e502aa9213f744b042a1044889e5036a",
+	"sha1": "64ed5325ebc6e171db159910554493bc6029fb1c",
+	"md5": "91da5450d8d1de49091a4163e976791e",
+	"source": "https://archive.org/download/shockpkg_packages_3/33/46/78eedd7ed2110e4653427f83b4e1e502aa9213f744b042a1044889e5036a/install_flash_player.exe"
+}

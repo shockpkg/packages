@@ -1,0 +1,91 @@
+{
+	"name": "flash-player-6-pro-archive",
+	"file": "flash_pro_6_players.zip",
+	"size": 7270883,
+	"sha256": "1b328aba97b8070d91920c7ca8b82d25e09e33ca53c57d58e27968c48f69db99",
+	"sha1": "861233c99a51ea512c7e45722803183032176bf5",
+	"md5": "8e58a6c6709c13b189c130abd0f0dbd5",
+	"source": "https://archive.org/download/shockpkg_packages_1/1b/32/8aba97b8070d91920c7ca8b82d25e09e33ca53c57d58e27968c48f69db99/flash_pro_6_players.zip",
+	"packages": [
+		{
+			"name": "flash-player-6.0.21.0-windows-npapi-debug",
+			"file": "Install Flash Player 6.exe",
+			"size": 540800,
+			"sha256": "ebaa53e77e008e746b3217577047489bacaa7c449662f2543a3b06452a4002d0",
+			"sha1": "6708028ac01afb6ef87f980cda35ed761abab048",
+			"md5": "8c3adf7051c9e514998786e902b9088a",
+			"source": "Players/Debug/Install Flash Player 6.exe",
+			"zipped": "8-1329360-526689"
+		},
+		{
+			"name": "flash-player-6.0.21.0-windows-activex-debug",
+			"file": "Install Flash Player 6 AX.exe",
+			"size": 596608,
+			"sha256": "37473203faffbde45349ed2a0d22a61e4d61556058f30f767c880c669986154c",
+			"sha1": "db91557ed3669ffeeba2087da9b4f70de059b606",
+			"md5": "4a43c0e7819fc5676512b6347faf0bb7",
+			"source": "Players/Debug/Install Flash Player 6 AX.exe",
+			"zipped": "8-155-528113"
+		},
+		{
+			"name": "flash-player-6.0.21.0-windows-sa",
+			"file": "SAFlashPlayer.exe",
+			"size": 819200,
+			"sha256": "250706600d70ac2face596d84e3009ebc79fcb41c98f0debfd41497e3790be06",
+			"sha1": "6e0577397176f87f9a561bbd8de2cf9e5dd1d838",
+			"md5": "0529e490a35bcf93865f3042f1db3c42",
+			"source": "Players/Release/SAFlashPlayer.exe",
+			"zipped": "8-6184739-429477"
+		},
+		{
+			"name": "flash-player-6.0.21.0-windows-sa-debug",
+			"file": "SAFlashPlayer.exe",
+			"size": 856064,
+			"sha256": "36653b472d7a7537525fcbb59b7ff74d18335a831ce702bb7e13b7951977d6ed",
+			"sha1": "523c3dea1cb5aa06c65bc954e31bc75277f1f6c8",
+			"md5": "7bf895c69c175413903dbd5243e0b85e",
+			"source": "Players/Debug/SAFlashPlayer.exe",
+			"zipped": "8-2564218-445754"
+		},
+		{
+			"name": "flash-player-6.0.21.0-mac-npapi-debug",
+			"file": "Install Flash Player 6.hqx",
+			"size": 934200,
+			"sha256": "b390637f94aaf48951ba20645f3c725799039f4cf2b36597fc25ff0c616ceb81",
+			"sha1": "e0b3ebc430a2e969279996bf0cda56953d91d8ba",
+			"md5": "607fa349057602f0b9f3f7101d461984",
+			"source": "Players/Debug/Install Flash Player 6.hqx",
+			"zipped": "8-1856119-708038"
+		},
+		{
+			"name": "flash-player-6.0.21.0-mac-osx-npapi-debug",
+			"file": "Install Flash Player 6 OSX.hqx",
+			"size": 1321929,
+			"sha256": "78f117f84c1793960570ebbf9696958bfaf521d94cd611a50f92bbb168953171",
+			"sha1": "133cdf38285263fc7c9661163799f0f9c6fa755c",
+			"md5": "7a9c7cd7ee42f151419377f0202563cb",
+			"source": "Players/Debug/Install Flash Player 6 OSX.hqx",
+			"zipped": "8-528342-800948"
+		},
+		{
+			"name": "flash-player-6.0.21.0-mac-sa",
+			"file": "SAFlashPlayer.hqx",
+			"size": 1466715,
+			"sha256": "cb30eab7c52a25bc046c93b210c625f2e8792f5d10aae86e6b5c8f2cac85a3e8",
+			"sha1": "26ded7dc469dcc852e56d47be642d557c6895563",
+			"md5": "80fbbee14cbc7f23902e97b9f4118fa9",
+			"source": "Players/Release/SAFlashPlayer.hqx",
+			"zipped": "8-6614279-654844"
+		},
+		{
+			"name": "flash-player-6.0.21.0-mac-sa-debug",
+			"file": "SAFlashPlayer.hqx",
+			"size": 1513951,
+			"sha256": "6e6af3c642d1ce122ef35daf99d6d559847ebdf3c79baea87814a2cec57e9199",
+			"sha1": "2600ce8ed8ec923d5c6651c6d82a5e33b13f242d",
+			"md5": "4478e8248b7aad0fa9bba8d141411108",
+			"source": "Players/Debug/SAFlashPlayer.hqx",
+			"zipped": "8-3010033-673385"
+		}
+	]
+}

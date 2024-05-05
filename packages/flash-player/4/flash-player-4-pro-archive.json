@@ -1,0 +1,61 @@
+{
+	"name": "flash-player-4-pro-archive",
+	"file": "flash_pro_4_players.zip",
+	"size": 1177451,
+	"sha256": "11e766dbce1be0fb15dc3b2dfa624973d77ec14feeb82153110648205131c5c0",
+	"sha1": "df26459bfe244b789bad3c903a2fae7eeda0faae",
+	"md5": "44b378699089ddb849766e743df08297",
+	"source": "https://archive.org/download/shockpkg_packages_1/11/e7/66dbce1be0fb15dc3b2dfa624973d77ec14feeb82153110648205131c5c0/flash_pro_4_players.zip",
+	"packages": [
+		{
+			"name": "flash-player-4.0.7.0-windows-npapi",
+			"file": "NPSWF32.dll",
+			"size": 245760,
+			"sha256": "37c340b4b424eeb3891d243885a0fd9ef777fc35d52a13072909dbd24e08dbf6",
+			"sha1": "10c60aa975b7012ce0e779aa123272ca92468165",
+			"md5": "d0cd046189c2524d2490630cbbe3dbc3",
+			"source": "Players/NPSWF32.dll",
+			"zipped": "8-864175-129750"
+		},
+		{
+			"name": "flash-player-4.0.7.0-windows-activex",
+			"file": "InstallAXFlash.exe",
+			"size": 295552,
+			"sha256": "eaedd3caf45a19c6520a9f20d434ac043811e84370eff5e56142a9cc0846fb0b",
+			"sha1": "c54213d080fda6c199a08da3fbc2e4bcb2439b4b",
+			"md5": "7c8a04f6e81280e06f7c3b8b6b88d119",
+			"source": "Players/InstallAXFlash.exe",
+			"zipped": "8-633894-230232"
+		},
+		{
+			"name": "flash-player-4.0.7.0-mac-npapi",
+			"file": "Shockwave Flash NP-PPC.Hqx",
+			"size": 418291,
+			"sha256": "dae2aeca68d98319e41773b6b26b95302e535d46f8d0191be07652cd4c5b95ae",
+			"sha1": "ee77bd21a8119d016bc8d6bd7ba32aaba95e8832",
+			"md5": "56ffc8171c311d363ff5498c4fbcf48e",
+			"source": "Players/Shockwave Flash NP-PPC.Hqx",
+			"zipped": "8-993989-182698"
+		},
+		{
+			"name": "flash-player-4.0.7.0-windows-sa",
+			"file": "FlashPla.exe",
+			"size": 286720,
+			"sha256": "0818d0941a3610b679be9fcaa7403cedf450c4b1244660d8e96e9fad99498f1e",
+			"sha1": "ef3826ad2b05979b8c012a2a41686347c08ffbc4",
+			"md5": "1868fa6f4dd93ccd19b4003716b699d3",
+			"source": "Players/FlashPla.exe",
+			"zipped": "8-292854-142072"
+		},
+		{
+			"name": "flash-player-4.0.7.0-mac-sa",
+			"file": "FlashPla.hqx",
+			"size": 441581,
+			"sha256": "d313fcdb79d48f5df491a1404231c710cf4bef1a07dec49154cac7f6f0e97453",
+			"sha1": "e538e2f8aa99d6007ba4efe2f15d6edfe47af2a6",
+			"md5": "76c71eb44c5cfaac0eea9340f361161c",
+			"source": "Players/FlashPla.hqx",
+			"zipped": "8-434976-198862"
+		}
+	]
+}

@@ -1,0 +1,221 @@
+{
+	"name": "flash-player-8-archive",
+	"file": "fp8_archive.zip",
+	"size": 21903026,
+	"sha256": "035433293173d7530e6f04c7a33d8e1636775062578ad126a9c3dad18532f9ea",
+	"sha1": "088e55fd0df7d9964bc33313a83f80c2439877c4",
+	"md5": "82888faa09b7d15b9bcadf3b32e01a0c",
+	"source": "https://archive.org/download/shockpkg_packages_0/03/54/33293173d7530e6f04c7a33d8e1636775062578ad126a9c3dad18532f9ea/fp8_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-8.0.22.0-windows-npapi",
+			"file": "flashplayer8r22_win.exe",
+			"size": 948936,
+			"sha256": "29165b042e5937799c800c6ee6a5f214e810a5976838e77c7f9a84dc0d9587a0",
+			"sha1": "c7a240714064c1e8717991a6153261181aa347b6",
+			"md5": "9133bd54ce9574fa2f67ce0102d72ccc",
+			"source": "fp8_archive/r22/flashplayer8r22_win.exe",
+			"zipped": "8-1332671-933450"
+		},
+		{
+			"name": "flash-player-8.0.22.0-windows-activex",
+			"file": "flashplayer8r22_winax.exe",
+			"size": 819912,
+			"sha256": "245ae96a928ba4097c441e598fdb78c04e40d149e5e1f9e313aff3a763104cc3",
+			"sha1": "56df3263a3036f50e83c8a975727c582f7d01a6c",
+			"md5": "863c0164ef1b56b95c525f33460cb00a",
+			"source": "fp8_archive/r22/flashplayer8r22_winax.exe",
+			"zipped": "8-2266192-786425"
+		},
+		{
+			"name": "flash-player-8.0.22.0-mac-npapi",
+			"file": "flashplayer8r22_mac.dmg",
+			"size": 1339886,
+			"sha256": "0b12a6ed3218e688cb299621f6f6f42e189e6ce61ba97786daadb58ae5487322",
+			"sha1": "d0f61ac351773a4599b0207cb1b68bd312ce8755",
+			"md5": "946ff66628e6b6f5c01c29a954f35725",
+			"source": "fp8_archive/r22/flashplayer8r22_mac.dmg",
+			"zipped": "8-115-1332487"
+		},
+		{
+			"name": "flash-player-8.0.24.0-windows-npapi",
+			"file": "flashplayer8r24_win.exe",
+			"size": 953008,
+			"sha256": "c53a692b39857f4f78070cf63565849705a004e5db7019f7dff2f2907df37df4",
+			"sha1": "b2e178b9572369003aebf8e0ac74ffa6aa2529fb",
+			"md5": "9073255fb618f974217a01acc40d8a10",
+			"source": "fp8_archive/r24/flashplayer8r24_win.exe",
+			"zipped": "8-4428545-936880"
+		},
+		{
+			"name": "flash-player-8.0.24.0-windows-activex",
+			"file": "flashplayer8r24_winax.exe",
+			"size": 823472,
+			"sha256": "11c1e4ec665c73b23a1dffca63ee21d92a652897c4a9f5e09fb94aa4c1557049",
+			"sha1": "7072ebcca25744c739f8c1cc415947764ab93a47",
+			"md5": "2d28bff81bb9e8cc7744d418510cf008",
+			"source": "fp8_archive/r24/flashplayer8r24_winax.exe",
+			"zipped": "8-5365496-790192"
+		},
+		{
+			"name": "flash-player-8.0.24.0-mac-npapi",
+			"file": "flashplayer8r24_mac.dmg",
+			"size": 1390705,
+			"sha256": "28c7acaf9b5127bff0a10d04707e2ae8f63e8801d4b7abd7c201df840a2e6bd1",
+			"sha1": "5348a9d85029758b65befb72a5308f5d95b0333b",
+			"md5": "7e96fc1b83ecd5eb23833f776d2e0e0b",
+			"source": "fp8_archive/r24/flashplayer8r24_mac.dmg",
+			"zipped": "8-3052732-1375744"
+		},
+		{
+			"name": "flash-player-8.0.33.0-windows-npapi",
+			"file": "flashplayer8r33_win.exe",
+			"size": 950392,
+			"sha256": "faf5999671268b50fff1c076784447cc101b0ffc4eed54ab74b2598a0c10a99f",
+			"sha1": "f1cbb91942219fde24bd7c346640991f23c4a139",
+			"md5": "563013519b944ae3dc2030d5d1be3058",
+			"source": "fp8_archive/r33/flashplayer8r33_win.exe",
+			"zipped": "8-7493584-934629"
+		},
+		{
+			"name": "flash-player-8.0.33.0-windows-activex",
+			"file": "flashplayer8r33_winax.exe",
+			"size": 824440,
+			"sha256": "9964782cbf9493ccaff029a718778fc74326e1f1ca1c3d77424a53562a0bf59a",
+			"sha1": "70e4cdc970a59f91b7559cf780cb350e6206fb28",
+			"md5": "919322aa046beffdcfaca7cdf3d13ad9",
+			"source": "fp8_archive/r33/flashplayer8r33_winax.exe",
+			"zipped": "8-8428284-791452"
+		},
+		{
+			"name": "flash-player-8.0.33.0-mac-npapi",
+			"file": "flashplayer8r33_mac.dmg",
+			"size": 1350907,
+			"sha256": "4f30a605949fc7c0b9fafd160a22c46afb5365c9a1900ca455090fd8cd5f2b4a",
+			"sha1": "1b4ef8f0d1a0132289fad6c76e54615ccde55b64",
+			"md5": "a5d9e42d646aa32f14394eb63d5d75de",
+			"source": "fp8_archive/r33/flashplayer8r33_mac.dmg",
+			"zipped": "8-6155803-1337712"
+		},
+		{
+			"name": "flash-player-8.0.34.0-windows-npapi",
+			"file": "flashplayer8r34_win.exe",
+			"size": 950392,
+			"sha256": "6bd72fa6c700023bc926730fe0e0094c1d925cda63afd38385f71af61e504331",
+			"sha1": "bedc95b68d84a4d87c0b5f816f95b0c055232691",
+			"md5": "a086cbb963b6fd4650493d181a191ecb",
+			"source": "fp8_archive/r34/flashplayer8r34_win.exe",
+			"zipped": "8-10557662-934690"
+		},
+		{
+			"name": "flash-player-8.0.34.0-windows-activex",
+			"file": "flashplayer8r34_winax.exe",
+			"size": 824952,
+			"sha256": "b3005810290f3a44647990c0d15e4c18979066f1642ca426bd4d67b248ec4d9a",
+			"sha1": "295574b26412166a1d75a3d3c3d47b7bc3b60a8e",
+			"md5": "a4917e7821067e4f4f3f49e4b138adb1",
+			"source": "fp8_archive/r34/flashplayer8r34_winax.exe",
+			"zipped": "8-11492423-791741"
+		},
+		{
+			"name": "flash-player-8.0.34.0-mac-npapi",
+			"file": "flashplayer8r34_mac.dmg",
+			"size": 1351402,
+			"sha256": "d6c5cc629704f55b2b7c37dbe7ebb2f85daba82c9eb5d603eaa92f571f87bbc2",
+			"sha1": "3fa8caa5c6209d5145efe14e2985a9f881c0bedc",
+			"md5": "37634bd8fc7761b40335325b92752372",
+			"source": "fp8_archive/r34/flashplayer8r34_mac.dmg",
+			"zipped": "8-9219851-1337742"
+		},
+		{
+			"name": "flash-player-8.0.35.0-windows-npapi",
+			"file": "flashplayer8r35_win.exe",
+			"size": 943104,
+			"sha256": "c80c57705110808f7987019e7f4622ee961d7f221ed9079ce8159795e1cb11cc",
+			"sha1": "b2e618a117e4dfc131a5fbb1151934b4455552c1",
+			"md5": "f8428c8fc84c3aecb7ebbbf355b4b5db",
+			"source": "fp8_archive/r35/flashplayer8r35_win.exe",
+			"zipped": "8-13751984-930122"
+		},
+		{
+			"name": "flash-player-8.0.35.0-windows-activex",
+			"file": "flashplayer8r35_winax.exe",
+			"size": 819200,
+			"sha256": "411f4a27db94e5a172bb46c5b84f709da01b0cc159904e2864632b350caae84e",
+			"sha1": "0da7194cdd26d7ecbb9de5aac4d71aa1d5c0e00a",
+			"md5": "b7c1fe75532fb8b0c1bb8bcef36b982d",
+			"source": "fp8_archive/r35/flashplayer8r35_winax.exe",
+			"zipped": "8-14682177-787767"
+		},
+		{
+			"name": "flash-player-8.0.35.0-mac-npapi",
+			"file": "flashplayer8r35_mac.dmg",
+			"size": 1481242,
+			"sha256": "8071a790b67a26c94886b83e8a761b088a36d68b08c8bae28c34d60353767bf2",
+			"sha1": "d8c9e49edc645f213993edf0c4ff7f8199c33e24",
+			"md5": "b0a62eb4b646d5fb5d96b3329d349e72",
+			"source": "fp8_archive/r35/flashplayer8r35_mac.dmg",
+			"zipped": "8-12284279-1467636"
+		},
+		{
+			"name": "flash-player-8.0.39.0-windows-npapi",
+			"file": "flashplayer8r39_win.exe",
+			"size": 956776,
+			"sha256": "af4fd04addc5ecd881c869d0af32da1a2ea589f35184d43738c4b08d8eb1a6b4",
+			"sha1": "268940c985714f6683efbf93ea735056392ca63e",
+			"md5": "259ce7e1466aac291560128ea8b78d76",
+			"source": "fp8_archive/r39/flashplayer8r39_win.exe",
+			"zipped": "8-16946875-940997"
+		},
+		{
+			"name": "flash-player-8.0.39.0-windows-activex",
+			"file": "flashplayer8r39_winax.exe",
+			"size": 829800,
+			"sha256": "42a1493a8fda04f62ca5e2beb07f5f9e784737be8ec88cebc09e59b07703bd78",
+			"sha1": "d9c62db5425f2da2760023b8da9a95469013d4d8",
+			"md5": "17e25ac16ad50343a95861f6188827dc",
+			"source": "fp8_archive/r39/flashplayer8r39_winax.exe",
+			"zipped": "8-17887943-796483"
+		},
+		{
+			"name": "flash-player-8.0.39.0-mac-npapi",
+			"file": "flashplayer8r39_mac.dmg",
+			"size": 1490090,
+			"sha256": "7908170a6adc79135412a92d6d89b47214714e6c7ec7ab8bda47db0f8053a79c",
+			"sha1": "796a804b103031a169b3021a240ce69f06e99389",
+			"md5": "d5eca68b5163ac7339f52287a78d65f2",
+			"source": "fp8_archive/r39/flashplayer8r39_mac.dmg",
+			"zipped": "8-15470059-1476747"
+		},
+		{
+			"name": "flash-player-8.0.42.0-windows-npapi",
+			"file": "flashplayer8r42_win.exe",
+			"size": 951808,
+			"sha256": "58a5d1da0be5538231709326e9282c7690d4b891e7fe39853979951981b6471a",
+			"sha1": "7d85ae13c1c028bc1151ac02f80d6f442e541891",
+			"md5": "86bcd0477c616a5edb0eb81a175e3388",
+			"source": "fp8_archive/r42/flashplayer8r42_win.exe",
+			"zipped": "8-20163132-938099"
+		},
+		{
+			"name": "flash-player-8.0.42.0-windows-activex",
+			"file": "flashplayer8r42_winax.exe",
+			"size": 831336,
+			"sha256": "c62ead080ad40f4ef593a4c17bf69b6b32d9b43610470ce564cc1a00c5c43d07",
+			"sha1": "8aa71300ec36e36889290f8b66a1f462d391e55c",
+			"md5": "98f3f49435c680b6be126c5046abe5ab",
+			"source": "fp8_archive/r42/flashplayer8r42_winax.exe",
+			"zipped": "8-21101302-798212"
+		},
+		{
+			"name": "flash-player-8.0.42.0-mac-npapi",
+			"file": "flashplayer8r42_mac.dmg",
+			"size": 1491692,
+			"sha256": "032fcb37444c0ed026d9bd4a812856df81ee021516ef0fecad5bca00dbdea345",
+			"sha1": "a592b2698eafac21f971d85d9de397a4a01ee476",
+			"md5": "ab0a838838a93736dc4d41e829628f49",
+			"source": "fp8_archive/r42/flashplayer8r42_mac.dmg",
+			"zipped": "8-18684541-1478522"
+		}
+	]
+}

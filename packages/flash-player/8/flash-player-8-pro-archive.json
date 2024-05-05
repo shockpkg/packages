@@ -1,0 +1,101 @@
+{
+	"name": "flash-player-8-pro-archive",
+	"file": "flash_pro_8_players.zip",
+	"size": 13021646,
+	"sha256": "01406e4bd21e5f87306b318a8df4f085e3c4f4922d7be55b315b8a28f7c02d06",
+	"sha1": "5ad545a2b1d6c7d207f2b7c6f9ad13ee54680bab",
+	"md5": "b30437c37bc02008c1800ba31e925aab",
+	"source": "https://archive.org/download/shockpkg_packages_0/01/40/6e4bd21e5f87306b318a8df4f085e3c4f4922d7be55b315b8a28f7c02d06/flash_pro_8_players.zip",
+	"packages": [
+		{
+			"name": "flash-player-8.0.22.0-windows-nsapi-msi",
+			"file": "Install Flash Player 8 Plugin.msi",
+			"size": 4589056,
+			"sha256": "fceecb17d1aa07b9c8a699e74875833096a9c08d8f8453c134a8d647c409906e",
+			"sha1": "8e815ccfe58f8fbfdc89552bf0fe3be57073ed20",
+			"md5": "5381fc171f0c1a892796e4230b29c6a8",
+			"source": "Players/Release/Install Flash Player 8 Plugin.msi",
+			"zipped": "8-8782054-2058770"
+		},
+		{
+			"name": "flash-player-8.0.22.0-windows-nsapi-debug-msi",
+			"file": "Install Flash Player 8 Plugin.msi",
+			"size": 4582912,
+			"sha256": "234656ea67d31dff6c576595321737e0ee6e6439cee57311d0d75c256e32a12c",
+			"sha1": "4334b9de1678ba9a4321e1cb538bbefc4d03d95e",
+			"md5": "c685550a5f8dd6bdfeece67e8175d05f",
+			"source": "Players/Debug/Install Flash Player 8 Plugin.msi",
+			"zipped": "8-2257879-2053565"
+		},
+		{
+			"name": "flash-player-8.0.22.0-windows-activex-msi",
+			"file": "Install Flash Player 8 ActiveX.msi",
+			"size": 1646592,
+			"sha256": "086075830772885fe24607bcf8ecd186a1d706f7f57436aed2175667a3cdfaf7",
+			"sha1": "7ace4d0b2799efddea2ebeaa687feb84583711ce",
+			"md5": "ec72ab0a198db9fa267a110095aff70a",
+			"source": "Players/Release/Install Flash Player 8 ActiveX.msi",
+			"zipped": "8-6556612-892215"
+		},
+		{
+			"name": "flash-player-8.0.22.0-windows-activex-debug-msi",
+			"file": "Install Flash Player 8 ActiveX.msi",
+			"size": 1634304,
+			"sha256": "85b6df1fd28feec183047e7b483e79209b90f1b42d288bfef41c373723c5f9dc",
+			"sha1": "1c34a8eb14172d7402c5a76c7c93f7badcd898f4",
+			"md5": "04675d9ded0dbc18e0a3b6e67f123efd",
+			"source": "Players/Debug/Install Flash Player 8 ActiveX.msi",
+			"zipped": "8-160-880269"
+		},
+		{
+			"name": "flash-player-8.0.22.0-windows-sa",
+			"file": "SAFlashPlayer.exe",
+			"size": 1581056,
+			"sha256": "469e8562935d5d51b7953e56bd13e0bfd00111d260d850f972909bcb3c34e20d",
+			"sha1": "8a713a0cf878d6866999d6948a8f824c3d9fa15d",
+			"md5": "8829938fd1e3cd4665759929cf6d939a",
+			"source": "Players/Release/SAFlashPlayer.exe",
+			"zipped": "8-10840887-831572"
+		},
+		{
+			"name": "flash-player-8.0.22.0-windows-sa-debug",
+			"file": "SAFlashPlayer.exe",
+			"size": 1687552,
+			"sha256": "a8396110eb3f2ba31d47ddc7dc1213658140148c10d072963b957c33df5fd703",
+			"sha1": "b914d3ae2eaee694ab7265545721a62846fa09dd",
+			"md5": "71aeda246b1e5b58ff7d2d68cc002969",
+			"source": "Players/Debug/SAFlashPlayer.exe",
+			"zipped": "8-4311505-873160"
+		},
+		{
+			"name": "flash-player-8.0.22.0-mac-npapi-debug",
+			"file": "Install Flash Player 8 OSX.dmg",
+			"size": 1384054,
+			"sha256": "abb75eb1572dab0e487e07c89cfddbe6c195ad3e37b4b9ce0eef6b07271468e2",
+			"sha1": "7021f76dd87e3359fced3663d0c4789defaa99b1",
+			"md5": "0079924949061d54b28ace7a962e2268",
+			"source": "Players/Debug/Install Flash Player 8 OSX.dmg",
+			"zipped": "8-880503-1377299"
+		},
+		{
+			"name": "flash-player-8.0.22.0-mac-sa",
+			"file": "SAFlashPlayer.hqx",
+			"size": 3092135,
+			"sha256": "d6988712b41f9863b6dc407052ebdc0c7fa9b0b8fb568e968d743bd85e9b8823",
+			"sha1": "fa6dc1d8d11925fc9f597419a91ea73031065fab",
+			"md5": "ecd6324ecd859b89ed3f28eb87d36454",
+			"source": "Players/Release/SAFlashPlayer.hqx",
+			"zipped": "8-11672522-1347586"
+		},
+		{
+			"name": "flash-player-8.0.22.0-mac-sa-debug",
+			"file": "SAFlashPlayer.hqx",
+			"size": 3238316,
+			"sha256": "8cda2b3f00c45346c42c6c5f9fbaae84ff0db74cc75832dba72563d9e788da7b",
+			"sha1": "795580e309d896cc9819c904880fc029df61b534",
+			"md5": "b1e66bd1422b2ab83c0bb4afd34c1a79",
+			"source": "Players/Debug/SAFlashPlayer.hqx",
+			"zipped": "8-5184726-1371760"
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"name": "flash-player-11.3.300.268-archive",
+	"file": "fp_11.3.300.268_archive.zip",
+	"size": 54244263,
+	"sha256": "375d99df785e30abcfa58f4b3fda7ed606260177e8cf254b170e342342cf6f87",
+	"sha1": "5343914ab64d200d4758ceef7714a8845fa6394e",
+	"md5": "13bad02fe11e3ac2f9d0c28974704446",
+	"source": "https://archive.org/download/shockpkg_packages_3/37/5d/99df785e30abcfa58f4b3fda7ed606260177e8cf254b170e342342cf6f87/fp_11.3.300.268_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-11.3.300.268-mac-npapi",
+			"file": "flashplayer11_3r300_268_mac.dmg",
+			"size": 11579288,
+			"sha256": "6a9a0f314c72928ce0911649d8b669bf32b6af0e94516c711555fe03b6689815",
+			"sha1": "c27ad0b8d3945777efc305f8220edf11b4d7a6e5",
+			"md5": "44cc9bd3066171243231b93f59af738b",
+			"source": "fp_11.3.300.268_archive/11_3r300_268/flashplayer11_3r300_268_mac.dmg",
+			"zipped": "8-165-11574645"
+		},
+		{
+			"name": "flash-player-11.3.300.268-mac-npapi-debug",
+			"file": "flashplayer11_3r300_268_mac_debug.dmg",
+			"size": 12167281,
+			"sha256": "8482be41b51fa755f804fb7887bd01224adadf35009d97e427cf9547c85c2511",
+			"sha1": "fd59533b82aa8729ed91d3c428afbec9560a0ae5",
+			"md5": "df95e8fed07fe0eb16dec5230d2b182b",
+			"source": "fp_11.3.300.268_archive/11_3r300_268_debug/flashplayer11_3r300_268_mac_debug.dmg",
+			"zipped": "8-26450446-12162452"
+		},
+		{
+			"name": "flash-player-11.3.300.268-mac-sa",
+			"file": "flashplayer11_3r300_268_mac_sa.app.zip",
+			"size": 14650147,
+			"sha256": "82ad1698dfdb4b7f23f94212e7a6f6fe964d4ae01529c06b4d69cbf91032b7cd",
+			"sha1": "bf7fe1bb82f0d7a2b19ac8ce905f6b1611913828",
+			"md5": "b01029c5d5cd62c434dacd4f89ee84c2",
+			"source": "fp_11.3.300.268_archive/11_3r300_268/flashplayer11_3r300_268_mac_sa.app.zip",
+			"zipped": "0-11574915-14650147"
+		},
+		{
+			"name": "flash-player-11.3.300.268-mac-sa-debug",
+			"file": "flashplayer11_3r300_268_mac_sa_debug.app.zip",
+			"size": 15629075,
+			"sha256": "5663a3416328d35c833c5b3ae534b63d8b745b9a44b613b238ac6615b0ccdd96",
+			"sha1": "eb334dc4deec9c8268499dd27ba14ea07c7db05f",
+			"md5": "79817c73c655670ce81851b44cebc410",
+			"source": "fp_11.3.300.268_archive/11_3r300_268_debug/flashplayer11_3r300_268_mac_sa_debug.app.zip",
+			"zipped": "0-38613015-15629075"
+		},
+		{
+			"name": "flash-player-11.3.300.268-mac-uninstaller",
+			"file": "uninstall_flashplayer11_3r300_268_mac.dmg",
+			"size": 229823,
+			"sha256": "f16d0293efb35ba6abdf27f66588429680ad8d4fa40d9ed70615be4598843e01",
+			"sha1": "c41c2be13a459a17e0df40aaf04482f0fcb1b669",
+			"md5": "c909e7fe68c230462194c8b3d6fc5424",
+			"source": "fp_11.3.300.268_archive/11_3r300_268/uninstall_flashplayer11_3r300_268_mac.dmg",
+			"zipped": "8-26225170-225093"
+		}
+	]
+}

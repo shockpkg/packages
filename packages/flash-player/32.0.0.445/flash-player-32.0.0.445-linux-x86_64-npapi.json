@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.445-linux-x86_64-npapi",
+	"file": "flash_player_npapi_linux.x86_64.tar.gz",
+	"size": 9066116,
+	"sha256": "56420bed16ad33d33ecc6f62775f1a1917659946023f81f269c10d6aa115a5b5",
+	"sha1": "ba5e2686c7a2916de54261186666348db933a72c",
+	"md5": "4a5fbf321ae0c946a000ddd4fc7cb62e",
+	"source": "https://archive.org/download/shockpkg_packages_5/56/42/0bed16ad33d33ecc6f62775f1a1917659946023f81f269c10d6aa115a5b5/flash_player_npapi_linux.x86_64.tar.gz"
+}

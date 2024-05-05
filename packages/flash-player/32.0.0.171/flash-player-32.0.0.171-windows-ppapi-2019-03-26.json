@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.171-windows-ppapi-2019-03-26",
+	"file": "install_flash_player_ppapi.exe",
+	"size": 21104664,
+	"sha256": "4137752431ab4eb79e5e8ab19894f345df4323d62b6c213fdbf68a791e7516e4",
+	"sha1": "ed920043da9bad018d639fa3b44f20e13b97804f",
+	"md5": "9b4ad2af70018119acfb828b7286fab5",
+	"source": "https://archive.org/download/shockpkg_packages_4/41/37/752431ab4eb79e5e8ab19894f345df4323d62b6c213fdbf68a791e7516e4/install_flash_player_ppapi.exe"
+}

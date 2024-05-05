@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.403-linux-i386-npapi-debug",
+	"file": "flash_player_npapi_linux_debug.i386.tar.gz",
+	"size": 8865759,
+	"sha256": "91e6193b8d21d0d6155fbcebcee003c17f051d04ddfa5af00cc7d6a565246f6d",
+	"sha1": "aede369760dcbe4989d48e0532224d54d6878ff8",
+	"md5": "6e89480c972cd251d3a3797f41891266",
+	"source": "https://archive.org/download/shockpkg_packages_9/91/e6/193b8d21d0d6155fbcebcee003c17f051d04ddfa5af00cc7d6a565246f6d/flash_player_npapi_linux_debug.i386.tar.gz"
+}

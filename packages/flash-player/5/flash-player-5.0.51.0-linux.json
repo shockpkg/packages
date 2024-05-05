@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-5.0.51.0-linux",
+	"file": "flash_linux.tar.gz",
+	"size": 568380,
+	"sha256": "3a10f49c6ec2ceb8954cae36368a8cbb56a5da1ad486ab3889435ee4f7d2273c",
+	"sha1": "757b616634b3d9398d76437c5c41927fb91f0b9d",
+	"md5": "0585bd78ef9fbe6ae7d63f42a450f127",
+	"source": "https://archive.org/download/shockpkg_packages_3/3a/10/f49c6ec2ceb8954cae36368a8cbb56a5da1ad486ab3889435ee4f7d2273c/flash_linux.tar.gz"
+}

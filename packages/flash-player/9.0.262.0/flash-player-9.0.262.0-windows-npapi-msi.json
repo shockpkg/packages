@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-9.0.262.0-windows-npapi-msi",
+	"file": "Install Flash Player 9 Plugin.msi",
+	"size": 4407296,
+	"sha256": "e4f9b44d6a8ca6b14a5fee28ec688158a58a8aeec4e17aa0980e2a453b34b89e",
+	"sha1": "7eb0ff9ff67c2475fd53354ddf1af2de56f44fc2",
+	"md5": "0aafad511af6d133a1f982e2ef8f9816",
+	"source": "https://archive.org/download/shockpkg_packages_e/e4/f9/b44d6a8ca6b14a5fee28ec688158a58a8aeec4e17aa0980e2a453b34b89e/Install%20Flash%20Player%209%20Plugin.msi"
+}

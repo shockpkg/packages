@@ -1,0 +1,21 @@
+{
+	"name": "air-runtime-3.2.0.2070-mac-archive",
+	"file": "AdobeAIR.zip",
+	"size": 23588173,
+	"sha256": "f7107161f34a71767e74e37a80c7d48b79f7c0df4f58f84b9dcb946d2c4d2869",
+	"sha1": "8a9e5a17cc63c015298feb14665e0173f7bebb0b",
+	"md5": "b98916aff03960f20c6ad4a3798156e0",
+	"source": "https://archive.org/download/shockpkg_packages_f/f7/10/7161f34a71767e74e37a80c7d48b79f7c0df4f58f84b9dcb946d2c4d2869/AdobeAIR.zip",
+	"packages": [
+		{
+			"name": "air-runtime-3.2.0.2070-mac",
+			"file": "AdobeAIR.dmg",
+			"size": 23662941,
+			"sha256": "43e2d120ffcccd37f35991201b7b534d7296ba040b580b1136b3e95d0096982b",
+			"sha1": "b302427af6f093b5f77cce7e064c97a65eb2d2cc",
+			"md5": "398b6c96470e7ef0c3c8f8c5b62806f4",
+			"source": "AdobeAIR.dmg",
+			"zipped": "8-42-23588015"
+		}
+	]
+}

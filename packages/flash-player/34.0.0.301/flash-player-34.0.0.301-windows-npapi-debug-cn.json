@@ -1,0 +1,12 @@
+{
+	"name": "flash-player-34.0.0.301-windows-npapi-debug-cn",
+	"file": "install_flash_player_debug_cn.exe",
+	"size": 11630048,
+	"sha256": "9b36c780887f5b3964552f76c0c92496cedbafb041b6d7f0b14b1068791c6cfd",
+	"sha1": "db24f1faff2c325eb189894a5bcbd9dc750ba41f",
+	"md5": "0b61cc0b898b3b3c7ad800bcb045b85f",
+	"source": "https://archive.org/download/shockpkg_packages_9/9b/36/c780887f5b3964552f76c0c92496cedbafb041b6d7f0b14b1068791c6cfd/install_flash_player_debug_cn.exe",
+	"metadata": {
+		"date": "2023-09-12"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.114-windows-npapi-2018-12-17",
+	"file": "install_flash_player.exe",
+	"size": 21301208,
+	"sha256": "b978c03477be93f11980fa67675efb59ca6a9c5a99b6ce1297e03945996f2a54",
+	"sha1": "99b3b0e6e5dd4f76e7715cd8f236f41d003a59a5",
+	"md5": "ac73535126883ab9367348d0d62fa7cc",
+	"source": "https://archive.org/download/shockpkg_packages_b/b9/78/c03477be93f11980fa67675efb59ca6a9c5a99b6ce1297e03945996f2a54/install_flash_player.exe"
+}

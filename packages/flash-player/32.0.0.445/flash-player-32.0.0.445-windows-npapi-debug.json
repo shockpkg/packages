@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.445-windows-npapi-debug",
+	"file": "flashplayer_32_plugin_debug.exe",
+	"size": 21388344,
+	"sha256": "0d5ef90365a6dc15bb37b45394ce0933c3f3c605743c2a26912e30dea9e33387",
+	"sha1": "1bd2209b997842aef4be42327607cfbea6f227da",
+	"md5": "e281e0cdb4dde88966c113b24833aa88",
+	"source": "https://archive.org/download/shockpkg_packages_0/0d/5e/f90365a6dc15bb37b45394ce0933c3f3c605743c2a26912e30dea9e33387/flashplayer_32_plugin_debug.exe"
+}

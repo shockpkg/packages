@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-22.0.0.192-linux-armv7-ppapi-so",
+	"file": "libpepflashplayer.so",
+	"size": 19846696,
+	"sha256": "a9cc4d1ad3f76672dd06beafa86de3d0e55b60771fce1a1ac3200e0c7f298e62",
+	"sha1": "a7f67c23ee9ba87ded858af9e00a1d3346169c01",
+	"md5": "0cae2d1e18d1fb1635645143ef973919",
+	"source": "https://archive.org/download/shockpkg_packages_a/a9/cc/4d1ad3f76672dd06beafa86de3d0e55b60771fce1a1ac3200e0c7f298e62/libpepflashplayer.so"
+}

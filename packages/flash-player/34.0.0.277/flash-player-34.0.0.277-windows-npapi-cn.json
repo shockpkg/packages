@@ -1,0 +1,12 @@
+{
+	"name": "flash-player-34.0.0.277-windows-npapi-cn",
+	"file": "install_flash_player_cn.exe",
+	"size": 11907552,
+	"sha256": "b025671424a903dc413df7156b8bc1c934ec863e359006632d90303d039082a9",
+	"sha1": "3275f069d5611c31c846626be24ef3d270d277bf",
+	"md5": "a9103ceb9d4ebd98bc8897ede3f886da",
+	"source": "https://archive.org/download/shockpkg_packages_b/b0/25/671424a903dc413df7156b8bc1c934ec863e359006632d90303d039082a9/install_flash_player_cn.exe",
+	"metadata": {
+		"date": "2022-11-08"
+	}
+}

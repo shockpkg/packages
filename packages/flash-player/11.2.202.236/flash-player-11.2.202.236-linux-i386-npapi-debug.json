@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-11.2.202.236-linux-i386-npapi-debug",
+	"file": "flashplayer_11_plugin_debug.i386.tar.gz",
+	"size": 7395698,
+	"sha256": "30e0513fa6759267593366d7fbf0752b41a7f360e9edc539b995ef3f97006841",
+	"sha1": "8ac71c7c29ada0a44ad2c1cf4c965a25294f5f8f",
+	"md5": "7e4e35ff1211a686192d41237056c75e",
+	"source": "https://archive.org/download/shockpkg_packages_3/30/e0/513fa6759267593366d7fbf0752b41a7f360e9edc539b995ef3f97006841/flashplayer_11_plugin_debug.i386.tar.gz"
+}

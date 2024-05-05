@@ -1,0 +1,91 @@
+{
+	"name": "flash-player-5-pro-archive",
+	"file": "flash_pro_5_players.zip",
+	"size": 3200849,
+	"sha256": "d0a29035d10f1a5e6f11ace00fc162e47a9a48770f040c74554f55fa3b770932",
+	"sha1": "c0feb35d53cdf4d000df98872a0d9eaa7f1c7da6",
+	"md5": "39e3cf4bcc6fd200e0af53b1d9d6ea5d",
+	"source": "https://archive.org/download/shockpkg_packages_d/d0/a2/9035d10f1a5e6f11ace00fc162e47a9a48770f040c74554f55fa3b770932/flash_pro_5_players.zip",
+	"packages": [
+		{
+			"name": "flash-player-5.0.30.0-windows-npapi-debug",
+			"file": "flash32.EXE",
+			"size": 322224,
+			"sha256": "1eeea6dc4f926367db752c6222b8c71759608a30b3986addf7c2a6cf1f969a89",
+			"sha1": "31e421d54dc4e82be4ce9ea11261a916cb3d44ec",
+			"md5": "57beaab914c41c3ea566824f3539dd1f",
+			"source": "Players/Debug/flash32.EXE",
+			"zipped": "8-1149447-315335"
+		},
+		{
+			"name": "flash-player-5.0.30.0-windows-activex-debug",
+			"file": "InstallAXFlash.exe",
+			"size": 349824,
+			"sha256": "927d8b8020089c766d5bde1ab6e904f3f281f45697633d4388baa8123464ab33",
+			"sha1": "b40a0ea48b4a6aec810b038e2be5b8315136ed87",
+			"md5": "a9fa0cc0386be8e238479aef6480862d",
+			"source": "Players/Debug/InstallAXFlash.exe",
+			"zipped": "8-866740-282652"
+		},
+		{
+			"name": "flash-player-5.0.30.0-windows-sa",
+			"file": "FlashPla.exe",
+			"size": 376832,
+			"sha256": "81b73addb83c2687a714016005dd62864f7c83cdc4e04016eb07a460b10ab761",
+			"sha1": "542d17808e87dbef37f73d9ecc2cc086d8148830",
+			"md5": "17f64e891f68f82b7b04379b6ad5b1f7",
+			"source": "Players/Release/FlashPla.exe",
+			"zipped": "8-2104379-191967"
+		},
+		{
+			"name": "flash-player-5.0.30.0-windows-sa-debug",
+			"file": "FlashPla.exe",
+			"size": 389120,
+			"sha256": "b20083fd047fb9c405d0a5a04c84eb25650e7f76b46c5863e2bb61cc2ec06440",
+			"sha1": "27c8af3bd4a74f683b0fae1b099bf532b4a4dbbf",
+			"md5": "4afa251dca3d6c084c322c5376ab8e94",
+			"source": "Players/Debug/FlashPla.exe",
+			"zipped": "8-351434-196444"
+		},
+		{
+			"name": "flash-player-5.0.30.0-mac-npapi",
+			"file": "Flash 5 Player Installer.hqx",
+			"size": 480338,
+			"sha256": "73ea5a5f11aec84204a522a2495e42fb36d48bba0e29148035d94636400c1594",
+			"sha1": "cda3b8740fe55688408481833a251757366251f4",
+			"md5": "c04befeec8e03e75ec8af083babbb026",
+			"source": "Players/Release/Flash 5 Player Installer.hqx",
+			"zipped": "8-1757677-346644"
+		},
+		{
+			"name": "flash-player-5.0.30.0-mac-npapi-debug",
+			"file": "Flash 5 Player Installer.hqx",
+			"size": 486338,
+			"sha256": "22e7e3405345ebb004e3025d0ed5202c00368f111652fa3dfef26e8b29b537b6",
+			"sha1": "f90581b5bdee246985ef2a893ffabaeeedab59c3",
+			"md5": "af47bc19a940aec55913209f18103445",
+			"source": "Players/Debug/Flash 5 Player Installer.hqx",
+			"zipped": "8-154-351224"
+		},
+		{
+			"name": "flash-player-5.0.30.0-mac-sa",
+			"file": "FlashPla.hqx",
+			"size": 691921,
+			"sha256": "48782cf52c0d4856d6f1a41f2353c6f60c2f4b567828f5f86466ab2e640c5ae8",
+			"sha1": "29c60ce996889c554ad6625ab8fd93cc22135b6a",
+			"md5": "ea6e7a6944060f7a32f1910fa224793b",
+			"source": "Players/Release/FlashPla.hqx",
+			"zipped": "8-2296404-312384"
+		},
+		{
+			"name": "flash-player-5.0.30.0-mac-sa-debug",
+			"file": "FlashPla.hqx",
+			"size": 709186,
+			"sha256": "96cab75cf3dfbe0df18307c493f9f97ca3d26f26a9d84a001c4ec22f8c4748e7",
+			"sha1": "02f2d474941c9e2e61ddf7db56756f3bcfeaf795",
+			"md5": "f644a0c69b3142237a8e05759cc5ed45",
+			"source": "Players/Debug/FlashPla.hqx",
+			"zipped": "8-547934-318744"
+		}
+	]
+}

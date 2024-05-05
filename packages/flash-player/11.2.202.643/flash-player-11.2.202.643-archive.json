@@ -1,0 +1,61 @@
+{
+	"name": "flash-player-11.2.202.643-archive",
+	"file": "fp_11.2.202.643_archive.zip",
+	"size": 33913165,
+	"sha256": "1a79f38f7153d436083b5a6b5d0f38e0c4cd345e83e7d050152452057f83350a",
+	"sha1": "9cec7f810dee6b8bcd1aea24ff5710c8b5075a52",
+	"md5": "e728fd1295b9df2c6c12d17c26eba154",
+	"source": "https://archive.org/download/shockpkg_packages_1/1a/79/f38f7153d436083b5a6b5d0f38e0c4cd345e83e7d050152452057f83350a/fp_11.2.202.643_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-11.2.202.643-linux-i386-npapi",
+			"file": "flashplayer11_2r202_643_linux.i386.tar.gz",
+			"size": 6991072,
+			"sha256": "b3cb465620b18df1a4cb88427f2e3c7bd080ee23883b05f94245187a783fa25c",
+			"sha1": "ab1d7832de139df7b3992119d4a215c0d95cb044",
+			"md5": "dd138cf72e62fbe69df5384d3e8396fc",
+			"source": "11_2_r202_643_32bit/flashplayer11_2r202_643_linux.i386.tar.gz",
+			"zipped": "8-141-6894412"
+		},
+		{
+			"name": "flash-player-11.2.202.643-linux-i386-npapi-debug",
+			"file": "flashplayer11_2r202_643_linux_debug.i386.tar.gz",
+			"size": 7471672,
+			"sha256": "31f294bde4f7115831e6b83dab54b772b75ada254144b196ab2cb5b0ea69a041",
+			"sha1": "0afa490180c17788d3d7411ce79961f892331b71",
+			"md5": "1571e75fc3151de305187989a34645d9",
+			"source": "11_2_r202_643_32bit_debug/flashplayer11_2r202_643_linux_debug.i386.tar.gz",
+			"zipped": "8-12896520-7357048"
+		},
+		{
+			"name": "flash-player-11.2.202.643-linux-i386-sa",
+			"file": "flashplayer11_2r202_643_linux_sa.i386.tar.gz",
+			"size": 6019136,
+			"sha256": "3195190fafeb51230406fc6004c2513f245d42c35563b0c90860483a1469f0cc",
+			"sha1": "ad5eab98cbc202f3b9e317c540aa24bb52a382bb",
+			"md5": "cab27e7e375fd6e7fc92d2e1f2f650b2",
+			"source": "11_2_r202_643_32bit/flashplayer11_2r202_643_linux_sa.i386.tar.gz",
+			"zipped": "8-6894647-6001714"
+		},
+		{
+			"name": "flash-player-11.2.202.643-linux-i386-sa-debug",
+			"file": "flashplayer11_2r202_643_linux_sa_debug.i386.tar.gz",
+			"size": 6495130,
+			"sha256": "1df3efa4b20e3e812071474d0b8b9036aaabbce8686ee595d31950c53362b7d6",
+			"sha1": "3b723874add24c21ea28edfed870b4025eb1d493",
+			"md5": "de628eb7097085dea2a9102072c06487",
+			"source": "11_2_r202_643_32bit_debug/flashplayer11_2r202_643_linux_sa_debug.i386.tar.gz",
+			"zipped": "8-20253674-6477663"
+		},
+		{
+			"name": "flash-player-11.2.202.643-linux-x86_64-npapi",
+			"file": "flashplayer11_2r202_643_linux.x86_64.tar.gz",
+			"size": 7302135,
+			"sha256": "a1bdc2154d888358e86712bdd77ef8f03d144847b0d18cd9f7bfff502f017647",
+			"sha1": "51841471d125f44aebc729b7d76950f4c8625f93",
+			"md5": "27b5026df9168a30fc4877159efad6e8",
+			"source": "11_2_r202_643_64bit/flashplayer11_2r202_643_linux.x86_64.tar.gz",
+			"zipped": "8-26731480-7180892"
+		}
+	]
+}

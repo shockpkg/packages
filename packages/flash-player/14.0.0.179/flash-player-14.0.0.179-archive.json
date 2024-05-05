@@ -1,0 +1,41 @@
+{
+	"name": "flash-player-14.0.0.179-archive",
+	"file": "fp_14.0.0.179_archive.zip",
+	"size": 57261272,
+	"sha256": "17496fd3c863c180aead953d7d4499dd36f997a9570abc2b92f55e4ea1d55d73",
+	"sha1": "b94860ca0eff3e1420c24f9647a5f9f5e610ce34",
+	"md5": "47dfcbeddd4d02fd72b483263ec00960",
+	"source": "https://archive.org/download/shockpkg_packages_1/17/49/6fd3c863c180aead953d7d4499dd36f997a9570abc2b92f55e4ea1d55d73/fp_14.0.0.179_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-14.0.0.179-windows-npapi",
+			"file": "flashplayer14_0r0_179_win.exe",
+			"size": 19182768,
+			"sha256": "94e626659aa698f139325402f9cc5bb775a182babf39a2fe45f18a8ce44381a5",
+			"sha1": "1d5725fd0d50eb1361213179ffae9ee24944755a",
+			"md5": "3d539963e937a836c0e36383b1bba6c9",
+			"source": "fp_14.0.0.179_archive/14_0_r0_179/flashplayer14_0r0_179_win.exe",
+			"zipped": "8-209-19047675"
+		},
+		{
+			"name": "flash-player-14.0.0.179-windows-npapi-msi",
+			"file": "flashplayer14_0r0_179_win.msi",
+			"size": 20288000,
+			"sha256": "0af58b9eeb26d8004bedfe51afa520b011cbb324d4461bd9d593111cbd1866e8",
+			"sha1": "1fa1f5869944978fe929f642028156466eaac9fa",
+			"md5": "79efa264eab176499356bcb76d96ebba",
+			"source": "fp_14.0.0.179_archive/14_0_r0_179/flashplayer14_0r0_179_win.msi",
+			"zipped": "8-19047977-19360480"
+		},
+		{
+			"name": "flash-player-14.0.0.179-windows-npapi-debug",
+			"file": "flashplayer14_0r0_179_win_debug.exe",
+			"size": 18987184,
+			"sha256": "cbaf8f5967348a05e4e608e5692b8c232d28938ec34bf5156bad2dde40b633c7",
+			"sha1": "ddbc2253e16ae20c98fa6a3a75ddb3fe0766ed74",
+			"md5": "e047fe3e1fe77997a45c31717dc05432",
+			"source": "fp_14.0.0.179_archive/14_0_r0_179_debug/flashplayer14_0r0_179_win_debug.exe",
+			"zipped": "8-38408632-18852045"
+		}
+	]
+}

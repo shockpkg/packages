@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-7.0.61.0-linux",
+	"file": "install_flash_player_7_linux.tar.gz",
+	"size": 989217,
+	"sha256": "23857def9bdde26791fbb4d9f733e1232fa9b6838fe3ce9989af494dc983511a",
+	"sha1": "c9d53efa89beb052cc989d481bf617bcb6ff30d2",
+	"md5": "b063b512076d4c88a56cb7521e6b5409",
+	"source": "https://archive.org/download/shockpkg_packages_2/23/85/7def9bdde26791fbb4d9f733e1232fa9b6838fe3ce9989af494dc983511a/install_flash_player_7_linux.tar.gz"
+}

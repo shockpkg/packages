@@ -1,0 +1,21 @@
+{
+	"name": "air-runtime-14.0.0.178-mac-archive",
+	"file": "AdobeAIR.zip",
+	"size": 26446662,
+	"sha256": "84905c725571e6df91632a8b7850a82d1a80590ef2069489b305f85c41890fb6",
+	"sha1": "f7e7b97b4ada8855675687774ae58e52c79bc73d",
+	"md5": "732e5f0ee057fd84982c9ee77c30110a",
+	"source": "https://archive.org/download/shockpkg_packages_8/84/90/5c725571e6df91632a8b7850a82d1a80590ef2069489b305f85c41890fb6/AdobeAIR.zip",
+	"packages": [
+		{
+			"name": "air-runtime-14.0.0.178-mac",
+			"file": "AdobeAIR.dmg",
+			"size": 26474780,
+			"sha256": "af16b6ea395efb9f9f01e15f7378fba097322e0506d2f5d48412d28a6f71b039",
+			"sha1": "60f8bbea5e71a364fa516cddcaf515e44b4b6204",
+			"md5": "e81178dff9a9f311f1d7886f8ffb0291",
+			"source": "AdobeAIR.dmg",
+			"zipped": "8-42-26446504"
+		}
+	]
+}

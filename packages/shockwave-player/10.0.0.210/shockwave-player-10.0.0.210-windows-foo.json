@@ -1,0 +1,9 @@
+{
+	"name": "shockwave-player-10.0.0.210-windows-foo",
+	"file": "installer.foo.exe",
+	"size": 3943438,
+	"sha256": "8be87beb7f5a4bfd3fa27d75652a20b00b1e6800d178179ee837f5f3b5d1db24",
+	"sha1": "6e8390fffedc6f07a0a2bd38f53c00134cfb416c",
+	"md5": "3116128320634a51ca71c45ce1d1a64d",
+	"source": "https://archive.org/download/shockpkg_packages_8/8b/e8/7beb7f5a4bfd3fa27d75652a20b00b1e6800d178179ee837f5f3b5d1db24/installer.foo.exe"
+}

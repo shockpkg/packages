@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-27.0.0.187-linux-armv7-ppapi-so",
+	"file": "libpepflashplayer.so",
+	"size": 20052672,
+	"sha256": "d31d3d60545e9bbd38f48ee4eeda79df14e40d0d3f9679dd833ba83a65833a20",
+	"sha1": "c2fdcef5be2fd16cdfb3d2267e20c789be7ff087",
+	"md5": "f9f4d3a16cc1be84170c15afa5eeb9e2",
+	"source": "https://archive.org/download/shockpkg_packages_d/d3/1d/3d60545e9bbd38f48ee4eeda79df14e40d0d3f9679dd833ba83a65833a20/libpepflashplayer.so"
+}

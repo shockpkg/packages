@@ -1,0 +1,12 @@
+{
+	"name": "flash-player-34.0.0.137-linux-i386-npapi-rpm-cn",
+	"file": "flash-player-npapi-release.i386.rpm",
+	"size": 8959204,
+	"sha256": "7a31127678cdad79371f13eb41e06a230612cea8223a21998a76772260dde8c1",
+	"sha1": "9e29974e711158b766fd8489309ee3759b003ed2",
+	"md5": "faf98489aa5d8cdd7b1508bc4c1d9c8b",
+	"source": "https://archive.org/download/shockpkg_packages_7/7a/31/127678cdad79371f13eb41e06a230612cea8223a21998a76772260dde8c1/flash-player-npapi-release.i386.rpm",
+	"metadata": {
+		"date": "2021-04-13"
+	}
+}

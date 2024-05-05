@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.414-linux-x86_64-sa",
+	"file": "flash_player_sa_linux.x86_64.tar.gz",
+	"size": 8514114,
+	"sha256": "24afc405025823f1df28314625347101829b4ba73e86c091585baacda11bab5f",
+	"sha1": "ef0125bc657688b1c618214079e9b4993d596fc4",
+	"md5": "2f8ed09215e83ef4f6a18eef9663a892",
+	"source": "https://archive.org/download/shockpkg_packages_2/24/af/c405025823f1df28314625347101829b4ba73e86c091585baacda11bab5f/flash_player_sa_linux.x86_64.tar.gz"
+}

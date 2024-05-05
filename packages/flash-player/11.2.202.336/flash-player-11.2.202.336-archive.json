@@ -1,0 +1,41 @@
+{
+	"name": "flash-player-11.2.202.336-archive",
+	"file": "fp_11.2.202.336_archive.zip",
+	"size": 19865814,
+	"sha256": "54b2efba553f8a7dda89526cd66a685814d3034ff4efad689662f56e273d859b",
+	"sha1": "0275af94bf3a569dfbf0b89849807e6f00997dc8",
+	"md5": "3f67cb2881a7038404c028ce53db37c5",
+	"source": "https://archive.org/download/shockpkg_packages_5/54/b2/efba553f8a7dda89526cd66a685814d3034ff4efad689662f56e273d859b/fp_11.2.202.336_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-11.2.202.336-linux-i386-npapi",
+			"file": "flashplayer_11_2r202_336_linux.i386.tar.gz",
+			"size": 6923195,
+			"sha256": "05c1ab26da7089115e5d987154463e9b8b99e9360a7f5c2f7ee4e472e4925d56",
+			"sha1": "b84a09f7a8447d1d15ab617a433be550df608922",
+			"md5": "bd7f77dfd0a03bbbd5d124febb8c83d5",
+			"source": "fp_11.2.202.336_archive/11_2r202_336_32bit/flashplayer_11_2r202_336_linux.i386.tar.gz",
+			"zipped": "8-13043622-6821041"
+		},
+		{
+			"name": "flash-player-11.2.202.336-linux-i386-sa",
+			"file": "flashplayer_11_2r202_336_linux_sa.i386.tar.gz",
+			"size": 5957382,
+			"sha256": "7b79728b211f72c0350c44e0497bcac0775d4726bd3c020e0a1b6cf442d09719",
+			"sha1": "90dba73c050555e85eaf5b7b48cb43a0b115aa3d",
+			"md5": "654e3b2f2c0221d8de2f1a20eec95aca",
+			"source": "fp_11.2.202.336_archive/11_2r202_336_32bit/flashplayer_11_2r202_336_linux_sa.i386.tar.gz",
+			"zipped": "8-7105274-5938233"
+		},
+		{
+			"name": "flash-player-11.2.202.336-linux-x86_64-npapi",
+			"file": "flash-plugin-11.2.202.336-release.x86_64.tar.gz",
+			"size": 7234917,
+			"sha256": "d1b25e2812f489c58a9d746165a552addc75e6109b4ed74421fa51ba8b3731f3",
+			"sha1": "bbc2aacdab9cb48e94176701d0cfd16560b75efc",
+			"md5": "63d0a9b141f5a52cf9c7a71bd4f785f2",
+			"source": "fp_11.2.202.336_archive/11_2r202_336_64bit/flash-plugin-11.2.202.336-release.x86_64.tar.gz",
+			"zipped": "8-193-7104890"
+		}
+	]
+}

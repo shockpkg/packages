@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.330-windows-ppapi-2020-01-27",
+	"file": "install_flash_player_ppapi.exe",
+	"size": 21131800,
+	"sha256": "6b65df9d6a27aed757c2095e99b49c673e85a452592e2f90a616e8b248d95f2f",
+	"sha1": "a1f72541702878bb616448ab02604aa42a2ddbf0",
+	"md5": "8869d7fa8e53e04fb64ae9f1eb7a3bfc",
+	"source": "https://archive.org/download/shockpkg_packages_6/6b/65/df9d6a27aed757c2095e99b49c673e85a452592e2f90a616e8b248d95f2f/install_flash_player_ppapi.exe"
+}

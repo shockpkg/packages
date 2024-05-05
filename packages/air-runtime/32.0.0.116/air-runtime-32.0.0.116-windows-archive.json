@@ -1,0 +1,21 @@
+{
+	"name": "air-runtime-32.0.0.116-windows-archive",
+	"file": "AdobeAIRInstaller.zip",
+	"size": 10532243,
+	"sha256": "fe1d8132fd404e9312a6386ffd13be1dac646abbf4b935c6ee9dcbeb1491e2c5",
+	"sha1": "b1af4527f1e210d63fe5cf013ff7d4ccf321e0c1",
+	"md5": "227b47ea0722a4d518f893367ed87fc8",
+	"source": "https://archive.org/download/shockpkg_packages_f/fe/1d/8132fd404e9312a6386ffd13be1dac646abbf4b935c6ee9dcbeb1491e2c5/AdobeAIRInstaller.zip",
+	"packages": [
+		{
+			"name": "air-runtime-32.0.0.116-windows",
+			"file": "AdobeAIRInstaller.exe",
+			"size": 10869264,
+			"sha256": "c07fe0e15990aaf56d9b43402faf7fe78b3dbd40b1e7e97708db68f8493e38f4",
+			"sha1": "ab126056b80f750d9b60beaa731476c77f271d8b",
+			"md5": "4cbec97fb5bbf9ad86f54957076bc2d3",
+			"source": "AdobeAIRInstaller.exe",
+			"zipped": "8-51-10532067"
+		}
+	]
+}

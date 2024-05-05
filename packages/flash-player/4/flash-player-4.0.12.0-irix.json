@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-4.0.12.0-irix",
+	"file": "flash_irix.tar.gz",
+	"size": 675036,
+	"sha256": "237a31f60378d11baefdfa232f4fcbaaac2293e20f276b54c2947c5fe3a6e2d1",
+	"sha1": "ce0a43731fcb42d2f6d526c660209a1fba241ba1",
+	"md5": "13df4dc28171de2e64aa412bd6d57a04",
+	"source": "https://archive.org/download/shockpkg_packages_2/23/7a/31f60378d11baefdfa232f4fcbaaac2293e20f276b54c2947c5fe3a6e2d1/flash_irix.tar.gz"
+}

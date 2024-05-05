@@ -1,0 +1,271 @@
+{
+	"name": "flash-player-11.2.202.223-and-11.2.202.228-archive",
+	"file": "fp_11.2.202.228_archive.zip",
+	"size": 190958421,
+	"sha256": "657a57aa45fb5ad6a2b83de022d6283ccf4ff41bc2f56fcfb539527aa7c5d0c3",
+	"sha1": "986c6e40d931e03d5155f6ece25844ea156ad517",
+	"md5": "9d267fed4f7f6ddc79536e4901f40d1b",
+	"source": "https://archive.org/download/shockpkg_packages_6/65/7a/57aa45fb5ad6a2b83de022d6283ccf4ff41bc2f56fcfb539527aa7c5d0c3/fp_11.2.202.228_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-11.2.202.223-solaris-x86-npapi",
+			"file": "flash_player_11_2r202_223_solaris_x86.tar.bz2",
+			"size": 6212851,
+			"sha256": "7b96ed6ff744fb96b5deabcf19a471a401871340a996e0695f3a7d841e7f2a14",
+			"sha1": "6442a8bc622ee0f7362b509bbe52b021b8592575",
+			"md5": "1b3d6ef0f0eecebc2db2de7e1989396e",
+			"source": "fp_11.2.202.228_archive/11_2r202_223_32bit/flash_player_11_2r202_228_solaris_x86.tar.bz2",
+			"zipped": "8-191-6153615"
+		},
+		{
+			"name": "flash-player-11.2.202.223-solaris-sparc-npapi",
+			"file": "flash_player11_2r202_223_solaris_sparc.tar.bz2",
+			"size": 5820070,
+			"sha256": "ffeff7caae1de19c8d7a5bbe74fc19664361b45a25f6d19db6d9381f5b4a994e",
+			"sha1": "3500caec3fa133c44dc8bfff880f418f88d6897b",
+			"md5": "ae3460db347425f8e05ab447e3708752",
+			"source": "fp_11.2.202.228_archive/11_2r202_223_32bit/flash_player11_2r202_228_solaris_sparc.tar.bz2",
+			"zipped": "8-6153925-5799037"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-32bit-npapi",
+			"file": "flashplayer11_2r202_228_win_32bit.exe",
+			"size": 4139168,
+			"sha256": "b7d6bbca8cd45cd9a8f731730d7db28d69401191fef02113553a3c6f2bb3d75e",
+			"sha1": "c81ed2e05a7f1f62777517638f8409f02c42ac8d",
+			"md5": "35b27ffdc1c29d333df8711fb17eb843",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/flashplayer11_2r202_228_win_32bit.exe",
+			"zipped": "8-50082245-4048261"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-32bit-npapi-msi",
+			"file": "flashplayer11_2r202_228_win_32bit.msi",
+			"size": 5168640,
+			"sha256": "f581a6b4b61ec4dfa08d99213497c9c1e66e6a30a96087bb5bca0df5e5b75f1c",
+			"sha1": "875ef1bbe868824c181fba4247d450c7a3f4cf4a",
+			"md5": "745e46909129c36f445a0fccda9b02cd",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/flashplayer11_2r202_228_win_32bit.msi",
+			"zipped": "8-54130616-4279731"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-32bit-npapi-debug",
+			"file": "flashplayer11_2r202_228_win_debug_32bit.exe",
+			"size": 4365984,
+			"sha256": "e44363360efea40050ed5e3511ee5b8f6d7c9c32e5091fb4a7d09f1e5f7f2f01",
+			"sha1": "cc320e0fba5e42a8215e0072945e1a2c522bf225",
+			"md5": "54b397038c8c77501aae7373801e32ed",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit_debug/flashplayer11_2r202_228_win_debug_32bit.exe",
+			"zipped": "8-111799217-4275471"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-32bit-activex",
+			"file": "flashplayer11_2r202_228_winax_32bit.exe",
+			"size": 4125344,
+			"sha256": "8e5b10fc4d1400b69e31b944498dc620b0b846f4923fd93b508efffa9fbb87cb",
+			"sha1": "95c77dbeacb02a501e2cca349690774644bea3d5",
+			"md5": "3e941551049f5a7023800180ac8907c0",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/flashplayer11_2r202_228_winax_32bit.exe",
+			"zipped": "8-62310460-4034633"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-32bit-activex-msi",
+			"file": "flashplayer11_2r202_228_winax_32bit.msi",
+			"size": 5153792,
+			"sha256": "a9da2bd58b8c0e12d271b05a392ac0d19f0aa2b3f64cb7cd79b054dc21f82418",
+			"sha1": "7216d0722ea395a08735d8193857c97608e346b8",
+			"md5": "e27af8bd153927ea726fbf7be1ba4774",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/flashplayer11_2r202_228_winax_32bit.msi",
+			"zipped": "8-66345205-4265237"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-32bit-activex-debug",
+			"file": "flashplayer11_2r202_228_winax_debug_32bit.exe",
+			"size": 4355232,
+			"sha256": "a600be21f8a5e6cd9174b4a919d10a5ffe665f130c566ad55ff7ef32404b90fb",
+			"sha1": "9ade67a7308e07af19baaae8e821ed179b3a0301",
+			"md5": "5ad9302824ae2fa3b3926ef84e21c4cf",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit_debug/flashplayer11_2r202_228_winax_debug_32bit.exe",
+			"zipped": "8-120397357-4264715"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-32bit-sa",
+			"file": "flashplayer11_2r202_228_win_sa_32bit.exe",
+			"size": 8090272,
+			"sha256": "367f4eb201408cdd8cdbad7a3cf78423fd5db85ebb7257334c36779fad0c2fa4",
+			"sha1": "e2620eccad0e9f9a45f417901d746bd83af76107",
+			"md5": "7991c384c31e4cbbe089728b895c3a8d",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/flashplayer11_2r202_228_win_sa_32bit.exe",
+			"zipped": "8-58410460-3899888"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-32bit-sa-debug",
+			"file": "flashplayer11_2r202_228_win_sa_debug_32bit.exe",
+			"size": 9430688,
+			"sha256": "9cdd2f9f880641ced00c2ade8156e1a5476db258d6b5d2a4a411e6aaddd3139d",
+			"sha1": "3ef6656c133f8798bb11bdfa63adeca52969377a",
+			"md5": "8c79824c3c2986550290b86fe278d370",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit_debug/flashplayer11_2r202_228_win_sa_debug_32bit.exe",
+			"zipped": "8-116074813-4322420"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-32bit-uninstaller",
+			"file": "uninstall_flashplayer11_2r202_228_win_32bit.exe",
+			"size": 353440,
+			"sha256": "b5e264f8c99fdf7f899c046c0904ff27fbcc481d4c610f165a5833d23178b2e6",
+			"sha1": "21169bb3fe623de192a71ef29f431a10f8634a00",
+			"md5": "e389dbe7943f24165a642b797068acf0",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/uninstall_flashplayer11_2r202_228_win_32bit.exe",
+			"zipped": "8-70909931-261963"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-64bit-npapi",
+			"file": "flashplayer11_2r202_228_win_64bit.exe",
+			"size": 8738464,
+			"sha256": "8b49b777c561e669eda3eab6f9dc486cced0cf865b651aceb2bd13775642dd77",
+			"sha1": "6eb64619d47a92bcd5b046bf577f2b0c1f84e673",
+			"md5": "cd3190801df7afa2db6c33042d66bd29",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_64bit/flashplayer11_2r202_228_win_64bit.exe",
+			"zipped": "8-154915840-8634933"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-64bit-npapi-msi",
+			"file": "flashplayer11_2r202_228_win_64bit.msi",
+			"size": 9902080,
+			"sha256": "8e81b5fd3f72840096863d3b04388d696c417555e8810c16998107ca2b94a825",
+			"sha1": "e2bf6df323a212c2599b2134c8ffa64eb7048351",
+			"md5": "538a829ccc7b89a4a8d0cfdb987ccb1a",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_64bit/flashplayer11_2r202_228_win_64bit.msi",
+			"zipped": "8-163550883-8941995"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-64bit-activex",
+			"file": "flashplayer11_2r202_228_winax_64bit.exe",
+			"size": 8767136,
+			"sha256": "3b500e373bdf3f03b6c71cf040189518927a369d7d0d5b6be7964046feddd1db",
+			"sha1": "4edf319be1bdcbf7022cf24edff345a81ac9ba3b",
+			"md5": "c3bd6406ac26df9e25b231667a64af37",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_64bit/flashplayer11_2r202_228_winax_64bit.exe",
+			"zipped": "8-172492990-8663505"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-64bit-activex-msi",
+			"file": "flashplayer11_2r202_228_winax_64bit.msi",
+			"size": 9931264,
+			"sha256": "66334e6b3047942d483e8d3153042cba9c2c834e4ad55867709c681a642db3a0",
+			"sha1": "43c8e003c33c0fd5a5f00926d3d73428d408e2ed",
+			"md5": "160a59c8f074ec62a887f4f9a6a6c1e4",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_64bit/flashplayer11_2r202_228_winax_64bit.msi",
+			"zipped": "8-181156607-8971491"
+		},
+		{
+			"name": "flash-player-11.2.202.228-windows-64bit-uninstaller",
+			"file": "uninstall_flashplayer11_2r202_228_win_64bit.exe",
+			"size": 630944,
+			"sha256": "62f4c52e1e8a99a56bfde1a7e65a3592925e6a8944b2cd1f757b93dc766cf662",
+			"sha1": "dd4f070caf8f8c29155040021c12017a3e5ae41a",
+			"md5": "fcc8beafd1d1f847a12a9faf09630b8f",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_64bit/uninstall_flashplayer11_2r202_228_win_64bit.exe",
+			"zipped": "8-190427587-524853"
+		},
+		{
+			"name": "flash-player-11.2.202.228-mac-npapi",
+			"file": "flashplayer11_2r202_228_mac.dmg",
+			"size": 11208981,
+			"sha256": "54cd409bd752551bf5dc64df5ccfcc5efd32da53c7b5f03e918a87eed616ce78",
+			"sha1": "d7ce77491db479c65a35636721a8d75ba2d65277",
+			"md5": "9d52bfd67dddf458f77c134fcdec698d",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/flashplayer11_2r202_228_mac.dmg",
+			"zipped": "8-24731174-11204202"
+		},
+		{
+			"name": "flash-player-11.2.202.228-mac-npapi-debug",
+			"file": "flashplayer11_2r202_228_mac_debug.dmg",
+			"size": 11807490,
+			"sha256": "1547959b529845e6c9f8221ac659e34f4b99b530af832c029910f52ae8bda025",
+			"sha1": "df116f8313a17fc4a57421c416f25e484514bf2e",
+			"md5": "b13228467dc63a542c858adb64617291",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit_debug/flashplayer11_2r202_228_mac_debug.dmg",
+			"zipped": "8-84882518-11802704"
+		},
+		{
+			"name": "flash-player-11.2.202.228-mac-sa",
+			"file": "flashplayer11_2r202_228_mac_sa.app.zip",
+			"size": 14146648,
+			"sha256": "97c311d7b096aa4fa8fe3016ca3ccf86cbe3b3691c677cb0d6625b1046e00fd3",
+			"sha1": "311ed3b66f8265a0a2ebadaefa941f7006cda512",
+			"md5": "c326e7f24b43feefc96302ff63981e31",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/flashplayer11_2r202_228_mac_sa.app.zip",
+			"zipped": "0-35935487-14146648"
+		},
+		{
+			"name": "flash-player-11.2.202.228-mac-sa-debug",
+			"file": "flashplayer11_2r202_228_mac_sa_debug.app.zip",
+			"size": 15113750,
+			"sha256": "f745ba89d1c5b8f535d3c0c4f255907b6f47b6a89f31a5cd55fa1710c2eeba13",
+			"sha1": "591fa0ef4df89c2fc2f724c9b58071d664318486",
+			"md5": "8628638bef772a4afdd3a86d0567ac6d",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit_debug/flashplayer11_2r202_228_mac_sa_debug.app.zip",
+			"zipped": "0-96685345-15113750"
+		},
+		{
+			"name": "flash-player-11.2.202.228-mac-uninstaller",
+			"file": "uninstall_flashplayer11_2r202_228_mac.dmg",
+			"size": 304134,
+			"sha256": "8a3bed24cba55c0bf24b811f05677eeeb8607ed0d1c56d5938f79f0332610d4a",
+			"sha1": "c571fa7ac68f73f672e3ffc46955a4f54670ba24",
+			"md5": "63521a5297ce3769293fdd5cf2ebd6f8",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/uninstall_flashplayer11_2r202_228_mac.dmg",
+			"zipped": "8-70610556-299255"
+		},
+		{
+			"name": "flash-player-11.2.202.228-linux-i386-npapi",
+			"file": "flashplayer11_2r202_228_linux.i386.tar.gz",
+			"size": 6917230,
+			"sha256": "20a806eaf508aa8bf22d9803e94b9f942a548da87cd0a59712c7bcd1df0d44e6",
+			"sha1": "7af39c4e16d399d4c2940bd029d3c497f064e343",
+			"md5": "174a9e778a11559d65f66290b16e2088",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/flashplayer11_2r202_228_linux.i386.tar.gz",
+			"zipped": "8-11953149-6816082"
+		},
+		{
+			"name": "flash-player-11.2.202.228-linux-i386-npapi-debug",
+			"file": "flashplayer11_2r202_228_linux_debug.i386.tar.gz",
+			"size": 7394565,
+			"sha256": "6071b7ff9506e5cbe5ee28401fcb331074a43f61fa6cade779666130bad5253b",
+			"sha1": "6914e1ca596b654b59c13bc77ea5b58f8fc5e82b",
+			"md5": "1a6f6643dd741fa4f3f1057a9646c28b",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit_debug/flashplayer11_2r202_228_linux_debug.i386.tar.gz",
+			"zipped": "8-71172099-7276305"
+		},
+		{
+			"name": "flash-player-11.2.202.228-linux-i386-sa",
+			"file": "flashplayer11_2r202_228_linux_sa.i386.tar.gz",
+			"size": 5979120,
+			"sha256": "9c1c4c16159bcaecb4ec586f3e7d945eddd30966b800e31660c2e9ecf2579dff",
+			"sha1": "900f5136bfabd239bb932fbf1789201bf530b995",
+			"md5": "83f3d4b5185f4c14072dce6dde39524e",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit/flashplayer11_2r202_228_linux_sa.i386.tar.gz",
+			"zipped": "8-18769348-5961722"
+		},
+		{
+			"name": "flash-player-11.2.202.228-linux-i386-sa-debug",
+			"file": "flashplayer11_2r202_228_linux_sa_debug.i386.tar.gz",
+			"size": 6451176,
+			"sha256": "12d5d35cec13334f94fd805f8a9aa713f7e49115ed0d562cefcaf3857f20547b",
+			"sha1": "285f02087b97ed1c8cf44a406bd81445edf617cf",
+			"md5": "a2c9dffb577bc2fe82f1a748fbb46484",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_32bit_debug/flashplayer11_2r202_228_linux_sa_debug.i386.tar.gz",
+			"zipped": "8-78448533-6433869"
+		},
+		{
+			"name": "flash-player-11.2.202.228-linux-x86_64-npapi",
+			"file": "flashplayer11_2r202_228_linux.x86_64.tar.gz",
+			"size": 7224876,
+			"sha256": "92c9758d347d05c284dcafccbc8370d8ba9a52f039ce1dbe558be66560476681",
+			"sha1": "7e54bf4271b2696480eb999100e506e511306fd0",
+			"md5": "01e4ddb6e87ea8439f4955e83422f82e",
+			"source": "fp_11.2.202.228_archive/11_2r202_228_64bit/flashplayer11_2r202_228_linux.x86_64.tar.gz",
+			"zipped": "8-124662261-7096277"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "flash-player-34.0.0.295-windows-ppapi-debug-cn",
+	"file": "install_flash_player_debug_ppapi_cn.exe",
+	"size": 12436960,
+	"sha256": "62ce5d028fc05632a31e16c8880f414738c381174b62b2bf2b9c5ebbf41b74ff",
+	"sha1": "dbf68cd9c15c438ad7f899c916d302f7141efce5",
+	"md5": "8564dfe2a4fac3582c5bf46362f1ac17",
+	"source": "https://archive.org/download/shockpkg_packages_6/62/ce/5d028fc05632a31e16c8880f414738c381174b62b2bf2b9c5ebbf41b74ff/install_flash_player_debug_ppapi_cn.exe",
+	"metadata": {
+		"date": "2023-08-08"
+	}
+}

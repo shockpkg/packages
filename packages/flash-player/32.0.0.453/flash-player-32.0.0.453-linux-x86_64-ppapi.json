@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.453-linux-x86_64-ppapi",
+	"file": "flash_player_ppapi_linux.x86_64.tar.gz",
+	"size": 9764153,
+	"sha256": "cab3d2b3a02b1348d991259a7602ffb1d12ec1912984a68bcab0f7ccdf27a9f7",
+	"sha1": "08cef4780ae4fe316a896d5f60d2038a87c875e8",
+	"md5": "d9c92e77e20299e72e35c0c66e2173c8",
+	"source": "https://archive.org/download/shockpkg_packages_c/ca/b3/d2b3a02b1348d991259a7602ffb1d12ec1912984a68bcab0f7ccdf27a9f7/flash_player_ppapi_linux.x86_64.tar.gz"
+}

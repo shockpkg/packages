@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.453-windows-ppapi-debug",
+	"file": "flashplayer_32_ppapi_debug.exe",
+	"size": 22151224,
+	"sha256": "da96491786ce148edadeeb9899d0bc2f68f1335b088baca1799da0dd3db2a75a",
+	"sha1": "848c63a3b59c4a1d7bcf582a17d1a638e3c5002e",
+	"md5": "88b579656c3b84e78febd25cfb26c215",
+	"source": "https://archive.org/download/shockpkg_packages_d/da/96/491786ce148edadeeb9899d0bc2f68f1335b088baca1799da0dd3db2a75a/flashplayer_32_ppapi_debug.exe"
+}

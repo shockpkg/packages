@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.465-linux-x86_64-sa-debug",
+	"file": "flash_player_sa_linux_debug.x86_64.tar.gz",
+	"size": 8829953,
+	"sha256": "1adbd1f2df130c6f6a5e9d4da1e23513e6c682eeec0c9153bf17bcbeca1f4ac6",
+	"sha1": "5db81bef3b07f6c7b29ee3760cf72499c81651fb",
+	"md5": "3d5e049ca8c01e2e64c31705f18959df",
+	"source": "https://archive.org/download/shockpkg_packages_1/1a/db/d1f2df130c6f6a5e9d4da1e23513e6c682eeec0c9153bf17bcbeca1f4ac6/flash_player_sa_linux_debug.x86_64.tar.gz"
+}

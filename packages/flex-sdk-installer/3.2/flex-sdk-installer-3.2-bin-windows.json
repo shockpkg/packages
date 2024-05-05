@@ -1,0 +1,9 @@
+{
+	"name": "flex-sdk-installer-3.2-bin-windows",
+	"file": "apache-flex-sdk-installer-3.2.0-bin.exe",
+	"size": 2757370,
+	"sha256": "ca4f944ae80fa91272ba71b8b7c35eb2c6a19f2ae102a235aef007c514e6d02f",
+	"sha1": "21e3a83edc1e010c538f4504c9da97584c7e2080",
+	"md5": "1f3dab7f4e77236ffbab7d2029634862",
+	"source": "https://archive.org/download/shockpkg_packages_c/ca/4f/944ae80fa91272ba71b8b7c35eb2c6a19f2ae102a235aef007c514e6d02f/apache-flex-sdk-installer-3.2.0-bin.exe"
+}

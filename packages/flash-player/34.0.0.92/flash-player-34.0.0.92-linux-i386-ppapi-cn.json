@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-34.0.0.92-linux-i386-ppapi-cn",
+	"file": "flash_player_ppapi_linux.i386.tar.gz",
+	"size": 7843610,
+	"sha256": "c2955d7f7c7574016d5265e6c5a3542242a28ec926c150a9b87465833de830d4",
+	"sha1": "06a69467508339baa60c9844ebc791963f4394b0",
+	"md5": "dfcb448cc620c26d5d88fef26d780702",
+	"source": "https://archive.org/download/shockpkg_packages_c/c2/95/5d7f7c7574016d5265e6c5a3542242a28ec926c150a9b87465833de830d4/flash_player_ppapi_linux.i386.tar.gz"
+}

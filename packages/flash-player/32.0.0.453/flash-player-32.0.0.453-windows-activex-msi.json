@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.453-windows-activex-msi",
+	"file": "install_flash_player_32_active_x.msi",
+	"size": 22220800,
+	"sha256": "fd962ff40b38049239e75ecd510da9bbae768ff86783fccf61a12315e8263ffa",
+	"sha1": "87f48156e91206657830f08dfcc5e82f1a24b2b1",
+	"md5": "6b93d435e6ceb86cd38cc4e62e50b902",
+	"source": "https://archive.org/download/shockpkg_packages_f/fd/96/2ff40b38049239e75ecd510da9bbae768ff86783fccf61a12315e8263ffa/install_flash_player_32_active_x.msi"
+}

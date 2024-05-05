@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-9.0.262.0-windows-activex-msi",
+	"file": "Install Flash Player 9 ActiveX.msi",
+	"size": 4525056,
+	"sha256": "7a01feec6567029c799da8523761f4c131a9796ab06f5cfade8fd41f3f0d1dc9",
+	"sha1": "d3b0d1a5627134ba6a67f58e481a4d8011cdac0f",
+	"md5": "4db84c548a633fa6c1952e140ca06a01",
+	"source": "https://archive.org/download/shockpkg_packages_7/7a/01/feec6567029c799da8523761f4c131a9796ab06f5cfade8fd41f3f0d1dc9/Install%20Flash%20Player%209%20ActiveX.msi"
+}

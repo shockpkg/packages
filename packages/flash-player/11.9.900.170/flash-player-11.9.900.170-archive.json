@@ -1,0 +1,131 @@
+{
+	"name": "flash-player-11.9.900.170-archive",
+	"file": "fp_11.9.900.170_archive.zip",
+	"size": 165024177,
+	"sha256": "7b45e3fb4a69357080628b64c4ea14a6338162dfde841e0742b1bef973230c94",
+	"sha1": "375b3bff91539bf48904199b862156cb1f1f0de5",
+	"md5": "f2983d479a890a39fb1e1f3b3ee80817",
+	"source": "https://archive.org/download/shockpkg_packages_7/7b/45/e3fb4a69357080628b64c4ea14a6338162dfde841e0742b1bef973230c94/fp_11.9.900.170_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-11.9.900.170-windows-npapi",
+			"file": "flashplayer11_9r900_170_win.exe",
+			"size": 17838984,
+			"sha256": "2ec22dbc204b8d02925dfbd261d62e12a64b4a1048c476d306eeff131d850d7c",
+			"sha1": "365d1114d14b1a8924f7d3d9facfd31a7cbff1da",
+			"md5": "60f53389a99b94e547136ee93b5c9378",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_win.exe",
+			"zipped": "8-18410605-17704971"
+		},
+		{
+			"name": "flash-player-11.9.900.170-windows-npapi-msi",
+			"file": "flashplayer11_9r900_170_win.msi",
+			"size": 18930176,
+			"sha256": "fc1ad0bdbc54e6f022bac0861d34ccf2a67487e4a22323409f37d4458d6b5249",
+			"sha1": "5639e0e15543c167398849b58f2ee2505c621a3f",
+			"md5": "08a9eda17ec934b9d66cf451324c4e97",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_win.msi",
+			"zipped": "8-36115675-18000373"
+		},
+		{
+			"name": "flash-player-11.9.900.170-windows-npapi-debug",
+			"file": "flashplayer11_9r900_170_win_debug.exe",
+			"size": 18274184,
+			"sha256": "cdb215b0ae70b6921781822cef1cac11cc65765fcd02fc72bf3b3eb01992600b",
+			"sha1": "4841c4ee5f7019cf39e14e0c8c7206b1f5f689fc",
+			"md5": "1fb24120c3815d3f39219c847f84ee8a",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_win_debug.exe",
+			"zipped": "8-142045241-18140206"
+		},
+		{
+			"name": "flash-player-11.9.900.170-windows-activex",
+			"file": "flashplayer11_9r900_170_winax.exe",
+			"size": 17248136,
+			"sha256": "328496fdb71ddd4aa390f8ab6f458e7411ed089ab70d81b49e2ac173ba6be7a6",
+			"sha1": "5f660f218131d39a707557218c89fdec36f91c6e",
+			"md5": "9204b6c1497474f9327ed8b6739c4101",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_winax.exe",
+			"zipped": "8-54116149-17113740"
+		},
+		{
+			"name": "flash-player-11.9.900.170-windows-activex-msi",
+			"file": "flashplayer11_9r900_170_winax.msi",
+			"size": 18335744,
+			"sha256": "ee73b2283c6316d7dbe000a2ac8d492f41c928497405ce86e344a48efbc1292c",
+			"sha1": "877c7e9a6de692bdef95a4f3cc22b9fb385db92e",
+			"md5": "fef851e857e8a4567da072edf2e0cc6e",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_winax.msi",
+			"zipped": "8-71229990-17406104"
+		},
+		{
+			"name": "flash-player-11.9.900.170-windows-activex-debug",
+			"file": "flashplayer11_9r900_170_winax_debug.exe",
+			"size": 17686408,
+			"sha256": "3aa0711a194c9908b2dbc5e67b71a546dcff0328c020062204ce977edab2c887",
+			"sha1": "22dee44f8b228f48b82c5e46087d8ea9057a314c",
+			"md5": "4ab3d5e3ce6fbc42834f4e80facf3dc7",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_winax_debug.exe",
+			"zipped": "8-124492670-17552460"
+		},
+		{
+			"name": "flash-player-11.9.900.170-windows-sa-debug",
+			"file": "flashplayer11_9r900_170_win_sa_debug.exe",
+			"size": 11147144,
+			"sha256": "87b8d9dcb33a0601f46c854511c0ab74f0ffc4456563150b6a1234c3ebef1b28",
+			"sha1": "52247c99753251f8b654f93ef04bc00af6cf9fac",
+			"md5": "828977c1288f6d84028fab15993171d4",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_win_sa_debug.exe",
+			"zipped": "8-160185561-4836338"
+		},
+		{
+			"name": "flash-player-11.9.900.170-windows-uninstaller",
+			"file": "uninstall_flashplayer11_9r900_170_win.exe",
+			"size": 840072,
+			"sha256": "4ab1aa10641d5388c9b2c553f8e2b3b8e7b3ac009b870ead1948ff3de1680475",
+			"sha1": "e26082308c7c9b484ce2b8875ea525dcd398d830",
+			"md5": "a1ff255d3168fae36367814047bf7f36",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170/uninstall_flashplayer11_9r900_170_win.exe",
+			"zipped": "8-88864806-698432"
+		},
+		{
+			"name": "flash-player-11.9.900.170-mac-npapi",
+			"file": "flashplayer11_9r900_170_mac.dmg",
+			"size": 18414712,
+			"sha256": "e6149cda4782d71c9e26b345ec61a94600a3cf995d8ec7d6a8b40af5ae1cf2df",
+			"sha1": "2b14f839939e3e624ad77f534701121c2e337892",
+			"md5": "211f8865a1f40ca9febac0370838933b",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170/flashplayer11_9r900_170_mac.dmg",
+			"zipped": "8-221-18410285"
+		},
+		{
+			"name": "flash-player-11.9.900.170-mac-npapi-debug",
+			"file": "flashplayer11_9r900_170_mac_debug.dmg",
+			"size": 18895090,
+			"sha256": "cbbf89b2d3740251837ded95faca2c35acb894fea57d03215d131d5b71ddf809",
+			"sha1": "1c6ddcbbb42ab5f5e121515ace3366e0fd03d0ec",
+			"md5": "675eb97a13ed4cbcd1308ac8fc939838",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_mac_debug.dmg",
+			"zipped": "8-89563423-18890388"
+		},
+		{
+			"name": "flash-player-11.9.900.170-mac-sa-debug",
+			"file": "flashplayer11_9r900_170_mac_sa_debug.dmg",
+			"size": 16051802,
+			"sha256": "2af2e0f2975f22c72ed4fd91afa32dd1b51d56845fcd0a7be3019f3ecfa5941c",
+			"sha1": "74d152f2ee911a23f84c3ae012ccbe0362de8494",
+			"md5": "0e79d01bea5e5f0a44c8581e60f297d8",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170_debug/flashplayer11_9r900_170_mac_sa_debug.dmg",
+			"zipped": "8-108453925-16038632"
+		},
+		{
+			"name": "flash-player-11.9.900.170-mac-uninstaller",
+			"file": "uninstall_flashplayer11_9r900_170_mac.dmg",
+			"size": 233215,
+			"sha256": "9911f0e528d70f2da004bd6ff9ed90f9d964bdcb91320c51c2ff604710e930fd",
+			"sha1": "63b221da44f8e39047fd71e13478562405ec1378",
+			"md5": "5df461ffb4860f71fbc0e685a5b89cef",
+			"source": "fp_11.9.900.170_archive/11_9_r900_170/uninstall_flashplayer11_9r900_170_mac.dmg",
+			"zipped": "8-88636203-228494"
+		}
+	]
+}

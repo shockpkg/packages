@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.314-windows-npapi-2019-12-16",
+	"file": "install_flash_player.exe",
+	"size": 21326360,
+	"sha256": "ecf3594f8f2a94bf8a3b20153188c3845f310f6cf58a8cc1dd8cf76e8d62875c",
+	"sha1": "081669e251bc99d464e8531c39fad3c081748769",
+	"md5": "4fefc6a4afb4fb5ad15b04648fda22a7",
+	"source": "https://archive.org/download/shockpkg_packages_e/ec/f3/594f8f2a94bf8a3b20153188c3845f310f6cf58a8cc1dd8cf76e8d62875c/install_flash_player.exe"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.403-windows-activex",
+	"file": "install_flash_player_ax.exe",
+	"size": 21040696,
+	"sha256": "f68450c2a8479388acd7649e462f96543c5f60ad60d731145871db306134757e",
+	"sha1": "ea98413c460204a333e08f0521587473a4ff3bac",
+	"md5": "675c3a77261735fd6053d65c73496426",
+	"source": "https://archive.org/download/shockpkg_packages_f/f6/84/50c2a8479388acd7649e462f96543c5f60ad60d731145871db306134757e/install_flash_player_ax.exe"
+}

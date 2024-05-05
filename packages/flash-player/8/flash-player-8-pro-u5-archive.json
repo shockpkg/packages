@@ -1,0 +1,101 @@
+{
+	"name": "flash-player-8-pro-u5-archive",
+	"file": "flash_pro_8-u5_players.zip",
+	"size": 15807330,
+	"sha256": "0e8f5162fc9289e1878a3ca86064970f8890debebb7a4a561e0440378d7c96fe",
+	"sha1": "1dd4f26e904395524159766bdf669ba6421f8868",
+	"md5": "f988f0425f825a6ae661c48927380f07",
+	"source": "https://archive.org/download/shockpkg_packages_0/0e/8f/5162fc9289e1878a3ca86064970f8890debebb7a4a561e0440378d7c96fe/flash_pro_8-u5_players.zip",
+	"packages": [
+		{
+			"name": "flash-player-8.0.39.0-windows-nsapi-msi",
+			"file": "Install Flash Player 8 Plugin.msi",
+			"size": 4594176,
+			"sha256": "3b17578e5fbfe32791f92daf485f991e7676229b934dbe85bd74964d22acd368",
+			"sha1": "c0cf5503175725d48c1d9ec0d7404feb147b02a5",
+			"md5": "398c6faf8ccf423a61a6169e9e0fcce7",
+			"source": "Players/Release/Install Flash Player 8 Plugin.msi",
+			"zipped": "8-11534099-2064436"
+		},
+		{
+			"name": "flash-player-8.0.39.0-windows-nsapi-debug-msi",
+			"file": "Install Flash Player 8 Plugin.msi",
+			"size": 4588032,
+			"sha256": "473d1211253799228813f4eaf96e8d3aa0d78de52dfdc344d5140bf67369e757",
+			"sha1": "0a557a69a3cc3407a04c5b1edf47ace82c86b1e9",
+			"md5": "dcad5f30cbed84fc53e0cea6e91bc9e2",
+			"source": "Players/Debug/Install Flash Player 8 Plugin.msi",
+			"zipped": "8-3617852-2059204"
+		},
+		{
+			"name": "flash-player-8.0.39.0-windows-activex-msi",
+			"file": "Install Flash Player 8 ActiveX.msi",
+			"size": 4629504,
+			"sha256": "9174b7c77fb5118773f7d2f3ea885caa545970f61f09fbbe52351f8314b64709",
+			"sha1": "8a036fc1854df979c755d3e0f4f6815b874296f1",
+			"md5": "efb8b2f93f67839e0957ce67a86c5770",
+			"source": "Players/Release/Install Flash Player 8 ActiveX.msi",
+			"zipped": "8-7951464-2105185"
+		},
+		{
+			"name": "flash-player-8.0.39.0-windows-activex-debug-msi",
+			"file": "Install Flash Player 8 ActiveX.msi",
+			"size": 4620800,
+			"sha256": "1e5236dce03f3e4a94f46c88cff63b6a80c19d6bdc20e836a15f09ebc72f7fb8",
+			"sha1": "e14a6fa25c5a7d46b20c276b11811f38b19e2617",
+			"md5": "70893139b33c0f4cc2dae2012da1fab3",
+			"source": "Players/Debug/Install Flash Player 8 ActiveX.msi",
+			"zipped": "8-160-2096951"
+		},
+		{
+			"name": "flash-player-8.0.39.0-windows-sa",
+			"file": "SAFlashPlayer.exe",
+			"size": 1602920,
+			"sha256": "4092e750b606eca7cde6b27c58d6ba3e98f6cea34df4f6437877da133f8a8cc1",
+			"sha1": "839b156180048895cadd1db6154cda84346c9658",
+			"md5": "61717f57c971554a5c55122ec05530d4",
+			"source": "Players/Release/SAFlashPlayer.exe",
+			"zipped": "8-13598598-843575"
+		},
+		{
+			"name": "flash-player-8.0.39.0-windows-sa-debug",
+			"file": "SAFlashPlayer.exe",
+			"size": 1709416,
+			"sha256": "a167be96850b57c82e98c88f0feeafc67e8b8816b9e1a71b1bab02035c38a4ac",
+			"sha1": "be96a10047618adc95fe4d9f0d2349de92157c78",
+			"md5": "715974cbf1b303966b6640dfc0f5ee93",
+			"source": "Players/Debug/SAFlashPlayer.exe",
+			"zipped": "8-5677117-885615"
+		},
+		{
+			"name": "flash-player-8.0.39.0-mac-npapi-debug",
+			"file": "Install Flash Player 8 OSX.dmg",
+			"size": 1532440,
+			"sha256": "db5a5e074737e238367e4ff691f6823f2e56c7320ecefb9eb12bfd56af356884",
+			"sha1": "2fd1415f5ccbfd89489b36a0d0898d90aca341dd",
+			"md5": "ac45d854ae205d34bfd7b663ce911b37",
+			"source": "Players/Debug/Install Flash Player 8 OSX.dmg",
+			"zipped": "8-2097185-1520590"
+		},
+		{
+			"name": "flash-player-8.0.39.0-mac-sa",
+			"file": "SAFlashPlayer.hqx",
+			"size": 3128754,
+			"sha256": "d9b73d89148a2f7b4f59aa576e44edd43b2843faaa811fde41dbcd9a6c4c2a4c",
+			"sha1": "ec65c6ac2ea52a3d86eab368de2879641cc43199",
+			"md5": "eb44d721a692ca92f2612f9afdb37310",
+			"source": "Players/Release/SAFlashPlayer.hqx",
+			"zipped": "8-14442236-1363556"
+		},
+		{
+			"name": "flash-player-8.0.39.0-mac-sa-debug",
+			"file": "SAFlashPlayer.hqx",
+			"size": 3274344,
+			"sha256": "6b372847c573dd52309cab5c927d808a188c0ff54fdae454646796c9d133d061",
+			"sha1": "0efc85a96231fdbc168a94ffe5cd406dfcd093b7",
+			"md5": "f6cbeb9d3c48544aca8a217e42421a01",
+			"source": "Players/Debug/SAFlashPlayer.hqx",
+			"zipped": "8-6562793-1388545"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"name": "flash-player-11.7.700.203-archive",
+	"file": "fp_11.7.700.203_archive.zip",
+	"size": 53188697,
+	"sha256": "a6e07e611f6fe277149a76f64b5aa424db6863398fdd1f13107b18046514dcd1",
+	"sha1": "ad8b39685f4f5dc784d06e4f8cafd95f4361da52",
+	"md5": "4ed304f3e03fb8f48da083dc93c1a7a1",
+	"source": "https://archive.org/download/shockpkg_packages_a/a6/e0/7e611f6fe277149a76f64b5aa424db6863398fdd1f13107b18046514dcd1/fp_11.7.700.203_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-11.7.700.203-mac-npapi",
+			"file": "flashplayer11_7r700_203_mac.dmg",
+			"size": 18005202,
+			"sha256": "5c592e8fba24cf02cf1ad8735007352f376dfbfb0adbad7d11961689602844f5",
+			"sha1": "d967541670c0f1ce61613cfbda7c1a5ae74cb2ca",
+			"md5": "7123e0a06b0a8eb7c378dab59233370a",
+			"source": "fp_11.7.700.203_archive/11_7_r700_203/flashplayer11_7r700_203_mac.dmg",
+			"zipped": "8-221-17998709"
+		},
+		{
+			"name": "flash-player-11.7.700.203-mac-npapi-debug",
+			"file": "flashplayer11_7r700_203_mac_debug.dmg",
+			"size": 18491287,
+			"sha256": "4406ee00cb6bc9473ed3a1c39adee770cec0af9420ad89d3ac72bfc4bbf3c04c",
+			"sha1": "04a64e9b8f6d7e7f432061391cec011dcc372beb",
+			"md5": "ff38781b3b0d2f9ee56755d97017b0e1",
+			"source": "fp_11.7.700.203_archive/11_7_r700_203_debug/flashplayer11_7r700_203_mac_debug.dmg",
+			"zipped": "8-18227738-18484802"
+		},
+		{
+			"name": "flash-player-11.7.700.203-mac-sa-debug",
+			"file": "flashplayer11_7r700_203_mac_sa_debug.zip",
+			"size": 16547135,
+			"sha256": "13ce7afc3636e81a62e0b4b59b0e1e8edcaa9400fee2f0230a4ca5763c05842b",
+			"sha1": "718fc221dc1b876b5fcd61b1ca439efc8a82ef92",
+			"md5": "bc98915e6009e9a5aaa5b9c809138d8e",
+			"source": "fp_11.7.700.203_archive/11_7_r700_203_debug/flashplayer11_7r700_203_mac_sa_debug.zip",
+			"zipped": "8-36712654-16475028"
+		},
+		{
+			"name": "flash-player-11.7.700.203-mac-uninstaller",
+			"file": "uninstall_flashplayer11_7r700_203_mac.dmg",
+			"size": 233281,
+			"sha256": "a23b49736f2140fd8cb2ce130c8a676c6c629bd780a9a25b9f072d65cb1fe5b4",
+			"sha1": "b6ce264503bdf70384b9fa909e79a457c3414ccd",
+			"md5": "ea0eee7acec204c39352bac67aec4ae4",
+			"source": "fp_11.7.700.203_archive/11_7_r700_203/uninstall_flashplayer11_7r700_203_mac.dmg",
+			"zipped": "8-17999039-228514"
+		}
+	]
+}

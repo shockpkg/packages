@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-34.0.0.92-linux-i386-ppapi-rpm-cn",
+	"file": "flash-player-ppapi-release.i386.rpm",
+	"size": 7830162,
+	"sha256": "e4b56bcaa1167c852cf7d2137e84765b47550880af180d9f07e6a75916e4c1b3",
+	"sha1": "f066a8b12f9c074dbb28635f8b938687a77671a7",
+	"md5": "5cd4bb01db0dff993b69db49965a8de6",
+	"source": "https://archive.org/download/shockpkg_packages_e/e4/b5/6bcaa1167c852cf7d2137e84765b47550880af180d9f07e6a75916e4c1b3/flash-player-ppapi-release.i386.rpm"
+}

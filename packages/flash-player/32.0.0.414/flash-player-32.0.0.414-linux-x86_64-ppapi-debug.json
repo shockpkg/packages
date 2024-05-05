@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.414-linux-x86_64-ppapi-debug",
+	"file": "flash_player_ppapi_linux_debug.x86_64.tar.gz",
+	"size": 10203449,
+	"sha256": "419e11598fa6f579e07106dc7cb9f385a0b07e406d8e4638a4f5ab35fe20e814",
+	"sha1": "d48bf50d7b0d18aa2d35d9fae2680255d538aa03",
+	"md5": "d1244f4f43c13a75e3043e211163dc4b",
+	"source": "https://archive.org/download/shockpkg_packages_4/41/9e/11598fa6f579e07106dc7cb9f385a0b07e406d8e4638a4f5ab35fe20e814/flash_player_ppapi_linux_debug.x86_64.tar.gz"
+}

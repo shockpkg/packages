@@ -1,0 +1,251 @@
+{
+	"name": "flash-player-6-archive",
+	"file": "fp6_archive.zip",
+	"size": 15529529,
+	"sha256": "06d94cf9e21d991f4637f678ed15a2e2c218cbf8b93f21aa600e2f26fdc36730",
+	"sha1": "f1301503901ec5ac27a244179c8b6b775c477a75",
+	"md5": "1187c3520ab5f0065d09a2099446fe72",
+	"source": "https://archive.org/download/shockpkg_packages_0/06/d9/4cf9e21d991f4637f678ed15a2e2c218cbf8b93f21aa600e2f26fdc36730/fp6_archive.zip",
+	"packages": [
+		{
+			"name": "flash-player-6.0.21.0-windows-npapi",
+			"file": "fp_6.0.21_plugin.exe",
+			"size": 525050,
+			"sha256": "d6a954ea15a4482b18171ed7a46e08aad1a690a8638b48b149634915f0f974e2",
+			"sha1": "0ee1fcd95e232214f5a991305d009f65b8b28441",
+			"md5": "a8010bcae879643a56258b2968fe9c46",
+			"source": "FP6_archive/r21/fp_6.0.21_plugin.exe",
+			"zipped": "8-2002913-511537"
+		},
+		{
+			"name": "flash-player-6.0.21.0-windows-activex",
+			"file": "fp_6.0.21_activex.exe",
+			"size": 576072,
+			"sha256": "b7dc0585eea0f72da7e2209c5ea2342f947f46c832f01f5fbdbb28eda2d2e096",
+			"sha1": "a95f4996d12fbeda4c5dcdd7805017a8c0bd8db0",
+			"md5": "d6c275f7d4a840bac691431eb004efb6",
+			"source": "FP6_archive/r21/fp_6.0.21_activex.exe",
+			"zipped": "8-113-511532"
+		},
+		{
+			"name": "flash-player-6.0.21.0-mac-osx-npapi",
+			"file": "fp_6.0.21_macosx.hqx",
+			"size": 1300811,
+			"sha256": "a8b1d3f45a557f126243ad5f708bd8214325ea2052ac845b75e4a2d284e86b25",
+			"sha1": "a08ef249966e0ce508d1ba2904f58a6440e17a51",
+			"md5": "a92ffd2a645fb84e58b15586194ae0ae",
+			"source": "FP6_archive/r21/fp_6.0.21_macosx.hqx",
+			"zipped": "8-511711-796316"
+		},
+		{
+			"name": "flash-player-6.0.21.0-mac-classic-npapi",
+			"file": "fp_6.0.21_mac_classic.hqx",
+			"size": 914028,
+			"sha256": "6c5f175cfdbc5429625121dbd239a539d6905614ce140ff9a5914834a98b6912",
+			"sha1": "951f0fce6e85672a130bc4721cf055bfcf8a79ec",
+			"md5": "d53ac15062b82a1c3dd01e4343f4d2f7",
+			"source": "FP6_archive/r21/fp_6.0.21_mac_classic.hqx",
+			"zipped": "8-1308098-694749"
+		},
+		{
+			"name": "flash-player-6.0.23.0-windows-npapi",
+			"file": "fp_6.0.23_plugin.exe",
+			"size": 525024,
+			"sha256": "11d6a0e039fc3a23b64ac6247a0bea59678927542049aabb44208c60ee761da2",
+			"sha1": "67956b0e970eebdda65e8423ddb312699f7ae324",
+			"md5": "7c63f34f0f2625ef7d4659c74b0553d7",
+			"source": "FP6_archive/r23/fp_6.0.23_plugin.exe",
+			"zipped": "8-4519661-511597"
+		},
+		{
+			"name": "flash-player-6.0.23.0-windows-activex",
+			"file": "fp_6.0.23_activex.exe",
+			"size": 580736,
+			"sha256": "e832cac21f45a9316a349fe01cd110a1d254fef39e8db874a848a06579a929da",
+			"sha1": "f058d7322b95bde11a8e20a32503dfbf4def28b5",
+			"md5": "604cce9e97cfa8d74c0d1985a74d050c",
+			"source": "FP6_archive/r23/fp_6.0.23_activex.exe",
+			"zipped": "8-2514563-513575"
+		},
+		{
+			"name": "flash-player-6.0.23.0-mac-osx-npapi",
+			"file": "fp_6.0.23_macosx.hqx",
+			"size": 1300693,
+			"sha256": "c1987d2e8ebea32e376e7d1cf6622f5b012230fb21b49b0ff3fe6c88c3e68f16",
+			"sha1": "629e2c09a7070afa8c50275e9d0f1b8a52a8d017",
+			"md5": "d1410b78bf7fa2daa42754b0493a6228",
+			"source": "FP6_archive/r23/fp_6.0.23_macosx.hqx",
+			"zipped": "8-3028204-796437"
+		},
+		{
+			"name": "flash-player-6.0.23.0-mac-classic-npapi",
+			"file": "fp_6.0.23_mac_classic.hqx",
+			"size": 914102,
+			"sha256": "0252b96bc97bb4341b908605125f5f4f3c01e8afcb0ed1684ac3b373fbb702de",
+			"sha1": "b1f7525e586be011ada9e7d3953cda6c7b3f7a21",
+			"md5": "486f865607a5294e94811d5248542fbb",
+			"source": "FP6_archive/r23/fp_6.0.23_mac_classic.hqx",
+			"zipped": "8-3824712-694883"
+		},
+		{
+			"name": "flash-player-6.0.29.0-windows-npapi",
+			"file": "fp_6.0.29_plugin.exe",
+			"size": 525252,
+			"sha256": "f73bd89423680d3a4c46097bbc99f292a06db038c3af1225b2c64ce62d2af446",
+			"sha1": "b5bf279cb02e287ec4266ddf0c79ce6b4517cd5c",
+			"md5": "a2cf5c8ca4b63240eba0f848802a6267",
+			"source": "FP6_archive/r29/fp_6.0.29_plugin.exe",
+			"zipped": "8-7064662-511716"
+		},
+		{
+			"name": "flash-player-6.0.29.0-windows-activex",
+			"file": "fp_6.0.29_activex.exe",
+			"size": 576584,
+			"sha256": "3067b8a7fb9167020d6e79254335443981df9ad4beb645997e7e1052a3249427",
+			"sha1": "759726c416490fe98c8d22184aff298f34932fe8",
+			"md5": "9ef109bcb87358bbc3728deb5441abc5",
+			"source": "FP6_archive/r29/fp_6.0.29_activex.exe",
+			"zipped": "8-5031371-511912"
+		},
+		{
+			"name": "flash-player-6.0.29.0-mac-osx-npapi",
+			"file": "fp_6.0.29_macosx.hqx",
+			"size": 1400214,
+			"sha256": "eb1f69f6cfc2186c68c1f63dff2d31b1ffa1dc4861062b373c9998c34a30eb5f",
+			"sha1": "8822f9d21744a4996cc8c4f2bb91c124c9971d3a",
+			"md5": "061785076e9d84d206dad35c4e6040d0",
+			"source": "FP6_archive/r29/fp_6.0.29_macosx.hqx",
+			"zipped": "8-5543349-809870"
+		},
+		{
+			"name": "flash-player-6.0.29.0-mac-classic-npapi",
+			"file": "fp_6.0.29_mac_classic.hqx",
+			"size": 1038117,
+			"sha256": "35fc6480d791df6451645d7482ddfe717d6209adbf86bd218e2b99bbdd096329",
+			"sha1": "153973474898da9f690ac62d658d14c132bc1c27",
+			"md5": "59c77741c6f087778dcbce51d4d725f5",
+			"source": "FP6_archive/r29/fp_6.0.29_mac_classic.hqx",
+			"zipped": "8-6353290-711306"
+		},
+		{
+			"name": "flash-player-6.0.47.0-windows-npapi",
+			"file": "fp_6.0.47_plugin.exe",
+			"size": 542659,
+			"sha256": "c3a237d1e45d0b947691bbe3026fdb6a2595f82686ec6d53b3fe18c9d1c88525",
+			"sha1": "f2121692b2a67abfea0ab1d68148f70b98c798d6",
+			"md5": "7a4d4a924e4c73a7d656f28611be0cb3",
+			"source": "FP6_archive/r47/fp_6.0.47_plugin.exe",
+			"zipped": "8-9653703-529268"
+		},
+		{
+			"name": "flash-player-6.0.47.0-windows-activex",
+			"file": "fp_6.0.47_activex.exe",
+			"size": 595072,
+			"sha256": "07e9ee803238ad0752e02fa208cf6c395e6b624070d462488bd495557a65cc2b",
+			"sha1": "47c19c9586a4fd9ebe444091a5918261c569c9b9",
+			"md5": "0375879ae091f8bb682abbf9233b1906",
+			"source": "FP6_archive/r47/fp_6.0.47_activex.exe",
+			"zipped": "8-7576491-527946"
+		},
+		{
+			"name": "flash-player-6.0.47.0-mac-osx-npapi",
+			"file": "fp_6.0.47_macosx.hqx",
+			"size": 1419080,
+			"sha256": "3e13795ef84cb146a5a6d4d5374f805483f35b769daaf6fbdd2cdaac8aa742d9",
+			"sha1": "158015bbfa7ed391e0a0160a35698e783a826310",
+			"md5": "90c517317b0c5b98e4cd141142ee111b",
+			"source": "FP6_archive/r47/fp_6.0.47_macosx.hqx",
+			"zipped": "8-8104503-823358"
+		},
+		{
+			"name": "flash-player-6.0.47.0-mac-classic-npapi",
+			"file": "fp_6.0.47_mac_classic.hqx",
+			"size": 1056026,
+			"sha256": "49db95e55b1f1c7d71240d06e5be18bc72a982a977ae319548920156bd63002e",
+			"sha1": "14c0f9bf9c6b41903045d2e5141ebcb550caae44",
+			"md5": "6f18ab41abf6b6b9c69b5cc39581295c",
+			"source": "FP6_archive/r47/fp_6.0.47_mac_classic.hqx",
+			"zipped": "8-8927932-725705"
+		},
+		{
+			"name": "flash-player-6.0.65.0-windows-npapi",
+			"file": "fp_6.0.65_plugin.exe",
+			"size": 554502,
+			"sha256": "bab7c55f006b570eb707a92281ecfd21b276ed359906cad82555d399f9305951",
+			"sha1": "79302ec70d2a0334350680726fa6e4a4d4e6eb15",
+			"md5": "efe6f29228e3df14c6ef59bd30c1c0fa",
+			"source": "FP6_archive/r65/fp_6.0.65_plugin.exe",
+			"zipped": "8-12310186-540761"
+		},
+		{
+			"name": "flash-player-6.0.65.0-windows-activex",
+			"file": "fp_6.0.65_activex.exe",
+			"size": 600648,
+			"sha256": "60b0c924b539f45d80a05477cdffa75742ee0d88e830799cd9a6ecee96526293",
+			"sha1": "2d8d032b185e61acd541fc3eed280debb3def7ee",
+			"md5": "0b7279c48df11b0a39a004f9548ed02e",
+			"source": "FP6_archive/r65/fp_6.0.65_activex.exe",
+			"zipped": "8-10183084-536309"
+		},
+		{
+			"name": "flash-player-6.0.65.0-mac-osx-npapi",
+			"file": "fp_6.0.65_macosx.hqx",
+			"size": 1454482,
+			"sha256": "bc1c01df8782144e2d32030bd2ee58f73492d6b0066eec26adee56d07851613a",
+			"sha1": "0852ae3b603e6e80d3aa92bc71b9912355e45d42",
+			"md5": "828ce912de8b802d52d095300cf5df21",
+			"source": "FP6_archive/r65/fp_6.0.65_macosx.hqx",
+			"zipped": "8-10719459-841096"
+		},
+		{
+			"name": "flash-player-6.0.65.0-mac-classic-npapi",
+			"file": "fp_6.0.65_mac_classic.hqx",
+			"size": 1206028,
+			"sha256": "e8d1de21ce04f13c060428879622c5d398d497d8dcfa26a513ad01a375917362",
+			"sha1": "165db1dcb4d48b096efe0888526dfc5ac02faf94",
+			"md5": "86661fa218cf239562b7abfc5a99c328",
+			"source": "FP6_archive/r65/fp_6.0.65_mac_classic.hqx",
+			"zipped": "8-11560626-749494"
+		},
+		{
+			"name": "flash-player-6.0.79.0-windows-npapi",
+			"file": "fp_6.0.79_plugin.exe",
+			"size": 556057,
+			"sha256": "c4fc0339578148a8efb81ed45539aa3a30c4f9fe5461e865935659efea3a1cf9",
+			"sha1": "69b1e7fc55428b453e8f66de089c612750a74fad",
+			"md5": "36f21028886c1676cfbab7f235833f4f",
+			"source": "FP6_archive/r79/fp_6.0.79_plugin.exe",
+			"zipped": "8-14983504-542333"
+		},
+		{
+			"name": "flash-player-6.0.79.0-windows-activex",
+			"file": "fp_6.0.79_activex.exe",
+			"size": 602184,
+			"sha256": "2ad4ee2aabb0ab75fe15b0c835e47f5a756c39802c9b95c45af8c6c230247453",
+			"sha1": "457cb6ffff945beadf90d049c09bd2fe8f92a784",
+			"md5": "eb5a3e7d677c2ecfe531b266a8a3a37a",
+			"source": "FP6_archive/r79/fp_6.0.79_activex.exe",
+			"zipped": "8-12851060-538021"
+		},
+		{
+			"name": "flash-player-6.0.79.0-mac-osx-npapi",
+			"file": "fp_6.0.79_macosx.hqx",
+			"size": 1456979,
+			"sha256": "232be1966beb17faf5941711113bf253f87c4173dc94aaf08ad2fa1cd5fd55e2",
+			"sha1": "05029d9bedb03377053d22b5ca5f1d8e51f30700",
+			"md5": "976503072ed43ca023058f635a64bf0e",
+			"source": "FP6_archive/r79/fp_6.0.79_macosx.hqx",
+			"zipped": "8-13389147-842935"
+		},
+		{
+			"name": "flash-player-6.0.79.0-mac-classic-npapi",
+			"file": "fp_6.0.79_mac_classic.hqx",
+			"size": 1208041,
+			"sha256": "967025e68482de12616924eaacd94fdf9b5eb02952d0d93474f97ae360150ede",
+			"sha1": "e314ff582321c4c94c7bf21314a033fe27993789",
+			"md5": "7676234ad21a098a85cc9711f94f92dd",
+			"source": "FP6_archive/r79/fp_6.0.79_mac_classic.hqx",
+			"zipped": "8-14232153-751285"
+		}
+	]
+}

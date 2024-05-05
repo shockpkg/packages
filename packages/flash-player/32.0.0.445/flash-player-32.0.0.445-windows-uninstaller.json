@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-32.0.0.445-windows-uninstaller",
+	"file": "uninstall_flash_player.exe",
+	"size": 1502264,
+	"sha256": "1064cdaa1ac16bdd9a0727f260fe12d7b20ab8ee9fecfc1c6a481d298b5fb6c7",
+	"sha1": "bc34d4c074240c3d33d5af71aa34f5433aed758b",
+	"md5": "097bc632fefdc0d1282060fba322a7da",
+	"source": "https://archive.org/download/shockpkg_packages_1/10/64/cdaa1ac16bdd9a0727f260fe12d7b20ab8ee9fecfc1c6a481d298b5fb6c7/uninstall_flash_player.exe"
+}

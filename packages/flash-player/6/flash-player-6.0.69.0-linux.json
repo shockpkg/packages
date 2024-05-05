@@ -1,0 +1,9 @@
+{
+	"name": "flash-player-6.0.69.0-linux",
+	"file": "install_flash_player_6_linux.tar.gz",
+	"size": 706066,
+	"sha256": "a4480d9aeebe2c525c5c681ef61aa3a64139c5c6bd8fc295acfa2cc7e9be41aa",
+	"sha1": "ecddda28954ce26882cea0f6578af326d7c6e76c",
+	"md5": "3c94ccbc2d4535ab78ad2c3eb1cd1777",
+	"source": "https://archive.org/download/shockpkg_packages_a/a4/48/0d9aeebe2c525c5c681ef61aa3a64139c5c6bd8fc295acfa2cc7e9be41aa/install_flash_player_6_linux.tar.gz"
+}
