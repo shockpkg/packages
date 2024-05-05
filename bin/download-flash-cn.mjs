@@ -140,13 +140,12 @@ async function main() {
 
 	console.log('-'.repeat(80));
 
-	const doc = [];
 	for (const {
 		info: {name, file, date},
 		size,
 		hashes: {sha256, sha1, md5}
 	} of changed) {
-		doc.push({
+		const pkg = {
 			name,
 			file,
 			size,
@@ -157,9 +156,9 @@ async function main() {
 			metadata: {
 				date
 			}
-		});
+		};
+		console.log(JSON.stringify(pkg, null, '\t'));
 	}
-	console.log(JSON.stringify(doc, null, '\t'));
 }
 main().catch(err => {
 	console.error(err);
