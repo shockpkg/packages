@@ -1,5 +1,5 @@
 import {readFile, readdir} from 'node:fs/promises';
-import {dirname, join as pathJoin} from 'node:path';
+import {basename, dirname, join as pathJoin} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 import {walk} from './util.mjs';
@@ -23,12 +23,8 @@ function compareNames(a, b) {
 }
 
 export async function readPackageFile(f) {
-	const parts = f.split(/[\\/]/);
-	if (parts.length === 3) {
-		return [JSON.parse(await readFile(pathJoin(directory, f), 'utf8'))];
-	}
-
-	const pre = f.replace(/\.json$/, '').replace(/[\\/]/i, '-');
+	const named = basename(f, '.json');
+	const pre = dirname(f).replace(/[\\/]/g, '-');
 	const pres = [pre];
 	const m = pre.match(andReg);
 	if (m) {
@@ -38,8 +34,12 @@ export async function readPackageFile(f) {
 		}
 	}
 
-	const pkgs = JSON.parse(await readFile(pathJoin(directory, f), 'utf8'));
-	for (const [{name}] of walk(pkgs, p => p.packages)) {
+	const pkg = JSON.parse(await readFile(pathJoin(directory, f), 'utf8'));
+	if (pkg.name !== named) {
+		throw new Error(`Package name file mismatch: ${pkg.name}: ${f}`);
+	}
+
+	for (const [{name}] of walk([pkg], p => p.packages)) {
 		let prefixed = false;
 		for (const pre of pres) {
 			if (name.startsWith(pre)) {
@@ -55,7 +55,7 @@ export async function readPackageFile(f) {
 			throw new Error(`Package in wrong file: ${name}: ${f}`);
 		}
 	}
-	return pkgs;
+	return pkg;
 }
 
 export async function read() {
