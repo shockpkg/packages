@@ -164,7 +164,7 @@ async function main() {
 		console.log(json);
 
 		// eslint-disable-next-line no-await-in-loop
-		await mkdir(dirname(f), {recursive: true});
+		await mkdir(dirname(pathJoin(directory, f)), {recursive: true});
 		// eslint-disable-next-line no-await-in-loop
 		await writeFile(pathJoin(directory, f), `${json}\n`);
 	}
