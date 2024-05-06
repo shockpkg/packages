@@ -13,7 +13,8 @@ export function pathForFile(sha256, file) {
 
 export function createPackageUrl(sha256, file) {
 	const f = encodeURIComponent(file);
-	return `https://archive.org/download/${pathForFile(sha256, f)}`;
+	const g = groupForSha256(sha256);
+	return `https://archive.org/download/${g}/${pathForFile(sha256, f)}`;
 }
 
 export function parsePackageUrl(url) {
