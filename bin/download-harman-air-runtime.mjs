@@ -46,6 +46,7 @@ async function main() {
 		const hasher = new Hasher([hashSha256, hashSha1, hashMd5]);
 
 		let st = await stat(filePath).catch(() => null);
+		let sha256 = null;
 		if (st) {
 			const total = st.size;
 			await pipeline(
@@ -75,19 +76,21 @@ async function main() {
 					resource.progress = size / total;
 				}
 			});
+
+			// Validate hash before move.
+			sha256 = hashSha256.digest('hex');
+			if (sha256 !== sha256e) {
+				throw new Error(`Hash: ${sha256} != ${sha256e}: ${source}`);
+			}
+
 			st = await stat(filePart);
 			await rename(filePart, filePath);
 		}
 
 		resource.size = st.size;
 
-		const sha256 = hashSha256.digest('hex');
-		if (sha256 !== sha256e) {
-			throw new Error(`Hash: ${sha256} != ${sha256e}: ${source}`);
-		}
-
 		resource.hashes = {
-			sha256,
+			sha256: sha256 || hashSha256.digest('hex'),
 			sha1: hashSha1.digest('hex'),
 			md5: hashMd5.digest('hex')
 		};
