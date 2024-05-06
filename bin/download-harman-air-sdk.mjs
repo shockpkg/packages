@@ -3,8 +3,8 @@
 /* eslint-disable no-console */
 
 import {createReadStream} from 'node:fs';
-import {mkdir, rename, stat} from 'node:fs/promises';
-import {join as pathJoin} from 'node:path';
+import {mkdir, rename, stat, writeFile} from 'node:fs/promises';
+import {dirname, join as pathJoin} from 'node:path';
 import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
 
@@ -14,6 +14,7 @@ import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {queue} from '../util/queue.mjs';
 import {createPackageUrl} from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
+import {directory} from '../util/packages.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -109,7 +110,7 @@ async function main() {
 	console.log('-'.repeat(80));
 
 	for (const {
-		info: {name, file},
+		info: {name, file, group},
 		size,
 		hashes: {sha256, sha1, md5}
 	} of resources) {
@@ -122,7 +123,16 @@ async function main() {
 			md5,
 			source: createPackageUrl(sha256, file)
 		};
-		console.log(JSON.stringify(pkg, null, '\t'));
+		const json = JSON.stringify(pkg, null, '\t');
+		const f = pathJoin(...group, `${name}.json`);
+
+		console.log(f);
+		console.log(json);
+
+		// eslint-disable-next-line no-await-in-loop
+		await mkdir(dirname(f), {recursive: true});
+		// eslint-disable-next-line no-await-in-loop
+		await writeFile(pathJoin(directory, f), `${json}\n`);
 	}
 }
 main().catch(err => {

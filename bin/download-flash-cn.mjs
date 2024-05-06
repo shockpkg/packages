@@ -3,13 +3,13 @@
 /* eslint-disable no-console */
 
 import {createReadStream} from 'node:fs';
-import {mkdir, rename, stat} from 'node:fs/promises';
-import {join as pathJoin} from 'node:path';
+import {mkdir, rename, stat, writeFile} from 'node:fs/promises';
+import {dirname, join as pathJoin} from 'node:path';
 import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
 
 import {downloads, userAgent} from '../util/flashcn.mjs';
-import {read as packaged} from '../util/packages.mjs';
+import {directory, read as packaged} from '../util/packages.mjs';
 import {walk} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 import {download} from '../util/download.mjs';
@@ -124,7 +124,7 @@ async function main() {
 	console.log('-'.repeat(80));
 
 	const unchanged = resources.filter(r => bySha256.has(r.hashes.sha256));
-	const changed = resources.filter(r => !bySha256.has(r.hashes.sha256));
+	const changed = resources.filter(r => bySha256.has(r.hashes.sha256));
 
 	console.log(`UNCHANGED: ${unchanged.length}`);
 	for (const r of unchanged) {
@@ -141,7 +141,7 @@ async function main() {
 	console.log('-'.repeat(80));
 
 	for (const {
-		info: {name, file, date},
+		info: {name, file, date, group},
 		size,
 		hashes: {sha256, sha1, md5}
 	} of changed) {
@@ -157,7 +157,16 @@ async function main() {
 				date
 			}
 		};
-		console.log(JSON.stringify(pkg, null, '\t'));
+		const json = JSON.stringify(pkg, null, '\t');
+		const f = pathJoin(...group, `${name}.json`);
+
+		console.log(f);
+		console.log(json);
+
+		// eslint-disable-next-line no-await-in-loop
+		await mkdir(dirname(f), {recursive: true});
+		// eslint-disable-next-line no-await-in-loop
+		await writeFile(pathJoin(directory, f), `${json}\n`);
 	}
 }
 main().catch(err => {

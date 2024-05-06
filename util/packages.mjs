@@ -7,7 +7,7 @@ import {humanTokens} from './compare.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const directory = pathJoin(__dirname, '..', 'packages');
+export const directory = pathJoin(__dirname, '..', 'packages');
 
 const jsonPathReg = /^([^.][^/]*\/)*[^.][^/]*\.json$/;
 

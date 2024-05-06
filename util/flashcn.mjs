@@ -143,7 +143,8 @@ async function listRelease() {
 		// 	throw new Error(`Unexpected Win8 URL: ${info.downloadURLForWin8}`);
 		// }
 
-		const source = getSource(info.downloadURL, info.version);
+		const {version} = info;
+		const source = getSource(info.downloadURL, version);
 		const file = urlFile(source);
 		const type = idRelease.get(id);
 		if (!type) {
@@ -158,9 +159,10 @@ async function listRelease() {
 			list: 'release',
 			id,
 			date: dateNorm(info.date),
-			version: info.version,
+			version,
 			size: info.size,
-			mimetype: mimetype(file)
+			mimetype: mimetype(file),
+			group: ['flash-player', version]
 		});
 		ids.add(id);
 	}
@@ -223,12 +225,15 @@ async function listDebug() {
 			throw new Error(`Unknown file: ${u.href}`);
 		}
 
-		const name =
+		const family =
+			type === 'playerglobal' ? 'flash-playerglobal' : 'flash-player';
+		const suf = type === 'playerglobal' ? 'cn' : `${type}-cn`;
+		const ver =
 			type === 'playerglobal'
-				? `flash-playerglobal-${version}-cn`
-				: `flash-player-${version}-${type}-cn`;
+				? version.replace(/^(\d+\.\d+)\..*/, '$1')
+				: version;
 		r.push({
-			name,
+			name: `${family}-${version}-${suf}`,
 			file,
 			source,
 			referer: htmlUrl,
@@ -237,7 +242,8 @@ async function listDebug() {
 			date: dated,
 			version,
 			size: null,
-			mimetype: mimetype(file)
+			mimetype: mimetype(file),
+			group: [family, ver]
 		});
 		ids.add(id);
 	}

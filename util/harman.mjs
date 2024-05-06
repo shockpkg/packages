@@ -98,7 +98,8 @@ export async function sdks() {
 			file,
 			source,
 			url,
-			mimetype: 'application/octet-stream'
+			mimetype: 'application/octet-stream',
+			group: ['air-sdk', version]
 		});
 	}
 
@@ -203,7 +204,8 @@ export async function runtimes() {
 			file,
 			sha256,
 			source: `${runtimeFileBase}${file}`,
-			mimetype
+			mimetype,
+			group: ['air-runtime', version]
 		});
 	}
 
