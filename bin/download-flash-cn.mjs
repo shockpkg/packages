@@ -124,7 +124,7 @@ async function main() {
 	console.log('-'.repeat(80));
 
 	const unchanged = resources.filter(r => bySha256.has(r.hashes.sha256));
-	const changed = resources.filter(r => bySha256.has(r.hashes.sha256));
+	const changed = resources.filter(r => !bySha256.has(r.hashes.sha256));
 
 	console.log(`UNCHANGED: ${unchanged.length}`);
 	for (const r of unchanged) {
