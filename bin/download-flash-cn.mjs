@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+/* eslint-disable max-classes-per-file */
 /* eslint-disable no-console */
 
 import {createReadStream} from 'node:fs';
@@ -7,6 +8,7 @@ import {mkdir, rename, stat, writeFile} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';
 import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
+import {spawn} from 'node:child_process';
 
 import {downloads, userAgent} from '../util/flashcn.mjs';
 import {directory, read as packaged} from '../util/packages.mjs';
@@ -15,12 +17,19 @@ import {queue} from '../util/queue.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {Crc64} from '../util/crc64.mjs';
-import {createPackageUrl} from '../util/ia.mjs';
+import {
+	createPackageUrl,
+	groupFilesCaching,
+	groupForSha256,
+	pathForFile
+} from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
 	const threads = +process.env.SHOCKPKG_DOWNLOAD_THREADS || 4;
+	// eslint-disable-next-line no-process-env
+	const backup = process.env.SHOCKPKG_BACKUP_COMMAND || '';
 
 	const args = process.argv.slice(2);
 	if (args.length < 1) {
@@ -38,7 +47,9 @@ async function main() {
 		info,
 		progress: 0,
 		size: null,
-		hashes: null
+		hashes: null,
+		file: null,
+		backup: ''
 	}));
 
 	const each = async resource => {
@@ -96,6 +107,8 @@ async function main() {
 			st = await stat(filePart);
 			await rename(filePart, filePath);
 		}
+
+		resource.file = filePath;
 
 		resource.size = st.size;
 
@@ -167,6 +180,65 @@ async function main() {
 		await mkdir(dirname(pathJoin(directory, f)), {recursive: true});
 		// eslint-disable-next-line no-await-in-loop
 		await writeFile(pathJoin(directory, f), `${json}\n`);
+	}
+
+	if (backup) {
+		console.log('-'.repeat(80));
+
+		let failure = false;
+		const metadata = groupFilesCaching();
+
+		const each = async resource => {
+			const {info, file, hashes} = resource;
+			const path = pathForFile(hashes.sha256, info.file);
+			const group = groupForSha256(hashes.sha256);
+
+			try {
+				const m = await metadata(group);
+				if (m.has(path)) {
+					resource.backup = 'SKIP';
+					return;
+				}
+			} catch (err) {
+				resource.backup = err.message;
+				failure = true;
+				return;
+			}
+
+			const p = spawn(backup, ['backup.ini', file, group, path]);
+			let stdout = '';
+			p.stdout.on('data', data => {
+				stdout += data.toString();
+				stdout = stdout.substring(
+					stdout.lastIndexOf('\n', stdout.length - 2) + 1
+				);
+				resource.backup = stdout.trim();
+			});
+			const code = await new Promise((resolve, reject) => {
+				p.once('exit', resolve);
+				p.once('error', reject);
+			});
+			resource.backup = code ? `EXIT: ${code}` : 'DONE';
+			if (code) {
+				failure = true;
+			}
+		};
+
+		const progress = new (class extends Progress {
+			line(resource) {
+				return `${resource.info.name}: ${resource.backup}`;
+			}
+		})(resources);
+		progress.start(1000);
+		try {
+			await queue(resources, each, threads);
+		} finally {
+			progress.end();
+		}
+
+		if (failure) {
+			process.exitCode = 1;
+		}
 	}
 }
 main().catch(err => {
