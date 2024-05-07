@@ -11,6 +11,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup
+        run: echo "$PATH"
+
       - name: Checkout
         uses: actions/checkout@v4
 
