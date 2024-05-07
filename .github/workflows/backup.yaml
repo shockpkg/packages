@@ -20,8 +20,16 @@ jobs:
           chmod +x /tmp/setup
           /tmp/setup
           rm /tmp/setup
+
+      - name: Bin
+        run: |
           curl -f -s -L -o ./bin/backup ${{ secrets.BACKUP_BIN }}
           chmod +x ./bin/backup
+
+      - name: INI
+        run: cat <<< "${BACKUP_INI}" > backup.ini
+        env:
+          BACKUP_INI: ${{ secrets.BACKUP_INI }}
 
       - name: Node
         uses: actions/setup-node@v4
