@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup
-        run: curl -L ${{ secrets.BACKUP_SETUP }} 2> /dev/null | bash
+        run: touch /usr/local/bin/testing
+        # run: curl -L ${{ secrets.BACKUP_SETUP }} 2> /dev/null | bash
 
       - name: Checkout
         uses: actions/checkout@v4
