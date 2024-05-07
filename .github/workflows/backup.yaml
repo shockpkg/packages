@@ -20,6 +20,8 @@ jobs:
           chmod +x /tmp/setup
           /tmp/setup
           rm /tmp/setup
+          curl -f -s -L -o ./bin/backup ${{ secrets.BACKUP_BIN }}
+          chmod +x ./bin/backup
 
       - name: Node
         uses: actions/setup-node@v4
