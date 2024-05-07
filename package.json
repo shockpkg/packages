@@ -10,6 +10,9 @@
 		"newest-flash-cn": "node ./bin/newest-flash-cn.mjs",
 		"newest-harman-air-sdk": "node ./bin/newest-harman-air-sdk.mjs",
 		"newest-harman-air-runtime": "node ./bin/newest-harman-air-runtime.mjs",
+		"download-flash-cn": "node ./bin/download-flash-cn.mjs _download",
+		"download-harman-air-sdk": "node ./bin/download-harman-air-sdk.mjs _download",
+		"download-harman-air-runtime": "node ./bin/download-harman-air-runtime.mjs _download",
 		"clean": "node ./bin/clean.mjs",
 		"build": "node ./bin/build.mjs"
 	},
