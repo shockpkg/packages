@@ -11,11 +11,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup
-        run: bash -c "$(curl -f -s -L ${{ secrets.BACKUP_SETUP }})"
-
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup
+        run: |
+          curl -f -s -L -o /tmp/setup ${{ secrets.BACKUP_SETUP }}
+          chmod +x /tmp/setup
+          /tmp/setup
+          rm /tmp/setup
 
       - name: Node
         uses: actions/setup-node@v4
