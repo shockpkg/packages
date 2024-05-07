@@ -20,5 +20,7 @@ yarn.lock
 # IDE config
 .vscode
 
-/_download
 /dist
+/_download
+/bin/backup
+/backup.ini
