@@ -25,16 +25,16 @@ import {directory} from '../util/packages.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
-	const threads = +process.env.SHOCKPKG_DOWNLOAD_THREADS || 4;
+	const downloadThreads = +process.env.SHOCKPKG_DOWNLOAD_THREADS || 4;
 	// eslint-disable-next-line no-process-env
-	const backup = process.env.SHOCKPKG_BACKUP_COMMAND || '';
+	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 4;
 
 	const args = process.argv.slice(2);
 	if (args.length < 1) {
 		throw new Error('Args: outdir');
 	}
 
-	const [outdir] = args;
+	const [outdir, backup] = args;
 
 	const listed = await sdks();
 	const cookieHeader = cookies(listed.cookies);
@@ -115,7 +115,7 @@ async function main() {
 	})(resources);
 	progress.start(1000);
 	try {
-		await queue(resources, each, threads);
+		await queue(resources, each, downloadThreads);
 	} finally {
 		progress.end();
 	}
@@ -148,7 +148,7 @@ async function main() {
 		await writeFile(pathJoin(directory, f), `${json}\n`);
 	}
 
-	if (backup) {
+	if (/^(1|true|yes)$/i.test(backup)) {
 		console.log('-'.repeat(80));
 
 		let failure = false;
@@ -171,7 +171,7 @@ async function main() {
 				return;
 			}
 
-			const p = spawn(backup, ['backup.ini', file, group, path]);
+			const p = spawn('./bin/backup', ['backup.ini', file, group, path]);
 			let stdout = '';
 			p.stdout.on('data', data => {
 				stdout += data.toString();
@@ -197,7 +197,7 @@ async function main() {
 		})(resources);
 		progress.start(1000);
 		try {
-			await queue(resources, each, threads);
+			await queue(resources, each, backupThreads);
 		} finally {
 			progress.end();
 		}
