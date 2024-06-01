@@ -114,7 +114,7 @@ export async function sdks(version = null) {
 			throw new Error(`Unknown version: ${link}`);
 		}
 		const [, version] = m;
-		const name = format.replace('%version%', version);
+		const name = format.replaceAll('%version%', version);
 		const source = new URL(link, sdkUrl).href;
 		const url = addQueryParams(source, {id});
 		const file = decodeURI(source.split(/[?#]/)[0].split('/').pop());
