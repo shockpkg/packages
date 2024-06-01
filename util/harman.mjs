@@ -64,7 +64,8 @@ export async function sdks(version = null) {
 	let links;
 
 	if (version === null) {
-		links = data.latestVersion;
+		// eslint-disable-next-line prefer-destructuring
+		links = data.latestVersion.links;
 	} else {
 		const response = await retry(() =>
 			fetch(apiUrlV.replaceAll('%version%', version), {
