@@ -31,7 +31,7 @@ async function main() {
 
 	const args = process.argv.slice(2);
 	if (args.length < 1) {
-		throw new Error('Args: outdir');
+		throw new Error('Args: outdir [backup]');
 	}
 
 	const [outdir, backup] = args;
