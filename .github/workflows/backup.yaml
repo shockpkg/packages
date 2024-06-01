@@ -14,17 +14,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup
-        run: |
-          curl -f -s -L -o /tmp/setup ${{ secrets.BACKUP_SETUP }}
-          chmod +x /tmp/setup
-          /tmp/setup
-          rm /tmp/setup
+      - name: Setup Download
+        run: curl -f -s -L -o /tmp/setup ${{ secrets.BACKUP_SETUP }}
 
-      - name: Bin
-        run: |
-          curl -f -s -L -o ./bin/backup ${{ secrets.BACKUP_BIN }}
-          chmod +x ./bin/backup
+      - name: Setup Chmod
+        run: chmod +x /tmp/setup
+
+      - name: Setup
+        run: /tmp/setup
+
+      - name: Bin Download
+        run: curl -f -s -L -o ./bin/backup ${{ secrets.BACKUP_BIN }}
+
+      - name: Bin Chmod
+        run: chmod +x ./bin/backup
 
       - name: INI
         run: cat <<< "${BACKUP_INI}" > backup.ini
