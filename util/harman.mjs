@@ -5,7 +5,9 @@ import {list, retry} from './util.mjs';
 // The API this page loads download list from.
 // https://airsdk.harman.com/download
 const sdkUrl = 'https://airsdk.harman.com/download';
+const sdkUrlV = 'https://airsdk.harman.com/download/%version%';
 const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';
+const apiUrlV = 'https://airsdk.harman.com/api/versions/%version%';
 
 const runtimeUrl = 'https://airsdk.harman.com/runtime';
 const runtimeFileBase = 'https://airsdk.harman.com/assets/downloads/';
@@ -38,11 +40,14 @@ export function cookies(list) {
 	return list.map(c => c.split(';')[0]).join('; ');
 }
 
-export async function sdks() {
+export async function sdks(version = null) {
+	const referer =
+		version === null ? sdkUrl : sdkUrlV.replaceAll('%version%', version);
 	const response = await retry(() =>
 		fetch(apiUrl, {
 			headers: {
-				'User-Agent': userAgent
+				'User-Agent': userAgent,
+				Referer: referer
 			}
 		})
 	);
@@ -55,8 +60,28 @@ export async function sdks() {
 		.map(a => (a[0] === 'set-cookie' ? a[1] : ''))
 		.filter(c => c.startsWith('JSESSIONID='));
 
-	const {latestVersion, id} = data;
-	const {links} = latestVersion;
+	const {id} = data;
+	let links;
+
+	if (version === null) {
+		links = data.latestVersion;
+	} else {
+		const response = await retry(() =>
+			fetch(apiUrlV.replaceAll('%version%', version), {
+				headers: {
+					'User-Agent': userAgent,
+					Referer: referer
+				}
+			})
+		);
+		if (response.status !== 200) {
+			throw new Error(`Status code: ${response.status}: ${apiUrl}`);
+		}
+
+		const data = JSON.parse(await response.text());
+		// eslint-disable-next-line prefer-destructuring
+		links = data.links;
+	}
 
 	const mappins = [
 		['air-sdk-%version%-windows', 'SDK_FLEX_WIN'],

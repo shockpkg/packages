@@ -31,12 +31,12 @@ async function main() {
 
 	const args = process.argv.slice(2);
 	if (args.length < 1) {
-		throw new Error('Args: outdir [backup]');
+		throw new Error('Args: outdir [backup] [version]');
 	}
 
-	const [outdir, backup] = args;
+	const [outdir, backup, version] = args;
 
-	const listed = await sdks();
+	const listed = await sdks(version ?? null);
 	const cookieHeader = cookies(listed.cookies);
 
 	const resources = listed.downloads.map(info => ({
