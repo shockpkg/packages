@@ -2,7 +2,7 @@
 
 /* eslint-disable no-console */
 
-import {sdks, cookies, userAgent} from '../util/harman.mjs';
+import {sdks, cookies, userAgent, sdksList} from '../util/harman.mjs';
 import {read as packaged} from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
@@ -15,9 +15,20 @@ async function main() {
 
 	const packages = await packaged();
 	const named = new Map(packages.map(p => [p.name, p]));
-	const listed = await sdks();
-	const resources = listed.downloads;
-	const cookie = cookies(listed.cookies);
+	const current = await sdks();
+	const resources = current.downloads;
+	const cookie = cookies(current.cookies);
+	const releases = await sdksList();
+
+	const all = [...resources];
+	{
+		const named = new Set(all.map(p => p.name));
+		for (const release of releases) {
+			if (!named.has(release.name)) {
+				all.push(release);
+			}
+		}
+	}
 
 	const each = async resource => {
 		const {name, source, url} = resource;
@@ -25,6 +36,10 @@ async function main() {
 		const expected = named.get(name);
 		if (!expected) {
 			throw new Error(`Unknown name: ${name}`);
+		}
+
+		if (!url) {
+			return;
 		}
 
 		const response = await retry(() =>
@@ -52,7 +67,7 @@ async function main() {
 	const passed = [];
 	const failed = [];
 	await queue(
-		resources,
+		all,
 		async resource => {
 			console.log(`${resource.name}: Check: ${resource.source}`);
 

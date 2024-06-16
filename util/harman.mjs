@@ -8,9 +8,11 @@ const sdkUrl = 'https://airsdk.harman.com/download';
 const sdkUrlV = 'https://airsdk.harman.com/download/%version%';
 const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';
 const apiUrlV = 'https://airsdk.harman.com/api/versions/%version%';
+const releaseNotesUrl = 'https://airsdk.harman.com/api/versions/release-notes';
 
-const runtimeUrl = 'https://airsdk.harman.com/runtime';
+const runtimeBase = 'https://airsdk.harman.com/runtime';
 const runtimeFileBase = 'https://airsdk.harman.com/assets/downloads/';
+const releaseNotesBase = 'https://airsdk.harman.com/release_notes';
 
 export const userAgent =
 	// eslint-disable-next-line max-len
@@ -19,6 +21,15 @@ export const userAgent =
 const runtimeFiles = [
 	['AdobeAIR.exe', 'windows', 'application/x-msdownload'],
 	['AdobeAIR.dmg', 'mac', 'application/x-apple-diskimage']
+];
+
+const mappings = [
+	['air-sdk-%version%-windows', 'SDK_FLEX_WIN'],
+	['air-sdk-%version%-windows-compiler', 'SDK_AS_WIN'],
+	['air-sdk-%version%-mac', 'SDK_FLEX_MAC'],
+	['air-sdk-%version%-mac-compiler', 'SDK_AS_MAC'],
+	['air-sdk-%version%-linux', 'SDK_FLEX_LIN'],
+	['air-sdk-%version%-linux-compiler', 'SDK_AS_LIN']
 ];
 
 const legacy = new Set([
@@ -38,6 +49,50 @@ function addQueryParams(url, params) {
 
 export function cookies(list) {
 	return list.map(c => c.split(';')[0]).join('; ');
+}
+
+export async function sdksList() {
+	const response = await retry(() =>
+		fetch(releaseNotesUrl, {
+			headers: {
+				'User-Agent': userAgent,
+				Referer: releaseNotesBase
+			}
+		})
+	);
+	if (response.status !== 200) {
+		throw new Error(`Status code: ${response.status}: ${releaseNotesUrl}`);
+	}
+
+	const data = JSON.parse(await response.text());
+	const r = [];
+	for (const {links} of data) {
+		if (!links) {
+			continue;
+		}
+		for (const [format, prop] of mappings) {
+			const link = links[prop];
+			if (!link) {
+				continue;
+			}
+			const m = link.match(/\/(\d+\.\d+\.\d+\.\d+)\//);
+			if (!m) {
+				throw new Error(`Unknown version: ${link}`);
+			}
+			const [, version] = m;
+			const name = format.replaceAll('%version%', version);
+			const source = new URL(link, releaseNotesBase).href;
+			const file = decodeURI(source.split(/[?#]/)[0].split('/').pop());
+			r.push({
+				name,
+				version,
+				file,
+				source,
+				group: ['air-sdk', version]
+			});
+		}
+	}
+	return r;
 }
 
 export async function sdks(version = null) {
@@ -84,18 +139,9 @@ export async function sdks(version = null) {
 		links = data.links;
 	}
 
-	const mappins = [
-		['air-sdk-%version%-windows', 'SDK_FLEX_WIN'],
-		['air-sdk-%version%-windows-compiler', 'SDK_AS_WIN'],
-		['air-sdk-%version%-mac', 'SDK_FLEX_MAC'],
-		['air-sdk-%version%-mac-compiler', 'SDK_AS_MAC'],
-		['air-sdk-%version%-linux', 'SDK_FLEX_LIN'],
-		['air-sdk-%version%-linux-compiler', 'SDK_AS_LIN']
-	];
-
 	const allLinks = new Set(Object.keys(links));
 	allLinks.delete('RELEASE_NOTES');
-	for (const [, prop] of mappins) {
+	for (const [, prop] of mappings) {
 		const link = links[prop];
 		if (!link) {
 			throw new Error(`Missing link: ${prop}`);
@@ -107,7 +153,7 @@ export async function sdks(version = null) {
 	}
 
 	const downloads = [];
-	for (const [format, prop] of mappins) {
+	for (const [format, prop] of mappings) {
 		const link = links[prop];
 		const m = link.match(/\/(\d+\.\d+\.\d+\.\d+)\//);
 		if (!m) {
@@ -137,7 +183,7 @@ export async function sdks(version = null) {
 
 export async function runtimes() {
 	const response = await retry(() =>
-		fetch(runtimeUrl, {
+		fetch(runtimeBase, {
 			headers: {
 				'User-Agent': userAgent
 			}
@@ -146,7 +192,7 @@ export async function runtimes() {
 
 	// The page has a 404 response code normally?
 	if (response.status !== 200 && response.status !== 404) {
-		throw new Error(`Status code: ${response.status}: ${runtimeUrl}`);
+		throw new Error(`Status code: ${response.status}: ${runtimeBase}`);
 	}
 
 	const html = await response.text();
@@ -155,7 +201,7 @@ export async function runtimes() {
 	const dom = domParser.parseFromString(html, 'text/html');
 	const scripts = list(dom.getElementsByTagName('script'));
 	if (!scripts.length) {
-		throw new Error(`No script tags: ${runtimeUrl}`);
+		throw new Error(`No script tags: ${runtimeBase}`);
 	}
 
 	let version = '';
@@ -195,11 +241,11 @@ export async function runtimes() {
 	}
 
 	if (!version) {
-		throw new Error(`No version found: ${runtimeUrl}`);
+		throw new Error(`No version found: ${runtimeBase}`);
 	}
 
 	if (!hashes) {
-		throw new Error(`No hashes found: ${runtimeUrl}`);
+		throw new Error(`No hashes found: ${runtimeBase}`);
 	}
 
 	const sha256s = new Map();
