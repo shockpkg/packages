@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint-disable no-console */
-
 import {createHash} from 'node:crypto';
 import {Readable} from 'node:stream';
 import {pipeline} from 'node:stream/promises';
@@ -67,7 +65,6 @@ async function main() {
 		async resource => {
 			console.log(`${resource.name}: Check: ${resource.source}`);
 
-			// eslint-disable-next-line no-await-in-loop
 			await retry(() => each(resource))
 				.then(() => {
 					console.log(`${resource.name}: Pass`);

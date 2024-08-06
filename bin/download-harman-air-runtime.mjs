@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 /* eslint-disable max-classes-per-file */
-/* eslint-disable no-console */
 
 import {createReadStream} from 'node:fs';
 import {mkdir, rename, stat, writeFile} from 'node:fs/promises';
@@ -116,7 +115,7 @@ async function main() {
 				: `%${(resource.progress * 100).toFixed(2)}`;
 			return `${resource.info.name}: ${status}`;
 		}
-	})(resources);
+	})(resources, process.stdout);
 	progress.start(1000);
 	try {
 		await queue(resources, each, downloadThreads);
@@ -179,7 +178,7 @@ async function main() {
 			let stdout = '';
 			p.stdout.on('data', data => {
 				stdout += data.toString();
-				stdout = stdout.substring(
+				stdout = stdout.slice(
 					stdout.lastIndexOf('\n', stdout.length - 2) + 1
 				);
 				resource.backup = stdout.trim();
@@ -198,7 +197,7 @@ async function main() {
 			line(resource) {
 				return `${resource.info.name}: ${resource.backup}`;
 			}
-		})(resources);
+		})(resources, process.stdout);
 		progress.start(1000);
 		try {
 			await queue(resources, each, backupThreads);

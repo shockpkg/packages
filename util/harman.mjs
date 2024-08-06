@@ -75,14 +75,14 @@ export async function sdksList() {
 			if (!link) {
 				continue;
 			}
-			const m = link.match(/\/(\d+\.\d+\.\d+\.\d+)\//);
+			const m = link.match(/\/((?:\d+\.){3}\d+)\//);
 			if (!m) {
 				throw new Error(`Unknown version: ${link}`);
 			}
 			const [, version] = m;
 			const name = format.replaceAll('%version%', version);
 			const source = new URL(link, releaseNotesBase).href;
-			const file = decodeURI(source.split(/[?#]/)[0].split('/').pop());
+			const file = decodeURI(source.split(/[#?]/)[0].split('/').pop());
 			r.push({
 				name,
 				version,
@@ -155,7 +155,7 @@ export async function sdks(version = null) {
 	const downloads = [];
 	for (const [format, prop] of mappings) {
 		const link = links[prop];
-		const m = link.match(/\/(\d+\.\d+\.\d+\.\d+)\//);
+		const m = link.match(/\/((?:\d+\.){3}\d+)\//);
 		if (!m) {
 			throw new Error(`Unknown version: ${link}`);
 		}
@@ -163,7 +163,7 @@ export async function sdks(version = null) {
 		const name = format.replaceAll('%version%', version);
 		const source = new URL(link, sdkUrl).href;
 		const url = addQueryParams(source, {id});
-		const file = decodeURI(source.split(/[?#]/)[0].split('/').pop());
+		const file = decodeURI(source.split(/[#?]/)[0].split('/').pop());
 		downloads.push({
 			name,
 			version,
@@ -199,6 +199,7 @@ export async function runtimes() {
 
 	const domParser = new DOMParser({errorHandler: {}});
 	const dom = domParser.parseFromString(html, 'text/html');
+	// eslint-disable-next-line unicorn/prefer-query-selector
 	const scripts = list(dom.getElementsByTagName('script'));
 	if (!scripts.length) {
 		throw new Error(`No script tags: ${runtimeBase}`);
@@ -229,13 +230,11 @@ export async function runtimes() {
 
 		// eslint-disable-next-line no-await-in-loop
 		const js = await res.text();
-		const m = js.match(
-			/AIR\s+runtime\s+-\s+version\s+(\d+\.\d+\.\d+\.\d+)/i
-		);
+		const m = js.match(/air\s+runtime\s+-\s+version\s+((?:\d+\.){3}\d+)/i);
 		if (m) {
 			// eslint-disable-next-line prefer-destructuring
 			version = m[1];
-			hashes = js.match(/[0-9a-f]{64} \*AdobeAIR\.(exe|dmg)/gi);
+			hashes = js.match(/[\da-f]{64} \*adobeair\.(exe|dmg)/gi);
 			break;
 		}
 	}

@@ -37,7 +37,7 @@ const dupes = new Map([
 ]);
 
 function parseJsonP(jsonp) {
-	const m = jsonp.match(/^\s*[a-z0-9_$]+\s*\((.+)\)\s*;?\s*$/im);
+	const m = jsonp.match(/^\s*[\w$]+\s*\((.+)\)\s*;?\s*$/im);
 	if (!m) {
 		throw new Error('Invalid JOSNP');
 	}
@@ -45,10 +45,7 @@ function parseJsonP(jsonp) {
 }
 
 function parseJsonV(jsonv) {
-	const json = jsonv.substring(
-		jsonv.indexOf('{'),
-		jsonv.lastIndexOf('}') + 1
-	);
+	const json = jsonv.slice(jsonv.indexOf('{'), jsonv.lastIndexOf('}') + 1);
 	return JSON.parse(json);
 }
 
@@ -82,7 +79,7 @@ function getSource(downloadUrl, version) {
 }
 
 function urlFile(url) {
-	return decodeURIComponent(url.split(/[?#]/)[0].split('/').pop());
+	return decodeURIComponent(url.split(/[#?]/)[0].split('/').pop());
 }
 
 function dateNorm(date) {
@@ -192,6 +189,7 @@ async function listDebug() {
 
 	const domParser = new DOMParser({errorHandler: {}});
 	const dom = domParser.parseFromString(html, 'text/html');
+	// eslint-disable-next-line unicorn/prefer-query-selector
 	const hrefs = list(dom.getElementsByTagName('a'))
 		.map(a => new URL(a.getAttribute('href') || '', htmlRes.url))
 		.filter(u => u.pathname.startsWith('/cdm/'));

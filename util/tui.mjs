@@ -1,5 +1,5 @@
 export class Progress {
-	constructor(items, stream = process.stdout) {
+	constructor(items, stream) {
 		this.items = [...items];
 		this.stream = stream;
 		this.interval = null;

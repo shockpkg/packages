@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint-disable no-console */
-
 import {mkdir, writeFile} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';
 

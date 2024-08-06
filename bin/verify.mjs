@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint-disable no-console */
-
 import {read as packaged} from '../util/packages.mjs';
 import {
 	groupFilesCaching,
@@ -82,24 +80,30 @@ async function main() {
 	const passed = [];
 	const failed = [];
 	await Promise.all(
-		new Array(threads).fill(0).map(async () => {
-			while (resources.length) {
-				const resource = resources.shift();
+		Array.from({length: threads})
+			.fill(0)
+			.map(async () => {
+				while (resources.length) {
+					const resource = resources.shift();
 
-				console.log(`${resource.name}: ${resource.source}: Checking`);
+					console.log(
+						`${resource.name}: ${resource.source}: Checking`
+					);
 
-				// eslint-disable-next-line no-await-in-loop
-				await retry(() => each(resource))
-					.then(() => {
-						console.log(`${resource.name}: Pass`);
-						passed.push(resource);
-					})
-					.catch(err => {
-						console.log(`${resource.name}: Fail: ${err.message}`);
-						failed.push(resource);
-					});
-			}
-		})
+					// eslint-disable-next-line no-await-in-loop
+					await retry(() => each(resource))
+						.then(() => {
+							console.log(`${resource.name}: Pass`);
+							passed.push(resource);
+						})
+						.catch(err => {
+							console.log(
+								`${resource.name}: Fail: ${err.message}`
+							);
+							failed.push(resource);
+						});
+				}
+			})
 	);
 
 	console.log(`Passed: ${passed.length}`);

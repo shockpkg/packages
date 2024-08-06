@@ -2,7 +2,7 @@ export async function retry(f) {
 	let r;
 	try {
 		r = await f();
-	} catch (_) {
+	} catch {
 		r = await f();
 	}
 	return r;
@@ -10,7 +10,8 @@ export async function retry(f) {
 
 export function list(arrayLike) {
 	const r = [];
-	for (let i = 0; i < arrayLike.length; i++) {
+	const {length} = arrayLike;
+	for (let i = 0; i < length; i++) {
 		r.push(arrayLike[i]);
 	}
 	return r;

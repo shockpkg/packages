@@ -63,7 +63,8 @@ export class Crc64 extends Writable {
 	digest(encoding = null) {
 		let state = this._state;
 		const b = this._buffer;
-		for (let i = 0; i < b.length; i++) {
+		const {length} = b;
+		for (let i = 0; i < length; i++) {
 			state = TABLE[0][Number(state & 0xffn) ^ b[i]] ^ (state >> 8n);
 		}
 		state = ~state & 0xffffffffffffffffn;

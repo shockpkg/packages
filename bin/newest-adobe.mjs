@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint-disable no-console */
-
 import {retry} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 
@@ -115,6 +113,38 @@ const headerMappings = [
 	['location', 'location']
 ];
 
+const each = async resource => {
+	const {source: url, status: statusE} = resource;
+	const response = await retry(() =>
+		fetch(url, {
+			method: 'HEAD',
+			redirect: 'manual'
+		})
+	);
+	const {status, headers} = response;
+
+	if (status !== statusE) {
+		throw new Error(`Status code: ${status} != ${statusE}: ${url}`);
+	}
+
+	for (const [property, header] of headerMappings) {
+		const expected = resource[property];
+		// eslint-disable-next-line no-undefined
+		if (expected === undefined) {
+			continue;
+		}
+
+		const actual = headers.get(header);
+		const value = typeof expected === 'number' ? +actual : actual;
+
+		if (value !== expected) {
+			throw new Error(
+				`Unexpected ${header}: ${value} (expected ${expected})`
+			);
+		}
+	}
+};
+
 async function main() {
 	// eslint-disable-next-line no-process-env
 	const threads = +process.env.SHOCKPKG_NEWEST_THREADS || 4;
@@ -122,45 +152,12 @@ async function main() {
 	console.log(`Threads: ${threads}`);
 	console.log(`Checking: ${resources.length}`);
 
-	const each = async resource => {
-		const {source: url, status: statusE} = resource;
-		const response = await retry(() =>
-			fetch(url, {
-				method: 'HEAD',
-				redirect: 'manual'
-			})
-		);
-		const {status, headers} = response;
-
-		if (status !== statusE) {
-			throw new Error(`Status code: ${status} != ${statusE}: ${url}`);
-		}
-
-		for (const [property, header] of headerMappings) {
-			const expected = resource[property];
-			if (typeof expected === 'undefined') {
-				continue;
-			}
-
-			const actual = headers.get(header);
-			const value = typeof expected === 'number' ? +actual : actual;
-
-			if (value !== expected) {
-				throw new Error(
-					`Unexpected ${header}: ${value} (expected ${expected})`
-				);
-			}
-		}
-	};
-
 	const passed = [];
 	const failed = [];
 	await queue(
 		resources,
 		async resource => {
 			console.log(`${resource.source}: Check`);
-
-			// eslint-disable-next-line no-await-in-loop
 			await retry(() => each(resource))
 				.then(() => {
 					console.log(`${resource.source}: Pass`);

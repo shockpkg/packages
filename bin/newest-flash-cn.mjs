@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint-disable no-console */
-
 import {downloads, userAgent} from '../util/flashcn.mjs';
 import {read as packaged} from '../util/packages.mjs';
 import {retry, walk} from '../util/util.mjs';
@@ -64,7 +62,6 @@ async function main() {
 		async resource => {
 			console.log(`${resource.name}: Check: ${resource.source}`);
 
-			// eslint-disable-next-line no-await-in-loop
 			await retry(() => each(resource))
 				.then(() => {
 					console.log(`${resource.name}: Pass`);

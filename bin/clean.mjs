@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint-disable no-console */
-
 import {rm} from 'node:fs/promises';
 
 const dist = 'dist';

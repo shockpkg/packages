@@ -5,9 +5,9 @@ export function groupForSha256(sha256) {
 }
 
 export function pathForFile(sha256, file) {
-	const a = sha256.substr(0, 2);
-	const b = sha256.substr(2, 2);
-	const c = sha256.substr(4);
+	const a = sha256.slice(0, 2);
+	const b = sha256.slice(2, 4);
+	const c = sha256.slice(4);
 	return `${a}/${b}/${c}/${file}`;
 }
 

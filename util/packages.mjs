@@ -24,7 +24,7 @@ function compareNames(a, b) {
 
 export async function readPackageFile(f) {
 	const named = basename(f, '.json');
-	const pre = dirname(f).replace(/[\\/]/g, '-');
+	const pre = dirname(f).replace(/[/\\]/g, '-');
 	const pres = [pre];
 	const m = pre.match(andReg);
 	if (m) {
@@ -43,7 +43,7 @@ export async function readPackageFile(f) {
 		let prefixed = false;
 		for (const pre of pres) {
 			if (name.startsWith(pre)) {
-				const after = name.substring(pre.length);
+				const after = name.slice(pre.length);
 				if (after === '' || after[0] === '-' || after[0] === '.') {
 					prefixed = true;
 					break;

@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint-disable no-console */
-
 import {equal, match, ok} from 'node:assert/strict';
 import {basename} from 'node:path';
 
@@ -12,11 +10,11 @@ async function properties(packages) {
 	const validatorsRoot = {
 		name: (root, value) => {
 			equal(typeof value, 'string');
-			match(value, /^[a-z][-a-z0-9_.]*[a-z0-9]$/);
+			match(value, /^[a-z][\d._a-z-]*[\da-z]$/);
 		},
 		file: (root, value) => {
 			equal(typeof value, 'string');
-			match(value, /^[-_.a-zA-Z0-9\x20()]+$/);
+			match(value, /^[\w ().-]+$/);
 		},
 		size: (root, value) => {
 			equal(typeof value, 'number');
@@ -24,15 +22,15 @@ async function properties(packages) {
 		},
 		sha256: (root, value) => {
 			equal(typeof value, 'string');
-			match(value, /^[a-z0-9]{64}$/);
+			match(value, /^[\da-z]{64}$/);
 		},
 		sha1: (root, value) => {
 			equal(typeof value, 'string');
-			match(value, /^[a-z0-9]{40}$/);
+			match(value, /^[\da-z]{40}$/);
 		},
 		md5: (root, value) => {
 			equal(typeof value, 'string');
-			match(value, /^[a-z0-9]{32}$/);
+			match(value, /^[\da-z]{32}$/);
 		},
 		source: (root, value) => {
 			equal(typeof value, 'string');
@@ -44,7 +42,8 @@ async function properties(packages) {
 			}
 		},
 		packages: (root, value) => {
-			if (typeof value !== 'undefined') {
+			// eslint-disable-next-line no-undefined
+			if (value === undefined) {
 				ok(Array.isArray(value));
 			}
 		},
