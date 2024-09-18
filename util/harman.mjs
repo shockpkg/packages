@@ -11,7 +11,7 @@ const apiUrlV = 'https://airsdk.harman.com/api/versions/%version%';
 const releaseNotesUrl = 'https://airsdk.harman.com/api/versions/release-notes';
 
 const runtimeBase = 'https://airsdk.harman.com/runtime';
-const runtimeFileBase = 'https://airsdk.harman.com/assets/downloads/';
+const runtimeFileBase = 'https://airsdk.harman.com/assets/downloads';
 const releaseNotesBase = 'https://airsdk.harman.com/release_notes';
 
 export const userAgent =
@@ -274,7 +274,7 @@ export async function runtimes() {
 			version,
 			file,
 			sha256,
-			source: `${runtimeFileBase}${file}`,
+			source: `${runtimeFileBase}/${version}/${file}`,
 			mimetype,
 			group: ['air-runtime', version]
 		});
