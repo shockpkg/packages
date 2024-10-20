@@ -17,7 +17,7 @@ function createTable() {
 
 let TABLE;
 
-export class Crc64 extends Writable {
+export class Crc64xz extends Writable {
 	constructor() {
 		super();
 

@@ -15,7 +15,7 @@ import {walk} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
-import {Crc64} from '../util/crc64.mjs';
+import {Crc64xz} from '../util/crc64xz.mjs';
 import {
 	createPackageUrl,
 	groupFilesCaching,
@@ -74,17 +74,18 @@ async function main() {
 				new Void()
 			);
 		} else {
-			const hashCrc64 = new Crc64();
-			let crc64ecma = null;
+			const hashCrc64xz = new Crc64xz();
+			let crc64xz = null;
 			await mkdir(fileDir, {recursive: true});
 			await download(filePart, `${source}?_=${Date.now()}`, {
 				headers: {
 					'User-Agent': userAgent,
 					Referer: referer
 				},
-				transforms: [new Hasher([hashCrc64]), hasher],
+				transforms: [new Hasher([hashCrc64xz]), hasher],
 				response(response) {
-					crc64ecma = response.headers.get('x-cos-hash-crc64ecma');
+					// Wrong name, common mistake.
+					crc64xz = response.headers.get('x-cos-hash-crc64ecma');
 					const ct = response.headers.get('content-type');
 					if (ct !== mimetype) {
 						throw new Error(
@@ -97,10 +98,10 @@ async function main() {
 				}
 			});
 
-			// Validate crc64ecma hash header.
-			const crc64 = hashCrc64.digest().readBigUint64BE().toString();
-			if (crc64 !== crc64ecma) {
-				throw new Error(`CRC64 header: ${crc64} !== ${crc64ecma}`);
+			// Validate crc64 hash header.
+			const crc64 = hashCrc64xz.digest().readBigUint64BE().toString();
+			if (crc64 !== crc64xz) {
+				throw new Error(`CRC64 header: ${crc64} !== ${crc64xz}`);
 			}
 
 			st = await stat(filePart);
