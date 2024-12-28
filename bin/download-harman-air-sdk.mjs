@@ -24,11 +24,11 @@ async function main() {
 	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 4;
 
 	const args = process.argv.slice(2);
-	if (args.length < 1) {
-		throw new Error('Args: outdir [backup] [version]');
+	if (args.length < 2) {
+		throw new Error('Args: outdir group [backup] [version]');
 	}
 
-	const [outdir, backup, version] = args;
+	const [outdir, group, backup, version] = args;
 
 	const listed = await sdks(version ?? null);
 	const cookieHeader = cookies(listed.cookies);
@@ -128,7 +128,7 @@ async function main() {
 			sha256,
 			sha1,
 			md5,
-			source: createFileUrl(backup, groupPath(sha256, file))
+			source: createFileUrl(group, groupPath(sha256, file))
 		};
 		const json = JSON.stringify(pkg, null, '\t');
 		const f = pathJoin(...group, `${name}.json`);
@@ -142,7 +142,7 @@ async function main() {
 		await writeFile(pathJoin(directory, f), `${json}\n`);
 	}
 
-	if (backup) {
+	if (/^(1|true|yes)$/i.test(backup)) {
 		console.log('-'.repeat(80));
 
 		let failure = false;
@@ -153,7 +153,7 @@ async function main() {
 			const path = groupPath(hashes.sha256, info.file);
 
 			try {
-				const m = await metadata(backup);
+				const m = await metadata(group);
 				if (m.has(path)) {
 					resource.backup = 'SKIP';
 					return;
@@ -164,7 +164,7 @@ async function main() {
 				return;
 			}
 
-			const p = spawn('./bin/backup', ['backup.ini', file, backup, path]);
+			const p = spawn('./bin/backup', ['backup.ini', file, group, path]);
 			let stdout = '';
 			p.stdout.on('data', data => {
 				stdout += data.toString();
