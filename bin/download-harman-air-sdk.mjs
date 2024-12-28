@@ -13,13 +13,7 @@ import {sdks, cookies, userAgent} from '../util/harman.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {queue} from '../util/queue.mjs';
-import {yyyymmdd} from '../util/util.mjs';
-import {
-	groupPath,
-	groupName,
-	createFileUrl,
-	groupFilesCaching
-} from '../util/ia.mjs';
+import {groupPath, createFileUrl, groupFilesCaching} from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
 import {directory} from '../util/packages.mjs';
 
@@ -36,7 +30,6 @@ async function main() {
 
 	const [outdir, backup, version] = args;
 
-	const suffix = yyyymmdd();
 	const listed = await sdks(version ?? null);
 	const cookieHeader = cookies(listed.cookies);
 
@@ -135,10 +128,7 @@ async function main() {
 			sha256,
 			sha1,
 			md5,
-			source: createFileUrl(
-				groupName(group, suffix),
-				groupPath(sha256, file)
-			)
+			source: createFileUrl(backup, groupPath(sha256, file))
 		};
 		const json = JSON.stringify(pkg, null, '\t');
 		const f = pathJoin(...group, `${name}.json`);
@@ -152,7 +142,7 @@ async function main() {
 		await writeFile(pathJoin(directory, f), `${json}\n`);
 	}
 
-	if (/^(1|true|yes)$/i.test(backup)) {
+	if (backup) {
 		console.log('-'.repeat(80));
 
 		let failure = false;
@@ -161,10 +151,9 @@ async function main() {
 		const each = async resource => {
 			const {info, file, hashes} = resource;
 			const path = groupPath(hashes.sha256, info.file);
-			const group = groupName(info.group, suffix);
 
 			try {
-				const m = await metadata(group);
+				const m = await metadata(backup);
 				if (m.has(path)) {
 					resource.backup = 'SKIP';
 					return;
@@ -175,7 +164,7 @@ async function main() {
 				return;
 			}
 
-			const p = spawn('./bin/backup', ['backup.ini', file, group, path]);
+			const p = spawn('./bin/backup', ['backup.ini', file, backup, path]);
 			let stdout = '';
 			p.stdout.on('data', data => {
 				stdout += data.toString();

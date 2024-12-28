@@ -27,10 +27,6 @@ export function createFileUrl(group, file) {
 	return `https://archive.org/download/${b}/${f}`;
 }
 
-export function groupName(group, suffix) {
-	return [...group, suffix].join('-');
-}
-
 export function parsePackageUrl(url) {
 	const u = new URL(url);
 	if (u.host !== 'archive.org') {
