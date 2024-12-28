@@ -21,7 +21,7 @@ async function main() {
 	// eslint-disable-next-line no-process-env
 	const downloadThreads = +process.env.SHOCKPKG_DOWNLOAD_THREADS || 4;
 	// eslint-disable-next-line no-process-env
-	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 4;
+	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 1;
 
 	const args = process.argv.slice(2);
 	if (args.length < 2) {
