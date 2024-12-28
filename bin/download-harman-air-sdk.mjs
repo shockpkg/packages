@@ -128,7 +128,7 @@ async function main() {
 			sha256,
 			sha1,
 			md5,
-			source: createFileUrl(group, groupPath(sha256, file))
+			source: createFileUrl(group.join('-'), groupPath(sha256, file))
 		};
 		const json = JSON.stringify(pkg, null, '\t');
 		const f = pathJoin(...group, `${name}.json`);
