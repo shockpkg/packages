@@ -57,7 +57,11 @@ export async function groupFiles(group) {
 		}
 		const body = await response.text();
 		const files = new Map();
-		for (const file of JSON.parse(body).files) {
+		const json = JSON.parse(body);
+		if (!Object.keys(json).length) {
+			return files;
+		}
+		for (const file of json.files) {
 			const info = {
 				size: +file.size,
 				md5: file.md5,
