@@ -117,21 +117,21 @@ async function main() {
 	console.log('-'.repeat(80));
 
 	for (const {
-		info: {name, file, group},
+		info,
 		size,
 		hashes: {sha256, sha1, md5}
 	} of resources) {
 		const pkg = {
-			name,
-			file,
+			name: info.name,
+			file: info.file,
 			size,
 			sha256,
 			sha1,
 			md5,
-			source: createFileUrl(group.join('-'), groupPath(sha256, file))
+			source: createFileUrl(group, groupPath(sha256, info.file))
 		};
 		const json = JSON.stringify(pkg, null, '\t');
-		const f = pathJoin(...group, `${name}.json`);
+		const f = pathJoin(...group, `${info.name}.json`);
 
 		console.log(f);
 		console.log(json);
