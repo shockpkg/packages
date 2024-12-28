@@ -25,10 +25,10 @@ async function main() {
 
 	const args = process.argv.slice(2);
 	if (args.length < 2) {
-		throw new Error('Args: outdir group [backup] [version]');
+		throw new Error('Args: outdir suffix [backup] [version]');
 	}
 
-	const [outdir, group, backup, version] = args;
+	const [outdir, suffix, backup, version] = args;
 
 	const listed = await sdks(version ?? null);
 	const cookieHeader = cookies(listed.cookies);
@@ -121,6 +121,7 @@ async function main() {
 		size,
 		hashes: {sha256, sha1, md5}
 	} of resources) {
+		const group = [...info.group, suffix].join('-');
 		const pkg = {
 			name: info.name,
 			file: info.file,
@@ -150,6 +151,7 @@ async function main() {
 
 		const each = async resource => {
 			const {info, file, hashes} = resource;
+			const group = [...info.group, suffix].join('-');
 			const path = groupPath(hashes.sha256, info.file);
 
 			try {
