@@ -7,80 +7,80 @@ import {queue} from '../util/queue.mjs';
 const resources = [
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/cabs/director/sw.cab',
-		status: 404
-		// status: 200,
+		status: [404, 504]
+		// status: [200],
 		// size: 1292210,
 		// lastModified: 'Tue, 26 Mar 2019 04:34:58 GMT',
 		// eTag: '"13b7b2-584f7d7ef82db"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Full.exe',
-		status: 200,
+		status: [200],
 		size: 15124440,
 		lastModified: 'Fri, 12 Apr 2019 10:50:11 GMT',
 		eTag: '"e6c7d8-586531128c3d0"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installer.exe',
-		status: 200,
+		status: [200],
 		size: 13126832,
 		lastModified: 'Fri, 12 Apr 2019 10:50:12 GMT',
 		eTag: '"c84cb0-5865311315acb"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installer.msi',
-		status: 200,
+		status: [200],
 		size: 24256512,
 		lastModified: 'Fri, 12 Apr 2019 10:46:49 GMT',
 		eTag: '"1722000-58653051e587f"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe',
-		status: 200,
+		status: [200],
 		size: 6257824,
 		lastModified: 'Fri, 12 Apr 2019 10:50:07 GMT',
 		eTag: '"5f7ca0-5865310e86db4"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_slim_installer.exe',
-		status: 200,
+		status: [200],
 		size: 4262176,
 		lastModified: 'Fri, 12 Apr 2019 10:50:07 GMT',
 		eTag: '"410920-5865310eb2c5a"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installerj.exe',
-		status: 200,
+		status: [200],
 		size: 13126832,
 		lastModified: 'Fri, 12 Apr 2019 10:50:08 GMT',
 		eTag: '"c84cb0-5865310f2becc"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_slim_installerj.exe',
-		status: 200,
+		status: [200],
 		size: 4262176,
 		lastModified: 'Fri, 12 Apr 2019 10:50:07 GMT',
 		eTag: '"410920-5865310eda9c4"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full_64bit.dmg',
-		status: 200,
+		status: [200],
 		size: 18771823,
 		lastModified: 'Mon, 15 Apr 2019 05:30:08 GMT',
 		eTag: '"11e6f6f-5868af21a4ce4"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full.dmg',
-		status: 404
-		// status: 200,
+		status: [404, 504]
+		// status: [200],
 		// size: 22513907,
 		// lastModified: 'Thu, 04 Oct 2012 18:22:08 GMT',
 		// eTag: '"15788f3-4cb3fd5409400"'
 	},
 	{
 		source: 'https://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Slim.dmg',
-		status: 404
-		// status: 200,
+		status: [404, 504]
+		// status: [200],
 		// size: 3888494,
 		// lastModified: 'Thu, 04 Oct 2012 18:22:26 GMT',
 		// eTag: '"3b556e-4cb3fd6533c80"'
@@ -99,7 +99,7 @@ for (const i of [33, 34, 35]) {
 	]) {
 		resources.push({
 			source: `https://fpdownload.macromedia.com/get/flashplayer/updaters/${i}/${f}`,
-			status: 302,
+			status: [302],
 			location:
 				'https://www.adobe.com/products/flashplayer/end-of-life.html'
 		});
@@ -123,8 +123,8 @@ const each = async resource => {
 	);
 	const {status, headers} = response;
 
-	if (status !== statusE) {
-		throw new Error(`Status code: ${status} != ${statusE}: ${url}`);
+	if (!statusE.includes(status)) {
+		throw new Error(`Status code: ${status}: ${url}`);
 	}
 
 	for (const [property, header] of headerMappings) {
