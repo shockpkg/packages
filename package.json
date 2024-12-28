@@ -17,6 +17,7 @@
 		"build": "node ./bin/build.mjs"
 	},
 	"dependencies": {
+		"@hqtsm/crc": "^1.0.3",
 		"@xmldom/xmldom": "^0.8.10"
 	},
 	"devDependencies": {
