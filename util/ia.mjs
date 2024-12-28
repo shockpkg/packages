@@ -22,7 +22,7 @@ export function createPackageUrl(sha256, file) {
 }
 
 export function createFileUrl(group, file) {
-	const f = encodeURIComponent(file);
+	const f = file.split('/').map(encodeURIComponent).join('/');
 	const b = encodeURIComponent(group);
 	return `https://archive.org/download/${b}/${f}`;
 }
