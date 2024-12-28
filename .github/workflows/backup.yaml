@@ -44,3 +44,15 @@ jobs:
 
       - name: Script
         run: npm run ${{ inputs.script }}
+
+      - name: Artifact packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: packages
+          path: packages/
+
+      - name: Artifact download
+        uses: actions/upload-artifact@v4
+        with:
+          name: download
+          path: _download/
