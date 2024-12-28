@@ -27,3 +27,7 @@ export function* walk(list, children) {
 		}
 	}
 }
+
+export function yyyymmdd() {
+	return new Date().toISOString().replace(/(-|T.*)/g, '');
+}

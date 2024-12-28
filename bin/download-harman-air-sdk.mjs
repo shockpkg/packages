@@ -13,11 +13,12 @@ import {sdks, cookies, userAgent} from '../util/harman.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {queue} from '../util/queue.mjs';
+import {yyyymmdd} from '../util/util.mjs';
 import {
-	createPackageUrl,
-	groupFilesCaching,
-	groupForSha256,
-	pathForFile
+	groupPath,
+	groupName,
+	createFileUrl,
+	groupFilesCaching
 } from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
 import {directory} from '../util/packages.mjs';
@@ -35,6 +36,7 @@ async function main() {
 
 	const [outdir, backup, version] = args;
 
+	const suffix = yyyymmdd();
 	const listed = await sdks(version ?? null);
 	const cookieHeader = cookies(listed.cookies);
 
@@ -133,7 +135,10 @@ async function main() {
 			sha256,
 			sha1,
 			md5,
-			source: createPackageUrl(sha256, file)
+			source: createFileUrl(
+				groupName(group, suffix),
+				groupPath(sha256, file)
+			)
 		};
 		const json = JSON.stringify(pkg, null, '\t');
 		const f = pathJoin(...group, `${name}.json`);
@@ -155,8 +160,8 @@ async function main() {
 
 		const each = async resource => {
 			const {info, file, hashes} = resource;
-			const path = pathForFile(hashes.sha256, info.file);
-			const group = groupForSha256(hashes.sha256);
+			const path = groupPath(hashes.sha256, info.file);
+			const group = groupName(info.group, suffix);
 
 			try {
 				const m = await metadata(group);

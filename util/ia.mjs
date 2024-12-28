@@ -11,10 +11,24 @@ export function pathForFile(sha256, file) {
 	return `${a}/${b}/${c}/${file}`;
 }
 
+export function groupPath(sha256, file) {
+	return `${sha256}/${file}`;
+}
+
 export function createPackageUrl(sha256, file) {
 	const f = encodeURIComponent(file);
 	const g = groupForSha256(sha256);
 	return `https://archive.org/download/${g}/${pathForFile(sha256, f)}`;
+}
+
+export function createFileUrl(group, file) {
+	const f = encodeURIComponent(file);
+	const b = encodeURIComponent(group);
+	return `https://archive.org/download/${b}/${f}`;
+}
+
+export function groupName(group, suffix) {
+	return [...group, suffix].join('-');
 }
 
 export function parsePackageUrl(url) {
