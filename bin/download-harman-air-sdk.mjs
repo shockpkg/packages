@@ -131,7 +131,7 @@ async function main() {
 			source: createFileUrl(group, groupPath(sha256, info.file))
 		};
 		const json = JSON.stringify(pkg, null, '\t');
-		const f = pathJoin(...group, `${info.name}.json`);
+		const f = pathJoin(...info.group, `${info.name}.json`);
 
 		console.log(f);
 		console.log(json);
