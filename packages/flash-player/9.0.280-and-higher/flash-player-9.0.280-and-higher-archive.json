@@ -5,7 +5,7 @@
 	"sha256": "f3aa98d008deb3ccdad6dad3b7f6ca31eb56943fb32e481144cc5dcc3c752d1f",
 	"sha1": "377ca05ac3486686f78b9ca11b2fa700fe41bb66",
 	"md5": "2b6a81b74ec2eb74588670d6f3f61c71",
-	"source": "https://archive.org/download/shockpkg_packages_f/f3/aa/98d008deb3ccdad6dad3b7f6ca31eb56943fb32e481144cc5dcc3c752d1f/fp9r280_plus_archive.zip",
+	"source": "https://archive.org/download/flash-player-9.0.280-and-higher-20241223/f3aa98d008deb3ccdad6dad3b7f6ca31eb56943fb32e481144cc5dcc3c752d1f/fp9r280_plus_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-9.0.280.0-windows-npapi",

@@ -5,7 +5,7 @@
 	"sha256": "1d0040ee98fbc4f00d7c62f484016340730c3cdf9f3a3be289d69646bf514a60",
 	"sha1": "7428a075cc47e48120881ed4a7e18a687c101690",
 	"md5": "264d5408fc089e175bf525b3131a0f7a",
-	"source": "https://archive.org/download/shockpkg_packages_1/1d/00/40ee98fbc4f00d7c62f484016340730c3cdf9f3a3be289d69646bf514a60/flash_pro_7-u3_players.zip",
+	"source": "https://archive.org/download/flash-player-7-20241223/1d0040ee98fbc4f00d7c62f484016340730c3cdf9f3a3be289d69646bf514a60/flash_pro_7-u3_players.zip",
 	"packages": [
 		{
 			"name": "flash-player-7.0.69.0-windows-npapi-debug",

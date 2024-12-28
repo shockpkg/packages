@@ -5,7 +5,7 @@
 	"sha256": "0ae0ac5ebeb1e82899ed51c9117b1f15d9bddee0a28844e66b2be9cf7d9f7154",
 	"sha1": "6fce190797beebbf8caa962e3122437ca62bd48f",
 	"md5": "cecfd88e499631f6a0cb476d2090b378",
-	"source": "https://archive.org/download/shockpkg_packages_0/0a/e0/ac5ebeb1e82899ed51c9117b1f15d9bddee0a28844e66b2be9cf7d9f7154/fp10.1_debug_archive.zip",
+	"source": "https://archive.org/download/flash-player-10.1-20241223/0ae0ac5ebeb1e82899ed51c9117b1f15d9bddee0a28844e66b2be9cf7d9f7154/fp10.1_debug_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-10.1.53.64-windows-npapi-debug",

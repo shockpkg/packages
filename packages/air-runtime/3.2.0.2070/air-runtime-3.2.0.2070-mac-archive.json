@@ -5,7 +5,7 @@
 	"sha256": "f7107161f34a71767e74e37a80c7d48b79f7c0df4f58f84b9dcb946d2c4d2869",
 	"sha1": "8a9e5a17cc63c015298feb14665e0173f7bebb0b",
 	"md5": "b98916aff03960f20c6ad4a3798156e0",
-	"source": "https://archive.org/download/shockpkg_packages_f/f7/10/7161f34a71767e74e37a80c7d48b79f7c0df4f58f84b9dcb946d2c4d2869/AdobeAIR.zip",
+	"source": "https://archive.org/download/air-runtime-3.2.0.2070-20241223/f7107161f34a71767e74e37a80c7d48b79f7c0df4f58f84b9dcb946d2c4d2869/AdobeAIR.zip",
 	"packages": [
 		{
 			"name": "air-runtime-3.2.0.2070-mac",

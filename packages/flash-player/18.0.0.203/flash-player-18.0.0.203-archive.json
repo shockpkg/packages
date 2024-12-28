@@ -5,7 +5,7 @@
 	"sha256": "f7e1d7cb8072bee4bc11c98aef0fe39f8baa4c090d9bb53fab82193803b9dece",
 	"sha1": "5cb9de49185142c278c2c1c507d9a6a5b4d54473",
 	"md5": "15d0a004a4e5791bf7d5ddbf072531ed",
-	"source": "https://archive.org/download/shockpkg_packages_f/f7/e1/d7cb8072bee4bc11c98aef0fe39f8baa4c090d9bb53fab82193803b9dece/fp_18.0.0.203_archive.zip",
+	"source": "https://archive.org/download/flash-player-18.0.0.203-20241223/f7e1d7cb8072bee4bc11c98aef0fe39f8baa4c090d9bb53fab82193803b9dece/fp_18.0.0.203_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-18.0.0.203-windows-npapi",

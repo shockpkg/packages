@@ -5,7 +5,7 @@
 	"sha256": "720182c60b1b469876314a95381e36b2082e5d9bb6d44cdda27bac50c6cef0e4",
 	"sha1": "970c9a212ca715d0eb521bcb95b611adfb6b15b0",
 	"md5": "17bfe687f1b244e8c836c374406a7256",
-	"source": "https://archive.org/download/shockpkg_packages_7/72/01/82c60b1b469876314a95381e36b2082e5d9bb6d44cdda27bac50c6cef0e4/AdobeAIRInstaller.zip",
+	"source": "https://archive.org/download/air-runtime-13.0.0.111-20241223/720182c60b1b469876314a95381e36b2082e5d9bb6d44cdda27bac50c6cef0e4/AdobeAIRInstaller.zip",
 	"packages": [
 		{
 			"name": "air-runtime-13.0.0.111-windows",

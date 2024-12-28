@@ -5,7 +5,7 @@
 	"sha256": "51c49d0afd792dc157bd5efbb6f615d59540dd5015256d783107ddc5b92b13f0",
 	"sha1": "7917e632f2710f49df67d0c985e4337af36545ed",
 	"md5": "a8e7887e09e4d3ac0e2a1e86c6fc35f2",
-	"source": "https://archive.org/download/shockpkg_packages_5/51/c4/9d0afd792dc157bd5efbb6f615d59540dd5015256d783107ddc5b92b13f0/AdobeAIRInstaller.zip",
+	"source": "https://archive.org/download/air-runtime-4.0.0.1390-20241223/51c49d0afd792dc157bd5efbb6f615d59540dd5015256d783107ddc5b92b13f0/AdobeAIRInstaller.zip",
 	"packages": [
 		{
 			"name": "air-runtime-4.0.0.1390-windows",

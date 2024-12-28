@@ -5,7 +5,7 @@
 	"sha256": "33fb535293b0c4c14fc92ea6d25f77eb226f4ff67b02c23f8c947480b8146719",
 	"sha1": "cc96f8d30f31bd17016e41625b06ef0edc8188b5",
 	"md5": "2e903f0da1bcd266cc3396aaa5963412",
-	"source": "https://archive.org/download/shockpkg_packages_3/33/fb/535293b0c4c14fc92ea6d25f77eb226f4ff67b02c23f8c947480b8146719/fp_12.0.0.38_archive.zip",
+	"source": "https://archive.org/download/flash-player-12.0.0.38-and-12.0.0.43-20241223/33fb535293b0c4c14fc92ea6d25f77eb226f4ff67b02c23f8c947480b8146719/fp_12.0.0.38_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-12.0.0.38-windows-activex",

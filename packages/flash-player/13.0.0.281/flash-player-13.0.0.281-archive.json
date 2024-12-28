@@ -5,7 +5,7 @@
 	"sha256": "9614dc5e5e4854aa49f61a6a89a3a536aecf6c36a5b53d3afc2803b67c293594",
 	"sha1": "8ba5fe92d7343b9f4871cd38cfda26552c7b4016",
 	"md5": "84d5a9ac00d0d3327813d99d82cb64e8",
-	"source": "https://archive.org/download/shockpkg_packages_9/96/14/dc5e5e4854aa49f61a6a89a3a536aecf6c36a5b53d3afc2803b67c293594/fp_13.0.0.281_archive.zip",
+	"source": "https://archive.org/download/flash-player-13.0.0.281-20241223/9614dc5e5e4854aa49f61a6a89a3a536aecf6c36a5b53d3afc2803b67c293594/fp_13.0.0.281_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-13.0.0.281-windows-npapi",

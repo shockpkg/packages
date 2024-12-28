@@ -5,7 +5,7 @@
 	"sha256": "277d7b04c359c82c5afee74a6f889effab482bbedbea55ae26b33352d70bbdf7",
 	"sha1": "b5d7b87f16f424382c1638dcf0ae24808453f9ce",
 	"md5": "c6c43781ca7074a92450348aa313ab95",
-	"source": "https://archive.org/download/shockpkg_packages_2/27/7d/7b04c359c82c5afee74a6f889effab482bbedbea55ae26b33352d70bbdf7/fp_11.7.700.261_archive.zip",
+	"source": "https://archive.org/download/flash-player-11.7.700.261-20241223/277d7b04c359c82c5afee74a6f889effab482bbedbea55ae26b33352d70bbdf7/fp_11.7.700.261_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-11.7.700.261-windows-npapi",

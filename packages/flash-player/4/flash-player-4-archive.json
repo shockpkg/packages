@@ -5,7 +5,7 @@
 	"sha256": "cb31650f85b2417d866f6712b3c860e6120008c52331201fb64ab715b81d7242",
 	"sha1": "2ae18f0ccd2b170a79518455e8c8bca7c96664fe",
 	"md5": "6a7ae29d52063d77c07cfb678b70a57a",
-	"source": "https://archive.org/download/shockpkg_packages_c/cb/31/650f85b2417d866f6712b3c860e6120008c52331201fb64ab715b81d7242/fp4_archive.zip",
+	"source": "https://archive.org/download/flash-player-4-20241223/cb31650f85b2417d866f6712b3c860e6120008c52331201fb64ab715b81d7242/fp4_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-4.0.28.0-windows-npapi",

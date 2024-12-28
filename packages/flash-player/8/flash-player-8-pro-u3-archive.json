@@ -5,7 +5,7 @@
 	"sha256": "eb129e52bf37bf6f6e251a13734a2c27c959529399a7a089e4769e0bc42a520e",
 	"sha1": "e29d13d520dadb360db16a87b05604e365b02282",
 	"md5": "e760af10672cd7aa3018af433a757ce1",
-	"source": "https://archive.org/download/shockpkg_packages_e/eb/12/9e52bf37bf6f6e251a13734a2c27c959529399a7a089e4769e0bc42a520e/flash_pro_8-u3_players.zip",
+	"source": "https://archive.org/download/flash-player-8-20241223/eb129e52bf37bf6f6e251a13734a2c27c959529399a7a089e4769e0bc42a520e/flash_pro_8-u3_players.zip",
 	"packages": [
 		{
 			"name": "flash-player-8.0.34.0-windows-nsapi-msi",

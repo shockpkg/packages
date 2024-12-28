@@ -5,7 +5,7 @@
 	"sha256": "bd4d850ab6b59ddd28d6898560a793d48ee87e22c24474c0590aae515cf0de0e",
 	"sha1": "2742e187768beac71cddc5a5898601d73660a247",
 	"md5": "736925756ad8e0779deaecdf140c06d7",
-	"source": "https://archive.org/download/shockpkg_packages_b/bd/4d/850ab6b59ddd28d6898560a793d48ee87e22c24474c0590aae515cf0de0e/flash_pro_5_player_updated.zip",
+	"source": "https://archive.org/download/flash-player-5-20241223/bd4d850ab6b59ddd28d6898560a793d48ee87e22c24474c0590aae515cf0de0e/flash_pro_5_player_updated.zip",
 	"packages": [
 		{
 			"name": "flash-player-5.0.30.2-windows-sa",

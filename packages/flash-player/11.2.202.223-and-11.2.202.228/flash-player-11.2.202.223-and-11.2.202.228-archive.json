@@ -5,7 +5,7 @@
 	"sha256": "657a57aa45fb5ad6a2b83de022d6283ccf4ff41bc2f56fcfb539527aa7c5d0c3",
 	"sha1": "986c6e40d931e03d5155f6ece25844ea156ad517",
 	"md5": "9d267fed4f7f6ddc79536e4901f40d1b",
-	"source": "https://archive.org/download/shockpkg_packages_6/65/7a/57aa45fb5ad6a2b83de022d6283ccf4ff41bc2f56fcfb539527aa7c5d0c3/fp_11.2.202.228_archive.zip",
+	"source": "https://archive.org/download/flash-player-11.2.202.223-and-11.2.202.228-20241223/657a57aa45fb5ad6a2b83de022d6283ccf4ff41bc2f56fcfb539527aa7c5d0c3/fp_11.2.202.228_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-11.2.202.223-solaris-x86-npapi",

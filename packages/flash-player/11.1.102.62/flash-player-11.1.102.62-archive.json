@@ -5,7 +5,7 @@
 	"sha256": "27e6ae1b334e9b0f0de46cb700ea42ebed6552df38cd1fb5babd0cdb1f0ca14f",
 	"sha1": "ae23ae7e3799664096fc88b1c505a96931705818",
 	"md5": "b425aa00bcf1b61a3af99c1a738774f6",
-	"source": "https://archive.org/download/shockpkg_packages_2/27/e6/ae1b334e9b0f0de46cb700ea42ebed6552df38cd1fb5babd0cdb1f0ca14f/fp_11.1.102.62_archive.zip",
+	"source": "https://archive.org/download/flash-player-11.1.102.62-20241223/27e6ae1b334e9b0f0de46cb700ea42ebed6552df38cd1fb5babd0cdb1f0ca14f/fp_11.1.102.62_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-11.1.102.62-windows-32bit-npapi",

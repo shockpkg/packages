@@ -5,7 +5,7 @@
 	"sha256": "3958827058648cfe05fc6ee510685e8d93f995d3428c3eedbd6814704765672a",
 	"sha1": "40df72ab2c22bcd4442aa35eb586000776129982",
 	"md5": "fedc78bbd7a4abfdf90b09508d280cd0",
-	"source": "https://archive.org/download/shockpkg_packages_3/39/58/827058648cfe05fc6ee510685e8d93f995d3428c3eedbd6814704765672a/fp_14.0.0.176_archive.zip",
+	"source": "https://archive.org/download/flash-player-14.0.0.176-20241223/3958827058648cfe05fc6ee510685e8d93f995d3428c3eedbd6814704765672a/fp_14.0.0.176_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-14.0.0.176-windows-activex",

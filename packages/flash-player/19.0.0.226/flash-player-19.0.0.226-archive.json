@@ -5,7 +5,7 @@
 	"sha256": "6a3ce8e576946a478076db4bff2b989d514bc77600dc45843c4871667383980d",
 	"sha1": "24aa44a938fad07c0e6f803baf6b6b586bfaa3c2",
 	"md5": "8ec96b435e1c130aad339ec7ffab2aab",
-	"source": "https://archive.org/download/shockpkg_packages_6/6a/3c/e8e576946a478076db4bff2b989d514bc77600dc45843c4871667383980d/fp_19.0.0.226_archive.zip",
+	"source": "https://archive.org/download/flash-player-19.0.0.226-20241223/6a3ce8e576946a478076db4bff2b989d514bc77600dc45843c4871667383980d/fp_19.0.0.226_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-19.0.0.226-windows-npapi",

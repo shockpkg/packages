@@ -5,7 +5,7 @@
 	"sha256": "2b78df684ed86bac1c3d079f025a289368cc13b32b3cb6fb6922917c619178ee",
 	"sha1": "bab8865128b7a36af2b28d85433982cb5fdfd9b0",
 	"md5": "7a8de89c0df51ef59cf48dd83b84b5db",
-	"source": "https://archive.org/download/shockpkg_packages_2/2b/78/df684ed86bac1c3d079f025a289368cc13b32b3cb6fb6922917c619178ee/fp_21.0.0.242_archive.zip",
+	"source": "https://archive.org/download/flash-player-21.0.0.242-20241223/2b78df684ed86bac1c3d079f025a289368cc13b32b3cb6fb6922917c619178ee/fp_21.0.0.242_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-21.0.0.242-windows-npapi",

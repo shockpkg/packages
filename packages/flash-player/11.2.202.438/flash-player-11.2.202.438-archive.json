@@ -5,7 +5,7 @@
 	"sha256": "195e5fcac532caedaa2c62a92a77cfcca6122a0a5670bace75dff83557c643e6",
 	"sha1": "adba1fd444cd70b838dd2cffa8984c0675144384",
 	"md5": "81f1f23c5eecead229e7bbc06e6232dc",
-	"source": "https://archive.org/download/shockpkg_packages_1/19/5e/5fcac532caedaa2c62a92a77cfcca6122a0a5670bace75dff83557c643e6/fp_11.2.202.438_archive.zip",
+	"source": "https://archive.org/download/flash-player-11.2.202.438-20241223/195e5fcac532caedaa2c62a92a77cfcca6122a0a5670bace75dff83557c643e6/fp_11.2.202.438_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-11.2.202.438-linux-i386-npapi",

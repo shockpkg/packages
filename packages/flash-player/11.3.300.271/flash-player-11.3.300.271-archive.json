@@ -5,7 +5,7 @@
 	"sha256": "c8166ceffb00bf0534fb6921a833723513893738e93e0f859f077dfeef27e2c7",
 	"sha1": "424344fde465af9e6d31c2a79f9dd836b3cefc20",
 	"md5": "fa93b69cad6aa96eeb0655f108a79956",
-	"source": "https://archive.org/download/shockpkg_packages_c/c8/16/6ceffb00bf0534fb6921a833723513893738e93e0f859f077dfeef27e2c7/fp_11.3.300.271_archive.zip",
+	"source": "https://archive.org/download/flash-player-11.3.300.271-20241223/c8166ceffb00bf0534fb6921a833723513893738e93e0f859f077dfeef27e2c7/fp_11.3.300.271_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-11.3.300.271-mac-npapi",

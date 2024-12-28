@@ -5,7 +5,7 @@
 	"sha256": "44e4fecac8e34972deb3cada3dfef31d38c9af9e819b583931e80e663e0c0ad6",
 	"sha1": "4c67c336e99751e92550efd32d6c52fd7983f555",
 	"md5": "2a512cebefe35f296bf4061be5816721",
-	"source": "https://archive.org/download/shockpkg_packages_4/44/e4/fecac8e34972deb3cada3dfef31d38c9af9e819b583931e80e663e0c0ad6/fp_32.0.0.192_archive.zip",
+	"source": "https://archive.org/download/flash-player-32.0.0.192-20241223/44e4fecac8e34972deb3cada3dfef31d38c9af9e819b583931e80e663e0c0ad6/fp_32.0.0.192_archive.zip",
 	"packages": [
 		{
 			"name": "flash-player-32.0.0.192-windows-npapi",
