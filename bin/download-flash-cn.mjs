@@ -16,26 +16,21 @@ import {queue} from '../util/queue.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {Crc64xz} from '../util/crc64xz.mjs';
-import {
-	createPackageUrl,
-	groupFilesCaching,
-	groupForSha256,
-	pathForFile
-} from '../util/ia.mjs';
+import {createFileUrl, groupFilesCaching, groupPath} from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
 	const downloadThreads = +process.env.SHOCKPKG_DOWNLOAD_THREADS || 4;
 	// eslint-disable-next-line no-process-env
-	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 4;
+	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 1;
 
 	const args = process.argv.slice(2);
-	if (args.length < 1) {
-		throw new Error('Args: outdir [backup]');
+	if (args.length < 2) {
+		throw new Error('Args: outdir suffix [backup]');
 	}
 
-	const [outdir, backup] = args;
+	const [outdir, suffix, backup] = args;
 
 	const packages = await packaged();
 	const bySha256 = new Map(
@@ -154,24 +149,25 @@ async function main() {
 	console.log('-'.repeat(80));
 
 	for (const {
-		info: {name, file, date, group},
+		info,
 		size,
 		hashes: {sha256, sha1, md5}
 	} of changed) {
+		const group = [...info.group, suffix].join('-');
 		const pkg = {
-			name,
-			file,
+			name: info.name,
+			file: info.file,
 			size,
 			sha256,
 			sha1,
 			md5,
-			source: createPackageUrl(sha256, file),
+			source: createFileUrl(group, groupPath(sha256, info.file)),
 			metadata: {
-				date
+				date: info.date
 			}
 		};
 		const json = JSON.stringify(pkg, null, '\t');
-		const f = pathJoin(...group, `${name}.json`);
+		const f = pathJoin(...info.group, `${info.name}.json`);
 
 		console.log(f);
 		console.log(json);
@@ -190,8 +186,8 @@ async function main() {
 
 		const each = async resource => {
 			const {info, file, hashes} = resource;
-			const path = pathForFile(hashes.sha256, info.file);
-			const group = groupForSha256(hashes.sha256);
+			const group = [...info.group, suffix].join('-');
+			const path = groupPath(hashes.sha256, info.file);
 
 			try {
 				const m = await metadata(group);
