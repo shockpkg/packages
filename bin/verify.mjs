@@ -11,7 +11,7 @@ import {retry} from '../util/util.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
-	const threads = +process.env.SHOCKPKG_NEWEST_THREADS || 4;
+	const threads = +process.env.SHOCKPKG_NEWEST_THREADS || 6;
 	// eslint-disable-next-line no-process-env
 	const includes = process.env.SHOCKPKG_VERIFY_INCLUDES || '';
 
