@@ -1,6 +1,6 @@
-import {DOMParser} from '@xmldom/xmldom';
+import {JSDOM} from 'jsdom';
 
-import {retry, list} from './util.mjs';
+import {retry} from './util.mjs';
 
 export const userAgent =
 	// eslint-disable-next-line max-len
@@ -186,12 +186,9 @@ async function listDebug() {
 	}
 
 	const html = await htmlRes.text();
-
-	const domParser = new DOMParser({errorHandler: () => {}});
-	const dom = domParser.parseFromString(html, 'text/html');
-	// eslint-disable-next-line unicorn/prefer-query-selector
-	const hrefs = list(dom.getElementsByTagName('a'))
-		.map(a => new URL(a.getAttribute('href') || '', htmlRes.url))
+	const page = new JSDOM(html, {url: htmlRes.url});
+	const hrefs = [...page.window.document.querySelectorAll('a')]
+		.map(a => new URL(a.href))
 		.filter(u => u.pathname.startsWith('/cdm/'));
 
 	const jsUrl = 'https://api.flash.cn/config/debugFlashVersion';

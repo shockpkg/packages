@@ -1,6 +1,6 @@
-import {DOMParser} from '@xmldom/xmldom';
+import {JSDOM} from 'jsdom';
 
-import {list, retry} from './util.mjs';
+import {retry} from './util.mjs';
 
 // The API this page loads download list from.
 // https://airsdk.harman.com/download
@@ -196,11 +196,9 @@ export async function runtimes() {
 	}
 
 	const html = await response.text();
-
-	const domParser = new DOMParser({errorHandler: () => {}});
-	const dom = domParser.parseFromString(html, 'text/html');
-	// eslint-disable-next-line unicorn/prefer-query-selector
-	const scripts = list(dom.getElementsByTagName('script'));
+	const page = new JSDOM(html, {url: response.url});
+	const {document} = page.window;
+	const scripts = document.querySelectorAll('script');
 	if (!scripts.length) {
 		throw new Error(`No script tags: ${runtimeBase}`);
 	}
@@ -208,16 +206,14 @@ export async function runtimes() {
 	let version = '';
 	let hashes = null;
 	for (const script of [...scripts].reverse()) {
-		const src = script.getAttribute('src');
+		const {src} = script;
 		if (!src) {
 			continue;
 		}
 
-		const {href} = new URL(src, response.url);
-
 		// eslint-disable-next-line no-await-in-loop
 		const res = await retry(() =>
-			fetch(href, {
+			fetch(src, {
 				headers: {
 					'User-Agent': userAgent,
 					Referer: response.url
