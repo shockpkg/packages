@@ -187,7 +187,7 @@ async function listDebug() {
 
 	const html = await htmlRes.text();
 
-	const domParser = new DOMParser({errorHandler: {}});
+	const domParser = new DOMParser({errorHandler: () => {}});
 	const dom = domParser.parseFromString(html, 'text/html');
 	// eslint-disable-next-line unicorn/prefer-query-selector
 	const hrefs = list(dom.getElementsByTagName('a'))

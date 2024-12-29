@@ -197,7 +197,7 @@ export async function runtimes() {
 
 	const html = await response.text();
 
-	const domParser = new DOMParser({errorHandler: {}});
+	const domParser = new DOMParser({errorHandler: () => {}});
 	const dom = domParser.parseFromString(html, 'text/html');
 	// eslint-disable-next-line unicorn/prefer-query-selector
 	const scripts = list(dom.getElementsByTagName('script'));
