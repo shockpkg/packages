@@ -1,12 +1,7 @@
 #!/usr/bin/env node
 
 import {read as packaged} from '../util/packages.mjs';
-import {
-	groupFilesCaching,
-	groupForSha256,
-	parsePackageUrl,
-	pathForFile
-} from '../util/ia.mjs';
+import {groupFilesCaching, parsePackageUrl} from '../util/ia.mjs';
 import {retry} from '../util/util.mjs';
 
 async function main() {
@@ -33,8 +28,8 @@ async function main() {
 	const getMetadataForUrl = async url => {
 		const ia = parsePackageUrl(url);
 		if (ia) {
-			const files = await archiveOrgMetadata(groupForSha256(ia.sha256));
-			const info = files.get(pathForFile(ia.sha256, ia.file));
+			const files = await archiveOrgMetadata(ia.item);
+			const info = files.get(ia.sha256);
 			if (!info) {
 				throw new Error(`Unknown item entry: ${url}`);
 			}

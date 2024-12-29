@@ -1,5 +1,7 @@
 import {retry} from './util.mjs';
 
+const regSha256 = /^[\da-f]{64}$/i;
+
 export function groupForSha256(sha256) {
 	return `shockpkg_packages_${sha256[0]}`;
 }
@@ -42,10 +44,7 @@ export function parsePackageUrl(url) {
 	const item = path.shift();
 	const file = decodeURIComponent(path.pop());
 	const sha256 = path.join('');
-	if (sha256.length !== 64) {
-		return null;
-	}
-	return {item, sha256, file};
+	return regSha256.test(sha256) ? {item, sha256, file} : null;
 }
 
 export async function groupFiles(group) {
@@ -63,21 +62,22 @@ export async function groupFiles(group) {
 		}
 		for (const file of json.files) {
 			const info = {
+				file: file.name,
 				size: +file.size,
 				md5: file.md5,
 				sha1: file.sha1
 			};
 
-			const maybeSha256 = file.name.split('/').slice(0, -1).join('');
-			if (maybeSha256.length === 64) {
-				info.sha256 = maybeSha256;
+			const sha256 = file.name.split('/').slice(0, -1).join('');
+			if (!regSha256.test(sha256)) {
+				continue;
 			}
 
 			if (file.private) {
 				info.private = true;
 			}
 
-			files.set(file.name, info);
+			files.set(sha256, info);
 		}
 		return files;
 	});
