@@ -2,25 +2,8 @@ import {retry} from './util.mjs';
 
 const regSha256 = /^[\da-f]{64}$/i;
 
-export function groupForSha256(sha256) {
-	return `shockpkg_packages_${sha256[0]}`;
-}
-
-export function pathForFile(sha256, file) {
-	const a = sha256.slice(0, 2);
-	const b = sha256.slice(2, 4);
-	const c = sha256.slice(4);
-	return `${a}/${b}/${c}/${file}`;
-}
-
 export function groupPath(sha256, file) {
 	return `${sha256}/${file}`;
-}
-
-export function createPackageUrl(sha256, file) {
-	const f = encodeURIComponent(file);
-	const g = groupForSha256(sha256);
-	return `https://archive.org/download/${g}/${pathForFile(sha256, f)}`;
 }
 
 export function createFileUrl(group, file) {
