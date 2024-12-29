@@ -9,7 +9,6 @@ import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
 import {spawn} from 'node:child_process';
 
-import {sdks, cookies, userAgent} from '../util/harman.mjs';
 import {directory, read as packaged} from '../util/packages.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
@@ -22,6 +21,8 @@ import {
 } from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
 import {yyyymmdd} from '../util/util.mjs';
+import {getUserAgent} from '../util/ff.mjs';
+import {sdks, cookies} from '../util/harman.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -38,7 +39,8 @@ async function main() {
 
 	const suf = yyyymmdd();
 	const packages = await packaged();
-	const listed = await sdks(version ?? null);
+	const userAgent = await getUserAgent();
+	const listed = await sdks(userAgent, version ?? null);
 	const cookieHeader = cookies(listed.cookies);
 
 	const resources = listed.downloads.map(info => ({
@@ -79,7 +81,7 @@ async function main() {
 			await mkdir(fileDir, {recursive: true});
 			await download(filePart, url, {
 				headers: {
-					'User-Agent': userAgent,
+					...userAgent.headers,
 					Cookie: cookieHeader
 				},
 				transforms: [hasher],

@@ -2,10 +2,6 @@ import {JSDOM} from 'jsdom';
 
 import {retry} from './util.mjs';
 
-export const userAgent =
-	// eslint-disable-next-line max-len
-	'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0';
-
 const ids = [
 	['npapi', 'windows-npapi'],
 	['/cdm/latest/flashplayer_install_cn_debug.exe', 'windows-npapi-debug'],
@@ -109,13 +105,13 @@ function mimetype(file) {
 	return null;
 }
 
-async function listRelease() {
+async function listRelease(userAgent) {
 	const htmlUrl = 'https://www.flash.cn/download';
 	const fverUrl = 'https://api.flash.cn/config/flashVersion';
 	const jsRes = await retry(() =>
 		fetch(fverUrl, {
 			headers: {
-				'User-Agent': userAgent,
+				...userAgent.headers,
 				Referer: htmlUrl
 			}
 		})
@@ -172,12 +168,12 @@ async function listRelease() {
 	return r;
 }
 
-async function listDebug() {
+async function listDebug(userAgent) {
 	const htmlUrl = 'https://www.flash.cn/support/debug-downloads';
 	const htmlRes = await retry(() =>
 		fetch(htmlUrl, {
 			headers: {
-				'User-Agent': userAgent
+				...userAgent.headers
 			}
 		})
 	);
@@ -195,7 +191,7 @@ async function listDebug() {
 	const jsRes = await retry(() =>
 		fetch(jsUrl, {
 			headers: {
-				'User-Agent': userAgent,
+				...userAgent.headers,
 				Referer: htmlUrl
 			}
 		})
@@ -251,8 +247,8 @@ async function listDebug() {
 	return r;
 }
 
-export async function downloads() {
-	return (await Promise.all([listRelease(), listDebug()]))
+export async function downloads(userAgent) {
+	return (await Promise.all([listRelease(userAgent), listDebug(userAgent)]))
 		.flat()
 		.sort((a, b) => (idIndex.get(a.id) || 0) - (idIndex.get(b.id) || 0));
 }

@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-import {sdks, cookies, userAgent, sdksList} from '../util/harman.mjs';
 import {read as packaged} from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
+import {getUserAgent} from '../util/ff.mjs';
+import {sdks, cookies, sdksList} from '../util/harman.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -13,10 +14,11 @@ async function main() {
 
 	const packages = await packaged();
 	const named = new Map(packages.map(p => [p.name, p]));
-	const current = await sdks();
+	const userAgent = await getUserAgent();
+	const current = await sdks(userAgent);
 	const resources = current.downloads;
 	const cookie = cookies(current.cookies);
-	const releases = await sdksList();
+	const releases = await sdksList(userAgent);
 
 	const all = [...resources];
 	{

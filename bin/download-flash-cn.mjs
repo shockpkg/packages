@@ -9,7 +9,6 @@ import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
 import {spawn} from 'node:child_process';
 
-import {downloads, userAgent} from '../util/flashcn.mjs';
 import {directory, read as packaged} from '../util/packages.mjs';
 import {walk, yyyymmdd} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
@@ -23,6 +22,8 @@ import {
 	findGroup
 } from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
+import {getUserAgent} from '../util/ff.mjs';
+import {downloads} from '../util/flashcn.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -43,7 +44,8 @@ async function main() {
 		[...walk(packages, p => p.packages)].map(([p]) => [p.sha256, p])
 	);
 
-	const resources = (await downloads()).map(info => ({
+	const userAgent = await getUserAgent();
+	const resources = (await downloads(userAgent)).map(info => ({
 		info,
 		progress: 0,
 		size: null,
@@ -83,7 +85,7 @@ async function main() {
 			await mkdir(fileDir, {recursive: true});
 			await download(filePart, `${source}?_=${Date.now()}`, {
 				headers: {
-					'User-Agent': userAgent,
+					...userAgent.headers,
 					Referer: referer
 				},
 				transforms: [new Hasher([hashCrc64xz]), hasher],

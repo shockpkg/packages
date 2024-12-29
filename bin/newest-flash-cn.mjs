@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-import {downloads, userAgent} from '../util/flashcn.mjs';
 import {read as packaged} from '../util/packages.mjs';
 import {retry, walk} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
+import {getUserAgent} from '../util/ff.mjs';
+import {downloads} from '../util/flashcn.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -15,7 +16,9 @@ async function main() {
 	const byName = new Map(
 		[...walk(packages, p => p.packages)].map(([p]) => [p.name, p])
 	);
-	const resources = await downloads();
+
+	const userAgent = await getUserAgent();
+	const resources = await downloads(userAgent);
 
 	console.log(`Checking: ${resources.length}`);
 
@@ -37,7 +40,7 @@ async function main() {
 			fetch(url, {
 				method: 'HEAD',
 				headers: {
-					'User-Agent': userAgent,
+					...userAgent.headers,
 					Referer: referer
 				}
 			})

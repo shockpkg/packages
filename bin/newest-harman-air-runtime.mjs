@@ -8,7 +8,8 @@ import {read as packaged} from '../util/packages.mjs';
 import {Hasher, Void} from '../util/stream.mjs';
 import {retry} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
-import {runtimes, userAgent} from '../util/harman.mjs';
+import {getUserAgent} from '../util/ff.mjs';
+import {runtimes} from '../util/harman.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -18,7 +19,8 @@ async function main() {
 
 	const packages = await packaged();
 	const byName = new Map(packages.map(p => [p.name, p]));
-	const resources = await runtimes();
+	const userAgent = await getUserAgent();
+	const resources = await runtimes(userAgent);
 
 	const each = async resource => {
 		const {name, source, sha256} = resource;
@@ -35,7 +37,7 @@ async function main() {
 		const response = await retry(() =>
 			fetch(source, {
 				headers: {
-					'User-Agent': userAgent
+					...userAgent.headers
 				}
 			})
 		);

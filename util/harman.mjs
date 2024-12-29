@@ -51,11 +51,11 @@ export function cookies(list) {
 	return list.map(c => c.split(';')[0]).join('; ');
 }
 
-export async function sdksList() {
+export async function sdksList(userAgent) {
 	const response = await retry(() =>
 		fetch(releaseNotesUrl, {
 			headers: {
-				'User-Agent': userAgent,
+				...userAgent.headers,
 				Referer: releaseNotesBase
 			}
 		})
@@ -95,13 +95,13 @@ export async function sdksList() {
 	return r;
 }
 
-export async function sdks(version = null) {
+export async function sdks(userAgent, version = null) {
 	const referer =
 		version === null ? sdkUrl : sdkUrlV.replaceAll('%version%', version);
 	const response = await retry(() =>
 		fetch(apiUrl, {
 			headers: {
-				'User-Agent': userAgent,
+				...userAgent.headers,
 				Referer: referer
 			}
 		})
@@ -125,7 +125,7 @@ export async function sdks(version = null) {
 		const response = await retry(() =>
 			fetch(apiUrlV.replaceAll('%version%', version), {
 				headers: {
-					'User-Agent': userAgent,
+					...userAgent.headers,
 					Referer: referer
 				}
 			})
@@ -181,11 +181,11 @@ export async function sdks(version = null) {
 	};
 }
 
-export async function runtimes() {
+export async function runtimes(userAgent) {
 	const response = await retry(() =>
 		fetch(runtimeBase, {
 			headers: {
-				'User-Agent': userAgent
+				...userAgent.headers
 			}
 		})
 	);
@@ -215,7 +215,7 @@ export async function runtimes() {
 		const res = await retry(() =>
 			fetch(src, {
 				headers: {
-					'User-Agent': userAgent,
+					...userAgent.headers,
 					Referer: response.url
 				}
 			})

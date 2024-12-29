@@ -9,7 +9,6 @@ import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
 import {spawn} from 'node:child_process';
 
-import {runtimes, userAgent} from '../util/harman.mjs';
 import {directory, read as packaged} from '../util/packages.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
@@ -22,6 +21,8 @@ import {
 } from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
 import {yyyymmdd} from '../util/util.mjs';
+import {getUserAgent} from '../util/ff.mjs';
+import {runtimes} from '../util/harman.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -38,8 +39,8 @@ async function main() {
 
 	const suf = yyyymmdd();
 	const packages = await packaged();
-
-	const resources = (await runtimes()).map(info => ({
+	const userAgent = await getUserAgent();
+	const resources = (await runtimes(userAgent)).map(info => ({
 		info,
 		progress: 0,
 		size: null,
@@ -78,7 +79,7 @@ async function main() {
 			await mkdir(fileDir, {recursive: true});
 			await download(filePart, source, {
 				headers: {
-					'User-Agent': userAgent
+					...userAgent.headers
 				},
 				transforms: [hasher],
 				response(response) {
