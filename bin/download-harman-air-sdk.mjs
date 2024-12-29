@@ -10,12 +10,18 @@ import {createHash} from 'node:crypto';
 import {spawn} from 'node:child_process';
 
 import {sdks, cookies, userAgent} from '../util/harman.mjs';
+import {directory, read as packaged} from '../util/packages.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {queue} from '../util/queue.mjs';
-import {groupPath, createFileUrl, groupFilesCaching} from '../util/ia.mjs';
+import {
+	groupPath,
+	createFileUrl,
+	groupFilesCaching,
+	findGroup
+} from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
-import {directory} from '../util/packages.mjs';
+import {yyyymmdd} from '../util/util.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -24,12 +30,14 @@ async function main() {
 	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 1;
 
 	const args = process.argv.slice(2);
-	if (args.length < 2) {
-		throw new Error('Args: outdir suffix [backup] [version]');
+	if (args.length < 1) {
+		throw new Error('Args: outdir [backup] [version]');
 	}
 
-	const [outdir, suffix, backup, version] = args;
+	const [outdir, backup, version] = args;
 
+	const suf = yyyymmdd();
+	const packages = await packaged();
 	const listed = await sdks(version ?? null);
 	const cookieHeader = cookies(listed.cookies);
 
@@ -39,7 +47,10 @@ async function main() {
 		size: null,
 		hashes: null,
 		file: null,
-		backup: ''
+		backup: '',
+		group:
+			findGroup(info.group.join('-'), packages) ||
+			[...info.group, suf].join('-')
 	}));
 
 	const each = async resource => {
@@ -119,9 +130,9 @@ async function main() {
 	for (const {
 		info,
 		size,
-		hashes: {sha256, sha1, md5}
+		hashes: {sha256, sha1, md5},
+		group
 	} of resources) {
-		const group = [...info.group, suffix].join('-');
 		const pkg = {
 			name: info.name,
 			file: info.file,
@@ -151,7 +162,7 @@ async function main() {
 
 		const each = async resource => {
 			const {info, file, hashes} = resource;
-			const group = [...info.group, suffix].join('-');
+			const {group} = info;
 			const path = groupPath(hashes.sha256, info.file);
 
 			try {

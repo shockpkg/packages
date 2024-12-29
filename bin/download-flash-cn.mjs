@@ -11,12 +11,17 @@ import {spawn} from 'node:child_process';
 
 import {downloads, userAgent} from '../util/flashcn.mjs';
 import {directory, read as packaged} from '../util/packages.mjs';
-import {walk} from '../util/util.mjs';
+import {walk, yyyymmdd} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 import {download} from '../util/download.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {Crc64xz} from '../util/crc64xz.mjs';
-import {createFileUrl, groupFilesCaching, groupPath} from '../util/ia.mjs';
+import {
+	createFileUrl,
+	groupFilesCaching,
+	groupPath,
+	findGroup
+} from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
 
 async function main() {
@@ -26,12 +31,13 @@ async function main() {
 	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 1;
 
 	const args = process.argv.slice(2);
-	if (args.length < 2) {
-		throw new Error('Args: outdir suffix [backup]');
+	if (args.length < 1) {
+		throw new Error('Args: outdir [backup]');
 	}
 
-	const [outdir, suffix, backup] = args;
+	const [outdir, backup] = args;
 
+	const suf = yyyymmdd();
 	const packages = await packaged();
 	const bySha256 = new Map(
 		[...walk(packages, p => p.packages)].map(([p]) => [p.sha256, p])
@@ -43,7 +49,10 @@ async function main() {
 		size: null,
 		hashes: null,
 		file: null,
-		backup: ''
+		backup: '',
+		group:
+			findGroup(info.group.join('-'), packages) ||
+			[...info.group, suf].join('-')
 	}));
 
 	const each = async resource => {
@@ -151,9 +160,9 @@ async function main() {
 	for (const {
 		info,
 		size,
-		hashes: {sha256, sha1, md5}
+		hashes: {sha256, sha1, md5},
+		group
 	} of changed) {
-		const group = [...info.group, suffix].join('-');
 		const pkg = {
 			name: info.name,
 			file: info.file,
@@ -186,7 +195,7 @@ async function main() {
 
 		const each = async resource => {
 			const {info, file, hashes} = resource;
-			const group = [...info.group, suffix].join('-');
+			const {group} = info;
 			const path = groupPath(hashes.sha256, info.file);
 
 			try {

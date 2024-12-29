@@ -42,10 +42,10 @@ export function parsePackageUrl(url) {
 	const item = path.shift();
 	const file = decodeURIComponent(path.pop());
 	const sha256 = path.join('');
-	if (sha256.length !== 64 || item !== groupForSha256(sha256)) {
+	if (sha256.length !== 64) {
 		return null;
 	}
-	return {sha256, file};
+	return {item, sha256, file};
 }
 
 export async function groupFiles(group) {
@@ -87,4 +87,15 @@ export async function groupFiles(group) {
 export function groupFilesCaching() {
 	const cache = {};
 	return async group => (cache[group] = cache[group] || groupFiles(group));
+}
+
+export function findGroup(prefix, packages) {
+	const pre = `${prefix}-`;
+	for (const p of packages) {
+		const parsed = parsePackageUrl(p.source);
+		if (parsed && parsed.item.startsWith(pre)) {
+			return parsed.item;
+		}
+	}
+	return null;
 }
