@@ -73,11 +73,22 @@ export function groupFilesCaching() {
 }
 
 export function findGroup(prefix, packages) {
+	const matches = new Map();
+	let most = 0;
 	const pre = `${prefix}-`;
 	for (const p of packages) {
 		const parsed = parsePackageUrl(p.source);
 		if (parsed && parsed.item.startsWith(pre)) {
-			return parsed.item;
+			const total = (matches.get(parsed.item) || 0) + 1;
+			if (total > most) {
+				most = total;
+			}
+			matches.set(parsed.item, total);
+		}
+	}
+	for (const [item, total] of matches) {
+		if (total === most) {
+			return item;
 		}
 	}
 	return null;
