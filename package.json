@@ -18,7 +18,6 @@
 	},
 	"dependencies": {
 		"@hqtsm/crc": "^1.0.3",
-		"@xmldom/xmldom": "^0.8.10",
 		"jsdom": "^25.0.1"
 	},
 	"devDependencies": {
