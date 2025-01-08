@@ -95,7 +95,7 @@ async function main() {
 							console.log(
 								`${resource.name}: Fail: ${err.message}`
 							);
-							failed.push(resource);
+							failed.push([resource, err]);
 						});
 				}
 			})
@@ -103,6 +103,9 @@ async function main() {
 
 	console.log(`Passed: ${passed.length}`);
 	console.log(`Failed: ${failed.length}`);
+	for (const [resource, error] of failed) {
+		console.log(`${resource.name}: ${resource.source}: ${error.message}`);
+	}
 
 	if (failed.length) {
 		process.exitCode = 1;
