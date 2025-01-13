@@ -32,38 +32,42 @@ export function parsePackageUrl(url) {
 
 export async function groupFiles(group) {
 	const url = `https://archive.org/metadata/${group}/`;
-	const files = await retry(() => fetch(url)).then(async response => {
-		const {status} = response;
-		if (status !== 200) {
-			throw new Error(`Status code: ${status}: ${url}`);
-		}
-		const body = await response.text();
-		const files = new Map();
-		const json = JSON.parse(body);
-		if (!Object.keys(json).length) {
+	const files = await retry(() =>
+		retry(() => fetch(url)).then(async response => {
+			const {status} = response;
+			if (status !== 200) {
+				throw new Error(`Status code: ${status}: ${url}`);
+			}
+			const body = await response.text();
+			const files = new Map();
+			const json = JSON.parse(body);
+			if (!json || !Array.isArray(json.files)) {
+				throw new Error(
+					`Invalid json: ${url}: ${JSON.stringify(json)}`
+				);
+			}
+			for (const file of json.files) {
+				const info = {
+					file: file.name,
+					size: +file.size,
+					md5: file.md5,
+					sha1: file.sha1
+				};
+
+				const sha256 = file.name.split('/').slice(0, -1).join('');
+				if (!regSha256.test(sha256)) {
+					continue;
+				}
+
+				if (file.private) {
+					info.private = true;
+				}
+
+				files.set(sha256, info);
+			}
 			return files;
-		}
-		for (const file of json.files) {
-			const info = {
-				file: file.name,
-				size: +file.size,
-				md5: file.md5,
-				sha1: file.sha1
-			};
-
-			const sha256 = file.name.split('/').slice(0, -1).join('');
-			if (!regSha256.test(sha256)) {
-				continue;
-			}
-
-			if (file.private) {
-				info.private = true;
-			}
-
-			files.set(sha256, info);
-		}
-		return files;
-	});
+		})
+	);
 	return files;
 }
 
