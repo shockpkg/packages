@@ -196,8 +196,7 @@ async function main() {
 		const metadata = groupFilesCaching();
 
 		const each = async resource => {
-			const {info, file, hashes} = resource;
-			const {group} = info;
+			const {info, file, hashes, group} = resource;
 			const path = groupPath(hashes.sha256, info.file);
 
 			try {
