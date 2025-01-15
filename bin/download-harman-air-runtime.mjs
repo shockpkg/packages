@@ -189,7 +189,7 @@ async function main() {
 
 				const path = `${group.group}.txt`;
 				const file = `${outdir}/${path}`;
-				await writeFile(file, '');
+				await writeFile(file, group.group);
 				const code = await backup(file, group.group, path, msg => {
 					group.backup = msg;
 				});
