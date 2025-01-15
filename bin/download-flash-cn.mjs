@@ -190,12 +190,12 @@ async function main() {
 	}
 
 	if (/^(1|true|yes)$/i.test(bkup)) {
-		console.log('-'.repeat(80));
-
 		let failure = false;
 		const metadata = groupFilesCaching();
 
 		{
+			console.log('-'.repeat(80));
+
 			const groups = [...new Set(resources.map(r => r.group))].map(
 				group => ({
 					group,
@@ -242,6 +242,8 @@ async function main() {
 		}
 
 		{
+			console.log('-'.repeat(80));
+
 			const each = async resource => {
 				const {info, file, hashes, group} = resource;
 				const path = groupPath(hashes.sha256, info.file);
