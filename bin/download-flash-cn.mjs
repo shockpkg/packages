@@ -216,10 +216,10 @@ async function main() {
 					return;
 				}
 
-				const f = `${outdir}/${group.group}.txt`;
 				const path = `${group.group}.txt`;
-				await writeFile(f, '');
-				const code = await backup(f, group.group, path, msg => {
+				const file = `${outdir}/${path}`;
+				await writeFile(file, '');
+				const code = await backup(file, group.group, path, msg => {
 					group.backup = msg;
 				});
 				group.backup = code ? `EXIT: ${code}` : 'DONE';
