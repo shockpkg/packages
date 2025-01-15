@@ -29,7 +29,7 @@ async function main() {
 	// eslint-disable-next-line no-process-env
 	const downloadThreads = +process.env.SHOCKPKG_DOWNLOAD_THREADS || 4;
 	// eslint-disable-next-line no-process-env
-	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 1;
+	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 4;
 
 	const args = process.argv.slice(2);
 	if (args.length < 1) {
@@ -195,41 +195,89 @@ async function main() {
 		let failure = false;
 		const metadata = groupFilesCaching();
 
-		const each = async resource => {
-			const {info, file, hashes, group} = resource;
-			const path = groupPath(hashes.sha256, info.file);
+		{
+			const groups = [...new Set(resources.map(r => r.group))].map(
+				group => ({
+					group,
+					backup: ''
+				})
+			);
 
-			try {
-				const m = await metadata(group);
-				if (m.has(path)) {
-					resource.backup = 'SKIP';
+			const each = async group => {
+				try {
+					const m = await metadata(group);
+					if (m.size) {
+						group.backup = 'SKIP';
+						return;
+					}
+				} catch (err) {
+					group.backup = err.message;
+					failure = true;
 					return;
 				}
-			} catch (err) {
-				resource.backup = err.message;
-				failure = true;
-				return;
-			}
 
-			const code = await backup(file, group, path, msg => {
-				resource.backup = msg;
-			});
-			resource.backup = code ? `EXIT: ${code}` : 'DONE';
-			if (code) {
-				failure = true;
-			}
-		};
+				const f = `${outdir}/${group.group}.txt`;
+				const path = `${group.group}.txt`;
+				await writeFile(f, '');
+				const code = await backup(f, group.group, path, msg => {
+					group.backup = msg;
+				});
+				group.backup = code ? `EXIT: ${code}` : 'DONE';
+				if (code) {
+					failure = true;
+				}
+			};
 
-		const progress = new (class extends Progress {
-			line(resource) {
-				return `${resource.info.name}: ${resource.backup}`;
+			const progress = new (class extends Progress {
+				line(group) {
+					return `${group.group}: ${group.backup}`;
+				}
+			})(groups, process.stdout);
+			progress.start(1000);
+			try {
+				await queue(groups, each, backupThreads);
+			} finally {
+				progress.end();
 			}
-		})(resources, process.stdout);
-		progress.start(1000);
-		try {
-			await queue(resources, each, backupThreads);
-		} finally {
-			progress.end();
+		}
+
+		{
+			const each = async resource => {
+				const {info, file, hashes, group} = resource;
+				const path = groupPath(hashes.sha256, info.file);
+
+				try {
+					const m = await metadata(group);
+					if (m.has(path)) {
+						resource.backup = 'SKIP';
+						return;
+					}
+				} catch (err) {
+					resource.backup = err.message;
+					failure = true;
+					return;
+				}
+
+				const code = await backup(file, group, path, msg => {
+					resource.backup = msg;
+				});
+				resource.backup = code ? `EXIT: ${code}` : 'DONE';
+				if (code) {
+					failure = true;
+				}
+			};
+
+			const progress = new (class extends Progress {
+				line(resource) {
+					return `${resource.info.name}: ${resource.backup}`;
+				}
+			})(resources, process.stdout);
+			progress.start(1000);
+			try {
+				await queue(resources, each, backupThreads);
+			} finally {
+				progress.end();
+			}
 		}
 
 		if (failure) {
