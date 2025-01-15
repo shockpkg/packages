@@ -172,7 +172,7 @@ async function main() {
 
 			const each = async group => {
 				try {
-					const m = await metadata(group);
+					const m = await metadata(group.group);
 					if (m.size) {
 						group.backup = 'SKIP';
 						return;
