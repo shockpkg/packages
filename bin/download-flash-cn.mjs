@@ -241,7 +241,7 @@ async function main() {
 			}
 		}
 
-		{
+		if (!failure) {
 			console.log('-'.repeat(80));
 
 			const each = async resource => {
