@@ -208,6 +208,7 @@ async function main() {
 			}
 		}
 
+		/*
 		if (!failure) {
 			console.log('-'.repeat(80));
 
@@ -248,6 +249,7 @@ async function main() {
 				progress.end();
 			}
 		}
+		*/
 
 		if (failure) {
 			process.exitCode = 1;
