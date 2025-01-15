@@ -32,12 +32,12 @@ async function main() {
 
 	const args = process.argv.slice(2);
 	if (args.length < 1) {
-		throw new Error('Args: outdir [backup]');
+		throw new Error('Args: outdir [backup] [suffix]');
 	}
 
-	const [outdir, bkup] = args;
+	const [outdir, bkup, suffix] = args;
 
-	const suf = yyyymmdd();
+	const suf = suffix || yyyymmdd();
 	const packages = await packaged();
 	const userAgent = await getUserAgent();
 	const resources = (await runtimes(userAgent)).map(info => ({

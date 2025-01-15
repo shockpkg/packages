@@ -32,12 +32,12 @@ async function main() {
 
 	const args = process.argv.slice(2);
 	if (args.length < 1) {
-		throw new Error('Args: outdir [backup] [version]');
+		throw new Error('Args: outdir [backup] [version] [suffix]');
 	}
 
-	const [outdir, bkup, version] = args;
+	const [outdir, bkup, version, suffix] = args;
 
-	const suf = yyyymmdd();
+	const suf = suffix || yyyymmdd();
 	const packages = await packaged();
 	const userAgent = await getUserAgent();
 	const listed = await sdks(userAgent, version ?? null);
