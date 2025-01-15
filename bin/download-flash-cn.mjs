@@ -7,7 +7,6 @@ import {mkdir, rename, stat, writeFile} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';
 import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
-import {spawn} from 'node:child_process';
 
 import {directory, read as packaged} from '../util/packages.mjs';
 import {walk, yyyymmdd} from '../util/util.mjs';
@@ -24,6 +23,7 @@ import {
 import {Progress} from '../util/tui.mjs';
 import {getUserAgent} from '../util/ff.mjs';
 import {downloads} from '../util/flashcn.mjs';
+import {backup} from '../util/backup.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -36,7 +36,7 @@ async function main() {
 		throw new Error('Args: outdir [backup]');
 	}
 
-	const [outdir, backup] = args;
+	const [outdir, bkup] = args;
 
 	const suf = yyyymmdd();
 	const packages = await packaged();
@@ -189,7 +189,7 @@ async function main() {
 		await writeFile(pathJoin(directory, f), `${json}\n`);
 	}
 
-	if (/^(1|true|yes)$/i.test(backup)) {
+	if (/^(1|true|yes)$/i.test(bkup)) {
 		console.log('-'.repeat(80));
 
 		let failure = false;
@@ -211,18 +211,8 @@ async function main() {
 				return;
 			}
 
-			const p = spawn('./bin/backup', ['backup.ini', file, group, path]);
-			let stdout = '';
-			p.stdout.on('data', data => {
-				stdout += data.toString();
-				stdout = stdout.slice(
-					stdout.lastIndexOf('\n', stdout.length - 2) + 1
-				);
-				resource.backup = stdout.trim();
-			});
-			const code = await new Promise((resolve, reject) => {
-				p.once('exit', resolve);
-				p.once('error', reject);
+			const code = await backup(file, group, path, msg => {
+				resource.backup = msg;
 			});
 			resource.backup = code ? `EXIT: ${code}` : 'DONE';
 			if (code) {
