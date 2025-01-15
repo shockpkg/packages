@@ -41,6 +41,9 @@ export async function groupFiles(group) {
 			const body = await response.text();
 			const files = new Map();
 			const json = JSON.parse(body);
+			if (!Object.keys(json).length) {
+				return files;
+			}
 			if (!json || !Array.isArray(json.files)) {
 				throw new Error(
 					`Invalid json: ${url}: ${JSON.stringify(json)}`
