@@ -37,16 +37,6 @@ const legacy = new Set([
 	'8da552e22320544d5dd94903a900d446be43815d5ded96444f3cb40bb2681e0f'
 ]);
 
-function addQueryParams(url, params) {
-	return (
-		url +
-		(url.includes('?') ? '&' : '?') +
-		Object.entries(params)
-			.map(a => `${a[0]}=${encodeURIComponent(a[1])}`)
-			.join('&')
-	);
-}
-
 export function cookies(list) {
 	return list.map(c => c.split(';')[0]).join('; ');
 }
@@ -161,15 +151,16 @@ export async function sdks(userAgent, version = null) {
 		}
 		const [, version] = m;
 		const name = format.replaceAll('%version%', version);
-		const source = new URL(link, sdkUrl).href;
-		const url = addQueryParams(source, {id});
-		const file = decodeURI(source.split(/[#?]/)[0].split('/').pop());
+		const url = new URL(link, referer);
+		const source = url.href;
+		const file = decodeURIComponent(url.pathname.split('/').pop());
+		url.searchParams.set('id', id);
 		downloads.push({
 			name,
 			version,
 			file,
 			source,
-			url,
+			url: url.href,
 			mimetype: 'application/octet-stream',
 			group: ['air-sdk', version]
 		});
