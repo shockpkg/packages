@@ -22,7 +22,7 @@ import {
 import {Progress} from '../util/tui.mjs';
 import {yyyymmdd} from '../util/util.mjs';
 import {getUserAgent} from '../util/ff.mjs';
-import {sdks} from '../util/harman.mjs';
+import {sdks} from '../util/hasdk.mjs';
 import {backup} from '../util/backup.mjs';
 
 async function main() {

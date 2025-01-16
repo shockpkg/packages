@@ -4,7 +4,7 @@ import {read as packaged} from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 import {getUserAgent} from '../util/ff.mjs';
-import {sdks, sdksList} from '../util/harman.mjs';
+import {sdks, list} from '../util/hasdk.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -16,7 +16,7 @@ async function main() {
 	const named = new Map(packages.map(p => [p.name, p]));
 	const userAgent = await getUserAgent();
 	const resources = await sdks(userAgent);
-	const releases = await sdksList(userAgent);
+	const releases = await list(userAgent);
 
 	const all = [...resources];
 	{

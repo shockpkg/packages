@@ -9,7 +9,7 @@ import {Hasher, Void} from '../util/stream.mjs';
 import {retry} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 import {getUserAgent} from '../util/ff.mjs';
-import {runtimes} from '../util/harman.mjs';
+import {runtimes} from '../util/harun.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
