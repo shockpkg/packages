@@ -18,6 +18,7 @@ function transform(packages, version) {
 		['name', null],
 		['file', null],
 		['size', null],
+		['sha256tree', null],
 		['sha256', null],
 		['sha1', null],
 		['md5', null],
@@ -43,7 +44,7 @@ async function main() {
 		await outputFile(
 			pathJoin(dist, 'api', `${v}`, file),
 			JSON.stringify({
-				format: '1.2',
+				format: '1.3',
 				packages: transform(packages, v)
 			})
 		);
