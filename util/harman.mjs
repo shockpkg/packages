@@ -98,9 +98,11 @@ export async function sdks(userAgent, version = null) {
 	}
 
 	const data = JSON.parse(await response.text());
-	const cookies = [...response.headers]
+	const cookie = [...response.headers]
 		.map(a => (a[0] === 'set-cookie' ? a[1] : ''))
-		.filter(c => c.startsWith('JSESSIONID='));
+		.filter(c => c.startsWith('JSESSIONID='))
+		.map(c => c.split(';')[0])
+		.join('; ');
 
 	const {id} = data;
 	let links;
@@ -161,17 +163,14 @@ export async function sdks(userAgent, version = null) {
 			headers: {
 				...userAgent.headers,
 				Referer: referer,
-				Cookie: cookies.map(c => c.split(';')[0]).join('; ')
+				Cookie: cookie
 			},
 			mimetype: 'application/octet-stream',
 			group: ['air-sdk', version]
 		});
 	}
 
-	return {
-		downloads,
-		cookies
-	};
+	return downloads;
 }
 
 export async function runtimes(userAgent) {

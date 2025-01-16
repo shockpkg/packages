@@ -15,8 +15,7 @@ async function main() {
 	const packages = await packaged();
 	const named = new Map(packages.map(p => [p.name, p]));
 	const userAgent = await getUserAgent();
-	const current = await sdks(userAgent);
-	const resources = current.downloads;
+	const resources = await sdks(userAgent);
 	const releases = await sdksList(userAgent);
 
 	const all = [...resources];

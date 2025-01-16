@@ -41,9 +41,9 @@ async function main() {
 	const suf = suffix || yyyymmdd();
 	const packages = await packaged();
 	const userAgent = await getUserAgent();
-	const listed = await sdks(userAgent, version ?? null);
+	const downloads = await sdks(userAgent, version ?? null);
 
-	const resources = listed.downloads.map(info => ({
+	const resources = downloads.map(info => ({
 		info,
 		progress: 0,
 		size: null,
