@@ -46,7 +46,6 @@ async function properties(packages) {
 			}
 		},
 		packages: (root, value) => {
-			// eslint-disable-next-line no-undefined
 			ok(value === undefined || Array.isArray(value));
 		},
 		metadata: (root, value) => {

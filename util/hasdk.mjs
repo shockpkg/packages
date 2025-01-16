@@ -89,7 +89,6 @@ export async function sdks(userAgent, version = null) {
 	let links;
 
 	if (version === null) {
-		// eslint-disable-next-line prefer-destructuring
 		links = data.latestVersion.links;
 	} else {
 		const response = await retry(() =>
@@ -105,7 +104,6 @@ export async function sdks(userAgent, version = null) {
 		}
 
 		const data = JSON.parse(await response.text());
-		// eslint-disable-next-line prefer-destructuring
 		links = data.links;
 	}
 

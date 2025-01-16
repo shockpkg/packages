@@ -62,7 +62,6 @@ export async function runtimes(userAgent) {
 		const js = await res.text();
 		const m = js.match(/air\s+runtime\s+-\s+version\s+((?:\d+\.){3}\d+)/i);
 		if (m) {
-			// eslint-disable-next-line prefer-destructuring
 			version = m[1];
 			hashes = js.match(/[\da-f]{64} \*adobeair\.(exe|dmg)/gi);
 			break;

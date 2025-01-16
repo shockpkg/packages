@@ -129,7 +129,6 @@ const each = async resource => {
 
 	for (const [property, header] of headerMappings) {
 		const expected = resource[property];
-		// eslint-disable-next-line no-undefined
 		if (expected === undefined) {
 			continue;
 		}

@@ -92,7 +92,6 @@ export default [
 			// Variables:
 			'no-label-var': 'error',
 			'no-undef-init': 'error',
-			'no-undefined': 'error',
 			'no-unused-vars': 'error',
 
 			// Node.js and CommonJS:
@@ -194,7 +193,6 @@ export default [
 				}
 			],
 			'prefer-const': 'error',
-			'prefer-destructuring': 'error',
 			'prefer-numeric-literals': 'error',
 			'prefer-rest-params': 'error',
 			'prefer-spread': 'error',
