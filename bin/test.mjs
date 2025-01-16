@@ -20,6 +20,12 @@ async function properties(packages) {
 			equal(typeof value, 'number');
 			ok(value > 0);
 		},
+		sha256tree: (root, value) => {
+			if (value) {
+				equal(typeof value, 'string');
+				match(value, /^[\da-z]{64}$/);
+			}
+		},
 		sha256: (root, value) => {
 			equal(typeof value, 'string');
 			match(value, /^[\da-z]{64}$/);
