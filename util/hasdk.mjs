@@ -63,9 +63,9 @@ export async function list(userAgent) {
 	return r;
 }
 
-export async function sdks(userAgent, version = null) {
-	const referer =
-		version === null ? dcUrl : dvUrl.replaceAll('%version%', version);
+export async function sdks(userAgent, version = '') {
+	const versioned = version && version !== 'latest' && version !== 'current';
+	const referer = versioned ? dvUrl.replaceAll('%version%', version) : dcUrl;
 	const response = await retry(() =>
 		fetch(dcApi, {
 			headers: {
@@ -88,9 +88,7 @@ export async function sdks(userAgent, version = null) {
 	const {id} = data;
 	let links;
 
-	if (version === null) {
-		links = data.latestVersion.links;
-	} else {
+	if (versioned) {
 		const response = await retry(() =>
 			fetch(dvApi.replaceAll('%version%', version), {
 				headers: {
@@ -105,6 +103,8 @@ export async function sdks(userAgent, version = null) {
 
 		const data = JSON.parse(await response.text());
 		links = data.links;
+	} else {
+		links = data.latestVersion.links;
 	}
 
 	const allLinks = new Set(Object.keys(links));

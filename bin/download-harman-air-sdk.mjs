@@ -32,16 +32,16 @@ async function main() {
 	const backupThreads = +process.env.SHOCKPKG_BACKUP_THREADS || 1;
 
 	const args = process.argv.slice(2);
-	if (args.length < 1) {
-		throw new Error('Args: outdir [backup] [version] [suffix]');
+	if (args.length < 2) {
+		throw new Error('Args: outdir version [backup] [suffix]');
 	}
 
-	const [outdir, bkup, version, suffix] = args;
+	const [outdir, version, bkup, suffix] = args;
 
 	const suf = suffix || yyyymmdd();
 	const packages = await packaged();
 	const userAgent = await getUserAgent();
-	const downloads = await sdks(userAgent, version ?? null);
+	const downloads = await sdks(userAgent, version);
 
 	const resources = downloads.map(info => ({
 		info,
