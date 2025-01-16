@@ -71,8 +71,9 @@ export async function sdksList(userAgent) {
 			}
 			const [, version] = m;
 			const name = format.replaceAll('%version%', version);
-			const source = new URL(link, releaseNotesBase).href;
-			const file = decodeURI(source.split(/[#?]/)[0].split('/').pop());
+			const url = new URL(link, releaseNotesBase);
+			const source = url.href;
+			const file = decodeURIComponent(url.pathname.split('/').pop());
 			r.push({
 				name,
 				version,
