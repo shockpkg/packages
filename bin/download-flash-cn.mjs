@@ -23,7 +23,7 @@ import {
 } from '../util/ia.mjs';
 import {Progress} from '../util/tui.mjs';
 import {getUserAgent} from '../util/ff.mjs';
-import {downloads} from '../util/flashcn.mjs';
+import {downloads} from '../util/flcn.mjs';
 import {backup} from '../util/backup.mjs';
 
 async function main() {

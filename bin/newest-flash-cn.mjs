@@ -4,7 +4,7 @@ import {read as packaged} from '../util/packages.mjs';
 import {retry, walk} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 import {getUserAgent} from '../util/ff.mjs';
-import {downloads} from '../util/flashcn.mjs';
+import {downloads} from '../util/flcn.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
