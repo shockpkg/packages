@@ -12,6 +12,7 @@ import {directory, read as packaged} from '../util/packages.mjs';
 import {walk, yyyymmdd} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 import {download} from '../util/download.mjs';
+import {Sha256tree} from '../util/sha256tree.mjs';
 import {Hasher, Counter, Void} from '../util/stream.mjs';
 import {Crc64xz} from '../util/crc64xz.mjs';
 import {
@@ -63,10 +64,16 @@ async function main() {
 		const filePath = pathJoin(fileDir, file);
 		const filePart = `${filePath}.part`;
 
+		const hashSha256tree = new Sha256tree();
 		const hashSha256 = createHash('sha256');
 		const hashSha1 = createHash('sha1');
 		const hashMd5 = createHash('md5');
-		const hasher = new Hasher([hashSha256, hashSha1, hashMd5]);
+		const hasher = new Hasher([
+			hashSha256tree,
+			hashSha256,
+			hashSha1,
+			hashMd5
+		]);
 
 		let st = await stat(filePath).catch(() => null);
 		if (st) {
@@ -119,6 +126,7 @@ async function main() {
 		resource.size = st.size;
 
 		resource.hashes = {
+			sha256tree: hashSha256tree.digest('hex'),
 			sha256: hashSha256.digest('hex'),
 			sha1: hashSha1.digest('hex'),
 			md5: hashMd5.digest('hex')
@@ -162,13 +170,14 @@ async function main() {
 	for (const {
 		info,
 		size,
-		hashes: {sha256, sha1, md5},
+		hashes: {sha256tree, sha256, sha1, md5},
 		group
 	} of changed) {
 		const pkg = {
 			name: info.name,
 			file: info.file,
 			size,
+			sha256tree,
 			sha256,
 			sha1,
 			md5,
