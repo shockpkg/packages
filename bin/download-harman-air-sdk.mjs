@@ -22,7 +22,7 @@ import {
 import {Progress} from '../util/tui.mjs';
 import {yyyymmdd} from '../util/util.mjs';
 import {getUserAgent} from '../util/ff.mjs';
-import {sdks, cookies} from '../util/harman.mjs';
+import {sdks} from '../util/harman.mjs';
 import {backup} from '../util/backup.mjs';
 
 async function main() {
@@ -42,7 +42,6 @@ async function main() {
 	const packages = await packaged();
 	const userAgent = await getUserAgent();
 	const listed = await sdks(userAgent, version ?? null);
-	const cookieHeader = cookies(listed.cookies);
 
 	const resources = listed.downloads.map(info => ({
 		info,
@@ -57,7 +56,7 @@ async function main() {
 	}));
 
 	const each = async resource => {
-		const {name, source, url, file, mimetype} = resource.info;
+		const {name, source, url, file, mimetype, headers} = resource.info;
 		const fileDir = pathJoin(outdir, name);
 		const filePath = pathJoin(fileDir, file);
 		const filePart = `${filePath}.part`;
@@ -87,10 +86,7 @@ async function main() {
 		} else {
 			await mkdir(fileDir, {recursive: true});
 			await download(filePart, url, {
-				headers: {
-					...userAgent.headers,
-					Cookie: cookieHeader
-				},
+				headers,
 				transforms: [hasher],
 				response(response) {
 					const ct = response.headers.get('content-type');

@@ -10,7 +10,7 @@ const apiUrl = 'https://airsdk.harman.com/api/config-settings/download';
 const apiUrlV = 'https://airsdk.harman.com/api/versions/%version%';
 const releaseNotesUrl = 'https://airsdk.harman.com/api/versions/release-notes';
 
-const runtimeBase = 'https://airsdk.harman.com/runtime';
+const runtimeUrl = 'https://airsdk.harman.com/runtime';
 const runtimeFileBase = 'https://airsdk.harman.com/assets/downloads';
 const releaseNotesBase = 'https://airsdk.harman.com/release_notes';
 
@@ -36,10 +36,6 @@ const legacy = new Set([
 	'25c1fcbf57427e963ffd0f860cd580bcedb7fecc3584d3210c1067130f7b531a',
 	'8da552e22320544d5dd94903a900d446be43815d5ded96444f3cb40bb2681e0f'
 ]);
-
-export function cookies(list) {
-	return list.map(c => c.split(';')[0]).join('; ');
-}
 
 export async function sdksList(userAgent) {
 	const response = await retry(() =>
@@ -162,6 +158,11 @@ export async function sdks(userAgent, version = null) {
 			file,
 			source,
 			url: url.href,
+			headers: {
+				...userAgent.headers,
+				Referer: referer,
+				Cookie: cookies.map(c => c.split(';')[0]).join('; ')
+			},
 			mimetype: 'application/octet-stream',
 			group: ['air-sdk', version]
 		});
@@ -175,7 +176,7 @@ export async function sdks(userAgent, version = null) {
 
 export async function runtimes(userAgent) {
 	const response = await retry(() =>
-		fetch(runtimeBase, {
+		fetch(runtimeUrl, {
 			headers: {
 				...userAgent.headers
 			}
@@ -184,7 +185,7 @@ export async function runtimes(userAgent) {
 
 	// The page has a 404 response code normally?
 	if (response.status !== 200 && response.status !== 404) {
-		throw new Error(`Status code: ${response.status}: ${runtimeBase}`);
+		throw new Error(`Status code: ${response.status}: ${runtimeUrl}`);
 	}
 
 	const html = await response.text();
@@ -192,7 +193,7 @@ export async function runtimes(userAgent) {
 	const {document} = page.window;
 	const scripts = document.querySelectorAll('script');
 	if (!scripts.length) {
-		throw new Error(`No script tags: ${runtimeBase}`);
+		throw new Error(`No script tags: ${runtimeUrl}`);
 	}
 
 	let version = '';
@@ -228,11 +229,11 @@ export async function runtimes(userAgent) {
 	}
 
 	if (!version) {
-		throw new Error(`No version found: ${runtimeBase}`);
+		throw new Error(`No version found: ${runtimeUrl}`);
 	}
 
 	if (!hashes) {
-		throw new Error(`No hashes found: ${runtimeBase}`);
+		throw new Error(`No hashes found: ${runtimeUrl}`);
 	}
 
 	const sha256s = new Map();
@@ -257,12 +258,17 @@ export async function runtimes(userAgent) {
 			throw new Error(`No sha256 for: ${file}`);
 		}
 
+		const source = `${runtimeFileBase}/${version}/${file}`;
 		downloads.push({
 			name: `air-runtime-${version}-${os}`,
 			version,
 			file,
 			sha256,
-			source: `${runtimeFileBase}/${version}/${file}`,
+			source,
+			headers: {
+				...userAgent.headers,
+				Referer: runtimeUrl
+			},
 			mimetype,
 			group: ['air-runtime', version]
 		});

@@ -23,7 +23,7 @@ async function main() {
 	const resources = await runtimes(userAgent);
 
 	const each = async resource => {
-		const {name, source, sha256} = resource;
+		const {name, source, sha256, headers} = resource;
 
 		const pkg = byName.get(name);
 		if (!pkg) {
@@ -36,9 +36,7 @@ async function main() {
 
 		const response = await retry(() =>
 			fetch(source, {
-				headers: {
-					...userAgent.headers
-				}
+				headers
 			})
 		);
 

@@ -4,7 +4,7 @@ import {read as packaged} from '../util/packages.mjs';
 import {retry} from '../util/util.mjs';
 import {queue} from '../util/queue.mjs';
 import {getUserAgent} from '../util/ff.mjs';
-import {sdks, cookies, sdksList} from '../util/harman.mjs';
+import {sdks, sdksList} from '../util/harman.mjs';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -17,7 +17,6 @@ async function main() {
 	const userAgent = await getUserAgent();
 	const current = await sdks(userAgent);
 	const resources = current.downloads;
-	const cookie = cookies(current.cookies);
 	const releases = await sdksList(userAgent);
 
 	const all = [...resources];
@@ -31,7 +30,7 @@ async function main() {
 	}
 
 	const each = async resource => {
-		const {name, source, url} = resource;
+		const {name, source, url, headers} = resource;
 
 		const expected = named.get(name);
 		if (!expected) {
@@ -45,19 +44,16 @@ async function main() {
 		const response = await retry(() =>
 			fetch(url, {
 				method: 'HEAD',
-				headers: {
-					'User-Agent': userAgent,
-					Cookie: cookie
-				}
+				headers
 			})
 		);
 
-		const {status, headers} = response;
+		const {status, headers: heads} = response;
 		if (status !== 200) {
 			throw new Error(`Status code: ${status}: ${source}`);
 		}
 
-		const size = +headers.get('content-length');
+		const size = +heads.get('content-length');
 		const sized = expected.size;
 		if (size !== sized) {
 			throw new Error(`Unexpected size: ${size} != ${sized}`);

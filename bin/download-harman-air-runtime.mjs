@@ -54,7 +54,14 @@ async function main() {
 	}));
 
 	const each = async resource => {
-		const {name, source, file, mimetype, sha256: sha256e} = resource.info;
+		const {
+			name,
+			source,
+			file,
+			headers,
+			mimetype,
+			sha256: sha256e
+		} = resource.info;
 		const fileDir = pathJoin(outdir, name);
 		const filePath = pathJoin(fileDir, file);
 		const filePart = `${filePath}.part`;
@@ -85,9 +92,7 @@ async function main() {
 		} else {
 			await mkdir(fileDir, {recursive: true});
 			await download(filePart, source, {
-				headers: {
-					...userAgent.headers
-				},
+				headers,
 				transforms: [hasher],
 				response(response) {
 					const ct = response.headers.get('content-type');
