@@ -13,7 +13,7 @@ async function outputFile(file, data) {
 	await writeFile(file, data);
 }
 
-function transform(packages, version) {
+function transform(packages, major) {
 	const keys = new Map([
 		['name', null],
 		['file', null],
@@ -24,7 +24,7 @@ function transform(packages, version) {
 		['md5', null],
 		['zipped', null],
 		['source', null],
-		['packages', v => transform(v, version)]
+		['packages', v => transform(v, major)]
 	]);
 	return packages.map(o => {
 		const a = [];
@@ -38,14 +38,15 @@ function transform(packages, version) {
 }
 
 async function main() {
+	const verions = [[1, 3]];
 	const packages = await packaged();
-	for (const v of [1]) {
+	for (const [major, minor] of verions) {
 		// eslint-disable-next-line no-await-in-loop
 		await outputFile(
-			pathJoin(dist, 'api', `${v}`, file),
+			pathJoin(dist, 'api', `${major}`, file),
 			JSON.stringify({
-				format: '1.3',
-				packages: transform(packages, v)
+				format: `${major}.${minor}`,
+				packages: transform(packages, major)
 			})
 		);
 	}
