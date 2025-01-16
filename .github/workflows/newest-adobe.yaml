@@ -1,9 +1,7 @@
 name: newest-adobe
 
 on:
-  push:
-    branches-ignore:
-      - gh-pages
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
 
