@@ -47,12 +47,12 @@ async function main() {
 			})
 		);
 
-		const {status, headers: heads} = response;
+		const {status} = response;
 		if (status !== 200) {
 			throw new Error(`Status code: ${status}: ${source}`);
 		}
 
-		const size = +heads.get('content-length');
+		const size = +response.headers.get('content-length');
 		const sized = expected.size;
 		if (size !== sized) {
 			throw new Error(`Unexpected size: ${size} != ${sized}`);
