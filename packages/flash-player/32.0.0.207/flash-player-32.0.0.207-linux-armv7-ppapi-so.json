@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.207-linux-armv7-ppapi-so",
 	"file": "libpepflashplayer.so",
 	"size": 20128696,
+	"sha256tree": "cd583c8622296fc5469e881a02f4113d1d5ffb7c092b40cdf06cce5854c2fce1",
 	"sha256": "b6c2377eae6ab97d8c0f79cc29f0afc0f8e2cdebbb6b1f484faa8b3c0167a169",
 	"sha1": "74a0e477fdedd3bc1f7331673f1e6bd5f7d5599f",
 	"md5": "429fbf8a386f7bcdf7d9725f8f41665c",

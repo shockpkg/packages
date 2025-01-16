@@ -2,6 +2,7 @@
 	"name": "flash-player-11.2.202.548-linux-i386-npapi-rpm",
 	"file": "flash-plugin-11.2.202.548-release.i386.rpm",
 	"size": 6934804,
+	"sha256tree": "c147bb0c4ed6407ec55fa4d65d9f4eed56e814755d18349b1923270f76ec28cc",
 	"sha256": "1f297a89620e8b888b91e34b530d59e6821fd41cd7e15d1a7ca37d444fdfec02",
 	"sha1": "c45bdc2b0649c81599cb3d4e01b78ed34a3d2eab",
 	"md5": "cb913ac52299a9535b50734f8ef138a9",

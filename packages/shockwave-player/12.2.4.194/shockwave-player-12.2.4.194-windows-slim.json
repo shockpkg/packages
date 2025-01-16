@@ -2,6 +2,7 @@
 	"name": "shockwave-player-12.2.4.194-windows-slim",
 	"file": "Shockwave_Installer_Slim.exe",
 	"size": 5776144,
+	"sha256tree": "e559c45f978744be756069ae483cc6452be2928fd02174f3265167028b92db78",
 	"sha256": "eea4b7ee74ba71554fcd9dce0bd9c49d4b85dbb1698361d366cdc8d713aab65c",
 	"sha1": "59a930ca84f36469559e64fd27ca79ba7b6423fa",
 	"md5": "cef39b33bd51a3ae393a45153f9e247e",

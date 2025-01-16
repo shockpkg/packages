@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.270-windows-x86_64-sa-debug-2021-06-04",
 	"file": "FlashPlayerDebugger.exe",
 	"size": 20112664,
+	"sha256tree": "785ef580092c131c071baa77181df042085773f52615ed38eb32d95771a39092",
 	"sha256": "80230918b82f4139dc0b0eca1ea8418eb6c82efbdaf2d0aad54ce622a95c25e1",
 	"sha1": "3823efbf3d713d50dab776b974d46b56537e2829",
 	"md5": "05e327609e04c4a017f62e0bcfef5423",

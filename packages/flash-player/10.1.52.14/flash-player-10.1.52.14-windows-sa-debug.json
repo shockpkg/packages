@@ -2,6 +2,7 @@
 	"name": "flash-player-10.1.52.14-windows-sa-debug",
 	"file": "flashplayer_10_sa_debug.exe",
 	"size": 6123472,
+	"sha256tree": "52614bf4ceb51f0bbfe253ba204b99af287c5e3792352079ca1cc821648160db",
 	"sha256": "96e2abacce6eac30a814605ce17db64d453ee04a43b920ec95476593c5daa3ee",
 	"sha1": "431c1c92abf34df9e2197085d9ecc807806d0cb6",
 	"md5": "04ccd24ef3cb05a0490e5e2961325583",

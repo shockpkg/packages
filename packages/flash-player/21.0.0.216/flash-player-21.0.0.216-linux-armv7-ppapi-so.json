@@ -2,6 +2,7 @@
 	"name": "flash-player-21.0.0.216-linux-armv7-ppapi-so",
 	"file": "libpepflashplayer.so",
 	"size": 19789348,
+	"sha256tree": "5e822bbcf1b9483601a47983661fe18aa78f72ae1135324ab7cf568046bdbe16",
 	"sha256": "93330413d13e5dc8dd3a6ab80094b4c396aea1e76856e98f8ac178f6b516a26c",
 	"sha1": "b80834202a8317a4c1b01cd40a7093bd617defca",
 	"md5": "d407e5109e371dd9f70dc8490a2d75a1",

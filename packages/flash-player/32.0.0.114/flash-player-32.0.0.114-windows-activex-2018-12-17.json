@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.114-windows-activex-2018-12-17",
 	"file": "install_flash_player_ax.exe",
 	"size": 20780000,
+	"sha256tree": "1e3b9152379caffae0c02896da1c24030bf000908cc17ca8e8f85b8d50dcf66f",
 	"sha256": "351a435ac0368cd160e2fdac9f876cca42f9b7858e3078c32bd4a8abef17220e",
 	"sha1": "277292330af55eb55a929b9d40c5029e42df1445",
 	"md5": "43f6641d9c4c06070fdae9237b377fbc",

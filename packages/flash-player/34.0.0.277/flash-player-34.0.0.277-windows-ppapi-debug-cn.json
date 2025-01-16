@@ -2,6 +2,7 @@
 	"name": "flash-player-34.0.0.277-windows-ppapi-debug-cn",
 	"file": "install_flash_player_debug_ppapi_cn.exe",
 	"size": 12434400,
+	"sha256tree": "36e79c0cb396f045022b411d20f1538fa04378049df889216e472f381e25109f",
 	"sha256": "e9dcbc2eb21a8db1b8d6097e79304bf3783fc7685880556922aa85a95ad877bb",
 	"sha1": "94f3b603755f07486cb9b129d0ac06e3007badbd",
 	"md5": "7722cb2a868b095e72ff413c29422d60",

@@ -2,6 +2,7 @@
 	"name": "flex-sdk-installer-3.1-bin-windows",
 	"file": "apache-flex-sdk-installer-3.1.0-bin.exe",
 	"size": 2529558,
+	"sha256tree": "233c4ab2436b2e5699aecd9762fbf3e6016366a35dcc0139ed63e986944eedfd",
 	"sha256": "86711b3faf4aab984205ab3c9442f8a9cc27039ebc0142966eb45167600bc2cd",
 	"sha1": "fc05c7862d12e12b46d5997d99921f4011e8fd03",
 	"md5": "aa9148b859f3b40cc6c4a1d5f4914770",

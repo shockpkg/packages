@@ -2,6 +2,7 @@
 	"name": "flash-player-34.0.0.305-windows-npapi-cn",
 	"file": "install_flash_player_cn.exe",
 	"size": 11909600,
+	"sha256tree": "59fd5f174327b6f097d4c1ac7e7caec77dcf48f52abae8413319d4cecc80b1f0",
 	"sha256": "8fc1f85ce16e7285fd0dc572c476a5dd023185d26504792c6b80fe96261599fa",
 	"sha1": "3b010433ef1028fbbbdc2b652c1a021bc6756f48",
 	"md5": "1c52c18d561ad65c737c0d454bc01d94",

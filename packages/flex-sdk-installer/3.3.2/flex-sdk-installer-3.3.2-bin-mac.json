@@ -2,6 +2,7 @@
 	"name": "flex-sdk-installer-3.3.2-bin-mac",
 	"file": "apache-flex-sdk-installer-3.3.2-bin.dmg",
 	"size": 3227017,
+	"sha256tree": "c81191a47d27e462025bfc14830d8708904d60735fc7d04354cdb23631885fc4",
 	"sha256": "9dd618bc590de196295b48b96a40d1db022b84480c54e34b0631095e547d667e",
 	"sha1": "514b140b342e5f48e67816efe1df6f24cb2789dd",
 	"md5": "b454c276157151f66eaadfd1bf1abc06",

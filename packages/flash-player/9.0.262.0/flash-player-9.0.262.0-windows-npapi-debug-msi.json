@@ -2,6 +2,7 @@
 	"name": "flash-player-9.0.262.0-windows-npapi-debug-msi",
 	"file": "Install Flash Player 9 Plugin.msi",
 	"size": 4518912,
+	"sha256tree": "6b107ae8d97495c34abd0602bbba28a204f1a35474b4dce2ef5c0d8f6db68b9c",
 	"sha256": "fe7093ad2c5de749e255cc499666bf33cc00dccb40310c42379727cf97590a7a",
 	"sha1": "78153648045dd23310ee81d0806e276ad40cd659",
 	"md5": "8fdb5e495ff878e9c2332808a5dcce35",

@@ -2,6 +2,7 @@
 	"name": "flex-sdk-4.12.1-src-tar-gz",
 	"file": "apache-flex-sdk-4.12.1-src.tar.gz",
 	"size": 39063291,
+	"sha256tree": "412cae642873e56113f917b8faf807912c49b5dc32d19382670299bed5471622",
 	"sha256": "f7853eadd482683ef5450f8e5c60a1c401efb4d7de0a61c3d870835a8252e9fc",
 	"sha1": "0ae5ec2c50a277e7c12fb5a2babf4579cc66398b",
 	"md5": "6e8608ca8dfe82fc662692798b5e8140",

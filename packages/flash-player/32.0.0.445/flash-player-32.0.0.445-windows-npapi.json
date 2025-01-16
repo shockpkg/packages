@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.445-windows-npapi",
 	"file": "install_flash_player.exe",
 	"size": 21645368,
+	"sha256tree": "e6d82f555a4a94f60947bf6098006552db313e8153e539add4581ce24561a724",
 	"sha256": "ab589887139abaedcdedd9b776c778ae74998f9decf4e95d27a1bb815e8bd1cc",
 	"sha1": "4b545e8fc687c545dab1edbd51fcc7fd8a0ade81",
 	"md5": "4beb0f48be31f087963d8402838135d5",

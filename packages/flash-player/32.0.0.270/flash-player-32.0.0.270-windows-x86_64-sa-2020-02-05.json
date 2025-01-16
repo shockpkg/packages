@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.270-windows-x86_64-sa-2020-02-05",
 	"file": "FlashPlayer.exe",
 	"size": 19123808,
+	"sha256tree": "79b77fe13f5c69ffdf8212455b6472fd37781329512a52e9f2ff8860d411600a",
 	"sha256": "fc2b322ca064c4215adc6494c1630400c848785e611212acb4ae36ef33a431f3",
 	"sha1": "05cdfd3f2c5697e3a15e15b7324cf213ae83cade",
 	"md5": "38a00b124ce7092cc7f23308ce4e6154",

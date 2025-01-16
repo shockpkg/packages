@@ -2,6 +2,7 @@
 	"name": "air-runtime-16.0.0.245-windows",
 	"file": "AdobeAIRInstaller.exe",
 	"size": 17709352,
+	"sha256tree": "ca31d6cc81b8a1ef7d91788811498d660971921025586b6949132419326c7200",
 	"sha256": "baba2861a564909d656034dcafed8c0030609ce6c1b62760903eef345531b425",
 	"sha1": "b32f3624e572ea9d7c6736eba66cf87f363df4c5",
 	"md5": "39d59c4ea34cb364faf81ebd3d2ae714",

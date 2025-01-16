@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.445-linux-x86_64-sa-debug",
 	"file": "flash_player_sa_linux_debug.x86_64.tar.gz",
 	"size": 8830008,
+	"sha256tree": "59a4033cd4e0e416e95ec82d9938ac29ee0dd2501faa7eaa54dbd1ac5b5e438c",
 	"sha256": "99b54f62f317829906b0d03e5522f10997484efaa4b2d5f2705a5621446b1547",
 	"sha1": "d34228ea81883b41579fc03a9b4af882b75880fa",
 	"md5": "3c1d9192174960c0f4118ff15f5bfbcd",

@@ -2,6 +2,7 @@
 	"name": "flash-player-34.0.0.137-linux-x86_64-ppapi-rpm-cn",
 	"file": "flash-player-ppapi-release.x86_64.rpm",
 	"size": 8698802,
+	"sha256tree": "6ba8d6d2e3786c40d5dae26bf51faf338fd1dc93f72141f2498ada4e81cdb8f9",
 	"sha256": "2032be200a803fdf48a6006205c525b6ceab1598b9a000216ac43b03dd0d2af4",
 	"sha1": "671a28436bbe0c1f3609999daadbf9ef83acc34a",
 	"md5": "be434a48419ee741bda4226650486b4e",

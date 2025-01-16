@@ -2,6 +2,7 @@
 	"name": "shockwave-player-12.2.3.183-windows-slim-licensed",
 	"file": "sw_lic_slim_installer.exe",
 	"size": 4280056,
+	"sha256tree": "c7d66236887c1cd7323f5292c18f724e13c66cfb30c4fda138422374fd5b8426",
 	"sha256": "37191e6406db1805b0b1c5ce9233ac944f4c74f6bf40da1c1dec4241086f5b79",
 	"sha1": "03f4206880bd6d4c9f01a158276126ce0fd681b0",
 	"md5": "a257bde029eb41834734635955cc070a",

@@ -2,6 +2,7 @@
 	"name": "flash-player-10.1.52.14-windows-npapi",
 	"file": "InstallPlugin.exe",
 	"size": 2522576,
+	"sha256tree": "05ccb2a33c73d5a86873b89bc2201e05ad71affa0306fef8179c3d3a7c5a2cde",
 	"sha256": "97fec40e304bd829de64bd283c30c8a35dbc53a54773bd5bfd80139dafca5356",
 	"sha1": "2cc70e9a5a0e896c5d63f5a4068b245915d1a043",
 	"md5": "d39466b141f03c4037c5df1301303f5c",

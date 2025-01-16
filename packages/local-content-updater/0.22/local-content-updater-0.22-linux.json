@@ -2,6 +2,7 @@
 	"name": "local-content-updater-0.22-linux",
 	"file": "local_content_updater-linux.tgz",
 	"size": 81920,
+	"sha256tree": "03177da0fe1c83f71bc748bfaca0e8291a240d9095344055d858019ca4a4454c",
 	"sha256": "03177da0fe1c83f71bc748bfaca0e8291a240d9095344055d858019ca4a4454c",
 	"sha1": "99edbd69ec99570557442222436b9404a92e0a4a",
 	"md5": "968d70da5fae8674ba939e66de48de81",

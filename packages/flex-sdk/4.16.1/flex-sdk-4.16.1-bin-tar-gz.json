@@ -2,6 +2,7 @@
 	"name": "flex-sdk-4.16.1-bin-tar-gz",
 	"file": "apache-flex-sdk-4.16.1-bin.tar.gz",
 	"size": 66183615,
+	"sha256tree": "c05e46b7cd96654afc0379835d8be89a3abcf0245069f45d666faf6e0ed2abe7",
 	"sha256": "17fda7ac8d3e476cad3127f345455ef316acfb87c6f4322e5897bd8d9b09388e",
 	"sha1": "dbc9a6143090918e282f013d054de5eba163bdf1",
 	"md5": "0fba6c912c3919ae1b978ca2d053fe07",

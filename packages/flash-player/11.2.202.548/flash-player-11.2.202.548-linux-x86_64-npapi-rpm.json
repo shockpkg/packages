@@ -2,6 +2,7 @@
 	"name": "flash-player-11.2.202.548-linux-x86_64-npapi-rpm",
 	"file": "flash-plugin-11.2.202.548-release.x86_64.rpm",
 	"size": 7250527,
+	"sha256tree": "ab90a3e0d89b2f8662484a75f72469d6f445a8273c512e66d8f2e76cf0cc2ca2",
 	"sha256": "a97eba22cecb5a81c15e6ca668d559417668fc978a714b6560cc155a1f367eb7",
 	"sha1": "d2bc2c86c81a5a1b6577086fe7750456837d2579",
 	"md5": "c99d368656c5ad08eb79f374053a14c4",

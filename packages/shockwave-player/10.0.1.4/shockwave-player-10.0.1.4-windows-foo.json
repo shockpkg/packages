@@ -2,6 +2,7 @@
 	"name": "shockwave-player-10.0.1.4-windows-foo",
 	"file": "installer.foo.exe",
 	"size": 4404530,
+	"sha256tree": "cf476821d1f069ac1c6ed628e5bb892d7be511f8b20448165e8da584593b1873",
 	"sha256": "d901ab27b0b0e10c332980c7ae0c4eb92862d2020622577efe55161338991053",
 	"sha1": "abd46c44905a4f3e3861be8b9ed3579eaf850161",
 	"md5": "56c9102636908aadf930248066ab06d7",

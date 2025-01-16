@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.445-mac-ppapi",
 	"file": "install_flash_player_osx_ppapi.dmg",
 	"size": 14985150,
+	"sha256tree": "cecad41d55d7a3a957610445d6706c7d0fa3b198166c55ca3939292314282c30",
 	"sha256": "829ddd7c8ff19c8ec609fd3e3624c69363047a48efd86d3e3b0ddb48243277dd",
 	"sha1": "3c2c7c5acf2ae88339b22525e6e35eeea0fcf0b9",
 	"md5": "19187e2b1e54cf7bc7cd49fd17dcb9dd",

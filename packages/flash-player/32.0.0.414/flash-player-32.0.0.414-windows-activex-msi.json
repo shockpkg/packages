@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.414-windows-activex-msi",
 	"file": "install_flash_player_32_active_x.msi",
 	"size": 22141952,
+	"sha256tree": "155ec7a00776a1ac322372c5a4ff08108a9e7d7a7ae65fa44b4c622495aafd6f",
 	"sha256": "dff1ad8beaf7b36f82936cea7f3d5dab370b5cc0f7e1dee73fa0a05eab54d68e",
 	"sha1": "9681a910fb90f8543363748fa6e4179ec24a03f1",
 	"md5": "87919f747ffafd92a5db9ad054da0f9f",

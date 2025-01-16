@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.445-windows-sa-debug",
 	"file": "flashplayer_32_sa_debug.exe",
 	"size": 16811576,
+	"sha256tree": "b4412b9b7e5f08d182211640e17f977cf39bc070c086bc6cab6d2f3fe2902eeb",
 	"sha256": "d201189bc1af74fef7d34882e8912660ec1dd9eec989fcfcc860a54c7715a949",
 	"sha1": "5138c5cbc456301dad65cd23f56efa2877f3ac6a",
 	"md5": "eac38df5b0e262768cb4173e7a362ebe",

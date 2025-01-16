@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.433-windows-activex-debug",
 	"file": "flashplayer_32_ax_debug.exe",
 	"size": 21449784,
+	"sha256tree": "db572f7b9d6bc96c97af83ae5685f60e5608cf868dee33c18d6bee204974a725",
 	"sha256": "2a6fa1a451765f048622399daa166f423855722413efd81ee220ce020730774b",
 	"sha1": "25203dd238c67405f5845e4290232ce393688d97",
 	"md5": "b6d16dd57ff6d4024cadb3b85d092c81",

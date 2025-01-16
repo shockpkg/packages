@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.414-windows-npapi-debug",
 	"file": "flashplayer_32_plugin_debug.exe",
 	"size": 21314616,
+	"sha256tree": "ddba2b1fcf16b2eb0f4fb048e97545374a729714a1263863e46123afa5dee5f8",
 	"sha256": "9fbf6ce3804dd7d0ce1d74439910f8dee2ddee72ec40026f40f02ec23df33f94",
 	"sha1": "74fc8ec39b6db1be80133db28198d563716a8563",
 	"md5": "e0df637d1d905ed4983a43845406ca12",

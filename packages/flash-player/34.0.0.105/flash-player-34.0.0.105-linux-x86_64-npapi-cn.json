@@ -2,6 +2,7 @@
 	"name": "flash-player-34.0.0.105-linux-x86_64-npapi-cn",
 	"file": "flash_player_npapi_linux.x86_64.tar.gz",
 	"size": 9327699,
+	"sha256tree": "c2ae066ed85ab28a7dcf13c79651ad22776f88fe776e83daabbfdd21e6f61114",
 	"sha256": "f55a72c4698f9c8ba97535f5d0a56a376751f1845a4d1c8a05be0d5c62b9e450",
 	"sha1": "2c1f7351080110adfc993989e50a2787ddff4ad5",
 	"md5": "a2943a171bca970d6ea84006abed5fe1",

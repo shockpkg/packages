@@ -2,6 +2,7 @@
 	"name": "flex-sdk-installer-2.6-src-tar-gz",
 	"file": "apache-flex-sdk-installer-2.6.0-src.tar.gz",
 	"size": 1871342,
+	"sha256tree": "8f853bb45e0b33f279505410bf35d577b867cb7ebadcf4bdc19d23b579cce899",
 	"sha256": "c300e720e09fa99b1d73ee11bccd13ef918d1971b181d4c3f0c5cb0a80d8a3e7",
 	"sha1": "035eabafcf7b06d6263dcb1a813f8630cc603c10",
 	"md5": "6c789aad254313dcc256d7902a74b382",

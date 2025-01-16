@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.403-linux-x86_64-ppapi-debug",
 	"file": "flash_player_ppapi_linux_debug.x86_64.tar.gz",
 	"size": 10203121,
+	"sha256tree": "f14c6724dca8974ceaa776a72cc1e5360652bccdef7763054ab1000f2d41f6a3",
 	"sha256": "4c22a089b5f8ebf9ae6fc773e2059f56bea833941b6b54f570be07b76938f0fe",
 	"sha1": "df195da241f2a5e39c102efa41b13eca0a18c731",
 	"md5": "5d78de236c8ae3496258e91c21c75fd6",

@@ -2,6 +2,7 @@
 	"name": "flash-player-5.0.52.0-solaris",
 	"file": "flash_solaris.tar.gz",
 	"size": 627444,
+	"sha256tree": "ea2f51fe4ae2cff35809a563180e721e4954eba920e255ab4fad19e2a0536c37",
 	"sha256": "ea2f51fe4ae2cff35809a563180e721e4954eba920e255ab4fad19e2a0536c37",
 	"sha1": "c6e71f85ad9dfb00814f3aa574c88d73ac987586",
 	"md5": "c9d782711553efabc0bcf8b0c3850cc4",

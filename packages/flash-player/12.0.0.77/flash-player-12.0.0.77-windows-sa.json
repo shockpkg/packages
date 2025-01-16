@@ -2,6 +2,7 @@
 	"name": "flash-player-12.0.0.77-windows-sa",
 	"file": "flashplayer_12_sa.exe",
 	"size": 10360200,
+	"sha256tree": "e43ab6ff33097022e30a7b56c42af946cc5e3466d0cd33baede21cd3bdfb63b5",
 	"sha256": "2d661d16b078eebed0bbf71987108d2d2e5ac5d2d68b706ea39d18c0b67c94cd",
 	"sha1": "7efad08c15082453da909f720ea520cf25291eeb",
 	"md5": "6c08f0d1b906cfb5e13b92f878856c30",

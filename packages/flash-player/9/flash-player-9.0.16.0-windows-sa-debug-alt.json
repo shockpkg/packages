@@ -2,6 +2,7 @@
 	"name": "flash-player-9.0.16.0-windows-sa-debug-alt",
 	"file": "SAFlashPlayer.exe",
 	"size": 2766472,
+	"sha256tree": "3b950e728fef2ea483080a7017b59dbdaebe7ebd9437e778a05718c3f96671ec",
 	"sha256": "19eaf4f294b78aa98d056028318fbec0cb1d6fdbcf14ffa1662ed8bee6c15c71",
 	"sha1": "548292f7302054d02d70040a0f48dc1d83180033",
 	"md5": "15a6605156e29f68fdfd637e73a889d4",

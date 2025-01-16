@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.465-windows-ppapi-debug",
 	"file": "flashplayer_32_ppapi_debug.exe",
 	"size": 22157368,
+	"sha256tree": "7b496cab1bd749b338f5b9f4a3aaa021c980bceccbfb1353f5dded469fb4f283",
 	"sha256": "9cdbbc7d1bb45b25491893221c742b6b71a14185319d88c2703a232486d481d3",
 	"sha1": "adab757a2111f29ba380d6164e96512085645c4b",
 	"md5": "4c790c06b6a1ec6bf5a5db9fb500de49",

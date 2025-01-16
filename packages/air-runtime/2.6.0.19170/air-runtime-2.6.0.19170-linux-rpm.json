@@ -2,6 +2,7 @@
 	"name": "air-runtime-2.6.0.19170-linux-rpm",
 	"file": "adobeair.i386.rpm",
 	"size": 20846023,
+	"sha256tree": "fe8dcccd099b38182fe8290e937eafb5dd3a84c36355462687c6df4190470829",
 	"sha256": "56ef86a03e05b26400abcd16f5c54e67966538754fa21cddd6dfe320ef181254",
 	"sha1": "458d3009afee1ca4bdec077507008031f64d1c48",
 	"md5": "895c251e3070289c045d633ecb12b5bc",

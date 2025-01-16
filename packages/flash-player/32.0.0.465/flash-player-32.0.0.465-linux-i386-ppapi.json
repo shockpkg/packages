@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.465-linux-i386-ppapi",
 	"file": "flash_player_ppapi_linux.i386.tar.gz",
 	"size": 8832791,
+	"sha256tree": "79aeff2e89e906f02ff23ab8d3acab189e25cd0658897a9c805d86b613354fd1",
 	"sha256": "d32ad3eb24f22cd11cb83910a72880c98f69ea1ec0f3ce6beb31812e166f0f62",
 	"sha1": "89b751c72733090fa3169b16b10809d0ce46adf7",
 	"md5": "1fd125d28a90892691b70a9198a6c208",

@@ -2,6 +2,7 @@
 	"name": "flash-player-3.0.13.0-b1-linux",
 	"file": "flash_linux.tar.gz",
 	"size": 117866,
+	"sha256tree": "ba1ee27a4a7d6d953cf87928b72cb1d0587afdabc7badfb8e1a44d9f88c478cf",
 	"sha256": "ba1ee27a4a7d6d953cf87928b72cb1d0587afdabc7badfb8e1a44d9f88c478cf",
 	"sha1": "57aeda288543546c2d00aa13b3b097aec3af7f88",
 	"md5": "27ec22b92cdf9e6de9d25fb0545cadb0",

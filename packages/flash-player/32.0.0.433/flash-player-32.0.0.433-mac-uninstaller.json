@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.433-mac-uninstaller",
 	"file": "uninstall_flash_player_osx.dmg",
 	"size": 1680112,
+	"sha256tree": "66a7fd095c22d575fa39022562adcfcf5b3f40698636fdf1bebfb61cf4f49719",
 	"sha256": "ce72fcac3802628ffdc2b7dc7753cb1e27ff7e94107119a90420709c29b6fa94",
 	"sha1": "20c716919490f5e1181d62cf781bc861742dacfb",
 	"md5": "566a8f923dc252d9a9f546b32f1767da",

@@ -2,6 +2,7 @@
 	"name": "shockwave-player-8.5.1.102-windows-foo",
 	"file": "installer.foo.exe",
 	"size": 3566800,
+	"sha256tree": "ebe1a94bc59b4e5e3f6bb4b87e977927d4ba7a7a3f488aabfe447a432b30b2f3",
 	"sha256": "f123dbd05bed9588d456598020cc81a484c07dbb60eaa2a611f43a2a57ee6be2",
 	"sha1": "25ef119ff084b05ce3a84969acc364930e5a971b",
 	"md5": "f4d5d7f48aab68081f7cd69c272fafd6",

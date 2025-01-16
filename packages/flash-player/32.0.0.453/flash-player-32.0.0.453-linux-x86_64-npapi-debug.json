@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.453-linux-x86_64-npapi-debug",
 	"file": "flash_player_npapi_linux_debug.x86_64.tar.gz",
 	"size": 9429575,
+	"sha256tree": "879008ffcccb251a8ad8410fcbb9848a0ad314472d155b5bbdbec5cf1fe413fd",
 	"sha256": "2961c07a748ceca94d88dfe05cbd83535d8304da6594d2cb254a7c75e5e95f4a",
 	"sha1": "824fd43dbbc30acd7cdb7cb93351835867f059b2",
 	"md5": "2a1bbeb6032e189f4f8751dbc7ce3db6",

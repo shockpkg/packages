@@ -2,6 +2,7 @@
 	"name": "flash-player-30.0.0.154-windows-ppapi-2018-07-27",
 	"file": "install_flash_player_ppapi.exe",
 	"size": 21088216,
+	"sha256tree": "0f5ad308c99b7773b1adca6f67e872a2e0fe4f9a01e15087d4e4a32166e6471f",
 	"sha256": "a70b03c0e0f489219214a95e6733e0f75b12b428aa3703c1550453e21fe3c1ce",
 	"sha1": "c6f28824e3ed62d56a293d154e6d003cfcaaa625",
 	"md5": "6a55c67a3a4a50998e54d3b0280ca880",

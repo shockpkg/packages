@@ -2,6 +2,7 @@
 	"name": "shockwave-player-11.5.7.609-windows-slim-licensed",
 	"file": "sw_lic_slim_installer.exe",
 	"size": 2023760,
+	"sha256tree": "310d33702d2eb1b05de33b1e28646141c40861b24fe427df8c15d6c53c4376b0",
 	"sha256": "5b3cd4509994d19108b7fe602aacb75db68793bfc33e7aac082280845869ffd8",
 	"sha1": "d2437f0019eabe61903388936c27d3ab4b4ece07",
 	"md5": "13a7985777b0ec907ebc2687430bccc0",

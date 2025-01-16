@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.465-windows-uninstaller",
 	"file": "uninstall_flash_player.exe",
 	"size": 1505848,
+	"sha256tree": "846d82bc07e1e041ce556ca00c5fd8dd3a10f62e7766ac251532958c4741c74a",
 	"sha256": "3590bab42e7fc1cde971831c3f0c126c6e4f5de1a403b0136a345a553bd90149",
 	"sha1": "9a26ddd416690685b24473c9f5891d024cb59068",
 	"md5": "cad21a79aa9ba9aeba0a993f97f370f8",

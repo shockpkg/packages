@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.453-windows-npapi-msi",
 	"file": "install_flash_player_32_plugin.msi",
 	"size": 22746112,
+	"sha256tree": "2d86d3bfaa83c1d9a99d9528b6810268d8589b884779e913a2e6a75204c7c823",
 	"sha256": "966994a3861f9be0132797b2d290bbe294d7cd14b320a26c3d3b6f3bbd7922b4",
 	"sha1": "6672c750fc05aa220a2cf4fde27478292e861e7e",
 	"md5": "d4353e79f68868e151dd80989dba8cf9",

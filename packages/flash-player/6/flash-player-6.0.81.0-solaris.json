@@ -2,6 +2,7 @@
 	"name": "flash-player-6.0.81.0-solaris",
 	"file": "flash_player_6_solaris_intel.tar.gz",
 	"size": 770854,
+	"sha256tree": "18d34995b0a0c89db96b043f6f2466375a438c452d0bd1169beaf82c503af2cf",
 	"sha256": "18d34995b0a0c89db96b043f6f2466375a438c452d0bd1169beaf82c503af2cf",
 	"sha1": "1eedac491a23ff5516ebdc4afc576f806c38ace7",
 	"md5": "0ac08fd722522c32a57399d132b245dc",

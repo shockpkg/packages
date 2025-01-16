@@ -2,6 +2,7 @@
 	"name": "flash-player-32.0.0.207-windows-npapi-2019-05-26",
 	"file": "install_flash_player.exe",
 	"size": 21314584,
+	"sha256tree": "45af4e967c12acee21f846ee42c658734c81a1e09c0a4165b9e3d73113731678",
 	"sha256": "038b8bee9d5f26e699655d668a4388f7b1698fb38c1005c3857b6c3e0ab64c26",
 	"sha1": "020c2413d87cd701973edcc8d02e12c215406b75",
 	"md5": "9e396803819dee46e9877b468d1218f6",

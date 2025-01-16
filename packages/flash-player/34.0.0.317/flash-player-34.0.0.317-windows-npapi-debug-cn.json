@@ -2,6 +2,7 @@
 	"name": "flash-player-34.0.0.317-windows-npapi-debug-cn",
 	"file": "install_flash_player_debug_cn.exe",
 	"size": 11630000,
+	"sha256tree": "e20ca6aad9e0fa3472c79b4fd2c5a0de61efcc65ecdc4121b0520e75ece2c970",
 	"sha256": "5c4deaf96788cdcc9b899313f0678f9ed441a06333b7701352637f177642435d",
 	"sha1": "503aea27aec4b8a98504d7ff0315f6befb578a6a",
 	"md5": "68a154998cb2db0eb0ff5b01f4bece91",

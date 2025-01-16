@@ -2,6 +2,7 @@
 	"name": "air-runtime-50.1.1.2-windows",
 	"file": "AdobeAIR.exe",
 	"size": 6126376,
+	"sha256tree": "489e21b84de7d95af626d2c40485bf9d7cf12e966b1d2cf8554168d64b996198",
 	"sha256": "070ffe61e44b8e7142ac48bcd20b52269801196a8f1b5cacff8e42e443fcd86c",
 	"sha1": "18e5b19e076c1ee6188dbff559d00bdb9cd0d990",
 	"md5": "1ed1a1ec077323289aad4bedd3abe1da",
