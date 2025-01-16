@@ -21,10 +21,8 @@ async function properties(packages) {
 			ok(value > 0);
 		},
 		sha256tree: (root, value) => {
-			if (value) {
-				equal(typeof value, 'string');
-				match(value, /^[\da-z]{64}$/);
-			}
+			equal(typeof value, 'string');
+			match(value, /^[\da-z]{64}$/);
 		},
 		sha256: (root, value) => {
 			equal(typeof value, 'string');
@@ -94,7 +92,9 @@ async function unique(packages) {
 		ok(!keys.has(pkg.name));
 		keys.add(pkg.name);
 
+		ok(!keys.has(pkg.sha256tree));
 		ok(!keys.has(pkg.sha256));
+		keys.add(pkg.sha256tree);
 		keys.add(pkg.sha256);
 
 		ok(!keys.has(pkg.sha1));
