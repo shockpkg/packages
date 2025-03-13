@@ -183,11 +183,10 @@ async function main() {
 
 			const each = async resource => {
 				const {info, file, hashes, group} = resource;
-				const path = groupPath(hashes.sha256, info.file);
 
 				try {
 					const m = await metadata(group);
-					if (m.has(path)) {
+					if (m.has(hashes.sha256)) {
 						resource.backup = 'SKIP';
 						return;
 					}
@@ -197,6 +196,7 @@ async function main() {
 					return;
 				}
 
+				const path = groupPath(hashes.sha256, info.file);
 				const code = await backup(file, group, path, msg => {
 					resource.backup = msg;
 				});
