@@ -1,0 +1,13 @@
+{
+	"name": "flash-player-34.0.0.325-windows-sa-cn",
+	"file": "flashplayer_sa.exe",
+	"size": 10735016,
+	"sha256tree": "bc82098a469b1a96302cff909b0fa395ee3090d46948c39a8234fe820413d736",
+	"sha256": "3618793c7f36741035e9701449e4f7a99fd79403a9f49b0770eedd0ef063a8e0",
+	"sha1": "429a521dd98598cab32bed90c071fcd25bc8fad1",
+	"md5": "0f2665e7bdfa5493b063936126030345",
+	"source": "https://archive.org/download/flash-player-34.0.0.325-20250313/3618793c7f36741035e9701449e4f7a99fd79403a9f49b0770eedd0ef063a8e0/flashplayer_sa.exe",
+	"metadata": {
+		"date": "2025-03-11"
+	}
+}

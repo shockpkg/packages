@@ -1,0 +1,13 @@
+{
+	"name": "flash-player-34.0.0.325-windows-activex-debug-cn",
+	"file": "install_flash_player_debug_ax_cn.exe",
+	"size": 23487400,
+	"sha256tree": "82fce65bf687238af7f6bc20910af8395012bf118718a1c7b82230217544b9aa",
+	"sha256": "4fb6a8c88ec1ce83b473c6e9c2e803ac4c0f259dd9093d173ce69d3d4dd00acc",
+	"sha1": "9d8bea509bd6a15a9db2b860cb165c77b8fb42bb",
+	"md5": "253fb998dff112378152acf161fa46f7",
+	"source": "https://archive.org/download/flash-player-34.0.0.325-20250313/4fb6a8c88ec1ce83b473c6e9c2e803ac4c0f259dd9093d173ce69d3d4dd00acc/install_flash_player_debug_ax_cn.exe",
+	"metadata": {
+		"date": "2025-03-11"
+	}
+}
