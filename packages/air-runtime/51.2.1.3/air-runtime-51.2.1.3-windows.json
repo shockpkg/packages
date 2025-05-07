@@ -1,0 +1,10 @@
+{
+	"name": "air-runtime-51.2.1.3-windows",
+	"file": "AdobeAIR.exe",
+	"size": 6290568,
+	"sha256tree": "2f02ae6e9e2b081568c266a0b92f0dc1e8b2fb65e7d020e57be4864831bf28fd",
+	"sha256": "e99b4c9daeae978b2c896a1670a27dd28f84bab6b825ae551019759aa6de1d7e",
+	"sha1": "a06ebba4b5e08a072ee5c64290ef90b6d4b87a95",
+	"md5": "3363cf2ccbe756b86395674dd2576bed",
+	"source": "https://archive.org/download/air-runtime-51.2.1.3-20250507/e99b4c9daeae978b2c896a1670a27dd28f84bab6b825ae551019759aa6de1d7e/AdobeAIR.exe"
+}
