@@ -1,0 +1,13 @@
+{
+	"name": "flash-player-34.0.0.330-mac-npapi-cn",
+	"file": "install_flash_player_osx.dmg",
+	"size": 10842249,
+	"sha256tree": "ca271444d32df34a48ec6312e6c54756112380e0ec54dc39cac751f0941adbb1",
+	"sha256": "0ca385242ea26bc5c8132aeb3b2cff3c5a06b7d944a2a66cb32d13c6e822c96c",
+	"sha1": "0f566cbb4cb0b4e600778eac6e66973e020a467e",
+	"md5": "69a44e1d62bd651d838d18c0bfc2b745",
+	"source": "https://archive.org/download/flash-player-34.0.0.330-20250611/0ca385242ea26bc5c8132aeb3b2cff3c5a06b7d944a2a66cb32d13c6e822c96c/install_flash_player_osx.dmg",
+	"metadata": {
+		"date": "2025-06-10"
+	}
+}
