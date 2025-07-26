@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import {retry} from '../util/util.mjs';
-import {queue} from '../util/queue.mjs';
+import {retry} from '../util/util.js';
+import {queue} from '../util/queue.js';
 
 // https://www.adobe.com/products/shockwaveplayer/shwv_distribution3.html
 const resources = [

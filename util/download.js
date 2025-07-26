@@ -2,8 +2,8 @@ import {createWriteStream} from 'node:fs';
 import {Readable} from 'node:stream';
 import {pipeline} from 'node:stream/promises';
 
-import {retry} from './util.mjs';
-import {Counter} from './stream.mjs';
+import {retry} from './util.js';
+import {Counter} from './stream.js';
 
 export async function download(output, url, opts = {}) {
 	const response = await retry(() =>

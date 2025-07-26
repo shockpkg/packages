@@ -1,15 +1,10 @@
 #!/usr/bin/env node
 
-import {createHash} from 'node:crypto';
-import {Readable} from 'node:stream';
-import {pipeline} from 'node:stream/promises';
-
-import {read as packaged} from '../util/packages.mjs';
-import {Hasher, Void} from '../util/stream.mjs';
-import {retry} from '../util/util.mjs';
-import {queue} from '../util/queue.mjs';
-import {getUserAgent} from '../util/ff.mjs';
-import {runtimes} from '../util/harun.mjs';
+import {read as packaged} from '../util/packages.js';
+import {retry} from '../util/util.js';
+import {queue} from '../util/queue.js';
+import {getUserAgent} from '../util/ff.js';
+import {sdks, list} from '../util/hasdk.js';
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -18,50 +13,56 @@ async function main() {
 	console.log(`Threads: ${threads}`);
 
 	const packages = await packaged();
-	const byName = new Map(packages.map(p => [p.name, p]));
+	const named = new Map(packages.map(p => [p.name, p]));
 	const userAgent = await getUserAgent();
-	const resources = await runtimes(userAgent);
+	const resources = await sdks(userAgent);
+	const releases = await list(userAgent);
+
+	const all = [...resources];
+	{
+		const named = new Set(all.map(p => p.name));
+		for (const release of releases) {
+			if (!named.has(release.name)) {
+				all.push(release);
+			}
+		}
+	}
 
 	const each = async resource => {
-		const {name, source, sha256, headers} = resource;
+		const {name, source, url, headers} = resource;
 
-		const pkg = byName.get(name);
-		if (!pkg) {
+		const expected = named.get(name);
+		if (!expected) {
 			throw new Error(`Unknown name: ${name}`);
 		}
 
-		if (sha256 !== pkg.sha256) {
-			throw new Error(`Different sha256: ${sha256} != ${pkg.sha256}`);
+		if (!url) {
+			return;
 		}
 
 		const response = await retry(() =>
-			fetch(source, {
+			fetch(url, {
+				method: 'HEAD',
 				headers
 			})
 		);
 
-		const {status, body} = response;
+		const {status} = response;
 		if (status !== 200) {
 			throw new Error(`Status code: ${status}: ${source}`);
 		}
 
-		const hashSha256 = createHash('sha256');
-		await pipeline(
-			Readable.fromWeb(body),
-			new Hasher([hashSha256]),
-			new Void()
-		);
-
-		const bodySha256 = hashSha256.digest('hex');
-		if (bodySha256 !== sha256) {
-			throw new Error(`Body sha256: ${bodySha256} !== ${sha256}`);
+		const size = +response.headers.get('content-length');
+		const sized = expected.size;
+		if (size !== sized) {
+			throw new Error(`Unexpected size: ${size} != ${sized}`);
 		}
 	};
 
 	const passed = [];
 	const failed = [];
 	await queue(
-		resources,
+		all,
 		async resource => {
 			console.log(`${resource.name}: Check: ${resource.source}`);
 

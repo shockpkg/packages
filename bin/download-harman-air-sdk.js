@@ -8,22 +8,22 @@ import {dirname, join as pathJoin} from 'node:path';
 import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
 
-import {directory, read as packaged} from '../util/packages.mjs';
-import {download} from '../util/download.mjs';
-import {Sha256tree} from '../util/sha256tree.mjs';
-import {Hasher, Counter, Void} from '../util/stream.mjs';
-import {queue} from '../util/queue.mjs';
+import {directory, read as packaged} from '../util/packages.js';
+import {download} from '../util/download.js';
+import {Sha256tree} from '../util/sha256tree.js';
+import {Hasher, Counter, Void} from '../util/stream.js';
+import {queue} from '../util/queue.js';
 import {
 	groupPath,
 	createFileUrl,
 	groupFilesCaching,
 	findGroup
-} from '../util/ia.mjs';
-import {Progress} from '../util/tui.mjs';
-import {yyyymmdd} from '../util/util.mjs';
-import {getUserAgent} from '../util/ff.mjs';
-import {sdks} from '../util/hasdk.mjs';
-import {backup} from '../util/backup.mjs';
+} from '../util/ia.js';
+import {Progress} from '../util/tui.js';
+import {yyyymmdd} from '../util/util.js';
+import {getUserAgent} from '../util/ff.js';
+import {sdks} from '../util/hasdk.js';
+import {backup} from '../util/backup.js';
 
 async function main() {
 	// eslint-disable-next-line no-process-env

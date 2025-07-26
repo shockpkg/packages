@@ -3,8 +3,8 @@
 import {equal, match, ok} from 'node:assert/strict';
 import {basename} from 'node:path';
 
-import {read as packaged} from '../util/packages.mjs';
-import {walk} from '../util/util.mjs';
+import {read as packaged} from '../util/packages.js';
+import {walk} from '../util/util.js';
 
 async function properties(packages) {
 	const validatorsRoot = {

@@ -1,6 +1,6 @@
 import {JSDOM} from 'jsdom';
 
-import {retry} from './util.mjs';
+import {retry} from './util.js';
 
 const ids = [
 	['npapi', 'windows-npapi'],

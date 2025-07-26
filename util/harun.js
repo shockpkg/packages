@@ -1,6 +1,6 @@
 import {JSDOM} from 'jsdom';
 
-import {retry} from './util.mjs';
+import {retry} from './util.js';
 
 const runtimeUrl = 'https://airsdk.harman.com/runtime';
 const runtimeFileBase = 'https://airsdk.harman.com/assets/downloads';

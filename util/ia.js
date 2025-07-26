@@ -1,4 +1,4 @@
-import {retry} from './util.mjs';
+import {retry} from './util.js';
 
 const regSha256 = /^[\da-f]{64}$/i;
 

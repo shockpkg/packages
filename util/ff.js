@@ -1,4 +1,4 @@
-import {retry} from './util.mjs';
+import {retry} from './util.js';
 
 export async function getUserAgent() {
 	const url = 'https://product-details.mozilla.org/1.0/firefox_versions.json';

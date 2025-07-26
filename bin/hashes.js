@@ -4,9 +4,9 @@ import {createReadStream} from 'node:fs';
 import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
 
-import {Crc64xz} from '../util/crc64xz.mjs';
-import {Sha256tree} from '../util/sha256tree.mjs';
-import {Hasher, Void} from '../util/stream.mjs';
+import {Crc64xz} from '../util/crc64xz.js';
+import {Sha256tree} from '../util/sha256tree.js';
+import {Hasher, Void} from '../util/stream.js';
 
 async function main() {
 	const args = process.argv.slice(2);

@@ -1,4 +1,4 @@
-import {retry} from './util.mjs';
+import {retry} from './util.js';
 
 const dcUrl = 'https://airsdk.harman.com/download';
 const dcApi = 'https://airsdk.harman.com/api/config-settings/download';

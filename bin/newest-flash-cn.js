@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-import {read as packaged} from '../util/packages.mjs';
-import {retry, walk} from '../util/util.mjs';
-import {queue} from '../util/queue.mjs';
-import {getUserAgent} from '../util/ff.mjs';
-import {downloads} from '../util/flcn.mjs';
+import {read as packaged} from '../util/packages.js';
+import {retry, walk} from '../util/util.js';
+import {queue} from '../util/queue.js';
+import {getUserAgent} from '../util/ff.js';
+import {downloads} from '../util/flcn.js';
 
 async function main() {
 	// eslint-disable-next-line no-process-env

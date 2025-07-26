@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import {read as packaged} from '../util/packages.mjs';
-import {groupFilesCaching, parsePackageUrl} from '../util/ia.mjs';
-import {retry} from '../util/util.mjs';
+import {read as packaged} from '../util/packages.js';
+import {groupFilesCaching, parsePackageUrl} from '../util/ia.js';
+import {retry} from '../util/util.js';
 
 async function main() {
 	// eslint-disable-next-line no-process-env

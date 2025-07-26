@@ -251,10 +251,10 @@ export default [
 		}
 	},
 	{
-		files: ['**/*.js', '**/*.jsx', '**/*.mjs', '**/*.mjsx']
+		files: ['**/*.js', '**/*.jsx']
 	},
 	{
-		files: ['bin/*.js', 'bin/*.jsx', 'bin/*.mjs', 'bin/*.mjsx'],
+		files: ['bin/*.js', 'bin/*.jsx'],
 		languageOptions: {
 			globals: {
 				console: 'readonly',

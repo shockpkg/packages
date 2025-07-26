@@ -3,7 +3,7 @@
 import {mkdir, writeFile} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';
 
-import {read as packaged} from '../util/packages.mjs';
+import {read as packaged} from '../util/packages.js';
 
 const dist = 'dist';
 const file = 'packages.json';

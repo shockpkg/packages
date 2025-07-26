@@ -2,8 +2,8 @@ import {readFile, readdir} from 'node:fs/promises';
 import {basename, dirname, join as pathJoin} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
-import {walk} from './util.mjs';
-import {humanTokens} from './compare.mjs';
+import {walk} from './util.js';
+import {humanTokens} from './compare.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
