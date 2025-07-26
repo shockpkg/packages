@@ -223,6 +223,7 @@ export default [
 			'unicorn/import-style': 'off',
 			'unicorn/no-anonymous-default-export': 'off',
 			'unicorn/no-array-callback-reference': 'off',
+			'unicorn/no-array-reverse': 'off',
 			'unicorn/no-await-expression-member': 'off',
 			'unicorn/no-hex-escape': 'off',
 			'unicorn/no-null': 'off',
