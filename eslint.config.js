@@ -5,7 +5,7 @@ import prettier from 'eslint-config-prettier';
 
 export default [
 	eslint.configs.recommended,
-	unicorn.configs['flat/recommended'],
+	unicorn.configs['recommended'],
 	{
 		plugins: {
 			'@stylistic': stylistic
