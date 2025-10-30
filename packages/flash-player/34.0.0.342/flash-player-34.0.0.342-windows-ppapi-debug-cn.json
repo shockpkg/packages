@@ -1,0 +1,13 @@
+{
+	"name": "flash-player-34.0.0.342-windows-ppapi-debug-cn",
+	"file": "install_flash_player_debug_ppapi_cn.exe",
+	"size": 12439016,
+	"sha256tree": "cbcf87316d81a4d658efc6f39ebc28e6f1d149701bd5ba09a20a6fca04cafd54",
+	"sha256": "91c0455e5af3a4cfed34f5d6925bd0444333355e3c142fb62be556cf6d74240e",
+	"sha1": "cc037d1d948b42495f692c35c6dd99db07419a9e",
+	"md5": "842a9fee37c4e8c5481dd7a51787871e",
+	"source": "https://archive.org/download/flash-player-34.0.0.342-20251029/91c0455e5af3a4cfed34f5d6925bd0444333355e3c142fb62be556cf6d74240e/install_flash_player_debug_ppapi_cn.exe",
+	"metadata": {
+		"date": "2025-10-29"
+	}
+}
