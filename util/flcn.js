@@ -35,7 +35,7 @@ const dupes = new Map([
 function parseJsonP(jsonp) {
 	const m = jsonp.match(/^\s*[\w$]+\s*\((.+)\)\s*;?\s*$/im);
 	if (!m) {
-		throw new Error('Invalid JOSNP');
+		throw new Error('Invalid JSONP');
 	}
 	return JSON.parse(m[1]);
 }
