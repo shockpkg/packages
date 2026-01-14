@@ -224,6 +224,7 @@ export default [
 			'unicorn/no-anonymous-default-export': 'off',
 			'unicorn/no-array-callback-reference': 'off',
 			'unicorn/no-array-reverse': 'off',
+			'unicorn/no-array-sort': 'off',
 			'unicorn/no-await-expression-member': 'off',
 			'unicorn/no-hex-escape': 'off',
 			'unicorn/no-null': 'off',
