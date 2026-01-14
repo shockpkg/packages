@@ -4,11 +4,11 @@ import {retry} from './util.js';
 
 const ids = [
 	['npapi', 'windows-npapi'],
-	['/cdm/latest/flashplayer_install_cn_debug.exe', 'windows-npapi-debug'],
+	// ['windows-npapi-debug', 'windows-npapi-debug'],
 	['ppapi', 'windows-ppapi'],
-	['/cdm/latest/flashplayerpp_install_cn_debug.exe', 'windows-ppapi-debug'],
+	// ['windows-ppapi-debug', 'windows-ppapi-debug'],
 	['activex', 'windows-activex'],
-	['/cdm/latest/flashplayerax_install_cn_debug.exe', 'windows-activex-debug'],
+	// ['windows-activex-debug', 'windows-activex-debug'],
 	['mac-npapi', 'mac-npapi'],
 	['mac-ppapi', 'mac-ppapi'],
 	['/cdm/latest/flashplayer_sa.exe', 'windows-sa'],
@@ -31,6 +31,14 @@ const dupes = new Map([
 	// The pp_ax installer gets same installers from pp and ax.
 	['pp_ax', ['activex', 'ppapi']]
 ]);
+const ignore = new Set([
+	'/cdm/latest/flashplayerax_install_cn_debug.exe',
+	'/cdm/latest/flashplayer_install_cn_debug.exe',
+	'/cdm/latest/flashplayerpp_install_cn_debug.exe'
+]);
+const rWebInstaller =
+	// eslint-disable-next-line max-len
+	/^(.*)\/cdm\/(latest|webplayer)\/flashplayer(.*)_install_cn_(web|debug)\.exe/;
 
 function parseJsonP(jsonp) {
 	const m = jsonp.match(/^\s*[\w$]+\s*\((.+)\)\s*;?\s*$/im);
@@ -48,10 +56,7 @@ function parseJsonV(jsonv) {
 function getSource(downloadUrl, version) {
 	const url = downloadUrl;
 	let r = url;
-	const m = url.match(
-		// eslint-disable-next-line max-len
-		/^(.*)\/cdm\/(latest|webplayer)\/flashplayer(.*)_install_cn_(web|debug)\.exe/
-	);
+	const m = url.match(rWebInstaller);
 	if (m) {
 		const [, base, , , kind] = m;
 		let [, , , type] = m;
@@ -208,6 +213,9 @@ async function listDebug(userAgent) {
 	const r = [];
 	const ids = new Set();
 	for (const u of hrefs) {
+		if (ignore.has(u.pathname)) {
+			continue;
+		}
 		const source = getSource(u.href, version);
 		const file = urlFile(source);
 		const id = u.pathname;
