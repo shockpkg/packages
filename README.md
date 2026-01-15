@@ -12,6 +12,6 @@ Updated packages are typically found by daily testing in a cron script.
 
 # License
 
-Copyright (c) 2018-2025 JrMasterModelBuilder
+Copyright (c) 2018-2026 JrMasterModelBuilder
 
 Licensed under the Mozilla Public License, v. 2.0.
