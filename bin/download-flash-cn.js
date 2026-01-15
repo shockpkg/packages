@@ -2,19 +2,18 @@
 
 /* eslint-disable max-classes-per-file */
 
-import {createReadStream} from 'node:fs';
+import {createReadStream, createWriteStream} from 'node:fs';
 import {mkdir, rename, stat, writeFile} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';
+import {Readable} from 'node:stream';
 import {pipeline} from 'node:stream/promises';
 import {createHash} from 'node:crypto';
 
 import {directory, read as packaged} from '../util/packages.js';
 import {walk, yyyymmdd} from '../util/util.js';
 import {queue} from '../util/queue.js';
-import {download} from '../util/download.js';
 import {Sha256tree} from '../util/sha256tree.js';
 import {Hasher, Counter, Void} from '../util/stream.js';
-import {Crc64xz} from '../util/crc64xz.js';
 import {
 	createFileUrl,
 	groupFilesCaching,
@@ -59,7 +58,7 @@ async function main() {
 	}));
 
 	const each = async resource => {
-		const {name, source, referer, file, mimetype} = resource.info;
+		const {name, file} = resource.info;
 		const fileDir = pathJoin(outdir, name);
 		const filePath = pathJoin(fileDir, file);
 		const filePart = `${filePath}.part`;
@@ -87,36 +86,16 @@ async function main() {
 				new Void()
 			);
 		} else {
-			const hashCrc64xz = new Crc64xz();
-			let crc64xz = null;
 			await mkdir(fileDir, {recursive: true});
-			await download(filePart, `${source}?_=${Date.now()}`, {
-				headers: {
-					...userAgent.headers,
-					Referer: referer
-				},
-				transforms: [new Hasher([hashCrc64xz]), hasher],
-				response(response) {
-					// Wrong name, common mistake.
-					crc64xz = response.headers.get('x-cos-hash-crc64ecma');
-					const ct = response.headers.get('content-type');
-					if (ct !== mimetype) {
-						throw new Error(
-							`Mimetype: ${ct} != ${mimetype}: ${source}`
-						);
-					}
-				},
-				progress({size, total}) {
+			const {size: total, stream} = await resource.info.download();
+			await pipeline(
+				Readable.fromWeb(stream),
+				hasher,
+				new Counter(size => {
 					resource.progress = size / total;
-				}
-			});
-
-			// Validate crc64 hash header.
-			const crc64 = hashCrc64xz.digest().readBigUint64BE().toString();
-			if (crc64 !== crc64xz) {
-				throw new Error(`CRC64 header: ${crc64} !== ${crc64xz}`);
-			}
-
+				}),
+				createWriteStream(filePart)
+			);
 			st = await stat(filePart);
 			await rename(filePart, filePath);
 		}

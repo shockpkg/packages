@@ -1,83 +1,149 @@
+import {createHash} from 'node:crypto';
+
+import CRC64 from '@hqtsm/crc/crc-64/xz';
 import {JSDOM} from 'jsdom';
 
 import {retry} from './util.js';
 
-const ids = [
-	['npapi', 'windows-npapi'],
-	// ['windows-npapi-debug', 'windows-npapi-debug'],
-	['ppapi', 'windows-ppapi'],
-	// ['windows-ppapi-debug', 'windows-ppapi-debug'],
-	['activex', 'windows-activex'],
-	// ['windows-activex-debug', 'windows-activex-debug'],
-	['mac-npapi', 'mac-npapi'],
-	['mac-ppapi', 'mac-ppapi'],
-	['/cdm/latest/flashplayer_sa.exe', 'windows-sa'],
-	['/cdm/latest/flashplayer_sa_debug.exe', 'windows-sa-debug'],
-	['linux-32-tar-npapi', 'linux-i386-npapi'],
-	['linux-32-rpm-npapi', 'linux-i386-npapi-rpm'],
-	['linux-32-tar-ppapi', 'linux-i386-ppapi'],
-	['linux-32-rpm-ppapi', 'linux-i386-ppapi-rpm'],
-	['linux-64-tar-npapi', 'linux-x86_64-npapi'],
-	['linux-64-rpm-npapi', 'linux-x86_64-npapi-rpm'],
-	['linux-64-tar-ppapi', 'linux-x86_64-ppapi'],
-	['linux-64-rpm-ppapi', 'linux-x86_64-ppapi-rpm'],
-	['/cdm/latest/playerglobal.swc', 'playerglobal']
-];
-const idIndex = new Map(ids.map((v, i) => [v[0], i]));
-const idDebug = new Map(ids.filter(a => a[0].includes('/')));
-const idRelease = new Map(ids.filter(a => !idDebug.has(a[0])));
+const release = new Map([
+	[
+		'npapi',
+		{
+			type: 'windows-npapi',
+			cdm: 'https://www.flash.cn/cdm/en/flashplayer.xml'
+		}
+	],
+	[
+		'ppapi',
+		{
+			type: 'windows-ppapi',
+			cdm: 'https://www.flash.cn/cdm/en/flashplayerpp.xml'
+		}
+	],
+	[
+		'activex',
+		{
+			type: 'windows-activex',
+			cdm: 'https://www.flash.cn/cdm/en/flashplayerax.xml'
+		}
+	],
+	[
+		'mac-npapi',
+		{
+			type: 'mac-npapi'
+		}
+	],
+	[
+		'mac-ppapi',
+		{
+			type: 'mac-ppapi'
+		}
+	],
+	[
+		'linux-32-tar-npapi',
+		{
+			type: 'linux-i386-npapi'
+		}
+	],
+	[
+		'linux-32-rpm-npapi',
+		{
+			type: 'linux-i386-npapi-rpm'
+		}
+	],
+	[
+		'linux-32-tar-ppapi',
+		{
+			type: 'linux-i386-ppapi'
+		}
+	],
+	[
+		'linux-32-rpm-ppapi',
+		{
+			type: 'linux-i386-ppapi-rpm'
+		}
+	],
+	[
+		'linux-64-tar-npapi',
+		{
+			type: 'linux-x86_64-npapi'
+		}
+	],
+	[
+		'linux-64-rpm-npapi',
+		{
+			type: 'linux-x86_64-npapi-rpm'
+		}
+	],
+	[
+		'linux-64-tar-ppapi',
+		{
+			type: 'linux-x86_64-ppapi'
+		}
+	],
+	[
+		'linux-64-rpm-ppapi',
+		{
+			type: 'linux-x86_64-ppapi-rpm'
+		}
+	]
+]);
+
+const debug = new Map([
+	[
+		'/cdm/latest/flashplayer_install_cn_debug.exe',
+		{
+			type: 'windows-npapi-debug',
+			cdm: 'https://www.flash.cn/cdm/en/flashplayerdebug.xml'
+		}
+	],
+	[
+		'/cdm/latest/flashplayerpp_install_cn_debug.exe',
+		{
+			type: 'windows-ppapi-debug',
+			cdm: 'https://www.flash.cn/cdm/en/flashplayerppdebug.xml'
+		}
+	],
+	[
+		'/cdm/latest/flashplayerax_install_cn_debug.exe',
+		{
+			type: 'windows-activex-debug',
+			cdm: 'https://www.flash.cn/cdm/en/flashplayeraxdebug.xml'
+		}
+	],
+	[
+		'/cdm/latest/flashplayer_sa.exe',
+		{
+			type: 'windows-sa'
+		}
+	],
+	[
+		'/cdm/latest/flashplayer_sa_debug.exe',
+		{
+			type: 'windows-sa-debug'
+		}
+	],
+	[
+		'/cdm/latest/playerglobal.swc',
+		{
+			type: 'playerglobal'
+		}
+	]
+]);
 
 const dupes = new Map([
 	// The pp_ax installer gets same installers from pp and ax.
 	['pp_ax', ['activex', 'ppapi']]
 ]);
-const ignore = new Set([
-	'/cdm/latest/flashplayerax_install_cn_debug.exe',
-	'/cdm/latest/flashplayer_install_cn_debug.exe',
-	'/cdm/latest/flashplayerpp_install_cn_debug.exe'
-]);
-const rWebInstaller =
-	// eslint-disable-next-line max-len
-	/^(.*)\/cdm\/(latest|webplayer)\/flashplayer(.*)_install_cn_(web|debug)\.exe/;
 
-function parseJsonP(jsonp) {
-	const m = jsonp.match(/^\s*[\w$]+\s*\((.+)\)\s*;?\s*$/im);
-	if (!m) {
-		throw new Error('Invalid JSONP');
-	}
-	return JSON.parse(m[1]);
-}
+const aamHeaders = {
+	'Cache-Control': 'no-cache',
+	Pragma: 'no-cache',
+	Referer: 'Adobe.referer',
+	'User-Agent': 'Adobe Application Manager 2.0'
+};
 
-function parseJsonV(jsonv) {
-	const json = jsonv.slice(jsonv.indexOf('{'), jsonv.lastIndexOf('}') + 1);
-	return JSON.parse(json);
-}
-
-function getSource(downloadUrl, version) {
-	const url = downloadUrl;
-	let r = url;
-	const m = url.match(rWebInstaller);
-	if (m) {
-		const [, base, , , kind] = m;
-		let [, , , type] = m;
-		if (type) {
-			if (type !== 'ax') {
-				type += 'api';
-			}
-			type += '_';
-		}
-		const s = kind === 'debug' ? `_${kind}` : '';
-		const v = version.replaceAll('.', '');
-		r = `${base}/flashplayer/${v}/install_flash_player${s}_${type}cn.exe`;
-	}
-	if (
-		/web/i.test(r) ||
-		(/latest.*debug\.exe$/i.test(r) && !/flashplayer_sa/i.test(r))
-	) {
-		throw new Error(`Unresolved web installer: ${url}`);
-	}
-	return r;
-}
+const algorithms = new Map([['TYPE1', 'sha256']]);
 
 function urlFile(url) {
 	return decodeURIComponent(url.split(/[#?]/)[0].split('/').pop());
@@ -92,22 +158,333 @@ function dateNorm(date) {
 }
 
 function mimetype(file) {
-	if (/\.exe/i.test(file)) {
+	if (/\.exe$/i.test(file)) {
 		return 'application/x-msdownload';
 	}
-	if (/\.dmg/i.test(file)) {
+	if (/\.dmg$/i.test(file)) {
 		return 'application/x-apple-diskimage';
 	}
-	if (/\.rpm/i.test(file)) {
+	if (/\.rpm$/i.test(file)) {
 		return 'application/octet-stream';
 	}
-	if (/\.tar\.gz/i.test(file)) {
+	if (/\.tar\.gz$/i.test(file)) {
 		return 'application/octet-stream';
 	}
-	if (/\.swc/i.test(file)) {
+	if (/\.swc$/i.test(file)) {
 		return 'application/octet-stream';
 	}
 	return null;
+}
+
+function parseJsonP(jsonp) {
+	const m = jsonp.match(/^\s*[\w$]+\s*\((.+)\)\s*;?\s*$/im);
+	if (!m) {
+		throw new Error('Invalid JSONP');
+	}
+	return JSON.parse(m[1]);
+}
+
+function parseJsonV(jsonv) {
+	const json = jsonv.slice(jsonv.indexOf('{'), jsonv.lastIndexOf('}') + 1);
+	return JSON.parse(json);
+}
+
+async function downloadCDM({
+	head,
+	assetPath,
+	size,
+	partSize,
+	partCount,
+	lastPartSize,
+	hashes,
+	algo
+}) {
+	const res = await retry(() =>
+		fetch(assetPath, {
+			method: head ? 'HEAD' : 'GET',
+			headers: aamHeaders
+		})
+	);
+	if (res.status !== 200) {
+		throw new Error(`Status code: ${res.status}: ${assetPath}`);
+	}
+
+	let total = 0;
+	let partC = 0;
+	let partI = 0;
+	let reader;
+	const hash = data => createHash(algo).update(data).digest('hex');
+	const part = new Uint8Array(partSize);
+	return {
+		size,
+		stream: new ReadableStream({
+			async pull(controller) {
+				reader ??= res.body.getReader();
+				const {value, done} = await reader.read();
+				if (value) {
+					total += value.length;
+					if (total > size) {
+						throw new Error(
+							`Bad size: ${total} > ${size}: ${assetPath}`
+						);
+					}
+
+					for (let d, v = value; v.length; v = v.slice(d.length)) {
+						d = v.slice(0, partSize - partI);
+						part.set(d, partI);
+						partI += d.length;
+						const last = partC + 1 === partCount;
+						const partEnd = last ? lastPartSize : partSize;
+						if (partI !== partEnd) {
+							continue;
+						}
+
+						const e = hashes[partC];
+						const h = hash(part.slice(0, partEnd));
+						if (e.toLowerCase() !== h.toLowerCase()) {
+							const u = assetPath;
+							throw new Error(
+								`Bad chunk [${partC}]: ${h} != ${e}: ${u}`
+							);
+						}
+						partC++;
+						partI = 0;
+					}
+
+					controller.enqueue(value);
+				}
+				if (done) {
+					if (total !== size) {
+						throw new Error(
+							`Bad size: ${total} != ${size}: ${assetPath}`
+						);
+					}
+					controller.close();
+				}
+			}
+		})
+	};
+}
+
+async function fetchCDM(type, cdm, date) {
+	const res = await retry(() =>
+		fetch(cdm, {
+			headers: aamHeaders
+		})
+	);
+	if (res.status !== 200) {
+		throw new Error(`Status code: ${res.status}: ${cdm}`);
+	}
+
+	const xml = await res.text();
+	const {DOMParser} = new JSDOM('').window;
+	const doc = new DOMParser().parseFromString(xml, 'text/xml');
+	const manifests = new Map();
+
+	for (const pkg of doc.querySelectorAll(
+		'application:root > packages > package'
+	)) {
+		const title = pkg.querySelector(':scope > title')?.textContent;
+		if (title !== 'Adobe Flash Player') {
+			throw new Error(`Unexpected title: ${title}: ${cdm}`);
+		}
+		const version = pkg.querySelector(':scope > version')?.textContent;
+		if (!version) {
+			throw new Error(`Missing version: ${cdm}`);
+		}
+		const manifestUrl = pkg.querySelector(
+			':scope > actions > download > manifestUrl'
+		)?.textContent;
+		if (!manifestUrl) {
+			throw new Error(`Missing manifestUrl: ${cdm}`);
+		}
+		manifests.set(manifestUrl, version);
+	}
+
+	return Promise.all(
+		[...manifests].map(async ([url, version]) => {
+			const res = await retry(() =>
+				fetch(url, {
+					headers: aamHeaders
+				})
+			);
+			if (res.status !== 200) {
+				throw new Error(`Status code: ${res.status}: ${url}`);
+			}
+			const xml = await res.text();
+			const doc = new DOMParser().parseFromString(xml, 'text/xml');
+			const assetSize = doc.querySelector(
+				'manifest:scope > assetSize'
+			)?.textContent;
+			const size = +assetSize;
+			if (!Number.isInteger(size) || size < 0) {
+				throw new Error(`Invalid assetSize: ${assetSize}: ${url}`);
+			}
+			const assetPath = doc.querySelector(
+				'manifest:scope > assetPath'
+			)?.textContent;
+			if (!assetPath) {
+				throw new Error(`Missing assetPath: ${url}`);
+			}
+
+			const validationInfo = doc.querySelector(
+				'manifest:scope > validationInfo'
+			);
+			if (!validationInfo) {
+				throw new Error(`Missing validationInfo: ${url}`);
+			}
+			const segmentSize = validationInfo.querySelector(
+				':scope > segmentSize'
+			)?.textContent;
+			const partSize = +segmentSize;
+			if (!partSize || partSize < 0) {
+				throw new Error(`Invalid segmentSize: ${segmentSize}: ${url}`);
+			}
+			const segmentCount = validationInfo.querySelector(
+				':scope > segmentCount'
+			)?.textContent;
+			const partCount = +segmentCount;
+			if (!partCount || partCount < 0) {
+				throw new Error(
+					`Invalid segmentCount: ${segmentCount}: ${url}`
+				);
+			}
+			const lastSegmentSize = validationInfo.querySelector(
+				':scope > lastSegmentSize'
+			)?.textContent;
+			const lastPartSize = +lastSegmentSize;
+			if (lastPartSize && lastPartSize < 0) {
+				throw new Error(
+					`Invalid lastSegmentSize: ${lastSegmentSize}: ${url}`
+				);
+			}
+			const algorithm =
+				validationInfo.querySelector(':scope > algorithm')?.textContent;
+			const algo = algorithms.get(algorithm);
+			if (!algo) {
+				throw new Error(`Invalid algorithm: ${url}`);
+			}
+
+			const segments = validationInfo.querySelectorAll(
+				':scope > segments > segment'
+			);
+			if (segments.length !== partCount) {
+				throw new Error(
+					`Invalid segments: ${segments.length}/${partCount}: ${url}`
+				);
+			}
+			const hashes = [];
+			for (const seg of segments) {
+				const segmentNumber = seg.getAttribute('segmentNumber');
+				const i = +segmentNumber;
+				if (!Number.isInteger(i) || i < 0 || i >= partCount) {
+					throw new Error(
+						`Invalid segmentNumber: ${segmentNumber}: ${url}`
+					);
+				}
+				const hash = seg.textContent;
+				if (!hash) {
+					throw new Error(`Missing segment [${i}] hash: ${url}`);
+				}
+				if (hashes[i]) {
+					throw new Error(`Duplicate segment [${i}] hash: ${url}`);
+				}
+				hashes[i] = hash;
+			}
+
+			const file = urlFile(assetPath);
+			if (!file) {
+				throw new Error(`Bad file name: ${assetPath}: ${url}`);
+			}
+
+			return {
+				name: `flash-player-${version}-${type}-cn`,
+				file,
+				size,
+				date,
+				version,
+				group: ['flash-player', version],
+				async download(head = false) {
+					return downloadCDM({
+						head,
+						assetPath,
+						size,
+						partSize,
+						partCount,
+						lastPartSize,
+						hashes,
+						algo
+					});
+				}
+			};
+		})
+	);
+}
+
+async function downloadDirect({head, source, userAgent, referer, mime}) {
+	const url = `${source}?_=${Date.now()}`;
+	const res = await retry(() =>
+		fetch(url, {
+			method: head ? 'HEAD' : 'GET',
+			headers: {
+				...userAgent.headers,
+				Referer: referer
+			}
+		})
+	);
+	if (res.status !== 200) {
+		throw new Error(`Status code: ${res.status}: ${url}`);
+	}
+
+	const ct = res.headers.get('content-type');
+	if (ct !== mime) {
+		throw new Error(`Invalid content-type: ${ct} != ${mime}: ${url}`);
+	}
+
+	const cl = res.headers.get('content-length');
+	const size = +cl;
+	if (!Number.isInteger(size) || size < 0) {
+		throw new Error(`Invalid content-length: ${cl}: ${url}`);
+	}
+
+	// Wrong name, common mistake.
+	const crc64xz = res.headers.get('x-cos-hash-crc64ecma');
+
+	let total = 0;
+	let crc;
+	let reader;
+	return {
+		size,
+		stream: new ReadableStream({
+			async pull(controller) {
+				crc ??= CRC64.init();
+				reader ??= res.body.getReader();
+				const {value, done} = await reader.read();
+				if (value) {
+					total += value.length;
+					if (total > size) {
+						throw new Error(`Bad size: ${total} > ${size}: ${url}`);
+					}
+					crc = CRC64.update(crc, value);
+					controller.enqueue(value);
+				}
+				if (done) {
+					if (total !== size) {
+						throw new Error(
+							`Bad size: ${total} != ${size}: ${url}`
+						);
+					}
+					crc = CRC64.finalize(crc);
+					if (crc64xz !== crc.toString()) {
+						throw new Error(
+							`Bad crc64xz: ${crc64xz} != ${crc}: ${url}`
+						);
+					}
+					controller.close();
+				}
+			}
+		})
+	};
 }
 
 async function listRelease(userAgent) {
@@ -127,9 +504,28 @@ async function listRelease(userAgent) {
 
 	const versions = parseJsonP(await jsRes.text());
 	const r = [];
+	const cdms = [];
 	const ids = new Set();
 	for (const [id, info] of Object.entries(versions)) {
 		if (id.startsWith('fc-') || dupes.has(id)) {
+			continue;
+		}
+
+		const rel = release.get(id);
+		if (!rel) {
+			throw new Error(`Unknown id: ${id}`);
+		}
+
+		const {version} = info;
+		const date = dateNorm(info.date);
+		const {type, cdm} = rel;
+		if (cdm) {
+			cdms.push({
+				id,
+				type,
+				cdm,
+				date
+			});
 			continue;
 		}
 
@@ -141,31 +537,39 @@ async function listRelease(userAgent) {
 		// 	throw new Error(`Unexpected Win8 URL: ${info.downloadURLForWin8}`);
 		// }
 
-		const {version} = info;
-		const source = getSource(info.downloadURL, version);
+		const source = info.downloadURL;
 		const file = urlFile(source);
-		const type = idRelease.get(id);
-		if (!type) {
-			throw new Error(`Unknown id: ${id}`);
-		}
-
 		r.push({
 			name: `flash-player-${info.version}-${type}-cn`,
 			file,
-			source,
-			referer: htmlUrl,
-			list: 'release',
-			id,
-			date: dateNorm(info.date),
-			version,
 			size: info.size,
-			mimetype: mimetype(file),
-			group: ['flash-player', version]
+			date,
+			version,
+			group: ['flash-player', version],
+			async download(head = false) {
+				return downloadDirect({
+					head,
+					source,
+					userAgent,
+					referer: htmlUrl,
+					mime: mimetype(file)
+				});
+			}
 		});
 		ids.add(id);
 	}
 
-	const missing = [...idRelease.keys()].filter(s => !ids.has(s));
+	await Promise.all(
+		cdms.map(async ({id, type, cdm, date}) => {
+			const list = await fetchCDM(type, cdm, date);
+			if (list.length) {
+				ids.add(id);
+				r.push(...list);
+			}
+		})
+	);
+
+	const missing = [...release.keys()].filter(s => !ids.has(s));
 	if (missing.length) {
 		throw new Error(`Missing: ${missing.join(',')}`);
 	}
@@ -211,19 +615,28 @@ async function listDebug(userAgent) {
 	const dated = dateNorm(date);
 
 	const r = [];
+	const cdms = [];
 	const ids = new Set();
 	for (const u of hrefs) {
-		if (ignore.has(u.pathname)) {
-			continue;
-		}
-		const source = getSource(u.href, version);
-		const file = urlFile(source);
 		const id = u.pathname;
-		const type = idDebug.get(id);
-		if (!type) {
+		const dbg = debug.get(id);
+		if (!dbg) {
 			throw new Error(`Unknown file: ${u.href}`);
 		}
 
+		const {type, cdm} = dbg;
+		if (cdm) {
+			cdms.push({
+				id,
+				type,
+				cdm,
+				date: dated
+			});
+			continue;
+		}
+
+		const source = u.href;
+		const file = urlFile(source);
 		const family =
 			type === 'playerglobal' ? 'flash-playerglobal' : 'flash-player';
 		const suf = type === 'playerglobal' ? 'cn' : `${type}-cn`;
@@ -234,20 +647,34 @@ async function listDebug(userAgent) {
 		r.push({
 			name: `${family}-${version}-${suf}`,
 			file,
-			source,
-			referer: htmlUrl,
-			list: 'debug',
-			id,
+			size: null,
 			date: dated,
 			version,
-			size: null,
-			mimetype: mimetype(file),
-			group: [family, ver]
+			group: [family, ver],
+			async download(head = false) {
+				return downloadDirect({
+					head,
+					source,
+					userAgent,
+					referer: htmlUrl,
+					mime: mimetype(file)
+				});
+			}
 		});
 		ids.add(id);
 	}
 
-	const missing = [...idDebug.keys()].filter(s => !ids.has(s));
+	await Promise.all(
+		cdms.map(async ({id, type, cdm, date}) => {
+			const list = await fetchCDM(type, cdm, date);
+			if (list.length) {
+				ids.add(id);
+				r.push(...list);
+			}
+		})
+	);
+
+	const missing = [...debug.keys()].filter(s => !ids.has(s));
 	if (missing.length) {
 		throw new Error(`Missing: ${missing.join(',')}`);
 	}
@@ -258,5 +685,15 @@ async function listDebug(userAgent) {
 export async function downloads(userAgent) {
 	return (await Promise.all([listRelease(userAgent), listDebug(userAgent)]))
 		.flat()
-		.sort((a, b) => (idIndex.get(a.id) || 0) - (idIndex.get(b.id) || 0));
+		.sort((a, b) => {
+			a = a.name;
+			b = b.name;
+			if (a < b) {
+				return -1;
+			}
+			if (a > b) {
+				return 1;
+			}
+			return 0;
+		});
 }

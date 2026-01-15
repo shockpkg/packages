@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+import {createHash} from 'node:crypto';
+import {pipeline} from 'node:stream/promises';
+
 import {read as packaged} from '../util/packages.js';
 import {retry, walk} from '../util/util.js';
 import {queue} from '../util/queue.js';
@@ -16,45 +19,54 @@ async function main() {
 	const byName = new Map(
 		[...walk(packages, p => p.packages)].map(([p]) => [p.name, p])
 	);
+	const bySha256 = new Map(
+		[...walk(packages, p => p.packages)].map(([p]) => [p.sha256, p])
+	);
 
 	const userAgent = await getUserAgent();
 	const resources = await downloads(userAgent);
 
 	console.log(`Checking: ${resources.length}`);
 
+	const messages = new Map();
 	const each = async resource => {
-		const {name, source, referer, date} = resource;
+		try {
+			const {name, size, date} = resource;
 
-		const pkg = byName.get(name);
-		const dated = pkg?.metadata?.date;
-		if (!date || !pkg) {
-			throw new Error(`Unknown package: ${name}`);
-		}
+			const pkg = byName.get(name);
+			const dated = pkg?.metadata?.date;
+			if (!date || !pkg) {
+				throw new Error(`Unknown package: ${name}`);
+			}
 
-		if (date !== dated) {
-			throw new Error(`Unexpected date: ${date} != ${dated}`);
-		}
+			if (date !== dated) {
+				throw new Error(`Unexpected date: ${date} != ${dated}`);
+			}
 
-		const url = `${source}?_=${Date.now()}`;
-		const response = await retry(() =>
-			fetch(url, {
-				method: 'HEAD',
-				headers: {
-					...userAgent.headers,
-					Referer: referer
-				}
-			})
-		);
+			let total;
+			if (Number.isInteger(size) && size > 0) {
+				total = size;
+			} else {
+				const {size} = await resource.download(true);
+				total = size;
+			}
 
-		const {status, headers} = response;
-		if (status !== 200) {
-			throw new Error(`Status code: ${status}: ${url}`);
-		}
-
-		const size = +headers.get('content-length');
-		const sized = pkg.size;
-		if (size !== sized) {
-			throw new Error(`Unexpected size: ${size} != ${sized}`);
+			const sized = pkg.size;
+			if (total !== sized) {
+				throw new Error(`Unexpected size: ${size} != ${sized}`);
+			}
+		} catch (err) {
+			// Sometimes older versions remain when newer versions publish.
+			// Check if this variant is already known and ignore if it is.
+			const {stream} = await resource.download();
+			const hashSha256 = createHash('sha256');
+			await pipeline(stream, hashSha256);
+			const sha256 = hashSha256.digest('hex');
+			if (bySha256.has(sha256)) {
+				messages.set(resource, 'Known variant');
+				return;
+			}
+			throw err;
 		}
 	};
 
@@ -63,11 +75,13 @@ async function main() {
 	await queue(
 		resources,
 		async resource => {
-			console.log(`${resource.name}: Check: ${resource.source}`);
+			console.log(`${resource.name}: Check`);
 
 			await retry(() => each(resource))
 				.then(() => {
-					console.log(`${resource.name}: Pass`);
+					let m = messages.get(resource);
+					m = m ? `: ${m}` : '';
+					console.log(`${resource.name}: Pass${m}`);
 					passed.push(resource);
 				})
 				.catch(err => {

@@ -17,6 +17,7 @@ export default [
 				fetch: 'readonly',
 				Buffer: 'readonly',
 				URL: 'readonly',
+				ReadableStream: 'readonly',
 				setInterval: 'readonly',
 				clearInterval: 'readonly'
 			}
