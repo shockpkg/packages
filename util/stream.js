@@ -1,5 +1,3 @@
-/* eslint-disable max-classes-per-file */
-
 import {Transform, Writable} from 'node:stream';
 
 export class Void extends Writable {

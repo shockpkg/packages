@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint-disable max-classes-per-file */
-
 import {createReadStream, createWriteStream} from 'node:fs';
 import {mkdir, rename, stat, writeFile} from 'node:fs/promises';
 import {dirname, join as pathJoin} from 'node:path';

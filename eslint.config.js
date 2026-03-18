@@ -41,7 +41,6 @@ export default [
 			'default-case': 'error',
 			eqeqeq: 'error',
 			'guard-for-in': 'error',
-			'max-classes-per-file': ['error', 1],
 			'no-alert': 'error',
 			'no-caller': 'error',
 			'no-div-regex': 'error',
