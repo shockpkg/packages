@@ -1,0 +1,13 @@
+{
+	"name": "flash-player-34.0.0.376-windows-ppapi-cn",
+	"file": "install_flash_player_ppapi_cn.exe",
+	"size": 12019688,
+	"sha256tree": "04d9dabe80676547e6e1c5668fccae6e359f3b697bc0d63ac2025e5f500286c0",
+	"sha256": "735e2045ee14503545d7a28a0b9f5947e26a23b9b5dec9596a85dbcdb06423ec",
+	"sha1": "ec72ca20b55cbeffd6e413979bb379fdc3755c0c",
+	"md5": "145bd560ff047b79d61c7692d6e3305a",
+	"source": "https://archive.org/download/flash-player-34.0.0.376-20260318/735e2045ee14503545d7a28a0b9f5947e26a23b9b5dec9596a85dbcdb06423ec/install_flash_player_ppapi_cn.exe",
+	"metadata": {
+		"date": "2026-03-17"
+	}
+}
