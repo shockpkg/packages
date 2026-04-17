@@ -18,15 +18,15 @@
 		"build": "node ./bin/build.js"
 	},
 	"dependencies": {
-		"@hqtsm/crc": "^2.0.0",
-		"jsdom": "^29.0.0"
+		"@hqtsm/crc": "^2.1.0",
+		"jsdom": "^29.0.2"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
 		"@stylistic/eslint-plugin": "^5.10.0",
-		"eslint": "^10.0.3",
+		"eslint": "^10.2.0",
 		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-unicorn": "^63.0.0",
-		"prettier": "^3.8.1"
+		"eslint-plugin-unicorn": "^64.0.0",
+		"prettier": "^3.8.3"
 	}
 }
