@@ -72,6 +72,7 @@ async function main() {
 		}
 	};
 
+	const retrys = new Set();
 	const passed = [];
 	const failed = [];
 	await Promise.all(
@@ -92,6 +93,11 @@ async function main() {
 							passed.push(resource);
 						})
 						.catch(err => {
+							if (!retrys.has(resource)) {
+								retrys.add(resource);
+								resources.push(resource);
+								return;
+							}
 							console.log(
 								`${resource.name}: Fail: ${err.message}`
 							);
