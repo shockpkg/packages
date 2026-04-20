@@ -95,6 +95,9 @@ async function main() {
 						.catch(err => {
 							if (!retrys.has(resource)) {
 								retrys.add(resource);
+								console.log(
+									`${resource.name}: Retry: ${err.message}`
+								);
 								resources.push(resource);
 								return;
 							}
