@@ -81,10 +81,9 @@ async function main() {
 			.map(async () => {
 				while (resources.length) {
 					const resource = resources.shift();
+					const {name} = resource;
 
-					console.log(
-						`${resource.name}: ${resource.source}: Checking`
-					);
+					console.log(`${name}: ${resource.source}: Checking`);
 
 					// eslint-disable-next-line no-await-in-loop
 					await retry(() => each(resource))
@@ -95,15 +94,11 @@ async function main() {
 						.catch(err => {
 							if (!retrys.has(resource)) {
 								retrys.add(resource);
-								console.log(
-									`${resource.name}: Retry: ${err.message}`
-								);
+								console.log(`${name}: Retry: ${err.message}`);
 								resources.push(resource);
 								return;
 							}
-							console.log(
-								`${resource.name}: Fail: ${err.message}`
-							);
+							console.log(`${name}: Fail: ${err.message}`);
 							failed.push([resource, err]);
 						});
 				}
