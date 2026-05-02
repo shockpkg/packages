@@ -3,10 +3,23 @@ name: verify
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 23 * * *'
 
 jobs:
-  build:
+  verify:
+    strategy:
+      matrix:
+        includes:
+          - air-runtime
+          - air-sdk
+          - flash-player
+          - flash-playerglobal
+          - flex
+          - gamingsdk
+          - local-content-updater
+          - shockwave-player
+          - shockwave-projector
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -17,8 +30,7 @@ jobs:
         with:
           node-version-file: '.nvmrc'
 
-      - name: Dependencies
-        run: npm ci
-
       - name: Verify
-        run: npm run verify
+        run: node ./bin/verify.js
+        env:
+          SHOCKPKG_VERIFY_INCLUDES: ${{ matrix.includes }}-
