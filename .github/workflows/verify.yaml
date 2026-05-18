@@ -8,6 +8,7 @@ on:
 jobs:
   verify:
     strategy:
+      fail-fast: false
       matrix:
         includes:
           - air-runtime
