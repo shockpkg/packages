@@ -127,28 +127,28 @@ async function main() {
 			.fill(0)
 			.map(async () => {
 				while (q.length) {
-					const validator = q.shift();
-					const {name} = validator;
-
-					console.log(`${name}: ${validator.source}: Checking`);
+					const v = q.shift();
+					console.log(`${v.name}: ${v.source}: Checking`);
 
 					let status;
 					try {
 						// eslint-disable-next-line no-await-in-loop
-						status = await validator.status();
+						status = await v.status();
 					} catch (err) {
 						const {message} = err;
-						if (!retrys.has(validator)) {
-							retrys.add(validator);
-							console.log(`${name}: Retry: ${message}`);
-							q.push(validator);
+						if (!retrys.has(v)) {
+							retrys.add(v);
+							q.push(v);
+							console.log(`${v.name}: Retry: ${message}`);
 							continue;
 						}
 
-						console.log(`${name}: Fail: ${message}`);
-						for (const [pkg, errors] of validator.failed(message)) {
-							console.log(`${pkg.name}: Fail: ${errors[0]}`);
+						console.log(`${v.name}: Fail: ${message}`);
+						for (const [pkg, errors] of v.failed(message)) {
 							failed.push([pkg, errors]);
+							console.log(
+								`${v.name}: ${pkg.name}: Fail: ${errors[0]}`
+							);
 						}
 						continue;
 					}
@@ -156,10 +156,12 @@ async function main() {
 					for (const [pkg, errors] of status) {
 						if (errors.length) {
 							failed.push([pkg, errors]);
-							console.log(`${pkg.name}: Fail: ${errors[0]}`);
+							console.log(
+								`${v.name}: ${pkg.name}: Fail: ${errors[0]}`
+							);
 						} else {
 							passed.push(pkg);
-							console.log(`${pkg.name}: Pass`);
+							console.log(`${v.name}: ${pkg.name}: Pass`);
 						}
 					}
 				}
