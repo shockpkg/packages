@@ -30,8 +30,12 @@ export function parsePackageUrl(url) {
 	return regSha256.test(sha256) ? {item, sha256, file} : null;
 }
 
+export function groupURL(group) {
+	return `https://archive.org/metadata/${group}`;
+}
+
 export async function groupFiles(group) {
-	const url = `https://archive.org/metadata/${group}/`;
+	const url = groupURL(group);
 	const files = await retry(() =>
 		retry(() => fetch(url)).then(async response => {
 			const {status} = response;

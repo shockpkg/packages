@@ -1,8 +1,90 @@
 #!/usr/bin/env node
 
 import {read as packaged} from '../util/packages.js';
-import {groupFilesCaching, parsePackageUrl} from '../util/ia.js';
+import {groupURL, parsePackageUrl, groupFiles} from '../util/ia.js';
 import {retry} from '../util/util.js';
+
+class URLValidator {
+	constructor(pkg) {
+		this.pkg = pkg;
+	}
+
+	get name() {
+		return this.pkg.name;
+	}
+
+	get source() {
+		return this.pkg.source;
+	}
+
+	async status() {
+		const {size, source} = this.pkg;
+		const response = await retry(() =>
+			fetch(source, {
+				method: 'HEAD'
+			})
+		);
+		const {status, headers} = response;
+		if (status !== 200) {
+			throw new Error(`Status code: ${status}: ${source}`);
+		}
+		const cl = +headers.get('content-length');
+		if (cl !== size) {
+			throw new Error(
+				`Invalid content-length: ${cl} != ${size}: ${source}`
+			);
+		}
+		return [[this.pkg, []]];
+	}
+
+	failed(reason) {
+		return [this.pkg, [reason]];
+	}
+}
+
+class IAValidator {
+	constructor(item) {
+		this.item = item;
+		this.list = [];
+	}
+
+	get name() {
+		return this.item;
+	}
+
+	get source() {
+		return groupURL(this.item);
+	}
+
+	async status() {
+		const files = await groupFiles(this.item);
+		return this.list.map(pkg => {
+			const errors = [];
+			const file = files.get(pkg.sha256);
+			if (file) {
+				if (file.size !== pkg.size) {
+					errors.push(`Size: ${file.size} != ${pkg.size}`);
+				}
+				if (file.md5 !== pkg.md5) {
+					errors.push(`MD5: ${file.md5} != ${pkg.md5}`);
+				}
+				if (file.sha1 !== pkg.sha1) {
+					errors.push(`SHA1: ${file.sha1} != ${pkg.sha1}`);
+				}
+				if (file.private) {
+					errors.push('Private');
+				}
+			} else {
+				errors.push('Missing');
+			}
+			return [pkg, errors];
+		});
+	}
+
+	failed(reason) {
+		return this.list.map(pkg => [pkg, [reason]]);
+	}
+}
 
 async function main() {
 	// eslint-disable-next-line no-process-env
@@ -21,56 +103,21 @@ async function main() {
 		resources = packages.filter(pkg => pkg.name.includes(includes));
 	}
 
-	console.log(`Checking ${resources.length} of ${packages.length}`);
-
-	const archiveOrgMetadata = groupFilesCaching();
-
-	const getMetadataForUrl = async url => {
-		const ia = parsePackageUrl(url);
-		if (ia) {
-			const files = await archiveOrgMetadata(ia.item);
-			const info = files.get(ia.sha256);
-			if (!info) {
-				throw new Error(`Unknown item entry: ${url}`);
+	const q = (() => {
+		const buckets = new Map();
+		for (const pkg of resources) {
+			const ia = parsePackageUrl(pkg.source);
+			if (ia) {
+				const key = `ia:${ia.item}`;
+				const validator = buckets.get(key) || new IAValidator(ia.item);
+				validator.list.push(pkg);
+				buckets.set(key, validator);
+			} else {
+				buckets.set(pkg.source, new URLValidator(pkg));
 			}
-			return info;
 		}
-
-		const response = await retry(() => fetch(url));
-		const {status, headers} = response;
-		if (status !== 200) {
-			throw new Error(`Status code: ${status}: ${url}`);
-		}
-		return {
-			size: +headers.get('content-length')
-		};
-	};
-
-	const each = async pkg => {
-		const metadata = await getMetadataForUrl(pkg.source);
-
-		if (metadata.size !== pkg.size) {
-			throw new Error(
-				`Unexpected size: ${metadata.size} (expected ${pkg.size})`
-			);
-		}
-
-		for (const algo of ['md5', 'sha1', 'sha256']) {
-			if (!metadata[algo]) {
-				continue;
-			}
-			if (metadata[algo] === pkg[algo]) {
-				continue;
-			}
-			throw new Error(
-				`Unexpected ${algo}: ${metadata[algo]} (expected ${pkg[algo]})`
-			);
-		}
-
-		if (metadata.private) {
-			throw new Error('Unexpected private');
-		}
-	};
+		return [...buckets.values()];
+	})();
 
 	const retrys = new Set();
 	const passed = [];
@@ -79,36 +126,51 @@ async function main() {
 		Array.from({length: threads})
 			.fill(0)
 			.map(async () => {
-				while (resources.length) {
-					const resource = resources.shift();
-					const {name} = resource;
+				while (q.length) {
+					const validator = q.shift();
+					const {name} = validator;
 
-					console.log(`${name}: ${resource.source}: Checking`);
+					console.log(`${name}: ${validator.source}: Checking`);
 
-					// eslint-disable-next-line no-await-in-loop
-					await retry(() => each(resource))
-						.then(() => {
-							console.log(`${resource.name}: Pass`);
-							passed.push(resource);
-						})
-						.catch(err => {
-							if (!retrys.has(resource)) {
-								retrys.add(resource);
-								console.log(`${name}: Retry: ${err.message}`);
-								resources.push(resource);
-								return;
-							}
-							console.log(`${name}: Fail: ${err.message}`);
-							failed.push([resource, err]);
-						});
+					let status;
+					try {
+						// eslint-disable-next-line no-await-in-loop
+						status = await validator.status();
+					} catch (err) {
+						const {message} = err;
+						if (!retrys.has(validator)) {
+							retrys.add(validator);
+							console.log(`${name}: Retry: ${message}`);
+							q.push(validator);
+							continue;
+						}
+
+						console.log(`${name}: Fail: ${message}`);
+						for (const [pkg, errors] of validator.failed(message)) {
+							console.log(`${pkg.name}: Fail: ${errors[0]}`);
+							failed.push([pkg, errors]);
+						}
+						continue;
+					}
+
+					for (const [pkg, errors] of status) {
+						if (errors.length) {
+							failed.push([pkg, errors]);
+							console.log(`${pkg.name}: Fail: ${errors[0]}`);
+						} else {
+							passed.push(pkg);
+							console.log(`${pkg.name}: Pass`);
+						}
+					}
 				}
 			})
 	);
 
 	console.log(`Passed: ${passed.length}`);
 	console.log(`Failed: ${failed.length}`);
-	for (const [resource, error] of failed) {
-		console.log(`${resource.name}: ${resource.source}: ${error.message}`);
+
+	for (const [pkg, errors] of failed) {
+		console.log(`${pkg.name}: ${pkg.source}: ${errors[0]}`);
 	}
 
 	if (failed.length) {
