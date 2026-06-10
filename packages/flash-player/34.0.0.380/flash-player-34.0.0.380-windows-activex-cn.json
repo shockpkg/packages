@@ -1,0 +1,13 @@
+{
+	"name": "flash-player-34.0.0.380-windows-activex-cn",
+	"file": "install_flash_player_ax_cn.exe",
+	"size": 22781416,
+	"sha256tree": "8ef7d33f087379d90114772428a01d52082909b7cd97ce489634660bab82ee12",
+	"sha256": "f27f6645f6d77b25207aa60e3ea7981ad77834dcbe6dd9b7a1206509dc3286a9",
+	"sha1": "2f1dd7c7b5a06897eb78f218f2232fbd6854c5ac",
+	"md5": "dc2827b2275b4869d881a60b61fd5bf4",
+	"source": "https://archive.org/download/flash-player-34.0.0.380-20260610/f27f6645f6d77b25207aa60e3ea7981ad77834dcbe6dd9b7a1206509dc3286a9/install_flash_player_ax_cn.exe",
+	"metadata": {
+		"date": "2026-06-09"
+	}
+}
