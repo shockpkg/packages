@@ -1,0 +1,13 @@
+{
+	"name": "flash-player-34.0.0.384-mac-ppapi-cn",
+	"file": "install_flash_player_osx_ppapi.dmg",
+	"size": 10155740,
+	"sha256tree": "2eea978eb019dab19a5e9c381583dc2acb4a9c808b88cab922b8b1ff5173bd6f",
+	"sha256": "824dfe95a40b674acc0ab139bf4c86250a7b19f5cf3c23cd948866ef0ab2fc12",
+	"sha1": "abb720c5ba7e58a65cce19dc79948de044d36080",
+	"md5": "ee51ad794feecaaad069cb9e7a7bcdf3",
+	"source": "https://archive.org/download/flash-player-34.0.0.384-20260908/824dfe95a40b674acc0ab139bf4c86250a7b19f5cf3c23cd948866ef0ab2fc12/install_flash_player_osx_ppapi.dmg",
+	"metadata": {
+		"date": "2026-09-08"
+	}
+}
