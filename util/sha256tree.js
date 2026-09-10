@@ -76,6 +76,7 @@ export class Sha256tree extends Writable {
 		return encoding ? hashes[0].toString(encoding) : hashes[0];
 	}
 
+	// eslint-disable-next-line unicorn/prefer-private-class-fields
 	_write(chunk, encoding, callback) {
 		this.update(chunk, encoding);
 		callback();

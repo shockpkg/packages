@@ -82,7 +82,7 @@ export async function sdks(userAgent, version = '') {
 	const cookie = [...response.headers]
 		.map(a => (a[0] === 'set-cookie' ? a[1] : ''))
 		.filter(c => c.startsWith('JSESSIONID='))
-		.map(c => c.split(';')[0])
+		.map(c => c.split(';', 1)[0])
 		.join('; ');
 
 	const {id} = data;

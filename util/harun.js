@@ -78,7 +78,7 @@ export async function runtimes(userAgent) {
 
 	const sha256s = new Map();
 	for (const line of hashes) {
-		const [hash, file] = line.split(' *');
+		const [hash, file] = line.split(' *', 2);
 		const sha256 = hash.toLowerCase();
 		if (legacy.has(sha256)) {
 			continue;

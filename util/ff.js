@@ -9,7 +9,7 @@ export async function getUserAgent() {
 		}
 		return [response, await response.json()];
 	});
-	const [v] = body.FIREFOX_ESR.split('.');
+	const [v] = body.FIREFOX_ESR.split('.', 1);
 	return {
 		headers: {
 			// eslint-disable-next-line max-len

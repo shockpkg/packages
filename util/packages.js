@@ -42,12 +42,13 @@ export async function readPackageFile(f) {
 	for (const [{name}] of walk([pkg], p => p.packages)) {
 		let prefixed = false;
 		for (const pre of pres) {
-			if (name.startsWith(pre)) {
-				const after = name.slice(pre.length);
-				if (after === '' || after[0] === '-' || after[0] === '.') {
-					prefixed = true;
-					break;
-				}
+			if (!name.startsWith(pre)) {
+				continue;
+			}
+			const after = name.slice(pre.length);
+			if (after === '' || after[0] === '-' || after[0] === '.') {
+				prefixed = true;
+				break;
 			}
 		}
 

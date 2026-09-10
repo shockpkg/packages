@@ -2,9 +2,7 @@ function parseDigits(s) {
 	return /^[\d.]+$/.test(s) ? s.split('.').map(s => +s || 0) : null;
 }
 
-export function primitive(a, b) {
-	a ??= null;
-	b ??= null;
+export function primitive(a = null, b = null) {
 	if (a === null && b !== null) {
 		return -1;
 	}

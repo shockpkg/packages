@@ -18,7 +18,7 @@ export function list(arrayLike) {
 }
 
 export function* walk(list, children) {
-	for (const q = list.map(o => [o, []]); q.length; ) {
+	for (const q = list.map(o => [o, []]); q.length;) {
 		const [o, p] = q.shift();
 		yield [o, p];
 		const cl = children(o);

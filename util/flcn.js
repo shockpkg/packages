@@ -167,7 +167,7 @@ const aamHeaders = {
 const algorithms = new Map([['TYPE1', 'sha256']]);
 
 function urlFile(url) {
-	return decodeURIComponent(url.split(/[#?]/)[0].split('/').pop());
+	return decodeURIComponent(url.split(/[#?]/, 1)[0].split('/').pop());
 }
 
 function dateNorm(date) {
@@ -302,6 +302,7 @@ async function fetchCDM(type, cdm, date) {
 	const doc = new DOMParser().parseFromString(xml, 'text/xml');
 	const manifests = new Map();
 
+	// eslint-disable-next-line unicorn/prefer-scoped-selector
 	for (const pkg of doc.querySelectorAll(
 		'application:root > packages > package'
 	)) {
@@ -338,7 +339,7 @@ async function fetchCDM(type, cdm, date) {
 				'manifest:scope > assetSize'
 			)?.textContent;
 			const size = +assetSize;
-			if (!Number.isInteger(size) || size < 0) {
+			if (!Number.isSafeInteger(size) || size < 0) {
 				throw new Error(`Invalid assetSize: ${assetSize}: ${url}`);
 			}
 			const assetPath = doc.querySelector(
@@ -398,7 +399,7 @@ async function fetchCDM(type, cdm, date) {
 			for (const seg of segments) {
 				const segmentNumber = seg.getAttribute('segmentNumber');
 				const i = +segmentNumber;
-				if (!Number.isInteger(i) || i < 0 || i >= partCount) {
+				if (!Number.isSafeInteger(i) || i < 0 || i >= partCount) {
 					throw new Error(
 						`Invalid segmentNumber: ${segmentNumber}: ${url}`
 					);
@@ -464,7 +465,7 @@ async function downloadDirect({head, source, userAgent, referer, mime}) {
 
 	const cl = res.headers.get('content-length');
 	const size = +cl;
-	if (!Number.isInteger(size) || size < 0) {
+	if (!Number.isSafeInteger(size) || size < 0) {
 		throw new Error(`Invalid content-length: ${cl}: ${url}`);
 	}
 
@@ -590,7 +591,10 @@ async function listRelease(userAgent) {
 		})
 	);
 
-	const missing = [...release.keys()].filter(s => !ids.has(s));
+	const missing = release
+		.keys()
+		.filter(s => !ids.has(s))
+		.toArray();
 	if (missing.length) {
 		throw new Error(`Missing: ${missing.join(',')}`);
 	}
@@ -701,9 +705,11 @@ async function listDebug(userAgent) {
 		})
 	);
 
-	const missing = [...debug.values()]
+	const missing = debug
+		.values()
 		.map(o => o.type)
-		.filter(s => !types.has(s));
+		.filter(s => !types.has(s))
+		.toArray();
 	if (missing.length) {
 		throw new Error(`Missing: ${missing.join(',')}`);
 	}

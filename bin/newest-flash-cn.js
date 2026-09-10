@@ -44,7 +44,7 @@ async function main() {
 			}
 
 			let total;
-			if (Number.isInteger(size) && size > 0) {
+			if (Number.isSafeInteger(size) && size > 0) {
 				total = size;
 			} else {
 				const {size} = await resource.download(true);

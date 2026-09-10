@@ -80,7 +80,7 @@ export async function groupFiles(group) {
 
 export function groupFilesCaching() {
 	const cache = {};
-	return async group => (cache[group] = cache[group] || groupFiles(group));
+	return async group => (cache[group] ||= groupFiles(group));
 }
 
 export function findGroup(prefix, packages) {

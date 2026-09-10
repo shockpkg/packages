@@ -21,6 +21,7 @@ export class Crc64xz extends Writable {
 		return encoding ? e.toString(encoding) : e;
 	}
 
+	// eslint-disable-next-line unicorn/prefer-private-class-fields
 	_write(chunk, encoding, callback) {
 		this.update(chunk, encoding);
 		callback();

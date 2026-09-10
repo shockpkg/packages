@@ -30,6 +30,7 @@ export class Progress {
 
 		update();
 
+		// eslint-disable-next-line unicorn/prefer-unicode-code-point-escapes
 		clear = isTTY ? '\x1B[F\x1B[2K'.repeat(items.length) : '';
 		this.interval = setInterval(update, interval);
 	}
