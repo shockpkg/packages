@@ -28,5 +28,13 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-unicorn": "^64.0.0",
 		"prettier": "^3.8.3"
+	},
+	"overrides": {
+		"jsdom": {
+			"undici": "8.9.0"
+		},
+		"undici": {
+			"undici": "8.9.0"
+		}
 	}
 }
