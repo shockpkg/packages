@@ -98,6 +98,13 @@ const debug = new Map([
 		}
 	],
 	[
+		'/cdm/hm/latest/flashplayer_install_cn_debug.exe',
+		{
+			type: 'windows-npapi-debug',
+			cdm: 'https://www.flash.cn/cdm/hm/en/flashplayerdebug.xml'
+		}
+	],
+	[
 		'/cdm/latest/flashplayerpp_install_cn_debug.exe',
 		{
 			type: 'windows-ppapi-debug',
@@ -105,10 +112,24 @@ const debug = new Map([
 		}
 	],
 	[
+		'/cdm/hm/latest/flashplayerpp_install_cn_debug.exe',
+		{
+			type: 'windows-ppapi-debug',
+			cdm: 'https://www.flash.cn/cdm/hm/en/flashplayerppdebug.xml'
+		}
+	],
+	[
 		'/cdm/latest/flashplayerax_install_cn_debug.exe',
 		{
 			type: 'windows-activex-debug',
 			cdm: 'https://www.flash.cn/cdm/en/flashplayeraxdebug.xml'
+		}
+	],
+	[
+		'/cdm/hm/latest/flashplayerax_install_cn_debug.exe',
+		{
+			type: 'windows-activex-debug',
+			cdm: 'https://www.flash.cn/cdm/hm/en/flashplayeraxdebug.xml'
 		}
 	],
 	[
@@ -616,12 +637,15 @@ async function listDebug(userAgent) {
 
 	const r = [];
 	const cdms = [];
-	const ids = new Set();
+	const types = new Set();
 	for (const u of hrefs) {
 		const id = u.pathname;
 		const dbg = debug.get(id);
 		if (!dbg) {
 			throw new Error(`Unknown file: ${u.href}`);
+		}
+		if (types.has(dbg.type)) {
+			throw new Error(`Duplicate type: ${dbg.type}: ${u.href}`);
 		}
 
 		const {type, cdm} = dbg;
@@ -661,20 +685,25 @@ async function listDebug(userAgent) {
 				});
 			}
 		});
-		ids.add(id);
+		types.add(type);
 	}
 
 	await Promise.all(
 		cdms.map(async ({id, type, cdm, date}) => {
 			const list = await fetchCDM(type, cdm, date);
 			if (list.length) {
-				ids.add(id);
+				if (types.has(type)) {
+					throw new Error(`Duplicate type: ${type}: ${id}`);
+				}
 				r.push(...list);
+				types.add(type);
 			}
 		})
 	);
 
-	const missing = [...debug.keys()].filter(s => !ids.has(s));
+	const missing = [...debug.values()]
+		.map(o => o.type)
+		.filter(s => !types.has(s));
 	if (missing.length) {
 		throw new Error(`Missing: ${missing.join(',')}`);
 	}
