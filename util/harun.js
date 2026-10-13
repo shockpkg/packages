@@ -2,8 +2,8 @@ import {JSDOM} from 'jsdom';
 
 import {retry} from './util.js';
 
-const runtimeUrl = 'https://airsdk.harman.com/runtime';
-const runtimeFileBase = 'https://airsdk.harman.com/assets/downloads';
+const runtimeUrl = 'https://airsdk.wxlift.com/runtime';
+const runtimeFileBase = 'https://airsdk.wxlift.com/assets/downloads';
 
 const runtimeFiles = [
 	['AdobeAIR.exe', 'windows', 'application/x-msdownload'],

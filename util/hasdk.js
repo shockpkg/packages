@@ -1,13 +1,13 @@
 import {retry} from './util.js';
 
-const dcUrl = 'https://airsdk.harman.com/download';
-const dcApi = 'https://airsdk.harman.com/api/config-settings/download';
+const dcUrl = 'https://airsdk.wxlift.com/download';
+const dcApi = 'https://airsdk.wxlift.com/api/config-settings/download';
 
-const dvUrl = 'https://airsdk.harman.com/download/%version%';
-const dvApi = 'https://airsdk.harman.com/api/versions/%version%';
+const dvUrl = 'https://airsdk.wxlift.com/download/%version%';
+const dvApi = 'https://airsdk.wxlift.com/api/versions/%version%';
 
-const rnUrl = 'https://airsdk.harman.com/release_notes';
-const rnApi = 'https://airsdk.harman.com/api/versions/release-notes';
+const rnUrl = 'https://airsdk.wxlift.com/release_notes';
+const rnApi = 'https://airsdk.wxlift.com/api/versions/release-notes';
 
 const mappings = [
 	['air-sdk-%version%-windows', 'SDK_FLEX_WIN'],
