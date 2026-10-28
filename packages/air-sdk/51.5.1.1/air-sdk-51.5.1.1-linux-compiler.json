@@ -1,0 +1,10 @@
+{
+	"name": "air-sdk-51.5.1.1-linux-compiler",
+	"file": "AIRSDK_Linux.zip",
+	"size": 220183218,
+	"sha256tree": "db9bc1d1d08c9853580c91a84ce1d87b2502f61889152adfdf80f34fde9440da",
+	"sha256": "fc2eb75b77ed533940d148468b7c9c2d12c83c2526810a2a87c0613344b879ba",
+	"sha1": "85ba3cfea29490a66d1e3d8ed180873915417c8d",
+	"md5": "b9712775f00d19bb3d0be46a990354f7",
+	"source": "https://archive.org/download/air-sdk-51.5.1.1-2-20261028/fc2eb75b77ed533940d148468b7c9c2d12c83c2526810a2a87c0613344b879ba/AIRSDK_Linux.zip"
+}
