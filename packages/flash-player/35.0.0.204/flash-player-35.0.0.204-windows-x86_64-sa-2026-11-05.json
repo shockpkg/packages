@@ -1,0 +1,10 @@
+{
+	"name": "flash-player-35.0.0.204-windows-x86_64-sa-2026-11-05",
+	"file": "FlashPlayer.exe",
+	"size": 13170704,
+	"sha256tree": "1197683f014cf11f016b68f70a46e08b7075a81798b1588c764c829ed8e9760c",
+	"sha256": "f851b0ef4a2cbf7a359d2c150fdc4883b455e1a3fe968783e5461680a0445bd4",
+	"sha1": "4987c6651b3049eb32207b7364ab11b9848b2590",
+	"md5": "747e8c681a1a1008a384b59575529842",
+	"source": "https://archive.org/download/flash-player-35.0.0.204-20241223/f851b0ef4a2cbf7a359d2c150fdc4883b455e1a3fe968783e5461680a0445bd4/FlashPlayer.exe"
+}
