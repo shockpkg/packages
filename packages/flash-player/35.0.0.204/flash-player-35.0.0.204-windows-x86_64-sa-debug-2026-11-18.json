@@ -1,0 +1,10 @@
+{
+	"name": "flash-player-35.0.0.204-windows-x86_64-sa-debug-2026-11-18",
+	"file": "FlashPlayerDebugger.exe",
+	"size": 14154768,
+	"sha256tree": "d1474d7c33de820d861dcc65d3586b5c566ef5caa99bac99164c70cdc51570ee",
+	"sha256": "22a669281982af76eb12e99f3556490214dd49916bb177927ad983a5a30c545b",
+	"sha1": "bddb0071d96dc975a370eeb14be1f9e435657e8a",
+	"md5": "29edc2833aba2cf30d8dc82fc1807406",
+	"source": "https://archive.org/download/flash-player-35.0.0.204-20241223/22a669281982af76eb12e99f3556490214dd49916bb177927ad983a5a30c545b/FlashPlayerDebugger.exe"
+}
